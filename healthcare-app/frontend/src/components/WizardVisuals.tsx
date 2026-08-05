@@ -3,7 +3,7 @@
  * Adapted from Banking-ODI-Demo for Penn Medicine clinical analytics.
  *
  * Components:
- *   WizardPipelineFlow   — animated pipeline (Fivetran → Iceberg → dbt-wizard → Databricks)
+ *   WizardPipelineFlow   — animated pipeline (Fivetran → Databricks (Unity Catalog) → dbt-wizard)
  *   LineagePanel         — live-evolving lineage graph for WizardLivePage
  *   WizardHub            — hub-and-spoke radial for the 4 sub-agents
  *   BuildCompleteSummary — 4-pane summary for build-complete panel
@@ -51,8 +51,8 @@ type Stage = {
 
 const PIPELINE_STAGES: Stage[] = [
   { key: 'src',    layer: 'Sources',       vendor: 'Penn Medicine EHR',       stat: 'Epic Clarity · 8 CDC tables',    color: C.inkDim,  icon: 'E' },
-  { key: 'ft',     layer: 'Ingestion',     vendor: 'Fivetran',                stat: 'Log-based CDC · Iceberg lands',    color: C.fivetran, icon: 'F' },
-  { key: 'lake',   layer: 'Lakehouse',     vendor: 'Databricks (Unity Catalog)', stat: 'Iceberg (MDLS) on S3 · governed reads', color: C.databricks, icon: 'D' },
+  { key: 'ft',     layer: 'Ingestion',     vendor: 'Fivetran',                stat: 'Log-based CDC · lands directly in Databricks',    color: C.fivetran, icon: 'F' },
+  { key: 'lake',   layer: 'Lakehouse',     vendor: 'Databricks (Unity Catalog)', stat: 'Delta Lake · governed reads', color: C.databricks, icon: 'D' },
   { key: 'dbt',    layer: 'Build-time AI', vendor: 'dbt Labs + dbt-wizard',   stat: 'Fivetran-triggered · 4 sub-agents · 90s/model',    color: C.dbt,      icon: 'W' },
 ];
 
@@ -342,7 +342,7 @@ export function LineagePanel({
             color: C.iceberg, background: `${C.iceberg}12`, border: `1px solid ${C.iceberg}55`,
             fontSize: 10, padding: '3px 8px', fontWeight: 700,
           }}>
-            iceberg-resolved
+            delta-resolved
           </span>
         </div>
         <span className="font-mono" style={{ color: 'var(--ink-soft)', fontSize: 12 }}>
@@ -400,7 +400,7 @@ export function LineagePanel({
         <div className="absolute left-3 bottom-2 right-3 flex items-center justify-between font-mono" style={{ fontSize: 11, color: 'var(--ink-muted)' }}>
           <span>{stepCaption(currentStep, complete)}</span>
           <span style={{ color: complete ? C.bull : C.teal }}>
-            {complete ? '● live in iceberg' : currentStep >= 4 ? '◐ materializing' : currentStep >= 2 ? '◐ joins validated' : '○ discovering'}
+            {complete ? '● live in Delta' : currentStep >= 4 ? '◐ materializing' : currentStep >= 2 ? '◐ joins validated' : '○ discovering'}
           </span>
         </div>
       </div>
@@ -432,7 +432,7 @@ function truncate(s: string, max: number): string {
 
 function stepCaption(step: number, complete: boolean): string {
   if (complete) return 'New gold table is live · downstream consumers see it on next read';
-  if (step >= 6) return 'Materialized · Iceberg parquet written to gold prefix';
+  if (step >= 6) return 'Materialized · Delta table committed to gold layer';
   if (step >= 5) return 'Schema YAML written · column tests + uniqueness asserted';
   if (step >= 4) return 'Worker authoring · model file emerging in repo';
   if (step >= 3) return 'Worker validating proposed grain against silver tables';
@@ -476,7 +476,7 @@ export function BuildCompleteSummary({
       stats: [
         { label: 'Path', value: modelCode.replace('gold.', 'models/gold/'), sub: '.sql' },
         { label: 'Layer', value: 'gold' },
-        { label: 'Materialization', value: 'table · Iceberg' },
+        { label: 'Materialization', value: 'table · Delta' },
       ],
     },
     {
@@ -494,7 +494,7 @@ export function BuildCompleteSummary({
       stats: [
         { label: 'Upstream refs', value: '4 silver' },
         { label: 'Downstream readers', value: 'auto-discover' },
-        { label: 'Iceberg snapshot', value: `+${rows.toLocaleString()} rows` },
+        { label: 'Delta snapshot', value: `+${rows.toLocaleString()} rows` },
       ],
     },
   ];

@@ -7,16 +7,15 @@ export default function AboutPage() {
         <div className="eyebrow mb-1">Reference Architecture</div>
         <h1 className="font-serif text-3xl font-semibold text-[var(--ink-strong)] tracking-tight">About this demo</h1>
         <p className="mt-3 text-[var(--ink-muted)] leading-relaxed">
-          A reference build that demonstrates an end-to-end EHR → Fivetran → Iceberg (MDLS) →
-          Databricks (Unity Catalog) → dbt Labs → React data pipeline. The source is an Epic Clarity
-          reporting database hosted on AWS EC2; Fivetran's Epic Clarity connector captures change data
-          via log-based CDC and lands it into the Managed Data Lake on S3 in open Apache Iceberg
-          format — no hand-built ingestion pipeline to maintain against Epic's schema changes; Databricks
-          registers the same tables in Unity Catalog and is the primary read/write engine; Fivetran
-          Transformations triggers dbt Labs the moment the Epic Clarity sync finishes, which builds
-          the bronze (staging), silver (intermediate), and gold (mart) layers on Databricks compute; a
-          Python script exports the marts to JSON and a static React SPA serves the user-facing
-          experience.
+          A reference build that demonstrates an end-to-end EHR → Fivetran → Databricks (Unity
+          Catalog) → dbt Labs → React data pipeline. The source is an Epic Clarity reporting
+          database hosted on AWS EC2; Fivetran's Epic Clarity connector captures change data via
+          log-based CDC and lands it directly into Databricks Unity Catalog as Delta Lake tables —
+          no intermediary lake, no hand-built ingestion pipeline to maintain against Epic's schema
+          changes; Databricks is the primary read/write engine; Fivetran Transformations triggers
+          dbt Labs the moment the Epic Clarity sync finishes, which builds the bronze (staging),
+          silver (intermediate), and gold (mart) layers on Databricks compute; a Python script
+          exports the marts to JSON and a static React SPA serves the user-facing experience.
         </p>
       </header>
 

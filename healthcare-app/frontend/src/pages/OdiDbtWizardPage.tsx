@@ -18,11 +18,11 @@ interface Pillar {
 
 const PILLARS: Pillar[] = [
   {
-    layer: 'Ingestion + MDLS',
+    layer: 'Ingestion',
     vendor: 'Fivetran',
     accent: '#0073EA',
     tag: 'connectors',
-    what: '750+ managed connectors plus a custom Connector SDK for the long tail. Lands every source into Managed Data Lake Service as Apache Iceberg, in customer-owned S3 — log-based CDC and schema drift handled out of the box, no hand-built pipeline to maintain.',
+    what: '750+ managed connectors plus a custom Connector SDK for the long tail. Lands every source directly into Databricks Unity Catalog as Delta Lake tables — log-based CDC and schema drift handled out of the box, no intermediary lake, no hand-built pipeline to maintain.',
     inBuild: 'Penn Medicine EHR runs on Epic Clarity. Fivetran\'s Epic Clarity connector replicates eight source tables — PATIENT, PAT_ENC, PAT_ENC_DX, HSP_ACCOUNT, HSP_TRANSACTION, MEDICATIONS, PROVIDERS, DEPARTMENTS — on a continuous five-minute cadence into the shared lake, in the same open format, on the same schedule.',
   },
   {
@@ -38,7 +38,7 @@ const PILLARS: Pillar[] = [
     vendor: 'Databricks',
     accent: '#FF3621',
     tag: 'storage + engine',
-    what: 'Unity Catalog governs the same Iceberg tables Fivetran lands — one namespace, one lineage graph, row filters and column masks on PHI. Serverless SQL warehouses run the dbt-wizard materialization step. Storage and compute stay on one governed lakehouse instead of split across a separate storage layer and query engine.',
+    what: 'Unity Catalog governs the same Delta Lake tables Fivetran lands — one namespace, one lineage graph, row filters and column masks on PHI. Serverless SQL warehouses run the dbt-wizard materialization step. Storage and compute stay on one governed lakehouse instead of split across a separate storage layer and query engine.',
     inBuild: 'Worker spins up a serverless SQL warehouse for the dbt_show slice, validates the proposed daily grain against the vitals and encounters silver tables, then materializes the new table to the gold prefix under Unity Catalog. Total compute footprint: a few seconds of serverless warehouse time, auto-stopped after.',
   },
 ];
@@ -63,12 +63,12 @@ const PROPERTIES: Property[] = [
   {
     title: 'Reusability',
     claim: 'The new model is a first-class citizen for every downstream consumer.',
-    proof: 'Downstream consumers read it on their next pass. CMO dashboards can pin to it. NHSN submission pipelines can join to it. Other dbt models can ref() it. Databricks reads it straight through Unity Catalog, and any other Iceberg-aware engine — Trino, Spark, DuckDB — can query the same bytes. The model is not stuck inside the tool that built it.',
+    proof: 'Downstream consumers read it on their next pass. CMO dashboards can pin to it. NHSN submission pipelines can join to it. Other dbt models can ref() it. Databricks reads it straight through Unity Catalog, and any other engine that speaks Unity Catalog\'s UniForm Iceberg-compatible metadata — Trino, Spark, DuckDB — can query the same bytes. The model is not stuck inside the tool that built it.',
   },
   {
     title: 'Openness',
-    claim: 'The model is Iceberg on S3, queryable by any engine.',
-    proof: 'No lock-in on the build-time tool. No lock-in on the run-time engine. The bytes sit in the health system\'s S3 bucket in an open table format. Swap dbt-wizard tomorrow for a different build-time agent and the materialized table still works. Swap in a different engine alongside Databricks and the table still works.',
+    claim: 'The model is a governed Delta table, queryable by any engine.',
+    proof: 'No lock-in on the build-time tool. No lock-in on the run-time engine. The bytes sit in Unity Catalog as Delta Lake and are exposed to other engines through UniForm\'s Iceberg-compatible metadata — open access without a separate lake to manage. Swap dbt-wizard tomorrow for a different build-time agent and the materialized table still works. Swap in a different engine alongside Databricks and the table still works.',
   },
 ];
 

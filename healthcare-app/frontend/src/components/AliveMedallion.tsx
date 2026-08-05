@@ -6,7 +6,7 @@
 // reflow, dotted borders that don't pixel-crawl.
 //
 // Three zones: SOURCES (where it lives) / DATA LAKEHOUSE (where it becomes
-// useful, with Glue catalog as visible hub) / CONSUMERS (engines + roles).
+// useful, with Unity Catalog as visible hub) / CONSUMERS (engines + roles).
 
 import { useEffect, useState, type CSSProperties } from 'react';
 
@@ -145,10 +145,10 @@ export function AliveMedallion({
           </header>
 
           <div className="am-glue-hub">
-            <VendorMark kind="iceberg" size={20} />
+            <VendorMark kind="databricks" size={20} />
             <div className="am-glue-stack">
-              <span className="am-glue-primary">Governed Catalog · Apache Iceberg</span>
-              <span className="am-glue-attr">AWS Glue</span>
+              <span className="am-glue-primary">Governed Catalog · Delta Lake</span>
+              <span className="am-glue-attr">Databricks Unity Catalog</span>
             </div>
             <span className="am-pulse-dot" style={{ background: accent }} />
           </div>
@@ -164,7 +164,7 @@ export function AliveMedallion({
           <footer className="am-lakehouse-footer">
             <span className="am-dbt-chip">
               <VendorMark kind="dbt" size={14} />
-              dbt Labs on Databricks compute · commits Silver + Gold as Delta/Iceberg snapshots
+              dbt Labs on Databricks compute · commits Silver + Gold as Delta Lake snapshots
             </span>
             <span className="am-dbt-chip am-gx-chip">
               <VendorMark kind="great_expectations" size={14} />

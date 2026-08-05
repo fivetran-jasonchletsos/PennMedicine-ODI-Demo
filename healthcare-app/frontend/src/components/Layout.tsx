@@ -335,9 +335,9 @@ export default function Layout() {
                 ))}
               </nav>
               <div>
-                <div className="eyebrow mb-2">Switch demo</div>
+                <div className="eyebrow mb-2">Demo</div>
                 <div className="grid grid-cols-1 gap-1">
-                  {DEMOS.map((d) => {
+                  {DEMOS.filter((d) => d.key === CURRENT_DEMO).map((d) => {
                     const isCurrent = d.key === CURRENT_DEMO;
                     const inner = (
                       <div className="flex items-center gap-2.5 w-full">
@@ -392,7 +392,7 @@ export default function Layout() {
           <div>
             <div className="eyebrow mb-2">Data Pipeline</div>
             <p className="leading-relaxed mb-3">
-              Epic Clarity → Fivetran → Iceberg on S3 → dbt labs + dbt-wizard → Great Expectations → Databricks (Unity Catalog) → run-time agents → NewCo Activations → TigerConnect
+              Epic Clarity → Fivetran → Databricks (Unity Catalog) → dbt labs + dbt-wizard → Great Expectations → run-time agents → NewCo Activations → TigerConnect
             </p>
             <div className="flex items-center gap-2 text-[11px]">
               <span className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2 py-1">
@@ -467,10 +467,10 @@ function DemoSwitcher({
           className="absolute right-0 top-full mt-2 w-[280px] rounded-md border border-[var(--hairline)] bg-[var(--paper)] shadow-lg z-40 overflow-hidden"
         >
           <div className="px-3 py-2 border-b border-[var(--hairline-soft)] eyebrow text-[var(--ink-soft)]">
-            Switch demo
+            Demo
           </div>
           <div className="py-1">
-            {DEMOS.map((d) => {
+            {DEMOS.filter((d) => d.key === CURRENT_DEMO).map((d) => {
               const isCurrent = d.key === CURRENT_DEMO;
               const inner = (
                 <div className="flex items-center gap-2.5 w-full">

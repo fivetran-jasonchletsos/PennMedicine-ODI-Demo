@@ -3,10 +3,13 @@
 // Ported from Verity Insurance's ArchitecturePage to give this build the
 // same medallion / multi-engine surface. Healthcare-flavoured: Clarity EHR
 // (Epic Clarity) + payor claims (Oracle) + HL7 v2 feed + CMS public
-// datasets. Databricks (Unity Catalog) is the primary engine; Athena/
-// DuckDB/Trino/Spark stay listed as the same open-lake reads.
+// datasets. Fivetran lands directly into a native Fivetran Databricks
+// destination (Unity Catalog, Delta Lake) — no S3/Iceberg/MDLS hop.
+// Databricks (Unity Catalog) is the primary engine; Athena/DuckDB/Trino/
+// Spark stay listed as reads against the same Delta tables via Unity
+// Catalog's UniForm (Iceberg-compatible) metadata.
 //
-// Iceberg table list is inlined (no extra API endpoint) so the page
+// Delta table list is inlined (no extra API endpoint) so the page
 // can render in the recording even if connectors are paused.
 
 import { useState, useEffect } from 'react';
@@ -80,7 +83,7 @@ const ENGINES: QueryEngine[] = [
   {
     name: 'Databricks',
     status: 'active',
-    description: 'Primary engine for the gold layer. A serverless Databricks SQL warehouse reads the same lakehouse tables through Unity Catalog and auto-stops between queries. Where the front end, the cost-estimator, and the dbt-wizard run-time agents all land. Humans and agents read the same gold layer, governed by the same catalog.',
+    description: 'Primary engine for the gold layer. A serverless Databricks SQL warehouse reads the same Unity Catalog Delta tables and auto-stops between queries. Where the front end, the cost-estimator, and the dbt-wizard run-time agents all land. Humans and agents read the same gold layer, governed by the same catalog.',
     sample_query: `SELECT
   p.patient_id, p.age_band, p.payor_class,
   c.condition_label, c.last_seen_at,
@@ -96,7 +99,7 @@ LIMIT 50;`,
   {
     name: 'Athena',
     status: 'available',
-    description: 'Serverless reads against the same Iceberg gold tables via Glue. Useful for compliance/regulatory ad-hoc that doesn\'t need to pay for warehouse time.',
+    description: 'Serverless reads against the same gold Delta tables through Unity Catalog\'s UniForm Iceberg-compatible endpoint — no separate lake, no Glue catalog to sync. Useful for compliance/regulatory ad-hoc that doesn\'t need to pay for warehouse time.',
     sample_query: `SELECT department, COUNT(*) AS encounters_30d
 FROM gold.fct_encounters
 WHERE encounter_date >= current_date - interval '30' day
@@ -106,21 +109,26 @@ ORDER BY encounters_30d DESC;`,
   {
     name: 'DuckDB',
     status: 'available',
-    description: 'Engineer\'s laptop. Same Iceberg tables, queried directly from S3 with the iceberg extension. Tiny ad-hoc joins without spinning up anything.',
-    sample_query: `INSTALL iceberg;
-LOAD iceberg;
+    description: 'Engineer\'s laptop. Attaches directly to Unity Catalog and reads the same governed Delta tables — no S3 bucket to point at, no copy of the bytes. Tiny ad-hoc joins without spinning up anything.',
+    sample_query: `INSTALL uc_catalog;
+LOAD uc_catalog;
+
+ATTACH 'pennmed' AS uc (
+  TYPE uc_catalog,
+  ENDPOINT 'https://<workspace>.databricks.com'
+);
 
 SELECT *
-FROM iceberg_scan('s3://pennmed-odi-lake/gold/fct_payor_denied_claims/')
+FROM uc.gold.fct_payor_denied_claims
 WHERE denial_reason_code IN ('CO-50','CO-97')
 LIMIT 100;`,
   },
   {
     name: 'Trino',
     status: 'available',
-    description: 'Federated engine that joins the lake to other relational sources (state Medicaid systems, hospital EHR replicas) without copying data first.',
+    description: 'Federated engine that joins Unity Catalog\'s Delta tables (read via the Iceberg connector against UniForm) to other relational sources — state Medicaid systems, hospital EHR replicas — without copying data first.',
     sample_query: `SELECT e.department, AVG(e.length_of_stay_days) AS avg_los
-FROM iceberg.gold.fct_encounters e
+FROM unity_catalog.gold.fct_encounters e
 JOIN postgres.medicaid.member_eligibility m
   ON m.member_id = e.patient_id
 WHERE e.payor_class = 'Medicaid'
@@ -129,9 +137,8 @@ GROUP BY e.department;`,
   {
     name: 'Spark',
     status: 'available',
-    description: 'Distributed compute for ML training and large cohort joins. Reads the same Iceberg tables via the spark-iceberg runtime.',
-    sample_query: `df = spark.read.format("iceberg")\\
-  .load("gold.fct_encounters")
+    description: 'Distributed compute for ML training and large cohort joins. Reads the same Unity Catalog Delta tables directly on the Databricks runtime, or via UniForm\'s Iceberg-compatible layer from an external Spark cluster.',
+    sample_query: `df = spark.read.table("gold.fct_encounters")
 df.groupBy("payor_class", "department")\\
   .agg({"length_of_stay_days": "avg"})\\
   .show()`,
@@ -183,10 +190,11 @@ export default function ArchitecturePage() {
         </h1>
         <p className="mt-3 text-[var(--ink-muted)] max-w-3xl leading-relaxed">
           Penn Medicine treats <em>storage</em>, <em>catalog</em>, and <em>compute</em> as three
-          independently swappable layers. Iceberg is the storage spec. Databricks Unity Catalog is
+          independently swappable layers. Delta Lake is the storage format. Databricks Unity Catalog is
           the governing catalog. Databricks SQL warehouses do the primary reading and writing, and
-          Athena, DuckDB, Trino, and Spark can all reach the same open tables &mdash; no copy,
-          no extract, no proprietary format between the EHR and the analyst.
+          because Unity Catalog exposes the same tables through UniForm's Iceberg-compatible metadata,
+          Athena, DuckDB, Trino, and Spark can all reach the same open bytes &mdash; no copy,
+          no extract, no separate lake between the EHR and the analyst.
         </p>
         <p className="mt-3 font-serif italic text-[15px] text-[var(--ink-strong)] max-w-3xl leading-relaxed">
           Fivetran moves what's new. Great Expectations decides what passes. dbt decides what
@@ -204,13 +212,14 @@ export default function ArchitecturePage() {
       <section className="clinical-card p-6 sm:p-8 mb-8" style={cardStyle}>
         <div className="eyebrow mb-1">Data Flow</div>
         <h2 className="font-serif text-2xl font-semibold text-[var(--ink-strong)] mb-2">
-          Fivetran → Iceberg (MDLS) → Databricks (Unity Catalog) → dbt Labs
+          Fivetran → Databricks (Unity Catalog) → dbt Labs
         </h2>
         <p className="text-sm text-[var(--ink-muted)] mb-6 leading-relaxed max-w-3xl">
-          Every source lands in open Apache Iceberg format on S3 — the Managed Data Lake. Databricks
-          registers those tables in Unity Catalog and is the primary read/write engine; Athena, Trino,
-          DuckDB, and Spark can all reach the same bytes with no copies. Fivetran Transformations
-          triggers the dbt Labs job the moment the Epic Clarity sync finishes.
+          Every source lands directly as Delta Lake tables in Databricks Unity Catalog — no
+          intermediary lake, no separate storage layer to reconcile. Databricks is the primary
+          read/write engine; because Unity Catalog exposes the same tables through UniForm, Athena,
+          Trino, DuckDB, and Spark can all reach the same bytes with no copies. Fivetran
+          Transformations triggers the dbt Labs job the moment the Epic Clarity sync finishes.
         </p>
 
         <ProductStageRail accent="#0e7490" />
@@ -231,7 +240,7 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      {/* ── Schema-evolution ticker (Iceberg's killer feature, surfaced) ──── */}
+      {/* ── Schema-evolution ticker (Delta Lake's metadata-only evolution, surfaced) ──── */}
       <SchemaEvolutionTicker />
 
       {/* ── Sync-aware dbt incrementals — zero-row builds when Fivetran no-ops ─ */}
@@ -254,7 +263,7 @@ export default function ArchitecturePage() {
         <header className="clinical-card-header" style={cardHeaderStyle}>
           <div className="eyebrow">Compute is a choice</div>
           <h2 className="font-serif text-xl font-semibold text-[var(--ink-strong)] mt-0.5">
-            Same Iceberg tables. Five engines. One query at a time.
+            Same Delta tables. Five engines. One query at a time.
           </h2>
           <p className="text-sm text-[var(--ink-muted)] mt-1">
             Pick a query engine &mdash; the SQL barely changes, but the operational, cost, and
@@ -301,16 +310,16 @@ export default function ArchitecturePage() {
         </div>
       </section>
 
-      {/* ── Iceberg catalog ──────────────────────────────────────────────── */}
+      {/* ── Unity Catalog ────────────────────────────────────────────────── */}
       <section className="clinical-card overflow-hidden mb-8" style={cardStyle}>
         <header className="clinical-card-header" style={cardHeaderStyle}>
-          <div className="eyebrow">Iceberg Catalog</div>
+          <div className="eyebrow">Unity Catalog</div>
           <h2 className="font-serif text-xl font-semibold text-[var(--ink-strong)] mt-0.5">
-            Every table on the lake, registered in AWS Glue
+            Every table in the lakehouse, registered in Unity Catalog
           </h2>
           <p className="text-sm text-[var(--ink-muted)] mt-1">
-            Open metadata. Every engine reads the same schema, the same partition layout, the same
-            row counts &mdash; without anyone owning the "source of truth" exclusively.
+            One governed namespace. Every engine reads the same schema, the same partition layout,
+            the same row counts &mdash; without anyone owning the "source of truth" exclusively.
           </p>
         </header>
         <div className="overflow-x-auto">
@@ -358,7 +367,7 @@ export default function ArchitecturePage() {
               Every table tested. Every run. Same lake.
             </h2>
             <p className="text-sm text-[var(--ink-muted)] mt-1">
-              Tests defined in dbt Labs run on every build, against the same Iceberg tables every
+              Tests defined in dbt Labs run on every build, against the same Delta tables every
               engine reads. Failures block promotion to the next layer &mdash; bad data never
               reaches the floor. Paired with the Great Expectations checkpoints below: GX runs
               suite-based expectations against raw landings; dbt enforces SQL-native contracts
@@ -497,7 +506,7 @@ function ThroughputHero() {
                style={{ fontSize: 44, fontVariantNumeric: 'tabular-nums' }}>
             {rowsToday.toLocaleString()}
           </div>
-          <div className="mt-2 text-xs text-[var(--ink-muted)]">across 4 sources · 22 Iceberg tables · CDC + streaming</div>
+          <div className="mt-2 text-xs text-[var(--ink-muted)]">across 4 sources · 22 Delta tables · CDC + streaming</div>
         </div>
       </div>
       <Kpi label="CDC freshness · p50" value="47s" sub="Epic Clarity source" />
@@ -837,7 +846,8 @@ function HorizonRow({ label, big, sub, accent = false }: { label: string; big: s
 }
 
 // =============================================================================
-// SchemaEvolutionTicker — Iceberg's killer feature, displayed as a stock-ticker
+// SchemaEvolutionTicker — Delta Lake's metadata-only schema evolution,
+// displayed as a stock-ticker
 // =============================================================================
 const EVO_EVENTS = [
   { ts: '2026-05-24 06:14', op: 'ADD COLUMN sdoh_risk_score',          table: 'bronze.clarity__pat_enc',   ms: 38, models: 4 },
@@ -858,7 +868,7 @@ function SchemaEvolutionTicker() {
       <div className="absolute top-0 right-0 bottom-0 w-1.5" style={{ background: 'linear-gradient(180deg, #5fb3a1, #1d4e89)' }} />
       <div className="flex items-baseline justify-between gap-4 flex-wrap">
         <div className="flex items-center gap-3">
-          <div className="eyebrow" style={{ color: '#1d4e89' }}>Iceberg · Schema evolution</div>
+          <div className="eyebrow" style={{ color: '#1d4e89' }}>Delta Lake · Schema evolution</div>
           <span className="inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-wider px-1.5 py-0.5 rounded-sm" style={{ color: '#0d9488', background: '#ecfeff', border: '1px solid #99f6e4' }}>
             ● Live feed
           </span>
@@ -878,9 +888,9 @@ function SchemaEvolutionTicker() {
         <span><strong className="text-[var(--ink-strong)]">{e.models}</strong> downstream dbt models auto-revalidated</span>
       </div>
       <div className="mt-3 text-[11px] text-[var(--ink-soft)] leading-relaxed">
-        Apache Iceberg treats schema changes as table metadata, not file rewrites. The Modern Data Stack equivalent —
+        Delta Lake treats schema changes as table metadata, not file rewrites. The Modern Data Stack equivalent —
         an Oracle <code className="font-mono">ALTER TABLE ADD COLUMN</code> on a 1.8 M-row Clarity table — locks the
-        table for ~6 minutes during the rewrite. Same change in Iceberg: <strong>milliseconds, no lock</strong>.
+        table for ~6 minutes during the rewrite. Same change on Delta: <strong>milliseconds, no lock</strong>.
       </div>
     </section>
   );
@@ -910,8 +920,8 @@ function CostPanel() {
         </div>
       </header>
       <div className="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[var(--hairline-soft,#e8e4d8)]">
-        <CostTile label="Storage · per day"   value="$0.87"  sub="2.4 TB across bronze/silver/gold · S3 Standard-IA"  color="#16a34a" />
-        <CostTile label="Compute · per day"   value="$4.12"  sub="Databricks serverless SQL auto-stop · dbt · Athena ad-hoc" color="#0d9488" />
+        <CostTile label="Storage · per day"   value="$0.87"  sub="2.4 TB across bronze/silver/gold · Unity Catalog managed storage"  color="#16a34a" />
+        <CostTile label="Compute · per day"   value="$4.12"  sub="Databricks serverless SQL auto-stop · dbt · ad-hoc UniForm reads" color="#0d9488" />
         <CostTile label="Zero-row dbt · saved" value="$4.76"  sub="78% of Fivetran syncs no-op today · downstream dbt builds finish in zero rows" color="#7c3aed" />
         <CostTile label="Equivalent MDS"      value="$15.40" sub="Internal benchmark · same data, warehouse-resident" color="#dc2626" />
       </div>
@@ -1001,7 +1011,7 @@ function DataContractsPanel() {
             <Policy label="PII / PHI columns tagged" value="32 columns across 9 tables" />
             <Policy label="Row-level access policy"  value="provider_organization_id scoped per role" />
             <Policy label="Column masking on read"   value="ssn · dob · address · phone · mrn" />
-            <Policy label="Audit log destination"    value="CloudTrail → S3 (90d) → Iceberg audit table" />
+            <Policy label="Audit log destination"    value="Unity Catalog audit logs (90d) → Delta audit table" />
             <Policy label="De-identification path"   value="gold.fct_research_cohorts uses HIPAA Safe Harbor de-id" />
           </ul>
         </div>
@@ -1146,7 +1156,7 @@ function GreatExpectationsPanel() {
           <p className="text-sm text-[var(--ink-muted)] mt-1 max-w-3xl">
             Expectation suites define what "valid" looks like for each Clarity table &mdash; PHI completeness,
             ICD-10 value-set conformance, payor charge ranges, referential integrity to the patient master.
-            A failed expectation blocks promotion. Same lake, same Iceberg snapshots, just gated.
+            A failed expectation blocks promotion. Same lakehouse, same Delta snapshots, just gated.
           </p>
         </div>
         <div className="flex flex-col items-end gap-1.5 shrink-0">
@@ -1226,7 +1236,7 @@ expectations:
         <div className="p-5">
           <div className="text-[10px] uppercase tracking-[0.16em] text-[var(--ink-soft)] font-semibold mb-3">How this fits the stack</div>
           <ul className="space-y-2.5 text-sm">
-            <Policy label="Fivetran moves" value="CDC + batch + HL7 streams into Bronze (Iceberg)" />
+            <Policy label="Fivetran moves" value="CDC + batch + HL7 streams into Bronze (Delta)" />
             <Policy label="Great Expectations validates" value="Bronze landings against suites before Silver promotion" />
             <Policy label="dbt transforms" value="Silver + Gold marts; dbt tests assert SQL-level constraints" />
             <Policy label="Failed rows" value="route to dlq.gx_quarantine on the same lake; retried after suite update" />
@@ -1268,7 +1278,7 @@ function ActivationsPanel() {
           </h2>
           <p className="text-sm text-[var(--ink-muted)] mt-1 max-w-3xl">
             Activations is the fourth native stage in NewCo, immediately after Transformations. It
-            reads straight from the same Iceberg gold tables dbt just built and syncs the result to
+            reads straight from the same Delta gold tables dbt just built and syncs the result to
             an operational system of record &mdash; no separate reverse-ETL vendor, no second copy of the
             data, no second connector to maintain.
           </p>
@@ -1335,10 +1345,10 @@ function BeforeAfterPanel() {
       <div className="clinical-card p-6 border-l-4" style={{ ...cardStyle, borderLeftColor: '#0d9488' }}>
         <div className="eyebrow" style={{ color: '#0d9488' }}>After · Open Data Infrastructure</div>
         <h3 className="mt-1 font-serif text-xl font-semibold text-[var(--ink-strong)]">5 hops · 1 copy of the bytes</h3>
-        <pre className="font-mono text-[10.5px] leading-relaxed mt-4 p-3 rounded-sm overflow-x-auto" style={{ background: '#ecfdf5', color: '#064e3b', border: '1px solid #a7f3d0' }}>{`Source → Fivetran CDC → Iceberg bronze
-       → dbt Labs → Iceberg silver
-       → dbt Labs → Iceberg gold
-       ↳ Databricks (Unity Catalog) primary · Athena, DuckDB, Trino, Spark still welcome
+        <pre className="font-mono text-[10.5px] leading-relaxed mt-4 p-3 rounded-sm overflow-x-auto" style={{ background: '#ecfdf5', color: '#064e3b', border: '1px solid #a7f3d0' }}>{`Source → Fivetran CDC → Databricks Unity Catalog bronze (Delta)
+       → dbt Labs → Unity Catalog silver (Delta)
+       → dbt Labs → Unity Catalog gold (Delta)
+       ↳ Databricks SQL primary · Athena, DuckDB, Trino, Spark reachable via UniForm
          (all reading the same bytes, no copies)
        → NewCo Activations (native) → TigerConnect`}</pre>
         <div className="mt-4">

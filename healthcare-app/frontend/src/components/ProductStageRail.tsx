@@ -4,7 +4,7 @@
 
 const STAGES = [
   { label: 'Connections',     sub: 'Source connectors' },
-  { label: 'Destinations',    sub: 'Iceberg lakehouse (MDLS)' },
+  { label: 'Destinations',    sub: 'Databricks (Unity Catalog)' },
   { label: 'Transformations', sub: 'dbt Labs + dbt-wizard' },
   { label: 'Activations',     sub: 'Reverse-ETL, native' },
 ] as const;
