@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0101086",
+    "med_rec_num": "MRN0201086",
+    "full_name": "Carol Miller",
+    "birth_date": "1977-11-28",
+    "age": 49,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1796,
+    "latitude": 40.35617,
+    "longitude": -79.90456,
+    "last_encounter_date": "2026-01-24",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3029 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 636-2457",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101086",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001086-000",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0001086-001",
+        "contact_date": "2025-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001086-002",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0001086-003",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001086-004",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001086-005",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 143
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101086",
+    "diagnoses": [
+      {
+        "dx_id": "0001086-dx-000",
+        "pat_enc_csn_id": "0001086-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001086-acu-002",
+        "pat_enc_csn_id": "0001086-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-06-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101086",
+    "summary": {
+      "total_charges": 1796,
+      "total_payments": 1524,
+      "outstanding_balance": 272,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000108600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1796,
+        "total_payments": 1524,
+        "current_balance": 272,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-13",
+        "closed_date": "2026-03-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101086",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

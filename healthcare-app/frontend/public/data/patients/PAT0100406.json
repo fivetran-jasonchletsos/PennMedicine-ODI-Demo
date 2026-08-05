@@ -1,0 +1,232 @@
+{
+  "patient": {
+    "pat_id": "PAT0100406",
+    "med_rec_num": "MRN0200406",
+    "full_name": "Mark Nguyen",
+    "birth_date": "1985-09-19",
+    "age": 41,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 7320,
+    "latitude": 40.44637,
+    "longitude": -79.96503,
+    "last_encounter_date": "2026-01-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4234 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 214-2917",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100406",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000406-000",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000406-001",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 4980
+      },
+      {
+        "pat_enc_csn_id": "0000406-002",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000406-003",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000406-004",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000406-005",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000406-006",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000406-007",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000406-008",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000406-009",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 321
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100406",
+    "diagnoses": [
+      {
+        "dx_id": "0000406-acu-000",
+        "pat_enc_csn_id": "0000406-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0000406-acu-002",
+        "pat_enc_csn_id": "0000406-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100406",
+    "summary": {
+      "total_charges": 7320,
+      "total_payments": 6474,
+      "outstanding_balance": 846,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000040600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7320,
+        "total_payments": 6474,
+        "current_balance": 846,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-25",
+        "closed_date": "2025-12-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100406",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0100521",
+    "med_rec_num": "MRN0200521",
+    "full_name": "Michael Patel",
+    "birth_date": "1937-06-21",
+    "age": 89,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 30345,
+    "latitude": 40.32609,
+    "longitude": -80.03464,
+    "last_encounter_date": "2026-03-17",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4278 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 765-2703",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100521",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000521-000",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000521-001",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000521-002",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3076
+      },
+      {
+        "pat_enc_csn_id": "0000521-003",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000521-004",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000521-005",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000521-006",
+        "contact_date": "2025-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000521-007",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 25855
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100521",
+    "diagnoses": [
+      {
+        "dx_id": "0000521-dx-000",
+        "pat_enc_csn_id": "0000521-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000521-dx-001",
+        "pat_enc_csn_id": "0000521-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000521-acu-001",
+        "pat_enc_csn_id": "0000521-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-02"
+      },
+      {
+        "dx_id": "0000521-acu-002",
+        "pat_enc_csn_id": "0000521-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100521",
+    "summary": {
+      "total_charges": 30345,
+      "total_payments": 25159,
+      "outstanding_balance": 5186,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000052100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 30345,
+        "total_payments": 25159,
+        "current_balance": 5186,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-11-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100521",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "patient": {
+    "pat_id": "PAT0100245",
+    "med_rec_num": "MRN0200245",
+    "full_name": "Hassan Walsh",
+    "birth_date": "1968-05-18",
+    "age": 58,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 3,
+    "encounter_count": 17,
+    "total_charges": 47140,
+    "latitude": 40.41969,
+    "longitude": -79.79457,
+    "last_encounter_date": "2026-05-11",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "775 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 318-6400",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100245",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000245-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000245-001",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000245-002",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000245-003",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000245-004",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000245-005",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 11024
+      },
+      {
+        "pat_enc_csn_id": "0000245-006",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000245-007",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000245-008",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000245-009",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000245-010",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000245-011",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 11269
+      },
+      {
+        "pat_enc_csn_id": "0000245-012",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000245-013",
+        "contact_date": "2024-08-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4251
+      },
+      {
+        "pat_enc_csn_id": "0000245-014",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000245-015",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000245-016",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 17455
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100245",
+    "diagnoses": [
+      {
+        "dx_id": "0000245-dx-000",
+        "pat_enc_csn_id": "0000245-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0000245-dx-001",
+        "pat_enc_csn_id": "0000245-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000245-dx-002",
+        "pat_enc_csn_id": "0000245-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000245-acu-000",
+        "pat_enc_csn_id": "0000245-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0000245-acu-002",
+        "pat_enc_csn_id": "0000245-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100245",
+    "summary": {
+      "total_charges": 47140,
+      "total_payments": 39041,
+      "outstanding_balance": 8099,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000024500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 47140,
+        "total_payments": 39041,
+        "current_balance": 8099,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-21",
+        "closed_date": "2026-03-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100245",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

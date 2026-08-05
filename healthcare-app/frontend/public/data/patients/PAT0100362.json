@@ -1,0 +1,330 @@
+{
+  "patient": {
+    "pat_id": "PAT0100362",
+    "med_rec_num": "MRN0200362",
+    "full_name": "Barbara Nguyen",
+    "birth_date": "2020-03-11",
+    "age": 6,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 15008,
+    "latitude": 40.46823,
+    "longitude": -79.95668,
+    "last_encounter_date": "2026-05-12",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "312 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 512-8708",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100362",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000362-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000362-001",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000362-002",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000362-003",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 53
+      },
+      {
+        "pat_enc_csn_id": "0000362-004",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000362-005",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000362-006",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000362-007",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000362-008",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 4102
+      },
+      {
+        "pat_enc_csn_id": "0000362-009",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000362-010",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000362-011",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000362-012",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000362-013",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 6990
+      },
+      {
+        "pat_enc_csn_id": "0000362-014",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000362-015",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 407
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100362",
+    "diagnoses": [
+      {
+        "dx_id": "0000362-dx-000",
+        "pat_enc_csn_id": "0000362-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000362-dx-001",
+        "pat_enc_csn_id": "0000362-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000362-acu-000",
+        "pat_enc_csn_id": "0000362-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-12"
+      },
+      {
+        "dx_id": "0000362-acu-002",
+        "pat_enc_csn_id": "0000362-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100362",
+    "summary": {
+      "total_charges": 15008,
+      "total_payments": 11670,
+      "outstanding_balance": 3338,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000036200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7965,
+        "total_payments": 5643,
+        "current_balance": 2322,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-26",
+        "closed_date": "2025-11-01"
+      },
+      {
+        "hsp_account_id": "HSP000036201",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 724,
+        "total_payments": 607,
+        "current_balance": 117,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-17",
+        "closed_date": "2025-12-14"
+      },
+      {
+        "hsp_account_id": "HSP000036202",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 6319,
+        "total_payments": 5420,
+        "current_balance": 899,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-04-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100362",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

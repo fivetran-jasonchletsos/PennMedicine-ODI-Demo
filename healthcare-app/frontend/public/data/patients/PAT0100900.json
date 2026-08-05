@@ -1,0 +1,344 @@
+{
+  "patient": {
+    "pat_id": "PAT0100900",
+    "med_rec_num": "MRN0200900",
+    "full_name": "James Jones",
+    "birth_date": "1937-04-07",
+    "age": 89,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 18,
+    "total_charges": 45688,
+    "latitude": 40.30573,
+    "longitude": -79.53428,
+    "last_encounter_date": "2026-02-20",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9681 Murray St",
+    "state": "PA",
+    "phone": "(412) 597-8171",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100900",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000900-000",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3727
+      },
+      {
+        "pat_enc_csn_id": "0000900-001",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000900-002",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000900-003",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0000900-004",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0000900-005",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000900-006",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0000900-007",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000900-008",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 35548
+      },
+      {
+        "pat_enc_csn_id": "0000900-009",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0000900-010",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000900-011",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000900-012",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000900-013",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000900-014",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000900-015",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 2427
+      },
+      {
+        "pat_enc_csn_id": "0000900-016",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000900-017",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 234
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100900",
+    "diagnoses": [
+      {
+        "dx_id": "0000900-dx-000",
+        "pat_enc_csn_id": "0000900-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0000900-dx-001",
+        "pat_enc_csn_id": "0000900-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000900-dx-002",
+        "pat_enc_csn_id": "0000900-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000900-acu-000",
+        "pat_enc_csn_id": "0000900-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      },
+      {
+        "dx_id": "0000900-acu-001",
+        "pat_enc_csn_id": "0000900-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-20"
+      },
+      {
+        "dx_id": "0000900-acu-002",
+        "pat_enc_csn_id": "0000900-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-12-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100900",
+    "summary": {
+      "total_charges": 45688,
+      "total_payments": 38999,
+      "outstanding_balance": 6689,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 45688,
+        "total_payments": 38999,
+        "current_balance": 6689,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-27",
+        "closed_date": "2025-10-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100900",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

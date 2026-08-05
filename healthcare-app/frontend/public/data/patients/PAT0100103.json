@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100103",
+    "med_rec_num": "MRN0200103",
+    "full_name": "Paul Park",
+    "birth_date": "2002-02-06",
+    "age": 24,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 5733,
+    "latitude": 40.43994,
+    "longitude": -79.99693,
+    "last_encounter_date": "2026-04-26",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5442 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 235-3364",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100103",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000103-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000103-001",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0000103-002",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000103-003",
+        "contact_date": "2025-02-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4244
+      },
+      {
+        "pat_enc_csn_id": "0000103-004",
+        "contact_date": "2024-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000103-005",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 419
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100103",
+    "diagnoses": [
+      {
+        "dx_id": "0000103-dx-000",
+        "pat_enc_csn_id": "0000103-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000103-acu-002",
+        "pat_enc_csn_id": "0000103-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100103",
+    "summary": {
+      "total_charges": 5733,
+      "total_payments": 3814,
+      "outstanding_balance": 1919,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5733,
+        "total_payments": 3814,
+        "current_balance": 1919,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-24",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100103",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

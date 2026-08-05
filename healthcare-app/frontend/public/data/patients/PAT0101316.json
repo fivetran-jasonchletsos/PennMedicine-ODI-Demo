@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0101316",
+    "med_rec_num": "MRN0201316",
+    "full_name": "Sofia Jackson",
+    "birth_date": "1949-10-26",
+    "age": 77,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 4130,
+    "latitude": 40.32399,
+    "longitude": -80.0392,
+    "last_encounter_date": "2026-01-14",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1272 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 566-3921",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101316",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001316-000",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0001316-001",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0001316-002",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001316-003",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0001316-004",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0001316-005",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001316-006",
+        "contact_date": "2024-06-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2532
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101316",
+    "diagnoses": [
+      {
+        "dx_id": "0001316-dx-000",
+        "pat_enc_csn_id": "0001316-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001316-acu-001",
+        "pat_enc_csn_id": "0001316-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-28"
+      },
+      {
+        "dx_id": "0001316-acu-002",
+        "pat_enc_csn_id": "0001316-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-09-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101316",
+    "summary": {
+      "total_charges": 4130,
+      "total_payments": 2579,
+      "outstanding_balance": 1551,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000131600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4130,
+        "total_payments": 2579,
+        "current_balance": 1551,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-21",
+        "closed_date": "2025-12-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101316",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

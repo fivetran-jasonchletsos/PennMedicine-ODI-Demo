@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100279",
+    "med_rec_num": "MRN0200279",
+    "full_name": "Thomas Russo",
+    "birth_date": "1980-06-11",
+    "age": 46,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 5705,
+    "latitude": 40.3257,
+    "longitude": -80.03972,
+    "last_encounter_date": "2026-04-25",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9474 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 615-5317",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100279",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000279-000",
+        "contact_date": "2026-04-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000279-001",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3123
+      },
+      {
+        "pat_enc_csn_id": "0000279-002",
+        "contact_date": "2026-02-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000279-003",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000279-004",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000279-005",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000279-006",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000279-007",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000279-008",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000279-009",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0000279-010",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 378
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100279",
+    "diagnoses": [
+      {
+        "dx_id": "0000279-dx-000",
+        "pat_enc_csn_id": "0000279-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000279-dx-001",
+        "pat_enc_csn_id": "0000279-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000279-acu-000",
+        "pat_enc_csn_id": "0000279-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100279",
+    "summary": {
+      "total_charges": 5705,
+      "total_payments": 2121,
+      "outstanding_balance": 3584,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5705,
+        "total_payments": 2121,
+        "current_balance": 3584,
+        "primary_payer": "Self-pay",
+        "opened_date": "2025-04-01",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100279",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

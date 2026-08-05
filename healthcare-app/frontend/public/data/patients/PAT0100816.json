@@ -1,0 +1,356 @@
+{
+  "patient": {
+    "pat_id": "PAT0100816",
+    "med_rec_num": "MRN0200816",
+    "full_name": "Margaret Williams",
+    "birth_date": "1954-08-28",
+    "age": 72,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 6,
+    "encounter_count": 17,
+    "total_charges": 44636,
+    "latitude": 40.43986,
+    "longitude": -79.96635,
+    "last_encounter_date": "2026-04-19",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7338 Penn St",
+    "state": "PA",
+    "phone": "(412) 310-3411",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100816",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000816-000",
+        "contact_date": "2026-04-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000816-001",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000816-002",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000816-003",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000816-004",
+        "contact_date": "2026-01-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000816-005",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000816-006",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 2742
+      },
+      {
+        "pat_enc_csn_id": "0000816-007",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 1747
+      },
+      {
+        "pat_enc_csn_id": "0000816-008",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000816-009",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000816-010",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000816-011",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000816-012",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000816-013",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000816-014",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000816-015",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 149
+      },
+      {
+        "pat_enc_csn_id": "0000816-016",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 36453
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100816",
+    "diagnoses": [
+      {
+        "dx_id": "0000816-dx-000",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000816-dx-001",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000816-dx-002",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000816-dx-003",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1985-05-13"
+      },
+      {
+        "dx_id": "0000816-dx-004",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000816-dx-005",
+        "pat_enc_csn_id": "0000816-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100816",
+    "summary": {
+      "total_charges": 44636,
+      "total_payments": 36579,
+      "outstanding_balance": 8057,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 33878,
+        "total_payments": 27334,
+        "current_balance": 6544,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-27",
+        "closed_date": "2026-03-02"
+      },
+      {
+        "hsp_account_id": "HSP000081601",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 9325,
+        "total_payments": 8282,
+        "current_balance": 1043,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-14",
+        "closed_date": "2026-05-06"
+      },
+      {
+        "hsp_account_id": "HSP000081602",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1433,
+        "total_payments": 963,
+        "current_balance": 470,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-10",
+        "closed_date": "2025-11-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100816",
+    "comparables": [
+      {
+        "pat_id": "PAT0100003",
+        "full_name": "Linda Rodriguez",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 24,
+        "total_charges": 14863
+      },
+      {
+        "pat_id": "PAT0100105",
+        "full_name": "Patricia Kim",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 17508
+      },
+      {
+        "pat_id": "PAT0100141",
+        "full_name": "Richard Walsh",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 10859
+      },
+      {
+        "pat_id": "PAT0100189",
+        "full_name": "Mark Williams",
+        "age": 70,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 20,
+        "total_charges": 41472
+      },
+      {
+        "pat_id": "PAT0100320",
+        "full_name": "Anil Greene",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 17,
+        "total_charges": 35184
+      },
+      {
+        "pat_id": "PAT0100321",
+        "full_name": "Sandra Russo",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 33891
+      }
+    ]
+  }
+}

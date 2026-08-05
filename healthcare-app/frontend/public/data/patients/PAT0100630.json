@@ -1,0 +1,240 @@
+{
+  "patient": {
+    "pat_id": "PAT0100630",
+    "med_rec_num": "MRN0200630",
+    "full_name": "Mary Greene",
+    "birth_date": "1978-06-16",
+    "age": 48,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 5955,
+    "latitude": 40.47541,
+    "longitude": -79.83158,
+    "last_encounter_date": "2026-01-06",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1668 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 950-3051",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100630",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000630-000",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000630-001",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000630-002",
+        "contact_date": "2025-11-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000630-003",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000630-004",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 3879
+      },
+      {
+        "pat_enc_csn_id": "0000630-005",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000630-006",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000630-007",
+        "contact_date": "2024-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000630-008",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000630-009",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 172
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100630",
+    "diagnoses": [
+      {
+        "dx_id": "0000630-dx-000",
+        "pat_enc_csn_id": "0000630-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000630-acu-000",
+        "pat_enc_csn_id": "0000630-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-06"
+      },
+      {
+        "dx_id": "0000630-acu-001",
+        "pat_enc_csn_id": "0000630-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100630",
+    "summary": {
+      "total_charges": 5955,
+      "total_payments": 4762,
+      "outstanding_balance": 1193,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000063000",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5955,
+        "total_payments": 4762,
+        "current_balance": 1193,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-11",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100630",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

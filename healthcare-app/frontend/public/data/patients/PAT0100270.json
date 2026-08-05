@@ -1,0 +1,305 @@
+{
+  "patient": {
+    "pat_id": "PAT0100270",
+    "med_rec_num": "MRN0200270",
+    "full_name": "Susan Martin",
+    "birth_date": "1949-09-17",
+    "age": 77,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 12236,
+    "latitude": 40.62532,
+    "longitude": -80.05541,
+    "last_encounter_date": "2026-05-09",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8187 Highland St",
+    "state": "PA",
+    "phone": "(412) 667-8161",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100270",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000270-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000270-001",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000270-002",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000270-003",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3405
+      },
+      {
+        "pat_enc_csn_id": "0000270-004",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000270-005",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5775
+      },
+      {
+        "pat_enc_csn_id": "0000270-006",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000270-007",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0000270-008",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000270-009",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000270-010",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000270-011",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0000270-012",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 342
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100270",
+    "diagnoses": [
+      {
+        "dx_id": "0000270-dx-000",
+        "pat_enc_csn_id": "0000270-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000270-dx-001",
+        "pat_enc_csn_id": "0000270-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1968-05-13"
+      },
+      {
+        "dx_id": "0000270-dx-002",
+        "pat_enc_csn_id": "0000270-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000270-acu-000",
+        "pat_enc_csn_id": "0000270-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-09"
+      },
+      {
+        "dx_id": "0000270-acu-001",
+        "pat_enc_csn_id": "0000270-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      },
+      {
+        "dx_id": "0000270-acu-002",
+        "pat_enc_csn_id": "0000270-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100270",
+    "summary": {
+      "total_charges": 12236,
+      "total_payments": 10653,
+      "outstanding_balance": 1583,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 9826,
+        "total_payments": 8454,
+        "current_balance": 1372,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-09",
+        "closed_date": "2026-04-25"
+      },
+      {
+        "hsp_account_id": "HSP000027001",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2410,
+        "total_payments": 2199,
+        "current_balance": 211,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-06",
+        "closed_date": "2026-04-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100270",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

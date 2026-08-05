@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0101366",
+    "med_rec_num": "MRN0201366",
+    "full_name": "Reshma Wong",
+    "birth_date": "1972-09-13",
+    "age": 54,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 23081,
+    "latitude": 40.30692,
+    "longitude": -79.53454,
+    "last_encounter_date": "2026-05-02",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8999 Walnut St",
+    "state": "PA",
+    "phone": "(412) 442-2695",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101366",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001366-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 20093
+      },
+      {
+        "pat_enc_csn_id": "0001366-001",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0001366-002",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0001366-003",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0001366-004",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001366-005",
+        "contact_date": "2025-11-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001366-006",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 1113
+      },
+      {
+        "pat_enc_csn_id": "0001366-007",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001366-008",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 302
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101366",
+    "diagnoses": [
+      {
+        "dx_id": "0001366-acu-000",
+        "pat_enc_csn_id": "0001366-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0001366-acu-001",
+        "pat_enc_csn_id": "0001366-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0001366-acu-002",
+        "pat_enc_csn_id": "0001366-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101366",
+    "summary": {
+      "total_charges": 23081,
+      "total_payments": 20337,
+      "outstanding_balance": 2744,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000136600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 23081,
+        "total_payments": 20337,
+        "current_balance": 2744,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-06",
+        "closed_date": "2026-03-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101366",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

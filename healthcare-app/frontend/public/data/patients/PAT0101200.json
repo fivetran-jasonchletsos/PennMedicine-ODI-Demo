@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0101200",
+    "med_rec_num": "MRN0201200",
+    "full_name": "Maria Okonkwo",
+    "birth_date": "2000-04-14",
+    "age": 26,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 3200,
+    "latitude": 40.44744,
+    "longitude": -79.9293,
+    "last_encounter_date": "2026-03-05",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5836 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 642-5631",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101200",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001200-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1964
+      },
+      {
+        "pat_enc_csn_id": "0001200-001",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0001200-002",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001200-003",
+        "contact_date": "2024-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0001200-004",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001200-005",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101200",
+    "diagnoses": [
+      {
+        "dx_id": "0001200-dx-000",
+        "pat_enc_csn_id": "0001200-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001200-acu-001",
+        "pat_enc_csn_id": "0001200-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-26"
+      },
+      {
+        "dx_id": "0001200-acu-002",
+        "pat_enc_csn_id": "0001200-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-06-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101200",
+    "summary": {
+      "total_charges": 3200,
+      "total_payments": 2433,
+      "outstanding_balance": 767,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 3200,
+        "total_payments": 2433,
+        "current_balance": 767,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-03-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101200",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,251 @@
+{
+  "patient": {
+    "pat_id": "PAT0100774",
+    "med_rec_num": "MRN0200774",
+    "full_name": "Susan Wong",
+    "birth_date": "2004-05-20",
+    "age": 22,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 18360,
+    "latitude": 40.33497,
+    "longitude": -80.04292,
+    "last_encounter_date": "2026-04-06",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3238 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 708-3546",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100774",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000774-000",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000774-001",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3415
+      },
+      {
+        "pat_enc_csn_id": "0000774-002",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000774-003",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 6864
+      },
+      {
+        "pat_enc_csn_id": "0000774-004",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000774-005",
+        "contact_date": "2025-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000774-006",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000774-007",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000774-008",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6030
+      },
+      {
+        "pat_enc_csn_id": "0000774-009",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 391
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100774",
+    "diagnoses": [
+      {
+        "dx_id": "0000774-dx-000",
+        "pat_enc_csn_id": "0000774-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000774-acu-000",
+        "pat_enc_csn_id": "0000774-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-06"
+      },
+      {
+        "dx_id": "0000774-acu-002",
+        "pat_enc_csn_id": "0000774-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100774",
+    "summary": {
+      "total_charges": 18360,
+      "total_payments": 14430,
+      "outstanding_balance": 3930,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000077400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11349,
+        "total_payments": 10078,
+        "current_balance": 1271,
+        "primary_payer": "Cigna",
+        "opened_date": "2026-02-19",
+        "closed_date": "2025-12-10"
+      },
+      {
+        "hsp_account_id": "HSP000077401",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7011,
+        "total_payments": 4352,
+        "current_balance": 2659,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-17",
+        "closed_date": "2026-01-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100774",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

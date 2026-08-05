@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0100415",
+    "med_rec_num": "MRN0200415",
+    "full_name": "Michelle Patel",
+    "birth_date": "1990-01-19",
+    "age": 36,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.44794,
+    "longitude": -79.96581,
+    "last_encounter_date": null,
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4317 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 303-5644",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100415",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100415",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100415",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000041500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-09",
+        "closed_date": "2026-03-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100415",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

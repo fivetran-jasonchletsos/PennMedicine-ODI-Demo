@@ -1,0 +1,251 @@
+{
+  "patient": {
+    "pat_id": "PAT0101228",
+    "med_rec_num": "MRN0201228",
+    "full_name": "Patricia Thomas",
+    "birth_date": "2023-03-18",
+    "age": 3,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 72095,
+    "latitude": 40.47319,
+    "longitude": -79.95954,
+    "last_encounter_date": "2026-05-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "549 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 395-8066",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101228",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001228-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0001228-001",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0001228-002",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 29452
+      },
+      {
+        "pat_enc_csn_id": "0001228-003",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001228-004",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001228-005",
+        "contact_date": "2025-07-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 3470
+      },
+      {
+        "pat_enc_csn_id": "0001228-006",
+        "contact_date": "2025-03-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 37105
+      },
+      {
+        "pat_enc_csn_id": "0001228-007",
+        "contact_date": "2024-11-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0001228-008",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001228-009",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 411
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101228",
+    "diagnoses": [
+      {
+        "dx_id": "0001228-acu-000",
+        "pat_enc_csn_id": "0001228-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      },
+      {
+        "dx_id": "0001228-acu-001",
+        "pat_enc_csn_id": "0001228-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0001228-acu-002",
+        "pat_enc_csn_id": "0001228-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101228",
+    "summary": {
+      "total_charges": 72095,
+      "total_payments": 59764,
+      "outstanding_balance": 12331,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000122800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 44306,
+        "total_payments": 34757,
+        "current_balance": 9549,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-07-11",
+        "closed_date": "2026-02-12"
+      },
+      {
+        "hsp_account_id": "HSP000122801",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 27789,
+        "total_payments": 25007,
+        "current_balance": 2782,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-01-20",
+        "closed_date": "2026-03-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101228",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

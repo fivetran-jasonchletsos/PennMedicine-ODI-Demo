@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100790",
+    "med_rec_num": "MRN0200790",
+    "full_name": "George Chen",
+    "birth_date": "1945-07-01",
+    "age": 81,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 2174,
+    "latitude": 40.42905,
+    "longitude": -79.79301,
+    "last_encounter_date": "2025-12-23",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3058 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 498-6478",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100790",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000790-000",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000790-001",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000790-002",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000790-003",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000790-004",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000790-005",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000790-006",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 385
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100790",
+    "diagnoses": [
+      {
+        "dx_id": "0000790-dx-000",
+        "pat_enc_csn_id": "0000790-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0000790-dx-001",
+        "pat_enc_csn_id": "0000790-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000790-acu-002",
+        "pat_enc_csn_id": "0000790-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100790",
+    "summary": {
+      "total_charges": 2174,
+      "total_payments": 1725,
+      "outstanding_balance": 449,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000079000",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2174,
+        "total_payments": 1725,
+        "current_balance": 449,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-12",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100790",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100200",
+    "med_rec_num": "MRN0200200",
+    "full_name": "Aisha Okonkwo",
+    "birth_date": "2007-12-01",
+    "age": 19,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 8220,
+    "latitude": 40.33489,
+    "longitude": -80.04354,
+    "last_encounter_date": "2026-04-10",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1734 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 578-4590",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100200",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000200-000",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0000200-001",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 5126
+      },
+      {
+        "pat_enc_csn_id": "0000200-002",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000200-003",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000200-004",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000200-005",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000200-006",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000200-007",
+        "contact_date": "2025-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000200-008",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000200-009",
+        "contact_date": "2025-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000200-010",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000200-011",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 274
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100200",
+    "diagnoses": [
+      {
+        "dx_id": "0000200-dx-000",
+        "pat_enc_csn_id": "0000200-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000200-dx-001",
+        "pat_enc_csn_id": "0000200-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000200-acu-001",
+        "pat_enc_csn_id": "0000200-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100200",
+    "summary": {
+      "total_charges": 8220,
+      "total_payments": 7003,
+      "outstanding_balance": 1217,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000020000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8220,
+        "total_payments": 7003,
+        "current_balance": 1217,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-06-28",
+        "closed_date": "2025-12-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100200",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

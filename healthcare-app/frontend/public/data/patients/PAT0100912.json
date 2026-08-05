@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100912",
+    "med_rec_num": "MRN0200912",
+    "full_name": "Sandra Khan",
+    "birth_date": "2007-04-06",
+    "age": 19,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 28675,
+    "latitude": 40.44568,
+    "longitude": -79.96284,
+    "last_encounter_date": "2025-12-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3759 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 672-9716",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100912",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000912-000",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 2315
+      },
+      {
+        "pat_enc_csn_id": "0000912-001",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000912-002",
+        "contact_date": "2025-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000912-003",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 17771
+      },
+      {
+        "pat_enc_csn_id": "0000912-004",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000912-005",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5491
+      },
+      {
+        "pat_enc_csn_id": "0000912-006",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000912-007",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000912-008",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1358
+      },
+      {
+        "pat_enc_csn_id": "0000912-009",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000912-010",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100912",
+    "diagnoses": [
+      {
+        "dx_id": "0000912-dx-000",
+        "pat_enc_csn_id": "0000912-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000912-acu-000",
+        "pat_enc_csn_id": "0000912-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-09"
+      },
+      {
+        "dx_id": "0000912-acu-002",
+        "pat_enc_csn_id": "0000912-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100912",
+    "summary": {
+      "total_charges": 28675,
+      "total_payments": 24107,
+      "outstanding_balance": 4568,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000091200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9123,
+        "total_payments": 8062,
+        "current_balance": 1061,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-06",
+        "closed_date": "2026-02-04"
+      },
+      {
+        "hsp_account_id": "HSP000091201",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 18801,
+        "total_payments": 15499,
+        "current_balance": 3302,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000091202",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 751,
+        "total_payments": 546,
+        "current_balance": 205,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-09",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100912",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

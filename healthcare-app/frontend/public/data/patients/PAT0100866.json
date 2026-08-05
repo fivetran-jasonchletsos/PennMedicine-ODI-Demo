@@ -1,0 +1,257 @@
+{
+  "patient": {
+    "pat_id": "PAT0100866",
+    "med_rec_num": "MRN0200866",
+    "full_name": "Jennifer Taylor",
+    "birth_date": "1934-06-05",
+    "age": 92,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 34514,
+    "latitude": 40.35341,
+    "longitude": -79.85363,
+    "last_encounter_date": "2026-01-09",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6657 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 731-7671",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100866",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000866-000",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000866-001",
+        "contact_date": "2025-12-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1326
+      },
+      {
+        "pat_enc_csn_id": "0000866-002",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000866-003",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000866-004",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000866-005",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 5811
+      },
+      {
+        "pat_enc_csn_id": "0000866-006",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0000866-007",
+        "contact_date": "2024-06-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000866-008",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 26072
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100866",
+    "diagnoses": [
+      {
+        "dx_id": "0000866-dx-000",
+        "pat_enc_csn_id": "0000866-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000866-dx-001",
+        "pat_enc_csn_id": "0000866-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000866-acu-000",
+        "pat_enc_csn_id": "0000866-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-09"
+      },
+      {
+        "dx_id": "0000866-acu-001",
+        "pat_enc_csn_id": "0000866-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-02"
+      },
+      {
+        "dx_id": "0000866-acu-002",
+        "pat_enc_csn_id": "0000866-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100866",
+    "summary": {
+      "total_charges": 34514,
+      "total_payments": 31102,
+      "outstanding_balance": 3412,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086600",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 22078,
+        "total_payments": 19145,
+        "current_balance": 2933,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-08",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000086601",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12436,
+        "total_payments": 11957,
+        "current_balance": 479,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-04-05",
+        "closed_date": "2026-01-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100866",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "patient": {
+    "pat_id": "PAT0101335",
+    "med_rec_num": "MRN0201335",
+    "full_name": "Barbara Wilson",
+    "birth_date": "1986-07-01",
+    "age": 40,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 14632,
+    "latitude": 40.30278,
+    "longitude": -79.54083,
+    "last_encounter_date": "2025-11-13",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3231 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 324-2537",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101335",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001335-000",
+        "contact_date": "2025-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0001335-001",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3173
+      },
+      {
+        "pat_enc_csn_id": "0001335-002",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001335-003",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0001335-004",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001335-005",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0001335-006",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1879
+      },
+      {
+        "pat_enc_csn_id": "0001335-007",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0001335-008",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001335-009",
+        "contact_date": "2024-08-24",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6833
+      },
+      {
+        "pat_enc_csn_id": "0001335-010",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0001335-011",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101335",
+    "diagnoses": [
+      {
+        "dx_id": "0001335-dx-000",
+        "pat_enc_csn_id": "0001335-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001335-acu-000",
+        "pat_enc_csn_id": "0001335-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-13"
+      },
+      {
+        "dx_id": "0001335-acu-002",
+        "pat_enc_csn_id": "0001335-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101335",
+    "summary": {
+      "total_charges": 14632,
+      "total_payments": 13844,
+      "outstanding_balance": 788,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 11134,
+        "total_payments": 10798,
+        "current_balance": 336,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-10",
+        "closed_date": "2025-11-23"
+      },
+      {
+        "hsp_account_id": "HSP000133501",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3498,
+        "total_payments": 3046,
+        "current_balance": 452,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-20",
+        "closed_date": "2026-03-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101335",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

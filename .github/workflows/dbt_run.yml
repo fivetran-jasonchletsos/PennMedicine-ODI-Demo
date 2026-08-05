@@ -1,0 +1,40 @@
+name: dbt Run — Post Fivetran Sync (Snowflake)
+
+on:
+  schedule:
+    - cron: "55 2,8,14,20 * * *"
+  workflow_dispatch:
+
+jobs:
+  dbt_run:
+    name: Run dbt models on Snowflake
+    runs-on: ubuntu-latest
+
+    env:
+      DBT_PROFILES_DIR: ./transform
+      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+      SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
+      SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
+      SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+      SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - run: pip install "dbt-core==1.8.9" "dbt-snowflake==1.8.4"
+
+      - working-directory: transform
+        run: dbt deps --profiles-dir .
+
+      - working-directory: transform
+        run: dbt run --profiles-dir . --target dev
+
+      - working-directory: transform
+        run: dbt test --profiles-dir . --target dev
+        continue-on-error: true

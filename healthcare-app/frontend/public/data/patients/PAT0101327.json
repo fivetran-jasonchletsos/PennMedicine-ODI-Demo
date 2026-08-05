@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0101327",
+    "med_rec_num": "MRN0201327",
+    "full_name": "Barbara Taylor",
+    "birth_date": "1950-11-06",
+    "age": 76,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 15,
+    "total_charges": 5187,
+    "latitude": 40.62783,
+    "longitude": -80.05403,
+    "last_encounter_date": "2026-03-22",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2368 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 458-9141",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101327",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001327-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1409
+      },
+      {
+        "pat_enc_csn_id": "0001327-001",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0001327-002",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001327-003",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001327-004",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001327-005",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0001327-006",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0001327-007",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0001327-008",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001327-009",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001327-010",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001327-011",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0001327-012",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001327-013",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001327-014",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 254
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101327",
+    "diagnoses": [
+      {
+        "dx_id": "0001327-dx-000",
+        "pat_enc_csn_id": "0001327-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0001327-acu-000",
+        "pat_enc_csn_id": "0001327-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0001327-acu-001",
+        "pat_enc_csn_id": "0001327-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      },
+      {
+        "dx_id": "0001327-acu-002",
+        "pat_enc_csn_id": "0001327-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101327",
+    "summary": {
+      "total_charges": 5187,
+      "total_payments": 3113,
+      "outstanding_balance": 2074,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5187,
+        "total_payments": 3113,
+        "current_balance": 2074,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-10-09",
+        "closed_date": "2025-12-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101327",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

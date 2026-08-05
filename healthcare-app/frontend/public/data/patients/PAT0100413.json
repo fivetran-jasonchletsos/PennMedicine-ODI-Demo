@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0100413",
+    "med_rec_num": "MRN0200413",
+    "full_name": "George Brown",
+    "birth_date": "1990-10-07",
+    "age": 36,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 13140,
+    "latitude": 40.34594,
+    "longitude": -79.84983,
+    "last_encounter_date": "2026-05-01",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1848 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 625-5184",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100413",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000413-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000413-001",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000413-002",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000413-003",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 5545
+      },
+      {
+        "pat_enc_csn_id": "0000413-004",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000413-005",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000413-006",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 5279
+      },
+      {
+        "pat_enc_csn_id": "0000413-007",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000413-008",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000413-009",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000413-010",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000413-011",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 165
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100413",
+    "diagnoses": [
+      {
+        "dx_id": "0000413-dx-000",
+        "pat_enc_csn_id": "0000413-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000413-dx-001",
+        "pat_enc_csn_id": "0000413-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000413-acu-000",
+        "pat_enc_csn_id": "0000413-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0000413-acu-001",
+        "pat_enc_csn_id": "0000413-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      },
+      {
+        "dx_id": "0000413-acu-002",
+        "pat_enc_csn_id": "0000413-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100413",
+    "summary": {
+      "total_charges": 13140,
+      "total_payments": 10655,
+      "outstanding_balance": 2485,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000041300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7244,
+        "total_payments": 5481,
+        "current_balance": 1763,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-03",
+        "closed_date": "2026-01-26"
+      },
+      {
+        "hsp_account_id": "HSP000041301",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2012,
+        "total_payments": 1751,
+        "current_balance": 261,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-04-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000041302",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 3884,
+        "total_payments": 3423,
+        "current_balance": 461,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100413",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

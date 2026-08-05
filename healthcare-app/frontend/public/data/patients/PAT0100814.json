@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0100814",
+    "med_rec_num": "MRN0200814",
+    "full_name": "Michelle Miller",
+    "birth_date": "1959-04-22",
+    "age": 67,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 38035,
+    "latitude": 40.45015,
+    "longitude": -80.01203,
+    "last_encounter_date": "2025-12-12",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4453 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 719-9627",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100814",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000814-000",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 37752
+      },
+      {
+        "pat_enc_csn_id": "0000814-001",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000814-002",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 111
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100814",
+    "diagnoses": [
+      {
+        "dx_id": "0000814-acu-000",
+        "pat_enc_csn_id": "0000814-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-12"
+      },
+      {
+        "dx_id": "0000814-acu-002",
+        "pat_enc_csn_id": "0000814-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100814",
+    "summary": {
+      "total_charges": 38035,
+      "total_payments": 33731,
+      "outstanding_balance": 4304,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 38035,
+        "total_payments": 33731,
+        "current_balance": 4304,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-22",
+        "closed_date": "2026-04-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100814",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

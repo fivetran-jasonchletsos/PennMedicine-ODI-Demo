@@ -1,0 +1,234 @@
+{
+  "patient": {
+    "pat_id": "PAT0100747",
+    "med_rec_num": "MRN0200747",
+    "full_name": "Robert O'Brien",
+    "birth_date": "1967-11-21",
+    "age": 59,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 3327,
+    "latitude": 40.52606,
+    "longitude": -79.95983,
+    "last_encounter_date": "2026-03-04",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8084 Highland St",
+    "state": "PA",
+    "phone": "(412) 390-2207",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100747",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000747-000",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0000747-001",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000747-002",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000747-003",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000747-004",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000747-005",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000747-006",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000747-007",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000747-008",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000747-009",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000747-010",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 410
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100747",
+    "diagnoses": [
+      {
+        "dx_id": "0000747-dx-000",
+        "pat_enc_csn_id": "0000747-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100747",
+    "summary": {
+      "total_charges": 3327,
+      "total_payments": 3003,
+      "outstanding_balance": 324,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000074700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3327,
+        "total_payments": 3003,
+        "current_balance": 324,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-19",
+        "closed_date": "2026-04-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100747",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

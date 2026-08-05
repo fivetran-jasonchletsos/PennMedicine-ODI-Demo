@@ -1,0 +1,267 @@
+{
+  "patient": {
+    "pat_id": "PAT0100177",
+    "med_rec_num": "MRN0200177",
+    "full_name": "Ashley Kim",
+    "birth_date": "1950-12-26",
+    "age": 76,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 37230,
+    "latitude": 40.52457,
+    "longitude": -79.95539,
+    "last_encounter_date": "2026-02-01",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7306 Centre St",
+    "state": "PA",
+    "phone": "(412) 347-8835",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100177",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000177-000",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000177-001",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 34991
+      },
+      {
+        "pat_enc_csn_id": "0000177-002",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0000177-003",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000177-004",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000177-005",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000177-006",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000177-007",
+        "contact_date": "2024-12-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000177-008",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000177-009",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 198
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100177",
+    "diagnoses": [
+      {
+        "dx_id": "0000177-dx-000",
+        "pat_enc_csn_id": "0000177-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000177-dx-001",
+        "pat_enc_csn_id": "0000177-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000177-dx-002",
+        "pat_enc_csn_id": "0000177-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000177-acu-000",
+        "pat_enc_csn_id": "0000177-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-01"
+      },
+      {
+        "dx_id": "0000177-acu-001",
+        "pat_enc_csn_id": "0000177-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100177",
+    "summary": {
+      "total_charges": 37230,
+      "total_payments": 26166,
+      "outstanding_balance": 11064,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000017700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 30082,
+        "total_payments": 20547,
+        "current_balance": 9535,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-03-05",
+        "closed_date": "2025-12-28"
+      },
+      {
+        "hsp_account_id": "HSP000017701",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7148,
+        "total_payments": 5619,
+        "current_balance": 1529,
+        "primary_payer": "Self-pay",
+        "opened_date": "2026-02-26",
+        "closed_date": "2026-01-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100177",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

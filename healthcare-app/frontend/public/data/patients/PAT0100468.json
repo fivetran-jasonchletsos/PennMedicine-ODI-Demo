@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0100468",
+    "med_rec_num": "MRN0200468",
+    "full_name": "Maria Jones",
+    "birth_date": "1953-05-03",
+    "age": 73,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 35984,
+    "latitude": 40.45622,
+    "longitude": -79.9119,
+    "last_encounter_date": "2026-04-17",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2527 Walnut St",
+    "state": "PA",
+    "phone": "(412) 629-3160",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100468",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000468-000",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000468-001",
+        "contact_date": "2026-03-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000468-002",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000468-003",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 33483
+      },
+      {
+        "pat_enc_csn_id": "0000468-004",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000468-005",
+        "contact_date": "2025-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000468-006",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000468-007",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0000468-008",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 325
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100468",
+    "diagnoses": [
+      {
+        "dx_id": "0000468-dx-000",
+        "pat_enc_csn_id": "0000468-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000468-dx-001",
+        "pat_enc_csn_id": "0000468-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000468-acu-002",
+        "pat_enc_csn_id": "0000468-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100468",
+    "summary": {
+      "total_charges": 35984,
+      "total_payments": 31977,
+      "outstanding_balance": 4007,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 35984,
+        "total_payments": 31977,
+        "current_balance": 4007,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-02-25",
+        "closed_date": "2025-12-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100468",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

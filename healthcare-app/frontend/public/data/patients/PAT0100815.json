@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0100815",
+    "med_rec_num": "MRN0200815",
+    "full_name": "Reshma Lopez",
+    "birth_date": "1965-05-08",
+    "age": 61,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 2593,
+    "latitude": 40.4945,
+    "longitude": -79.90732,
+    "last_encounter_date": "2026-01-15",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1627 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 373-7532",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100815",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000815-000",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000815-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000815-002",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000815-003",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000815-004",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000815-005",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0000815-006",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000815-007",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000815-008",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000815-009",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 98
+      },
+      {
+        "pat_enc_csn_id": "0000815-010",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 269
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100815",
+    "diagnoses": [
+      {
+        "dx_id": "0000815-dx-000",
+        "pat_enc_csn_id": "0000815-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000815-dx-001",
+        "pat_enc_csn_id": "0000815-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000815-dx-002",
+        "pat_enc_csn_id": "0000815-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000815-acu-002",
+        "pat_enc_csn_id": "0000815-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100815",
+    "summary": {
+      "total_charges": 2593,
+      "total_payments": 2333,
+      "outstanding_balance": 260,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2593,
+        "total_payments": 2333,
+        "current_balance": 260,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-13",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100815",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

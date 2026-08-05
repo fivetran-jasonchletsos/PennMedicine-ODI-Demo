@@ -1,0 +1,279 @@
+{
+  "patient": {
+    "pat_id": "PAT0101403",
+    "med_rec_num": "MRN0201403",
+    "full_name": "Sandra Davis",
+    "birth_date": "1965-09-16",
+    "age": 61,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 46122,
+    "latitude": 40.47094,
+    "longitude": -79.96061,
+    "last_encounter_date": "2026-02-24",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1958 Liberty St",
+    "state": "PA",
+    "phone": "(412) 817-3927",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101403",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001403-000",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001403-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001403-002",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 2210
+      },
+      {
+        "pat_enc_csn_id": "0001403-003",
+        "contact_date": "2025-09-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 33093
+      },
+      {
+        "pat_enc_csn_id": "0001403-004",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001403-005",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0001403-006",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0001403-007",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6222
+      },
+      {
+        "pat_enc_csn_id": "0001403-008",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 2411
+      },
+      {
+        "pat_enc_csn_id": "0001403-009",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0001403-010",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001403-011",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101403",
+    "diagnoses": [
+      {
+        "dx_id": "0001403-dx-000",
+        "pat_enc_csn_id": "0001403-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001403-acu-000",
+        "pat_enc_csn_id": "0001403-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      },
+      {
+        "dx_id": "0001403-acu-001",
+        "pat_enc_csn_id": "0001403-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      },
+      {
+        "dx_id": "0001403-acu-002",
+        "pat_enc_csn_id": "0001403-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101403",
+    "summary": {
+      "total_charges": 46122,
+      "total_payments": 41976,
+      "outstanding_balance": 4146,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000140300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5978,
+        "total_payments": 4252,
+        "current_balance": 1726,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-04-19",
+        "closed_date": "2026-04-02"
+      },
+      {
+        "hsp_account_id": "HSP000140301",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 40144,
+        "total_payments": 37724,
+        "current_balance": 2420,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-12-30",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101403",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

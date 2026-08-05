@@ -1,0 +1,244 @@
+{
+  "patient": {
+    "pat_id": "PAT0101270",
+    "med_rec_num": "MRN0201270",
+    "full_name": "Sofia Greene",
+    "birth_date": "1998-05-26",
+    "age": 28,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 8,
+    "total_charges": 2048,
+    "latitude": 40.46533,
+    "longitude": -79.91219,
+    "last_encounter_date": "2025-08-07",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3924 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 367-1085",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101270",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001270-000",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001270-001",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0001270-002",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001270-003",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001270-004",
+        "contact_date": "2024-12-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0001270-005",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001270-006",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0001270-007",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 341
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101270",
+    "diagnoses": [
+      {
+        "dx_id": "0001270-dx-000",
+        "pat_enc_csn_id": "0001270-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0001270-dx-001",
+        "pat_enc_csn_id": "0001270-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001270-dx-002",
+        "pat_enc_csn_id": "0001270-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001270-acu-000",
+        "pat_enc_csn_id": "0001270-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-07"
+      },
+      {
+        "dx_id": "0001270-acu-001",
+        "pat_enc_csn_id": "0001270-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-07-30"
+      },
+      {
+        "dx_id": "0001270-acu-002",
+        "pat_enc_csn_id": "0001270-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-04-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101270",
+    "summary": {
+      "total_charges": 2048,
+      "total_payments": 1278,
+      "outstanding_balance": 770,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000127000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2048,
+        "total_payments": 1278,
+        "current_balance": 770,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-26",
+        "closed_date": "2026-03-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101270",
+    "comparables": [
+      {
+        "pat_id": "PAT0100023",
+        "full_name": "Richard Wilson",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 26025
+      },
+      {
+        "pat_id": "PAT0100140",
+        "full_name": "Jennifer Davis",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 30330
+      },
+      {
+        "pat_id": "PAT0100199",
+        "full_name": "Thomas Wong",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 26545
+      },
+      {
+        "pat_id": "PAT0100314",
+        "full_name": "Reshma Taylor",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 8482
+      },
+      {
+        "pat_id": "PAT0100332",
+        "full_name": "Mark Garcia",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 11166
+      },
+      {
+        "pat_id": "PAT0100343",
+        "full_name": "Reshma Nguyen",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4356
+      }
+    ]
+  }
+}

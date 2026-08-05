@@ -1,0 +1,314 @@
+{
+  "patient": {
+    "pat_id": "PAT0101116",
+    "med_rec_num": "MRN0201116",
+    "full_name": "Carol Moore",
+    "birth_date": "1964-02-18",
+    "age": 62,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 15,
+    "total_charges": 31057,
+    "latitude": 40.44729,
+    "longitude": -80.00055,
+    "last_encounter_date": "2026-04-25",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5723 Highland St",
+    "state": "PA",
+    "phone": "(412) 444-8987",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101116",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001116-000",
+        "contact_date": "2026-04-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001116-001",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001116-002",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001116-003",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001116-004",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001116-005",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0001116-006",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001116-007",
+        "contact_date": "2025-07-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0001116-008",
+        "contact_date": "2025-05-23",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 21601
+      },
+      {
+        "pat_enc_csn_id": "0001116-009",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001116-010",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 7271
+      },
+      {
+        "pat_enc_csn_id": "0001116-011",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001116-012",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001116-013",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 62
+      },
+      {
+        "pat_enc_csn_id": "0001116-014",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 145
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101116",
+    "diagnoses": [
+      {
+        "dx_id": "0001116-dx-000",
+        "pat_enc_csn_id": "0001116-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001116-dx-001",
+        "pat_enc_csn_id": "0001116-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001116-dx-002",
+        "pat_enc_csn_id": "0001116-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0001116-acu-000",
+        "pat_enc_csn_id": "0001116-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-25"
+      },
+      {
+        "dx_id": "0001116-acu-001",
+        "pat_enc_csn_id": "0001116-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-11-26"
+      },
+      {
+        "dx_id": "0001116-acu-002",
+        "pat_enc_csn_id": "0001116-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101116",
+    "summary": {
+      "total_charges": 31057,
+      "total_payments": 22563,
+      "outstanding_balance": 8494,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000111600",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 31057,
+        "total_payments": 22563,
+        "current_balance": 8494,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101116",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

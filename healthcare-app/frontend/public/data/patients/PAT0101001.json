@@ -1,0 +1,227 @@
+{
+  "patient": {
+    "pat_id": "PAT0101001",
+    "med_rec_num": "MRN0201001",
+    "full_name": "Barbara Jackson",
+    "birth_date": "1970-05-13",
+    "age": 56,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 3,
+    "encounter_count": 6,
+    "total_charges": 43588,
+    "latitude": 40.44279,
+    "longitude": -79.95566,
+    "last_encounter_date": "2025-09-25",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6555 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 521-5323",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101001",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001001-000",
+        "contact_date": "2025-09-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001001-001",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 15347
+      },
+      {
+        "pat_enc_csn_id": "0001001-002",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 27482
+      },
+      {
+        "pat_enc_csn_id": "0001001-003",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001001-004",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0001001-005",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 180
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101001",
+    "diagnoses": [
+      {
+        "dx_id": "0001001-dx-000",
+        "pat_enc_csn_id": "0001001-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0001001-dx-001",
+        "pat_enc_csn_id": "0001001-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001001-dx-002",
+        "pat_enc_csn_id": "0001001-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001001-acu-001",
+        "pat_enc_csn_id": "0001001-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-03-11"
+      },
+      {
+        "dx_id": "0001001-acu-002",
+        "pat_enc_csn_id": "0001001-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-11-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101001",
+    "summary": {
+      "total_charges": 43588,
+      "total_payments": 38372,
+      "outstanding_balance": 5216,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000100100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 12215,
+        "total_payments": 9772,
+        "current_balance": 2443,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-02",
+        "closed_date": "2026-01-05"
+      },
+      {
+        "hsp_account_id": "HSP000100101",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 31373,
+        "total_payments": 28600,
+        "current_balance": 2773,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-04-30",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101001",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

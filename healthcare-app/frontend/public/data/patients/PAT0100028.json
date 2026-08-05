@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0100028",
+    "med_rec_num": "MRN0200028",
+    "full_name": "Sharon Nguyen",
+    "birth_date": "1963-09-22",
+    "age": 63,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 1243,
+    "latitude": 40.36117,
+    "longitude": -79.90397,
+    "last_encounter_date": "2026-03-05",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "623 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 612-3356",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100028",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000028-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000028-001",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000028-002",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000028-003",
+        "contact_date": "2024-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100028",
+    "diagnoses": [
+      {
+        "dx_id": "0000028-dx-000",
+        "pat_enc_csn_id": "0000028-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000028-acu-000",
+        "pat_enc_csn_id": "0000028-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100028",
+    "summary": {
+      "total_charges": 1243,
+      "total_payments": 1071,
+      "outstanding_balance": 172,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000002800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1243,
+        "total_payments": 1071,
+        "current_balance": 172,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-04-26",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100028",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

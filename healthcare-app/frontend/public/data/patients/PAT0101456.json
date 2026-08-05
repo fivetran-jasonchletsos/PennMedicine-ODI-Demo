@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101456",
+    "med_rec_num": "MRN0201456",
+    "full_name": "Elizabeth Jackson",
+    "birth_date": "1951-03-22",
+    "age": 75,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 21313,
+    "latitude": 40.33118,
+    "longitude": -80.03744,
+    "last_encounter_date": "2026-04-23",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6442 Liberty St",
+    "state": "PA",
+    "phone": "(412) 419-7798",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101456",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001456-000",
+        "contact_date": "2026-04-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 5200
+      },
+      {
+        "pat_enc_csn_id": "0001456-001",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 3075
+      },
+      {
+        "pat_enc_csn_id": "0001456-002",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0001456-003",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001456-004",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0001456-005",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0001456-006",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 7169
+      },
+      {
+        "pat_enc_csn_id": "0001456-007",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001456-008",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0001456-009",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001456-010",
+        "contact_date": "2024-10-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 3779
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101456",
+    "diagnoses": [
+      {
+        "dx_id": "0001456-acu-000",
+        "pat_enc_csn_id": "0001456-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-23"
+      },
+      {
+        "dx_id": "0001456-acu-001",
+        "pat_enc_csn_id": "0001456-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101456",
+    "summary": {
+      "total_charges": 21313,
+      "total_payments": 13810,
+      "outstanding_balance": 7503,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000145600",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 21313,
+        "total_payments": 13810,
+        "current_balance": 7503,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-06",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101456",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101493",
+        "full_name": "Anil Okonkwo",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 661
+      }
+    ]
+  }
+}

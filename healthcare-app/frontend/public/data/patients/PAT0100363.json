@@ -1,0 +1,343 @@
+{
+  "patient": {
+    "pat_id": "PAT0100363",
+    "med_rec_num": "MRN0200363",
+    "full_name": "Susan Nguyen",
+    "birth_date": "1949-11-03",
+    "age": 77,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 4,
+    "encounter_count": 16,
+    "total_charges": 65602,
+    "latitude": 40.46665,
+    "longitude": -79.91348,
+    "last_encounter_date": "2026-01-27",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "218 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 792-8507",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100363",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000363-000",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000363-001",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000363-002",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000363-003",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000363-004",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5942
+      },
+      {
+        "pat_enc_csn_id": "0000363-005",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000363-006",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000363-007",
+        "contact_date": "2025-04-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 2077
+      },
+      {
+        "pat_enc_csn_id": "0000363-008",
+        "contact_date": "2025-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000363-009",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 26660
+      },
+      {
+        "pat_enc_csn_id": "0000363-010",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000363-011",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000363-012",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000363-013",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0000363-014",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 27664
+      },
+      {
+        "pat_enc_csn_id": "0000363-015",
+        "contact_date": "2024-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 232
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100363",
+    "diagnoses": [
+      {
+        "dx_id": "0000363-dx-000",
+        "pat_enc_csn_id": "0000363-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000363-dx-001",
+        "pat_enc_csn_id": "0000363-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000363-dx-002",
+        "pat_enc_csn_id": "0000363-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000363-dx-003",
+        "pat_enc_csn_id": "0000363-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000363-acu-000",
+        "pat_enc_csn_id": "0000363-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-27"
+      },
+      {
+        "dx_id": "0000363-acu-001",
+        "pat_enc_csn_id": "0000363-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-21"
+      },
+      {
+        "dx_id": "0000363-acu-002",
+        "pat_enc_csn_id": "0000363-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-11-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100363",
+    "summary": {
+      "total_charges": 65602,
+      "total_payments": 49993,
+      "outstanding_balance": 15609,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000036300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 25527,
+        "total_payments": 20795,
+        "current_balance": 4732,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-26",
+        "closed_date": "2026-03-15"
+      },
+      {
+        "hsp_account_id": "HSP000036301",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 40075,
+        "total_payments": 29198,
+        "current_balance": 10877,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-19",
+        "closed_date": "2026-04-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100363",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "patient": {
+    "pat_id": "PAT0100513",
+    "med_rec_num": "MRN0200513",
+    "full_name": "Andrew Singh",
+    "birth_date": "1995-01-28",
+    "age": 31,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 10793,
+    "latitude": 40.50171,
+    "longitude": -79.75961,
+    "last_encounter_date": "2025-12-14",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3612 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 222-1744",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100513",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000513-000",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 3984
+      },
+      {
+        "pat_enc_csn_id": "0000513-001",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000513-002",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000513-003",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 5283
+      },
+      {
+        "pat_enc_csn_id": "0000513-004",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000513-005",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000513-006",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 409
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100513",
+    "diagnoses": [
+      {
+        "dx_id": "0000513-dx-000",
+        "pat_enc_csn_id": "0000513-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000513-acu-000",
+        "pat_enc_csn_id": "0000513-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100513",
+    "summary": {
+      "total_charges": 10793,
+      "total_payments": 7302,
+      "outstanding_balance": 3491,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000051300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 7504,
+        "total_payments": 4560,
+        "current_balance": 2944,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-09-29",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000051301",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3289,
+        "total_payments": 2742,
+        "current_balance": 547,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-06-13",
+        "closed_date": "2026-02-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100513",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

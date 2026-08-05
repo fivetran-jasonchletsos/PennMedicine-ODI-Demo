@@ -1,0 +1,248 @@
+{
+  "patient": {
+    "pat_id": "PAT0100005",
+    "med_rec_num": "MRN0200005",
+    "full_name": "Aisha Moore",
+    "birth_date": "1981-10-23",
+    "age": 45,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 8414,
+    "latitude": 40.37627,
+    "longitude": -80.0507,
+    "last_encounter_date": "2026-03-18",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2583 Liberty St",
+    "state": "PA",
+    "phone": "(412) 765-2229",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100005",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000005-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000005-001",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000005-002",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000005-003",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000005-004",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 5926
+      },
+      {
+        "pat_enc_csn_id": "0000005-005",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0000005-006",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000005-007",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000005-008",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000005-009",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 412
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100005",
+    "diagnoses": [
+      {
+        "dx_id": "0000005-dx-000",
+        "pat_enc_csn_id": "0000005-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000005-acu-000",
+        "pat_enc_csn_id": "0000005-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0000005-acu-001",
+        "pat_enc_csn_id": "0000005-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-28"
+      },
+      {
+        "dx_id": "0000005-acu-002",
+        "pat_enc_csn_id": "0000005-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-08-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100005",
+    "summary": {
+      "total_charges": 8414,
+      "total_payments": 7633,
+      "outstanding_balance": 781,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000000500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8414,
+        "total_payments": 7633,
+        "current_balance": 781,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-01-02",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100005",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

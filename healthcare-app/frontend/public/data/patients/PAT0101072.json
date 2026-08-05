@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0101072",
+    "med_rec_num": "MRN0201072",
+    "full_name": "Hassan Anderson",
+    "birth_date": "1960-10-11",
+    "age": 66,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 4,
+    "encounter_count": 12,
+    "total_charges": 24016,
+    "latitude": 40.45895,
+    "longitude": -80.00843,
+    "last_encounter_date": "2026-05-11",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7289 Murray St",
+    "state": "PA",
+    "phone": "(412) 881-6296",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101072",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001072-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001072-001",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0001072-002",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001072-003",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001072-004",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0001072-005",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 87
+      },
+      {
+        "pat_enc_csn_id": "0001072-006",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001072-007",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0001072-008",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 21164
+      },
+      {
+        "pat_enc_csn_id": "0001072-009",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0001072-010",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0001072-011",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 155
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101072",
+    "diagnoses": [
+      {
+        "dx_id": "0001072-dx-000",
+        "pat_enc_csn_id": "0001072-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1985-05-13"
+      },
+      {
+        "dx_id": "0001072-dx-001",
+        "pat_enc_csn_id": "0001072-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001072-dx-002",
+        "pat_enc_csn_id": "0001072-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0001072-dx-003",
+        "pat_enc_csn_id": "0001072-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001072-acu-000",
+        "pat_enc_csn_id": "0001072-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0001072-acu-002",
+        "pat_enc_csn_id": "0001072-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101072",
+    "summary": {
+      "total_charges": 24016,
+      "total_payments": 21663,
+      "outstanding_balance": 2353,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000107200",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 24016,
+        "total_payments": 21663,
+        "current_balance": 2353,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-03-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101072",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

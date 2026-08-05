@@ -1,0 +1,161 @@
+# ============================================
+# RDS SQL Server Instance
+# ============================================
+# Managed SQL Server database for Epic Clarity demo
+# Using Express edition (free tier eligible)
+
+resource "aws_db_instance" "sqlserver" {
+  identifier = "healthcare-epic-clarity-demo"
+
+  # SQL Server Configuration
+  engine         = "sqlserver-ex" # Express edition (free license)
+  engine_version = "15.00.4335.1.v1"
+  instance_class = "db.t3.small"
+
+  # Storage — max_allocated_storage not supported on SQL Server Express
+  allocated_storage = 20
+  storage_type      = "gp3"
+  storage_encrypted = true
+
+  # Credentials (db_name not used for SQL Server)
+  username = var.db_username
+  password = var.db_password
+  port     = 1433
+
+  # Network
+  publicly_accessible    = true
+  vpc_security_group_ids = [aws_security_group.rds_sg.id]
+  db_subnet_group_name   = aws_db_subnet_group.rds_subnet_group.name
+
+  # Backup & Maintenance
+  backup_retention_period = 1
+  backup_window           = "03:00-04:00"
+  maintenance_window      = "mon:04:00-mon:05:00"
+
+  # Demo — no need for final snapshot or deletion protection
+  skip_final_snapshot      = true
+  deletion_protection      = false
+  delete_automated_backups = true
+
+  # Monitoring
+  enabled_cloudwatch_logs_exports = ["error"]
+  monitoring_interval             = 60
+  monitoring_role_arn             = aws_iam_role.rds_monitoring.arn
+
+  # License
+  license_model              = "license-included"
+  auto_minor_version_upgrade = true
+  apply_immediately          = true
+
+  # Character Set
+  character_set_name = "Latin1_General_CI_AS"
+
+  tags = {
+    Name        = "healthcare-epic-clarity-demo"
+    Environment = "demo"
+    Project     = "healthcare-epic-mdls"
+    ManagedBy   = "terraform"
+  }
+}
+
+# ============================================
+# DB Subnet Group
+# ============================================
+# Required for RDS instances
+
+resource "aws_db_subnet_group" "rds_subnet_group" {
+  name       = "healthcare-demo-subnet-group"
+  subnet_ids = data.aws_subnets.default.ids
+  
+  tags = {
+    Name        = "healthcare-demo-subnet-group"
+    Environment = "demo"
+    ManagedBy   = "terraform"
+  }
+}
+
+# Get default VPC subnets
+data "aws_subnets" "default" {
+  filter {
+    name   = "vpc-id"
+    values = [data.aws_vpc.default.id]
+  }
+}
+
+# ============================================
+# Security Group for RDS
+# ============================================
+
+resource "aws_security_group" "rds_sg" {
+  name        = "healthcare-demo-rds-sg-v2"
+  description = "Security group for Healthcare Epic Clarity RDS SQL Server"
+  vpc_id      = data.aws_vpc.default.id
+  
+  # SQL Server port access from Fivetran IPs
+  dynamic "ingress" {
+    for_each = var.fivetran_ips
+    content {
+      description = "Fivetran IP: ${ingress.value}"
+      from_port   = 1433
+      to_port     = 1433
+      protocol    = "tcp"
+      cidr_blocks = [ingress.value]
+    }
+  }
+  
+  # SQL Server port access from your IP (for testing)
+  ingress {
+    description = "Your IP for testing"
+    from_port   = 1433
+    to_port     = 1433
+    protocol    = "tcp"
+    cidr_blocks = ["96.245.118.254/32"]
+  }
+  
+  # Outbound - allow all
+  egress {
+    description = "Allow all outbound"
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+  
+  tags = {
+    Name        = "healthcare-demo-rds-sg"
+    Environment = "demo"
+    ManagedBy   = "terraform"
+  }
+}
+
+# ============================================
+# IAM Role for Enhanced Monitoring
+# ============================================
+
+resource "aws_iam_role" "rds_monitoring" {
+  name = "healthcare-demo-rds-monitoring-role"
+  
+  assume_role_policy = jsonencode({
+    Version = "2012-10-17"
+    Statement = [
+      {
+        Action = "sts:AssumeRole"
+        Effect = "Allow"
+        Principal = {
+          Service = "monitoring.rds.amazonaws.com"
+        }
+      }
+    ]
+  })
+  
+  tags = {
+    Name        = "healthcare-demo-rds-monitoring-role"
+    Environment = "demo"
+    ManagedBy   = "terraform"
+  }
+}
+
+resource "aws_iam_role_policy_attachment" "rds_monitoring" {
+  role       = aws_iam_role.rds_monitoring.name
+  policy_arn = "arn:aws:iam::aws:policy/service-role/AmazonRDSEnhancedMonitoringRole"
+}

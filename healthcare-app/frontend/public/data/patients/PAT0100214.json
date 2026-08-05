@@ -1,0 +1,334 @@
+{
+  "patient": {
+    "pat_id": "PAT0100214",
+    "med_rec_num": "MRN0200214",
+    "full_name": "David Wilson",
+    "birth_date": "1954-05-26",
+    "age": 72,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 18,
+    "total_charges": 32254,
+    "latitude": 40.53173,
+    "longitude": -79.95943,
+    "last_encounter_date": "2026-04-18",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "526 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 970-7336",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100214",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000214-000",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000214-001",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 7273
+      },
+      {
+        "pat_enc_csn_id": "0000214-002",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000214-003",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000214-004",
+        "contact_date": "2026-01-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0000214-005",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000214-006",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000214-007",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000214-008",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000214-009",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000214-010",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 20793
+      },
+      {
+        "pat_enc_csn_id": "0000214-011",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000214-012",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000214-013",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000214-014",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000214-015",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000214-016",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000214-017",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 356
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100214",
+    "diagnoses": [
+      {
+        "dx_id": "0000214-dx-000",
+        "pat_enc_csn_id": "0000214-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000214-dx-001",
+        "pat_enc_csn_id": "0000214-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100214",
+    "summary": {
+      "total_charges": 32254,
+      "total_payments": 26334,
+      "outstanding_balance": 5920,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000021400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2254,
+        "total_payments": 1716,
+        "current_balance": 538,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-27",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000021401",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 27200,
+        "total_payments": 22850,
+        "current_balance": 4350,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000021402",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2800,
+        "total_payments": 1768,
+        "current_balance": 1032,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-12",
+        "closed_date": "2026-03-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100214",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

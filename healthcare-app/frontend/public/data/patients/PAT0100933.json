@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100933",
+    "med_rec_num": "MRN0200933",
+    "full_name": "Mark O'Brien",
+    "birth_date": "1960-10-15",
+    "age": 66,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 5600,
+    "latitude": 40.44638,
+    "longitude": -79.93313,
+    "last_encounter_date": "2026-03-07",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7025 Beacon St",
+    "state": "PA",
+    "phone": "(412) 986-5387",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100933",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000933-000",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000933-001",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000933-002",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000933-003",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000933-004",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000933-005",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000933-006",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000933-007",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000933-008",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000933-009",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3134
+      },
+      {
+        "pat_enc_csn_id": "0000933-010",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100933",
+    "diagnoses": [
+      {
+        "dx_id": "0000933-dx-000",
+        "pat_enc_csn_id": "0000933-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000933-acu-001",
+        "pat_enc_csn_id": "0000933-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-25"
+      },
+      {
+        "dx_id": "0000933-acu-002",
+        "pat_enc_csn_id": "0000933-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-07-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100933",
+    "summary": {
+      "total_charges": 5600,
+      "total_payments": 3373,
+      "outstanding_balance": 2227,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000093300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5600,
+        "total_payments": 3373,
+        "current_balance": 2227,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-03-19",
+        "closed_date": "2026-02-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100933",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

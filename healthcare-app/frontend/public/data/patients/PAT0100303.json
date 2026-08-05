@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100303",
+    "med_rec_num": "MRN0200303",
+    "full_name": "Mary Rodriguez",
+    "birth_date": "1943-12-07",
+    "age": 83,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 35746,
+    "latitude": 40.47278,
+    "longitude": -79.96678,
+    "last_encounter_date": "2026-03-04",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5044 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 217-8965",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100303",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000303-000",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000303-001",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000303-002",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0000303-003",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000303-004",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000303-005",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000303-006",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000303-007",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000303-008",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000303-009",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000303-010",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 33219
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100303",
+    "diagnoses": [
+      {
+        "dx_id": "0000303-dx-000",
+        "pat_enc_csn_id": "0000303-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1964-05-13"
+      },
+      {
+        "dx_id": "0000303-dx-001",
+        "pat_enc_csn_id": "0000303-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1972-05-13"
+      },
+      {
+        "dx_id": "0000303-dx-002",
+        "pat_enc_csn_id": "0000303-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1975-05-13"
+      },
+      {
+        "dx_id": "0000303-acu-001",
+        "pat_enc_csn_id": "0000303-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-18"
+      },
+      {
+        "dx_id": "0000303-acu-002",
+        "pat_enc_csn_id": "0000303-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-07-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100303",
+    "summary": {
+      "total_charges": 35746,
+      "total_payments": 32472,
+      "outstanding_balance": 3274,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 35746,
+        "total_payments": 32472,
+        "current_balance": 3274,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-02",
+        "closed_date": "2025-12-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100303",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

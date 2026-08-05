@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100819",
+    "med_rec_num": "MRN0200819",
+    "full_name": "Joseph Gonzalez",
+    "birth_date": "1979-10-13",
+    "age": 47,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 8982,
+    "latitude": 40.62952,
+    "longitude": -80.05941,
+    "last_encounter_date": "2026-04-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3127 Murray St",
+    "state": "PA",
+    "phone": "(412) 279-1919",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100819",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000819-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 2169
+      },
+      {
+        "pat_enc_csn_id": "0000819-001",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0000819-002",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000819-003",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000819-004",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000819-005",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000819-006",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000819-007",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000819-008",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 55
+      },
+      {
+        "pat_enc_csn_id": "0000819-009",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 4959
+      },
+      {
+        "pat_enc_csn_id": "0000819-010",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100819",
+    "diagnoses": [
+      {
+        "dx_id": "0000819-acu-000",
+        "pat_enc_csn_id": "0000819-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      },
+      {
+        "dx_id": "0000819-acu-001",
+        "pat_enc_csn_id": "0000819-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0000819-acu-002",
+        "pat_enc_csn_id": "0000819-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100819",
+    "summary": {
+      "total_charges": 8982,
+      "total_payments": 7569,
+      "outstanding_balance": 1413,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8982,
+        "total_payments": 7569,
+        "current_balance": 1413,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-12",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100819",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

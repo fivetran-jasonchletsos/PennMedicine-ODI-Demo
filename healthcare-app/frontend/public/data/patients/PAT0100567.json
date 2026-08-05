@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100567",
+    "med_rec_num": "MRN0200567",
+    "full_name": "Linda Chen",
+    "birth_date": "2004-06-23",
+    "age": 22,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 2517,
+    "latitude": 40.44365,
+    "longitude": -79.99691,
+    "last_encounter_date": "2026-04-13",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5304 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 975-3711",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100567",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000567-000",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000567-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0000567-002",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000567-003",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000567-004",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000567-005",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000567-006",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000567-007",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000567-008",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000567-009",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0000567-010",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 250
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100567",
+    "diagnoses": [
+      {
+        "dx_id": "0000567-dx-000",
+        "pat_enc_csn_id": "0000567-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000567-acu-001",
+        "pat_enc_csn_id": "0000567-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      },
+      {
+        "dx_id": "0000567-acu-002",
+        "pat_enc_csn_id": "0000567-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-09-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100567",
+    "summary": {
+      "total_charges": 2517,
+      "total_payments": 1902,
+      "outstanding_balance": 615,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000056700",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2517,
+        "total_payments": 1902,
+        "current_balance": 615,
+        "primary_payer": "Cigna",
+        "opened_date": "2023-12-09",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100567",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

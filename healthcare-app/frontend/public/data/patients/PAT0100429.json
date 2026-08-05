@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0100429",
+    "med_rec_num": "MRN0200429",
+    "full_name": "Thomas Greene",
+    "birth_date": "1984-02-20",
+    "age": 42,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 974,
+    "latitude": 40.47769,
+    "longitude": -79.82911,
+    "last_encounter_date": "2025-11-11",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5528 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 717-5754",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100429",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000429-000",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000429-001",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000429-002",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 364
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100429",
+    "diagnoses": [
+      {
+        "dx_id": "0000429-acu-000",
+        "pat_enc_csn_id": "0000429-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-11"
+      },
+      {
+        "dx_id": "0000429-acu-001",
+        "pat_enc_csn_id": "0000429-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-04-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100429",
+    "summary": {
+      "total_charges": 974,
+      "total_payments": 623,
+      "outstanding_balance": 351,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000042900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 974,
+        "total_payments": 623,
+        "current_balance": 351,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-06-20",
+        "closed_date": "2026-01-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100429",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100340",
+    "med_rec_num": "MRN0200340",
+    "full_name": "Linda O'Brien",
+    "birth_date": "1969-03-28",
+    "age": 57,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 6270,
+    "latitude": 40.63046,
+    "longitude": -80.06072,
+    "last_encounter_date": "2026-01-13",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7518 Beacon St",
+    "state": "PA",
+    "phone": "(412) 579-7380",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100340",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000340-000",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000340-001",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000340-002",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5142
+      },
+      {
+        "pat_enc_csn_id": "0000340-003",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000340-004",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 416
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100340",
+    "diagnoses": [
+      {
+        "dx_id": "0000340-dx-000",
+        "pat_enc_csn_id": "0000340-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000340-dx-001",
+        "pat_enc_csn_id": "0000340-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000340-acu-000",
+        "pat_enc_csn_id": "0000340-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-13"
+      },
+      {
+        "dx_id": "0000340-acu-001",
+        "pat_enc_csn_id": "0000340-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-05-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100340",
+    "summary": {
+      "total_charges": 6270,
+      "total_payments": 4501,
+      "outstanding_balance": 1769,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000034000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 6270,
+        "total_payments": 4501,
+        "current_balance": 1769,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100340",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

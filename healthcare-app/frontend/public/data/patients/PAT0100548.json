@@ -1,0 +1,214 @@
+{
+  "patient": {
+    "pat_id": "PAT0100548",
+    "med_rec_num": "MRN0200548",
+    "full_name": "Anil Singh",
+    "birth_date": "2026-02-18",
+    "age": 0,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 2590,
+    "latitude": 40.44736,
+    "longitude": -79.96277,
+    "last_encounter_date": "2026-03-10",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3082 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 539-8398",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100548",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000548-000",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000548-001",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000548-002",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000548-003",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000548-004",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000548-005",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000548-006",
+        "contact_date": "2024-10-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000548-007",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000548-008",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 224
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100548",
+    "diagnoses": [
+      {
+        "dx_id": "0000548-acu-000",
+        "pat_enc_csn_id": "0000548-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100548",
+    "summary": {
+      "total_charges": 2590,
+      "total_payments": 2239,
+      "outstanding_balance": 351,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2590,
+        "total_payments": 2239,
+        "current_balance": 351,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-09-15",
+        "closed_date": "2026-01-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100548",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

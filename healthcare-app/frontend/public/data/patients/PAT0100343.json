@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100343",
+    "med_rec_num": "MRN0200343",
+    "full_name": "Reshma Nguyen",
+    "birth_date": "2006-01-26",
+    "age": 20,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 4356,
+    "latitude": 40.36629,
+    "longitude": -79.90672,
+    "last_encounter_date": "2025-11-30",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6669 Forbes St",
+    "state": "PA",
+    "phone": "(412) 693-7655",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100343",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000343-000",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000343-001",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000343-002",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000343-003",
+        "contact_date": "2024-10-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 3467
+      },
+      {
+        "pat_enc_csn_id": "0000343-004",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 392
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100343",
+    "diagnoses": [
+      {
+        "dx_id": "0000343-dx-000",
+        "pat_enc_csn_id": "0000343-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000343-dx-001",
+        "pat_enc_csn_id": "0000343-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000343-acu-001",
+        "pat_enc_csn_id": "0000343-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-10-11"
+      },
+      {
+        "dx_id": "0000343-acu-002",
+        "pat_enc_csn_id": "0000343-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100343",
+    "summary": {
+      "total_charges": 4356,
+      "total_payments": 1174,
+      "outstanding_balance": 3182,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000034300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 4356,
+        "total_payments": 1174,
+        "current_balance": 3182,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-03-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100343",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0100673",
+    "med_rec_num": "MRN0200673",
+    "full_name": "Carol Nguyen",
+    "birth_date": "1950-11-15",
+    "age": 76,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 704,
+    "latitude": 40.47743,
+    "longitude": -79.83938,
+    "last_encounter_date": "2026-04-12",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6504 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 567-7811",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100673",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000673-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000673-001",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000673-002",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 203
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100673",
+    "diagnoses": [
+      {
+        "dx_id": "0000673-acu-001",
+        "pat_enc_csn_id": "0000673-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      },
+      {
+        "dx_id": "0000673-acu-002",
+        "pat_enc_csn_id": "0000673-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-10-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100673",
+    "summary": {
+      "total_charges": 704,
+      "total_payments": 484,
+      "outstanding_balance": 220,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 704,
+        "total_payments": 484,
+        "current_balance": 220,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-03",
+        "closed_date": "2026-01-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100673",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      },
+      {
+        "pat_id": "PAT0101493",
+        "full_name": "Anil Okonkwo",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 661
+      }
+    ]
+  }
+}

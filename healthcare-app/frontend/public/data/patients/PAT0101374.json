@@ -1,0 +1,247 @@
+{
+  "patient": {
+    "pat_id": "PAT0101374",
+    "med_rec_num": "MRN0201374",
+    "full_name": "Margaret Russo",
+    "birth_date": "1962-05-20",
+    "age": 64,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 8,
+    "total_charges": 36857,
+    "latitude": 40.34899,
+    "longitude": -79.85001,
+    "last_encounter_date": "2026-05-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9915 Centre St",
+    "state": "PA",
+    "phone": "(412) 701-5162",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101374",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001374-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0001374-001",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001374-002",
+        "contact_date": "2025-05-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 11128
+      },
+      {
+        "pat_enc_csn_id": "0001374-003",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1707
+      },
+      {
+        "pat_enc_csn_id": "0001374-004",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0001374-005",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 22902
+      },
+      {
+        "pat_enc_csn_id": "0001374-006",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001374-007",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 311
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101374",
+    "diagnoses": [
+      {
+        "dx_id": "0001374-dx-000",
+        "pat_enc_csn_id": "0001374-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001374-dx-001",
+        "pat_enc_csn_id": "0001374-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001374-dx-002",
+        "pat_enc_csn_id": "0001374-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0001374-acu-000",
+        "pat_enc_csn_id": "0001374-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0001374-acu-002",
+        "pat_enc_csn_id": "0001374-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-05-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101374",
+    "summary": {
+      "total_charges": 36857,
+      "total_payments": 28352,
+      "outstanding_balance": 8505,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000137400",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 19644,
+        "total_payments": 12715,
+        "current_balance": 6929,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-12-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000137401",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 17213,
+        "total_payments": 15637,
+        "current_balance": 1576,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-13",
+        "closed_date": "2026-03-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101374",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

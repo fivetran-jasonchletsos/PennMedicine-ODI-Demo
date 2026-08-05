@@ -1,0 +1,248 @@
+{
+  "patient": {
+    "pat_id": "PAT0101014",
+    "med_rec_num": "MRN0201014",
+    "full_name": "Elizabeth Brown",
+    "birth_date": "1938-08-04",
+    "age": 88,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 2508,
+    "latitude": 40.35769,
+    "longitude": -79.90294,
+    "last_encounter_date": "2026-04-26",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2085 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 530-7037",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101014",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001014-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0001014-001",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0001014-002",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0001014-003",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001014-004",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001014-005",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 115
+      },
+      {
+        "pat_enc_csn_id": "0001014-006",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 105
+      },
+      {
+        "pat_enc_csn_id": "0001014-007",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0001014-008",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0001014-009",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 378
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101014",
+    "diagnoses": [
+      {
+        "dx_id": "0001014-dx-000",
+        "pat_enc_csn_id": "0001014-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1959-05-13"
+      },
+      {
+        "dx_id": "0001014-dx-001",
+        "pat_enc_csn_id": "0001014-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1975-05-13"
+      },
+      {
+        "dx_id": "0001014-acu-000",
+        "pat_enc_csn_id": "0001014-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-26"
+      },
+      {
+        "dx_id": "0001014-acu-001",
+        "pat_enc_csn_id": "0001014-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101014",
+    "summary": {
+      "total_charges": 2508,
+      "total_payments": 1814,
+      "outstanding_balance": 694,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000101400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2508,
+        "total_payments": 1814,
+        "current_balance": 694,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-19",
+        "closed_date": "2026-04-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101014",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

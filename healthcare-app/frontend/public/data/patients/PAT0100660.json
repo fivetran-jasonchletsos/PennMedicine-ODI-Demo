@@ -1,0 +1,193 @@
+{
+  "patient": {
+    "pat_id": "PAT0100660",
+    "med_rec_num": "MRN0200660",
+    "full_name": "Reshma Chen",
+    "birth_date": "1974-10-18",
+    "age": 52,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 47934,
+    "latitude": 40.3595,
+    "longitude": -79.89624,
+    "last_encounter_date": "2025-08-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6041 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 478-5847",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100660",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000660-000",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 31974
+      },
+      {
+        "pat_enc_csn_id": "0000660-001",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1429
+      },
+      {
+        "pat_enc_csn_id": "0000660-002",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 14078
+      },
+      {
+        "pat_enc_csn_id": "0000660-003",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000660-004",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 253
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100660",
+    "diagnoses": [
+      {
+        "dx_id": "0000660-dx-000",
+        "pat_enc_csn_id": "0000660-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0000660-acu-002",
+        "pat_enc_csn_id": "0000660-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2024-12-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100660",
+    "summary": {
+      "total_charges": 47934,
+      "total_payments": 34993,
+      "outstanding_balance": 12941,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000066000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 14794,
+        "total_payments": 11712,
+        "current_balance": 3082,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000066001",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 33140,
+        "total_payments": 23281,
+        "current_balance": 9859,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-04",
+        "closed_date": "2026-02-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100660",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "patient": {
+    "pat_id": "PAT0100942",
+    "med_rec_num": "MRN0200942",
+    "full_name": "Reshma Rodriguez",
+    "birth_date": "2008-06-14",
+    "age": 18,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 54491,
+    "latitude": 40.4935,
+    "longitude": -79.90212,
+    "last_encounter_date": "2026-03-14",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5976 Liberty St",
+    "state": "PA",
+    "phone": "(412) 491-3367",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100942",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000942-000",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000942-001",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000942-002",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000942-003",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0000942-004",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000942-005",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000942-006",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000942-007",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000942-008",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 37027
+      },
+      {
+        "pat_enc_csn_id": "0000942-009",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000942-010",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000942-011",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000942-012",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 1800
+      },
+      {
+        "pat_enc_csn_id": "0000942-013",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 12360
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100942",
+    "diagnoses": [
+      {
+        "dx_id": "0000942-dx-000",
+        "pat_enc_csn_id": "0000942-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000942-acu-000",
+        "pat_enc_csn_id": "0000942-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      },
+      {
+        "dx_id": "0000942-acu-002",
+        "pat_enc_csn_id": "0000942-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100942",
+    "summary": {
+      "total_charges": 54491,
+      "total_payments": 46453,
+      "outstanding_balance": 8038,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000094200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 52624,
+        "total_payments": 44937,
+        "current_balance": 7687,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-23",
+        "closed_date": "2025-11-15"
+      },
+      {
+        "hsp_account_id": "HSP000094201",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 531,
+        "total_payments": 331,
+        "current_balance": 200,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-21",
+        "closed_date": "2025-10-28"
+      },
+      {
+        "hsp_account_id": "HSP000094202",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1336,
+        "total_payments": 1185,
+        "current_balance": 151,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-05-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100942",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

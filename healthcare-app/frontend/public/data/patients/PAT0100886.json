@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100886",
+    "med_rec_num": "MRN0200886",
+    "full_name": "Anil Garcia",
+    "birth_date": "1970-07-14",
+    "age": 56,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 8201,
+    "latitude": 40.42538,
+    "longitude": -79.79353,
+    "last_encounter_date": "2025-11-05",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9060 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 992-5049",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100886",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000886-000",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000886-001",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0000886-002",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000886-003",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 1397
+      },
+      {
+        "pat_enc_csn_id": "0000886-004",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000886-005",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 5903
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100886",
+    "diagnoses": [
+      {
+        "dx_id": "0000886-dx-000",
+        "pat_enc_csn_id": "0000886-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000886-acu-000",
+        "pat_enc_csn_id": "0000886-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-05"
+      },
+      {
+        "dx_id": "0000886-acu-001",
+        "pat_enc_csn_id": "0000886-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-04-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100886",
+    "summary": {
+      "total_charges": 8201,
+      "total_payments": 6300,
+      "outstanding_balance": 1901,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000088600",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 8201,
+        "total_payments": 6300,
+        "current_balance": 1901,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100886",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

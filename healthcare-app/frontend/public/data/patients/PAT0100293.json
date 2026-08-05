@@ -1,0 +1,251 @@
+{
+  "patient": {
+    "pat_id": "PAT0100293",
+    "med_rec_num": "MRN0200293",
+    "full_name": "Christopher Williams",
+    "birth_date": "1960-01-26",
+    "age": 66,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 11703,
+    "latitude": 40.3784,
+    "longitude": -80.05595,
+    "last_encounter_date": "2025-11-17",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6577 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 603-1767",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100293",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000293-000",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000293-001",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000293-002",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000293-003",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000293-004",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000293-005",
+        "contact_date": "2025-06-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 4076
+      },
+      {
+        "pat_enc_csn_id": "0000293-006",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5156
+      },
+      {
+        "pat_enc_csn_id": "0000293-007",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000293-008",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000293-009",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 244
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100293",
+    "diagnoses": [
+      {
+        "dx_id": "0000293-dx-000",
+        "pat_enc_csn_id": "0000293-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000293-acu-000",
+        "pat_enc_csn_id": "0000293-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-11-17"
+      },
+      {
+        "dx_id": "0000293-acu-002",
+        "pat_enc_csn_id": "0000293-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-09-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100293",
+    "summary": {
+      "total_charges": 11703,
+      "total_payments": 9383,
+      "outstanding_balance": 2320,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000029300",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 8979,
+        "total_payments": 7357,
+        "current_balance": 1622,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-03-18",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000029301",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2724,
+        "total_payments": 2026,
+        "current_balance": 698,
+        "primary_payer": "Aetna",
+        "opened_date": "2023-12-31",
+        "closed_date": "2026-02-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100293",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

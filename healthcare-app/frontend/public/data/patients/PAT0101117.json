@@ -1,0 +1,224 @@
+{
+  "patient": {
+    "pat_id": "PAT0101117",
+    "med_rec_num": "MRN0201117",
+    "full_name": "Richard Wilson",
+    "birth_date": "1965-06-01",
+    "age": 61,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 32972,
+    "latitude": 40.38141,
+    "longitude": -80.05357,
+    "last_encounter_date": "2026-04-02",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2036 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 586-4790",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101117",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001117-000",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0001117-001",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001117-002",
+        "contact_date": "2026-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001117-003",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 18548
+      },
+      {
+        "pat_enc_csn_id": "0001117-004",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 13227
+      },
+      {
+        "pat_enc_csn_id": "0001117-005",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001117-006",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 123
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101117",
+    "diagnoses": [
+      {
+        "dx_id": "0001117-acu-001",
+        "pat_enc_csn_id": "0001117-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      },
+      {
+        "dx_id": "0001117-acu-002",
+        "pat_enc_csn_id": "0001117-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101117",
+    "summary": {
+      "total_charges": 32972,
+      "total_payments": 28555,
+      "outstanding_balance": 4417,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000111700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3222,
+        "total_payments": 2930,
+        "current_balance": 292,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-26",
+        "closed_date": "2026-05-09"
+      },
+      {
+        "hsp_account_id": "HSP000111701",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 28008,
+        "total_payments": 24125,
+        "current_balance": 3883,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-10",
+        "closed_date": "2025-12-12"
+      },
+      {
+        "hsp_account_id": "HSP000111702",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1742,
+        "total_payments": 1500,
+        "current_balance": 242,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101117",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

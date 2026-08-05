@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100864",
+    "med_rec_num": "MRN0200864",
+    "full_name": "Richard Smith",
+    "birth_date": "1977-07-12",
+    "age": 49,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 4238,
+    "latitude": 40.37969,
+    "longitude": -80.04868,
+    "last_encounter_date": "2026-02-19",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8215 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 552-5699",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100864",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000864-000",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1321
+      },
+      {
+        "pat_enc_csn_id": "0000864-001",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1276
+      },
+      {
+        "pat_enc_csn_id": "0000864-002",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000864-003",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000864-004",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000864-005",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000864-006",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 390
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100864",
+    "diagnoses": [
+      {
+        "dx_id": "0000864-dx-000",
+        "pat_enc_csn_id": "0000864-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000864-acu-000",
+        "pat_enc_csn_id": "0000864-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-19"
+      },
+      {
+        "dx_id": "0000864-acu-001",
+        "pat_enc_csn_id": "0000864-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-18"
+      },
+      {
+        "dx_id": "0000864-acu-002",
+        "pat_enc_csn_id": "0000864-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100864",
+    "summary": {
+      "total_charges": 4238,
+      "total_payments": 3772,
+      "outstanding_balance": 466,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 4238,
+        "total_payments": 3772,
+        "current_balance": 466,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-11-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100864",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

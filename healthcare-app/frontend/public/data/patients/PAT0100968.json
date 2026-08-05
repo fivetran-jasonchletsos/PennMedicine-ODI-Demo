@@ -1,0 +1,302 @@
+{
+  "patient": {
+    "pat_id": "PAT0100968",
+    "med_rec_num": "MRN0200968",
+    "full_name": "John Patel",
+    "birth_date": "1954-06-24",
+    "age": 72,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 1,
+    "encounter_count": 17,
+    "total_charges": 21698,
+    "latitude": 40.45773,
+    "longitude": -79.911,
+    "last_encounter_date": "2026-05-12",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9268 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 766-8892",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100968",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000968-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3283
+      },
+      {
+        "pat_enc_csn_id": "0000968-001",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000968-002",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 6245
+      },
+      {
+        "pat_enc_csn_id": "0000968-003",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000968-004",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000968-005",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000968-006",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000968-007",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0000968-008",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 3512
+      },
+      {
+        "pat_enc_csn_id": "0000968-009",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000968-010",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000968-011",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000968-012",
+        "contact_date": "2024-12-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5258
+      },
+      {
+        "pat_enc_csn_id": "0000968-013",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000968-014",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000968-015",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000968-016",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 250
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100968",
+    "diagnoses": [
+      {
+        "dx_id": "0000968-dx-000",
+        "pat_enc_csn_id": "0000968-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000968-acu-002",
+        "pat_enc_csn_id": "0000968-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100968",
+    "summary": {
+      "total_charges": 21698,
+      "total_payments": 17521,
+      "outstanding_balance": 4177,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000096800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 21698,
+        "total_payments": 17521,
+        "current_balance": 4177,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-22",
+        "closed_date": "2026-03-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100968",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

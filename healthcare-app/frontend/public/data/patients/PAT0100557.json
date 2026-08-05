@@ -1,0 +1,244 @@
+{
+  "patient": {
+    "pat_id": "PAT0100557",
+    "med_rec_num": "MRN0200557",
+    "full_name": "Aisha Williams",
+    "birth_date": "1982-01-25",
+    "age": 44,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 8,
+    "total_charges": 9386,
+    "latitude": 40.43399,
+    "longitude": -79.93474,
+    "last_encounter_date": "2026-03-05",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6957 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 724-2129",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100557",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000557-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 4281
+      },
+      {
+        "pat_enc_csn_id": "0000557-001",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 64
+      },
+      {
+        "pat_enc_csn_id": "0000557-002",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000557-003",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000557-004",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000557-005",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000557-006",
+        "contact_date": "2024-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000557-007",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 3586
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100557",
+    "diagnoses": [
+      {
+        "dx_id": "0000557-dx-000",
+        "pat_enc_csn_id": "0000557-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000557-dx-001",
+        "pat_enc_csn_id": "0000557-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000557-dx-002",
+        "pat_enc_csn_id": "0000557-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000557-acu-000",
+        "pat_enc_csn_id": "0000557-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0000557-acu-001",
+        "pat_enc_csn_id": "0000557-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-08-04"
+      },
+      {
+        "dx_id": "0000557-acu-002",
+        "pat_enc_csn_id": "0000557-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2024-12-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100557",
+    "summary": {
+      "total_charges": 9386,
+      "total_payments": 8790,
+      "outstanding_balance": 596,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000055700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 9386,
+        "total_payments": 8790,
+        "current_balance": 596,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-17",
+        "closed_date": "2026-04-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100557",
+    "comparables": [
+      {
+        "pat_id": "PAT0100031",
+        "full_name": "Anil Brown",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 5220
+      },
+      {
+        "pat_id": "PAT0100085",
+        "full_name": "Linda Brown",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 19592
+      },
+      {
+        "pat_id": "PAT0100090",
+        "full_name": "Aisha Nguyen",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 9144
+      },
+      {
+        "pat_id": "PAT0100136",
+        "full_name": "Susan Wong",
+        "age": 46,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 4716
+      },
+      {
+        "pat_id": "PAT0100183",
+        "full_name": "Linda Gonzalez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4659
+      },
+      {
+        "pat_id": "PAT0100279",
+        "full_name": "Thomas Russo",
+        "age": 46,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 5705
+      }
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "patient": {
+    "pat_id": "PAT0100746",
+    "med_rec_num": "MRN0200746",
+    "full_name": "Paul Jackson",
+    "birth_date": "1978-08-07",
+    "age": 48,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 3675,
+    "latitude": 40.45099,
+    "longitude": -80.10287,
+    "last_encounter_date": "2026-03-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8014 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 623-1974",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100746",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000746-000",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000746-001",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000746-002",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000746-003",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 98
+      },
+      {
+        "pat_enc_csn_id": "0000746-004",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 1395
+      },
+      {
+        "pat_enc_csn_id": "0000746-005",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000746-006",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000746-007",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000746-008",
+        "contact_date": "2024-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000746-009",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000746-010",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100746",
+    "diagnoses": [
+      {
+        "dx_id": "0000746-acu-002",
+        "pat_enc_csn_id": "0000746-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100746",
+    "summary": {
+      "total_charges": 3675,
+      "total_payments": 3101,
+      "outstanding_balance": 574,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000074600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3675,
+        "total_payments": 3101,
+        "current_balance": 574,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-27",
+        "closed_date": "2026-03-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100746",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

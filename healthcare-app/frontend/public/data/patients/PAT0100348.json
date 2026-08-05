@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100348",
+    "med_rec_num": "MRN0200348",
+    "full_name": "Kenji Nguyen",
+    "birth_date": "1986-04-14",
+    "age": 40,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 3744,
+    "latitude": 40.46047,
+    "longitude": -79.91902,
+    "last_encounter_date": "2026-01-21",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4245 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 996-6084",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100348",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000348-000",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000348-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0000348-002",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0000348-003",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000348-004",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000348-005",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 2621
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100348",
+    "diagnoses": [
+      {
+        "dx_id": "0000348-acu-001",
+        "pat_enc_csn_id": "0000348-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      },
+      {
+        "dx_id": "0000348-acu-002",
+        "pat_enc_csn_id": "0000348-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100348",
+    "summary": {
+      "total_charges": 3744,
+      "total_payments": 2251,
+      "outstanding_balance": 1493,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000034800",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3744,
+        "total_payments": 2251,
+        "current_balance": 1493,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100348",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

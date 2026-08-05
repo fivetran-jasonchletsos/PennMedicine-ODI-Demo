@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0100735",
+    "med_rec_num": "MRN0200735",
+    "full_name": "Patricia Kim",
+    "birth_date": "1957-08-12",
+    "age": 69,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 3147,
+    "latitude": 40.44127,
+    "longitude": -79.9585,
+    "last_encounter_date": "2026-04-04",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7238 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 778-3553",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100735",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000735-000",
+        "contact_date": "2026-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000735-001",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 83
+      },
+      {
+        "pat_enc_csn_id": "0000735-002",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000735-003",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000735-004",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000735-005",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000735-006",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000735-007",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 1158
+      },
+      {
+        "pat_enc_csn_id": "0000735-008",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 166
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100735",
+    "diagnoses": [
+      {
+        "dx_id": "0000735-dx-000",
+        "pat_enc_csn_id": "0000735-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000735-dx-001",
+        "pat_enc_csn_id": "0000735-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000735-acu-000",
+        "pat_enc_csn_id": "0000735-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-04"
+      },
+      {
+        "dx_id": "0000735-acu-001",
+        "pat_enc_csn_id": "0000735-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000735-acu-002",
+        "pat_enc_csn_id": "0000735-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100735",
+    "summary": {
+      "total_charges": 3147,
+      "total_payments": 2486,
+      "outstanding_balance": 661,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000073500",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 3147,
+        "total_payments": 2486,
+        "current_balance": 661,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100735",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

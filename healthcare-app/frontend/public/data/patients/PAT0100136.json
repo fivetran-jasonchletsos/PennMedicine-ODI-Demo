@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100136",
+    "med_rec_num": "MRN0200136",
+    "full_name": "Susan Wong",
+    "birth_date": "1980-11-06",
+    "age": 46,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 4716,
+    "latitude": 40.44301,
+    "longitude": -79.93068,
+    "last_encounter_date": "2025-05-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5583 Centre St",
+    "state": "PA",
+    "phone": "(412) 466-2304",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100136",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000136-000",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0000136-001",
+        "contact_date": "2024-11-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3490
+      },
+      {
+        "pat_enc_csn_id": "0000136-002",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000136-003",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000136-004",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000136-005",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 215
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100136",
+    "diagnoses": [
+      {
+        "dx_id": "0000136-dx-000",
+        "pat_enc_csn_id": "0000136-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000136-dx-001",
+        "pat_enc_csn_id": "0000136-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000136-acu-001",
+        "pat_enc_csn_id": "0000136-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-11-14"
+      },
+      {
+        "dx_id": "0000136-acu-002",
+        "pat_enc_csn_id": "0000136-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-09-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100136",
+    "summary": {
+      "total_charges": 4716,
+      "total_payments": 3633,
+      "outstanding_balance": 1083,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000013600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4716,
+        "total_payments": 3633,
+        "current_balance": 1083,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-01",
+        "closed_date": "2026-02-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100136",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

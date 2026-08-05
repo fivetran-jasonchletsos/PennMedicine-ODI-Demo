@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0100440",
+    "med_rec_num": "MRN0200440",
+    "full_name": "Sandra Hernandez",
+    "birth_date": "1950-10-23",
+    "age": 76,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 8082,
+    "latitude": 40.45021,
+    "longitude": -80.1003,
+    "last_encounter_date": "2025-11-12",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1425 Walnut St",
+    "state": "PA",
+    "phone": "(412) 236-2881",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100440",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000440-000",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000440-001",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5803
+      },
+      {
+        "pat_enc_csn_id": "0000440-002",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000440-003",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000440-004",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000440-005",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000440-006",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000440-007",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000440-008",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 307
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100440",
+    "diagnoses": [
+      {
+        "dx_id": "0000440-dx-000",
+        "pat_enc_csn_id": "0000440-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000440-dx-001",
+        "pat_enc_csn_id": "0000440-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000440-acu-000",
+        "pat_enc_csn_id": "0000440-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-11-12"
+      },
+      {
+        "dx_id": "0000440-acu-001",
+        "pat_enc_csn_id": "0000440-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100440",
+    "summary": {
+      "total_charges": 8082,
+      "total_payments": 6823,
+      "outstanding_balance": 1259,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000044000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8082,
+        "total_payments": 6823,
+        "current_balance": 1259,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-25",
+        "closed_date": "2026-03-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100440",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

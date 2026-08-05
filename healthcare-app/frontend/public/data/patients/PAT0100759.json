@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100759",
+    "med_rec_num": "MRN0200759",
+    "full_name": "Sandra Greene",
+    "birth_date": "2018-08-14",
+    "age": 8,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 7903,
+    "latitude": 40.52706,
+    "longitude": -79.96105,
+    "last_encounter_date": "2026-05-08",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6199 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 283-6177",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100759",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000759-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 93
+      },
+      {
+        "pat_enc_csn_id": "0000759-001",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000759-002",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000759-003",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000759-004",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0000759-005",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5350
+      },
+      {
+        "pat_enc_csn_id": "0000759-006",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000759-007",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000759-008",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000759-009",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000759-010",
+        "contact_date": "2024-07-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0000759-011",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 266
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100759",
+    "diagnoses": [
+      {
+        "dx_id": "0000759-dx-000",
+        "pat_enc_csn_id": "0000759-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000759-acu-000",
+        "pat_enc_csn_id": "0000759-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0000759-acu-002",
+        "pat_enc_csn_id": "0000759-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100759",
+    "summary": {
+      "total_charges": 7903,
+      "total_payments": 6665,
+      "outstanding_balance": 1238,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000075900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7903,
+        "total_payments": 6665,
+        "current_balance": 1238,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-04-15",
+        "closed_date": "2025-11-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100759",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0100648",
+    "med_rec_num": "MRN0200648",
+    "full_name": "James Smith",
+    "birth_date": "1994-10-07",
+    "age": 32,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 3025,
+    "latitude": 40.45036,
+    "longitude": -79.99655,
+    "last_encounter_date": "2026-03-08",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5737 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 437-1454",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100648",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000648-000",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0000648-001",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000648-002",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000648-003",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000648-004",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000648-005",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000648-006",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0000648-007",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000648-008",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000648-009",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000648-010",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 404
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100648",
+    "diagnoses": [
+      {
+        "dx_id": "0000648-dx-000",
+        "pat_enc_csn_id": "0000648-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000648-acu-000",
+        "pat_enc_csn_id": "0000648-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-08"
+      },
+      {
+        "dx_id": "0000648-acu-001",
+        "pat_enc_csn_id": "0000648-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      },
+      {
+        "dx_id": "0000648-acu-002",
+        "pat_enc_csn_id": "0000648-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-09-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100648",
+    "summary": {
+      "total_charges": 3025,
+      "total_payments": 2176,
+      "outstanding_balance": 849,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000064800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3025,
+        "total_payments": 2176,
+        "current_balance": 849,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-03",
+        "closed_date": "2026-02-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100648",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,271 @@
+{
+  "patient": {
+    "pat_id": "PAT0100046",
+    "med_rec_num": "MRN0200046",
+    "full_name": "Kimberly Okonkwo",
+    "birth_date": "1956-09-23",
+    "age": 70,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 43245,
+    "latitude": 40.52388,
+    "longitude": -79.95776,
+    "last_encounter_date": "2026-05-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8584 Murray St",
+    "state": "PA",
+    "phone": "(412) 683-2279",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100046",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000046-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6021
+      },
+      {
+        "pat_enc_csn_id": "0000046-001",
+        "contact_date": "2026-03-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000046-002",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0000046-003",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000046-004",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000046-005",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000046-006",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 5187
+      },
+      {
+        "pat_enc_csn_id": "0000046-007",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000046-008",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000046-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000046-010",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000046-011",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 30012
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100046",
+    "diagnoses": [
+      {
+        "dx_id": "0000046-dx-000",
+        "pat_enc_csn_id": "0000046-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0000046-acu-001",
+        "pat_enc_csn_id": "0000046-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-11"
+      },
+      {
+        "dx_id": "0000046-acu-002",
+        "pat_enc_csn_id": "0000046-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100046",
+    "summary": {
+      "total_charges": 43245,
+      "total_payments": 30161,
+      "outstanding_balance": 13084,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000004600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 39621,
+        "total_payments": 27186,
+        "current_balance": 12435,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-01",
+        "closed_date": "2026-05-04"
+      },
+      {
+        "hsp_account_id": "HSP000004601",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3624,
+        "total_payments": 2975,
+        "current_balance": 649,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-19",
+        "closed_date": "2025-12-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100046",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

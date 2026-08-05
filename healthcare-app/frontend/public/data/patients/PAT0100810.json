@@ -1,0 +1,248 @@
+{
+  "patient": {
+    "pat_id": "PAT0100810",
+    "med_rec_num": "MRN0200810",
+    "full_name": "Barbara Gonzalez",
+    "birth_date": "1960-06-04",
+    "age": 66,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 7664,
+    "latitude": 40.456,
+    "longitude": -80.00443,
+    "last_encounter_date": "2026-03-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9364 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 814-2479",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100810",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000810-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000810-001",
+        "contact_date": "2026-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000810-002",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000810-003",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000810-004",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000810-005",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000810-006",
+        "contact_date": "2025-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0000810-007",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000810-008",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5566
+      },
+      {
+        "pat_enc_csn_id": "0000810-009",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100810",
+    "diagnoses": [
+      {
+        "dx_id": "0000810-dx-000",
+        "pat_enc_csn_id": "0000810-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000810-dx-001",
+        "pat_enc_csn_id": "0000810-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000810-acu-000",
+        "pat_enc_csn_id": "0000810-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000810-acu-002",
+        "pat_enc_csn_id": "0000810-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100810",
+    "summary": {
+      "total_charges": 7664,
+      "total_payments": 6119,
+      "outstanding_balance": 1545,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7664,
+        "total_payments": 6119,
+        "current_balance": 1545,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-28",
+        "closed_date": "2026-03-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100810",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

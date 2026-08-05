@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100339",
+    "med_rec_num": "MRN0200339",
+    "full_name": "Sandra Petrov",
+    "birth_date": "2008-08-28",
+    "age": 18,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 5894,
+    "latitude": 40.44984,
+    "longitude": -80.09988,
+    "last_encounter_date": "2026-03-05",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4182 Walnut St",
+    "state": "PA",
+    "phone": "(412) 663-9702",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100339",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000339-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000339-001",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000339-002",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000339-003",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000339-004",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000339-005",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000339-006",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4219
+      },
+      {
+        "pat_enc_csn_id": "0000339-007",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 219
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100339",
+    "diagnoses": [
+      {
+        "dx_id": "0000339-dx-000",
+        "pat_enc_csn_id": "0000339-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000339-dx-001",
+        "pat_enc_csn_id": "0000339-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000339-acu-001",
+        "pat_enc_csn_id": "0000339-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100339",
+    "summary": {
+      "total_charges": 5894,
+      "total_payments": 4612,
+      "outstanding_balance": 1282,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000033900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5894,
+        "total_payments": 4612,
+        "current_balance": 1282,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100339",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

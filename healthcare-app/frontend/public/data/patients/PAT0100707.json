@@ -1,0 +1,329 @@
+{
+  "patient": {
+    "pat_id": "PAT0100707",
+    "med_rec_num": "MRN0200707",
+    "full_name": "Paul Williams",
+    "birth_date": "1953-06-21",
+    "age": 73,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 17,
+    "total_charges": 30178,
+    "latitude": 40.43829,
+    "longitude": -79.96448,
+    "last_encounter_date": "2026-05-12",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2300 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 388-5462",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100707",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000707-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 6490
+      },
+      {
+        "pat_enc_csn_id": "0000707-001",
+        "contact_date": "2026-05-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 8096
+      },
+      {
+        "pat_enc_csn_id": "0000707-002",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000707-003",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000707-004",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 10194
+      },
+      {
+        "pat_enc_csn_id": "0000707-005",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000707-006",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000707-007",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000707-008",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000707-009",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 2394
+      },
+      {
+        "pat_enc_csn_id": "0000707-010",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000707-011",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0000707-012",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000707-013",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000707-014",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000707-015",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000707-016",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 189
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100707",
+    "diagnoses": [
+      {
+        "dx_id": "0000707-dx-000",
+        "pat_enc_csn_id": "0000707-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000707-dx-001",
+        "pat_enc_csn_id": "0000707-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000707-acu-000",
+        "pat_enc_csn_id": "0000707-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-12"
+      },
+      {
+        "dx_id": "0000707-acu-002",
+        "pat_enc_csn_id": "0000707-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100707",
+    "summary": {
+      "total_charges": 30178,
+      "total_payments": 23780,
+      "outstanding_balance": 6398,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070700",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 15508,
+        "total_payments": 12373,
+        "current_balance": 3135,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-16",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000070701",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 14670,
+        "total_payments": 11407,
+        "current_balance": 3263,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-15",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100707",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

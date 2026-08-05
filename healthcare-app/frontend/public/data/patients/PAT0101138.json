@@ -1,0 +1,316 @@
+{
+  "patient": {
+    "pat_id": "PAT0101138",
+    "med_rec_num": "MRN0201138",
+    "full_name": "Joseph Chen",
+    "birth_date": "1931-12-12",
+    "age": 95,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 11589,
+    "latitude": 40.44493,
+    "longitude": -79.9636,
+    "last_encounter_date": "2026-04-12",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5883 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 807-2388",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101138",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001138-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0001138-001",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0001138-002",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001138-003",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0001138-004",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 3267
+      },
+      {
+        "pat_enc_csn_id": "0001138-005",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001138-006",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001138-007",
+        "contact_date": "2025-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0001138-008",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0001138-009",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001138-010",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001138-011",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001138-012",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4934
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101138",
+    "diagnoses": [
+      {
+        "dx_id": "0001138-dx-000",
+        "pat_enc_csn_id": "0001138-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0001138-dx-001",
+        "pat_enc_csn_id": "0001138-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1962-05-13"
+      },
+      {
+        "dx_id": "0001138-dx-002",
+        "pat_enc_csn_id": "0001138-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001138-acu-000",
+        "pat_enc_csn_id": "0001138-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      },
+      {
+        "dx_id": "0001138-acu-001",
+        "pat_enc_csn_id": "0001138-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-23"
+      },
+      {
+        "dx_id": "0001138-acu-002",
+        "pat_enc_csn_id": "0001138-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101138",
+    "summary": {
+      "total_charges": 11589,
+      "total_payments": 8057,
+      "outstanding_balance": 3532,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000113800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2690,
+        "total_payments": 2241,
+        "current_balance": 449,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-29",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000113801",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 839,
+        "total_payments": 569,
+        "current_balance": 270,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-10",
+        "closed_date": "2025-12-15"
+      },
+      {
+        "hsp_account_id": "HSP000113802",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8060,
+        "total_payments": 5247,
+        "current_balance": 2813,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-29",
+        "closed_date": "2026-04-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101138",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

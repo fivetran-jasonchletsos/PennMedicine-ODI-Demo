@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100726",
+    "med_rec_num": "MRN0200726",
+    "full_name": "Jennifer Walsh",
+    "birth_date": "1970-12-02",
+    "age": 56,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 11129,
+    "latitude": 40.42272,
+    "longitude": -79.78574,
+    "last_encounter_date": "2026-02-08",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2311 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 472-3378",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100726",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000726-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000726-001",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0000726-002",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 3101
+      },
+      {
+        "pat_enc_csn_id": "0000726-003",
+        "contact_date": "2025-06-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000726-004",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000726-005",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000726-006",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000726-007",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000726-008",
+        "contact_date": "2024-07-28",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1937
+      },
+      {
+        "pat_enc_csn_id": "0000726-009",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000726-010",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 3958
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100726",
+    "diagnoses": [
+      {
+        "dx_id": "0000726-dx-000",
+        "pat_enc_csn_id": "0000726-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000726-acu-000",
+        "pat_enc_csn_id": "0000726-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      },
+      {
+        "dx_id": "0000726-acu-002",
+        "pat_enc_csn_id": "0000726-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100726",
+    "summary": {
+      "total_charges": 11129,
+      "total_payments": 7527,
+      "outstanding_balance": 3602,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000072600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5534,
+        "total_payments": 3707,
+        "current_balance": 1827,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-07-23",
+        "closed_date": "2025-11-26"
+      },
+      {
+        "hsp_account_id": "HSP000072601",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2061,
+        "total_payments": 1261,
+        "current_balance": 800,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-01",
+        "closed_date": "2025-12-07"
+      },
+      {
+        "hsp_account_id": "HSP000072602",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3534,
+        "total_payments": 2559,
+        "current_balance": 975,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-09",
+        "closed_date": "2026-04-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100726",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

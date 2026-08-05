@@ -1,0 +1,145 @@
+{
+  "patient": {
+    "pat_id": "PAT0100641",
+    "med_rec_num": "MRN0200641",
+    "full_name": "Maria Gonzalez",
+    "birth_date": "1989-05-21",
+    "age": 37,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 31001,
+    "latitude": 40.46846,
+    "longitude": -79.95657,
+    "last_encounter_date": "2024-06-26",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1775 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 603-1741",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100641",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000641-000",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 31001
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100641",
+    "diagnoses": [
+      {
+        "dx_id": "0000641-acu-000",
+        "pat_enc_csn_id": "0000641-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2024-06-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100641",
+    "summary": {
+      "total_charges": 31001,
+      "total_payments": 25022,
+      "outstanding_balance": 5979,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000064100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 24453,
+        "total_payments": 20019,
+        "current_balance": 4434,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-20",
+        "closed_date": "2026-04-21"
+      },
+      {
+        "hsp_account_id": "HSP000064101",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6548,
+        "total_payments": 5003,
+        "current_balance": 1545,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-11",
+        "closed_date": "2026-05-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100641",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

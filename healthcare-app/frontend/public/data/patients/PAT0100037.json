@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0100037",
+    "med_rec_num": "MRN0200037",
+    "full_name": "Donna Jones",
+    "birth_date": "1957-04-13",
+    "age": 69,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 1101,
+    "latitude": 40.44089,
+    "longitude": -80.1095,
+    "last_encounter_date": "2026-03-29",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4524 Centre St",
+    "state": "PA",
+    "phone": "(412) 623-8904",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100037",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000037-000",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000037-001",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000037-002",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000037-003",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 48
+      },
+      {
+        "pat_enc_csn_id": "0000037-004",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100037",
+    "diagnoses": [
+      {
+        "dx_id": "0000037-dx-000",
+        "pat_enc_csn_id": "0000037-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000037-acu-000",
+        "pat_enc_csn_id": "0000037-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100037",
+    "summary": {
+      "total_charges": 1101,
+      "total_payments": 810,
+      "outstanding_balance": 291,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000003700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1101,
+        "total_payments": 810,
+        "current_balance": 291,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-08-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100037",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

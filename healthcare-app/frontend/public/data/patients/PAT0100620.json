@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0100620",
+    "med_rec_num": "MRN0200620",
+    "full_name": "David Nguyen",
+    "birth_date": "1962-07-19",
+    "age": 64,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 5167,
+    "latitude": 40.29781,
+    "longitude": -79.54425,
+    "last_encounter_date": "2025-04-23",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2768 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 434-2214",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100620",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000620-000",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 5167
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100620",
+    "diagnoses": [
+      {
+        "dx_id": "0000620-acu-000",
+        "pat_enc_csn_id": "0000620-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-04-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100620",
+    "summary": {
+      "total_charges": 5167,
+      "total_payments": 4164,
+      "outstanding_balance": 1003,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000062000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5167,
+        "total_payments": 4164,
+        "current_balance": 1003,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-22",
+        "closed_date": "2025-12-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100620",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

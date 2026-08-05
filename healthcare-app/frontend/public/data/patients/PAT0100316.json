@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0100316",
+    "med_rec_num": "MRN0200316",
+    "full_name": "Thomas Williams",
+    "birth_date": "1951-10-14",
+    "age": 75,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 15339,
+    "latitude": 40.34791,
+    "longitude": -79.84796,
+    "last_encounter_date": "2026-04-22",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "88 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 237-8283",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100316",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000316-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000316-001",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0000316-002",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 12511
+      },
+      {
+        "pat_enc_csn_id": "0000316-003",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000316-004",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000316-005",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 77
+      },
+      {
+        "pat_enc_csn_id": "0000316-006",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000316-007",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000316-008",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000316-009",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000316-010",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000316-011",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000316-012",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100316",
+    "diagnoses": [
+      {
+        "dx_id": "0000316-dx-000",
+        "pat_enc_csn_id": "0000316-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000316-acu-000",
+        "pat_enc_csn_id": "0000316-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      },
+      {
+        "dx_id": "0000316-acu-001",
+        "pat_enc_csn_id": "0000316-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-29"
+      },
+      {
+        "dx_id": "0000316-acu-002",
+        "pat_enc_csn_id": "0000316-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100316",
+    "summary": {
+      "total_charges": 15339,
+      "total_payments": 10456,
+      "outstanding_balance": 4883,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000031600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 15339,
+        "total_payments": 10456,
+        "current_balance": 4883,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-16",
+        "closed_date": "2026-04-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100316",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

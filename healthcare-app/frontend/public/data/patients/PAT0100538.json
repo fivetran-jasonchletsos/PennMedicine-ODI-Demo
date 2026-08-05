@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0100538",
+    "med_rec_num": "MRN0200538",
+    "full_name": "William Nguyen",
+    "birth_date": "1982-03-28",
+    "age": 44,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 533,
+    "latitude": 40.37467,
+    "longitude": -80.04572,
+    "last_encounter_date": "2025-12-15",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8410 Liberty St",
+    "state": "PA",
+    "phone": "(412) 692-7864",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100538",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000538-000",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000538-001",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 271
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100538",
+    "diagnoses": [
+      {
+        "dx_id": "0000538-dx-000",
+        "pat_enc_csn_id": "0000538-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100538",
+    "summary": {
+      "total_charges": 533,
+      "total_payments": 437,
+      "outstanding_balance": 96,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000053800",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 533,
+        "total_payments": 437,
+        "current_balance": 96,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-31",
+        "closed_date": "2026-02-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100538",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

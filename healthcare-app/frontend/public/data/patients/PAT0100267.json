@@ -1,0 +1,292 @@
+{
+  "patient": {
+    "pat_id": "PAT0100267",
+    "med_rec_num": "MRN0200267",
+    "full_name": "Reshma Williams",
+    "birth_date": "1999-06-11",
+    "age": 27,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 24359,
+    "latitude": 40.45521,
+    "longitude": -80.00574,
+    "last_encounter_date": "2026-05-05",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6679 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 908-9184",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100267",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000267-000",
+        "contact_date": "2026-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000267-001",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000267-002",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000267-003",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6469
+      },
+      {
+        "pat_enc_csn_id": "0000267-004",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000267-005",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000267-006",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 6466
+      },
+      {
+        "pat_enc_csn_id": "0000267-007",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000267-008",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000267-009",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 7199
+      },
+      {
+        "pat_enc_csn_id": "0000267-010",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000267-011",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1842
+      },
+      {
+        "pat_enc_csn_id": "0000267-012",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 333
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100267",
+    "diagnoses": [
+      {
+        "dx_id": "0000267-dx-000",
+        "pat_enc_csn_id": "0000267-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000267-acu-000",
+        "pat_enc_csn_id": "0000267-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-05"
+      },
+      {
+        "dx_id": "0000267-acu-002",
+        "pat_enc_csn_id": "0000267-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100267",
+    "summary": {
+      "total_charges": 24359,
+      "total_payments": 17481,
+      "outstanding_balance": 6878,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000026700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 19834,
+        "total_payments": 14662,
+        "current_balance": 5172,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-07-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000026701",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 4485,
+        "total_payments": 2784,
+        "current_balance": 1701,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000026702",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 40,
+        "total_payments": 35,
+        "current_balance": 5,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-05-08",
+        "closed_date": "2025-10-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100267",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101302",
+    "med_rec_num": "MRN0201302",
+    "full_name": "John Williams",
+    "birth_date": "2003-04-11",
+    "age": 23,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 41941,
+    "latitude": 40.6867,
+    "longitude": -80.10934,
+    "last_encounter_date": "2026-04-03",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3506 Centre St",
+    "state": "PA",
+    "phone": "(412) 909-2438",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101302",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001302-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001302-001",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001302-002",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001302-003",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001302-004",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001302-005",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0001302-006",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 58
+      },
+      {
+        "pat_enc_csn_id": "0001302-007",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 3271
+      },
+      {
+        "pat_enc_csn_id": "0001302-008",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 29074
+      },
+      {
+        "pat_enc_csn_id": "0001302-009",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5809
+      },
+      {
+        "pat_enc_csn_id": "0001302-010",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 1911
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101302",
+    "diagnoses": [
+      {
+        "dx_id": "0001302-acu-000",
+        "pat_enc_csn_id": "0001302-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0001302-acu-001",
+        "pat_enc_csn_id": "0001302-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101302",
+    "summary": {
+      "total_charges": 41941,
+      "total_payments": 32817,
+      "outstanding_balance": 9124,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000130200",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 41941,
+        "total_payments": 32817,
+        "current_balance": 9124,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101302",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

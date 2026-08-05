@@ -1,0 +1,282 @@
+{
+  "patient": {
+    "pat_id": "PAT0101089",
+    "med_rec_num": "MRN0201089",
+    "full_name": "Mark Rodriguez",
+    "birth_date": "1948-01-12",
+    "age": 78,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 9365,
+    "latitude": 40.47814,
+    "longitude": -79.83269,
+    "last_encounter_date": "2026-02-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7712 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 446-8624",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101089",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001089-000",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0001089-001",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 6397
+      },
+      {
+        "pat_enc_csn_id": "0001089-002",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0001089-003",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0001089-004",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0001089-005",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0001089-006",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0001089-007",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0001089-008",
+        "contact_date": "2025-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001089-009",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001089-010",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 315
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101089",
+    "diagnoses": [
+      {
+        "dx_id": "0001089-dx-000",
+        "pat_enc_csn_id": "0001089-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001089-dx-001",
+        "pat_enc_csn_id": "0001089-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001089-dx-002",
+        "pat_enc_csn_id": "0001089-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001089-dx-003",
+        "pat_enc_csn_id": "0001089-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0001089-acu-000",
+        "pat_enc_csn_id": "0001089-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      },
+      {
+        "dx_id": "0001089-acu-001",
+        "pat_enc_csn_id": "0001089-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-09"
+      },
+      {
+        "dx_id": "0001089-acu-002",
+        "pat_enc_csn_id": "0001089-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101089",
+    "summary": {
+      "total_charges": 9365,
+      "total_payments": 7995,
+      "outstanding_balance": 1370,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000108900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 9365,
+        "total_payments": 7995,
+        "current_balance": 1370,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101089",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0100553",
+    "med_rec_num": "MRN0200553",
+    "full_name": "Robert Okonkwo",
+    "birth_date": "1937-02-24",
+    "age": 89,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 13263,
+    "latitude": 40.44282,
+    "longitude": -80.10128,
+    "last_encounter_date": "2026-05-04",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5066 Highland St",
+    "state": "PA",
+    "phone": "(412) 285-9119",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100553",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000553-000",
+        "contact_date": "2026-05-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000553-001",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000553-002",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000553-003",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4299
+      },
+      {
+        "pat_enc_csn_id": "0000553-004",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000553-005",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000553-006",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 6443
+      },
+      {
+        "pat_enc_csn_id": "0000553-007",
+        "contact_date": "2024-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000553-008",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000553-009",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000553-010",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000553-011",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100553",
+    "diagnoses": [
+      {
+        "dx_id": "0000553-dx-000",
+        "pat_enc_csn_id": "0000553-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1973-05-13"
+      },
+      {
+        "dx_id": "0000553-dx-001",
+        "pat_enc_csn_id": "0000553-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1958-05-13"
+      },
+      {
+        "dx_id": "0000553-dx-002",
+        "pat_enc_csn_id": "0000553-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000553-acu-000",
+        "pat_enc_csn_id": "0000553-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-04"
+      },
+      {
+        "dx_id": "0000553-acu-002",
+        "pat_enc_csn_id": "0000553-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100553",
+    "summary": {
+      "total_charges": 13263,
+      "total_payments": 10630,
+      "outstanding_balance": 2633,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000055300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 11915,
+        "total_payments": 9526,
+        "current_balance": 2389,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000055301",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 336,
+        "total_payments": 220,
+        "current_balance": 116,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-19",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000055302",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1012,
+        "total_payments": 884,
+        "current_balance": 128,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-12-30",
+        "closed_date": "2026-02-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100553",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

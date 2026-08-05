@@ -1,0 +1,308 @@
+{
+  "patient": {
+    "pat_id": "PAT0100571",
+    "med_rec_num": "MRN0200571",
+    "full_name": "Patricia Garcia",
+    "birth_date": "1947-03-07",
+    "age": 79,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 52459,
+    "latitude": 40.3297,
+    "longitude": -80.04345,
+    "last_encounter_date": "2026-05-07",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6417 Centre St",
+    "state": "PA",
+    "phone": "(412) 751-7184",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100571",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000571-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000571-001",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000571-002",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0000571-003",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000571-004",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 6311
+      },
+      {
+        "pat_enc_csn_id": "0000571-005",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000571-006",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000571-007",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0000571-008",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5327
+      },
+      {
+        "pat_enc_csn_id": "0000571-009",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 2822
+      },
+      {
+        "pat_enc_csn_id": "0000571-010",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0000571-011",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4494
+      },
+      {
+        "pat_enc_csn_id": "0000571-012",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000571-013",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000571-014",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000571-015",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 30346
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100571",
+    "diagnoses": [
+      {
+        "dx_id": "0000571-dx-000",
+        "pat_enc_csn_id": "0000571-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1968-05-13"
+      },
+      {
+        "dx_id": "0000571-dx-001",
+        "pat_enc_csn_id": "0000571-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000571-dx-002",
+        "pat_enc_csn_id": "0000571-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000571-acu-000",
+        "pat_enc_csn_id": "0000571-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100571",
+    "summary": {
+      "total_charges": 52459,
+      "total_payments": 47423,
+      "outstanding_balance": 5036,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 52459,
+        "total_payments": 47423,
+        "current_balance": 5036,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-12",
+        "closed_date": "2026-03-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100571",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "patient": {
+    "pat_id": "PAT0100701",
+    "med_rec_num": "MRN0200701",
+    "full_name": "Thomas Lopez",
+    "birth_date": "2005-09-01",
+    "age": 21,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 20443,
+    "latitude": 40.44919,
+    "longitude": -79.99505,
+    "last_encounter_date": "2025-12-10",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2739 Penn St",
+    "state": "PA",
+    "phone": "(412) 459-7358",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100701",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000701-000",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000701-001",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000701-002",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000701-003",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000701-004",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000701-005",
+        "contact_date": "2024-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000701-006",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0000701-007",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 18150
+      },
+      {
+        "pat_enc_csn_id": "0000701-008",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000701-009",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 384
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100701",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100701",
+    "summary": {
+      "total_charges": 20443,
+      "total_payments": 15455,
+      "outstanding_balance": 4988,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 8483,
+        "total_payments": 5320,
+        "current_balance": 3163,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-07-21",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000070101",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6626,
+        "total_payments": 5296,
+        "current_balance": 1330,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-22",
+        "closed_date": "2026-05-11"
+      },
+      {
+        "hsp_account_id": "HSP000070102",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5334,
+        "total_payments": 4839,
+        "current_balance": 495,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-07-17",
+        "closed_date": "2026-04-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100701",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0100684",
+    "med_rec_num": "MRN0200684",
+    "full_name": "Mary Patel",
+    "birth_date": "1934-11-18",
+    "age": 92,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 16806,
+    "latitude": 40.46194,
+    "longitude": -79.91108,
+    "last_encounter_date": "2026-05-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3093 Centre St",
+    "state": "PA",
+    "phone": "(412) 765-8313",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100684",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000684-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 7187
+      },
+      {
+        "pat_enc_csn_id": "0000684-001",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000684-002",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2241
+      },
+      {
+        "pat_enc_csn_id": "0000684-003",
+        "contact_date": "2025-01-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000684-004",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000684-005",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3685
+      },
+      {
+        "pat_enc_csn_id": "0000684-006",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000684-007",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2780
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100684",
+    "diagnoses": [
+      {
+        "dx_id": "0000684-dx-000",
+        "pat_enc_csn_id": "0000684-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1966-05-13"
+      },
+      {
+        "dx_id": "0000684-dx-001",
+        "pat_enc_csn_id": "0000684-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000684-acu-000",
+        "pat_enc_csn_id": "0000684-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0000684-acu-001",
+        "pat_enc_csn_id": "0000684-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-04-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100684",
+    "summary": {
+      "total_charges": 16806,
+      "total_payments": 12882,
+      "outstanding_balance": 3924,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 16806,
+        "total_payments": 12882,
+        "current_balance": 3924,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-16",
+        "closed_date": "2026-04-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100684",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

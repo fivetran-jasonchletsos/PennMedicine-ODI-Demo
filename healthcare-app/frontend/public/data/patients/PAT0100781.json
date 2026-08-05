@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100781",
+    "med_rec_num": "MRN0200781",
+    "full_name": "Robert Park",
+    "birth_date": "1964-02-01",
+    "age": 62,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 13424,
+    "latitude": 40.46583,
+    "longitude": -79.91493,
+    "last_encounter_date": "2026-02-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9147 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 328-4717",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100781",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000781-000",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000781-001",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000781-002",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4386
+      },
+      {
+        "pat_enc_csn_id": "0000781-003",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 1470
+      },
+      {
+        "pat_enc_csn_id": "0000781-004",
+        "contact_date": "2025-09-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000781-005",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5341
+      },
+      {
+        "pat_enc_csn_id": "0000781-006",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000781-007",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000781-008",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000781-009",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000781-010",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 257
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100781",
+    "diagnoses": [
+      {
+        "dx_id": "0000781-dx-000",
+        "pat_enc_csn_id": "0000781-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000781-acu-000",
+        "pat_enc_csn_id": "0000781-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      },
+      {
+        "dx_id": "0000781-acu-002",
+        "pat_enc_csn_id": "0000781-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100781",
+    "summary": {
+      "total_charges": 13424,
+      "total_payments": 9256,
+      "outstanding_balance": 4168,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000078100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 9366,
+        "total_payments": 6423,
+        "current_balance": 2943,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000078101",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 2678,
+        "total_payments": 1704,
+        "current_balance": 974,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000078102",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1380,
+        "total_payments": 1129,
+        "current_balance": 251,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100781",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

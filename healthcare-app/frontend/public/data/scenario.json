@@ -1,0 +1,46 @@
+{
+  "company": "Clarity Health",
+  "request_id": "BLD-2026-05-22-0007",
+  "requested_by": "Dr. Priya Nair, CMO",
+  "requested_at": "2026-05-22T07:58:00-05:00",
+  "timezone_label": "Friday 07:58 CST",
+  "question": "Why did sepsis bundle-compliance dip for the cardiology service line last Tuesday?",
+  "metric_label": "Sepsis bundle compliance by service line, daily",
+  "metric_code": "gold.fct_sepsis_bundle_by_service_line_daily",
+  "sop_meeting_at": "2026-05-22T16:00:00-05:00",
+  "sop_meeting_label": "Friday 16:00 CST · Quality Committee",
+  "target_schema": "gold",
+  "target_model": "fct_sepsis_bundle_by_service_line_daily",
+  "target_grain": "one row per (service_line, encounter_date)",
+  "prior_crisis_id": "INC-2026-05-19-0031",
+  "hospital_system": "Clarity Health Medical Center",
+  "service_line": "Cardiology",
+  "upstream_models": [
+    {
+      "model": "gold.fct_encounter",
+      "layer": "gold",
+      "grain": "encounter_id",
+      "description": "Patient encounters from Clarity EHR via Fivetran CDC. Includes encounter_date, department_id, admission_type, and service_line classification."
+    },
+    {
+      "model": "gold.fct_vital",
+      "layer": "gold",
+      "grain": "encounter_id · vital_datetime",
+      "description": "Vital signs and sepsis screening flags. Includes sepsis_alert_flag, lactate_drawn, lactate_redrawn_3h, and blood_culture_drawn indicators."
+    },
+    {
+      "model": "gold.fct_order",
+      "layer": "gold",
+      "grain": "order_id",
+      "description": "Clinical orders from the EHR. Includes antibiotic_administered, order_timestamp, and encounter linkage. Used to verify bundle elements completed within required 3-hour windows."
+    },
+    {
+      "model": "gold.dim_patient",
+      "layer": "gold",
+      "grain": "patient_id (SCD-2)",
+      "description": "Patient master with admission source, payer, and care team assignments. Joins to encounters to split ER-admitted vs. floor-admitted cohorts."
+    }
+  ],
+  "manual_time_days": "3 to 5 days",
+  "build_room_seconds": 87
+}

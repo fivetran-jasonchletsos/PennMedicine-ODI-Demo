@@ -1,0 +1,249 @@
+{
+  "patient": {
+    "pat_id": "PAT0100215",
+    "med_rec_num": "MRN0200215",
+    "full_name": "Mark Thomas",
+    "birth_date": "1995-12-13",
+    "age": 31,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 32269,
+    "latitude": 40.29565,
+    "longitude": -79.53591,
+    "last_encounter_date": "2026-05-06",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1819 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 626-2585",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100215",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000215-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000215-001",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000215-002",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000215-003",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 2001
+      },
+      {
+        "pat_enc_csn_id": "0000215-004",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000215-005",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000215-006",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 28619
+      },
+      {
+        "pat_enc_csn_id": "0000215-007",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0000215-008",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 204
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100215",
+    "diagnoses": [
+      {
+        "dx_id": "0000215-dx-000",
+        "pat_enc_csn_id": "0000215-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000215-dx-001",
+        "pat_enc_csn_id": "0000215-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000215-acu-000",
+        "pat_enc_csn_id": "0000215-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000215-acu-002",
+        "pat_enc_csn_id": "0000215-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-05-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100215",
+    "summary": {
+      "total_charges": 32269,
+      "total_payments": 14429,
+      "outstanding_balance": 17840,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000021500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 26973,
+        "total_payments": 9427,
+        "current_balance": 17546,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-02-24",
+        "closed_date": "2025-11-23"
+      },
+      {
+        "hsp_account_id": "HSP000021501",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 5296,
+        "total_payments": 5002,
+        "current_balance": 294,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-02-03",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100215",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

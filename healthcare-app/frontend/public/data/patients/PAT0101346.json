@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0101346",
+    "med_rec_num": "MRN0201346",
+    "full_name": "Janet Singh",
+    "birth_date": "1995-06-08",
+    "age": 31,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 781,
+    "latitude": 40.52906,
+    "longitude": -79.95611,
+    "last_encounter_date": "2026-03-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7638 Penn St",
+    "state": "PA",
+    "phone": "(412) 501-8555",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101346",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001346-000",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0001346-001",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0001346-002",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 189
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101346",
+    "diagnoses": [
+      {
+        "dx_id": "0001346-dx-000",
+        "pat_enc_csn_id": "0001346-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001346-acu-000",
+        "pat_enc_csn_id": "0001346-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101346",
+    "summary": {
+      "total_charges": 781,
+      "total_payments": 703,
+      "outstanding_balance": 78,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 781,
+        "total_payments": 703,
+        "current_balance": 78,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-06",
+        "closed_date": "2026-05-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101346",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

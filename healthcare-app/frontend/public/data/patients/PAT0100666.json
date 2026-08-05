@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100666",
+    "med_rec_num": "MRN0200666",
+    "full_name": "Margaret Patel",
+    "birth_date": "2026-04-12",
+    "age": 0,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 12753,
+    "latitude": 40.49449,
+    "longitude": -79.90909,
+    "last_encounter_date": "2026-01-18",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2293 Centre St",
+    "state": "PA",
+    "phone": "(412) 939-4746",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100666",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000666-000",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000666-001",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3477
+      },
+      {
+        "pat_enc_csn_id": "0000666-002",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000666-003",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 3455
+      },
+      {
+        "pat_enc_csn_id": "0000666-004",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 2096
+      },
+      {
+        "pat_enc_csn_id": "0000666-005",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000666-006",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000666-007",
+        "contact_date": "2024-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000666-008",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000666-009",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 1952
+      },
+      {
+        "pat_enc_csn_id": "0000666-010",
+        "contact_date": "2024-08-17",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100666",
+    "diagnoses": [
+      {
+        "dx_id": "0000666-dx-000",
+        "pat_enc_csn_id": "0000666-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000666-acu-000",
+        "pat_enc_csn_id": "0000666-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0000666-acu-002",
+        "pat_enc_csn_id": "0000666-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100666",
+    "summary": {
+      "total_charges": 12753,
+      "total_payments": 11672,
+      "outstanding_balance": 1081,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000066600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12753,
+        "total_payments": 11672,
+        "current_balance": 1081,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-20",
+        "closed_date": "2026-01-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100666",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

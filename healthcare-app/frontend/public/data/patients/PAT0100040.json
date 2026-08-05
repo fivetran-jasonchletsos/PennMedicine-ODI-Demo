@@ -1,0 +1,194 @@
+{
+  "patient": {
+    "pat_id": "PAT0100040",
+    "med_rec_num": "MRN0200040",
+    "full_name": "John Moore",
+    "birth_date": "1976-07-03",
+    "age": 50,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 2082,
+    "latitude": 40.62924,
+    "longitude": -80.06209,
+    "last_encounter_date": "2026-03-30",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4117 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 923-8168",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100040",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000040-000",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000040-001",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000040-002",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0000040-003",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000040-004",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000040-005",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000040-006",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 163
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100040",
+    "diagnoses": [
+      {
+        "dx_id": "0000040-acu-002",
+        "pat_enc_csn_id": "0000040-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100040",
+    "summary": {
+      "total_charges": 2082,
+      "total_payments": 1785,
+      "outstanding_balance": 297,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000004000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2082,
+        "total_payments": 1785,
+        "current_balance": 297,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-19",
+        "closed_date": "2026-05-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100040",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      },
+      {
+        "pat_id": "PAT0100420",
+        "full_name": "Robert Singh",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 2502
+      }
+    ]
+  }
+}

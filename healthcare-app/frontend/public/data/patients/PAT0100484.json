@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0100484",
+    "med_rec_num": "MRN0200484",
+    "full_name": "Michael Kim",
+    "birth_date": "1977-10-09",
+    "age": 49,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.37965,
+    "longitude": -80.04894,
+    "last_encounter_date": null,
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7891 Highland St",
+    "state": "PA",
+    "phone": "(412) 599-2309",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100484",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100484",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100484",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048400",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100484",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

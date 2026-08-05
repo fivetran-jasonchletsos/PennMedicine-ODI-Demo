@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0101025",
+    "med_rec_num": "MRN0201025",
+    "full_name": "Sofia Wilson",
+    "birth_date": "1993-03-07",
+    "age": 33,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 7242,
+    "latitude": 40.62776,
+    "longitude": -80.05728,
+    "last_encounter_date": "2026-05-06",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "407 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 386-4494",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101025",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001025-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001025-001",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0001025-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001025-003",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0001025-004",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0001025-005",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3022
+      },
+      {
+        "pat_enc_csn_id": "0001025-006",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0001025-007",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0001025-008",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001025-009",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001025-010",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 2350
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101025",
+    "diagnoses": [
+      {
+        "dx_id": "0001025-dx-000",
+        "pat_enc_csn_id": "0001025-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001025-acu-001",
+        "pat_enc_csn_id": "0001025-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      },
+      {
+        "dx_id": "0001025-acu-002",
+        "pat_enc_csn_id": "0001025-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101025",
+    "summary": {
+      "total_charges": 7242,
+      "total_payments": 4988,
+      "outstanding_balance": 2254,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7242,
+        "total_payments": 4988,
+        "current_balance": 2254,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-11-23",
+        "closed_date": "2025-12-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101025",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

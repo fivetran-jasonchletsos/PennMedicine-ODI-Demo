@@ -1,0 +1,375 @@
+{
+  "patient": {
+    "pat_id": "PAT0100705",
+    "med_rec_num": "MRN0200705",
+    "full_name": "Donna Russo",
+    "birth_date": "1954-09-10",
+    "age": 72,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 5,
+    "encounter_count": 20,
+    "total_charges": 51620,
+    "latitude": 40.44266,
+    "longitude": -79.95984,
+    "last_encounter_date": "2026-05-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2160 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 654-4220",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100705",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000705-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000705-001",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000705-002",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000705-003",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 6500
+      },
+      {
+        "pat_enc_csn_id": "0000705-004",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000705-005",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 3320
+      },
+      {
+        "pat_enc_csn_id": "0000705-006",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0000705-007",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000705-008",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000705-009",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000705-010",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000705-011",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000705-012",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 37639
+      },
+      {
+        "pat_enc_csn_id": "0000705-013",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0000705-014",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000705-015",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000705-016",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000705-017",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000705-018",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000705-019",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 248
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100705",
+    "diagnoses": [
+      {
+        "dx_id": "0000705-dx-000",
+        "pat_enc_csn_id": "0000705-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000705-dx-001",
+        "pat_enc_csn_id": "0000705-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000705-dx-002",
+        "pat_enc_csn_id": "0000705-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000705-dx-003",
+        "pat_enc_csn_id": "0000705-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000705-dx-004",
+        "pat_enc_csn_id": "0000705-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000705-acu-001",
+        "pat_enc_csn_id": "0000705-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100705",
+    "summary": {
+      "total_charges": 51620,
+      "total_payments": 44166,
+      "outstanding_balance": 7454,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 33552,
+        "total_payments": 28577,
+        "current_balance": 4975,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-03",
+        "closed_date": "2025-12-10"
+      },
+      {
+        "hsp_account_id": "HSP000070501",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18068,
+        "total_payments": 15589,
+        "current_balance": 2479,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-20",
+        "closed_date": "2026-03-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100705",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}

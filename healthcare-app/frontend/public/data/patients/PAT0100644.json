@@ -1,0 +1,296 @@
+{
+  "patient": {
+    "pat_id": "PAT0100644",
+    "med_rec_num": "MRN0200644",
+    "full_name": "Sharon Moore",
+    "birth_date": "1996-03-06",
+    "age": 30,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 27580,
+    "latitude": 40.44185,
+    "longitude": -79.93582,
+    "last_encounter_date": "2026-04-10",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8174 Highland St",
+    "state": "PA",
+    "phone": "(412) 437-4244",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100644",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000644-000",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5423
+      },
+      {
+        "pat_enc_csn_id": "0000644-001",
+        "contact_date": "2026-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000644-002",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000644-003",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 17067
+      },
+      {
+        "pat_enc_csn_id": "0000644-004",
+        "contact_date": "2025-11-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000644-005",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 3033
+      },
+      {
+        "pat_enc_csn_id": "0000644-006",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000644-007",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000644-008",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000644-009",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000644-010",
+        "contact_date": "2024-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 365
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100644",
+    "diagnoses": [
+      {
+        "dx_id": "0000644-dx-000",
+        "pat_enc_csn_id": "0000644-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000644-dx-001",
+        "pat_enc_csn_id": "0000644-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000644-dx-002",
+        "pat_enc_csn_id": "0000644-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000644-dx-003",
+        "pat_enc_csn_id": "0000644-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000644-acu-000",
+        "pat_enc_csn_id": "0000644-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      },
+      {
+        "dx_id": "0000644-acu-001",
+        "pat_enc_csn_id": "0000644-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100644",
+    "summary": {
+      "total_charges": 27580,
+      "total_payments": 21800,
+      "outstanding_balance": 5780,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000064400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 10480,
+        "total_payments": 8145,
+        "current_balance": 2335,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-14",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000064401",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 4555,
+        "total_payments": 4086,
+        "current_balance": 469,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-02-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000064402",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12545,
+        "total_payments": 9569,
+        "current_balance": 2976,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-24",
+        "closed_date": "2025-12-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100644",
+    "comparables": [
+      {
+        "pat_id": "PAT0100524",
+        "full_name": "Thomas Schmidt",
+        "age": 33,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 11760
+      },
+      {
+        "pat_id": "PAT0100714",
+        "full_name": "Carlos Greene",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 7645
+      },
+      {
+        "pat_id": "PAT0100824",
+        "full_name": "Carlos Patel",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 36449
+      },
+      {
+        "pat_id": "PAT0100825",
+        "full_name": "Margaret Gonzalez",
+        "age": 32,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 9,
+        "total_charges": 26086
+      },
+      {
+        "pat_id": "PAT0101092",
+        "full_name": "Kimberly Singh",
+        "age": 37,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 40922
+      },
+      {
+        "pat_id": "PAT0101251",
+        "full_name": "Elizabeth Park",
+        "age": 38,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1536
+      }
+    ]
+  }
+}

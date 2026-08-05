@@ -1,0 +1,362 @@
+{
+  "patient": {
+    "pat_id": "PAT0100105",
+    "med_rec_num": "MRN0200105",
+    "full_name": "Patricia Kim",
+    "birth_date": "1952-05-13",
+    "age": 74,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 5,
+    "encounter_count": 19,
+    "total_charges": 17508,
+    "latitude": 40.50786,
+    "longitude": -79.75778,
+    "last_encounter_date": "2026-04-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2828 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 541-6763",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100105",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000105-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 1580
+      },
+      {
+        "pat_enc_csn_id": "0000105-001",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 4877
+      },
+      {
+        "pat_enc_csn_id": "0000105-002",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000105-003",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 5196
+      },
+      {
+        "pat_enc_csn_id": "0000105-004",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000105-005",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000105-006",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000105-007",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 93
+      },
+      {
+        "pat_enc_csn_id": "0000105-008",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000105-009",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000105-010",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000105-011",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000105-012",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000105-013",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000105-014",
+        "contact_date": "2024-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000105-015",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 2009
+      },
+      {
+        "pat_enc_csn_id": "0000105-016",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000105-017",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000105-018",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 219
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100105",
+    "diagnoses": [
+      {
+        "dx_id": "0000105-dx-000",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000105-dx-001",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000105-dx-002",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0000105-dx-003",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000105-dx-004",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1974-05-13"
+      },
+      {
+        "dx_id": "0000105-acu-000",
+        "pat_enc_csn_id": "0000105-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      },
+      {
+        "dx_id": "0000105-acu-001",
+        "pat_enc_csn_id": "0000105-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100105",
+    "summary": {
+      "total_charges": 17508,
+      "total_payments": 11404,
+      "outstanding_balance": 6104,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 17508,
+        "total_payments": 11404,
+        "current_balance": 6104,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-19",
+        "closed_date": "2025-12-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100105",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}

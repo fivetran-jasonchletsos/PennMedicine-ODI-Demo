@@ -1,0 +1,351 @@
+{
+  "patient": {
+    "pat_id": "PAT0100070",
+    "med_rec_num": "MRN0200070",
+    "full_name": "Margaret Gonzalez",
+    "birth_date": "1940-02-01",
+    "age": 86,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 5,
+    "encounter_count": 16,
+    "total_charges": 20211,
+    "latitude": 40.46964,
+    "longitude": -79.84063,
+    "last_encounter_date": "2026-04-04",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1373 Highland St",
+    "state": "PA",
+    "phone": "(412) 766-3878",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100070",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000070-000",
+        "contact_date": "2026-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 369
+      },
+      {
+        "pat_enc_csn_id": "0000070-001",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000070-002",
+        "contact_date": "2025-09-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000070-003",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000070-004",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000070-005",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000070-006",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000070-007",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000070-008",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000070-009",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000070-010",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000070-011",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000070-012",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 16182
+      },
+      {
+        "pat_enc_csn_id": "0000070-013",
+        "contact_date": "2024-08-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000070-014",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000070-015",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 116
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100070",
+    "diagnoses": [
+      {
+        "dx_id": "0000070-dx-000",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000070-dx-001",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000070-dx-002",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000070-dx-003",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1960-05-13"
+      },
+      {
+        "dx_id": "0000070-dx-004",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000070-acu-000",
+        "pat_enc_csn_id": "0000070-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-04"
+      },
+      {
+        "dx_id": "0000070-acu-001",
+        "pat_enc_csn_id": "0000070-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0000070-acu-002",
+        "pat_enc_csn_id": "0000070-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100070",
+    "summary": {
+      "total_charges": 20211,
+      "total_payments": 14500,
+      "outstanding_balance": 5711,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000007000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5781,
+        "total_payments": 3841,
+        "current_balance": 1940,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-02-03",
+        "closed_date": "2026-02-09"
+      },
+      {
+        "hsp_account_id": "HSP000007001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 14430,
+        "total_payments": 10659,
+        "current_balance": 3771,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-05",
+        "closed_date": "2026-01-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100070",
+    "comparables": [
+      {
+        "pat_id": "PAT0100049",
+        "full_name": "Daniel Greene",
+        "age": 81,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 22,
+        "total_charges": 10561
+      },
+      {
+        "pat_id": "PAT0100076",
+        "full_name": "Patricia Walsh",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 13961
+      },
+      {
+        "pat_id": "PAT0100109",
+        "full_name": "Sandra Lopez",
+        "age": 80,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 31497
+      },
+      {
+        "pat_id": "PAT0100119",
+        "full_name": "Thomas Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 11,
+        "total_charges": 7931
+      },
+      {
+        "pat_id": "PAT0100206",
+        "full_name": "Carol O'Brien",
+        "age": 83,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 13323
+      },
+      {
+        "pat_id": "PAT0100250",
+        "full_name": "Thomas Rodriguez",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 2955
+      }
+    ]
+  }
+}

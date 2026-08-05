@@ -1,0 +1,328 @@
+{
+  "patient": {
+    "pat_id": "PAT0100083",
+    "med_rec_num": "MRN0200083",
+    "full_name": "George Johnson",
+    "birth_date": "1938-09-01",
+    "age": 88,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 18721,
+    "latitude": 40.50234,
+    "longitude": -79.76667,
+    "last_encounter_date": "2026-02-27",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1452 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 750-1080",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100083",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000083-000",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000083-001",
+        "contact_date": "2025-10-27",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 3223
+      },
+      {
+        "pat_enc_csn_id": "0000083-002",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 2681
+      },
+      {
+        "pat_enc_csn_id": "0000083-003",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000083-004",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000083-005",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0000083-006",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000083-007",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000083-008",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000083-009",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4909
+      },
+      {
+        "pat_enc_csn_id": "0000083-010",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4336
+      },
+      {
+        "pat_enc_csn_id": "0000083-011",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 1046
+      },
+      {
+        "pat_enc_csn_id": "0000083-012",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000083-013",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000083-014",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 163
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100083",
+    "diagnoses": [
+      {
+        "dx_id": "0000083-dx-000",
+        "pat_enc_csn_id": "0000083-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000083-dx-001",
+        "pat_enc_csn_id": "0000083-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000083-acu-000",
+        "pat_enc_csn_id": "0000083-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      },
+      {
+        "dx_id": "0000083-acu-001",
+        "pat_enc_csn_id": "0000083-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-10-27"
+      },
+      {
+        "dx_id": "0000083-acu-002",
+        "pat_enc_csn_id": "0000083-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100083",
+    "summary": {
+      "total_charges": 18721,
+      "total_payments": 15093,
+      "outstanding_balance": 3628,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000008300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 533,
+        "total_payments": 366,
+        "current_balance": 167,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-03",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000008301",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 10262,
+        "total_payments": 7777,
+        "current_balance": 2485,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-26",
+        "closed_date": "2026-04-11"
+      },
+      {
+        "hsp_account_id": "HSP000008302",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7926,
+        "total_payments": 6950,
+        "current_balance": 976,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-05-18",
+        "closed_date": "2025-11-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100083",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

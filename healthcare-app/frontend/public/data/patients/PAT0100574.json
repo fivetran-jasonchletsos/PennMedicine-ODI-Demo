@@ -1,0 +1,170 @@
+{
+  "patient": {
+    "pat_id": "PAT0100574",
+    "med_rec_num": "MRN0200574",
+    "full_name": "Sharon Wong",
+    "birth_date": "2004-02-22",
+    "age": 22,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 786,
+    "latitude": 40.44585,
+    "longitude": -79.93201,
+    "last_encounter_date": "2025-12-30",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6013 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 519-1483",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100574",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000574-000",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000574-001",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000574-002",
+        "contact_date": "2024-05-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 215
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100574",
+    "diagnoses": [
+      {
+        "dx_id": "0000574-dx-000",
+        "pat_enc_csn_id": "0000574-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000574-acu-000",
+        "pat_enc_csn_id": "0000574-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-30"
+      },
+      {
+        "dx_id": "0000574-acu-002",
+        "pat_enc_csn_id": "0000574-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-05-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100574",
+    "summary": {
+      "total_charges": 786,
+      "total_payments": 520,
+      "outstanding_balance": 266,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 786,
+        "total_payments": 520,
+        "current_balance": 266,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-22",
+        "closed_date": "2025-11-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100574",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

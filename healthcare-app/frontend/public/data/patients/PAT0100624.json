@@ -1,0 +1,279 @@
+{
+  "patient": {
+    "pat_id": "PAT0100624",
+    "med_rec_num": "MRN0200624",
+    "full_name": "Thomas Jackson",
+    "birth_date": "2014-04-12",
+    "age": 12,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 10151,
+    "latitude": 40.62634,
+    "longitude": -80.06028,
+    "last_encounter_date": "2026-04-24",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5922 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 609-7022",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100624",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000624-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000624-001",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000624-002",
+        "contact_date": "2025-07-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000624-003",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 60
+      },
+      {
+        "pat_enc_csn_id": "0000624-004",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 3756
+      },
+      {
+        "pat_enc_csn_id": "0000624-005",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000624-006",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000624-007",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000624-008",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000624-009",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3790
+      },
+      {
+        "pat_enc_csn_id": "0000624-010",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000624-011",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 404
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100624",
+    "diagnoses": [
+      {
+        "dx_id": "0000624-dx-000",
+        "pat_enc_csn_id": "0000624-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000624-acu-000",
+        "pat_enc_csn_id": "0000624-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-24"
+      },
+      {
+        "dx_id": "0000624-acu-001",
+        "pat_enc_csn_id": "0000624-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-12"
+      },
+      {
+        "dx_id": "0000624-acu-002",
+        "pat_enc_csn_id": "0000624-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-07-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100624",
+    "summary": {
+      "total_charges": 10151,
+      "total_payments": 8554,
+      "outstanding_balance": 1597,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000062400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7490,
+        "total_payments": 6788,
+        "current_balance": 702,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-26",
+        "closed_date": "2025-11-18"
+      },
+      {
+        "hsp_account_id": "HSP000062401",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2661,
+        "total_payments": 1766,
+        "current_balance": 895,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-13",
+        "closed_date": "2026-04-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100624",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

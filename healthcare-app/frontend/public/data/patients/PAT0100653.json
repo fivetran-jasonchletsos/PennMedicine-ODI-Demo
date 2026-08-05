@@ -1,0 +1,368 @@
+{
+  "patient": {
+    "pat_id": "PAT0100653",
+    "med_rec_num": "MRN0200653",
+    "full_name": "Michael Kim",
+    "birth_date": "1934-10-11",
+    "age": 92,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 19,
+    "total_charges": 13587,
+    "latitude": 40.63473,
+    "longitude": -80.06368,
+    "last_encounter_date": "2026-04-29",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2282 Centre St",
+    "state": "PA",
+    "phone": "(412) 452-9821",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100653",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000653-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000653-001",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000653-002",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000653-003",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000653-004",
+        "contact_date": "2025-12-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 4070
+      },
+      {
+        "pat_enc_csn_id": "0000653-005",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000653-006",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000653-007",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000653-008",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000653-009",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2798
+      },
+      {
+        "pat_enc_csn_id": "0000653-010",
+        "contact_date": "2024-12-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2575
+      },
+      {
+        "pat_enc_csn_id": "0000653-011",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000653-012",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000653-013",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0000653-014",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000653-015",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000653-016",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 49
+      },
+      {
+        "pat_enc_csn_id": "0000653-017",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000653-018",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 220
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100653",
+    "diagnoses": [
+      {
+        "dx_id": "0000653-dx-000",
+        "pat_enc_csn_id": "0000653-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000653-dx-001",
+        "pat_enc_csn_id": "0000653-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000653-acu-000",
+        "pat_enc_csn_id": "0000653-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      },
+      {
+        "dx_id": "0000653-acu-001",
+        "pat_enc_csn_id": "0000653-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      },
+      {
+        "dx_id": "0000653-acu-002",
+        "pat_enc_csn_id": "0000653-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100653",
+    "summary": {
+      "total_charges": 13587,
+      "total_payments": 11082,
+      "outstanding_balance": 2505,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000065300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 2587,
+        "total_payments": 1976,
+        "current_balance": 611,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-14",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000065301",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 6863,
+        "total_payments": 5870,
+        "current_balance": 993,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000065302",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 4137,
+        "total_payments": 3236,
+        "current_balance": 901,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-09-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100653",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

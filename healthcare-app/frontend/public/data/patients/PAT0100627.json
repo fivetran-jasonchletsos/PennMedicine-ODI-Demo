@@ -1,0 +1,319 @@
+{
+  "patient": {
+    "pat_id": "PAT0100627",
+    "med_rec_num": "MRN0200627",
+    "full_name": "Sofia Garcia",
+    "birth_date": "1987-01-08",
+    "age": 39,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 36687,
+    "latitude": 40.68887,
+    "longitude": -80.10822,
+    "last_encounter_date": "2026-01-12",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1478 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 205-7488",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100627",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000627-000",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 152
+      },
+      {
+        "pat_enc_csn_id": "0000627-001",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0000627-002",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000627-003",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000627-004",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 6195
+      },
+      {
+        "pat_enc_csn_id": "0000627-005",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000627-006",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 1401
+      },
+      {
+        "pat_enc_csn_id": "0000627-007",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5391
+      },
+      {
+        "pat_enc_csn_id": "0000627-008",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000627-009",
+        "contact_date": "2024-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000627-010",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000627-011",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 20795
+      },
+      {
+        "pat_enc_csn_id": "0000627-012",
+        "contact_date": "2024-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0000627-013",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000627-014",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000627-015",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 235
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100627",
+    "diagnoses": [
+      {
+        "dx_id": "0000627-dx-000",
+        "pat_enc_csn_id": "0000627-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000627-dx-001",
+        "pat_enc_csn_id": "0000627-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000627-acu-001",
+        "pat_enc_csn_id": "0000627-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      },
+      {
+        "dx_id": "0000627-acu-002",
+        "pat_enc_csn_id": "0000627-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100627",
+    "summary": {
+      "total_charges": 36687,
+      "total_payments": 29863,
+      "outstanding_balance": 6824,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000062700",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 31283,
+        "total_payments": 25660,
+        "current_balance": 5623,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-22",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000062701",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5404,
+        "total_payments": 4203,
+        "current_balance": 1201,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-03-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100627",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "patient": {
+    "pat_id": "PAT0101060",
+    "med_rec_num": "MRN0201060",
+    "full_name": "Mark Gonzalez",
+    "birth_date": "1976-12-12",
+    "age": 50,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 4000,
+    "latitude": 40.45339,
+    "longitude": -80.0127,
+    "last_encounter_date": "2026-05-01",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6822 Highland St",
+    "state": "PA",
+    "phone": "(412) 290-5244",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101060",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001060-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001060-001",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0001060-002",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001060-003",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 2944
+      },
+      {
+        "pat_enc_csn_id": "0001060-004",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 210
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101060",
+    "diagnoses": [
+      {
+        "dx_id": "0001060-dx-000",
+        "pat_enc_csn_id": "0001060-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0001060-dx-001",
+        "pat_enc_csn_id": "0001060-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001060-acu-000",
+        "pat_enc_csn_id": "0001060-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0001060-acu-001",
+        "pat_enc_csn_id": "0001060-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-06-07"
+      },
+      {
+        "dx_id": "0001060-acu-002",
+        "pat_enc_csn_id": "0001060-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-03-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101060",
+    "summary": {
+      "total_charges": 4000,
+      "total_payments": 3494,
+      "outstanding_balance": 506,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000106000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 4000,
+        "total_payments": 3494,
+        "current_balance": 506,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101060",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

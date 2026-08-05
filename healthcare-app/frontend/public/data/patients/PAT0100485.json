@@ -1,0 +1,204 @@
+{
+  "patient": {
+    "pat_id": "PAT0100485",
+    "med_rec_num": "MRN0200485",
+    "full_name": "David Park",
+    "birth_date": "1977-11-11",
+    "age": 49,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 12447,
+    "latitude": 40.50299,
+    "longitude": -79.75917,
+    "last_encounter_date": "2026-01-09",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2405 Walnut St",
+    "state": "PA",
+    "phone": "(412) 431-6473",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100485",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000485-000",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000485-001",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1577
+      },
+      {
+        "pat_enc_csn_id": "0000485-002",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000485-003",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 3848
+      },
+      {
+        "pat_enc_csn_id": "0000485-004",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000485-005",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000485-006",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5605
+      },
+      {
+        "pat_enc_csn_id": "0000485-007",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 375
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100485",
+    "diagnoses": [
+      {
+        "dx_id": "0000485-dx-000",
+        "pat_enc_csn_id": "0000485-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100485",
+    "summary": {
+      "total_charges": 12447,
+      "total_payments": 3712,
+      "outstanding_balance": 8735,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12447,
+        "total_payments": 3712,
+        "current_balance": 8735,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-08-05",
+        "closed_date": "2026-03-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100485",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

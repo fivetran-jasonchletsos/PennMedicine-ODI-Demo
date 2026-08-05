@@ -1,0 +1,364 @@
+{
+  "patient": {
+    "pat_id": "PAT0100014",
+    "med_rec_num": "MRN0200014",
+    "full_name": "Ashley Hernandez",
+    "birth_date": "1951-12-23",
+    "age": 75,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 4,
+    "encounter_count": 20,
+    "total_charges": 9559,
+    "latitude": 40.45392,
+    "longitude": -79.93039,
+    "last_encounter_date": "2026-02-27",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "752 Forbes St",
+    "state": "PA",
+    "phone": "(412) 930-6456",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100014",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000014-000",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000014-001",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000014-002",
+        "contact_date": "2025-11-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000014-003",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000014-004",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 4346
+      },
+      {
+        "pat_enc_csn_id": "0000014-005",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000014-006",
+        "contact_date": "2025-06-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000014-007",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000014-008",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000014-009",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000014-010",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000014-011",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000014-012",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000014-013",
+        "contact_date": "2024-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000014-014",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000014-015",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000014-016",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000014-017",
+        "contact_date": "2024-07-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000014-018",
+        "contact_date": "2024-07-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000014-019",
+        "contact_date": "2024-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 391
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100014",
+    "diagnoses": [
+      {
+        "dx_id": "0000014-dx-000",
+        "pat_enc_csn_id": "0000014-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000014-dx-001",
+        "pat_enc_csn_id": "0000014-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000014-dx-002",
+        "pat_enc_csn_id": "0000014-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0000014-dx-003",
+        "pat_enc_csn_id": "0000014-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      },
+      {
+        "dx_id": "0000014-acu-000",
+        "pat_enc_csn_id": "0000014-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      },
+      {
+        "dx_id": "0000014-acu-001",
+        "pat_enc_csn_id": "0000014-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100014",
+    "summary": {
+      "total_charges": 9559,
+      "total_payments": 7441,
+      "outstanding_balance": 2118,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000001400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9559,
+        "total_payments": 7441,
+        "current_balance": 2118,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-04",
+        "closed_date": "2026-03-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100014",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

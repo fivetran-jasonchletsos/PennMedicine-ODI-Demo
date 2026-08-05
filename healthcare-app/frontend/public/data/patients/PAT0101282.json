@@ -1,0 +1,280 @@
+{
+  "patient": {
+    "pat_id": "PAT0101282",
+    "med_rec_num": "MRN0201282",
+    "full_name": "Robert Martinez",
+    "birth_date": "1979-09-20",
+    "age": 47,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 11926,
+    "latitude": 40.326,
+    "longitude": -80.03468,
+    "last_encounter_date": "2026-01-24",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1772 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 841-2812",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101282",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001282-000",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0001282-001",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001282-002",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3504
+      },
+      {
+        "pat_enc_csn_id": "0001282-003",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4287
+      },
+      {
+        "pat_enc_csn_id": "0001282-004",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0001282-005",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0001282-006",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0001282-007",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001282-008",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001282-009",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 1109
+      },
+      {
+        "pat_enc_csn_id": "0001282-010",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0001282-011",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0001282-012",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001282-013",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 234
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101282",
+    "diagnoses": [
+      {
+        "dx_id": "0001282-dx-000",
+        "pat_enc_csn_id": "0001282-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001282-acu-000",
+        "pat_enc_csn_id": "0001282-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      },
+      {
+        "dx_id": "0001282-acu-002",
+        "pat_enc_csn_id": "0001282-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101282",
+    "summary": {
+      "total_charges": 11926,
+      "total_payments": 7650,
+      "outstanding_balance": 4276,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000128200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11926,
+        "total_payments": 7650,
+        "current_balance": 4276,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-02",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101282",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

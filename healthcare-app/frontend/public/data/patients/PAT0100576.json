@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0100576",
+    "med_rec_num": "MRN0200576",
+    "full_name": "Barbara Williams",
+    "birth_date": "1987-01-24",
+    "age": 39,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 4541,
+    "latitude": 40.33224,
+    "longitude": -80.04022,
+    "last_encounter_date": "2026-03-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5984 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 266-8073",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100576",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000576-000",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000576-001",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4059
+      },
+      {
+        "pat_enc_csn_id": "0000576-002",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 284
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100576",
+    "diagnoses": [
+      {
+        "dx_id": "0000576-dx-000",
+        "pat_enc_csn_id": "0000576-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000576-acu-000",
+        "pat_enc_csn_id": "0000576-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-02"
+      },
+      {
+        "dx_id": "0000576-acu-001",
+        "pat_enc_csn_id": "0000576-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-22"
+      },
+      {
+        "dx_id": "0000576-acu-002",
+        "pat_enc_csn_id": "0000576-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2024-10-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100576",
+    "summary": {
+      "total_charges": 4541,
+      "total_payments": 2741,
+      "outstanding_balance": 1800,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4541,
+        "total_payments": 2741,
+        "current_balance": 1800,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-10",
+        "closed_date": "2025-10-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100576",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

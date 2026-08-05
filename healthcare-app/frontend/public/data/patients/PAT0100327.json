@@ -1,0 +1,288 @@
+{
+  "patient": {
+    "pat_id": "PAT0100327",
+    "med_rec_num": "MRN0200327",
+    "full_name": "Mark Gonzalez",
+    "birth_date": "1964-08-28",
+    "age": 62,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 26768,
+    "latitude": 40.47227,
+    "longitude": -79.83374,
+    "last_encounter_date": "2026-04-15",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3159 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 743-4534",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100327",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000327-000",
+        "contact_date": "2026-04-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000327-001",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000327-002",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000327-003",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000327-004",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000327-005",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000327-006",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000327-007",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0000327-008",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 16706
+      },
+      {
+        "pat_enc_csn_id": "0000327-009",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 2074
+      },
+      {
+        "pat_enc_csn_id": "0000327-010",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000327-011",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1430
+      },
+      {
+        "pat_enc_csn_id": "0000327-012",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000327-013",
+        "contact_date": "2024-08-24",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 4584
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100327",
+    "diagnoses": [
+      {
+        "dx_id": "0000327-dx-000",
+        "pat_enc_csn_id": "0000327-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000327-dx-001",
+        "pat_enc_csn_id": "0000327-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000327-acu-000",
+        "pat_enc_csn_id": "0000327-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-15"
+      },
+      {
+        "dx_id": "0000327-acu-001",
+        "pat_enc_csn_id": "0000327-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100327",
+    "summary": {
+      "total_charges": 26768,
+      "total_payments": 16784,
+      "outstanding_balance": 9984,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000032700",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 26768,
+        "total_payments": 16784,
+        "current_balance": 9984,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100327",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

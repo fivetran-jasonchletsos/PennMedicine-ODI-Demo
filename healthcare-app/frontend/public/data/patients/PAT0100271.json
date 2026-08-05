@@ -1,0 +1,310 @@
+{
+  "patient": {
+    "pat_id": "PAT0100271",
+    "med_rec_num": "MRN0200271",
+    "full_name": "Richard Davis",
+    "birth_date": "1945-03-06",
+    "age": 81,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 25187,
+    "latitude": 40.44715,
+    "longitude": -79.92928,
+    "last_encounter_date": "2026-01-02",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4218 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 425-1384",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100271",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000271-000",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000271-001",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 22142
+      },
+      {
+        "pat_enc_csn_id": "0000271-002",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000271-003",
+        "contact_date": "2025-10-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000271-004",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000271-005",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000271-006",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000271-007",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 59
+      },
+      {
+        "pat_enc_csn_id": "0000271-008",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000271-009",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0000271-010",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000271-011",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000271-012",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000271-013",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 139
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100271",
+    "diagnoses": [
+      {
+        "dx_id": "0000271-dx-000",
+        "pat_enc_csn_id": "0000271-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      },
+      {
+        "dx_id": "0000271-dx-001",
+        "pat_enc_csn_id": "0000271-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000271-acu-000",
+        "pat_enc_csn_id": "0000271-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-02"
+      },
+      {
+        "dx_id": "0000271-acu-001",
+        "pat_enc_csn_id": "0000271-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100271",
+    "summary": {
+      "total_charges": 25187,
+      "total_payments": 19308,
+      "outstanding_balance": 5879,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 23257,
+        "total_payments": 17672,
+        "current_balance": 5585,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000027101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 427,
+        "total_payments": 356,
+        "current_balance": 71,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-14",
+        "closed_date": "2026-01-14"
+      },
+      {
+        "hsp_account_id": "HSP000027102",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1503,
+        "total_payments": 1280,
+        "current_balance": 223,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100271",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "patient": {
+    "pat_id": "PAT0100756",
+    "med_rec_num": "MRN0200756",
+    "full_name": "Michael Martinez",
+    "birth_date": "1997-09-06",
+    "age": 29,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 1287,
+    "latitude": 40.35661,
+    "longitude": -79.90238,
+    "last_encounter_date": "2026-04-27",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8016 Forbes St",
+    "state": "PA",
+    "phone": "(412) 620-8177",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100756",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000756-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000756-001",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000756-002",
+        "contact_date": "2025-06-02",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000756-003",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000756-004",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 176
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100756",
+    "diagnoses": [
+      {
+        "dx_id": "0000756-dx-000",
+        "pat_enc_csn_id": "0000756-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000756-dx-001",
+        "pat_enc_csn_id": "0000756-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000756-acu-000",
+        "pat_enc_csn_id": "0000756-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      },
+      {
+        "dx_id": "0000756-acu-001",
+        "pat_enc_csn_id": "0000756-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-24"
+      },
+      {
+        "dx_id": "0000756-acu-002",
+        "pat_enc_csn_id": "0000756-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-06-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100756",
+    "summary": {
+      "total_charges": 1287,
+      "total_payments": 1078,
+      "outstanding_balance": 209,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000075600",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1287,
+        "total_payments": 1078,
+        "current_balance": 209,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100756",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

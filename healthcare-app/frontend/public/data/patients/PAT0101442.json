@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0101442",
+    "med_rec_num": "MRN0201442",
+    "full_name": "Janet Wilson",
+    "birth_date": "1968-05-21",
+    "age": 58,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 43917,
+    "latitude": 40.47883,
+    "longitude": -79.95536,
+    "last_encounter_date": "2026-04-06",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9675 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 733-1206",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101442",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001442-000",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6846
+      },
+      {
+        "pat_enc_csn_id": "0001442-001",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0001442-002",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0001442-003",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0001442-004",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0001442-005",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001442-006",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0001442-007",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001442-008",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001442-009",
+        "contact_date": "2024-09-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 31014
+      },
+      {
+        "pat_enc_csn_id": "0001442-010",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001442-011",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0001442-012",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001442-013",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3196
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101442",
+    "diagnoses": [
+      {
+        "dx_id": "0001442-dx-000",
+        "pat_enc_csn_id": "0001442-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001442-acu-001",
+        "pat_enc_csn_id": "0001442-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101442",
+    "summary": {
+      "total_charges": 43917,
+      "total_payments": 30930,
+      "outstanding_balance": 12987,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 43917,
+        "total_payments": 30930,
+        "current_balance": 12987,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-23",
+        "closed_date": "2026-04-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101442",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

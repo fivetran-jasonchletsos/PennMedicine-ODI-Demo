@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0101206",
+    "med_rec_num": "MRN0201206",
+    "full_name": "Sandra Martin",
+    "birth_date": "1988-06-26",
+    "age": 38,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 11437,
+    "latitude": 40.44094,
+    "longitude": -79.93502,
+    "last_encounter_date": "2025-12-01",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1619 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 887-1169",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101206",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001206-000",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001206-001",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001206-002",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1949
+      },
+      {
+        "pat_enc_csn_id": "0001206-003",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0001206-004",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001206-005",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0001206-006",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0001206-007",
+        "contact_date": "2024-09-04",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 7215
+      },
+      {
+        "pat_enc_csn_id": "0001206-008",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001206-009",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 305
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101206",
+    "diagnoses": [
+      {
+        "dx_id": "0001206-dx-000",
+        "pat_enc_csn_id": "0001206-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001206-dx-001",
+        "pat_enc_csn_id": "0001206-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001206-acu-000",
+        "pat_enc_csn_id": "0001206-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-12-01"
+      },
+      {
+        "dx_id": "0001206-acu-001",
+        "pat_enc_csn_id": "0001206-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-04-11"
+      },
+      {
+        "dx_id": "0001206-acu-002",
+        "pat_enc_csn_id": "0001206-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101206",
+    "summary": {
+      "total_charges": 11437,
+      "total_payments": 6884,
+      "outstanding_balance": 4553,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 11437,
+        "total_payments": 6884,
+        "current_balance": 4553,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-28",
+        "closed_date": "2025-12-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101206",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

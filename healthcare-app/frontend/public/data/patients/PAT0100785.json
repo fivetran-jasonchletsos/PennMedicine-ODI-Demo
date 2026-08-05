@@ -1,0 +1,350 @@
+{
+  "patient": {
+    "pat_id": "PAT0100785",
+    "med_rec_num": "MRN0200785",
+    "full_name": "Thomas Greene",
+    "birth_date": "1967-08-15",
+    "age": 59,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 5,
+    "encounter_count": 17,
+    "total_charges": 10427,
+    "latitude": 40.62927,
+    "longitude": -80.06167,
+    "last_encounter_date": "2026-05-06",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4823 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 360-6854",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100785",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000785-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 6623
+      },
+      {
+        "pat_enc_csn_id": "0000785-001",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000785-002",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000785-003",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000785-004",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000785-005",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000785-006",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000785-007",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000785-008",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000785-009",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000785-010",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000785-011",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0000785-012",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000785-013",
+        "contact_date": "2024-11-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000785-014",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000785-015",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000785-016",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 316
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100785",
+    "diagnoses": [
+      {
+        "dx_id": "0000785-dx-000",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000785-dx-001",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000785-dx-002",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000785-dx-003",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000785-dx-004",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000785-acu-000",
+        "pat_enc_csn_id": "0000785-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000785-acu-001",
+        "pat_enc_csn_id": "0000785-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0000785-acu-002",
+        "pat_enc_csn_id": "0000785-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100785",
+    "summary": {
+      "total_charges": 10427,
+      "total_payments": 9524,
+      "outstanding_balance": 903,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000078500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 10427,
+        "total_payments": 9524,
+        "current_balance": 903,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-16",
+        "closed_date": "2025-12-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100785",
+    "comparables": [
+      {
+        "pat_id": "PAT0100047",
+        "full_name": "Mark Russo",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 9,
+        "total_charges": 9068
+      },
+      {
+        "pat_id": "PAT0100097",
+        "full_name": "Ashley Williams",
+        "age": 51,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 9,
+        "total_charges": 2354
+      },
+      {
+        "pat_id": "PAT0100204",
+        "full_name": "Barbara Taylor",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 18,
+        "total_charges": 21461
+      },
+      {
+        "pat_id": "PAT0100205",
+        "full_name": "Barbara Patel",
+        "age": 54,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 15630
+      },
+      {
+        "pat_id": "PAT0100387",
+        "full_name": "Christopher Hernandez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 13,
+        "total_charges": 14289
+      },
+      {
+        "pat_id": "PAT0100396",
+        "full_name": "James Patel",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 9872
+      }
+    ]
+  }
+}

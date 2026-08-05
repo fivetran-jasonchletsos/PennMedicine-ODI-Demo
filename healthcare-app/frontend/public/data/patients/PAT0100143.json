@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0100143",
+    "med_rec_num": "MRN0200143",
+    "full_name": "Linda Walsh",
+    "birth_date": "1947-07-02",
+    "age": 79,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 1415,
+    "latitude": 40.3651,
+    "longitude": -79.89909,
+    "last_encounter_date": "2025-08-14",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6971 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 291-5913",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100143",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000143-000",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000143-001",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000143-002",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000143-003",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000143-004",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 326
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100143",
+    "diagnoses": [
+      {
+        "dx_id": "0000143-dx-000",
+        "pat_enc_csn_id": "0000143-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1968-05-13"
+      },
+      {
+        "dx_id": "0000143-acu-001",
+        "pat_enc_csn_id": "0000143-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100143",
+    "summary": {
+      "total_charges": 1415,
+      "total_payments": 1046,
+      "outstanding_balance": 369,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000014300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1415,
+        "total_payments": 1046,
+        "current_balance": 369,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-23",
+        "closed_date": "2026-04-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100143",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0100711",
+    "med_rec_num": "MRN0200711",
+    "full_name": "Donna Schmidt",
+    "birth_date": "2004-04-20",
+    "age": 22,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 184,
+    "latitude": 40.33474,
+    "longitude": -80.04212,
+    "last_encounter_date": "2024-06-24",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1904 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 626-5662",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100711",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000711-000",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100711",
+    "diagnoses": [
+      {
+        "dx_id": "0000711-acu-000",
+        "pat_enc_csn_id": "0000711-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2024-06-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100711",
+    "summary": {
+      "total_charges": 184,
+      "total_payments": 140,
+      "outstanding_balance": 44,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 184,
+        "total_payments": 140,
+        "current_balance": 44,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-03-08",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100711",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

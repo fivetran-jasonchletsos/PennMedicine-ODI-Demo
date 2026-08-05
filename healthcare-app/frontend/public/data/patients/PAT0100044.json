@@ -1,0 +1,366 @@
+{
+  "patient": {
+    "pat_id": "PAT0100044",
+    "med_rec_num": "MRN0200044",
+    "full_name": "Carlos Nguyen",
+    "birth_date": "1960-06-15",
+    "age": 66,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 18,
+    "total_charges": 65457,
+    "latitude": 40.43395,
+    "longitude": -79.92902,
+    "last_encounter_date": "2026-05-07",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "927 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 768-9779",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100044",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000044-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000044-001",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000044-002",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000044-003",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000044-004",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 3448
+      },
+      {
+        "pat_enc_csn_id": "0000044-005",
+        "contact_date": "2025-07-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000044-006",
+        "contact_date": "2025-07-21",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 1376
+      },
+      {
+        "pat_enc_csn_id": "0000044-007",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000044-008",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 23621
+      },
+      {
+        "pat_enc_csn_id": "0000044-009",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000044-010",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 27990
+      },
+      {
+        "pat_enc_csn_id": "0000044-011",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5157
+      },
+      {
+        "pat_enc_csn_id": "0000044-012",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000044-013",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000044-014",
+        "contact_date": "2024-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000044-015",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000044-016",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0000044-017",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 100
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100044",
+    "diagnoses": [
+      {
+        "dx_id": "0000044-dx-000",
+        "pat_enc_csn_id": "0000044-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000044-dx-001",
+        "pat_enc_csn_id": "0000044-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000044-dx-002",
+        "pat_enc_csn_id": "0000044-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000044-acu-000",
+        "pat_enc_csn_id": "0000044-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      },
+      {
+        "dx_id": "0000044-acu-001",
+        "pat_enc_csn_id": "0000044-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      },
+      {
+        "dx_id": "0000044-acu-002",
+        "pat_enc_csn_id": "0000044-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100044",
+    "summary": {
+      "total_charges": 65457,
+      "total_payments": 54243,
+      "outstanding_balance": 11214,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000004400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 13915,
+        "total_payments": 9719,
+        "current_balance": 4196,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-11",
+        "closed_date": "2025-10-28"
+      },
+      {
+        "hsp_account_id": "HSP000004401",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 7460,
+        "total_payments": 4545,
+        "current_balance": 2915,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-10-16",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000004402",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 44082,
+        "total_payments": 39979,
+        "current_balance": 4103,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-11-05",
+        "closed_date": "2025-12-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100044",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

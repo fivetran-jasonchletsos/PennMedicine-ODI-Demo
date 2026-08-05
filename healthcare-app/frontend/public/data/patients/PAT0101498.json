@@ -1,0 +1,318 @@
+{
+  "patient": {
+    "pat_id": "PAT0101498",
+    "med_rec_num": "MRN0201498",
+    "full_name": "Robert Taylor",
+    "birth_date": "1931-03-03",
+    "age": 95,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 37669,
+    "latitude": 40.47863,
+    "longitude": -79.96568,
+    "last_encounter_date": "2026-01-23",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9917 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 858-3026",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101498",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001498-000",
+        "contact_date": "2026-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0001498-001",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001498-002",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0001498-003",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001498-004",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0001498-005",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 24972
+      },
+      {
+        "pat_enc_csn_id": "0001498-006",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0001498-007",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6349
+      },
+      {
+        "pat_enc_csn_id": "0001498-008",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0001498-009",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001498-010",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3714
+      },
+      {
+        "pat_enc_csn_id": "0001498-011",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0001498-012",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001498-013",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 291
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101498",
+    "diagnoses": [
+      {
+        "dx_id": "0001498-dx-000",
+        "pat_enc_csn_id": "0001498-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1953-05-13"
+      },
+      {
+        "dx_id": "0001498-dx-001",
+        "pat_enc_csn_id": "0001498-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001498-acu-000",
+        "pat_enc_csn_id": "0001498-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-23"
+      },
+      {
+        "dx_id": "0001498-acu-001",
+        "pat_enc_csn_id": "0001498-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-17"
+      },
+      {
+        "dx_id": "0001498-acu-002",
+        "pat_enc_csn_id": "0001498-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101498",
+    "summary": {
+      "total_charges": 37669,
+      "total_payments": 29096,
+      "outstanding_balance": 8573,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000149800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 34330,
+        "total_payments": 26195,
+        "current_balance": 8135,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000149801",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2279,
+        "total_payments": 2028,
+        "current_balance": 251,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-28",
+        "closed_date": "2026-03-08"
+      },
+      {
+        "hsp_account_id": "HSP000149802",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1060,
+        "total_payments": 873,
+        "current_balance": 187,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101498",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

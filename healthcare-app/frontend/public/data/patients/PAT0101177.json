@@ -1,0 +1,254 @@
+{
+  "patient": {
+    "pat_id": "PAT0101177",
+    "med_rec_num": "MRN0201177",
+    "full_name": "Carol Martinez",
+    "birth_date": "1957-08-14",
+    "age": 69,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 3223,
+    "latitude": 40.52322,
+    "longitude": -79.96294,
+    "last_encounter_date": "2025-10-23",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3144 Beacon St",
+    "state": "PA",
+    "phone": "(412) 958-5462",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101177",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001177-000",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0001177-001",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001177-002",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001177-003",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0001177-004",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0001177-005",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 973
+      },
+      {
+        "pat_enc_csn_id": "0001177-006",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0001177-007",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001177-008",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 416
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101177",
+    "diagnoses": [
+      {
+        "dx_id": "0001177-dx-000",
+        "pat_enc_csn_id": "0001177-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1983-05-13"
+      },
+      {
+        "dx_id": "0001177-dx-001",
+        "pat_enc_csn_id": "0001177-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0001177-dx-002",
+        "pat_enc_csn_id": "0001177-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0001177-acu-000",
+        "pat_enc_csn_id": "0001177-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-23"
+      },
+      {
+        "dx_id": "0001177-acu-001",
+        "pat_enc_csn_id": "0001177-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-02"
+      },
+      {
+        "dx_id": "0001177-acu-002",
+        "pat_enc_csn_id": "0001177-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101177",
+    "summary": {
+      "total_charges": 3223,
+      "total_payments": 2951,
+      "outstanding_balance": 272,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000117700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3223,
+        "total_payments": 2951,
+        "current_balance": 272,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-04",
+        "closed_date": "2025-11-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101177",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

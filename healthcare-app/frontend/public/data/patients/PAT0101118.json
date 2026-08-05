@@ -1,0 +1,188 @@
+{
+  "patient": {
+    "pat_id": "PAT0101118",
+    "med_rec_num": "MRN0201118",
+    "full_name": "Reshma Walsh",
+    "birth_date": "1987-02-25",
+    "age": 39,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 957,
+    "latitude": 40.43947,
+    "longitude": -79.99413,
+    "last_encounter_date": "2026-03-22",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5023 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 336-4091",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101118",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001118-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0001118-001",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0001118-002",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001118-003",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 338
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101118",
+    "diagnoses": [
+      {
+        "dx_id": "0001118-dx-000",
+        "pat_enc_csn_id": "0001118-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001118-acu-000",
+        "pat_enc_csn_id": "0001118-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0001118-acu-001",
+        "pat_enc_csn_id": "0001118-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-04"
+      },
+      {
+        "dx_id": "0001118-acu-002",
+        "pat_enc_csn_id": "0001118-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-09-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101118",
+    "summary": {
+      "total_charges": 957,
+      "total_payments": 756,
+      "outstanding_balance": 201,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000111800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 957,
+        "total_payments": 756,
+        "current_balance": 201,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-11-02",
+        "closed_date": "2026-02-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101118",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

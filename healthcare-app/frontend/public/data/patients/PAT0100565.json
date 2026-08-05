@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100565",
+    "med_rec_num": "MRN0200565",
+    "full_name": "Margaret Nguyen",
+    "birth_date": "1970-07-17",
+    "age": 56,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 1386,
+    "latitude": 40.4573,
+    "longitude": -79.91699,
+    "last_encounter_date": "2026-03-15",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5067 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 954-5620",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100565",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000565-000",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000565-001",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 48
+      },
+      {
+        "pat_enc_csn_id": "0000565-002",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000565-003",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000565-004",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000565-005",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0000565-006",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 299
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100565",
+    "diagnoses": [
+      {
+        "dx_id": "0000565-acu-000",
+        "pat_enc_csn_id": "0000565-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      },
+      {
+        "dx_id": "0000565-acu-001",
+        "pat_enc_csn_id": "0000565-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-14"
+      },
+      {
+        "dx_id": "0000565-acu-002",
+        "pat_enc_csn_id": "0000565-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-07-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100565",
+    "summary": {
+      "total_charges": 1386,
+      "total_payments": 1308,
+      "outstanding_balance": 78,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000056500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1386,
+        "total_payments": 1308,
+        "current_balance": 78,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-05-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100565",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

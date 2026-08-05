@@ -1,0 +1,216 @@
+{
+  "patient": {
+    "pat_id": "PAT0100917",
+    "med_rec_num": "MRN0200917",
+    "full_name": "Margaret Khan",
+    "birth_date": "1975-12-24",
+    "age": 51,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 4923,
+    "latitude": 40.43439,
+    "longitude": -79.93107,
+    "last_encounter_date": "2025-12-03",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8968 Murray St",
+    "state": "PA",
+    "phone": "(412) 936-6346",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100917",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000917-000",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000917-001",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000917-002",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 3753
+      },
+      {
+        "pat_enc_csn_id": "0000917-003",
+        "contact_date": "2024-11-14",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000917-004",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000917-005",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 164
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100917",
+    "diagnoses": [
+      {
+        "dx_id": "0000917-dx-000",
+        "pat_enc_csn_id": "0000917-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000917-dx-001",
+        "pat_enc_csn_id": "0000917-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000917-acu-000",
+        "pat_enc_csn_id": "0000917-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-03"
+      },
+      {
+        "dx_id": "0000917-acu-001",
+        "pat_enc_csn_id": "0000917-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-08-29"
+      },
+      {
+        "dx_id": "0000917-acu-002",
+        "pat_enc_csn_id": "0000917-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2024-12-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100917",
+    "summary": {
+      "total_charges": 4923,
+      "total_payments": 3925,
+      "outstanding_balance": 998,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000091700",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 4923,
+        "total_payments": 3925,
+        "current_balance": 998,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100917",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

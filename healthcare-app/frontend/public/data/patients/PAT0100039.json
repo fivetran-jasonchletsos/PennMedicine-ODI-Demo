@@ -1,0 +1,316 @@
+{
+  "patient": {
+    "pat_id": "PAT0100039",
+    "med_rec_num": "MRN0200039",
+    "full_name": "Janet Jackson",
+    "birth_date": "1932-08-21",
+    "age": 94,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 38248,
+    "latitude": 40.44852,
+    "longitude": -79.95911,
+    "last_encounter_date": "2025-12-25",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1487 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 705-4558",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100039",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000039-000",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000039-001",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000039-002",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000039-003",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000039-004",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000039-005",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000039-006",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0000039-007",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000039-008",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000039-009",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 30340
+      },
+      {
+        "pat_enc_csn_id": "0000039-010",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 1548
+      },
+      {
+        "pat_enc_csn_id": "0000039-011",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000039-012",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3402
+      },
+      {
+        "pat_enc_csn_id": "0000039-013",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000039-014",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000039-015",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 295
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100039",
+    "diagnoses": [
+      {
+        "dx_id": "0000039-dx-000",
+        "pat_enc_csn_id": "0000039-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1952-05-13"
+      },
+      {
+        "dx_id": "0000039-dx-001",
+        "pat_enc_csn_id": "0000039-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000039-dx-002",
+        "pat_enc_csn_id": "0000039-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0000039-acu-001",
+        "pat_enc_csn_id": "0000039-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-19"
+      },
+      {
+        "dx_id": "0000039-acu-002",
+        "pat_enc_csn_id": "0000039-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100039",
+    "summary": {
+      "total_charges": 38248,
+      "total_payments": 34849,
+      "outstanding_balance": 3399,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000003900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 38248,
+        "total_payments": 34849,
+        "current_balance": 3399,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100039",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100422",
+    "med_rec_num": "MRN0200422",
+    "full_name": "Kimberly Martin",
+    "birth_date": "1959-06-21",
+    "age": 67,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 5736,
+    "latitude": 40.37737,
+    "longitude": -80.05463,
+    "last_encounter_date": "2026-05-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9842 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 223-7047",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100422",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000422-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000422-001",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000422-002",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0000422-003",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000422-004",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000422-005",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 2084
+      },
+      {
+        "pat_enc_csn_id": "0000422-006",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2459
+      },
+      {
+        "pat_enc_csn_id": "0000422-007",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100422",
+    "diagnoses": [
+      {
+        "dx_id": "0000422-dx-000",
+        "pat_enc_csn_id": "0000422-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000422-acu-000",
+        "pat_enc_csn_id": "0000422-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-12"
+      },
+      {
+        "dx_id": "0000422-acu-002",
+        "pat_enc_csn_id": "0000422-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100422",
+    "summary": {
+      "total_charges": 5736,
+      "total_payments": 5129,
+      "outstanding_balance": 607,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000042200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5736,
+        "total_payments": 5129,
+        "current_balance": 607,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-03",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100422",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

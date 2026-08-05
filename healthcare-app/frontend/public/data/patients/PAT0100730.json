@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0100730",
+    "med_rec_num": "MRN0200730",
+    "full_name": "Michelle Smith",
+    "birth_date": "1944-02-12",
+    "age": 82,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 4,
+    "encounter_count": 12,
+    "total_charges": 42808,
+    "latitude": 40.68498,
+    "longitude": -80.10788,
+    "last_encounter_date": "2026-03-21",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9102 Highland St",
+    "state": "PA",
+    "phone": "(412) 926-1714",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100730",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000730-000",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000730-001",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 34569
+      },
+      {
+        "pat_enc_csn_id": "0000730-002",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000730-003",
+        "contact_date": "2025-12-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0000730-004",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000730-005",
+        "contact_date": "2025-10-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000730-006",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000730-007",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000730-008",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 59
+      },
+      {
+        "pat_enc_csn_id": "0000730-009",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000730-010",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5894
+      },
+      {
+        "pat_enc_csn_id": "0000730-011",
+        "contact_date": "2024-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 274
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100730",
+    "diagnoses": [
+      {
+        "dx_id": "0000730-dx-000",
+        "pat_enc_csn_id": "0000730-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000730-dx-001",
+        "pat_enc_csn_id": "0000730-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000730-dx-002",
+        "pat_enc_csn_id": "0000730-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000730-dx-003",
+        "pat_enc_csn_id": "0000730-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000730-acu-000",
+        "pat_enc_csn_id": "0000730-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-21"
+      },
+      {
+        "dx_id": "0000730-acu-002",
+        "pat_enc_csn_id": "0000730-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100730",
+    "summary": {
+      "total_charges": 42808,
+      "total_payments": 28738,
+      "outstanding_balance": 14070,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000073000",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 42808,
+        "total_payments": 28738,
+        "current_balance": 14070,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100730",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

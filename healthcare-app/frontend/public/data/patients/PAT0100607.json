@@ -1,0 +1,330 @@
+{
+  "patient": {
+    "pat_id": "PAT0100607",
+    "med_rec_num": "MRN0200607",
+    "full_name": "Paul Jackson",
+    "birth_date": "2022-06-26",
+    "age": 4,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 61174,
+    "latitude": 40.45107,
+    "longitude": -79.93402,
+    "last_encounter_date": "2026-03-25",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4336 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 802-4476",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100607",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000607-000",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000607-001",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000607-002",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0000607-003",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000607-004",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000607-005",
+        "contact_date": "2025-06-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000607-006",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0000607-007",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000607-008",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000607-009",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000607-010",
+        "contact_date": "2024-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000607-011",
+        "contact_date": "2024-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000607-012",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 28088
+      },
+      {
+        "pat_enc_csn_id": "0000607-013",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000607-014",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000607-015",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 29141
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100607",
+    "diagnoses": [
+      {
+        "dx_id": "0000607-dx-000",
+        "pat_enc_csn_id": "0000607-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000607-dx-001",
+        "pat_enc_csn_id": "0000607-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000607-acu-001",
+        "pat_enc_csn_id": "0000607-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-20"
+      },
+      {
+        "dx_id": "0000607-acu-002",
+        "pat_enc_csn_id": "0000607-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-12-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100607",
+    "summary": {
+      "total_charges": 61174,
+      "total_payments": 48189,
+      "outstanding_balance": 12985,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000060700",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 38330,
+        "total_payments": 31177,
+        "current_balance": 7153,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-03",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000060701",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 16292,
+        "total_payments": 12710,
+        "current_balance": 3582,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-04",
+        "closed_date": "2026-03-19"
+      },
+      {
+        "hsp_account_id": "HSP000060702",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6552,
+        "total_payments": 4302,
+        "current_balance": 2250,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-30",
+        "closed_date": "2026-04-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100607",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

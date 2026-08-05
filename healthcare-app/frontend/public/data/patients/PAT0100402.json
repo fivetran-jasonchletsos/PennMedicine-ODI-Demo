@@ -1,0 +1,324 @@
+{
+  "patient": {
+    "pat_id": "PAT0100402",
+    "med_rec_num": "MRN0200402",
+    "full_name": "Carlos Singh",
+    "birth_date": "1936-05-06",
+    "age": 90,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 4,
+    "encounter_count": 16,
+    "total_charges": 14544,
+    "latitude": 40.63233,
+    "longitude": -80.064,
+    "last_encounter_date": "2026-04-07",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8037 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 895-8939",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100402",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000402-000",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000402-001",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000402-002",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000402-003",
+        "contact_date": "2026-03-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000402-004",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 152
+      },
+      {
+        "pat_enc_csn_id": "0000402-005",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000402-006",
+        "contact_date": "2025-11-25",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 3566
+      },
+      {
+        "pat_enc_csn_id": "0000402-007",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5301
+      },
+      {
+        "pat_enc_csn_id": "0000402-008",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000402-009",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0000402-010",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 2641
+      },
+      {
+        "pat_enc_csn_id": "0000402-011",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000402-012",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000402-013",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000402-014",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000402-015",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 84
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100402",
+    "diagnoses": [
+      {
+        "dx_id": "0000402-dx-000",
+        "pat_enc_csn_id": "0000402-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1965-05-13"
+      },
+      {
+        "dx_id": "0000402-dx-001",
+        "pat_enc_csn_id": "0000402-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000402-dx-002",
+        "pat_enc_csn_id": "0000402-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000402-dx-003",
+        "pat_enc_csn_id": "0000402-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000402-acu-000",
+        "pat_enc_csn_id": "0000402-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      },
+      {
+        "dx_id": "0000402-acu-001",
+        "pat_enc_csn_id": "0000402-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100402",
+    "summary": {
+      "total_charges": 14544,
+      "total_payments": 11268,
+      "outstanding_balance": 3276,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000040200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 14544,
+        "total_payments": 11268,
+        "current_balance": 3276,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-01-31",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100402",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

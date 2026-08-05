@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100457",
+    "med_rec_num": "MRN0200457",
+    "full_name": "Sandra Garcia",
+    "birth_date": "1988-05-14",
+    "age": 38,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 2582,
+    "latitude": 40.42227,
+    "longitude": -79.79067,
+    "last_encounter_date": "2025-08-20",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9933 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 416-4917",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100457",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000457-000",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000457-001",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000457-002",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000457-003",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000457-004",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000457-005",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000457-006",
+        "contact_date": "2024-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000457-007",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000457-008",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0000457-009",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 411
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100457",
+    "diagnoses": [
+      {
+        "dx_id": "0000457-dx-000",
+        "pat_enc_csn_id": "0000457-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000457-dx-001",
+        "pat_enc_csn_id": "0000457-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000457-acu-000",
+        "pat_enc_csn_id": "0000457-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-20"
+      },
+      {
+        "dx_id": "0000457-acu-001",
+        "pat_enc_csn_id": "0000457-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-03"
+      },
+      {
+        "dx_id": "0000457-acu-002",
+        "pat_enc_csn_id": "0000457-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100457",
+    "summary": {
+      "total_charges": 2582,
+      "total_payments": 2340,
+      "outstanding_balance": 242,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000045700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2582,
+        "total_payments": 2340,
+        "current_balance": 242,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-01-03",
+        "closed_date": "2026-04-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100457",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

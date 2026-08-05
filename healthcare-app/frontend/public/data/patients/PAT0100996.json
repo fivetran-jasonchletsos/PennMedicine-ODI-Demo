@@ -1,0 +1,378 @@
+{
+  "patient": {
+    "pat_id": "PAT0100996",
+    "med_rec_num": "MRN0200996",
+    "full_name": "Reshma Russo",
+    "birth_date": "1960-11-24",
+    "age": 66,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 3,
+    "encounter_count": 21,
+    "total_charges": 24846,
+    "latitude": 40.37113,
+    "longitude": -80.05609,
+    "last_encounter_date": "2026-02-17",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7423 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 884-3903",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100996",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000996-000",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000996-001",
+        "contact_date": "2026-01-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000996-002",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000996-003",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000996-004",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 1677
+      },
+      {
+        "pat_enc_csn_id": "0000996-005",
+        "contact_date": "2025-12-07",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5520
+      },
+      {
+        "pat_enc_csn_id": "0000996-006",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000996-007",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 122
+      },
+      {
+        "pat_enc_csn_id": "0000996-008",
+        "contact_date": "2025-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000996-009",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0000996-010",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000996-011",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000996-012",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 52
+      },
+      {
+        "pat_enc_csn_id": "0000996-013",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000996-014",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000996-015",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0000996-016",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000996-017",
+        "contact_date": "2024-08-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 7867
+      },
+      {
+        "pat_enc_csn_id": "0000996-018",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000996-019",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5728
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100996",
+    "diagnoses": [
+      {
+        "dx_id": "0000996-dx-000",
+        "pat_enc_csn_id": "0000996-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0000996-dx-001",
+        "pat_enc_csn_id": "0000996-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000996-dx-002",
+        "pat_enc_csn_id": "0000996-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000996-acu-000",
+        "pat_enc_csn_id": "0000996-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      },
+      {
+        "dx_id": "0000996-acu-002",
+        "pat_enc_csn_id": "0000996-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100996",
+    "summary": {
+      "total_charges": 24846,
+      "total_payments": 21071,
+      "outstanding_balance": 3775,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000099600",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5001,
+        "total_payments": 4318,
+        "current_balance": 683,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-04-26",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000099601",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8539,
+        "total_payments": 7816,
+        "current_balance": 723,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-31",
+        "closed_date": "2026-04-16"
+      },
+      {
+        "hsp_account_id": "HSP000099602",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 11306,
+        "total_payments": 8937,
+        "current_balance": 2369,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-03",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100996",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

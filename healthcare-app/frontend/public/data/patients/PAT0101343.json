@@ -1,0 +1,287 @@
+{
+  "patient": {
+    "pat_id": "PAT0101343",
+    "med_rec_num": "MRN0201343",
+    "full_name": "Reshma O'Brien",
+    "birth_date": "1955-09-06",
+    "age": 71,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 4,
+    "encounter_count": 12,
+    "total_charges": 25369,
+    "latitude": 40.4408,
+    "longitude": -79.9619,
+    "last_encounter_date": "2026-02-28",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5812 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 501-4791",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101343",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001343-000",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 1768
+      },
+      {
+        "pat_enc_csn_id": "0001343-001",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 968
+      },
+      {
+        "pat_enc_csn_id": "0001343-002",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0001343-003",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001343-004",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 5919
+      },
+      {
+        "pat_enc_csn_id": "0001343-005",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0001343-006",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 6099
+      },
+      {
+        "pat_enc_csn_id": "0001343-007",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 2906
+      },
+      {
+        "pat_enc_csn_id": "0001343-008",
+        "contact_date": "2024-12-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0001343-009",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0001343-010",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0001343-011",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 6449
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101343",
+    "diagnoses": [
+      {
+        "dx_id": "0001343-dx-000",
+        "pat_enc_csn_id": "0001343-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001343-dx-001",
+        "pat_enc_csn_id": "0001343-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0001343-dx-002",
+        "pat_enc_csn_id": "0001343-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0001343-dx-003",
+        "pat_enc_csn_id": "0001343-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1983-05-13"
+      },
+      {
+        "dx_id": "0001343-acu-001",
+        "pat_enc_csn_id": "0001343-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101343",
+    "summary": {
+      "total_charges": 25369,
+      "total_payments": 20833,
+      "outstanding_balance": 4536,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 16988,
+        "total_payments": 15618,
+        "current_balance": 1370,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-21",
+        "closed_date": "2026-03-13"
+      },
+      {
+        "hsp_account_id": "HSP000134301",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8381,
+        "total_payments": 5215,
+        "current_balance": 3166,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-09",
+        "closed_date": "2025-12-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101343",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

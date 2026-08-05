@@ -1,0 +1,285 @@
+{
+  "patient": {
+    "pat_id": "PAT0101469",
+    "med_rec_num": "MRN0201469",
+    "full_name": "Janet Wong",
+    "birth_date": "1953-10-22",
+    "age": 73,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 31249,
+    "latitude": 40.45122,
+    "longitude": -79.93269,
+    "last_encounter_date": "2026-04-28",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5269 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 908-7188",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101469",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001469-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0001469-001",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0001469-002",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0001469-003",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5378
+      },
+      {
+        "pat_enc_csn_id": "0001469-004",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5714
+      },
+      {
+        "pat_enc_csn_id": "0001469-005",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001469-006",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0001469-007",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001469-008",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0001469-009",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 18041
+      },
+      {
+        "pat_enc_csn_id": "0001469-010",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 283
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101469",
+    "diagnoses": [
+      {
+        "dx_id": "0001469-dx-000",
+        "pat_enc_csn_id": "0001469-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001469-dx-001",
+        "pat_enc_csn_id": "0001469-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001469-dx-002",
+        "pat_enc_csn_id": "0001469-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1972-05-13"
+      },
+      {
+        "dx_id": "0001469-acu-000",
+        "pat_enc_csn_id": "0001469-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0001469-acu-001",
+        "pat_enc_csn_id": "0001469-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0001469-acu-002",
+        "pat_enc_csn_id": "0001469-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101469",
+    "summary": {
+      "total_charges": 31249,
+      "total_payments": 27287,
+      "outstanding_balance": 3962,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000146900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10954,
+        "total_payments": 8592,
+        "current_balance": 2362,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-10-08",
+        "closed_date": "2025-12-22"
+      },
+      {
+        "hsp_account_id": "HSP000146901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 20295,
+        "total_payments": 18695,
+        "current_balance": 1600,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-02-09",
+        "closed_date": "2026-01-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101469",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

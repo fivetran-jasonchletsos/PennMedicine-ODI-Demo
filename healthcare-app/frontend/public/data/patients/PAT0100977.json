@@ -1,0 +1,310 @@
+{
+  "patient": {
+    "pat_id": "PAT0100977",
+    "med_rec_num": "MRN0200977",
+    "full_name": "Sandra Johnson",
+    "birth_date": "1955-10-09",
+    "age": 71,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 31248,
+    "latitude": 40.45898,
+    "longitude": -79.91857,
+    "last_encounter_date": "2026-03-20",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7672 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 952-7466",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100977",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000977-000",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000977-001",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000977-002",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000977-003",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000977-004",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000977-005",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000977-006",
+        "contact_date": "2025-04-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 5979
+      },
+      {
+        "pat_enc_csn_id": "0000977-007",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000977-008",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000977-009",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000977-010",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000977-011",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000977-012",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000977-013",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 22253
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100977",
+    "diagnoses": [
+      {
+        "dx_id": "0000977-dx-000",
+        "pat_enc_csn_id": "0000977-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0000977-acu-000",
+        "pat_enc_csn_id": "0000977-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      },
+      {
+        "dx_id": "0000977-acu-001",
+        "pat_enc_csn_id": "0000977-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      },
+      {
+        "dx_id": "0000977-acu-002",
+        "pat_enc_csn_id": "0000977-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100977",
+    "summary": {
+      "total_charges": 31248,
+      "total_payments": 22444,
+      "outstanding_balance": 8804,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000097700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 29637,
+        "total_payments": 21170,
+        "current_balance": 8467,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-13",
+        "closed_date": "2026-04-08"
+      },
+      {
+        "hsp_account_id": "HSP000097701",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 824,
+        "total_payments": 557,
+        "current_balance": 267,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-22",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000097702",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 787,
+        "total_payments": 717,
+        "current_balance": 70,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-04-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100977",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

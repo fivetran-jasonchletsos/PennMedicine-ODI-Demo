@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0101482",
+    "med_rec_num": "MRN0201482",
+    "full_name": "Mary Wong",
+    "birth_date": "1940-08-24",
+    "age": 86,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 3582,
+    "latitude": 40.32813,
+    "longitude": -80.03829,
+    "last_encounter_date": "2025-12-14",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "668 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 292-1839",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101482",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001482-000",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001482-001",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001482-002",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001482-003",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 1915
+      },
+      {
+        "pat_enc_csn_id": "0001482-004",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0001482-005",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0001482-006",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 212
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101482",
+    "diagnoses": [
+      {
+        "dx_id": "0001482-dx-000",
+        "pat_enc_csn_id": "0001482-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0001482-dx-001",
+        "pat_enc_csn_id": "0001482-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1958-05-13"
+      },
+      {
+        "dx_id": "0001482-acu-001",
+        "pat_enc_csn_id": "0001482-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-28"
+      },
+      {
+        "dx_id": "0001482-acu-002",
+        "pat_enc_csn_id": "0001482-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101482",
+    "summary": {
+      "total_charges": 3582,
+      "total_payments": 2422,
+      "outstanding_balance": 1160,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000148200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3582,
+        "total_payments": 2422,
+        "current_balance": 1160,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-28",
+        "closed_date": "2026-05-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101482",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

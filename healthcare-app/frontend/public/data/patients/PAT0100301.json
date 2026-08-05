@@ -1,0 +1,316 @@
+{
+  "patient": {
+    "pat_id": "PAT0100301",
+    "med_rec_num": "MRN0200301",
+    "full_name": "Linda Garcia",
+    "birth_date": "2008-03-03",
+    "age": 18,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 6625,
+    "latitude": 40.44157,
+    "longitude": -79.99767,
+    "last_encounter_date": "2026-04-13",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9886 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 877-8437",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100301",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000301-000",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000301-001",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000301-002",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000301-003",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000301-004",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0000301-005",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000301-006",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000301-007",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0000301-008",
+        "contact_date": "2025-05-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000301-009",
+        "contact_date": "2025-03-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000301-010",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000301-011",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3288
+      },
+      {
+        "pat_enc_csn_id": "0000301-012",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0000301-013",
+        "contact_date": "2024-12-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000301-014",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000301-015",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 144
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100301",
+    "diagnoses": [
+      {
+        "dx_id": "0000301-dx-000",
+        "pat_enc_csn_id": "0000301-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000301-dx-001",
+        "pat_enc_csn_id": "0000301-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000301-dx-002",
+        "pat_enc_csn_id": "0000301-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000301-acu-000",
+        "pat_enc_csn_id": "0000301-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0000301-acu-001",
+        "pat_enc_csn_id": "0000301-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100301",
+    "summary": {
+      "total_charges": 6625,
+      "total_payments": 4651,
+      "outstanding_balance": 1974,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6625,
+        "total_payments": 4651,
+        "current_balance": 1974,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-26",
+        "closed_date": "2025-11-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100301",
+    "comparables": [
+      {
+        "pat_id": "PAT0100200",
+        "full_name": "Aisha Okonkwo",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 8220
+      },
+      {
+        "pat_id": "PAT0100339",
+        "full_name": "Sandra Petrov",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 5894
+      },
+      {
+        "pat_id": "PAT0100537",
+        "full_name": "George Nguyen",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1168
+      },
+      {
+        "pat_id": "PAT0100762",
+        "full_name": "Barbara Miller",
+        "age": 17,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 8662
+      },
+      {
+        "pat_id": "PAT0100829",
+        "full_name": "Thomas Park",
+        "age": 18,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 19804
+      },
+      {
+        "pat_id": "PAT0100877",
+        "full_name": "John Smith",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 2114
+      }
+    ]
+  }
+}

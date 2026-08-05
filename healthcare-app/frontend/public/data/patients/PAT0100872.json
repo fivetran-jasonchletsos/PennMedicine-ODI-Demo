@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0100872",
+    "med_rec_num": "MRN0200872",
+    "full_name": "Susan Miller",
+    "birth_date": "1989-08-20",
+    "age": 37,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 12990,
+    "latitude": 40.42951,
+    "longitude": -79.7882,
+    "last_encounter_date": "2025-11-24",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2758 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 520-4637",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100872",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000872-000",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000872-001",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000872-002",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000872-003",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000872-004",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 4928
+      },
+      {
+        "pat_enc_csn_id": "0000872-005",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000872-006",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000872-007",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000872-008",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000872-009",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000872-010",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000872-011",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000872-012",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000872-013",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 4649
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100872",
+    "diagnoses": [
+      {
+        "dx_id": "0000872-dx-000",
+        "pat_enc_csn_id": "0000872-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000872-acu-002",
+        "pat_enc_csn_id": "0000872-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100872",
+    "summary": {
+      "total_charges": 12990,
+      "total_payments": 9997,
+      "outstanding_balance": 2993,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000087200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1618,
+        "total_payments": 1016,
+        "current_balance": 602,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-05-23",
+        "closed_date": "2025-11-03"
+      },
+      {
+        "hsp_account_id": "HSP000087201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 7806,
+        "total_payments": 5758,
+        "current_balance": 2048,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-10-30",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000087202",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3566,
+        "total_payments": 3223,
+        "current_balance": 343,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-11-05",
+        "closed_date": "2026-05-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100872",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

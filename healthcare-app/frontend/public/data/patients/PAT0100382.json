@@ -1,0 +1,188 @@
+{
+  "patient": {
+    "pat_id": "PAT0100382",
+    "med_rec_num": "MRN0200382",
+    "full_name": "Carol Jones",
+    "birth_date": "1975-02-25",
+    "age": 51,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 3371,
+    "latitude": 40.45123,
+    "longitude": -80.09997,
+    "last_encounter_date": "2026-05-10",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6257 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 469-6111",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100382",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000382-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2604
+      },
+      {
+        "pat_enc_csn_id": "0000382-001",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000382-002",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000382-003",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100382",
+    "diagnoses": [
+      {
+        "dx_id": "0000382-dx-000",
+        "pat_enc_csn_id": "0000382-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000382-dx-001",
+        "pat_enc_csn_id": "0000382-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000382-acu-001",
+        "pat_enc_csn_id": "0000382-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-12"
+      },
+      {
+        "dx_id": "0000382-acu-002",
+        "pat_enc_csn_id": "0000382-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-04-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100382",
+    "summary": {
+      "total_charges": 3371,
+      "total_payments": 2268,
+      "outstanding_balance": 1103,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000038200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3371,
+        "total_payments": 2268,
+        "current_balance": 1103,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-04-19",
+        "closed_date": "2026-04-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100382",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

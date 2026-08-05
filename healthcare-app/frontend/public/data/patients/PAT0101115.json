@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0101115",
+    "med_rec_num": "MRN0201115",
+    "full_name": "Michelle Hernandez",
+    "birth_date": "2017-12-06",
+    "age": 9,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 1361,
+    "latitude": 40.44744,
+    "longitude": -79.96108,
+    "last_encounter_date": "2025-11-24",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3343 Highland St",
+    "state": "PA",
+    "phone": "(412) 898-5160",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101115",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001115-000",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001115-001",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0001115-002",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001115-003",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0001115-004",
+        "contact_date": "2024-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 349
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101115",
+    "diagnoses": [
+      {
+        "dx_id": "0001115-acu-000",
+        "pat_enc_csn_id": "0001115-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-11-24"
+      },
+      {
+        "dx_id": "0001115-acu-001",
+        "pat_enc_csn_id": "0001115-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-01-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101115",
+    "summary": {
+      "total_charges": 1361,
+      "total_payments": 874,
+      "outstanding_balance": 487,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000111500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1361,
+        "total_payments": 874,
+        "current_balance": 487,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-03",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101115",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

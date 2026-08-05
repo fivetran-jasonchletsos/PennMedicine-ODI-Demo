@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100570",
+    "med_rec_num": "MRN0200570",
+    "full_name": "George Thomas",
+    "birth_date": "1978-07-05",
+    "age": 48,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 2258,
+    "latitude": 40.44861,
+    "longitude": -79.9639,
+    "last_encounter_date": "2026-03-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7256 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 344-1641",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100570",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000570-000",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0000570-001",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000570-002",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000570-003",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0000570-004",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000570-005",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000570-006",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000570-007",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 232
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100570",
+    "diagnoses": [
+      {
+        "dx_id": "0000570-acu-000",
+        "pat_enc_csn_id": "0000570-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-02"
+      },
+      {
+        "dx_id": "0000570-acu-001",
+        "pat_enc_csn_id": "0000570-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      },
+      {
+        "dx_id": "0000570-acu-002",
+        "pat_enc_csn_id": "0000570-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100570",
+    "summary": {
+      "total_charges": 2258,
+      "total_payments": 1646,
+      "outstanding_balance": 612,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2258,
+        "total_payments": 1646,
+        "current_balance": 612,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-02",
+        "closed_date": "2025-11-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100570",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

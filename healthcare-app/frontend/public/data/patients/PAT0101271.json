@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0101271",
+    "med_rec_num": "MRN0201271",
+    "full_name": "Janet Brown",
+    "birth_date": "2011-04-20",
+    "age": 15,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 32573,
+    "latitude": 40.63392,
+    "longitude": -80.0557,
+    "last_encounter_date": "2026-04-20",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2967 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 912-3125",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101271",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001271-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 2135
+      },
+      {
+        "pat_enc_csn_id": "0001271-001",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0001271-002",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001271-003",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0001271-004",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001271-005",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0001271-006",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001271-007",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 3158
+      },
+      {
+        "pat_enc_csn_id": "0001271-008",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0001271-009",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 25509
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101271",
+    "diagnoses": [
+      {
+        "dx_id": "0001271-dx-000",
+        "pat_enc_csn_id": "0001271-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001271-acu-000",
+        "pat_enc_csn_id": "0001271-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0001271-acu-001",
+        "pat_enc_csn_id": "0001271-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      },
+      {
+        "dx_id": "0001271-acu-002",
+        "pat_enc_csn_id": "0001271-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101271",
+    "summary": {
+      "total_charges": 32573,
+      "total_payments": 24772,
+      "outstanding_balance": 7801,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000127100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 28414,
+        "total_payments": 21417,
+        "current_balance": 6997,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-09",
+        "closed_date": "2025-12-11"
+      },
+      {
+        "hsp_account_id": "HSP000127101",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4159,
+        "total_payments": 3355,
+        "current_balance": 804,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-10",
+        "closed_date": "2026-01-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101271",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

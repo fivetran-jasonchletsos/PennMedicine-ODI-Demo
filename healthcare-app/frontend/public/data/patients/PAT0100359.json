@@ -1,0 +1,280 @@
+{
+  "patient": {
+    "pat_id": "PAT0100359",
+    "med_rec_num": "MRN0200359",
+    "full_name": "David Wilson",
+    "birth_date": "1935-08-12",
+    "age": 91,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 8394,
+    "latitude": 40.43785,
+    "longitude": -79.93351,
+    "last_encounter_date": "2026-05-06",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4731 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 362-6368",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100359",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000359-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0000359-001",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000359-002",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0000359-003",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000359-004",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000359-005",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4535
+      },
+      {
+        "pat_enc_csn_id": "0000359-006",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000359-007",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000359-008",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000359-009",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000359-010",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000359-011",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000359-012",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000359-013",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 384
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100359",
+    "diagnoses": [
+      {
+        "dx_id": "0000359-dx-000",
+        "pat_enc_csn_id": "0000359-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1985-05-13"
+      },
+      {
+        "dx_id": "0000359-acu-000",
+        "pat_enc_csn_id": "0000359-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000359-acu-001",
+        "pat_enc_csn_id": "0000359-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100359",
+    "summary": {
+      "total_charges": 8394,
+      "total_payments": 6474,
+      "outstanding_balance": 1920,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000035900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8394,
+        "total_payments": 6474,
+        "current_balance": 1920,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-03-09",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100359",
+    "comparables": [
+      {
+        "pat_id": "PAT0100482",
+        "full_name": "Joseph Russo",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 4745
+      },
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0101330",
+        "full_name": "George Jones",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2537
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      }
+    ]
+  }
+}

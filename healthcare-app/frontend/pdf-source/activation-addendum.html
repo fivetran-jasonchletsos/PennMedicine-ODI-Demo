@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @page { size: 612pt 792pt; margin: 0; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; width: 612pt; height: 792pt; padding: 40pt 44pt;
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    color: #1a1a1a; background: #ffffff;
+  }
+  .eyebrow {
+    font-size: 9pt; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.14em; color: #0e7490; margin-bottom: 4pt;
+  }
+  h1 { font-size: 20pt; margin: 0 0 6pt; font-weight: 700; }
+  .sub { font-size: 10.5pt; color: #4b5563; margin: 0 0 18pt; line-height: 1.4; }
+  .tiles { display: flex; gap: 10pt; margin-bottom: 20pt; }
+  .tile {
+    flex: 1; border: 1pt solid #d9d3c4; border-radius: 3pt; padding: 10pt 12pt;
+  }
+  .tile .label { font-size: 8pt; text-transform: uppercase; letter-spacing: 0.1em; color: #6b7280; }
+  .tile .value { font-size: 16pt; font-weight: 700; margin-top: 3pt; color: #0e7490; }
+  .tile .note { font-size: 8.5pt; color: #6b7280; margin-top: 3pt; }
+  table.beats { width: 100%; border-collapse: collapse; font-size: 9.5pt; }
+  table.beats th {
+    text-align: left; font-size: 8pt; text-transform: uppercase; letter-spacing: 0.1em;
+    color: #6b7280; border-bottom: 1pt solid #d9d3c4; padding: 6pt 8pt;
+  }
+  table.beats td { padding: 8pt; border-bottom: 0.5pt solid #e8e4d8; vertical-align: top; line-height: 1.4; }
+  table.beats tr:last-child td { border-bottom: none; }
+  .say { color: #1a1a1a; }
+  .show { color: #0e7490; font-weight: 600; }
+  .footnote { margin-top: 16pt; font-size: 8pt; color: #9ca3af; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">Activations · NewCo</div>
+  <h1>The gold layer gets acted on, not just queried</h1>
+  <p class="sub">
+    Activations is the fourth native NewCo stage, right after Transformations. The instant
+    gold.fct_vital flags an ER-admitted cardiology encounter with lactate drawn, no 3-hour
+    redraw ordered, and less than 30 minutes left on the SEP-1 clock, Activations pushes the
+    alert straight into TigerConnect &mdash; no reverse-ETL vendor, no second copy of the data,
+    no analyst in the loop.
+  </p>
+
+  <div class="tiles">
+    <div class="tile"><div class="label">Trigger</div><div class="value">150 min</div><div class="note">lactate drawn, no 3-hr redraw, ER admit</div></div>
+    <div class="tile"><div class="label">Destination</div><div class="value">TigerConnect</div><div class="note">Care_Team_Channel · alert</div></div>
+    <div class="tile"><div class="label">Bundle compliance</div><div class="value">79% &rarr; 96%+</div><div class="note">cardiology SEP-1, targeted</div></div>
+  </div>
+
+  <table class="beats">
+    <thead><tr><th style="width:45%">What you say</th><th>What you show</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="say">"Right after Transformations builds gold.fct_vital, Activations is watching one condition: lactate drawn, no 3-hour redraw ordered, and less than 30 minutes left on the SEP-1 clock."</td>
+        <td class="show">Toggle the vitals feed so one ER-admitted cardiology patient crosses the 150-minute mark live on screen.</td>
+      </tr>
+      <tr>
+        <td class="say">"The moment that flag flips true in the governed gold layer, Activations pushes patient_mrn, encounter_id, service_line, and minutes_to_bundle_deadline straight into TigerConnect &mdash; no custom API, no nightly batch, no analyst in the loop."</td>
+        <td class="show">Architecture page &rarr; Activations panel &rarr; /activations-live: Segment Definition &rarr; Field Mapping &rarr; API Push.</td>
+      </tr>
+      <tr>
+        <td class="say">"The nurse gets the alert before the deadline closes, not a root-cause report after it."</td>
+        <td class="show">/activations-live &rarr; Destination Confirmation table, alert card rendered with the matching patient and deadline fields.</td>
+      </tr>
+      <tr>
+        <td class="say">"That's the difference between the eleven fallouts Dr. Nair's team found last week and catching case twelve before it happens. One governed flag, one sync, zero code."</td>
+        <td class="show">Before/After panel &rarr; Reverse-ETL hop row: Census + Hightouch replaced by NewCo Activations, native.</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="footnote">
+    Crisis-week baseline: 11 of 14 cardiology SEP-1 bundle fallouts traced to the 07:00&ndash;08:00 shift-change
+    redraw gap. Closing the pre-deadline window is modeled to avoid $18k&ndash;$34k in excess length-of-stay
+    cost per averted case and keep SEP-1 out of the CMS Hospital VBP penalty band. Synthetic data &mdash; not for clinical use.
+  </div>
+</body>
+</html>

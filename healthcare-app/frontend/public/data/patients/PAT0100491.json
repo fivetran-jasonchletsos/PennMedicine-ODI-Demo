@@ -1,0 +1,276 @@
+{
+  "patient": {
+    "pat_id": "PAT0100491",
+    "med_rec_num": "MRN0200491",
+    "full_name": "George O'Brien",
+    "birth_date": "1959-07-12",
+    "age": 67,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 14271,
+    "latitude": 40.44449,
+    "longitude": -79.96241,
+    "last_encounter_date": "2026-04-21",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9565 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 596-8197",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100491",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000491-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000491-001",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000491-002",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000491-003",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000491-004",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000491-005",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 6561
+      },
+      {
+        "pat_enc_csn_id": "0000491-006",
+        "contact_date": "2025-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000491-007",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 2993
+      },
+      {
+        "pat_enc_csn_id": "0000491-008",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000491-009",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0000491-010",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 2125
+      },
+      {
+        "pat_enc_csn_id": "0000491-011",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 201
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100491",
+    "diagnoses": [
+      {
+        "dx_id": "0000491-dx-000",
+        "pat_enc_csn_id": "0000491-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000491-dx-001",
+        "pat_enc_csn_id": "0000491-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000491-acu-000",
+        "pat_enc_csn_id": "0000491-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-21"
+      },
+      {
+        "dx_id": "0000491-acu-001",
+        "pat_enc_csn_id": "0000491-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      },
+      {
+        "dx_id": "0000491-acu-002",
+        "pat_enc_csn_id": "0000491-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100491",
+    "summary": {
+      "total_charges": 14271,
+      "total_payments": 13547,
+      "outstanding_balance": 724,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000049100",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 14271,
+        "total_payments": 13547,
+        "current_balance": 724,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-03-22",
+        "closed_date": "2026-04-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100491",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

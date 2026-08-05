@@ -1,0 +1,152 @@
+{
+  "patient": {
+    "pat_id": "PAT0100885",
+    "med_rec_num": "MRN0200885",
+    "full_name": "Daniel Anderson",
+    "birth_date": "1985-04-26",
+    "age": 41,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 5260,
+    "latitude": 40.34483,
+    "longitude": -79.84466,
+    "last_encounter_date": "2025-08-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6839 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 759-5064",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100885",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000885-000",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 2477
+      },
+      {
+        "pat_enc_csn_id": "0000885-001",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 2783
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100885",
+    "diagnoses": [
+      {
+        "dx_id": "0000885-acu-000",
+        "pat_enc_csn_id": "0000885-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-02"
+      },
+      {
+        "dx_id": "0000885-acu-001",
+        "pat_enc_csn_id": "0000885-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-08-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100885",
+    "summary": {
+      "total_charges": 5260,
+      "total_payments": 3466,
+      "outstanding_balance": 1794,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000088500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5260,
+        "total_payments": 3466,
+        "current_balance": 1794,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-21",
+        "closed_date": "2026-02-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100885",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

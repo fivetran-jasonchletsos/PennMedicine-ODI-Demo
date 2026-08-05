@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0100899",
+    "med_rec_num": "MRN0200899",
+    "full_name": "Hassan Brown",
+    "birth_date": "1989-08-26",
+    "age": 37,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 21562,
+    "latitude": 40.47248,
+    "longitude": -79.82996,
+    "last_encounter_date": "2026-01-06",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7145 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 995-6683",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100899",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000899-000",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000899-001",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 14377
+      },
+      {
+        "pat_enc_csn_id": "0000899-002",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 85
+      },
+      {
+        "pat_enc_csn_id": "0000899-003",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000899-004",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000899-005",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 4337
+      },
+      {
+        "pat_enc_csn_id": "0000899-006",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000899-007",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000899-008",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000899-009",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000899-010",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0000899-011",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000899-012",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000899-013",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 263
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100899",
+    "diagnoses": [
+      {
+        "dx_id": "0000899-dx-000",
+        "pat_enc_csn_id": "0000899-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000899-acu-002",
+        "pat_enc_csn_id": "0000899-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100899",
+    "summary": {
+      "total_charges": 21562,
+      "total_payments": 16239,
+      "outstanding_balance": 5323,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000089900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2529,
+        "total_payments": 1956,
+        "current_balance": 573,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-02-28",
+        "closed_date": "2026-04-01"
+      },
+      {
+        "hsp_account_id": "HSP000089901",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 9529,
+        "total_payments": 6788,
+        "current_balance": 2741,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000089902",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 9504,
+        "total_payments": 7495,
+        "current_balance": 2009,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-06-24",
+        "closed_date": "2026-01-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100899",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

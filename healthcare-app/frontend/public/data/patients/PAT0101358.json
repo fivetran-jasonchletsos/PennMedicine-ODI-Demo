@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0101358",
+    "med_rec_num": "MRN0201358",
+    "full_name": "James Hernandez",
+    "birth_date": "1995-04-16",
+    "age": 31,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 8248,
+    "latitude": 40.49193,
+    "longitude": -79.90068,
+    "last_encounter_date": "2025-08-19",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "837 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 444-6176",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101358",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001358-000",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0001358-001",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001358-002",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2399
+      },
+      {
+        "pat_enc_csn_id": "0001358-003",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0001358-004",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001358-005",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4392
+      },
+      {
+        "pat_enc_csn_id": "0001358-006",
+        "contact_date": "2024-09-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 203
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101358",
+    "diagnoses": [
+      {
+        "dx_id": "0001358-dx-000",
+        "pat_enc_csn_id": "0001358-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001358-dx-001",
+        "pat_enc_csn_id": "0001358-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001358-acu-000",
+        "pat_enc_csn_id": "0001358-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-19"
+      },
+      {
+        "dx_id": "0001358-acu-001",
+        "pat_enc_csn_id": "0001358-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-06-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101358",
+    "summary": {
+      "total_charges": 8248,
+      "total_payments": 5375,
+      "outstanding_balance": 2873,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135800",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8248,
+        "total_payments": 5375,
+        "current_balance": 2873,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-06-21",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101358",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

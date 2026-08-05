@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100690",
+    "med_rec_num": "MRN0200690",
+    "full_name": "Ashley Walsh",
+    "birth_date": "1986-04-09",
+    "age": 40,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 7061,
+    "latitude": 40.43328,
+    "longitude": -79.92615,
+    "last_encounter_date": "2026-04-14",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3472 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 861-8149",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100690",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000690-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000690-001",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000690-002",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000690-003",
+        "contact_date": "2024-12-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000690-004",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5806
+      },
+      {
+        "pat_enc_csn_id": "0000690-005",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100690",
+    "diagnoses": [
+      {
+        "dx_id": "0000690-dx-000",
+        "pat_enc_csn_id": "0000690-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000690-acu-001",
+        "pat_enc_csn_id": "0000690-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-21"
+      },
+      {
+        "dx_id": "0000690-acu-002",
+        "pat_enc_csn_id": "0000690-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-07-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100690",
+    "summary": {
+      "total_charges": 7061,
+      "total_payments": 5531,
+      "outstanding_balance": 1530,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000069000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7061,
+        "total_payments": 5531,
+        "current_balance": 1530,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-18",
+        "closed_date": "2026-05-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100690",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

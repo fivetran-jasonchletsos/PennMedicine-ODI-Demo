@@ -1,0 +1,318 @@
+{
+  "patient": {
+    "pat_id": "PAT0101267",
+    "med_rec_num": "MRN0201267",
+    "full_name": "Kevin Khan",
+    "birth_date": "1962-04-15",
+    "age": 64,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 14,
+    "total_charges": 23005,
+    "latitude": 40.36574,
+    "longitude": -79.90174,
+    "last_encounter_date": "2026-04-21",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7920 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 895-2196",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101267",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001267-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0001267-001",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0001267-002",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0001267-003",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0001267-004",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001267-005",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0001267-006",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0001267-007",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001267-008",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0001267-009",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001267-010",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 4252
+      },
+      {
+        "pat_enc_csn_id": "0001267-011",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 15745
+      },
+      {
+        "pat_enc_csn_id": "0001267-012",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0001267-013",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 166
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101267",
+    "diagnoses": [
+      {
+        "dx_id": "0001267-dx-000",
+        "pat_enc_csn_id": "0001267-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001267-dx-001",
+        "pat_enc_csn_id": "0001267-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001267-dx-002",
+        "pat_enc_csn_id": "0001267-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001267-acu-000",
+        "pat_enc_csn_id": "0001267-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-21"
+      },
+      {
+        "dx_id": "0001267-acu-001",
+        "pat_enc_csn_id": "0001267-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101267",
+    "summary": {
+      "total_charges": 23005,
+      "total_payments": 16806,
+      "outstanding_balance": 6199,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000126700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 11822,
+        "total_payments": 8771,
+        "current_balance": 3051,
+        "primary_payer": "Self-pay",
+        "opened_date": "2025-02-11",
+        "closed_date": "2026-05-12"
+      },
+      {
+        "hsp_account_id": "HSP000126701",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10308,
+        "total_payments": 7332,
+        "current_balance": 2976,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-27",
+        "closed_date": "2026-04-16"
+      },
+      {
+        "hsp_account_id": "HSP000126702",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 875,
+        "total_payments": 703,
+        "current_balance": 172,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-11",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101267",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

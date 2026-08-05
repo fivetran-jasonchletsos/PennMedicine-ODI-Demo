@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100749",
+    "med_rec_num": "MRN0200749",
+    "full_name": "Susan Brown",
+    "birth_date": "1992-05-02",
+    "age": 34,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 3512,
+    "latitude": 40.4498,
+    "longitude": -80.10817,
+    "last_encounter_date": "2026-04-22",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3448 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 877-1962",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100749",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000749-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000749-001",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000749-002",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000749-003",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 1982
+      },
+      {
+        "pat_enc_csn_id": "0000749-004",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000749-005",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000749-006",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000749-007",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 147
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100749",
+    "diagnoses": [
+      {
+        "dx_id": "0000749-acu-000",
+        "pat_enc_csn_id": "0000749-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      },
+      {
+        "dx_id": "0000749-acu-001",
+        "pat_enc_csn_id": "0000749-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-11-18"
+      },
+      {
+        "dx_id": "0000749-acu-002",
+        "pat_enc_csn_id": "0000749-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100749",
+    "summary": {
+      "total_charges": 3512,
+      "total_payments": 2924,
+      "outstanding_balance": 588,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000074900",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 3512,
+        "total_payments": 2924,
+        "current_balance": 588,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100749",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

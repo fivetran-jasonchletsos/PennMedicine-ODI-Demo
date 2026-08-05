@@ -1,0 +1,286 @@
+{
+  "patient": {
+    "pat_id": "PAT0101260",
+    "med_rec_num": "MRN0201260",
+    "full_name": "Paul Smith",
+    "birth_date": "2024-04-21",
+    "age": 2,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 13270,
+    "latitude": 40.4996,
+    "longitude": -79.7608,
+    "last_encounter_date": "2026-03-05",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8419 Penn St",
+    "state": "PA",
+    "phone": "(412) 256-4921",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101260",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001260-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001260-001",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001260-002",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001260-003",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001260-004",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001260-005",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001260-006",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4785
+      },
+      {
+        "pat_enc_csn_id": "0001260-007",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5735
+      },
+      {
+        "pat_enc_csn_id": "0001260-008",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0001260-009",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0001260-010",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0001260-011",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0001260-012",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 193
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101260",
+    "diagnoses": [
+      {
+        "dx_id": "0001260-dx-000",
+        "pat_enc_csn_id": "0001260-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001260-dx-001",
+        "pat_enc_csn_id": "0001260-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001260-acu-000",
+        "pat_enc_csn_id": "0001260-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0001260-acu-001",
+        "pat_enc_csn_id": "0001260-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-10"
+      },
+      {
+        "dx_id": "0001260-acu-002",
+        "pat_enc_csn_id": "0001260-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-07-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101260",
+    "summary": {
+      "total_charges": 13270,
+      "total_payments": 12100,
+      "outstanding_balance": 1170,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000126000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 13270,
+        "total_payments": 12100,
+        "current_balance": 1170,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101260",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

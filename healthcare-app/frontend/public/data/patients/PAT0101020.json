@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0101020",
+    "med_rec_num": "MRN0201020",
+    "full_name": "Michael Patel",
+    "birth_date": "1968-06-06",
+    "age": 58,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 27015,
+    "latitude": 40.4867,
+    "longitude": -79.90188,
+    "last_encounter_date": "2026-03-25",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7098 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 584-8438",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101020",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001020-000",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001020-001",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0001020-002",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0001020-003",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001020-004",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 24949
+      },
+      {
+        "pat_enc_csn_id": "0001020-005",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001020-006",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001020-007",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 386
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101020",
+    "diagnoses": [
+      {
+        "dx_id": "0001020-dx-000",
+        "pat_enc_csn_id": "0001020-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001020-dx-001",
+        "pat_enc_csn_id": "0001020-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001020-acu-002",
+        "pat_enc_csn_id": "0001020-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101020",
+    "summary": {
+      "total_charges": 27015,
+      "total_payments": 22730,
+      "outstanding_balance": 4285,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 27015,
+        "total_payments": 22730,
+        "current_balance": 4285,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-19",
+        "closed_date": "2025-11-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101020",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

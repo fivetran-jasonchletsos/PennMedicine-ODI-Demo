@@ -1,0 +1,222 @@
+{
+  "patient": {
+    "pat_id": "PAT0100312",
+    "med_rec_num": "MRN0200312",
+    "full_name": "John Anderson",
+    "birth_date": "2003-06-13",
+    "age": 23,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 7474,
+    "latitude": 40.52214,
+    "longitude": -79.95495,
+    "last_encounter_date": "2025-07-17",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6370 Centre St",
+    "state": "PA",
+    "phone": "(412) 987-7149",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100312",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000312-000",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000312-001",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000312-002",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000312-003",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000312-004",
+        "contact_date": "2024-11-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5411
+      },
+      {
+        "pat_enc_csn_id": "0000312-005",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000312-006",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000312-007",
+        "contact_date": "2024-07-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000312-008",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 252
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100312",
+    "diagnoses": [
+      {
+        "dx_id": "0000312-acu-001",
+        "pat_enc_csn_id": "0000312-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-05-07"
+      },
+      {
+        "dx_id": "0000312-acu-002",
+        "pat_enc_csn_id": "0000312-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100312",
+    "summary": {
+      "total_charges": 7474,
+      "total_payments": 6176,
+      "outstanding_balance": 1298,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000031200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 7474,
+        "total_payments": 6176,
+        "current_balance": 1298,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-05-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100312",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

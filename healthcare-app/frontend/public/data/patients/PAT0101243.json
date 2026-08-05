@@ -1,0 +1,338 @@
+{
+  "patient": {
+    "pat_id": "PAT0101243",
+    "med_rec_num": "MRN0201243",
+    "full_name": "William Johnson",
+    "birth_date": "1959-06-27",
+    "age": 67,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 39301,
+    "latitude": 40.63382,
+    "longitude": -80.05318,
+    "last_encounter_date": "2026-04-28",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1354 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 502-9356",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101243",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001243-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 6132
+      },
+      {
+        "pat_enc_csn_id": "0001243-001",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 23688
+      },
+      {
+        "pat_enc_csn_id": "0001243-002",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001243-003",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001243-004",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001243-005",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0001243-006",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001243-007",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001243-008",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 67
+      },
+      {
+        "pat_enc_csn_id": "0001243-009",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0001243-010",
+        "contact_date": "2025-04-09",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001243-011",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0001243-012",
+        "contact_date": "2024-11-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001243-013",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001243-014",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0001243-015",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 6364
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101243",
+    "diagnoses": [
+      {
+        "dx_id": "0001243-dx-000",
+        "pat_enc_csn_id": "0001243-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0001243-dx-001",
+        "pat_enc_csn_id": "0001243-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0001243-dx-002",
+        "pat_enc_csn_id": "0001243-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001243-acu-000",
+        "pat_enc_csn_id": "0001243-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0001243-acu-001",
+        "pat_enc_csn_id": "0001243-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101243",
+    "summary": {
+      "total_charges": 39301,
+      "total_payments": 33167,
+      "outstanding_balance": 6134,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000124300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1555,
+        "total_payments": 1172,
+        "current_balance": 383,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-07",
+        "closed_date": "2025-11-02"
+      },
+      {
+        "hsp_account_id": "HSP000124301",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 29907,
+        "total_payments": 25948,
+        "current_balance": 3959,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-10-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000124302",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7839,
+        "total_payments": 6047,
+        "current_balance": 1792,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-12",
+        "closed_date": "2026-03-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101243",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

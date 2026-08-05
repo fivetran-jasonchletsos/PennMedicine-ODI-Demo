@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100766",
+    "med_rec_num": "MRN0200766",
+    "full_name": "Joseph Williams",
+    "birth_date": "1984-04-12",
+    "age": 42,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 1451,
+    "latitude": 40.45369,
+    "longitude": -79.92517,
+    "last_encounter_date": "2026-02-08",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2927 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 786-6330",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100766",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000766-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000766-001",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000766-002",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000766-003",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000766-004",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100766",
+    "diagnoses": [
+      {
+        "dx_id": "0000766-dx-000",
+        "pat_enc_csn_id": "0000766-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000766-acu-000",
+        "pat_enc_csn_id": "0000766-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      },
+      {
+        "dx_id": "0000766-acu-001",
+        "pat_enc_csn_id": "0000766-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-02-17"
+      },
+      {
+        "dx_id": "0000766-acu-002",
+        "pat_enc_csn_id": "0000766-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-01-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100766",
+    "summary": {
+      "total_charges": 1451,
+      "total_payments": 1284,
+      "outstanding_balance": 167,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1451,
+        "total_payments": 1284,
+        "current_balance": 167,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-06",
+        "closed_date": "2026-05-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100766",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

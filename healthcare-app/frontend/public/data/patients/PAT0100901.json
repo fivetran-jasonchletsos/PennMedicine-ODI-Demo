@@ -1,0 +1,374 @@
+{
+  "patient": {
+    "pat_id": "PAT0100901",
+    "med_rec_num": "MRN0200901",
+    "full_name": "Andrew O'Brien",
+    "birth_date": "1941-06-17",
+    "age": 85,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 4,
+    "encounter_count": 18,
+    "total_charges": 21071,
+    "latitude": 40.45001,
+    "longitude": -79.92782,
+    "last_encounter_date": "2026-03-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6973 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 993-7777",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100901",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000901-000",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000901-001",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000901-002",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5828
+      },
+      {
+        "pat_enc_csn_id": "0000901-003",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000901-004",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000901-005",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000901-006",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4458
+      },
+      {
+        "pat_enc_csn_id": "0000901-007",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000901-008",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 7203
+      },
+      {
+        "pat_enc_csn_id": "0000901-009",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000901-010",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000901-011",
+        "contact_date": "2024-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000901-012",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000901-013",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000901-014",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000901-015",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000901-016",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000901-017",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 192
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100901",
+    "diagnoses": [
+      {
+        "dx_id": "0000901-dx-000",
+        "pat_enc_csn_id": "0000901-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0000901-dx-001",
+        "pat_enc_csn_id": "0000901-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000901-dx-002",
+        "pat_enc_csn_id": "0000901-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1972-05-13"
+      },
+      {
+        "dx_id": "0000901-dx-003",
+        "pat_enc_csn_id": "0000901-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000901-acu-000",
+        "pat_enc_csn_id": "0000901-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      },
+      {
+        "dx_id": "0000901-acu-001",
+        "pat_enc_csn_id": "0000901-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-09"
+      },
+      {
+        "dx_id": "0000901-acu-002",
+        "pat_enc_csn_id": "0000901-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100901",
+    "summary": {
+      "total_charges": 21071,
+      "total_payments": 18162,
+      "outstanding_balance": 2909,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 18137,
+        "total_payments": 16048,
+        "current_balance": 2089,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-04-06",
+        "closed_date": "2025-12-12"
+      },
+      {
+        "hsp_account_id": "HSP000090101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 709,
+        "total_payments": 588,
+        "current_balance": 121,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-15",
+        "closed_date": "2025-12-31"
+      },
+      {
+        "hsp_account_id": "HSP000090102",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2225,
+        "total_payments": 1526,
+        "current_balance": 699,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-20",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100901",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

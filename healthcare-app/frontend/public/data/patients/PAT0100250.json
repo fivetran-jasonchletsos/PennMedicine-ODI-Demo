@@ -1,0 +1,292 @@
+{
+  "patient": {
+    "pat_id": "PAT0100250",
+    "med_rec_num": "MRN0200250",
+    "full_name": "Thomas Rodriguez",
+    "birth_date": "1940-09-22",
+    "age": 86,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 4,
+    "encounter_count": 12,
+    "total_charges": 2955,
+    "latitude": 40.42076,
+    "longitude": -79.79012,
+    "last_encounter_date": "2026-04-02",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3774 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 969-7479",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100250",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000250-000",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000250-001",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000250-002",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000250-003",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000250-004",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000250-005",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000250-006",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000250-007",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000250-008",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000250-009",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000250-010",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000250-011",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 201
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100250",
+    "diagnoses": [
+      {
+        "dx_id": "0000250-dx-000",
+        "pat_enc_csn_id": "0000250-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1974-05-13"
+      },
+      {
+        "dx_id": "0000250-dx-001",
+        "pat_enc_csn_id": "0000250-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000250-dx-002",
+        "pat_enc_csn_id": "0000250-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      },
+      {
+        "dx_id": "0000250-dx-003",
+        "pat_enc_csn_id": "0000250-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000250-acu-000",
+        "pat_enc_csn_id": "0000250-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      },
+      {
+        "dx_id": "0000250-acu-001",
+        "pat_enc_csn_id": "0000250-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-24"
+      },
+      {
+        "dx_id": "0000250-acu-002",
+        "pat_enc_csn_id": "0000250-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100250",
+    "summary": {
+      "total_charges": 2955,
+      "total_payments": 2523,
+      "outstanding_balance": 432,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000025000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2955,
+        "total_payments": 2523,
+        "current_balance": 432,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-17",
+        "closed_date": "2026-04-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100250",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

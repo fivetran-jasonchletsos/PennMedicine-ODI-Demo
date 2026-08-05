@@ -1,0 +1,281 @@
+{
+  "patient": {
+    "pat_id": "PAT0100951",
+    "med_rec_num": "MRN0200951",
+    "full_name": "Ashley Jones",
+    "birth_date": "2011-12-23",
+    "age": 15,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 11783,
+    "latitude": 40.52378,
+    "longitude": -79.95638,
+    "last_encounter_date": "2026-03-03",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4767 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 275-5086",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100951",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000951-000",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 6087
+      },
+      {
+        "pat_enc_csn_id": "0000951-001",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1634
+      },
+      {
+        "pat_enc_csn_id": "0000951-002",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 1300
+      },
+      {
+        "pat_enc_csn_id": "0000951-003",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000951-004",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000951-005",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0000951-006",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000951-007",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000951-008",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000951-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000951-010",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000951-011",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000951-012",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 253
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100951",
+    "diagnoses": [
+      {
+        "dx_id": "0000951-dx-000",
+        "pat_enc_csn_id": "0000951-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000951-acu-000",
+        "pat_enc_csn_id": "0000951-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      },
+      {
+        "dx_id": "0000951-acu-002",
+        "pat_enc_csn_id": "0000951-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100951",
+    "summary": {
+      "total_charges": 11783,
+      "total_payments": 9749,
+      "outstanding_balance": 2034,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000095100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2256,
+        "total_payments": 1562,
+        "current_balance": 694,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-13",
+        "closed_date": "2026-03-14"
+      },
+      {
+        "hsp_account_id": "HSP000095101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9527,
+        "total_payments": 8187,
+        "current_balance": 1340,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-13",
+        "closed_date": "2026-03-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100951",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0100048",
+    "med_rec_num": "MRN0200048",
+    "full_name": "James Jones",
+    "birth_date": "1975-01-14",
+    "age": 51,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 67750,
+    "latitude": 40.4546,
+    "longitude": -80.00557,
+    "last_encounter_date": "2026-03-10",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "914 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 747-6571",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100048",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000048-000",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000048-001",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000048-002",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000048-003",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 33062
+      },
+      {
+        "pat_enc_csn_id": "0000048-004",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 33739
+      },
+      {
+        "pat_enc_csn_id": "0000048-005",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 62
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100048",
+    "diagnoses": [
+      {
+        "dx_id": "0000048-dx-000",
+        "pat_enc_csn_id": "0000048-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000048-dx-001",
+        "pat_enc_csn_id": "0000048-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000048-acu-000",
+        "pat_enc_csn_id": "0000048-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      },
+      {
+        "dx_id": "0000048-acu-001",
+        "pat_enc_csn_id": "0000048-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100048",
+    "summary": {
+      "total_charges": 67750,
+      "total_payments": 58348,
+      "outstanding_balance": 9402,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000004800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 32846,
+        "total_payments": 28622,
+        "current_balance": 4224,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-06",
+        "closed_date": "2026-03-05"
+      },
+      {
+        "hsp_account_id": "HSP000004801",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 21615,
+        "total_payments": 19703,
+        "current_balance": 1912,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-22",
+        "closed_date": "2025-11-07"
+      },
+      {
+        "hsp_account_id": "HSP000004802",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 13289,
+        "total_payments": 10023,
+        "current_balance": 3266,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-10",
+        "closed_date": "2026-02-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100048",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

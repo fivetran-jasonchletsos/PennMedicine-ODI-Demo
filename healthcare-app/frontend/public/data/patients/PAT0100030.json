@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100030",
+    "med_rec_num": "MRN0200030",
+    "full_name": "Ashley Miller",
+    "birth_date": "1963-08-03",
+    "age": 63,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 7177,
+    "latitude": 40.33576,
+    "longitude": -80.03751,
+    "last_encounter_date": "2026-02-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2480 Penn St",
+    "state": "PA",
+    "phone": "(412) 550-7704",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100030",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000030-000",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000030-001",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000030-002",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0000030-003",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000030-004",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5996
+      },
+      {
+        "pat_enc_csn_id": "0000030-005",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 105
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100030",
+    "diagnoses": [
+      {
+        "dx_id": "0000030-dx-000",
+        "pat_enc_csn_id": "0000030-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000030-acu-000",
+        "pat_enc_csn_id": "0000030-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-02"
+      },
+      {
+        "dx_id": "0000030-acu-001",
+        "pat_enc_csn_id": "0000030-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-09-27"
+      },
+      {
+        "dx_id": "0000030-acu-002",
+        "pat_enc_csn_id": "0000030-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-03-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100030",
+    "summary": {
+      "total_charges": 7177,
+      "total_payments": 4752,
+      "outstanding_balance": 2425,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000003000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7177,
+        "total_payments": 4752,
+        "current_balance": 2425,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-12",
+        "closed_date": "2026-02-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100030",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

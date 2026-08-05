@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0101080",
+    "med_rec_num": "MRN0201080",
+    "full_name": "Kimberly Miller",
+    "birth_date": "1962-10-25",
+    "age": 64,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 683,
+    "latitude": 40.45225,
+    "longitude": -80.00526,
+    "last_encounter_date": "2025-08-13",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6817 Beacon St",
+    "state": "PA",
+    "phone": "(412) 200-2299",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101080",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001080-000",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0001080-001",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001080-002",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101080",
+    "diagnoses": [
+      {
+        "dx_id": "0001080-dx-000",
+        "pat_enc_csn_id": "0001080-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001080-acu-000",
+        "pat_enc_csn_id": "0001080-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-08-13"
+      },
+      {
+        "dx_id": "0001080-acu-001",
+        "pat_enc_csn_id": "0001080-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-04-18"
+      },
+      {
+        "dx_id": "0001080-acu-002",
+        "pat_enc_csn_id": "0001080-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2024-12-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101080",
+    "summary": {
+      "total_charges": 683,
+      "total_payments": 441,
+      "outstanding_balance": 242,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000108000",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 683,
+        "total_payments": 441,
+        "current_balance": 242,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-03-06",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101080",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

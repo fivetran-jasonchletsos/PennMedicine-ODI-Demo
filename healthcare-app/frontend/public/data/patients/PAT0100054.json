@@ -1,0 +1,330 @@
+{
+  "patient": {
+    "pat_id": "PAT0100054",
+    "med_rec_num": "MRN0200054",
+    "full_name": "Michael Wilson",
+    "birth_date": "1936-03-17",
+    "age": 90,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 13904,
+    "latitude": 40.53178,
+    "longitude": -79.95626,
+    "last_encounter_date": "2026-01-22",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1780 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 701-9147",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100054",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000054-000",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0000054-001",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000054-002",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000054-003",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000054-004",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5412
+      },
+      {
+        "pat_enc_csn_id": "0000054-005",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000054-006",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000054-007",
+        "contact_date": "2025-05-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000054-008",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0000054-009",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000054-010",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000054-011",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000054-012",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0000054-013",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000054-014",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 2668
+      },
+      {
+        "pat_enc_csn_id": "0000054-015",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 2061
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100054",
+    "diagnoses": [
+      {
+        "dx_id": "0000054-dx-000",
+        "pat_enc_csn_id": "0000054-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1958-05-13"
+      },
+      {
+        "dx_id": "0000054-dx-001",
+        "pat_enc_csn_id": "0000054-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000054-acu-000",
+        "pat_enc_csn_id": "0000054-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-22"
+      },
+      {
+        "dx_id": "0000054-acu-001",
+        "pat_enc_csn_id": "0000054-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100054",
+    "summary": {
+      "total_charges": 13904,
+      "total_payments": 9220,
+      "outstanding_balance": 4684,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000005400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 11084,
+        "total_payments": 7011,
+        "current_balance": 4073,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-23",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000005401",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1387,
+        "total_payments": 1020,
+        "current_balance": 367,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-18",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000005402",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1433,
+        "total_payments": 1189,
+        "current_balance": 244,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-23",
+        "closed_date": "2026-01-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100054",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

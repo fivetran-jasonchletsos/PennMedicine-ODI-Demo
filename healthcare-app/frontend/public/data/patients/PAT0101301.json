@@ -1,0 +1,300 @@
+{
+  "patient": {
+    "pat_id": "PAT0101301",
+    "med_rec_num": "MRN0201301",
+    "full_name": "Daniel Schmidt",
+    "birth_date": "1931-06-09",
+    "age": 95,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 14666,
+    "latitude": 40.32813,
+    "longitude": -80.0371,
+    "last_encounter_date": "2026-02-07",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6171 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 849-5562",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101301",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001301-000",
+        "contact_date": "2026-02-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001301-001",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001301-002",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001301-003",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0001301-004",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0001301-005",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 3814
+      },
+      {
+        "pat_enc_csn_id": "0001301-006",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001301-007",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001301-008",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0001301-009",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001301-010",
+        "contact_date": "2024-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0001301-011",
+        "contact_date": "2024-12-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 6900
+      },
+      {
+        "pat_enc_csn_id": "0001301-012",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0001301-013",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001301-014",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0001301-015",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 314
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101301",
+    "diagnoses": [
+      {
+        "dx_id": "0001301-dx-000",
+        "pat_enc_csn_id": "0001301-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001301-dx-001",
+        "pat_enc_csn_id": "0001301-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0001301-acu-000",
+        "pat_enc_csn_id": "0001301-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101301",
+    "summary": {
+      "total_charges": 14666,
+      "total_payments": 9173,
+      "outstanding_balance": 5493,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000130100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 14666,
+        "total_payments": 9173,
+        "current_balance": 5493,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101301",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

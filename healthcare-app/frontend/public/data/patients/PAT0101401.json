@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0101401",
+    "med_rec_num": "MRN0201401",
+    "full_name": "William Garcia",
+    "birth_date": "2005-08-08",
+    "age": 21,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 453,
+    "latitude": 40.44023,
+    "longitude": -79.96291,
+    "last_encounter_date": "2026-01-18",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "473 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 559-8447",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101401",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001401-000",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001401-001",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101401",
+    "diagnoses": [
+      {
+        "dx_id": "0001401-dx-000",
+        "pat_enc_csn_id": "0001401-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001401-acu-000",
+        "pat_enc_csn_id": "0001401-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0001401-acu-001",
+        "pat_enc_csn_id": "0001401-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-06-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101401",
+    "summary": {
+      "total_charges": 453,
+      "total_payments": 324,
+      "outstanding_balance": 129,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000140100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 453,
+        "total_payments": 324,
+        "current_balance": 129,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-01-24",
+        "closed_date": "2026-01-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101401",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

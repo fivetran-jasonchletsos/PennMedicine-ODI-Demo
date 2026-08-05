@@ -1,0 +1,261 @@
+{
+  "patient": {
+    "pat_id": "PAT0100236",
+    "med_rec_num": "MRN0200236",
+    "full_name": "Christopher O'Brien",
+    "birth_date": "2024-02-11",
+    "age": 2,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 42027,
+    "latitude": 40.45867,
+    "longitude": -79.92014,
+    "last_encounter_date": "2026-03-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8641 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 581-2120",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100236",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000236-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000236-001",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2213
+      },
+      {
+        "pat_enc_csn_id": "0000236-002",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000236-003",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000236-004",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 1214
+      },
+      {
+        "pat_enc_csn_id": "0000236-005",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000236-006",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 34122
+      },
+      {
+        "pat_enc_csn_id": "0000236-007",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 2926
+      },
+      {
+        "pat_enc_csn_id": "0000236-008",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000236-009",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000236-010",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 316
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100236",
+    "diagnoses": [
+      {
+        "dx_id": "0000236-dx-000",
+        "pat_enc_csn_id": "0000236-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000236-acu-000",
+        "pat_enc_csn_id": "0000236-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000236-acu-002",
+        "pat_enc_csn_id": "0000236-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100236",
+    "summary": {
+      "total_charges": 42027,
+      "total_payments": 38435,
+      "outstanding_balance": 3592,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 39561,
+        "total_payments": 36252,
+        "current_balance": 3309,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-29",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000023601",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2466,
+        "total_payments": 2183,
+        "current_balance": 283,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-21",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100236",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

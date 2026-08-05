@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0100420",
+    "med_rec_num": "MRN0200420",
+    "full_name": "Robert Singh",
+    "birth_date": "1975-01-28",
+    "age": 51,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 2502,
+    "latitude": 40.44785,
+    "longitude": -79.96376,
+    "last_encounter_date": "2026-03-22",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7376 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 486-6033",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100420",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000420-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0000420-001",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000420-002",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0000420-003",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 1923
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100420",
+    "diagnoses": [
+      {
+        "dx_id": "0000420-acu-000",
+        "pat_enc_csn_id": "0000420-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0000420-acu-001",
+        "pat_enc_csn_id": "0000420-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-22"
+      },
+      {
+        "dx_id": "0000420-acu-002",
+        "pat_enc_csn_id": "0000420-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100420",
+    "summary": {
+      "total_charges": 2502,
+      "total_payments": 2143,
+      "outstanding_balance": 359,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000042000",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 2502,
+        "total_payments": 2143,
+        "current_balance": 359,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100420",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

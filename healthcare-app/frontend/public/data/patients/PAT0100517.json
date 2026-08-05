@@ -1,0 +1,330 @@
+{
+  "patient": {
+    "pat_id": "PAT0100517",
+    "med_rec_num": "MRN0200517",
+    "full_name": "George Gonzalez",
+    "birth_date": "1981-07-12",
+    "age": 45,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 5,
+    "encounter_count": 15,
+    "total_charges": 8829,
+    "latitude": 40.47696,
+    "longitude": -79.962,
+    "last_encounter_date": "2026-04-04",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6255 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 331-2822",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100517",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000517-000",
+        "contact_date": "2026-04-04",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000517-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000517-002",
+        "contact_date": "2026-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000517-003",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 81
+      },
+      {
+        "pat_enc_csn_id": "0000517-004",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000517-005",
+        "contact_date": "2025-11-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000517-006",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000517-007",
+        "contact_date": "2025-06-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000517-008",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000517-009",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 5117
+      },
+      {
+        "pat_enc_csn_id": "0000517-010",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000517-011",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000517-012",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000517-013",
+        "contact_date": "2024-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000517-014",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 237
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100517",
+    "diagnoses": [
+      {
+        "dx_id": "0000517-dx-000",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000517-dx-001",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000517-dx-002",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000517-dx-003",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000517-dx-004",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000517-acu-000",
+        "pat_enc_csn_id": "0000517-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-04"
+      },
+      {
+        "dx_id": "0000517-acu-001",
+        "pat_enc_csn_id": "0000517-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      },
+      {
+        "dx_id": "0000517-acu-002",
+        "pat_enc_csn_id": "0000517-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100517",
+    "summary": {
+      "total_charges": 8829,
+      "total_payments": 5507,
+      "outstanding_balance": 3322,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000051700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8829,
+        "total_payments": 5507,
+        "current_balance": 3322,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-04",
+        "closed_date": "2026-03-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100517",
+    "comparables": [
+      {
+        "pat_id": "PAT0100111",
+        "full_name": "John Thomas",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 13,
+        "total_charges": 27534
+      },
+      {
+        "pat_id": "PAT0100489",
+        "full_name": "Andrew Gonzalez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 15980
+      },
+      {
+        "pat_id": "PAT0100794",
+        "full_name": "Susan Wilson",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 16331
+      },
+      {
+        "pat_id": "PAT0101560",
+        "full_name": "Carol Jackson",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 6645
+      },
+      {
+        "pat_id": "PAT0101797",
+        "full_name": "Kimberly Okonkwo",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 10,
+        "total_charges": 4193
+      },
+      {
+        "pat_id": "PAT0102427",
+        "full_name": "Anil Wilson",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 14367
+      }
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0100877",
+    "med_rec_num": "MRN0200877",
+    "full_name": "John Smith",
+    "birth_date": "2013-02-02",
+    "age": 13,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 2114,
+    "latitude": 40.43978,
+    "longitude": -79.96009,
+    "last_encounter_date": "2026-02-08",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6188 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 713-2407",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100877",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000877-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000877-001",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000877-002",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000877-003",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000877-004",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000877-005",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000877-006",
+        "contact_date": "2024-10-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000877-007",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 270
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100877",
+    "diagnoses": [
+      {
+        "dx_id": "0000877-dx-000",
+        "pat_enc_csn_id": "0000877-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000877-dx-001",
+        "pat_enc_csn_id": "0000877-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000877-acu-000",
+        "pat_enc_csn_id": "0000877-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      },
+      {
+        "dx_id": "0000877-acu-001",
+        "pat_enc_csn_id": "0000877-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100877",
+    "summary": {
+      "total_charges": 2114,
+      "total_payments": 1752,
+      "outstanding_balance": 362,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000087700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2114,
+        "total_payments": 1752,
+        "current_balance": 362,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-23",
+        "closed_date": "2026-04-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100877",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

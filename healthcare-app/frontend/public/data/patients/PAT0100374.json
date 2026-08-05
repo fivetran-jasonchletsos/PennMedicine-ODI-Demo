@@ -1,0 +1,289 @@
+{
+  "patient": {
+    "pat_id": "PAT0100374",
+    "med_rec_num": "MRN0200374",
+    "full_name": "Barbara Williams",
+    "birth_date": "2006-01-27",
+    "age": 20,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 75715,
+    "latitude": 40.35784,
+    "longitude": -79.89711,
+    "last_encounter_date": "2026-01-12",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4240 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 911-2295",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100374",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000374-000",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000374-001",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5976
+      },
+      {
+        "pat_enc_csn_id": "0000374-002",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 6026
+      },
+      {
+        "pat_enc_csn_id": "0000374-003",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000374-004",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000374-005",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 7616
+      },
+      {
+        "pat_enc_csn_id": "0000374-006",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000374-007",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 18695
+      },
+      {
+        "pat_enc_csn_id": "0000374-008",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000374-009",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 35143
+      },
+      {
+        "pat_enc_csn_id": "0000374-010",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000374-011",
+        "contact_date": "2024-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000374-012",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 139
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100374",
+    "diagnoses": [
+      {
+        "dx_id": "0000374-dx-000",
+        "pat_enc_csn_id": "0000374-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000374-acu-000",
+        "pat_enc_csn_id": "0000374-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      },
+      {
+        "dx_id": "0000374-acu-001",
+        "pat_enc_csn_id": "0000374-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-09-24"
+      },
+      {
+        "dx_id": "0000374-acu-002",
+        "pat_enc_csn_id": "0000374-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-09-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100374",
+    "summary": {
+      "total_charges": 75715,
+      "total_payments": 60821,
+      "outstanding_balance": 14894,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000037400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 38091,
+        "total_payments": 32532,
+        "current_balance": 5559,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-28",
+        "closed_date": "2026-04-06"
+      },
+      {
+        "hsp_account_id": "HSP000037401",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 37624,
+        "total_payments": 28289,
+        "current_balance": 9335,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-16",
+        "closed_date": "2026-03-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100374",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

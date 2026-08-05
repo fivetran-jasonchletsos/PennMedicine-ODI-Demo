@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0101149",
+    "med_rec_num": "MRN0201149",
+    "full_name": "Susan Wilson",
+    "birth_date": "1968-12-26",
+    "age": 58,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 2542,
+    "latitude": 40.4181,
+    "longitude": -79.79098,
+    "last_encounter_date": "2026-04-24",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2564 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 397-8932",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101149",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001149-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001149-001",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0001149-002",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0001149-003",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0001149-004",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001149-005",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001149-006",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0001149-007",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0001149-008",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 368
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101149",
+    "diagnoses": [
+      {
+        "dx_id": "0001149-dx-000",
+        "pat_enc_csn_id": "0001149-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0001149-dx-001",
+        "pat_enc_csn_id": "0001149-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001149-dx-002",
+        "pat_enc_csn_id": "0001149-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001149-acu-001",
+        "pat_enc_csn_id": "0001149-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0001149-acu-002",
+        "pat_enc_csn_id": "0001149-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101149",
+    "summary": {
+      "total_charges": 2542,
+      "total_payments": 2054,
+      "outstanding_balance": 488,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000114900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2542,
+        "total_payments": 2054,
+        "current_balance": 488,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-04-21",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101149",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

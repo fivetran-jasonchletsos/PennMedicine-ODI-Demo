@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0100437",
+    "med_rec_num": "MRN0200437",
+    "full_name": "James Russo",
+    "birth_date": "1969-03-15",
+    "age": 57,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 1907,
+    "latitude": 40.38019,
+    "longitude": -80.04849,
+    "last_encounter_date": "2025-12-04",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4946 Highland St",
+    "state": "PA",
+    "phone": "(412) 543-5727",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100437",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000437-000",
+        "contact_date": "2025-12-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000437-001",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000437-002",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 115
+      },
+      {
+        "pat_enc_csn_id": "0000437-003",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000437-004",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000437-005",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000437-006",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0000437-007",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 105
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100437",
+    "diagnoses": [
+      {
+        "dx_id": "0000437-dx-000",
+        "pat_enc_csn_id": "0000437-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000437-dx-001",
+        "pat_enc_csn_id": "0000437-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000437-acu-000",
+        "pat_enc_csn_id": "0000437-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-04"
+      },
+      {
+        "dx_id": "0000437-acu-001",
+        "pat_enc_csn_id": "0000437-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-16"
+      },
+      {
+        "dx_id": "0000437-acu-002",
+        "pat_enc_csn_id": "0000437-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100437",
+    "summary": {
+      "total_charges": 1907,
+      "total_payments": 1713,
+      "outstanding_balance": 194,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000043700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1907,
+        "total_payments": 1713,
+        "current_balance": 194,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-01",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100437",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

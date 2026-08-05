@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100762",
+    "med_rec_num": "MRN0200762",
+    "full_name": "Barbara Miller",
+    "birth_date": "2009-09-28",
+    "age": 17,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 8662,
+    "latitude": 40.45351,
+    "longitude": -79.92823,
+    "last_encounter_date": "2026-04-21",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8954 Liberty St",
+    "state": "PA",
+    "phone": "(412) 768-1248",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100762",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000762-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000762-001",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0000762-002",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000762-003",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000762-004",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000762-005",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000762-006",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0000762-007",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000762-008",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000762-009",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 6486
+      },
+      {
+        "pat_enc_csn_id": "0000762-010",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 203
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100762",
+    "diagnoses": [
+      {
+        "dx_id": "0000762-dx-000",
+        "pat_enc_csn_id": "0000762-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000762-dx-001",
+        "pat_enc_csn_id": "0000762-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000762-acu-000",
+        "pat_enc_csn_id": "0000762-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100762",
+    "summary": {
+      "total_charges": 8662,
+      "total_payments": 7405,
+      "outstanding_balance": 1257,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076200",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8662,
+        "total_payments": 7405,
+        "current_balance": 1257,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-09-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100762",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

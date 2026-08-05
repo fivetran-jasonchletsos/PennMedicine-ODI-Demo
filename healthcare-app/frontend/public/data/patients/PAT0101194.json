@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0101194",
+    "med_rec_num": "MRN0201194",
+    "full_name": "Kevin Moore",
+    "birth_date": "1967-02-04",
+    "age": 59,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 3544,
+    "latitude": 40.44044,
+    "longitude": -80.00103,
+    "last_encounter_date": "2026-03-15",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5510 Walnut St",
+    "state": "PA",
+    "phone": "(412) 320-6419",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101194",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001194-000",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001194-001",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 3256
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101194",
+    "diagnoses": [
+      {
+        "dx_id": "0001194-acu-000",
+        "pat_enc_csn_id": "0001194-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101194",
+    "summary": {
+      "total_charges": 3544,
+      "total_payments": 2398,
+      "outstanding_balance": 1146,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000119400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3544,
+        "total_payments": 2398,
+        "current_balance": 1146,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101194",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

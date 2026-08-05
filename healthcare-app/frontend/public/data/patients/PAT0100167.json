@@ -1,0 +1,234 @@
+{
+  "patient": {
+    "pat_id": "PAT0100167",
+    "med_rec_num": "MRN0200167",
+    "full_name": "Paul Patel",
+    "birth_date": "1999-08-12",
+    "age": 27,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 27501,
+    "latitude": 40.29651,
+    "longitude": -79.5441,
+    "last_encounter_date": "2026-02-16",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4302 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 824-1475",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100167",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000167-000",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000167-001",
+        "contact_date": "2025-11-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000167-002",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000167-003",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000167-004",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000167-005",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 25507
+      },
+      {
+        "pat_enc_csn_id": "0000167-006",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000167-007",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 258
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100167",
+    "diagnoses": [
+      {
+        "dx_id": "0000167-acu-001",
+        "pat_enc_csn_id": "0000167-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-07"
+      },
+      {
+        "dx_id": "0000167-acu-002",
+        "pat_enc_csn_id": "0000167-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100167",
+    "summary": {
+      "total_charges": 27501,
+      "total_payments": 19510,
+      "outstanding_balance": 7991,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6969,
+        "total_payments": 6327,
+        "current_balance": 642,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-12-31",
+        "closed_date": "2026-04-15"
+      },
+      {
+        "hsp_account_id": "HSP000016701",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 13921,
+        "total_payments": 8742,
+        "current_balance": 5179,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-12-09",
+        "closed_date": "2026-02-05"
+      },
+      {
+        "hsp_account_id": "HSP000016702",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6611,
+        "total_payments": 4441,
+        "current_balance": 2170,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-01-01",
+        "closed_date": "2025-12-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100167",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100186",
+        "full_name": "Paul Rodriguez",
+        "age": 21,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 3402
+      }
+    ]
+  }
+}

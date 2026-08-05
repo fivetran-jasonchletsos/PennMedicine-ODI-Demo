@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100459",
+    "med_rec_num": "MRN0200459",
+    "full_name": "Mary O'Brien",
+    "birth_date": "1950-07-06",
+    "age": 76,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 9838,
+    "latitude": 40.4274,
+    "longitude": -79.79459,
+    "last_encounter_date": "2026-05-08",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8304 Beacon St",
+    "state": "PA",
+    "phone": "(412) 890-1818",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100459",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000459-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000459-001",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000459-002",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000459-003",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000459-004",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000459-005",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000459-006",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000459-007",
+        "contact_date": "2024-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000459-008",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 7024
+      },
+      {
+        "pat_enc_csn_id": "0000459-009",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000459-010",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0000459-011",
+        "contact_date": "2024-05-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 344
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100459",
+    "diagnoses": [
+      {
+        "dx_id": "0000459-dx-000",
+        "pat_enc_csn_id": "0000459-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000459-dx-001",
+        "pat_enc_csn_id": "0000459-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000459-acu-000",
+        "pat_enc_csn_id": "0000459-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0000459-acu-002",
+        "pat_enc_csn_id": "0000459-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100459",
+    "summary": {
+      "total_charges": 9838,
+      "total_payments": 6057,
+      "outstanding_balance": 3781,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000045900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9838,
+        "total_payments": 6057,
+        "current_balance": 3781,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-21",
+        "closed_date": "2026-04-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100459",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

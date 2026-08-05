@@ -1,0 +1,184 @@
+{
+  "patient": {
+    "pat_id": "PAT0101433",
+    "med_rec_num": "MRN0201433",
+    "full_name": "Carol Martinez",
+    "birth_date": "1977-06-13",
+    "age": 49,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 2897,
+    "latitude": 40.49728,
+    "longitude": -79.76459,
+    "last_encounter_date": "2026-03-05",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7885 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 481-7781",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101433",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001433-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001433-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 91
+      },
+      {
+        "pat_enc_csn_id": "0001433-002",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001433-003",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0001433-004",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0001433-005",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1949
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101433",
+    "diagnoses": [
+      {
+        "dx_id": "0001433-dx-000",
+        "pat_enc_csn_id": "0001433-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101433",
+    "summary": {
+      "total_charges": 2897,
+      "total_payments": 1936,
+      "outstanding_balance": 961,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000143300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2897,
+        "total_payments": 1936,
+        "current_balance": 961,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-30",
+        "closed_date": "2025-12-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101433",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "patient": {
+    "pat_id": "PAT0101021",
+    "med_rec_num": "MRN0201021",
+    "full_name": "Carlos Petrov",
+    "birth_date": "1976-03-18",
+    "age": 50,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 7039,
+    "latitude": 40.52441,
+    "longitude": -79.96487,
+    "last_encounter_date": "2026-04-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8565 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 967-7310",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101021",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001021-000",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001021-001",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001021-002",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001021-003",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001021-004",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001021-005",
+        "contact_date": "2024-11-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001021-006",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5385
+      },
+      {
+        "pat_enc_csn_id": "0001021-007",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101021",
+    "diagnoses": [
+      {
+        "dx_id": "0001021-acu-002",
+        "pat_enc_csn_id": "0001021-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-01-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101021",
+    "summary": {
+      "total_charges": 7039,
+      "total_payments": 5740,
+      "outstanding_balance": 1299,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102100",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 7039,
+        "total_payments": 5740,
+        "current_balance": 1299,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101021",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

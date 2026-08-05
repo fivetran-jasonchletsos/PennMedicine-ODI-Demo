@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100031",
+    "med_rec_num": "MRN0200031",
+    "full_name": "Anil Brown",
+    "birth_date": "1981-01-15",
+    "age": 45,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 5220,
+    "latitude": 40.37211,
+    "longitude": -80.04762,
+    "last_encounter_date": "2025-12-29",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2453 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 940-2659",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100031",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000031-000",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000031-001",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000031-002",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2212
+      },
+      {
+        "pat_enc_csn_id": "0000031-003",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000031-004",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000031-005",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000031-006",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000031-007",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000031-008",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000031-009",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000031-010",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000031-011",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 231
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100031",
+    "diagnoses": [
+      {
+        "dx_id": "0000031-dx-000",
+        "pat_enc_csn_id": "0000031-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000031-dx-001",
+        "pat_enc_csn_id": "0000031-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000031-acu-000",
+        "pat_enc_csn_id": "0000031-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-29"
+      },
+      {
+        "dx_id": "0000031-acu-001",
+        "pat_enc_csn_id": "0000031-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100031",
+    "summary": {
+      "total_charges": 5220,
+      "total_payments": 3934,
+      "outstanding_balance": 1286,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000003100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5220,
+        "total_payments": 3934,
+        "current_balance": 1286,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100031",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

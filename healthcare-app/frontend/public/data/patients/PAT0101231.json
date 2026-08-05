@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0101231",
+    "med_rec_num": "MRN0201231",
+    "full_name": "Elizabeth Garcia",
+    "birth_date": "1972-09-18",
+    "age": 54,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 4810,
+    "latitude": 40.45591,
+    "longitude": -80.01337,
+    "last_encounter_date": "2026-04-29",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7159 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 660-4706",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101231",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001231-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001231-001",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0001231-002",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001231-003",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0001231-004",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001231-005",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0001231-006",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 2125
+      },
+      {
+        "pat_enc_csn_id": "0001231-007",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0001231-008",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0001231-009",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001231-010",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 331
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101231",
+    "diagnoses": [
+      {
+        "dx_id": "0001231-dx-000",
+        "pat_enc_csn_id": "0001231-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001231-dx-001",
+        "pat_enc_csn_id": "0001231-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0001231-acu-001",
+        "pat_enc_csn_id": "0001231-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-24"
+      },
+      {
+        "dx_id": "0001231-acu-002",
+        "pat_enc_csn_id": "0001231-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101231",
+    "summary": {
+      "total_charges": 4810,
+      "total_payments": 3799,
+      "outstanding_balance": 1011,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000123100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4810,
+        "total_payments": 3799,
+        "current_balance": 1011,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-31",
+        "closed_date": "2026-04-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101231",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

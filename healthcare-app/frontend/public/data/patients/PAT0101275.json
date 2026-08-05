@@ -1,0 +1,324 @@
+{
+  "patient": {
+    "pat_id": "PAT0101275",
+    "med_rec_num": "MRN0201275",
+    "full_name": "Christopher Singh",
+    "birth_date": "1963-01-19",
+    "age": 63,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 8077,
+    "latitude": 40.38002,
+    "longitude": -80.04822,
+    "last_encounter_date": "2026-05-01",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3901 Beacon St",
+    "state": "PA",
+    "phone": "(412) 813-6839",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101275",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001275-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001275-001",
+        "contact_date": "2026-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001275-002",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0001275-003",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0001275-004",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0001275-005",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0001275-006",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0001275-007",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0001275-008",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001275-009",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0001275-010",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0001275-011",
+        "contact_date": "2024-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001275-012",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001275-013",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001275-014",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0001275-015",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4430
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101275",
+    "diagnoses": [
+      {
+        "dx_id": "0001275-dx-000",
+        "pat_enc_csn_id": "0001275-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001275-dx-001",
+        "pat_enc_csn_id": "0001275-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001275-dx-002",
+        "pat_enc_csn_id": "0001275-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001275-acu-000",
+        "pat_enc_csn_id": "0001275-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0001275-acu-001",
+        "pat_enc_csn_id": "0001275-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-23"
+      },
+      {
+        "dx_id": "0001275-acu-002",
+        "pat_enc_csn_id": "0001275-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101275",
+    "summary": {
+      "total_charges": 8077,
+      "total_payments": 7470,
+      "outstanding_balance": 607,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000127500",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 8077,
+        "total_payments": 7470,
+        "current_balance": 607,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-08",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101275",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

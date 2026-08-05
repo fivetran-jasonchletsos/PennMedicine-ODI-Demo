@@ -1,0 +1,365 @@
+{
+  "patient": {
+    "pat_id": "PAT0101487",
+    "med_rec_num": "MRN0201487",
+    "full_name": "Linda Khan",
+    "birth_date": "1968-09-24",
+    "age": 58,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 4,
+    "encounter_count": 19,
+    "total_charges": 14470,
+    "latitude": 40.44098,
+    "longitude": -79.9593,
+    "last_encounter_date": "2026-04-15",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6474 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 971-1827",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101487",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001487-000",
+        "contact_date": "2026-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001487-001",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001487-002",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0001487-003",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001487-004",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001487-005",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001487-006",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001487-007",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 2884
+      },
+      {
+        "pat_enc_csn_id": "0001487-008",
+        "contact_date": "2025-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0001487-009",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001487-010",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0001487-011",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001487-012",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001487-013",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 7345
+      },
+      {
+        "pat_enc_csn_id": "0001487-014",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001487-015",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001487-016",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001487-017",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001487-018",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 315
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101487",
+    "diagnoses": [
+      {
+        "dx_id": "0001487-dx-000",
+        "pat_enc_csn_id": "0001487-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001487-dx-001",
+        "pat_enc_csn_id": "0001487-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001487-dx-002",
+        "pat_enc_csn_id": "0001487-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001487-dx-003",
+        "pat_enc_csn_id": "0001487-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0001487-acu-000",
+        "pat_enc_csn_id": "0001487-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-15"
+      },
+      {
+        "dx_id": "0001487-acu-002",
+        "pat_enc_csn_id": "0001487-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101487",
+    "summary": {
+      "total_charges": 14470,
+      "total_payments": 12694,
+      "outstanding_balance": 1776,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000148700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 13868,
+        "total_payments": 12216,
+        "current_balance": 1652,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-18",
+        "closed_date": "2025-10-30"
+      },
+      {
+        "hsp_account_id": "HSP000148701",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 602,
+        "total_payments": 478,
+        "current_balance": 124,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101487",
+    "comparables": [
+      {
+        "pat_id": "PAT0100033",
+        "full_name": "Sofia Thomas",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 26167
+      },
+      {
+        "pat_id": "PAT0100087",
+        "full_name": "Patricia Davis",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 7,
+        "total_charges": 9979
+      },
+      {
+        "pat_id": "PAT0100152",
+        "full_name": "Patricia Walsh",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 13388
+      },
+      {
+        "pat_id": "PAT0100153",
+        "full_name": "James Rodriguez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 12,
+        "total_charges": 3091
+      },
+      {
+        "pat_id": "PAT0100170",
+        "full_name": "Margaret Jackson",
+        "age": 52,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1764
+      },
+      {
+        "pat_id": "PAT0100198",
+        "full_name": "Mary Anderson",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 4220
+      }
+    ]
+  }
+}

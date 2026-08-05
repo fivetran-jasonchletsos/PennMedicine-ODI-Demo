@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0100193",
+    "med_rec_num": "MRN0200193",
+    "full_name": "Kevin Park",
+    "birth_date": "2003-12-10",
+    "age": 23,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.3579,
+    "longitude": -79.89688,
+    "last_encounter_date": null,
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6576 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 965-9789",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100193",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100193",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100193",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000019300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100193",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

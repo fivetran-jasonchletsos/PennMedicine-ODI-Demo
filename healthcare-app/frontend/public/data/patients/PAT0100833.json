@@ -1,0 +1,335 @@
+{
+  "patient": {
+    "pat_id": "PAT0100833",
+    "med_rec_num": "MRN0200833",
+    "full_name": "Robert Schmidt",
+    "birth_date": "1936-10-23",
+    "age": 90,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 20947,
+    "latitude": 40.42224,
+    "longitude": -79.78779,
+    "last_encounter_date": "2026-05-02",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1742 Murray St",
+    "state": "PA",
+    "phone": "(412) 674-5272",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100833",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000833-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 10950
+      },
+      {
+        "pat_enc_csn_id": "0000833-001",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000833-002",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000833-003",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000833-004",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 2279
+      },
+      {
+        "pat_enc_csn_id": "0000833-005",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0000833-006",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000833-007",
+        "contact_date": "2025-10-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 3991
+      },
+      {
+        "pat_enc_csn_id": "0000833-008",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000833-009",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000833-010",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0000833-011",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000833-012",
+        "contact_date": "2024-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000833-013",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000833-014",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000833-015",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 296
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100833",
+    "diagnoses": [
+      {
+        "dx_id": "0000833-dx-000",
+        "pat_enc_csn_id": "0000833-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000833-dx-001",
+        "pat_enc_csn_id": "0000833-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000833-dx-002",
+        "pat_enc_csn_id": "0000833-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000833-acu-000",
+        "pat_enc_csn_id": "0000833-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0000833-acu-001",
+        "pat_enc_csn_id": "0000833-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0000833-acu-002",
+        "pat_enc_csn_id": "0000833-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100833",
+    "summary": {
+      "total_charges": 20947,
+      "total_payments": 18087,
+      "outstanding_balance": 2860,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000083300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 15559,
+        "total_payments": 13536,
+        "current_balance": 2023,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000083301",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 5388,
+        "total_payments": 4551,
+        "current_balance": 837,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100833",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

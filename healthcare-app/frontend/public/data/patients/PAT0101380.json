@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101380",
+    "med_rec_num": "MRN0201380",
+    "full_name": "Donna Khan",
+    "birth_date": "1988-12-12",
+    "age": 38,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 47009,
+    "latitude": 40.45654,
+    "longitude": -79.91077,
+    "last_encounter_date": "2025-12-08",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5065 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 995-1771",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101380",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001380-000",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 30176
+      },
+      {
+        "pat_enc_csn_id": "0001380-001",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001380-002",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0001380-003",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3355
+      },
+      {
+        "pat_enc_csn_id": "0001380-004",
+        "contact_date": "2024-10-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0001380-005",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 5901
+      },
+      {
+        "pat_enc_csn_id": "0001380-006",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 6660
+      },
+      {
+        "pat_enc_csn_id": "0001380-007",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 280
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101380",
+    "diagnoses": [
+      {
+        "dx_id": "0001380-dx-000",
+        "pat_enc_csn_id": "0001380-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0001380-acu-001",
+        "pat_enc_csn_id": "0001380-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-08"
+      },
+      {
+        "dx_id": "0001380-acu-002",
+        "pat_enc_csn_id": "0001380-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-02-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101380",
+    "summary": {
+      "total_charges": 47009,
+      "total_payments": 35294,
+      "outstanding_balance": 11715,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18116,
+        "total_payments": 13937,
+        "current_balance": 4179,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-02",
+        "closed_date": "2026-02-28"
+      },
+      {
+        "hsp_account_id": "HSP000138001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2336,
+        "total_payments": 2014,
+        "current_balance": 322,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-02-28",
+        "closed_date": "2026-03-02"
+      },
+      {
+        "hsp_account_id": "HSP000138002",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 26557,
+        "total_payments": 19343,
+        "current_balance": 7214,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-23",
+        "closed_date": "2025-12-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101380",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "patient": {
+    "pat_id": "PAT0100474",
+    "med_rec_num": "MRN0200474",
+    "full_name": "Michael Hernandez",
+    "birth_date": "1990-03-16",
+    "age": 36,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 2094,
+    "latitude": 40.44887,
+    "longitude": -79.92594,
+    "last_encounter_date": "2026-01-18",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3112 Centre St",
+    "state": "PA",
+    "phone": "(412) 753-1756",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100474",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000474-000",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000474-001",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000474-002",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000474-003",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000474-004",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000474-005",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000474-006",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 317
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100474",
+    "diagnoses": [
+      {
+        "dx_id": "0000474-dx-000",
+        "pat_enc_csn_id": "0000474-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000474-dx-001",
+        "pat_enc_csn_id": "0000474-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000474-acu-000",
+        "pat_enc_csn_id": "0000474-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0000474-acu-001",
+        "pat_enc_csn_id": "0000474-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-02"
+      },
+      {
+        "dx_id": "0000474-acu-002",
+        "pat_enc_csn_id": "0000474-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-02-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100474",
+    "summary": {
+      "total_charges": 2094,
+      "total_payments": 1495,
+      "outstanding_balance": 599,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000047400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 2094,
+        "total_payments": 1495,
+        "current_balance": 599,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100474",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

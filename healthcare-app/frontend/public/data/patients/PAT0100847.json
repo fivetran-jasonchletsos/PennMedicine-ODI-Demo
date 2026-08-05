@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100847",
+    "med_rec_num": "MRN0200847",
+    "full_name": "Richard Gonzalez",
+    "birth_date": "2023-04-20",
+    "age": 3,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 17353,
+    "latitude": 40.3311,
+    "longitude": -80.03966,
+    "last_encounter_date": "2026-02-25",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7044 Murray St",
+    "state": "PA",
+    "phone": "(412) 878-4478",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100847",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000847-000",
+        "contact_date": "2026-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000847-001",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000847-002",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000847-003",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0000847-004",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 13370
+      },
+      {
+        "pat_enc_csn_id": "0000847-005",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000847-006",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000847-007",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000847-008",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 1238
+      },
+      {
+        "pat_enc_csn_id": "0000847-009",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000847-010",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100847",
+    "diagnoses": [
+      {
+        "dx_id": "0000847-dx-000",
+        "pat_enc_csn_id": "0000847-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000847-acu-000",
+        "pat_enc_csn_id": "0000847-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-25"
+      },
+      {
+        "dx_id": "0000847-acu-002",
+        "pat_enc_csn_id": "0000847-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100847",
+    "summary": {
+      "total_charges": 17353,
+      "total_payments": 12727,
+      "outstanding_balance": 4626,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 14396,
+        "total_payments": 10380,
+        "current_balance": 4016,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-22",
+        "closed_date": "2025-11-04"
+      },
+      {
+        "hsp_account_id": "HSP000084701",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2002,
+        "total_payments": 1615,
+        "current_balance": 387,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-15",
+        "closed_date": "2026-01-04"
+      },
+      {
+        "hsp_account_id": "HSP000084702",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 955,
+        "total_payments": 732,
+        "current_balance": 223,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-25",
+        "closed_date": "2026-04-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100847",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

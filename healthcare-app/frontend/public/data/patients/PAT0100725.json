@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100725",
+    "med_rec_num": "MRN0200725",
+    "full_name": "Carol Wong",
+    "birth_date": "1969-08-21",
+    "age": 57,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 12669,
+    "latitude": 40.44959,
+    "longitude": -79.9322,
+    "last_encounter_date": "2025-08-31",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "800 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 738-9417",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100725",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000725-000",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3360
+      },
+      {
+        "pat_enc_csn_id": "0000725-001",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000725-002",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 6332
+      },
+      {
+        "pat_enc_csn_id": "0000725-003",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 1927
+      },
+      {
+        "pat_enc_csn_id": "0000725-004",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000725-005",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 302
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100725",
+    "diagnoses": [
+      {
+        "dx_id": "0000725-dx-000",
+        "pat_enc_csn_id": "0000725-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000725-dx-001",
+        "pat_enc_csn_id": "0000725-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000725-acu-002",
+        "pat_enc_csn_id": "0000725-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-03-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100725",
+    "summary": {
+      "total_charges": 12669,
+      "total_payments": 11947,
+      "outstanding_balance": 722,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000072500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 12669,
+        "total_payments": 11947,
+        "current_balance": 722,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-01-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100725",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

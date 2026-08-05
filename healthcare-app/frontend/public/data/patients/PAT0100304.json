@@ -1,0 +1,288 @@
+{
+  "patient": {
+    "pat_id": "PAT0100304",
+    "med_rec_num": "MRN0200304",
+    "full_name": "William Greene",
+    "birth_date": "2003-05-27",
+    "age": 23,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 42474,
+    "latitude": 40.49728,
+    "longitude": -79.90478,
+    "last_encounter_date": "2026-03-21",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6275 Beacon St",
+    "state": "PA",
+    "phone": "(412) 874-4580",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100304",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000304-000",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 3035
+      },
+      {
+        "pat_enc_csn_id": "0000304-001",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000304-002",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000304-003",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1934
+      },
+      {
+        "pat_enc_csn_id": "0000304-004",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000304-005",
+        "contact_date": "2025-08-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000304-006",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 25782
+      },
+      {
+        "pat_enc_csn_id": "0000304-007",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 3691
+      },
+      {
+        "pat_enc_csn_id": "0000304-008",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000304-009",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000304-010",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 5938
+      },
+      {
+        "pat_enc_csn_id": "0000304-011",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000304-012",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000304-013",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 226
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100304",
+    "diagnoses": [
+      {
+        "dx_id": "0000304-dx-000",
+        "pat_enc_csn_id": "0000304-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000304-acu-000",
+        "pat_enc_csn_id": "0000304-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-21"
+      },
+      {
+        "dx_id": "0000304-acu-001",
+        "pat_enc_csn_id": "0000304-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-05"
+      },
+      {
+        "dx_id": "0000304-acu-002",
+        "pat_enc_csn_id": "0000304-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100304",
+    "summary": {
+      "total_charges": 42474,
+      "total_payments": 32255,
+      "outstanding_balance": 10219,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 42474,
+        "total_payments": 32255,
+        "current_balance": 10219,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100304",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

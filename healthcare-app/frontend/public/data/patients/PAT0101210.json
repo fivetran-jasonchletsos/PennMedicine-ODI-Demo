@@ -1,0 +1,312 @@
+{
+  "patient": {
+    "pat_id": "PAT0101210",
+    "med_rec_num": "MRN0201210",
+    "full_name": "Carol O'Brien",
+    "birth_date": "1976-07-28",
+    "age": 50,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 4,
+    "encounter_count": 14,
+    "total_charges": 10519,
+    "latitude": 40.43902,
+    "longitude": -79.99898,
+    "last_encounter_date": "2025-12-15",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4685 Liberty St",
+    "state": "PA",
+    "phone": "(412) 841-5046",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101210",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001210-000",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0001210-001",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0001210-002",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001210-003",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001210-004",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001210-005",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001210-006",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 6929
+      },
+      {
+        "pat_enc_csn_id": "0001210-007",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0001210-008",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001210-009",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0001210-010",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0001210-011",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0001210-012",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001210-013",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 392
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101210",
+    "diagnoses": [
+      {
+        "dx_id": "0001210-dx-000",
+        "pat_enc_csn_id": "0001210-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001210-dx-001",
+        "pat_enc_csn_id": "0001210-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0001210-dx-002",
+        "pat_enc_csn_id": "0001210-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0001210-dx-003",
+        "pat_enc_csn_id": "0001210-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001210-acu-000",
+        "pat_enc_csn_id": "0001210-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      },
+      {
+        "dx_id": "0001210-acu-001",
+        "pat_enc_csn_id": "0001210-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      },
+      {
+        "dx_id": "0001210-acu-002",
+        "pat_enc_csn_id": "0001210-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101210",
+    "summary": {
+      "total_charges": 10519,
+      "total_payments": 6622,
+      "outstanding_balance": 3897,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10519,
+        "total_payments": 6622,
+        "current_balance": 3897,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-22",
+        "closed_date": "2026-03-31"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101210",
+    "comparables": [
+      {
+        "pat_id": "PAT0100033",
+        "full_name": "Sofia Thomas",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 26167
+      },
+      {
+        "pat_id": "PAT0100087",
+        "full_name": "Patricia Davis",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 7,
+        "total_charges": 9979
+      },
+      {
+        "pat_id": "PAT0100152",
+        "full_name": "Patricia Walsh",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 13388
+      },
+      {
+        "pat_id": "PAT0100153",
+        "full_name": "James Rodriguez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 12,
+        "total_charges": 3091
+      },
+      {
+        "pat_id": "PAT0100170",
+        "full_name": "Margaret Jackson",
+        "age": 52,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1764
+      },
+      {
+        "pat_id": "PAT0100198",
+        "full_name": "Mary Anderson",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 4220
+      }
+    ]
+  }
+}

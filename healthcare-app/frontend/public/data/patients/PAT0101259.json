@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0101259",
+    "med_rec_num": "MRN0201259",
+    "full_name": "John Brown",
+    "birth_date": "1990-02-26",
+    "age": 36,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 5941,
+    "latitude": 40.3436,
+    "longitude": -79.84576,
+    "last_encounter_date": "2026-01-07",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "994 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 771-1465",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101259",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001259-000",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4097
+      },
+      {
+        "pat_enc_csn_id": "0001259-001",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001259-002",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001259-003",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001259-004",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0001259-005",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0001259-006",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001259-007",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 416
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101259",
+    "diagnoses": [
+      {
+        "dx_id": "0001259-dx-000",
+        "pat_enc_csn_id": "0001259-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001259-dx-001",
+        "pat_enc_csn_id": "0001259-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001259-acu-000",
+        "pat_enc_csn_id": "0001259-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-07"
+      },
+      {
+        "dx_id": "0001259-acu-001",
+        "pat_enc_csn_id": "0001259-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-04-02"
+      },
+      {
+        "dx_id": "0001259-acu-002",
+        "pat_enc_csn_id": "0001259-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-01-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101259",
+    "summary": {
+      "total_charges": 5941,
+      "total_payments": 4661,
+      "outstanding_balance": 1280,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5941,
+        "total_payments": 4661,
+        "current_balance": 1280,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101259",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

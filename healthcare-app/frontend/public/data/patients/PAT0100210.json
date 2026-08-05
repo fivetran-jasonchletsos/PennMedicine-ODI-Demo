@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100210",
+    "med_rec_num": "MRN0200210",
+    "full_name": "Hassan Brown",
+    "birth_date": "1977-02-11",
+    "age": 49,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 2441,
+    "latitude": 40.36376,
+    "longitude": -79.89976,
+    "last_encounter_date": "2026-02-08",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "941 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 738-4846",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100210",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000210-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000210-001",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000210-002",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000210-003",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0000210-004",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000210-005",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0000210-006",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000210-007",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000210-008",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000210-009",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000210-010",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 346
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100210",
+    "diagnoses": [
+      {
+        "dx_id": "0000210-dx-000",
+        "pat_enc_csn_id": "0000210-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000210-dx-001",
+        "pat_enc_csn_id": "0000210-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000210-dx-002",
+        "pat_enc_csn_id": "0000210-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000210-acu-001",
+        "pat_enc_csn_id": "0000210-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-22"
+      },
+      {
+        "dx_id": "0000210-acu-002",
+        "pat_enc_csn_id": "0000210-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100210",
+    "summary": {
+      "total_charges": 2441,
+      "total_payments": 1079,
+      "outstanding_balance": 1362,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000021000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2441,
+        "total_payments": 1079,
+        "current_balance": 1362,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-08-09",
+        "closed_date": "2026-03-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100210",
+    "comparables": [
+      {
+        "pat_id": "PAT0100031",
+        "full_name": "Anil Brown",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 5220
+      },
+      {
+        "pat_id": "PAT0100085",
+        "full_name": "Linda Brown",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 19592
+      },
+      {
+        "pat_id": "PAT0100090",
+        "full_name": "Aisha Nguyen",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 9144
+      },
+      {
+        "pat_id": "PAT0100136",
+        "full_name": "Susan Wong",
+        "age": 46,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 4716
+      },
+      {
+        "pat_id": "PAT0100183",
+        "full_name": "Linda Gonzalez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4659
+      },
+      {
+        "pat_id": "PAT0100279",
+        "full_name": "Thomas Russo",
+        "age": 46,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 5705
+      }
+    ]
+  }
+}

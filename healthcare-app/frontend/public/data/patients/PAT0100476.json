@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0100476",
+    "med_rec_num": "MRN0200476",
+    "full_name": "Ashley Khan",
+    "birth_date": "1967-06-19",
+    "age": 59,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 9674,
+    "latitude": 40.45042,
+    "longitude": -79.92527,
+    "last_encounter_date": "2026-04-29",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8981 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 335-4357",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100476",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000476-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000476-001",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000476-002",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 5752
+      },
+      {
+        "pat_enc_csn_id": "0000476-003",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 2152
+      },
+      {
+        "pat_enc_csn_id": "0000476-004",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000476-005",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000476-006",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000476-007",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000476-008",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 269
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100476",
+    "diagnoses": [
+      {
+        "dx_id": "0000476-dx-000",
+        "pat_enc_csn_id": "0000476-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000476-dx-001",
+        "pat_enc_csn_id": "0000476-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000476-dx-002",
+        "pat_enc_csn_id": "0000476-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000476-acu-000",
+        "pat_enc_csn_id": "0000476-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      },
+      {
+        "dx_id": "0000476-acu-002",
+        "pat_enc_csn_id": "0000476-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-11-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100476",
+    "summary": {
+      "total_charges": 9674,
+      "total_payments": 8621,
+      "outstanding_balance": 1053,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000047600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9674,
+        "total_payments": 8621,
+        "current_balance": 1053,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-16",
+        "closed_date": "2026-01-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100476",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

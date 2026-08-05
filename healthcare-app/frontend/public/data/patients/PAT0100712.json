@@ -1,0 +1,326 @@
+{
+  "patient": {
+    "pat_id": "PAT0100712",
+    "med_rec_num": "MRN0200712",
+    "full_name": "Susan Wong",
+    "birth_date": "1959-07-04",
+    "age": 67,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 4,
+    "encounter_count": 14,
+    "total_charges": 15713,
+    "latitude": 40.49769,
+    "longitude": -79.76316,
+    "last_encounter_date": "2026-05-06",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6711 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 916-8686",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100712",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000712-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000712-001",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000712-002",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 65
+      },
+      {
+        "pat_enc_csn_id": "0000712-003",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000712-004",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4452
+      },
+      {
+        "pat_enc_csn_id": "0000712-005",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000712-006",
+        "contact_date": "2025-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000712-007",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000712-008",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000712-009",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000712-010",
+        "contact_date": "2024-08-08",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 5690
+      },
+      {
+        "pat_enc_csn_id": "0000712-011",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 2823
+      },
+      {
+        "pat_enc_csn_id": "0000712-012",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000712-013",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100712",
+    "diagnoses": [
+      {
+        "dx_id": "0000712-dx-000",
+        "pat_enc_csn_id": "0000712-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000712-dx-001",
+        "pat_enc_csn_id": "0000712-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000712-dx-002",
+        "pat_enc_csn_id": "0000712-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000712-dx-003",
+        "pat_enc_csn_id": "0000712-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000712-acu-001",
+        "pat_enc_csn_id": "0000712-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-19"
+      },
+      {
+        "dx_id": "0000712-acu-002",
+        "pat_enc_csn_id": "0000712-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-08-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100712",
+    "summary": {
+      "total_charges": 15713,
+      "total_payments": 11748,
+      "outstanding_balance": 3965,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 2548,
+        "total_payments": 2193,
+        "current_balance": 355,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-04-20",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000071201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 7907,
+        "total_payments": 5045,
+        "current_balance": 2862,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-04-06",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000071202",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 5258,
+        "total_payments": 4510,
+        "current_balance": 748,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-08-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100712",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100842",
+    "med_rec_num": "MRN0200842",
+    "full_name": "Sandra Gonzalez",
+    "birth_date": "1973-04-27",
+    "age": 53,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 12609,
+    "latitude": 40.33049,
+    "longitude": -80.03592,
+    "last_encounter_date": "2026-02-26",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6621 Centre St",
+    "state": "PA",
+    "phone": "(412) 941-3361",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100842",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000842-000",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 68
+      },
+      {
+        "pat_enc_csn_id": "0000842-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000842-002",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000842-003",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000842-004",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000842-005",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6328
+      },
+      {
+        "pat_enc_csn_id": "0000842-006",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000842-007",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0000842-008",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0000842-009",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4673
+      },
+      {
+        "pat_enc_csn_id": "0000842-010",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 186
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100842",
+    "diagnoses": [
+      {
+        "dx_id": "0000842-dx-000",
+        "pat_enc_csn_id": "0000842-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000842-acu-001",
+        "pat_enc_csn_id": "0000842-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      },
+      {
+        "dx_id": "0000842-acu-002",
+        "pat_enc_csn_id": "0000842-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100842",
+    "summary": {
+      "total_charges": 12609,
+      "total_payments": 9795,
+      "outstanding_balance": 2814,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5530,
+        "total_payments": 4840,
+        "current_balance": 690,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-03-16",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000084201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1256,
+        "total_payments": 918,
+        "current_balance": 338,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-11",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000084202",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5823,
+        "total_payments": 4037,
+        "current_balance": 1786,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-12",
+        "closed_date": "2025-12-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100842",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

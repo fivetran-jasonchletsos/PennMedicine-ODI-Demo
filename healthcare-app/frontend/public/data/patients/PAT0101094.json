@@ -1,0 +1,309 @@
+{
+  "patient": {
+    "pat_id": "PAT0101094",
+    "med_rec_num": "MRN0201094",
+    "full_name": "Janet Kim",
+    "birth_date": "1934-06-09",
+    "age": 92,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 24174,
+    "latitude": 40.4639,
+    "longitude": -79.91448,
+    "last_encounter_date": "2026-03-28",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6393 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 692-4048",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101094",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001094-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0001094-001",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001094-002",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 10066
+      },
+      {
+        "pat_enc_csn_id": "0001094-003",
+        "contact_date": "2025-10-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001094-004",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0001094-005",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001094-006",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001094-007",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 5139
+      },
+      {
+        "pat_enc_csn_id": "0001094-008",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0001094-009",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 5641
+      },
+      {
+        "pat_enc_csn_id": "0001094-010",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001094-011",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001094-012",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0001094-013",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0001094-014",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 190
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101094",
+    "diagnoses": [
+      {
+        "dx_id": "0001094-dx-000",
+        "pat_enc_csn_id": "0001094-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1985-05-13"
+      },
+      {
+        "dx_id": "0001094-dx-001",
+        "pat_enc_csn_id": "0001094-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001094-acu-000",
+        "pat_enc_csn_id": "0001094-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0001094-acu-002",
+        "pat_enc_csn_id": "0001094-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101094",
+    "summary": {
+      "total_charges": 24174,
+      "total_payments": 19445,
+      "outstanding_balance": 4729,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000109400",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 15762,
+        "total_payments": 11882,
+        "current_balance": 3880,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000109401",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8412,
+        "total_payments": 7563,
+        "current_balance": 849,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-22",
+        "closed_date": "2025-11-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101094",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

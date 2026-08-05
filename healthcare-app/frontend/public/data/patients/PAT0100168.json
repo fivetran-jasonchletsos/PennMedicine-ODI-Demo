@@ -1,0 +1,241 @@
+{
+  "patient": {
+    "pat_id": "PAT0100168",
+    "med_rec_num": "MRN0200168",
+    "full_name": "Andrew Anderson",
+    "birth_date": "1990-11-23",
+    "age": 36,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 44040,
+    "latitude": 40.32586,
+    "longitude": -80.03675,
+    "last_encounter_date": "2026-02-18",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1475 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 972-8613",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100168",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000168-000",
+        "contact_date": "2026-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000168-001",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 3892
+      },
+      {
+        "pat_enc_csn_id": "0000168-002",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000168-003",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 5485
+      },
+      {
+        "pat_enc_csn_id": "0000168-004",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000168-005",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000168-006",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 33269
+      },
+      {
+        "pat_enc_csn_id": "0000168-007",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000168-008",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 157
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100168",
+    "diagnoses": [
+      {
+        "dx_id": "0000168-acu-000",
+        "pat_enc_csn_id": "0000168-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-18"
+      },
+      {
+        "dx_id": "0000168-acu-001",
+        "pat_enc_csn_id": "0000168-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-23"
+      },
+      {
+        "dx_id": "0000168-acu-002",
+        "pat_enc_csn_id": "0000168-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100168",
+    "summary": {
+      "total_charges": 44040,
+      "total_payments": 38959,
+      "outstanding_balance": 5081,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 37777,
+        "total_payments": 33750,
+        "current_balance": 4027,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-02",
+        "closed_date": "2025-12-02"
+      },
+      {
+        "hsp_account_id": "HSP000016801",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6263,
+        "total_payments": 5209,
+        "current_balance": 1054,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-02",
+        "closed_date": "2025-12-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100168",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

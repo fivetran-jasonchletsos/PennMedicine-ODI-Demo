@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0101493",
+    "med_rec_num": "MRN0201493",
+    "full_name": "Anil Okonkwo",
+    "birth_date": "1955-12-04",
+    "age": 71,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 661,
+    "latitude": 40.44485,
+    "longitude": -80.00269,
+    "last_encounter_date": "2025-10-30",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1689 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 660-6753",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101493",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001493-000",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0001493-001",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001493-002",
+        "contact_date": "2024-11-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 358
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101493",
+    "diagnoses": [
+      {
+        "dx_id": "0001493-acu-000",
+        "pat_enc_csn_id": "0001493-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-30"
+      },
+      {
+        "dx_id": "0001493-acu-001",
+        "pat_enc_csn_id": "0001493-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101493",
+    "summary": {
+      "total_charges": 661,
+      "total_payments": 589,
+      "outstanding_balance": 72,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000149300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 661,
+        "total_payments": 589,
+        "current_balance": 72,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101493",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "patient": {
+    "pat_id": "PAT0101048",
+    "med_rec_num": "MRN0201048",
+    "full_name": "Sandra Williams",
+    "birth_date": "1951-07-18",
+    "age": 75,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 15,
+    "total_charges": 4734,
+    "latitude": 40.44865,
+    "longitude": -79.96065,
+    "last_encounter_date": "2026-04-21",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9583 Highland St",
+    "state": "PA",
+    "phone": "(412) 900-7628",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101048",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001048-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001048-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0001048-002",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001048-003",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 989
+      },
+      {
+        "pat_enc_csn_id": "0001048-004",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0001048-005",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0001048-006",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001048-007",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001048-008",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0001048-009",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001048-010",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0001048-011",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001048-012",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001048-013",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001048-014",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 407
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101048",
+    "diagnoses": [
+      {
+        "dx_id": "0001048-dx-000",
+        "pat_enc_csn_id": "0001048-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0001048-dx-001",
+        "pat_enc_csn_id": "0001048-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001048-dx-002",
+        "pat_enc_csn_id": "0001048-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1976-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101048",
+    "summary": {
+      "total_charges": 4734,
+      "total_payments": 4454,
+      "outstanding_balance": 280,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000104800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4734,
+        "total_payments": 4454,
+        "current_balance": 280,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-01-10",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101048",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

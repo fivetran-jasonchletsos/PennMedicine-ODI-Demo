@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0100022",
+    "med_rec_num": "MRN0200022",
+    "full_name": "Sofia Smith",
+    "birth_date": "1991-12-07",
+    "age": 35,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 3623,
+    "latitude": 40.44184,
+    "longitude": -79.99435,
+    "last_encounter_date": "2025-12-19",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7378 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 289-8193",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100022",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000022-000",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000022-001",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000022-002",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000022-003",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1577
+      },
+      {
+        "pat_enc_csn_id": "0000022-004",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000022-005",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000022-006",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000022-007",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000022-008",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 109
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100022",
+    "diagnoses": [
+      {
+        "dx_id": "0000022-dx-000",
+        "pat_enc_csn_id": "0000022-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000022-acu-000",
+        "pat_enc_csn_id": "0000022-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-19"
+      },
+      {
+        "dx_id": "0000022-acu-001",
+        "pat_enc_csn_id": "0000022-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-09-10"
+      },
+      {
+        "dx_id": "0000022-acu-002",
+        "pat_enc_csn_id": "0000022-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-02-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100022",
+    "summary": {
+      "total_charges": 3623,
+      "total_payments": 2427,
+      "outstanding_balance": 1196,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000002200",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3623,
+        "total_payments": 2427,
+        "current_balance": 1196,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100022",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

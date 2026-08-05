@@ -1,0 +1,104 @@
+{
+  "materialized_model": "gold.fct_sepsis_bundle_by_service_line_daily",
+  "row_count": 284,
+  "tests_passed": 8,
+  "tests_written": "6 column-level + 1 combination + 1 not-null on compliance_rate",
+  "build_seconds": 87,
+  "before": {
+    "nodes": [
+      { "id": "fct_encounter", "name": "gold.fct_encounter",  "layer": "gold" },
+      { "id": "fct_vital",     "name": "gold.fct_vital",      "layer": "gold" },
+      { "id": "fct_order",     "name": "gold.fct_order",      "layer": "gold" },
+      { "id": "dim_patient",   "name": "gold.dim_patient",    "layer": "gold" },
+      { "id": "gap",           "name": "gold.fct_sepsis_bundle_by_service_line_daily", "layer": "gap", "built": false }
+    ],
+    "edges": [
+      { "from": "fct_encounter", "to": "gap" },
+      { "from": "fct_vital",     "to": "gap" },
+      { "from": "fct_order",     "to": "gap" },
+      { "from": "dim_patient",   "to": "gap" }
+    ]
+  },
+  "after": {
+    "nodes": [
+      { "id": "fct_encounter", "name": "gold.fct_encounter",  "layer": "gold" },
+      { "id": "fct_vital",     "name": "gold.fct_vital",      "layer": "gold" },
+      { "id": "fct_order",     "name": "gold.fct_order",      "layer": "gold" },
+      { "id": "dim_patient",   "name": "gold.dim_patient",    "layer": "gold" },
+      { "id": "new_gold",      "name": "gold.fct_sepsis_bundle_by_service_line_daily", "layer": "gold", "built": true, "new": true },
+      { "id": "quality_dash",  "name": "Quality Ops Dashboard",   "layer": "consumer" },
+      { "id": "nhsn_feed",     "name": "NHSN Reporting Feed",     "layer": "consumer" }
+    ],
+    "edges": [
+      { "from": "fct_encounter", "to": "new_gold" },
+      { "from": "fct_vital",     "to": "new_gold" },
+      { "from": "fct_order",     "to": "new_gold" },
+      { "from": "dim_patient",   "to": "new_gold" },
+      { "from": "new_gold",      "to": "quality_dash" },
+      { "from": "new_gold",      "to": "nhsn_feed" }
+    ]
+  },
+  "root_cause": {
+    "headline": "Lactate redraw orders not auto-fired on shift change for ER-admitted patients between 07:00 and 08:00",
+    "detail": "11 of 14 cardiology bundle fallouts share a single signature: the 3-hour lactate redraw was not ordered for ER-admitted patients whose initial lactate was drawn between 06:45 and 07:45 CST. The order auto-fire rule that triggers the redraw is suppressed during the nursing handoff window (07:00–08:00) in the Cardiology ER pod. Floor-admitted patients on the same service line show 100% compliance — isolating the gap to the admission-source dimension.",
+    "affected_cohort": "ER-admitted cardiology patients with initial lactate drawn 06:45–07:45 CST",
+    "fallout_count": 11,
+    "total_reviewed": 14
+  },
+  "without_wizard": {
+    "label": "Without dbt-wizard",
+    "summary": "Question enters the analytics backlog. Quality Committee meets without the answer.",
+    "metrics": [
+      { "label": "Time to model",           "value": "3 to 5 days" },
+      { "label": "Engineer hours",           "value": "8 to 14h" },
+      { "label": "Tests written",            "value": "ad-hoc" },
+      { "label": "Lineage entries",          "value": "manual" },
+      { "label": "Documentation",            "value": "PR-time only" },
+      { "label": "Quality Committee status", "value": "no answer" }
+    ],
+    "narrative": [
+      "CMO files the request. It enters the analytics backlog at priority B.",
+      "Data engineer scopes the work Monday morning — four days after the committee.",
+      "Engineer writes SQL from scratch, joining four gold marts by hand.",
+      "Tests, YAML, and contract get bolted on at PR time. Sometimes.",
+      "Quality team cannot isolate root cause before the committee meeting.",
+      "NHSN submission carries a note: data pending."
+    ]
+  },
+  "with_wizard": {
+    "label": "With dbt-wizard",
+    "summary": "Four sub-agents surface the upstreams, author the SQL, write the tests, and materialize the asset in 87 seconds.",
+    "metrics": [
+      { "label": "Time to model",           "value": "87 seconds" },
+      { "label": "Engineer hours",           "value": "0.0h authored" },
+      { "label": "Tests written",            "value": "6 column + 1 combination + 1 not-null" },
+      { "label": "Lineage entries",          "value": "auto, 4 upstream" },
+      { "label": "Documentation",            "value": "in YAML on materialize" },
+      { "label": "Quality Committee status", "value": "root cause in hand" }
+    ],
+    "narrative": [
+      "Explorer runs status and search. Returns the four gold upstream candidates.",
+      "Summary runs describe and lineage. Confirms join path and names the new grain.",
+      "Worker runs dbt_show on a 7-day slice. Validates the proposed grain.",
+      "Worker authors fct_sepsis_bundle_by_service_line_daily.sql with CTEs and final SELECT.",
+      "Verification writes the YAML — description, schema contract, 8 tests, ownership.",
+      "Worker materializes the table to Iceberg. Verification confirms downstream lineage.",
+      "CMO presents root-cause finding to Quality Committee 14 hours ahead of schedule."
+    ]
+  },
+  "governance": [
+    { "label": "Tests written",            "value": "6 column-level + 1 combination + 1 not-null" },
+    { "label": "Schema contract",          "value": "enforced on materialize" },
+    { "label": "Lineage upstreams",        "value": "4 declared, 4 validated" },
+    { "label": "Documentation",            "value": "auto-written in YAML" },
+    { "label": "Ownership",               "value": "quality_analytics" },
+    { "label": "Tag",                      "value": "ai_built · sepsis_bundle" },
+    { "label": "Iceberg table format",     "value": "v2 · Parquet · ZSTD" },
+    { "label": "Open Catalog registration","value": "complete" }
+  ],
+  "hero": {
+    "label": "Root cause identified 14 hours before the Quality Committee meets",
+    "value": "87 seconds",
+    "note": "From CMO question to materialized Iceberg gold table — versioned, tested, documented, lineage-tracked. The cardiology team now knows the shift-change order-fire suppression is the gap. The fix is a configuration change, not a care failure."
+  }
+}

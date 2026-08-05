@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0101478",
+    "med_rec_num": "MRN0201478",
+    "full_name": "David Brown",
+    "birth_date": "1990-02-16",
+    "age": 36,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 3190,
+    "latitude": 40.45157,
+    "longitude": -80.01064,
+    "last_encounter_date": "2026-05-03",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8837 Murray St",
+    "state": "PA",
+    "phone": "(412) 969-9353",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101478",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001478-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0001478-001",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0001478-002",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001478-003",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001478-004",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0001478-005",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0001478-006",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0001478-007",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0001478-008",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0001478-009",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001478-010",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 347
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101478",
+    "diagnoses": [
+      {
+        "dx_id": "0001478-acu-000",
+        "pat_enc_csn_id": "0001478-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      },
+      {
+        "dx_id": "0001478-acu-001",
+        "pat_enc_csn_id": "0001478-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0001478-acu-002",
+        "pat_enc_csn_id": "0001478-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101478",
+    "summary": {
+      "total_charges": 3190,
+      "total_payments": 2932,
+      "outstanding_balance": 258,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000147800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3190,
+        "total_payments": 2932,
+        "current_balance": 258,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-14",
+        "closed_date": "2026-03-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101478",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

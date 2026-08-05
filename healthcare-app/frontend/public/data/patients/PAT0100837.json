@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100837",
+    "med_rec_num": "MRN0200837",
+    "full_name": "Mary Lopez",
+    "birth_date": "1985-12-15",
+    "age": 41,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 1197,
+    "latitude": 40.62854,
+    "longitude": -80.05426,
+    "last_encounter_date": "2026-04-29",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6628 Forbes St",
+    "state": "PA",
+    "phone": "(412) 211-6051",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100837",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000837-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000837-001",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000837-002",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000837-003",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 122
+      },
+      {
+        "pat_enc_csn_id": "0000837-004",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000837-005",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000837-006",
+        "contact_date": "2024-07-17",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 242
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100837",
+    "diagnoses": [
+      {
+        "dx_id": "0000837-dx-000",
+        "pat_enc_csn_id": "0000837-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000837-dx-001",
+        "pat_enc_csn_id": "0000837-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000837-acu-002",
+        "pat_enc_csn_id": "0000837-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-03-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100837",
+    "summary": {
+      "total_charges": 1197,
+      "total_payments": 1007,
+      "outstanding_balance": 190,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000083700",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1197,
+        "total_payments": 1007,
+        "current_balance": 190,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-06",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100837",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

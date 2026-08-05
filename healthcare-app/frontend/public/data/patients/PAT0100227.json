@@ -1,0 +1,370 @@
+{
+  "patient": {
+    "pat_id": "PAT0100227",
+    "med_rec_num": "MRN0200227",
+    "full_name": "Linda Okonkwo",
+    "birth_date": "1968-07-26",
+    "age": 58,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 6,
+    "encounter_count": 19,
+    "total_charges": 18671,
+    "latitude": 40.6804,
+    "longitude": -80.11011,
+    "last_encounter_date": "2026-04-24",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6039 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 246-9012",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100227",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000227-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0000227-001",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000227-002",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0000227-003",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000227-004",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000227-005",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000227-006",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000227-007",
+        "contact_date": "2025-05-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000227-008",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000227-009",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000227-010",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 6244
+      },
+      {
+        "pat_enc_csn_id": "0000227-011",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000227-012",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000227-013",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 5892
+      },
+      {
+        "pat_enc_csn_id": "0000227-014",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0000227-015",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000227-016",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000227-017",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000227-018",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 2099
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100227",
+    "diagnoses": [
+      {
+        "dx_id": "0000227-dx-000",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000227-dx-001",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000227-dx-002",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000227-dx-003",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000227-dx-004",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000227-dx-005",
+        "pat_enc_csn_id": "0000227-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000227-acu-001",
+        "pat_enc_csn_id": "0000227-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      },
+      {
+        "dx_id": "0000227-acu-002",
+        "pat_enc_csn_id": "0000227-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100227",
+    "summary": {
+      "total_charges": 18671,
+      "total_payments": 13603,
+      "outstanding_balance": 5068,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000022700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18671,
+        "total_payments": 13603,
+        "current_balance": 5068,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-08-01",
+        "closed_date": "2026-03-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100227",
+    "comparables": [
+      {
+        "pat_id": "PAT0100563",
+        "full_name": "Reshma Park",
+        "age": 58,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 11,
+        "total_charges": 6830
+      },
+      {
+        "pat_id": "PAT0100785",
+        "full_name": "Thomas Greene",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 17,
+        "total_charges": 10427
+      },
+      {
+        "pat_id": "PAT0101114",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 16,
+        "total_charges": 7359
+      },
+      {
+        "pat_id": "PAT0101375",
+        "full_name": "Susan Hernandez",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 10,
+        "total_charges": 8537
+      },
+      {
+        "pat_id": "PAT0101891",
+        "full_name": "Sharon Martinez",
+        "age": 58,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 21,
+        "total_charges": 75111
+      },
+      {
+        "pat_id": "PAT0102089",
+        "full_name": "Sofia Greene",
+        "age": 51,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 17,
+        "total_charges": 6476
+      }
+    ]
+  }
+}

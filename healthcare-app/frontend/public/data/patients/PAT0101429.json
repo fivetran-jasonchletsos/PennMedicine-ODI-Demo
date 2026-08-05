@@ -1,0 +1,152 @@
+{
+  "patient": {
+    "pat_id": "PAT0101429",
+    "med_rec_num": "MRN0201429",
+    "full_name": "Reshma Anderson",
+    "birth_date": "1969-12-14",
+    "age": 57,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 317,
+    "latitude": 40.43373,
+    "longitude": -79.92998,
+    "last_encounter_date": "2026-04-26",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8172 Penn St",
+    "state": "PA",
+    "phone": "(412) 382-7682",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101429",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001429-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001429-001",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 131
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101429",
+    "diagnoses": [
+      {
+        "dx_id": "0001429-dx-000",
+        "pat_enc_csn_id": "0001429-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001429-acu-001",
+        "pat_enc_csn_id": "0001429-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-02-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101429",
+    "summary": {
+      "total_charges": 317,
+      "total_payments": 282,
+      "outstanding_balance": 35,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 317,
+        "total_payments": 282,
+        "current_balance": 35,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-05-19",
+        "closed_date": "2026-04-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101429",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

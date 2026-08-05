@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0101334",
+    "med_rec_num": "MRN0201334",
+    "full_name": "Carol Wilson",
+    "birth_date": "2001-10-06",
+    "age": 25,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 4098,
+    "latitude": 40.47566,
+    "longitude": -79.83691,
+    "last_encounter_date": "2026-03-13",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7080 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 818-8681",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101334",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001334-000",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0001334-001",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0001334-002",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 3363
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101334",
+    "diagnoses": [
+      {
+        "dx_id": "0001334-acu-000",
+        "pat_enc_csn_id": "0001334-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-13"
+      },
+      {
+        "dx_id": "0001334-acu-001",
+        "pat_enc_csn_id": "0001334-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-06-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101334",
+    "summary": {
+      "total_charges": 4098,
+      "total_payments": 3291,
+      "outstanding_balance": 807,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4098,
+        "total_payments": 3291,
+        "current_balance": 807,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-18",
+        "closed_date": "2026-01-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101334",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

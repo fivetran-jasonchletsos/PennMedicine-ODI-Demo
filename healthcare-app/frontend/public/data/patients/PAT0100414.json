@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0100414",
+    "med_rec_num": "MRN0200414",
+    "full_name": "Janet Johnson",
+    "birth_date": "1937-01-23",
+    "age": 89,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 7471,
+    "latitude": 40.45053,
+    "longitude": -79.93453,
+    "last_encounter_date": "2025-11-26",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3501 Centre St",
+    "state": "PA",
+    "phone": "(412) 788-3095",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100414",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000414-000",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000414-001",
+        "contact_date": "2025-05-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000414-002",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000414-003",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000414-004",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 6392
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100414",
+    "diagnoses": [
+      {
+        "dx_id": "0000414-dx-000",
+        "pat_enc_csn_id": "0000414-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000414-acu-001",
+        "pat_enc_csn_id": "0000414-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-05-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100414",
+    "summary": {
+      "total_charges": 7471,
+      "total_payments": 4506,
+      "outstanding_balance": 2965,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000041400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7471,
+        "total_payments": 4506,
+        "current_balance": 2965,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-06",
+        "closed_date": "2026-02-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100414",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

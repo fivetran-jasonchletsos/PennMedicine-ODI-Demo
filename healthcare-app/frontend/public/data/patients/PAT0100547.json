@@ -1,0 +1,370 @@
+{
+  "patient": {
+    "pat_id": "PAT0100547",
+    "med_rec_num": "MRN0200547",
+    "full_name": "Margaret Williams",
+    "birth_date": "1940-10-28",
+    "age": 86,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 3,
+    "encounter_count": 21,
+    "total_charges": 24262,
+    "latitude": 40.43574,
+    "longitude": -79.93341,
+    "last_encounter_date": "2026-02-21",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7780 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 298-4634",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100547",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000547-000",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000547-001",
+        "contact_date": "2026-02-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 4557
+      },
+      {
+        "pat_enc_csn_id": "0000547-002",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000547-003",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5355
+      },
+      {
+        "pat_enc_csn_id": "0000547-004",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000547-005",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000547-006",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4891
+      },
+      {
+        "pat_enc_csn_id": "0000547-007",
+        "contact_date": "2025-05-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000547-008",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000547-009",
+        "contact_date": "2025-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000547-010",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5121
+      },
+      {
+        "pat_enc_csn_id": "0000547-011",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0000547-012",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000547-013",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000547-014",
+        "contact_date": "2024-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000547-015",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000547-016",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000547-017",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000547-018",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0000547-019",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 291
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100547",
+    "diagnoses": [
+      {
+        "dx_id": "0000547-dx-000",
+        "pat_enc_csn_id": "0000547-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000547-dx-001",
+        "pat_enc_csn_id": "0000547-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000547-dx-002",
+        "pat_enc_csn_id": "0000547-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1968-05-13"
+      },
+      {
+        "dx_id": "0000547-acu-001",
+        "pat_enc_csn_id": "0000547-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100547",
+    "summary": {
+      "total_charges": 24262,
+      "total_payments": 15280,
+      "outstanding_balance": 8982,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 16631,
+        "total_payments": 10029,
+        "current_balance": 6602,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-26",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000054701",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2694,
+        "total_payments": 2147,
+        "current_balance": 547,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-03",
+        "closed_date": "2026-03-28"
+      },
+      {
+        "hsp_account_id": "HSP000054702",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 4937,
+        "total_payments": 3104,
+        "current_balance": 1833,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-07-27",
+        "closed_date": "2026-03-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100547",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

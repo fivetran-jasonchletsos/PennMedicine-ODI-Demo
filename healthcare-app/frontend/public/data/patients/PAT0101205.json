@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101205",
+    "med_rec_num": "MRN0201205",
+    "full_name": "Kevin Johnson",
+    "birth_date": "2010-11-28",
+    "age": 16,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 9922,
+    "latitude": 40.63037,
+    "longitude": -80.05949,
+    "last_encounter_date": "2026-02-14",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1442 Beacon St",
+    "state": "PA",
+    "phone": "(412) 630-1279",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101205",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001205-000",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0001205-001",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001205-002",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001205-003",
+        "contact_date": "2025-05-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 3001
+      },
+      {
+        "pat_enc_csn_id": "0001205-004",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001205-005",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001205-006",
+        "contact_date": "2024-07-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4799
+      },
+      {
+        "pat_enc_csn_id": "0001205-007",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0001205-008",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0001205-009",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001205-010",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 219
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101205",
+    "diagnoses": [
+      {
+        "dx_id": "0001205-acu-001",
+        "pat_enc_csn_id": "0001205-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-09-01"
+      },
+      {
+        "dx_id": "0001205-acu-002",
+        "pat_enc_csn_id": "0001205-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101205",
+    "summary": {
+      "total_charges": 9922,
+      "total_payments": 8364,
+      "outstanding_balance": 1558,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9922,
+        "total_payments": 8364,
+        "current_balance": 1558,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-26",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101205",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

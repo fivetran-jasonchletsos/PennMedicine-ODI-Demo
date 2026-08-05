@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0101474",
+    "med_rec_num": "MRN0201474",
+    "full_name": "Janet Rodriguez",
+    "birth_date": "1954-10-02",
+    "age": 72,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 8268,
+    "latitude": 40.44821,
+    "longitude": -79.92582,
+    "last_encounter_date": "2026-04-16",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6622 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 542-2794",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101474",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001474-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001474-001",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0001474-002",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0001474-003",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001474-004",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5111
+      },
+      {
+        "pat_enc_csn_id": "0001474-005",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0001474-006",
+        "contact_date": "2025-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0001474-007",
+        "contact_date": "2025-10-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0001474-008",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0001474-009",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0001474-010",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001474-011",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001474-012",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 354
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101474",
+    "diagnoses": [
+      {
+        "dx_id": "0001474-dx-000",
+        "pat_enc_csn_id": "0001474-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001474-acu-000",
+        "pat_enc_csn_id": "0001474-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0001474-acu-001",
+        "pat_enc_csn_id": "0001474-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      },
+      {
+        "dx_id": "0001474-acu-002",
+        "pat_enc_csn_id": "0001474-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101474",
+    "summary": {
+      "total_charges": 8268,
+      "total_payments": 6645,
+      "outstanding_balance": 1623,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000147400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8268,
+        "total_payments": 6645,
+        "current_balance": 1623,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-14",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101474",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

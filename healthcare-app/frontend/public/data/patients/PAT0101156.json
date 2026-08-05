@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0101156",
+    "med_rec_num": "MRN0201156",
+    "full_name": "Hassan Jones",
+    "birth_date": "1966-11-01",
+    "age": 60,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 7285,
+    "latitude": 40.44508,
+    "longitude": -79.96091,
+    "last_encounter_date": "2026-01-23",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9293 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 491-1840",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101156",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001156-000",
+        "contact_date": "2026-01-23",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5763
+      },
+      {
+        "pat_enc_csn_id": "0001156-001",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0001156-002",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0001156-003",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001156-004",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001156-005",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0001156-006",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0001156-007",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 185
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101156",
+    "diagnoses": [
+      {
+        "dx_id": "0001156-dx-000",
+        "pat_enc_csn_id": "0001156-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0001156-dx-001",
+        "pat_enc_csn_id": "0001156-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001156-acu-000",
+        "pat_enc_csn_id": "0001156-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-23"
+      },
+      {
+        "dx_id": "0001156-acu-001",
+        "pat_enc_csn_id": "0001156-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-10"
+      },
+      {
+        "dx_id": "0001156-acu-002",
+        "pat_enc_csn_id": "0001156-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-08-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101156",
+    "summary": {
+      "total_charges": 7285,
+      "total_payments": 5920,
+      "outstanding_balance": 1365,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000115600",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 7285,
+        "total_payments": 5920,
+        "current_balance": 1365,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-04-19",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101156",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100389",
+    "med_rec_num": "MRN0200389",
+    "full_name": "Kenji Smith",
+    "birth_date": "2017-12-06",
+    "age": 9,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 7416,
+    "latitude": 40.30313,
+    "longitude": -79.53347,
+    "last_encounter_date": "2025-10-21",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5178 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 877-9090",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100389",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000389-000",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000389-001",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000389-002",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 6285
+      },
+      {
+        "pat_enc_csn_id": "0000389-003",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000389-004",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 189
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100389",
+    "diagnoses": [
+      {
+        "dx_id": "0000389-dx-000",
+        "pat_enc_csn_id": "0000389-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000389-dx-001",
+        "pat_enc_csn_id": "0000389-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000389-acu-001",
+        "pat_enc_csn_id": "0000389-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-31"
+      },
+      {
+        "dx_id": "0000389-acu-002",
+        "pat_enc_csn_id": "0000389-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100389",
+    "summary": {
+      "total_charges": 7416,
+      "total_payments": 5304,
+      "outstanding_balance": 2112,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000038900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7416,
+        "total_payments": 5304,
+        "current_balance": 2112,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-04",
+        "closed_date": "2026-02-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100389",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

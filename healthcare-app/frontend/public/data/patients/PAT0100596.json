@@ -1,0 +1,295 @@
+{
+  "patient": {
+    "pat_id": "PAT0100596",
+    "med_rec_num": "MRN0200596",
+    "full_name": "Andrew Williams",
+    "birth_date": "1961-01-24",
+    "age": 65,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 18830,
+    "latitude": 40.48101,
+    "longitude": -79.83215,
+    "last_encounter_date": "2026-04-11",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3981 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 724-5868",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100596",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000596-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000596-001",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0000596-002",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000596-003",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000596-004",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000596-005",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000596-006",
+        "contact_date": "2025-02-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0000596-007",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000596-008",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 13652
+      },
+      {
+        "pat_enc_csn_id": "0000596-009",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000596-010",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 2991
+      },
+      {
+        "pat_enc_csn_id": "0000596-011",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 216
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100596",
+    "diagnoses": [
+      {
+        "dx_id": "0000596-dx-000",
+        "pat_enc_csn_id": "0000596-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000596-dx-001",
+        "pat_enc_csn_id": "0000596-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000596-dx-002",
+        "pat_enc_csn_id": "0000596-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000596-acu-000",
+        "pat_enc_csn_id": "0000596-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-11"
+      },
+      {
+        "dx_id": "0000596-acu-001",
+        "pat_enc_csn_id": "0000596-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      },
+      {
+        "dx_id": "0000596-acu-002",
+        "pat_enc_csn_id": "0000596-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100596",
+    "summary": {
+      "total_charges": 18830,
+      "total_payments": 14708,
+      "outstanding_balance": 4122,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000059600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7535,
+        "total_payments": 4594,
+        "current_balance": 2941,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-15",
+        "closed_date": "2025-11-30"
+      },
+      {
+        "hsp_account_id": "HSP000059601",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 11295,
+        "total_payments": 10114,
+        "current_balance": 1181,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100596",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

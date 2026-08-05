@@ -1,0 +1,166 @@
+{
+  "patient": {
+    "pat_id": "PAT0100892",
+    "med_rec_num": "MRN0200892",
+    "full_name": "Robert Greene",
+    "birth_date": "1946-02-09",
+    "age": 80,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 22603,
+    "latitude": 40.53166,
+    "longitude": -79.95723,
+    "last_encounter_date": "2026-03-13",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9228 Beacon St",
+    "state": "PA",
+    "phone": "(412) 936-3515",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100892",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000892-000",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000892-001",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000892-002",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000892-003",
+        "contact_date": "2024-11-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 21827
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100892",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100892",
+    "summary": {
+      "total_charges": 22603,
+      "total_payments": 19949,
+      "outstanding_balance": 2654,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000089200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 20094,
+        "total_payments": 17992,
+        "current_balance": 2102,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-21",
+        "closed_date": "2026-04-20"
+      },
+      {
+        "hsp_account_id": "HSP000089201",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2509,
+        "total_payments": 1957,
+        "current_balance": 552,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-04-04",
+        "closed_date": "2026-02-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100892",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      },
+      {
+        "pat_id": "PAT0102763",
+        "full_name": "Reshma Garcia",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1624
+      }
+    ]
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0100597",
+    "med_rec_num": "MRN0200597",
+    "full_name": "Jennifer Wilson",
+    "birth_date": "2007-07-07",
+    "age": 19,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 901,
+    "latitude": 40.36277,
+    "longitude": -79.90289,
+    "last_encounter_date": "2026-01-04",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9325 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 211-7764",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100597",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000597-000",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000597-001",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000597-002",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000597-003",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 235
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100597",
+    "diagnoses": [
+      {
+        "dx_id": "0000597-acu-001",
+        "pat_enc_csn_id": "0000597-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-09-14"
+      },
+      {
+        "dx_id": "0000597-acu-002",
+        "pat_enc_csn_id": "0000597-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100597",
+    "summary": {
+      "total_charges": 901,
+      "total_payments": 709,
+      "outstanding_balance": 192,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000059700",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 901,
+        "total_payments": 709,
+        "current_balance": 192,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100597",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

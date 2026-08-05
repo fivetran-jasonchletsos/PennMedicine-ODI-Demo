@@ -1,0 +1,114 @@
+version: 2
+
+sources:
+  - name: clarity
+    description: Epic Clarity source data synced via Fivetran's Epic Clarity connector
+    schema: jason_chletsos_ehr_demo
+    tables:
+      - name: patient
+        description: Patient demographic and administrative information
+        columns:
+          - name: pat_id
+            description: Unique patient identifier
+            data_tests:
+              - not_null
+              - unique
+          - name: med_rec_num
+            description: Medical record number
+          - name: birth_date
+            description: Patient date of birth
+          - name: sex_c_name
+            description: Patient sex
+
+      - name: pat_enc
+        description: Patient encounters / visits
+        columns:
+          - name: pat_enc_csn_id
+            description: Unique encounter identifier (CSN)
+            data_tests:
+              - not_null
+              - unique
+          - name: pat_id
+            description: Patient identifier
+            data_tests:
+              - not_null
+          - name: contact_date
+            description: Date of encounter
+            data_tests:
+              - not_null
+
+      - name: pat_enc_dx
+        description: Diagnoses associated with encounters
+        columns:
+          - name: pat_enc_csn_id
+            description: Encounter identifier
+            data_tests:
+              - not_null
+          - name: dx_id
+            description: Diagnosis identifier
+
+      - name: hsp_account
+        description: Hospital accounts for billing
+        columns:
+          - name: hsp_account_id
+            description: Unique account identifier
+            data_tests:
+              - not_null
+              - unique
+          - name: pat_id
+            description: Patient identifier
+
+      - name: clarity_dep
+        description: Department master table
+        columns:
+          - name: department_id
+            description: Unique department identifier
+            data_tests:
+              - not_null
+              - unique
+
+      - name: clarity_ser
+        description: Provider (service) master table
+        columns:
+          - name: prov_id
+            description: Unique provider identifier
+            data_tests:
+              - not_null
+              - unique
+
+      - name: clarity_edg
+        description: Diagnosis master table (ICD codes)
+        columns:
+          - name: dx_id
+            description: Unique diagnosis identifier
+            data_tests:
+              - not_null
+              - unique
+
+      - name: clarity_eap
+        description: Procedure master table
+        columns:
+          - name: proc_id
+            description: Unique procedure identifier
+            data_tests:
+              - not_null
+              - unique
+
+      - name: clarity_medication
+        description: Medication master table
+        columns:
+          - name: medication_id
+            description: Unique medication identifier
+            data_tests:
+              - not_null
+              - unique
+
+      - name: enroll_info
+        description: Patient enrollment / protocol information
+        columns:
+          - name: pat_id
+            description: Patient identifier
+            data_tests:
+              - not_null
+          - name: protocol_id
+            description: Protocol identifier

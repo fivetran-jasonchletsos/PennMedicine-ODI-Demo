@@ -1,0 +1,216 @@
+{
+  "patient": {
+    "pat_id": "PAT0100190",
+    "med_rec_num": "MRN0200190",
+    "full_name": "Sharon Kim",
+    "birth_date": "2026-01-11",
+    "age": 0,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 5136,
+    "latitude": 40.45992,
+    "longitude": -79.9203,
+    "last_encounter_date": "2026-04-19",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4653 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 607-7654",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100190",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000190-000",
+        "contact_date": "2026-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000190-001",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3757
+      },
+      {
+        "pat_enc_csn_id": "0000190-002",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000190-003",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000190-004",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000190-005",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 357
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100190",
+    "diagnoses": [
+      {
+        "dx_id": "0000190-dx-000",
+        "pat_enc_csn_id": "0000190-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000190-dx-001",
+        "pat_enc_csn_id": "0000190-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000190-acu-000",
+        "pat_enc_csn_id": "0000190-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-19"
+      },
+      {
+        "dx_id": "0000190-acu-001",
+        "pat_enc_csn_id": "0000190-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      },
+      {
+        "dx_id": "0000190-acu-002",
+        "pat_enc_csn_id": "0000190-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100190",
+    "summary": {
+      "total_charges": 5136,
+      "total_payments": 4262,
+      "outstanding_balance": 874,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000019000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5136,
+        "total_payments": 4262,
+        "current_balance": 874,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-12",
+        "closed_date": "2025-12-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100190",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "patient": {
+    "pat_id": "PAT0101098",
+    "med_rec_num": "MRN0201098",
+    "full_name": "Donna Nguyen",
+    "birth_date": "2011-06-02",
+    "age": 15,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 14,
+    "total_charges": 5633,
+    "latitude": 40.35247,
+    "longitude": -79.85143,
+    "last_encounter_date": "2026-03-05",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "819 Highland St",
+    "state": "PA",
+    "phone": "(412) 374-9918",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101098",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001098-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001098-001",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001098-002",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001098-003",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0001098-004",
+        "contact_date": "2025-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001098-005",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0001098-006",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0001098-007",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001098-008",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001098-009",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0001098-010",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001098-011",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0001098-012",
+        "contact_date": "2024-07-17",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 1961
+      },
+      {
+        "pat_enc_csn_id": "0001098-013",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 359
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101098",
+    "diagnoses": [
+      {
+        "dx_id": "0001098-dx-000",
+        "pat_enc_csn_id": "0001098-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001098-dx-001",
+        "pat_enc_csn_id": "0001098-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001098-dx-002",
+        "pat_enc_csn_id": "0001098-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001098-acu-000",
+        "pat_enc_csn_id": "0001098-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0001098-acu-001",
+        "pat_enc_csn_id": "0001098-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101098",
+    "summary": {
+      "total_charges": 5633,
+      "total_payments": 4412,
+      "outstanding_balance": 1221,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000109800",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5633,
+        "total_payments": 4412,
+        "current_balance": 1221,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-12-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101098",
+    "comparables": [
+      {
+        "pat_id": "PAT0100200",
+        "full_name": "Aisha Okonkwo",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 8220
+      },
+      {
+        "pat_id": "PAT0100339",
+        "full_name": "Sandra Petrov",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 5894
+      },
+      {
+        "pat_id": "PAT0100537",
+        "full_name": "George Nguyen",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1168
+      },
+      {
+        "pat_id": "PAT0100762",
+        "full_name": "Barbara Miller",
+        "age": 17,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 8662
+      },
+      {
+        "pat_id": "PAT0100829",
+        "full_name": "Thomas Park",
+        "age": 18,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 19804
+      },
+      {
+        "pat_id": "PAT0100877",
+        "full_name": "John Smith",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 2114
+      }
+    ]
+  }
+}

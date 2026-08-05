@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0100499",
+    "med_rec_num": "MRN0200499",
+    "full_name": "Paul Petrov",
+    "birth_date": "1944-01-03",
+    "age": 82,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 39428,
+    "latitude": 40.49086,
+    "longitude": -79.89996,
+    "last_encounter_date": "2026-02-28",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6627 Highland St",
+    "state": "PA",
+    "phone": "(412) 227-1443",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100499",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000499-000",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 4211
+      },
+      {
+        "pat_enc_csn_id": "0000499-001",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000499-002",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000499-003",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 28812
+      },
+      {
+        "pat_enc_csn_id": "0000499-004",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000499-005",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4332
+      },
+      {
+        "pat_enc_csn_id": "0000499-006",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0000499-007",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000499-008",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000499-009",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100499",
+    "diagnoses": [
+      {
+        "dx_id": "0000499-dx-000",
+        "pat_enc_csn_id": "0000499-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1976-05-13"
+      },
+      {
+        "dx_id": "0000499-acu-000",
+        "pat_enc_csn_id": "0000499-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      },
+      {
+        "dx_id": "0000499-acu-001",
+        "pat_enc_csn_id": "0000499-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-11"
+      },
+      {
+        "dx_id": "0000499-acu-002",
+        "pat_enc_csn_id": "0000499-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-11-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100499",
+    "summary": {
+      "total_charges": 39428,
+      "total_payments": 27769,
+      "outstanding_balance": 11659,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000049900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 25685,
+        "total_payments": 17874,
+        "current_balance": 7811,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-13",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000049901",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 13743,
+        "total_payments": 9895,
+        "current_balance": 3848,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-02-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100499",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

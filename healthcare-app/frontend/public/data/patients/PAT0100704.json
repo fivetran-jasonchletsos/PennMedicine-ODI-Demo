@@ -1,0 +1,222 @@
+{
+  "patient": {
+    "pat_id": "PAT0100704",
+    "med_rec_num": "MRN0200704",
+    "full_name": "Thomas Jones",
+    "birth_date": "1932-11-25",
+    "age": 94,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 4869,
+    "latitude": 40.50112,
+    "longitude": -79.76336,
+    "last_encounter_date": "2026-01-20",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2071 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 576-8808",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100704",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000704-000",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000704-001",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000704-002",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000704-003",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000704-004",
+        "contact_date": "2025-07-12",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000704-005",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000704-006",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000704-007",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000704-008",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2604
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100704",
+    "diagnoses": [
+      {
+        "dx_id": "0000704-dx-000",
+        "pat_enc_csn_id": "0000704-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000704-dx-001",
+        "pat_enc_csn_id": "0000704-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100704",
+    "summary": {
+      "total_charges": 4869,
+      "total_payments": 4268,
+      "outstanding_balance": 601,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4869,
+        "total_payments": 4268,
+        "current_balance": 601,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-03",
+        "closed_date": "2026-01-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100704",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0101225",
+    "med_rec_num": "MRN0201225",
+    "full_name": "Barbara Martin",
+    "birth_date": "1980-09-03",
+    "age": 46,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 8243,
+    "latitude": 40.48111,
+    "longitude": -79.84022,
+    "last_encounter_date": "2025-07-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1872 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 614-3862",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101225",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001225-000",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001225-001",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001225-002",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0001225-003",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 6662
+      },
+      {
+        "pat_enc_csn_id": "0001225-004",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001225-005",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 245
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101225",
+    "diagnoses": [
+      {
+        "dx_id": "0001225-dx-000",
+        "pat_enc_csn_id": "0001225-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001225-dx-001",
+        "pat_enc_csn_id": "0001225-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001225-acu-001",
+        "pat_enc_csn_id": "0001225-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-06-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101225",
+    "summary": {
+      "total_charges": 8243,
+      "total_payments": 7174,
+      "outstanding_balance": 1069,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000122500",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8243,
+        "total_payments": 7174,
+        "current_balance": 1069,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-01-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101225",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

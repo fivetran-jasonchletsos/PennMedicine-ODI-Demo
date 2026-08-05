@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100373",
+    "med_rec_num": "MRN0200373",
+    "full_name": "Reshma Park",
+    "birth_date": "1991-08-27",
+    "age": 35,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 2914,
+    "latitude": 40.32454,
+    "longitude": -80.03824,
+    "last_encounter_date": "2026-04-29",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8918 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 901-4158",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100373",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000373-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 1674
+      },
+      {
+        "pat_enc_csn_id": "0000373-001",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000373-002",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000373-003",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000373-004",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000373-005",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 148
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100373",
+    "diagnoses": [
+      {
+        "dx_id": "0000373-dx-000",
+        "pat_enc_csn_id": "0000373-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000373-acu-000",
+        "pat_enc_csn_id": "0000373-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      },
+      {
+        "dx_id": "0000373-acu-001",
+        "pat_enc_csn_id": "0000373-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-22"
+      },
+      {
+        "dx_id": "0000373-acu-002",
+        "pat_enc_csn_id": "0000373-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100373",
+    "summary": {
+      "total_charges": 2914,
+      "total_payments": 2071,
+      "outstanding_balance": 843,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000037300",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2914,
+        "total_payments": 2071,
+        "current_balance": 843,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100373",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0100465",
+    "med_rec_num": "MRN0200465",
+    "full_name": "Barbara Brown",
+    "birth_date": "2008-12-16",
+    "age": 18,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 4470,
+    "latitude": 40.33552,
+    "longitude": -80.03383,
+    "last_encounter_date": "2025-09-13",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8924 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 532-5651",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100465",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000465-000",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000465-001",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000465-002",
+        "contact_date": "2025-06-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0000465-003",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 3398
+      },
+      {
+        "pat_enc_csn_id": "0000465-004",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 402
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100465",
+    "diagnoses": [
+      {
+        "dx_id": "0000465-acu-000",
+        "pat_enc_csn_id": "0000465-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-13"
+      },
+      {
+        "dx_id": "0000465-acu-001",
+        "pat_enc_csn_id": "0000465-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-14"
+      },
+      {
+        "dx_id": "0000465-acu-002",
+        "pat_enc_csn_id": "0000465-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-06-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100465",
+    "summary": {
+      "total_charges": 4470,
+      "total_payments": 3701,
+      "outstanding_balance": 769,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046500",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 4470,
+        "total_payments": 3701,
+        "current_balance": 769,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100465",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

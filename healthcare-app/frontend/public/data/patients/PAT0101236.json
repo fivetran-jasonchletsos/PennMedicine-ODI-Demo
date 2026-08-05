@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0101236",
+    "med_rec_num": "MRN0201236",
+    "full_name": "Ashley Russo",
+    "birth_date": "1970-01-15",
+    "age": 56,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 297,
+    "latitude": 40.29636,
+    "longitude": -79.53403,
+    "last_encounter_date": "2024-07-11",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9734 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 943-6402",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101236",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001236-000",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0001236-001",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 158
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101236",
+    "diagnoses": [
+      {
+        "dx_id": "0001236-dx-000",
+        "pat_enc_csn_id": "0001236-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001236-acu-000",
+        "pat_enc_csn_id": "0001236-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2024-07-11"
+      },
+      {
+        "dx_id": "0001236-acu-001",
+        "pat_enc_csn_id": "0001236-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-06-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101236",
+    "summary": {
+      "total_charges": 297,
+      "total_payments": 191,
+      "outstanding_balance": 106,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000123600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 297,
+        "total_payments": 191,
+        "current_balance": 106,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-22",
+        "closed_date": "2026-03-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101236",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,292 @@
+{
+  "patient": {
+    "pat_id": "PAT0100765",
+    "med_rec_num": "MRN0200765",
+    "full_name": "William Taylor",
+    "birth_date": "1992-08-01",
+    "age": 34,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 5176,
+    "latitude": 40.37837,
+    "longitude": -80.05573,
+    "last_encounter_date": "2026-03-10",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5114 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 910-3640",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100765",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000765-000",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000765-001",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000765-002",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000765-003",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0000765-004",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000765-005",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000765-006",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 61
+      },
+      {
+        "pat_enc_csn_id": "0000765-007",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 1461
+      },
+      {
+        "pat_enc_csn_id": "0000765-008",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000765-009",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0000765-010",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000765-011",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000765-012",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000765-013",
+        "contact_date": "2024-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000765-014",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0000765-015",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 314
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100765",
+    "diagnoses": [
+      {
+        "dx_id": "0000765-dx-000",
+        "pat_enc_csn_id": "0000765-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000765-dx-001",
+        "pat_enc_csn_id": "0000765-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100765",
+    "summary": {
+      "total_charges": 5176,
+      "total_payments": 4010,
+      "outstanding_balance": 1166,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5176,
+        "total_payments": 4010,
+        "current_balance": 1166,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-06",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100765",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

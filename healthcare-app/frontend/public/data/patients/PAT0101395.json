@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0101395",
+    "med_rec_num": "MRN0201395",
+    "full_name": "Paul Johnson",
+    "birth_date": "1952-07-25",
+    "age": 74,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 7998,
+    "latitude": 40.45556,
+    "longitude": -79.92992,
+    "last_encounter_date": "2026-02-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8619 Liberty St",
+    "state": "PA",
+    "phone": "(412) 857-8239",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101395",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001395-000",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 6289
+      },
+      {
+        "pat_enc_csn_id": "0001395-001",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001395-002",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001395-003",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001395-004",
+        "contact_date": "2024-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0001395-005",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0001395-006",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001395-007",
+        "contact_date": "2024-05-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 322
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101395",
+    "diagnoses": [
+      {
+        "dx_id": "0001395-dx-000",
+        "pat_enc_csn_id": "0001395-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0001395-acu-000",
+        "pat_enc_csn_id": "0001395-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-01"
+      },
+      {
+        "dx_id": "0001395-acu-001",
+        "pat_enc_csn_id": "0001395-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-10"
+      },
+      {
+        "dx_id": "0001395-acu-002",
+        "pat_enc_csn_id": "0001395-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-03-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101395",
+    "summary": {
+      "total_charges": 7998,
+      "total_payments": 7242,
+      "outstanding_balance": 756,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000139500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7998,
+        "total_payments": 7242,
+        "current_balance": 756,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-02-15",
+        "closed_date": "2025-12-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101395",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

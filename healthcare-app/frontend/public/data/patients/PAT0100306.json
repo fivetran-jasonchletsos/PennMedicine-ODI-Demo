@@ -1,0 +1,202 @@
+{
+  "patient": {
+    "pat_id": "PAT0100306",
+    "med_rec_num": "MRN0200306",
+    "full_name": "Paul Greene",
+    "birth_date": "2008-08-18",
+    "age": 18,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 44166,
+    "latitude": 40.42186,
+    "longitude": -79.78868,
+    "last_encounter_date": "2025-06-29",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6832 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 624-5940",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100306",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000306-000",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 3410
+      },
+      {
+        "pat_enc_csn_id": "0000306-001",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 21065
+      },
+      {
+        "pat_enc_csn_id": "0000306-002",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 19320
+      },
+      {
+        "pat_enc_csn_id": "0000306-003",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 371
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100306",
+    "diagnoses": [
+      {
+        "dx_id": "0000306-dx-000",
+        "pat_enc_csn_id": "0000306-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000306-acu-000",
+        "pat_enc_csn_id": "0000306-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-06-29"
+      },
+      {
+        "dx_id": "0000306-acu-002",
+        "pat_enc_csn_id": "0000306-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-12-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100306",
+    "summary": {
+      "total_charges": 44166,
+      "total_payments": 33268,
+      "outstanding_balance": 10898,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5754,
+        "total_payments": 4350,
+        "current_balance": 1404,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-22",
+        "closed_date": "2025-11-10"
+      },
+      {
+        "hsp_account_id": "HSP000030601",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8224,
+        "total_payments": 7449,
+        "current_balance": 775,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-11",
+        "closed_date": "2025-11-19"
+      },
+      {
+        "hsp_account_id": "HSP000030602",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 30188,
+        "total_payments": 21469,
+        "current_balance": 8719,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-14",
+        "closed_date": "2025-11-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100306",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

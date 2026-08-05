@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0100539",
+    "med_rec_num": "MRN0200539",
+    "full_name": "Kenji Nguyen",
+    "birth_date": "1975-01-06",
+    "age": 51,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 7760,
+    "latitude": 40.44121,
+    "longitude": -79.99551,
+    "last_encounter_date": "2026-03-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5184 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 618-9470",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100539",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000539-000",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000539-001",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 68
+      },
+      {
+        "pat_enc_csn_id": "0000539-002",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0000539-003",
+        "contact_date": "2025-11-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000539-004",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5841
+      },
+      {
+        "pat_enc_csn_id": "0000539-005",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000539-006",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000539-007",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000539-008",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 132
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100539",
+    "diagnoses": [
+      {
+        "dx_id": "0000539-dx-000",
+        "pat_enc_csn_id": "0000539-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0000539-dx-001",
+        "pat_enc_csn_id": "0000539-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000539-acu-000",
+        "pat_enc_csn_id": "0000539-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      },
+      {
+        "dx_id": "0000539-acu-001",
+        "pat_enc_csn_id": "0000539-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-19"
+      },
+      {
+        "dx_id": "0000539-acu-002",
+        "pat_enc_csn_id": "0000539-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100539",
+    "summary": {
+      "total_charges": 7760,
+      "total_payments": 5906,
+      "outstanding_balance": 1854,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000053900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7760,
+        "total_payments": 5906,
+        "current_balance": 1854,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-03-12",
+        "closed_date": "2025-11-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100539",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

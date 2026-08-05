@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100461",
+    "med_rec_num": "MRN0200461",
+    "full_name": "Thomas Anderson",
+    "birth_date": "1984-02-07",
+    "age": 42,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 6868,
+    "latitude": 40.35232,
+    "longitude": -79.85492,
+    "last_encounter_date": "2026-04-08",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4200 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 351-7722",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100461",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000461-000",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0000461-001",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 53
+      },
+      {
+        "pat_enc_csn_id": "0000461-002",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0000461-003",
+        "contact_date": "2025-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000461-004",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000461-005",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 55
+      },
+      {
+        "pat_enc_csn_id": "0000461-006",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4276
+      },
+      {
+        "pat_enc_csn_id": "0000461-007",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000461-008",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000461-009",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000461-010",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000461-011",
+        "contact_date": "2024-07-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000461-012",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 129
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100461",
+    "diagnoses": [
+      {
+        "dx_id": "0000461-dx-000",
+        "pat_enc_csn_id": "0000461-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000461-dx-001",
+        "pat_enc_csn_id": "0000461-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000461-acu-002",
+        "pat_enc_csn_id": "0000461-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100461",
+    "summary": {
+      "total_charges": 6868,
+      "total_payments": 5726,
+      "outstanding_balance": 1142,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6868,
+        "total_payments": 5726,
+        "current_balance": 1142,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-15",
+        "closed_date": "2026-02-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100461",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

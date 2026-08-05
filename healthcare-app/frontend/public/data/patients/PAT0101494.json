@@ -1,0 +1,332 @@
+{
+  "patient": {
+    "pat_id": "PAT0101494",
+    "med_rec_num": "MRN0201494",
+    "full_name": "Mark Park",
+    "birth_date": "1941-05-16",
+    "age": 85,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 4,
+    "encounter_count": 16,
+    "total_charges": 29882,
+    "latitude": 40.47109,
+    "longitude": -79.95655,
+    "last_encounter_date": "2026-04-03",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8425 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 863-4355",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101494",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001494-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0001494-001",
+        "contact_date": "2026-03-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0001494-002",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0001494-003",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0001494-004",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001494-005",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0001494-006",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 7024
+      },
+      {
+        "pat_enc_csn_id": "0001494-007",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 69
+      },
+      {
+        "pat_enc_csn_id": "0001494-008",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0001494-009",
+        "contact_date": "2025-06-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001494-010",
+        "contact_date": "2025-06-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 2886
+      },
+      {
+        "pat_enc_csn_id": "0001494-011",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001494-012",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0001494-013",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001494-014",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 2710
+      },
+      {
+        "pat_enc_csn_id": "0001494-015",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 14905
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101494",
+    "diagnoses": [
+      {
+        "dx_id": "0001494-dx-000",
+        "pat_enc_csn_id": "0001494-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0001494-dx-001",
+        "pat_enc_csn_id": "0001494-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0001494-dx-002",
+        "pat_enc_csn_id": "0001494-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001494-dx-003",
+        "pat_enc_csn_id": "0001494-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001494-acu-000",
+        "pat_enc_csn_id": "0001494-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0001494-acu-001",
+        "pat_enc_csn_id": "0001494-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-26"
+      },
+      {
+        "dx_id": "0001494-acu-002",
+        "pat_enc_csn_id": "0001494-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101494",
+    "summary": {
+      "total_charges": 29882,
+      "total_payments": 26273,
+      "outstanding_balance": 3609,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000149400",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 29882,
+        "total_payments": 26273,
+        "current_balance": 3609,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-01-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101494",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

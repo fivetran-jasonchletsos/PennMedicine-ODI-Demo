@@ -1,0 +1,241 @@
+{
+  "patient": {
+    "pat_id": "PAT0100669",
+    "med_rec_num": "MRN0200669",
+    "full_name": "Jennifer Anderson",
+    "birth_date": "2016-03-17",
+    "age": 10,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 17469,
+    "latitude": 40.50588,
+    "longitude": -79.76078,
+    "last_encounter_date": "2026-03-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "758 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 297-5826",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100669",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000669-000",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 5811
+      },
+      {
+        "pat_enc_csn_id": "0000669-001",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 6157
+      },
+      {
+        "pat_enc_csn_id": "0000669-002",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000669-003",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000669-004",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000669-005",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 3979
+      },
+      {
+        "pat_enc_csn_id": "0000669-006",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000669-007",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0000669-008",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 170
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100669",
+    "diagnoses": [
+      {
+        "dx_id": "0000669-acu-000",
+        "pat_enc_csn_id": "0000669-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0000669-acu-001",
+        "pat_enc_csn_id": "0000669-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-11"
+      },
+      {
+        "dx_id": "0000669-acu-002",
+        "pat_enc_csn_id": "0000669-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100669",
+    "summary": {
+      "total_charges": 17469,
+      "total_payments": 14853,
+      "outstanding_balance": 2616,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000066900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 12254,
+        "total_payments": 10431,
+        "current_balance": 1823,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-09-20",
+        "closed_date": "2025-11-10"
+      },
+      {
+        "hsp_account_id": "HSP000066901",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5215,
+        "total_payments": 4422,
+        "current_balance": 793,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-06",
+        "closed_date": "2025-12-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100669",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

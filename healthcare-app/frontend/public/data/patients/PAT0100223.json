@@ -1,0 +1,304 @@
+{
+  "patient": {
+    "pat_id": "PAT0100223",
+    "med_rec_num": "MRN0200223",
+    "full_name": "John Nguyen",
+    "birth_date": "1954-06-20",
+    "age": 72,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 3,
+    "encounter_count": 14,
+    "total_charges": 17048,
+    "latitude": 40.62724,
+    "longitude": -80.05518,
+    "last_encounter_date": "2026-04-11",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4223 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 646-7424",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100223",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000223-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 1960
+      },
+      {
+        "pat_enc_csn_id": "0000223-001",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000223-002",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 2094
+      },
+      {
+        "pat_enc_csn_id": "0000223-003",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 6487
+      },
+      {
+        "pat_enc_csn_id": "0000223-004",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000223-005",
+        "contact_date": "2025-04-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000223-006",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000223-007",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000223-008",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3618
+      },
+      {
+        "pat_enc_csn_id": "0000223-009",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000223-010",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000223-011",
+        "contact_date": "2024-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000223-012",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000223-013",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 253
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100223",
+    "diagnoses": [
+      {
+        "dx_id": "0000223-dx-000",
+        "pat_enc_csn_id": "0000223-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1972-05-13"
+      },
+      {
+        "dx_id": "0000223-dx-001",
+        "pat_enc_csn_id": "0000223-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0000223-dx-002",
+        "pat_enc_csn_id": "0000223-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000223-acu-000",
+        "pat_enc_csn_id": "0000223-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-11"
+      },
+      {
+        "dx_id": "0000223-acu-001",
+        "pat_enc_csn_id": "0000223-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-16"
+      },
+      {
+        "dx_id": "0000223-acu-002",
+        "pat_enc_csn_id": "0000223-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100223",
+    "summary": {
+      "total_charges": 17048,
+      "total_payments": 12831,
+      "outstanding_balance": 4217,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000022300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 17048,
+        "total_payments": 12831,
+        "current_balance": 4217,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-07",
+        "closed_date": "2026-01-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100223",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

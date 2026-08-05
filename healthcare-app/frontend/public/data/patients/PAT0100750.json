@@ -1,0 +1,264 @@
+{
+  "patient": {
+    "pat_id": "PAT0100750",
+    "med_rec_num": "MRN0200750",
+    "full_name": "Joseph Petrov",
+    "birth_date": "1996-04-13",
+    "age": 30,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 77756,
+    "latitude": 40.47374,
+    "longitude": -79.95989,
+    "last_encounter_date": "2026-03-18",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7493 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 651-7320",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100750",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000750-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 3670
+      },
+      {
+        "pat_enc_csn_id": "0000750-001",
+        "contact_date": "2026-01-23",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 32401
+      },
+      {
+        "pat_enc_csn_id": "0000750-002",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3261
+      },
+      {
+        "pat_enc_csn_id": "0000750-003",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0000750-004",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0000750-005",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000750-006",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000750-007",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000750-008",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000750-009",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000750-010",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 36936
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100750",
+    "diagnoses": [
+      {
+        "dx_id": "0000750-dx-000",
+        "pat_enc_csn_id": "0000750-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000750-acu-000",
+        "pat_enc_csn_id": "0000750-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100750",
+    "summary": {
+      "total_charges": 77756,
+      "total_payments": 64755,
+      "outstanding_balance": 13001,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000075000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 22479,
+        "total_payments": 18831,
+        "current_balance": 3648,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-21",
+        "closed_date": "2026-01-05"
+      },
+      {
+        "hsp_account_id": "HSP000075001",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 43838,
+        "total_payments": 36589,
+        "current_balance": 7249,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-11",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000075002",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11439,
+        "total_payments": 9335,
+        "current_balance": 2104,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-12-21",
+        "closed_date": "2025-12-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100750",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

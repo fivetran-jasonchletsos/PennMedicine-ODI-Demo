@@ -1,0 +1,276 @@
+{
+  "patient": {
+    "pat_id": "PAT0100581",
+    "med_rec_num": "MRN0200581",
+    "full_name": "William Thomas",
+    "birth_date": "1942-11-24",
+    "age": 84,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 4,
+    "encounter_count": 12,
+    "total_charges": 17908,
+    "latitude": 40.35221,
+    "longitude": -79.8551,
+    "last_encounter_date": "2026-03-19",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5373 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 633-9645",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100581",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000581-000",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000581-001",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000581-002",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 5314
+      },
+      {
+        "pat_enc_csn_id": "0000581-003",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 3814
+      },
+      {
+        "pat_enc_csn_id": "0000581-004",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 7224
+      },
+      {
+        "pat_enc_csn_id": "0000581-005",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 49
+      },
+      {
+        "pat_enc_csn_id": "0000581-006",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0000581-007",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000581-008",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000581-009",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000581-010",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000581-011",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 192
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100581",
+    "diagnoses": [
+      {
+        "dx_id": "0000581-dx-000",
+        "pat_enc_csn_id": "0000581-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000581-dx-001",
+        "pat_enc_csn_id": "0000581-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000581-dx-002",
+        "pat_enc_csn_id": "0000581-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0000581-dx-003",
+        "pat_enc_csn_id": "0000581-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000581-acu-001",
+        "pat_enc_csn_id": "0000581-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100581",
+    "summary": {
+      "total_charges": 17908,
+      "total_payments": 15946,
+      "outstanding_balance": 1962,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000058100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 17908,
+        "total_payments": 15946,
+        "current_balance": 1962,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-01-31",
+        "closed_date": "2025-12-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100581",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

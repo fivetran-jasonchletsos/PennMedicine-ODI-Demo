@@ -1,0 +1,232 @@
+{
+  "patient": {
+    "pat_id": "PAT0101230",
+    "med_rec_num": "MRN0201230",
+    "full_name": "Elizabeth Taylor",
+    "birth_date": "1958-09-26",
+    "age": 68,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 8878,
+    "latitude": 40.35256,
+    "longitude": -79.85114,
+    "last_encounter_date": "2026-05-11",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8050 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 466-6550",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101230",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001230-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0001230-001",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 6304
+      },
+      {
+        "pat_enc_csn_id": "0001230-002",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 115
+      },
+      {
+        "pat_enc_csn_id": "0001230-003",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0001230-004",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0001230-005",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0001230-006",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0001230-007",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001230-008",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001230-009",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 329
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101230",
+    "diagnoses": [
+      {
+        "dx_id": "0001230-acu-000",
+        "pat_enc_csn_id": "0001230-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0001230-acu-001",
+        "pat_enc_csn_id": "0001230-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101230",
+    "summary": {
+      "total_charges": 8878,
+      "total_payments": 7315,
+      "outstanding_balance": 1563,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000123000",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8878,
+        "total_payments": 7315,
+        "current_balance": 1563,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-07-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101230",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

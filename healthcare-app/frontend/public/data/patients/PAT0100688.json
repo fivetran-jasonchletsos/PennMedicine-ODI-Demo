@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100688",
+    "med_rec_num": "MRN0200688",
+    "full_name": "Joseph Gonzalez",
+    "birth_date": "1959-07-04",
+    "age": 67,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1848,
+    "latitude": 40.49772,
+    "longitude": -79.90762,
+    "last_encounter_date": "2025-11-19",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1747 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 420-3995",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100688",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000688-000",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000688-001",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000688-002",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000688-003",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000688-004",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000688-005",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 275
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100688",
+    "diagnoses": [
+      {
+        "dx_id": "0000688-dx-000",
+        "pat_enc_csn_id": "0000688-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000688-acu-000",
+        "pat_enc_csn_id": "0000688-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-19"
+      },
+      {
+        "dx_id": "0000688-acu-001",
+        "pat_enc_csn_id": "0000688-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-08-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100688",
+    "summary": {
+      "total_charges": 1848,
+      "total_payments": 1433,
+      "outstanding_balance": 415,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068800",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1848,
+        "total_payments": 1433,
+        "current_balance": 415,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100688",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

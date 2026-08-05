@@ -1,0 +1,232 @@
+{
+  "patient": {
+    "pat_id": "PAT0101330",
+    "med_rec_num": "MRN0201330",
+    "full_name": "George Jones",
+    "birth_date": "1933-11-24",
+    "age": 93,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 2537,
+    "latitude": 40.52662,
+    "longitude": -79.9595,
+    "last_encounter_date": "2025-12-07",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6680 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 647-7976",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101330",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001330-000",
+        "contact_date": "2025-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001330-001",
+        "contact_date": "2025-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0001330-002",
+        "contact_date": "2025-07-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0001330-003",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001330-004",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0001330-005",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0001330-006",
+        "contact_date": "2024-10-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0001330-007",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0001330-008",
+        "contact_date": "2024-09-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001330-009",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 210
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101330",
+    "diagnoses": [
+      {
+        "dx_id": "0001330-acu-001",
+        "pat_enc_csn_id": "0001330-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-16"
+      },
+      {
+        "dx_id": "0001330-acu-002",
+        "pat_enc_csn_id": "0001330-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101330",
+    "summary": {
+      "total_charges": 2537,
+      "total_payments": 1643,
+      "outstanding_balance": 894,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2537,
+        "total_payments": 1643,
+        "current_balance": 894,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-01",
+        "closed_date": "2026-01-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101330",
+    "comparables": [
+      {
+        "pat_id": "PAT0100482",
+        "full_name": "Joseph Russo",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 4745
+      },
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      },
+      {
+        "pat_id": "PAT0106821",
+        "full_name": "Donna Taylor",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 1960
+      }
+    ]
+  }
+}

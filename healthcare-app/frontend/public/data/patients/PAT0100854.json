@@ -1,0 +1,280 @@
+{
+  "patient": {
+    "pat_id": "PAT0100854",
+    "med_rec_num": "MRN0200854",
+    "full_name": "Thomas Greene",
+    "birth_date": "1977-09-05",
+    "age": 49,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 20385,
+    "latitude": 40.4371,
+    "longitude": -79.93421,
+    "last_encounter_date": "2026-04-15",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1188 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 547-3958",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100854",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000854-000",
+        "contact_date": "2026-04-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 17815
+      },
+      {
+        "pat_enc_csn_id": "0000854-001",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000854-002",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000854-003",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000854-004",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000854-005",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000854-006",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000854-007",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000854-008",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000854-009",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000854-010",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 319
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100854",
+    "diagnoses": [
+      {
+        "dx_id": "0000854-dx-000",
+        "pat_enc_csn_id": "0000854-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000854-acu-000",
+        "pat_enc_csn_id": "0000854-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-15"
+      },
+      {
+        "dx_id": "0000854-acu-001",
+        "pat_enc_csn_id": "0000854-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-09"
+      },
+      {
+        "dx_id": "0000854-acu-002",
+        "pat_enc_csn_id": "0000854-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100854",
+    "summary": {
+      "total_charges": 20385,
+      "total_payments": 16726,
+      "outstanding_balance": 3659,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000085400",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 18145,
+        "total_payments": 14903,
+        "current_balance": 3242,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-28",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000085401",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 603,
+        "total_payments": 495,
+        "current_balance": 108,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-12",
+        "closed_date": "2026-04-16"
+      },
+      {
+        "hsp_account_id": "HSP000085402",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1637,
+        "total_payments": 1328,
+        "current_balance": 309,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-09",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100854",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

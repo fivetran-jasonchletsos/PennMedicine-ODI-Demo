@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100720",
+    "med_rec_num": "MRN0200720",
+    "full_name": "Sharon Singh",
+    "birth_date": "1995-09-17",
+    "age": 31,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 7144,
+    "latitude": 40.35448,
+    "longitude": -79.89788,
+    "last_encounter_date": "2026-02-11",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9841 Penn St",
+    "state": "PA",
+    "phone": "(412) 428-4591",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100720",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000720-000",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000720-001",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0000720-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000720-003",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000720-004",
+        "contact_date": "2024-12-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000720-005",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000720-006",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 5360
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100720",
+    "diagnoses": [
+      {
+        "dx_id": "0000720-dx-000",
+        "pat_enc_csn_id": "0000720-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000720-acu-000",
+        "pat_enc_csn_id": "0000720-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      },
+      {
+        "dx_id": "0000720-acu-001",
+        "pat_enc_csn_id": "0000720-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-31"
+      },
+      {
+        "dx_id": "0000720-acu-002",
+        "pat_enc_csn_id": "0000720-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100720",
+    "summary": {
+      "total_charges": 7144,
+      "total_payments": 4663,
+      "outstanding_balance": 2481,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000072000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7144,
+        "total_payments": 4663,
+        "current_balance": 2481,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-12-28",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100720",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

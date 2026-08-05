@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0100541",
+    "med_rec_num": "MRN0200541",
+    "full_name": "Aisha Khan",
+    "birth_date": "1964-02-12",
+    "age": 62,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 1477,
+    "latitude": 40.63068,
+    "longitude": -80.06297,
+    "last_encounter_date": "2024-12-30",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1823 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 204-2520",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100541",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000541-000",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000541-001",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000541-002",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000541-003",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 232
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100541",
+    "diagnoses": [
+      {
+        "dx_id": "0000541-dx-000",
+        "pat_enc_csn_id": "0000541-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000541-dx-001",
+        "pat_enc_csn_id": "0000541-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000541-acu-002",
+        "pat_enc_csn_id": "0000541-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-09-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100541",
+    "summary": {
+      "total_charges": 1477,
+      "total_payments": 1108,
+      "outstanding_balance": 369,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1477,
+        "total_payments": 1108,
+        "current_balance": 369,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-11",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100541",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

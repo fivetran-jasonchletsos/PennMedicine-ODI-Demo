@@ -1,0 +1,234 @@
+{
+  "patient": {
+    "pat_id": "PAT0101163",
+    "med_rec_num": "MRN0201163",
+    "full_name": "Patricia O'Brien",
+    "birth_date": "1986-01-19",
+    "age": 40,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 9968,
+    "latitude": 40.47263,
+    "longitude": -79.96002,
+    "last_encounter_date": "2025-12-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1322 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 516-3569",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101163",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001163-000",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001163-001",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001163-002",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0001163-003",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 2904
+      },
+      {
+        "pat_enc_csn_id": "0001163-004",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0001163-005",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 2593
+      },
+      {
+        "pat_enc_csn_id": "0001163-006",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001163-007",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001163-008",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001163-009",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 2429
+      },
+      {
+        "pat_enc_csn_id": "0001163-010",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 266
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101163",
+    "diagnoses": [
+      {
+        "dx_id": "0001163-acu-002",
+        "pat_enc_csn_id": "0001163-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-07-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101163",
+    "summary": {
+      "total_charges": 9968,
+      "total_payments": 9162,
+      "outstanding_balance": 806,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000116300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9968,
+        "total_payments": 9162,
+        "current_balance": 806,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-06-10",
+        "closed_date": "2025-10-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101163",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

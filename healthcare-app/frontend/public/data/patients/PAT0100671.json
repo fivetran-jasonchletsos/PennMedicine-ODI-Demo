@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0100671",
+    "med_rec_num": "MRN0200671",
+    "full_name": "Michael Schmidt",
+    "birth_date": "2023-03-08",
+    "age": 3,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 531,
+    "latitude": 40.44797,
+    "longitude": -80.10725,
+    "last_encounter_date": "2025-08-25",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2443 Penn St",
+    "state": "PA",
+    "phone": "(412) 776-9221",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100671",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000671-000",
+        "contact_date": "2025-08-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000671-001",
+        "contact_date": "2025-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 279
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100671",
+    "diagnoses": [
+      {
+        "dx_id": "0000671-dx-000",
+        "pat_enc_csn_id": "0000671-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000671-acu-000",
+        "pat_enc_csn_id": "0000671-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-25"
+      },
+      {
+        "dx_id": "0000671-acu-001",
+        "pat_enc_csn_id": "0000671-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-02-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100671",
+    "summary": {
+      "total_charges": 531,
+      "total_payments": 434,
+      "outstanding_balance": 97,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 531,
+        "total_payments": 434,
+        "current_balance": 97,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-26",
+        "closed_date": "2026-02-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100671",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

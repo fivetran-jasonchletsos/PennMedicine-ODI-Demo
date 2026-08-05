@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0101061",
+    "med_rec_num": "MRN0201061",
+    "full_name": "Margaret Walsh",
+    "birth_date": "1984-09-18",
+    "age": 42,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 1487,
+    "latitude": 40.33086,
+    "longitude": -80.04447,
+    "last_encounter_date": "2026-01-21",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3975 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 822-2902",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101061",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001061-000",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0001061-001",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0001061-002",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0001061-003",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001061-004",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 339
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101061",
+    "diagnoses": [
+      {
+        "dx_id": "0001061-dx-000",
+        "pat_enc_csn_id": "0001061-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001061-acu-000",
+        "pat_enc_csn_id": "0001061-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-21"
+      },
+      {
+        "dx_id": "0001061-acu-002",
+        "pat_enc_csn_id": "0001061-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-08-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101061",
+    "summary": {
+      "total_charges": 1487,
+      "total_payments": 1355,
+      "outstanding_balance": 132,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000106100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1487,
+        "total_payments": 1355,
+        "current_balance": 132,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101061",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

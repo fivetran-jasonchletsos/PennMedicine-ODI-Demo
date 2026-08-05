@@ -1,0 +1,326 @@
+{
+  "patient": {
+    "pat_id": "PAT0101056",
+    "med_rec_num": "MRN0201056",
+    "full_name": "Patricia Jones",
+    "birth_date": "1961-11-15",
+    "age": 65,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 4,
+    "encounter_count": 14,
+    "total_charges": 18230,
+    "latitude": 40.47087,
+    "longitude": -79.8317,
+    "last_encounter_date": "2026-04-26",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1109 Forbes St",
+    "state": "PA",
+    "phone": "(412) 248-1732",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101056",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001056-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001056-001",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001056-002",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001056-003",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0001056-004",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001056-005",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001056-006",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001056-007",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0001056-008",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 5837
+      },
+      {
+        "pat_enc_csn_id": "0001056-009",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0001056-010",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001056-011",
+        "contact_date": "2024-08-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001056-012",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 9111
+      },
+      {
+        "pat_enc_csn_id": "0001056-013",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 353
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101056",
+    "diagnoses": [
+      {
+        "dx_id": "0001056-dx-000",
+        "pat_enc_csn_id": "0001056-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001056-dx-001",
+        "pat_enc_csn_id": "0001056-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001056-dx-002",
+        "pat_enc_csn_id": "0001056-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001056-dx-003",
+        "pat_enc_csn_id": "0001056-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0001056-acu-000",
+        "pat_enc_csn_id": "0001056-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-26"
+      },
+      {
+        "dx_id": "0001056-acu-002",
+        "pat_enc_csn_id": "0001056-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101056",
+    "summary": {
+      "total_charges": 18230,
+      "total_payments": 14028,
+      "outstanding_balance": 4202,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000105600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8747,
+        "total_payments": 6902,
+        "current_balance": 1845,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-04",
+        "closed_date": "2026-01-10"
+      },
+      {
+        "hsp_account_id": "HSP000105601",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 4990,
+        "total_payments": 3173,
+        "current_balance": 1817,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000105602",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 4493,
+        "total_payments": 3953,
+        "current_balance": 540,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101056",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

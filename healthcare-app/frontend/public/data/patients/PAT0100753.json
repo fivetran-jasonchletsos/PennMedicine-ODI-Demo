@@ -1,0 +1,306 @@
+{
+  "patient": {
+    "pat_id": "PAT0100753",
+    "med_rec_num": "MRN0200753",
+    "full_name": "Donna Wong",
+    "birth_date": "1933-09-09",
+    "age": 93,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 4,
+    "encounter_count": 15,
+    "total_charges": 8161,
+    "latitude": 40.44208,
+    "longitude": -79.99886,
+    "last_encounter_date": "2026-05-10",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7612 Forbes St",
+    "state": "PA",
+    "phone": "(412) 295-4032",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100753",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000753-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000753-001",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000753-002",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000753-003",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000753-004",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 1315
+      },
+      {
+        "pat_enc_csn_id": "0000753-005",
+        "contact_date": "2025-06-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000753-006",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000753-007",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000753-008",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000753-009",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 3459
+      },
+      {
+        "pat_enc_csn_id": "0000753-010",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000753-011",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000753-012",
+        "contact_date": "2024-08-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000753-013",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000753-014",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 202
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100753",
+    "diagnoses": [
+      {
+        "dx_id": "0000753-dx-000",
+        "pat_enc_csn_id": "0000753-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000753-dx-001",
+        "pat_enc_csn_id": "0000753-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1966-05-13"
+      },
+      {
+        "dx_id": "0000753-dx-002",
+        "pat_enc_csn_id": "0000753-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000753-dx-003",
+        "pat_enc_csn_id": "0000753-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1951-05-13"
+      },
+      {
+        "dx_id": "0000753-acu-000",
+        "pat_enc_csn_id": "0000753-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100753",
+    "summary": {
+      "total_charges": 8161,
+      "total_payments": 6015,
+      "outstanding_balance": 2146,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000075300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8161,
+        "total_payments": 6015,
+        "current_balance": 2146,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-06-26",
+        "closed_date": "2025-10-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100753",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

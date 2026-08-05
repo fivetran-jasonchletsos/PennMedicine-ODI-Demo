@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0101217",
+    "med_rec_num": "MRN0201217",
+    "full_name": "Elizabeth Thomas",
+    "birth_date": "1966-10-08",
+    "age": 60,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 9531,
+    "latitude": 40.44015,
+    "longitude": -79.95513,
+    "last_encounter_date": "2026-03-06",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "453 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 203-3431",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101217",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001217-000",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001217-001",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0001217-002",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1559
+      },
+      {
+        "pat_enc_csn_id": "0001217-003",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0001217-004",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0001217-005",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0001217-006",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 6211
+      },
+      {
+        "pat_enc_csn_id": "0001217-007",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 288
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101217",
+    "diagnoses": [
+      {
+        "dx_id": "0001217-dx-000",
+        "pat_enc_csn_id": "0001217-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0001217-dx-001",
+        "pat_enc_csn_id": "0001217-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001217-acu-000",
+        "pat_enc_csn_id": "0001217-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0001217-acu-002",
+        "pat_enc_csn_id": "0001217-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101217",
+    "summary": {
+      "total_charges": 9531,
+      "total_payments": 7657,
+      "outstanding_balance": 1874,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 9531,
+        "total_payments": 7657,
+        "current_balance": 1874,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-16",
+        "closed_date": "2025-11-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101217",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

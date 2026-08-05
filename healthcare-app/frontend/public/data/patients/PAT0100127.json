@@ -1,0 +1,369 @@
+{
+  "patient": {
+    "pat_id": "PAT0100127",
+    "med_rec_num": "MRN0200127",
+    "full_name": "Michelle Martin",
+    "birth_date": "1949-02-13",
+    "age": 77,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 6,
+    "encounter_count": 17,
+    "total_charges": 40565,
+    "latitude": 40.45894,
+    "longitude": -79.91026,
+    "last_encounter_date": "2026-04-25",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8472 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 220-2031",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100127",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000127-000",
+        "contact_date": "2026-04-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000127-001",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000127-002",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 12876
+      },
+      {
+        "pat_enc_csn_id": "0000127-003",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000127-004",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000127-005",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0000127-006",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000127-007",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000127-008",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 1300
+      },
+      {
+        "pat_enc_csn_id": "0000127-009",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000127-010",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000127-011",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000127-012",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 3552
+      },
+      {
+        "pat_enc_csn_id": "0000127-013",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000127-014",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000127-015",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000127-016",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 19500
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100127",
+    "diagnoses": [
+      {
+        "dx_id": "0000127-dx-000",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000127-dx-001",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000127-dx-002",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000127-dx-003",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000127-dx-004",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1974-05-13"
+      },
+      {
+        "dx_id": "0000127-dx-005",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000127-acu-000",
+        "pat_enc_csn_id": "0000127-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-25"
+      },
+      {
+        "dx_id": "0000127-acu-001",
+        "pat_enc_csn_id": "0000127-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      },
+      {
+        "dx_id": "0000127-acu-002",
+        "pat_enc_csn_id": "0000127-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100127",
+    "summary": {
+      "total_charges": 40565,
+      "total_payments": 34382,
+      "outstanding_balance": 6183,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000012700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 31249,
+        "total_payments": 28362,
+        "current_balance": 2887,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000012701",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9316,
+        "total_payments": 6020,
+        "current_balance": 3296,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-13",
+        "closed_date": "2025-12-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100127",
+    "comparables": [
+      {
+        "pat_id": "PAT0100003",
+        "full_name": "Linda Rodriguez",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 24,
+        "total_charges": 14863
+      },
+      {
+        "pat_id": "PAT0100105",
+        "full_name": "Patricia Kim",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 17508
+      },
+      {
+        "pat_id": "PAT0100141",
+        "full_name": "Richard Walsh",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 10859
+      },
+      {
+        "pat_id": "PAT0100189",
+        "full_name": "Mark Williams",
+        "age": 70,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 20,
+        "total_charges": 41472
+      },
+      {
+        "pat_id": "PAT0100320",
+        "full_name": "Anil Greene",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 17,
+        "total_charges": 35184
+      },
+      {
+        "pat_id": "PAT0100321",
+        "full_name": "Sandra Russo",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 33891
+      }
+    ]
+  }
+}

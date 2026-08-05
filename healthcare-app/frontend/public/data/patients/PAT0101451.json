@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0101451",
+    "med_rec_num": "MRN0201451",
+    "full_name": "Donna Anderson",
+    "birth_date": "1988-07-16",
+    "age": 38,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 525,
+    "latitude": 40.3427,
+    "longitude": -79.84512,
+    "last_encounter_date": "2025-07-10",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1160 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 532-9310",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101451",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001451-000",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0001451-001",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 225
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101451",
+    "diagnoses": [
+      {
+        "dx_id": "0001451-dx-000",
+        "pat_enc_csn_id": "0001451-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0001451-acu-000",
+        "pat_enc_csn_id": "0001451-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-10"
+      },
+      {
+        "dx_id": "0001451-acu-001",
+        "pat_enc_csn_id": "0001451-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-04-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101451",
+    "summary": {
+      "total_charges": 525,
+      "total_payments": 204,
+      "outstanding_balance": 321,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000145100",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 525,
+        "total_payments": 204,
+        "current_balance": 321,
+        "primary_payer": "Self-pay",
+        "opened_date": "2025-03-17",
+        "closed_date": "2025-12-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101451",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

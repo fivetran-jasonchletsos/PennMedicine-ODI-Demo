@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100392",
+    "med_rec_num": "MRN0200392",
+    "full_name": "Mary Russo",
+    "birth_date": "2005-05-08",
+    "age": 21,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 55095,
+    "latitude": 40.50633,
+    "longitude": -79.76795,
+    "last_encounter_date": "2026-03-08",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9350 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 690-6930",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100392",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000392-000",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000392-001",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 29562
+      },
+      {
+        "pat_enc_csn_id": "0000392-002",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 8744
+      },
+      {
+        "pat_enc_csn_id": "0000392-003",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 14963
+      },
+      {
+        "pat_enc_csn_id": "0000392-004",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000392-005",
+        "contact_date": "2025-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000392-006",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000392-007",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000392-008",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000392-009",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000392-010",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000392-011",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 107
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100392",
+    "diagnoses": [
+      {
+        "dx_id": "0000392-dx-000",
+        "pat_enc_csn_id": "0000392-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000392-acu-000",
+        "pat_enc_csn_id": "0000392-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-08"
+      },
+      {
+        "dx_id": "0000392-acu-001",
+        "pat_enc_csn_id": "0000392-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100392",
+    "summary": {
+      "total_charges": 55095,
+      "total_payments": 44472,
+      "outstanding_balance": 10623,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000039200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 55095,
+        "total_payments": 44472,
+        "current_balance": 10623,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-28",
+        "closed_date": "2026-02-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100392",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

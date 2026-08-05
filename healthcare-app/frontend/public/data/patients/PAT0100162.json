@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100162",
+    "med_rec_num": "MRN0200162",
+    "full_name": "David Walsh",
+    "birth_date": "1986-10-05",
+    "age": 40,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 1699,
+    "latitude": 40.43682,
+    "longitude": -79.92547,
+    "last_encounter_date": "2025-11-17",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8707 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 769-9802",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100162",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000162-000",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000162-001",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000162-002",
+        "contact_date": "2025-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000162-003",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000162-004",
+        "contact_date": "2024-08-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0000162-005",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000162-006",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 132
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100162",
+    "diagnoses": [
+      {
+        "dx_id": "0000162-dx-000",
+        "pat_enc_csn_id": "0000162-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000162-acu-001",
+        "pat_enc_csn_id": "0000162-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-25"
+      },
+      {
+        "dx_id": "0000162-acu-002",
+        "pat_enc_csn_id": "0000162-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-02-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100162",
+    "summary": {
+      "total_charges": 1699,
+      "total_payments": 1310,
+      "outstanding_balance": 389,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1699,
+        "total_payments": 1310,
+        "current_balance": 389,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-02-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100162",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0100188",
+    "med_rec_num": "MRN0200188",
+    "full_name": "Margaret Smith",
+    "birth_date": "1996-08-20",
+    "age": 30,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 1239,
+    "latitude": 40.47421,
+    "longitude": -79.82956,
+    "last_encounter_date": "2026-03-20",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8767 Centre St",
+    "state": "PA",
+    "phone": "(412) 993-4694",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100188",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000188-000",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000188-001",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000188-002",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000188-003",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000188-004",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 228
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100188",
+    "diagnoses": [
+      {
+        "dx_id": "0000188-acu-000",
+        "pat_enc_csn_id": "0000188-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      },
+      {
+        "dx_id": "0000188-acu-001",
+        "pat_enc_csn_id": "0000188-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      },
+      {
+        "dx_id": "0000188-acu-002",
+        "pat_enc_csn_id": "0000188-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100188",
+    "summary": {
+      "total_charges": 1239,
+      "total_payments": 1016,
+      "outstanding_balance": 223,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000018800",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1239,
+        "total_payments": 1016,
+        "current_balance": 223,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100188",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100242",
+    "med_rec_num": "MRN0200242",
+    "full_name": "Paul Martin",
+    "birth_date": "1998-11-19",
+    "age": 28,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 8751,
+    "latitude": 40.48112,
+    "longitude": -79.82969,
+    "last_encounter_date": "2026-02-21",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5942 Beacon St",
+    "state": "PA",
+    "phone": "(412) 818-1897",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100242",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000242-000",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000242-001",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000242-002",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 3892
+      },
+      {
+        "pat_enc_csn_id": "0000242-003",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000242-004",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000242-005",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2194
+      },
+      {
+        "pat_enc_csn_id": "0000242-006",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 98
+      },
+      {
+        "pat_enc_csn_id": "0000242-007",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000242-008",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000242-009",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000242-010",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000242-011",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 272
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100242",
+    "diagnoses": [
+      {
+        "dx_id": "0000242-dx-000",
+        "pat_enc_csn_id": "0000242-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000242-acu-002",
+        "pat_enc_csn_id": "0000242-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-08-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100242",
+    "summary": {
+      "total_charges": 8751,
+      "total_payments": 7636,
+      "outstanding_balance": 1115,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000024200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8751,
+        "total_payments": 7636,
+        "current_balance": 1115,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-05",
+        "closed_date": "2025-11-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100242",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

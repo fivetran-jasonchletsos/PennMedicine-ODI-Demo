@@ -1,0 +1,276 @@
+{
+  "patient": {
+    "pat_id": "PAT0101159",
+    "med_rec_num": "MRN0201159",
+    "full_name": "Carol Hernandez",
+    "birth_date": "1938-09-19",
+    "age": 88,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 3350,
+    "latitude": 40.48764,
+    "longitude": -79.90732,
+    "last_encounter_date": "2026-04-18",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1295 Beacon St",
+    "state": "PA",
+    "phone": "(412) 905-1873",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101159",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001159-000",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001159-001",
+        "contact_date": "2026-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001159-002",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0001159-003",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0001159-004",
+        "contact_date": "2025-12-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0001159-005",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0001159-006",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0001159-007",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0001159-008",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001159-009",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0001159-010",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0001159-011",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 115
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101159",
+    "diagnoses": [
+      {
+        "dx_id": "0001159-dx-000",
+        "pat_enc_csn_id": "0001159-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1959-05-13"
+      },
+      {
+        "dx_id": "0001159-dx-001",
+        "pat_enc_csn_id": "0001159-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0001159-dx-002",
+        "pat_enc_csn_id": "0001159-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001159-acu-000",
+        "pat_enc_csn_id": "0001159-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-18"
+      },
+      {
+        "dx_id": "0001159-acu-001",
+        "pat_enc_csn_id": "0001159-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101159",
+    "summary": {
+      "total_charges": 3350,
+      "total_payments": 2932,
+      "outstanding_balance": 418,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000115900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3350,
+        "total_payments": 2932,
+        "current_balance": 418,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-09-05",
+        "closed_date": "2026-03-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101159",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

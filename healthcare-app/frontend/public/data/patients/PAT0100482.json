@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100482",
+    "med_rec_num": "MRN0200482",
+    "full_name": "Joseph Russo",
+    "birth_date": "1935-04-11",
+    "age": 91,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 4745,
+    "latitude": 40.44676,
+    "longitude": -79.99601,
+    "last_encounter_date": "2026-03-27",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9934 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 910-2871",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100482",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000482-000",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000482-001",
+        "contact_date": "2025-11-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000482-002",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000482-003",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000482-004",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000482-005",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000482-006",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000482-007",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 3165
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100482",
+    "diagnoses": [
+      {
+        "dx_id": "0000482-acu-000",
+        "pat_enc_csn_id": "0000482-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      },
+      {
+        "dx_id": "0000482-acu-001",
+        "pat_enc_csn_id": "0000482-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-07"
+      },
+      {
+        "dx_id": "0000482-acu-002",
+        "pat_enc_csn_id": "0000482-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-06-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100482",
+    "summary": {
+      "total_charges": 4745,
+      "total_payments": 4170,
+      "outstanding_balance": 575,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 4745,
+        "total_payments": 4170,
+        "current_balance": 575,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-10",
+        "closed_date": "2025-12-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100482",
+    "comparables": [
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0101330",
+        "full_name": "George Jones",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2537
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      },
+      {
+        "pat_id": "PAT0106821",
+        "full_name": "Donna Taylor",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 1960
+      }
+    ]
+  }
+}

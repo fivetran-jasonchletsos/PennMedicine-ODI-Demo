@@ -1,0 +1,229 @@
+{
+  "patient": {
+    "pat_id": "PAT0101379",
+    "med_rec_num": "MRN0201379",
+    "full_name": "Aisha Smith",
+    "birth_date": "1971-06-09",
+    "age": 55,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 22556,
+    "latitude": 40.34185,
+    "longitude": -79.84384,
+    "last_encounter_date": "2026-05-10",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7687 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 361-4650",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101379",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001379-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0001379-001",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5438
+      },
+      {
+        "pat_enc_csn_id": "0001379-002",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 15753
+      },
+      {
+        "pat_enc_csn_id": "0001379-003",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0001379-004",
+        "contact_date": "2025-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0001379-005",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0001379-006",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101379",
+    "diagnoses": [
+      {
+        "dx_id": "0001379-dx-000",
+        "pat_enc_csn_id": "0001379-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0001379-dx-001",
+        "pat_enc_csn_id": "0001379-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001379-acu-000",
+        "pat_enc_csn_id": "0001379-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-10"
+      },
+      {
+        "dx_id": "0001379-acu-002",
+        "pat_enc_csn_id": "0001379-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-05-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101379",
+    "summary": {
+      "total_charges": 22556,
+      "total_payments": 19386,
+      "outstanding_balance": 3170,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000137900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 13843,
+        "total_payments": 12202,
+        "current_balance": 1641,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-14",
+        "closed_date": "2025-12-01"
+      },
+      {
+        "hsp_account_id": "HSP000137901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8713,
+        "total_payments": 7184,
+        "current_balance": 1529,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-14",
+        "closed_date": "2026-04-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101379",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

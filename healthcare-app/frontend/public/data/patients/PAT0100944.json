@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100944",
+    "med_rec_num": "MRN0200944",
+    "full_name": "Janet Martin",
+    "birth_date": "1991-07-26",
+    "age": 35,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 1334,
+    "latitude": 40.3498,
+    "longitude": -79.85115,
+    "last_encounter_date": "2026-03-25",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9242 Penn St",
+    "state": "PA",
+    "phone": "(412) 456-1649",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100944",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000944-000",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000944-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000944-002",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000944-003",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000944-004",
+        "contact_date": "2025-06-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100944",
+    "diagnoses": [
+      {
+        "dx_id": "0000944-dx-000",
+        "pat_enc_csn_id": "0000944-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000944-dx-001",
+        "pat_enc_csn_id": "0000944-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000944-acu-000",
+        "pat_enc_csn_id": "0000944-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-25"
+      },
+      {
+        "dx_id": "0000944-acu-002",
+        "pat_enc_csn_id": "0000944-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100944",
+    "summary": {
+      "total_charges": 1334,
+      "total_payments": 1226,
+      "outstanding_balance": 108,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000094400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1334,
+        "total_payments": 1226,
+        "current_balance": 108,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-04-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100944",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

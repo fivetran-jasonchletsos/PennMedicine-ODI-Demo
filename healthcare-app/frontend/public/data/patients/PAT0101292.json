@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0101292",
+    "med_rec_num": "MRN0201292",
+    "full_name": "Jennifer Chen",
+    "birth_date": "2000-06-21",
+    "age": 26,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 41538,
+    "latitude": 40.68173,
+    "longitude": -80.1045,
+    "last_encounter_date": "2026-03-09",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "922 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 327-9210",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101292",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001292-000",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 35700
+      },
+      {
+        "pat_enc_csn_id": "0001292-001",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0001292-002",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4668
+      },
+      {
+        "pat_enc_csn_id": "0001292-003",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0001292-004",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001292-005",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0001292-006",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 207
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101292",
+    "diagnoses": [
+      {
+        "dx_id": "0001292-dx-000",
+        "pat_enc_csn_id": "0001292-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0001292-dx-001",
+        "pat_enc_csn_id": "0001292-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001292-acu-000",
+        "pat_enc_csn_id": "0001292-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-09"
+      },
+      {
+        "dx_id": "0001292-acu-002",
+        "pat_enc_csn_id": "0001292-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101292",
+    "summary": {
+      "total_charges": 41538,
+      "total_payments": 33120,
+      "outstanding_balance": 8418,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000129200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 41538,
+        "total_payments": 33120,
+        "current_balance": 8418,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-23",
+        "closed_date": "2026-04-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101292",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

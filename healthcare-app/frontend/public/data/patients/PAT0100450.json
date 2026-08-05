@@ -1,0 +1,135 @@
+{
+  "patient": {
+    "pat_id": "PAT0100450",
+    "med_rec_num": "MRN0200450",
+    "full_name": "Linda Garcia",
+    "birth_date": "2001-04-21",
+    "age": 25,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 464,
+    "latitude": 40.47381,
+    "longitude": -79.96608,
+    "last_encounter_date": "2026-01-02",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9473 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 722-5470",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100450",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000450-000",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000450-001",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 144
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100450",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100450",
+    "summary": {
+      "total_charges": 464,
+      "total_payments": 356,
+      "outstanding_balance": 108,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000045000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 464,
+        "total_payments": 356,
+        "current_balance": 108,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-03-10",
+        "closed_date": "2025-11-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100450",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

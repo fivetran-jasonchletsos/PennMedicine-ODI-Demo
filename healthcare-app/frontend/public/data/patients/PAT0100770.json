@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0100770",
+    "med_rec_num": "MRN0200770",
+    "full_name": "Thomas Kim",
+    "birth_date": "2025-03-19",
+    "age": 1,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 488,
+    "latitude": 40.42586,
+    "longitude": -79.78605,
+    "last_encounter_date": "2024-12-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4230 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 282-3055",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100770",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000770-000",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000770-001",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 300
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100770",
+    "diagnoses": [
+      {
+        "dx_id": "0000770-acu-000",
+        "pat_enc_csn_id": "0000770-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2024-12-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100770",
+    "summary": {
+      "total_charges": 488,
+      "total_payments": 353,
+      "outstanding_balance": 135,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000077000",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 488,
+        "total_payments": 353,
+        "current_balance": 135,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100770",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

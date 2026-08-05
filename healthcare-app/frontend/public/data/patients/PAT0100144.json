@@ -1,0 +1,283 @@
+{
+  "patient": {
+    "pat_id": "PAT0100144",
+    "med_rec_num": "MRN0200144",
+    "full_name": "Hassan Miller",
+    "birth_date": "1941-04-07",
+    "age": 85,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 42748,
+    "latitude": 40.36294,
+    "longitude": -79.89607,
+    "last_encounter_date": "2026-05-10",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6734 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 646-5294",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100144",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000144-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5546
+      },
+      {
+        "pat_enc_csn_id": "0000144-001",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0000144-002",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 70
+      },
+      {
+        "pat_enc_csn_id": "0000144-003",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000144-004",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000144-005",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000144-006",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000144-007",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000144-008",
+        "contact_date": "2025-06-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000144-009",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5748
+      },
+      {
+        "pat_enc_csn_id": "0000144-010",
+        "contact_date": "2024-10-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000144-011",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000144-012",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000144-013",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 29204
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100144",
+    "diagnoses": [
+      {
+        "dx_id": "0000144-dx-000",
+        "pat_enc_csn_id": "0000144-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000144-acu-001",
+        "pat_enc_csn_id": "0000144-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100144",
+    "summary": {
+      "total_charges": 42748,
+      "total_payments": 29373,
+      "outstanding_balance": 13375,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000014400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 503,
+        "total_payments": 323,
+        "current_balance": 180,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-17",
+        "closed_date": "2026-03-09"
+      },
+      {
+        "hsp_account_id": "HSP000014401",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 42245,
+        "total_payments": 29050,
+        "current_balance": 13195,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-16",
+        "closed_date": "2025-12-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100144",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

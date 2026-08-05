@@ -1,0 +1,281 @@
+{
+  "patient": {
+    "pat_id": "PAT0100680",
+    "med_rec_num": "MRN0200680",
+    "full_name": "Reshma Rodriguez",
+    "birth_date": "1942-03-04",
+    "age": 84,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 15805,
+    "latitude": 40.45974,
+    "longitude": -80.00747,
+    "last_encounter_date": "2026-03-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5976 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 712-9842",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100680",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000680-000",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000680-001",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3881
+      },
+      {
+        "pat_enc_csn_id": "0000680-002",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000680-003",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000680-004",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 5901
+      },
+      {
+        "pat_enc_csn_id": "0000680-005",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000680-006",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000680-007",
+        "contact_date": "2025-09-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000680-008",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000680-009",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000680-010",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000680-011",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000680-012",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3740
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100680",
+    "diagnoses": [
+      {
+        "dx_id": "0000680-dx-000",
+        "pat_enc_csn_id": "0000680-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000680-dx-001",
+        "pat_enc_csn_id": "0000680-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0000680-acu-000",
+        "pat_enc_csn_id": "0000680-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100680",
+    "summary": {
+      "total_charges": 15805,
+      "total_payments": 14107,
+      "outstanding_balance": 1698,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 11428,
+        "total_payments": 10121,
+        "current_balance": 1307,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-11-14",
+        "closed_date": "2025-12-16"
+      },
+      {
+        "hsp_account_id": "HSP000068001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4377,
+        "total_payments": 3986,
+        "current_balance": 391,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-12",
+        "closed_date": "2026-04-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100680",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

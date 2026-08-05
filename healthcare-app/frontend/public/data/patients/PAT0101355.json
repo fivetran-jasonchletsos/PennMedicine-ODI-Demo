@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0101355",
+    "med_rec_num": "MRN0201355",
+    "full_name": "Andrew Greene",
+    "birth_date": "1980-09-07",
+    "age": 46,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 29858,
+    "latitude": 40.44152,
+    "longitude": -80.10099,
+    "last_encounter_date": "2026-04-26",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9460 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 440-7972",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101355",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001355-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001355-001",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0001355-002",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001355-003",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001355-004",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001355-005",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0001355-006",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 24976
+      },
+      {
+        "pat_enc_csn_id": "0001355-007",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 2691
+      },
+      {
+        "pat_enc_csn_id": "0001355-008",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0001355-009",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 359
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101355",
+    "diagnoses": [
+      {
+        "dx_id": "0001355-dx-000",
+        "pat_enc_csn_id": "0001355-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0001355-dx-001",
+        "pat_enc_csn_id": "0001355-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001355-acu-000",
+        "pat_enc_csn_id": "0001355-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-26"
+      },
+      {
+        "dx_id": "0001355-acu-001",
+        "pat_enc_csn_id": "0001355-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      },
+      {
+        "dx_id": "0001355-acu-002",
+        "pat_enc_csn_id": "0001355-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101355",
+    "summary": {
+      "total_charges": 29858,
+      "total_payments": 24476,
+      "outstanding_balance": 5382,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 21660,
+        "total_payments": 17517,
+        "current_balance": 4143,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-24",
+        "closed_date": "2026-01-21"
+      },
+      {
+        "hsp_account_id": "HSP000135501",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5888,
+        "total_payments": 5079,
+        "current_balance": 809,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-15",
+        "closed_date": "2026-05-06"
+      },
+      {
+        "hsp_account_id": "HSP000135502",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2310,
+        "total_payments": 1880,
+        "current_balance": 430,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-23",
+        "closed_date": "2025-11-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101355",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

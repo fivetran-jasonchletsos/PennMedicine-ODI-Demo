@@ -1,0 +1,334 @@
+{
+  "patient": {
+    "pat_id": "PAT0101146",
+    "med_rec_num": "MRN0201146",
+    "full_name": "Sofia Jackson",
+    "birth_date": "1957-12-27",
+    "age": 69,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 4,
+    "encounter_count": 17,
+    "total_charges": 24110,
+    "latitude": 40.52675,
+    "longitude": -79.95536,
+    "last_encounter_date": "2026-03-24",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5400 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 612-4559",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101146",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001146-000",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 2752
+      },
+      {
+        "pat_enc_csn_id": "0001146-001",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 6140
+      },
+      {
+        "pat_enc_csn_id": "0001146-002",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 6346
+      },
+      {
+        "pat_enc_csn_id": "0001146-003",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0001146-004",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001146-005",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0001146-006",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0001146-007",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001146-008",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001146-009",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0001146-010",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 2586
+      },
+      {
+        "pat_enc_csn_id": "0001146-011",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001146-012",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0001146-013",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001146-014",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 2604
+      },
+      {
+        "pat_enc_csn_id": "0001146-015",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0001146-016",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 387
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101146",
+    "diagnoses": [
+      {
+        "dx_id": "0001146-dx-000",
+        "pat_enc_csn_id": "0001146-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0001146-dx-001",
+        "pat_enc_csn_id": "0001146-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001146-dx-002",
+        "pat_enc_csn_id": "0001146-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0001146-dx-003",
+        "pat_enc_csn_id": "0001146-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001146-acu-000",
+        "pat_enc_csn_id": "0001146-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-24"
+      },
+      {
+        "dx_id": "0001146-acu-002",
+        "pat_enc_csn_id": "0001146-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101146",
+    "summary": {
+      "total_charges": 24110,
+      "total_payments": 19441,
+      "outstanding_balance": 4669,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000114600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 24110,
+        "total_payments": 19441,
+        "current_balance": 4669,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101146",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

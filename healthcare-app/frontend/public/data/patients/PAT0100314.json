@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100314",
+    "med_rec_num": "MRN0200314",
+    "full_name": "Reshma Taylor",
+    "birth_date": "2002-12-26",
+    "age": 24,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 8482,
+    "latitude": 40.46985,
+    "longitude": -79.95577,
+    "last_encounter_date": "2026-01-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8604 Forbes St",
+    "state": "PA",
+    "phone": "(412) 430-1430",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100314",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000314-000",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000314-001",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000314-002",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6977
+      },
+      {
+        "pat_enc_csn_id": "0000314-003",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000314-004",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000314-005",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 252
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100314",
+    "diagnoses": [
+      {
+        "dx_id": "0000314-dx-000",
+        "pat_enc_csn_id": "0000314-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000314-dx-001",
+        "pat_enc_csn_id": "0000314-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100314",
+    "summary": {
+      "total_charges": 8482,
+      "total_payments": 8196,
+      "outstanding_balance": 286,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000031400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8482,
+        "total_payments": 8196,
+        "current_balance": 286,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-03-07",
+        "closed_date": "2026-03-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100314",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

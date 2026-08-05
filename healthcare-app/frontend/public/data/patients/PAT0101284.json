@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101284",
+    "med_rec_num": "MRN0201284",
+    "full_name": "Elizabeth Miller",
+    "birth_date": "1992-08-13",
+    "age": 34,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 7373,
+    "latitude": 40.43883,
+    "longitude": -79.96042,
+    "last_encounter_date": "2026-04-30",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "745 Walnut St",
+    "state": "PA",
+    "phone": "(412) 601-6107",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101284",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001284-000",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0001284-001",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0001284-002",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001284-003",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001284-004",
+        "contact_date": "2025-05-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0001284-005",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0001284-006",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001284-007",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001284-008",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001284-009",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001284-010",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5159
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101284",
+    "diagnoses": [
+      {
+        "dx_id": "0001284-acu-000",
+        "pat_enc_csn_id": "0001284-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      },
+      {
+        "dx_id": "0001284-acu-002",
+        "pat_enc_csn_id": "0001284-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-10-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101284",
+    "summary": {
+      "total_charges": 7373,
+      "total_payments": 4547,
+      "outstanding_balance": 2826,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000128400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 7373,
+        "total_payments": 4547,
+        "current_balance": 2826,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101284",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "patient": {
+    "pat_id": "PAT0100333",
+    "med_rec_num": "MRN0200333",
+    "full_name": "Reshma O'Brien",
+    "birth_date": "1986-05-01",
+    "age": 40,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 13351,
+    "latitude": 40.43256,
+    "longitude": -79.93533,
+    "last_encounter_date": "2026-03-10",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1584 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 868-2707",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100333",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000333-000",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 6981
+      },
+      {
+        "pat_enc_csn_id": "0000333-001",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5387
+      },
+      {
+        "pat_enc_csn_id": "0000333-002",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000333-003",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000333-004",
+        "contact_date": "2024-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 359
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100333",
+    "diagnoses": [
+      {
+        "dx_id": "0000333-dx-000",
+        "pat_enc_csn_id": "0000333-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000333-acu-000",
+        "pat_enc_csn_id": "0000333-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      },
+      {
+        "dx_id": "0000333-acu-002",
+        "pat_enc_csn_id": "0000333-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100333",
+    "summary": {
+      "total_charges": 13351,
+      "total_payments": 9252,
+      "outstanding_balance": 4099,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000033300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 11295,
+        "total_payments": 7812,
+        "current_balance": 3483,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-24",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000033301",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2056,
+        "total_payments": 1440,
+        "current_balance": 616,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100333",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

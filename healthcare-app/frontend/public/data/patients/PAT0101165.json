@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0101165",
+    "med_rec_num": "MRN0201165",
+    "full_name": "Carol Lopez",
+    "birth_date": "1960-04-14",
+    "age": 66,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 9037,
+    "latitude": 40.52539,
+    "longitude": -79.95494,
+    "last_encounter_date": "2026-01-17",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4107 Forbes St",
+    "state": "PA",
+    "phone": "(412) 308-5890",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101165",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001165-000",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 2824
+      },
+      {
+        "pat_enc_csn_id": "0001165-001",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0001165-002",
+        "contact_date": "2025-11-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001165-003",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 1771
+      },
+      {
+        "pat_enc_csn_id": "0001165-004",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2270
+      },
+      {
+        "pat_enc_csn_id": "0001165-005",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0001165-006",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0001165-007",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001165-008",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0001165-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0001165-010",
+        "contact_date": "2024-06-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 217
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101165",
+    "diagnoses": [
+      {
+        "dx_id": "0001165-dx-000",
+        "pat_enc_csn_id": "0001165-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001165-acu-000",
+        "pat_enc_csn_id": "0001165-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-17"
+      },
+      {
+        "dx_id": "0001165-acu-001",
+        "pat_enc_csn_id": "0001165-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-07"
+      },
+      {
+        "dx_id": "0001165-acu-002",
+        "pat_enc_csn_id": "0001165-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101165",
+    "summary": {
+      "total_charges": 9037,
+      "total_payments": 7560,
+      "outstanding_balance": 1477,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000116500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9037,
+        "total_payments": 7560,
+        "current_balance": 1477,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-11",
+        "closed_date": "2026-03-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101165",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

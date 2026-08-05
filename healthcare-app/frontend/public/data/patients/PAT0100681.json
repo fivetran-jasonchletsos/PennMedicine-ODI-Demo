@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0100681",
+    "med_rec_num": "MRN0200681",
+    "full_name": "Andrew Jackson",
+    "birth_date": "1964-03-17",
+    "age": 62,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 5763,
+    "latitude": 40.47396,
+    "longitude": -79.96203,
+    "last_encounter_date": "2026-04-02",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6717 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 569-7903",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100681",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000681-000",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000681-001",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000681-002",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0000681-003",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000681-004",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 1549
+      },
+      {
+        "pat_enc_csn_id": "0000681-005",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 2741
+      },
+      {
+        "pat_enc_csn_id": "0000681-006",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000681-007",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 318
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100681",
+    "diagnoses": [
+      {
+        "dx_id": "0000681-dx-000",
+        "pat_enc_csn_id": "0000681-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000681-dx-001",
+        "pat_enc_csn_id": "0000681-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000681-acu-001",
+        "pat_enc_csn_id": "0000681-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0000681-acu-002",
+        "pat_enc_csn_id": "0000681-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100681",
+    "summary": {
+      "total_charges": 5763,
+      "total_payments": 4139,
+      "outstanding_balance": 1624,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 5763,
+        "total_payments": 4139,
+        "current_balance": 1624,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100681",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

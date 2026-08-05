@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100082",
+    "med_rec_num": "MRN0200082",
+    "full_name": "Susan Kim",
+    "birth_date": "1998-01-26",
+    "age": 28,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 36134,
+    "latitude": 40.68345,
+    "longitude": -80.10053,
+    "last_encounter_date": "2026-02-21",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "176 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 320-6616",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100082",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000082-000",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000082-001",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000082-002",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 34889
+      },
+      {
+        "pat_enc_csn_id": "0000082-003",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0000082-004",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000082-005",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000082-006",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 145
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100082",
+    "diagnoses": [
+      {
+        "dx_id": "0000082-dx-000",
+        "pat_enc_csn_id": "0000082-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000082-acu-000",
+        "pat_enc_csn_id": "0000082-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      },
+      {
+        "dx_id": "0000082-acu-001",
+        "pat_enc_csn_id": "0000082-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100082",
+    "summary": {
+      "total_charges": 36134,
+      "total_payments": 26535,
+      "outstanding_balance": 9599,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000008200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 36134,
+        "total_payments": 26535,
+        "current_balance": 9599,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-27",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100082",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

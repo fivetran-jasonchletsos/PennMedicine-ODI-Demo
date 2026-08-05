@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0100868",
+    "med_rec_num": "MRN0200868",
+    "full_name": "Michelle Garcia",
+    "birth_date": "1963-11-25",
+    "age": 63,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 13069,
+    "latitude": 40.42528,
+    "longitude": -79.78996,
+    "last_encounter_date": "2025-12-14",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6315 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 316-3081",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100868",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000868-000",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000868-001",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000868-002",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000868-003",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000868-004",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000868-005",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000868-006",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 5596
+      },
+      {
+        "pat_enc_csn_id": "0000868-007",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000868-008",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 2693
+      },
+      {
+        "pat_enc_csn_id": "0000868-009",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2151
+      },
+      {
+        "pat_enc_csn_id": "0000868-010",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000868-011",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000868-012",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100868",
+    "diagnoses": [
+      {
+        "dx_id": "0000868-dx-000",
+        "pat_enc_csn_id": "0000868-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000868-acu-001",
+        "pat_enc_csn_id": "0000868-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100868",
+    "summary": {
+      "total_charges": 13069,
+      "total_payments": 9032,
+      "outstanding_balance": 4037,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2174,
+        "total_payments": 1994,
+        "current_balance": 180,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-06-11",
+        "closed_date": "2026-03-10"
+      },
+      {
+        "hsp_account_id": "HSP000086801",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2492,
+        "total_payments": 1617,
+        "current_balance": 875,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-21",
+        "closed_date": "2026-01-31"
+      },
+      {
+        "hsp_account_id": "HSP000086802",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8403,
+        "total_payments": 5421,
+        "current_balance": 2982,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-11",
+        "closed_date": "2026-04-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100868",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

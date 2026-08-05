@@ -1,0 +1,383 @@
+{
+  "patient": {
+    "pat_id": "PAT0101038",
+    "med_rec_num": "MRN0201038",
+    "full_name": "Margaret Martin",
+    "birth_date": "2012-03-06",
+    "age": 14,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 5,
+    "encounter_count": 22,
+    "total_charges": 53999,
+    "latitude": 40.44457,
+    "longitude": -79.99961,
+    "last_encounter_date": "2026-04-17",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4960 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 600-2559",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101038",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001038-000",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0001038-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001038-002",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001038-003",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 6776
+      },
+      {
+        "pat_enc_csn_id": "0001038-004",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0001038-005",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 1826
+      },
+      {
+        "pat_enc_csn_id": "0001038-006",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 36930
+      },
+      {
+        "pat_enc_csn_id": "0001038-007",
+        "contact_date": "2025-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001038-008",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0001038-009",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 80
+      },
+      {
+        "pat_enc_csn_id": "0001038-010",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0001038-011",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0001038-012",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0001038-013",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0001038-014",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 4152
+      },
+      {
+        "pat_enc_csn_id": "0001038-015",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001038-016",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0001038-017",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0001038-018",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001038-019",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101038",
+    "diagnoses": [
+      {
+        "dx_id": "0001038-dx-000",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001038-dx-001",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001038-dx-002",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001038-dx-003",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001038-dx-004",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001038-acu-000",
+        "pat_enc_csn_id": "0001038-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-17"
+      },
+      {
+        "dx_id": "0001038-acu-001",
+        "pat_enc_csn_id": "0001038-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101038",
+    "summary": {
+      "total_charges": 53999,
+      "total_payments": 42146,
+      "outstanding_balance": 11853,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 13328,
+        "total_payments": 10422,
+        "current_balance": 2906,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-11-13",
+        "closed_date": "2025-11-26"
+      },
+      {
+        "hsp_account_id": "HSP000103801",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 40671,
+        "total_payments": 31724,
+        "current_balance": 8947,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-03-11",
+        "closed_date": "2026-05-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101038",
+    "comparables": [
+      {
+        "pat_id": "PAT0105536",
+        "full_name": "Elizabeth Nguyen",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 11,
+        "total_charges": 4970
+      },
+      {
+        "pat_id": "PAT0106305",
+        "full_name": "Hassan Jackson",
+        "age": 18,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 11,
+        "total_charges": 42531
+      },
+      {
+        "pat_id": "PAT0106398",
+        "full_name": "Carol Jackson",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 8,
+        "total_charges": 1932
+      },
+      {
+        "pat_id": "PAT0107452",
+        "full_name": "Donna Wong",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 14132
+      },
+      {
+        "pat_id": "PAT0109423",
+        "full_name": "Janet Wong",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17501
+      },
+      {
+        "pat_id": "PAT0105829",
+        "full_name": "Susan Park",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 13,
+        "total_charges": 27209
+      }
+    ]
+  }
+}

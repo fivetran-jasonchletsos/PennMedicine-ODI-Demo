@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0100904",
+    "med_rec_num": "MRN0200904",
+    "full_name": "Elizabeth Schmidt",
+    "birth_date": "2004-01-09",
+    "age": 22,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.47254,
+    "longitude": -79.83456,
+    "last_encounter_date": null,
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6360 Penn St",
+    "state": "PA",
+    "phone": "(412) 301-2343",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100904",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100904",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100904",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090400",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-29",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100904",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

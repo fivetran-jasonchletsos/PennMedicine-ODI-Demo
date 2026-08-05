@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0100471",
+    "med_rec_num": "MRN0200471",
+    "full_name": "Daniel Davis",
+    "birth_date": "1971-09-16",
+    "age": 55,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 5702,
+    "latitude": 40.45765,
+    "longitude": -80.00532,
+    "last_encounter_date": "2025-08-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "648 Centre St",
+    "state": "PA",
+    "phone": "(412) 231-5529",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100471",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000471-000",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5284
+      },
+      {
+        "pat_enc_csn_id": "0000471-001",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000471-002",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 215
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100471",
+    "diagnoses": [
+      {
+        "dx_id": "0000471-dx-000",
+        "pat_enc_csn_id": "0000471-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000471-acu-000",
+        "pat_enc_csn_id": "0000471-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-08"
+      },
+      {
+        "dx_id": "0000471-acu-001",
+        "pat_enc_csn_id": "0000471-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2024-10-31"
+      },
+      {
+        "dx_id": "0000471-acu-002",
+        "pat_enc_csn_id": "0000471-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-05-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100471",
+    "summary": {
+      "total_charges": 5702,
+      "total_payments": 4498,
+      "outstanding_balance": 1204,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000047100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5702,
+        "total_payments": 4498,
+        "current_balance": 1204,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-10-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100471",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0100605",
+    "med_rec_num": "MRN0200605",
+    "full_name": "Andrew Jackson",
+    "birth_date": "1974-05-02",
+    "age": 52,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 3854,
+    "latitude": 40.67857,
+    "longitude": -80.1016,
+    "last_encounter_date": "2026-03-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7613 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 643-1838",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100605",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000605-000",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000605-001",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000605-002",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000605-003",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0000605-004",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000605-005",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000605-006",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000605-007",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000605-008",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000605-009",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1536
+      },
+      {
+        "pat_enc_csn_id": "0000605-010",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 177
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100605",
+    "diagnoses": [
+      {
+        "dx_id": "0000605-dx-000",
+        "pat_enc_csn_id": "0000605-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000605-dx-001",
+        "pat_enc_csn_id": "0000605-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000605-dx-002",
+        "pat_enc_csn_id": "0000605-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000605-acu-001",
+        "pat_enc_csn_id": "0000605-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100605",
+    "summary": {
+      "total_charges": 3854,
+      "total_payments": 2585,
+      "outstanding_balance": 1269,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000060500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3854,
+        "total_payments": 2585,
+        "current_balance": 1269,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-03-27",
+        "closed_date": "2025-11-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100605",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

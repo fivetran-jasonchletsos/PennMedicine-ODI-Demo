@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100906",
+    "med_rec_num": "MRN0200906",
+    "full_name": "Sandra Martin",
+    "birth_date": "1970-02-08",
+    "age": 56,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 1316,
+    "latitude": 40.44206,
+    "longitude": -79.93264,
+    "last_encounter_date": "2026-03-25",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4354 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 442-4763",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100906",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000906-000",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000906-001",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000906-002",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000906-003",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000906-004",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 228
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100906",
+    "diagnoses": [
+      {
+        "dx_id": "0000906-dx-000",
+        "pat_enc_csn_id": "0000906-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000906-dx-001",
+        "pat_enc_csn_id": "0000906-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000906-acu-001",
+        "pat_enc_csn_id": "0000906-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-02"
+      },
+      {
+        "dx_id": "0000906-acu-002",
+        "pat_enc_csn_id": "0000906-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100906",
+    "summary": {
+      "total_charges": 1316,
+      "total_payments": 943,
+      "outstanding_balance": 373,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1316,
+        "total_payments": 943,
+        "current_balance": 373,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-11",
+        "closed_date": "2026-04-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100906",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

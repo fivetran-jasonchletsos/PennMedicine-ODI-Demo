@@ -1,0 +1,383 @@
+{
+  "patient": {
+    "pat_id": "PAT0101124",
+    "med_rec_num": "MRN0201124",
+    "full_name": "Thomas Jones",
+    "birth_date": "1971-05-07",
+    "age": 55,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 4,
+    "encounter_count": 20,
+    "total_charges": 61568,
+    "latitude": 40.35102,
+    "longitude": -79.85183,
+    "last_encounter_date": "2026-02-08",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7835 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 648-4466",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101124",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001124-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001124-001",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001124-002",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001124-003",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4893
+      },
+      {
+        "pat_enc_csn_id": "0001124-004",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0001124-005",
+        "contact_date": "2025-10-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001124-006",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001124-007",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001124-008",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0001124-009",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 7940
+      },
+      {
+        "pat_enc_csn_id": "0001124-010",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 5817
+      },
+      {
+        "pat_enc_csn_id": "0001124-011",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 36149
+      },
+      {
+        "pat_enc_csn_id": "0001124-012",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0001124-013",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0001124-014",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001124-015",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 2852
+      },
+      {
+        "pat_enc_csn_id": "0001124-016",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001124-017",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0001124-018",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 82
+      },
+      {
+        "pat_enc_csn_id": "0001124-019",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 337
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101124",
+    "diagnoses": [
+      {
+        "dx_id": "0001124-dx-000",
+        "pat_enc_csn_id": "0001124-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0001124-dx-001",
+        "pat_enc_csn_id": "0001124-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0001124-dx-002",
+        "pat_enc_csn_id": "0001124-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001124-dx-003",
+        "pat_enc_csn_id": "0001124-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001124-acu-000",
+        "pat_enc_csn_id": "0001124-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      },
+      {
+        "dx_id": "0001124-acu-001",
+        "pat_enc_csn_id": "0001124-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-28"
+      },
+      {
+        "dx_id": "0001124-acu-002",
+        "pat_enc_csn_id": "0001124-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101124",
+    "summary": {
+      "total_charges": 61568,
+      "total_payments": 45708,
+      "outstanding_balance": 15860,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000112400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 44668,
+        "total_payments": 30789,
+        "current_balance": 13879,
+        "primary_payer": "Cigna",
+        "opened_date": "2026-01-28",
+        "closed_date": "2026-03-12"
+      },
+      {
+        "hsp_account_id": "HSP000112401",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 16900,
+        "total_payments": 14919,
+        "current_balance": 1981,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-08",
+        "closed_date": "2026-04-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101124",
+    "comparables": [
+      {
+        "pat_id": "PAT0100033",
+        "full_name": "Sofia Thomas",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 26167
+      },
+      {
+        "pat_id": "PAT0100087",
+        "full_name": "Patricia Davis",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 7,
+        "total_charges": 9979
+      },
+      {
+        "pat_id": "PAT0100152",
+        "full_name": "Patricia Walsh",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 13388
+      },
+      {
+        "pat_id": "PAT0100153",
+        "full_name": "James Rodriguez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 12,
+        "total_charges": 3091
+      },
+      {
+        "pat_id": "PAT0100170",
+        "full_name": "Margaret Jackson",
+        "age": 52,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1764
+      },
+      {
+        "pat_id": "PAT0100198",
+        "full_name": "Mary Anderson",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 4220
+      }
+    ]
+  }
+}

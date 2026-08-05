@@ -1,0 +1,364 @@
+{
+  "patient": {
+    "pat_id": "PAT0100443",
+    "med_rec_num": "MRN0200443",
+    "full_name": "Carol Thomas",
+    "birth_date": "1943-09-27",
+    "age": 83,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 3,
+    "encounter_count": 21,
+    "total_charges": 17404,
+    "latitude": 40.34872,
+    "longitude": -79.84993,
+    "last_encounter_date": "2026-05-08",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8355 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 299-5434",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100443",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000443-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000443-001",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000443-002",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000443-003",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000443-004",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 6732
+      },
+      {
+        "pat_enc_csn_id": "0000443-005",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1508
+      },
+      {
+        "pat_enc_csn_id": "0000443-006",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000443-007",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000443-008",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000443-009",
+        "contact_date": "2025-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000443-010",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000443-011",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3779
+      },
+      {
+        "pat_enc_csn_id": "0000443-012",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0000443-013",
+        "contact_date": "2024-10-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000443-014",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000443-015",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000443-016",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000443-017",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000443-018",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000443-019",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 161
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100443",
+    "diagnoses": [
+      {
+        "dx_id": "0000443-dx-000",
+        "pat_enc_csn_id": "0000443-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      },
+      {
+        "dx_id": "0000443-dx-001",
+        "pat_enc_csn_id": "0000443-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000443-dx-002",
+        "pat_enc_csn_id": "0000443-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000443-acu-000",
+        "pat_enc_csn_id": "0000443-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0000443-acu-001",
+        "pat_enc_csn_id": "0000443-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000443-acu-002",
+        "pat_enc_csn_id": "0000443-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100443",
+    "summary": {
+      "total_charges": 17404,
+      "total_payments": 14904,
+      "outstanding_balance": 2500,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000044300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 17404,
+        "total_payments": 14904,
+        "current_balance": 2500,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-09-30",
+        "closed_date": "2026-02-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100443",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

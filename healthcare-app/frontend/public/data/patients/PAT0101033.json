@@ -1,0 +1,204 @@
+{
+  "patient": {
+    "pat_id": "PAT0101033",
+    "med_rec_num": "MRN0201033",
+    "full_name": "Andrew Brown",
+    "birth_date": "1967-11-01",
+    "age": 59,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 28652,
+    "latitude": 40.33197,
+    "longitude": -80.04026,
+    "last_encounter_date": "2025-11-29",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6888 Centre St",
+    "state": "PA",
+    "phone": "(412) 596-9530",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101033",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001033-000",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0001033-001",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001033-002",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 23000
+      },
+      {
+        "pat_enc_csn_id": "0001033-003",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0001033-004",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001033-005",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001033-006",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3728
+      },
+      {
+        "pat_enc_csn_id": "0001033-007",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 309
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101033",
+    "diagnoses": [
+      {
+        "dx_id": "0001033-dx-000",
+        "pat_enc_csn_id": "0001033-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101033",
+    "summary": {
+      "total_charges": 28652,
+      "total_payments": 21662,
+      "outstanding_balance": 6990,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 28652,
+        "total_payments": 21662,
+        "current_balance": 6990,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-01-08",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101033",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

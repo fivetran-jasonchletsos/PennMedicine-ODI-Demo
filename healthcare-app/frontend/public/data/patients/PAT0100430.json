@@ -1,0 +1,239 @@
+{
+  "patient": {
+    "pat_id": "PAT0100430",
+    "med_rec_num": "MRN0200430",
+    "full_name": "Hassan Jackson",
+    "birth_date": "1962-07-11",
+    "age": 64,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 34416,
+    "latitude": 40.68199,
+    "longitude": -80.10464,
+    "last_encounter_date": "2026-04-16",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9804 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 817-5007",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100430",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000430-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000430-001",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000430-002",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 46
+      },
+      {
+        "pat_enc_csn_id": "0000430-003",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0000430-004",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 369
+      },
+      {
+        "pat_enc_csn_id": "0000430-005",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000430-006",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 32583
+      },
+      {
+        "pat_enc_csn_id": "0000430-007",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 386
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100430",
+    "diagnoses": [
+      {
+        "dx_id": "0000430-dx-000",
+        "pat_enc_csn_id": "0000430-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000430-acu-000",
+        "pat_enc_csn_id": "0000430-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0000430-acu-001",
+        "pat_enc_csn_id": "0000430-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0000430-acu-002",
+        "pat_enc_csn_id": "0000430-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100430",
+    "summary": {
+      "total_charges": 34416,
+      "total_payments": 26535,
+      "outstanding_balance": 7881,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000043000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 28080,
+        "total_payments": 21361,
+        "current_balance": 6719,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-07",
+        "closed_date": "2026-04-27"
+      },
+      {
+        "hsp_account_id": "HSP000043001",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 6336,
+        "total_payments": 5174,
+        "current_balance": 1162,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-30",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100430",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0101436",
+    "med_rec_num": "MRN0201436",
+    "full_name": "Michael Greene",
+    "birth_date": "1982-11-05",
+    "age": 44,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 7272,
+    "latitude": 40.29903,
+    "longitude": -79.5417,
+    "last_encounter_date": "2026-03-29",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5962 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 284-1500",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101436",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001436-000",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0001436-001",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0001436-002",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001436-003",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0001436-004",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 5906
+      },
+      {
+        "pat_enc_csn_id": "0001436-005",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 375
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101436",
+    "diagnoses": [
+      {
+        "dx_id": "0001436-dx-000",
+        "pat_enc_csn_id": "0001436-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0001436-dx-001",
+        "pat_enc_csn_id": "0001436-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0001436-acu-000",
+        "pat_enc_csn_id": "0001436-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      },
+      {
+        "dx_id": "0001436-acu-002",
+        "pat_enc_csn_id": "0001436-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-03-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101436",
+    "summary": {
+      "total_charges": 7272,
+      "total_payments": 4614,
+      "outstanding_balance": 2658,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000143600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7272,
+        "total_payments": 4614,
+        "current_balance": 2658,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-04-11",
+        "closed_date": "2026-01-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101436",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

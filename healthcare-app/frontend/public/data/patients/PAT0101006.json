@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0101006",
+    "med_rec_num": "MRN0201006",
+    "full_name": "Carlos Chen",
+    "birth_date": "1974-03-03",
+    "age": 52,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 368,
+    "latitude": 40.45256,
+    "longitude": -80.00518,
+    "last_encounter_date": "2026-05-10",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6252 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 708-3950",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101006",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001006-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0001006-001",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0001006-002",
+        "contact_date": "2024-07-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 117
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101006",
+    "diagnoses": [
+      {
+        "dx_id": "0001006-dx-000",
+        "pat_enc_csn_id": "0001006-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001006-acu-000",
+        "pat_enc_csn_id": "0001006-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-10"
+      },
+      {
+        "dx_id": "0001006-acu-001",
+        "pat_enc_csn_id": "0001006-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-11-18"
+      },
+      {
+        "dx_id": "0001006-acu-002",
+        "pat_enc_csn_id": "0001006-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-07-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101006",
+    "summary": {
+      "total_charges": 368,
+      "total_payments": 288,
+      "outstanding_balance": 80,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000100600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 368,
+        "total_payments": 288,
+        "current_balance": 80,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-26",
+        "closed_date": "2026-02-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101006",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

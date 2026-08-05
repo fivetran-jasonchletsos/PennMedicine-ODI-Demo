@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0101309",
+    "med_rec_num": "MRN0201309",
+    "full_name": "Ashley Hernandez",
+    "birth_date": "2016-10-24",
+    "age": 10,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 10354,
+    "latitude": 40.45437,
+    "longitude": -80.00646,
+    "last_encounter_date": "2026-03-07",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4039 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 480-6119",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101309",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001309-000",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0001309-001",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0001309-002",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6156
+      },
+      {
+        "pat_enc_csn_id": "0001309-003",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2227
+      },
+      {
+        "pat_enc_csn_id": "0001309-004",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0001309-005",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0001309-006",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001309-007",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001309-008",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001309-009",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101309",
+    "diagnoses": [
+      {
+        "dx_id": "0001309-dx-000",
+        "pat_enc_csn_id": "0001309-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001309-dx-001",
+        "pat_enc_csn_id": "0001309-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001309-acu-000",
+        "pat_enc_csn_id": "0001309-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      },
+      {
+        "dx_id": "0001309-acu-001",
+        "pat_enc_csn_id": "0001309-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101309",
+    "summary": {
+      "total_charges": 10354,
+      "total_payments": 8271,
+      "outstanding_balance": 2083,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000130900",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 6576,
+        "total_payments": 5437,
+        "current_balance": 1139,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000130901",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3778,
+        "total_payments": 2834,
+        "current_balance": 944,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-30",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101309",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

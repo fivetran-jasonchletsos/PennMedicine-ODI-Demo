@@ -1,0 +1,253 @@
+{
+  "patient": {
+    "pat_id": "PAT0101331",
+    "med_rec_num": "MRN0201331",
+    "full_name": "Daniel Patel",
+    "birth_date": "1965-12-17",
+    "age": 61,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 19766,
+    "latitude": 40.45131,
+    "longitude": -80.00978,
+    "last_encounter_date": "2026-05-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9066 Centre St",
+    "state": "PA",
+    "phone": "(412) 280-3061",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101331",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001331-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 10977
+      },
+      {
+        "pat_enc_csn_id": "0001331-001",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0001331-002",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 6333
+      },
+      {
+        "pat_enc_csn_id": "0001331-003",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001331-004",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0001331-005",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0001331-006",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0001331-007",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001331-008",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0001331-009",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001331-010",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 400
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101331",
+    "diagnoses": [
+      {
+        "dx_id": "0001331-acu-000",
+        "pat_enc_csn_id": "0001331-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0001331-acu-001",
+        "pat_enc_csn_id": "0001331-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101331",
+    "summary": {
+      "total_charges": 19766,
+      "total_payments": 14515,
+      "outstanding_balance": 5251,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5908,
+        "total_payments": 3888,
+        "current_balance": 2020,
+        "primary_payer": "Cigna",
+        "opened_date": "2023-11-25",
+        "closed_date": "2026-01-22"
+      },
+      {
+        "hsp_account_id": "HSP000133101",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 13858,
+        "total_payments": 10627,
+        "current_balance": 3231,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-12",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101331",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "patient": {
+    "pat_id": "PAT0100477",
+    "med_rec_num": "MRN0200477",
+    "full_name": "Mark Jackson",
+    "birth_date": "1984-02-21",
+    "age": 42,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 3,
+    "total_charges": 5604,
+    "latitude": 40.44188,
+    "longitude": -79.9245,
+    "last_encounter_date": "2025-12-30",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5986 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 259-6517",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100477",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000477-000",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 3814
+      },
+      {
+        "pat_enc_csn_id": "0000477-001",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 1457
+      },
+      {
+        "pat_enc_csn_id": "0000477-002",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 333
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100477",
+    "diagnoses": [
+      {
+        "dx_id": "0000477-acu-000",
+        "pat_enc_csn_id": "0000477-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-30"
+      },
+      {
+        "dx_id": "0000477-acu-001",
+        "pat_enc_csn_id": "0000477-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-03-15"
+      },
+      {
+        "dx_id": "0000477-acu-002",
+        "pat_enc_csn_id": "0000477-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2024-11-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100477",
+    "summary": {
+      "total_charges": 5604,
+      "total_payments": 3939,
+      "outstanding_balance": 1665,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000047700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5604,
+        "total_payments": 3939,
+        "current_balance": 1665,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-04",
+        "closed_date": "2026-03-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100477",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

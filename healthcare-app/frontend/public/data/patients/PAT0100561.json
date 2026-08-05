@@ -1,0 +1,373 @@
+{
+  "patient": {
+    "pat_id": "PAT0100561",
+    "med_rec_num": "MRN0200561",
+    "full_name": "Kenji Khan",
+    "birth_date": "1932-12-15",
+    "age": 94,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 4,
+    "encounter_count": 19,
+    "total_charges": 20949,
+    "latitude": 40.43967,
+    "longitude": -80.00177,
+    "last_encounter_date": "2026-04-20",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7940 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 738-3056",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100561",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000561-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 4344
+      },
+      {
+        "pat_enc_csn_id": "0000561-001",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000561-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 2098
+      },
+      {
+        "pat_enc_csn_id": "0000561-003",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000561-004",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 4790
+      },
+      {
+        "pat_enc_csn_id": "0000561-005",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000561-006",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 1974
+      },
+      {
+        "pat_enc_csn_id": "0000561-007",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000561-008",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0000561-009",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000561-010",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 122
+      },
+      {
+        "pat_enc_csn_id": "0000561-011",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0000561-012",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000561-013",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000561-014",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 1355
+      },
+      {
+        "pat_enc_csn_id": "0000561-015",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000561-016",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000561-017",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 3270
+      },
+      {
+        "pat_enc_csn_id": "0000561-018",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 202
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100561",
+    "diagnoses": [
+      {
+        "dx_id": "0000561-dx-000",
+        "pat_enc_csn_id": "0000561-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000561-dx-001",
+        "pat_enc_csn_id": "0000561-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0000561-dx-002",
+        "pat_enc_csn_id": "0000561-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0000561-dx-003",
+        "pat_enc_csn_id": "0000561-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1972-05-13"
+      },
+      {
+        "dx_id": "0000561-acu-000",
+        "pat_enc_csn_id": "0000561-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0000561-acu-001",
+        "pat_enc_csn_id": "0000561-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-08"
+      },
+      {
+        "dx_id": "0000561-acu-002",
+        "pat_enc_csn_id": "0000561-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100561",
+    "summary": {
+      "total_charges": 20949,
+      "total_payments": 13645,
+      "outstanding_balance": 7304,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000056100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 17025,
+        "total_payments": 10265,
+        "current_balance": 6760,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-10",
+        "closed_date": "2025-11-27"
+      },
+      {
+        "hsp_account_id": "HSP000056101",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3924,
+        "total_payments": 3380,
+        "current_balance": 544,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-02",
+        "closed_date": "2026-04-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100561",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

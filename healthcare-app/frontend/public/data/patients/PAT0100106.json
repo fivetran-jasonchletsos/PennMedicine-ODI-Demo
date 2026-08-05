@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100106",
+    "med_rec_num": "MRN0200106",
+    "full_name": "Janet Singh",
+    "birth_date": "1967-11-06",
+    "age": 59,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 8462,
+    "latitude": 40.44173,
+    "longitude": -80.09943,
+    "last_encounter_date": "2026-04-21",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9344 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 930-9041",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100106",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000106-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000106-001",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000106-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000106-003",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000106-004",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000106-005",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000106-006",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 5357
+      },
+      {
+        "pat_enc_csn_id": "0000106-007",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000106-008",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000106-009",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000106-010",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000106-011",
+        "contact_date": "2024-08-08",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000106-012",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 268
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100106",
+    "diagnoses": [
+      {
+        "dx_id": "0000106-dx-000",
+        "pat_enc_csn_id": "0000106-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000106-acu-001",
+        "pat_enc_csn_id": "0000106-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      },
+      {
+        "dx_id": "0000106-acu-002",
+        "pat_enc_csn_id": "0000106-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100106",
+    "summary": {
+      "total_charges": 8462,
+      "total_payments": 6367,
+      "outstanding_balance": 2095,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 8462,
+        "total_payments": 6367,
+        "current_balance": 2095,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-20",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100106",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

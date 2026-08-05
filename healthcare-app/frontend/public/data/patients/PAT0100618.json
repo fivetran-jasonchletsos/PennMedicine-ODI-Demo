@@ -1,0 +1,248 @@
+{
+  "patient": {
+    "pat_id": "PAT0100618",
+    "med_rec_num": "MRN0200618",
+    "full_name": "Jennifer Chen",
+    "birth_date": "1951-01-05",
+    "age": 75,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 3993,
+    "latitude": 40.45444,
+    "longitude": -80.00245,
+    "last_encounter_date": "2026-02-13",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8815 Highland St",
+    "state": "PA",
+    "phone": "(412) 785-8006",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100618",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000618-000",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000618-001",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000618-002",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000618-003",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000618-004",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0000618-005",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000618-006",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000618-007",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0000618-008",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 2017
+      },
+      {
+        "pat_enc_csn_id": "0000618-009",
+        "contact_date": "2024-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 281
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100618",
+    "diagnoses": [
+      {
+        "dx_id": "0000618-dx-000",
+        "pat_enc_csn_id": "0000618-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000618-dx-001",
+        "pat_enc_csn_id": "0000618-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1975-05-13"
+      },
+      {
+        "dx_id": "0000618-acu-000",
+        "pat_enc_csn_id": "0000618-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-13"
+      },
+      {
+        "dx_id": "0000618-acu-002",
+        "pat_enc_csn_id": "0000618-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-10-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100618",
+    "summary": {
+      "total_charges": 3993,
+      "total_payments": 3614,
+      "outstanding_balance": 379,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000061800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3993,
+        "total_payments": 3614,
+        "current_balance": 379,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-24",
+        "closed_date": "2025-12-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100618",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

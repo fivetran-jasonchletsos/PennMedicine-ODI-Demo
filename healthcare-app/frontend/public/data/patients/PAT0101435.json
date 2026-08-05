@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101435",
+    "med_rec_num": "MRN0201435",
+    "full_name": "Mark Russo",
+    "birth_date": "2005-11-06",
+    "age": 21,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 314,
+    "latitude": 40.47747,
+    "longitude": -79.83271,
+    "last_encounter_date": "2024-06-06",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6028 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 975-9167",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101435",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001435-000",
+        "contact_date": "2024-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 314
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101435",
+    "diagnoses": [
+      {
+        "dx_id": "0001435-acu-000",
+        "pat_enc_csn_id": "0001435-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-06-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101435",
+    "summary": {
+      "total_charges": 314,
+      "total_payments": 257,
+      "outstanding_balance": 57,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000143500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 314,
+        "total_payments": 257,
+        "current_balance": 57,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-11-09",
+        "closed_date": "2026-01-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101435",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

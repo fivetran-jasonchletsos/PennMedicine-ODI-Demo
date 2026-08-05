@@ -1,0 +1,383 @@
+{
+  "patient": {
+    "pat_id": "PAT0101036",
+    "med_rec_num": "MRN0201036",
+    "full_name": "Kenji Singh",
+    "birth_date": "1951-05-19",
+    "age": 75,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 5,
+    "encounter_count": 20,
+    "total_charges": 23601,
+    "latitude": 40.37098,
+    "longitude": -80.04577,
+    "last_encounter_date": "2026-05-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6847 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 731-4953",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101036",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001036-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0001036-001",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001036-002",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0001036-003",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001036-004",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001036-005",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0001036-006",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001036-007",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0001036-008",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001036-009",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0001036-010",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 10329
+      },
+      {
+        "pat_enc_csn_id": "0001036-011",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001036-012",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0001036-013",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0001036-014",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001036-015",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001036-016",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 5959
+      },
+      {
+        "pat_enc_csn_id": "0001036-017",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0001036-018",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0001036-019",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 2639
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101036",
+    "diagnoses": [
+      {
+        "dx_id": "0001036-dx-000",
+        "pat_enc_csn_id": "0001036-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1973-05-13"
+      },
+      {
+        "dx_id": "0001036-dx-001",
+        "pat_enc_csn_id": "0001036-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0001036-dx-002",
+        "pat_enc_csn_id": "0001036-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0001036-dx-003",
+        "pat_enc_csn_id": "0001036-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0001036-dx-004",
+        "pat_enc_csn_id": "0001036-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001036-acu-001",
+        "pat_enc_csn_id": "0001036-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-23"
+      },
+      {
+        "dx_id": "0001036-acu-002",
+        "pat_enc_csn_id": "0001036-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101036",
+    "summary": {
+      "total_charges": 23601,
+      "total_payments": 18959,
+      "outstanding_balance": 4642,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103600",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 20056,
+        "total_payments": 16495,
+        "current_balance": 3561,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-02-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000103601",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3545,
+        "total_payments": 2464,
+        "current_balance": 1081,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-06-07",
+        "closed_date": "2026-01-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101036",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}

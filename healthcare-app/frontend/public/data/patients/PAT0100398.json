@@ -1,0 +1,222 @@
+{
+  "patient": {
+    "pat_id": "PAT0100398",
+    "med_rec_num": "MRN0200398",
+    "full_name": "James Khan",
+    "birth_date": "1979-08-06",
+    "age": 47,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 1852,
+    "latitude": 40.34494,
+    "longitude": -79.84411,
+    "last_encounter_date": "2026-03-12",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7780 Forbes St",
+    "state": "PA",
+    "phone": "(412) 637-1869",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100398",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000398-000",
+        "contact_date": "2026-03-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000398-001",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000398-002",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000398-003",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000398-004",
+        "contact_date": "2025-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000398-005",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0000398-006",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000398-007",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000398-008",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 258
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100398",
+    "diagnoses": [
+      {
+        "dx_id": "0000398-acu-000",
+        "pat_enc_csn_id": "0000398-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-12"
+      },
+      {
+        "dx_id": "0000398-acu-001",
+        "pat_enc_csn_id": "0000398-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100398",
+    "summary": {
+      "total_charges": 1852,
+      "total_payments": 1127,
+      "outstanding_balance": 725,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000039800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1852,
+        "total_payments": 1127,
+        "current_balance": 725,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-11-27",
+        "closed_date": "2025-11-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100398",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

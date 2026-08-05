@@ -1,0 +1,194 @@
+{
+  "patient": {
+    "pat_id": "PAT0100628",
+    "med_rec_num": "MRN0200628",
+    "full_name": "Carlos Martinez",
+    "birth_date": "2007-11-26",
+    "age": 19,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 8973,
+    "latitude": 40.53097,
+    "longitude": -79.96115,
+    "last_encounter_date": "2026-05-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4304 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 692-5120",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100628",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000628-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000628-001",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5627
+      },
+      {
+        "pat_enc_csn_id": "0000628-002",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000628-003",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0000628-004",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000628-005",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000628-006",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2000
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100628",
+    "diagnoses": [
+      {
+        "dx_id": "0000628-dx-000",
+        "pat_enc_csn_id": "0000628-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100628",
+    "summary": {
+      "total_charges": 8973,
+      "total_payments": 7491,
+      "outstanding_balance": 1482,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000062800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 8973,
+        "total_payments": 7491,
+        "current_balance": 1482,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100628",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

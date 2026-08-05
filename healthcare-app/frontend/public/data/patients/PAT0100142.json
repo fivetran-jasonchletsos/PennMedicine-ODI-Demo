@@ -1,0 +1,301 @@
+{
+  "patient": {
+    "pat_id": "PAT0100142",
+    "med_rec_num": "MRN0200142",
+    "full_name": "Maria Smith",
+    "birth_date": "1953-06-08",
+    "age": 73,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 15,
+    "total_charges": 52907,
+    "latitude": 40.4716,
+    "longitude": -79.96473,
+    "last_encounter_date": "2026-04-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9489 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 473-1706",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100142",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000142-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0000142-001",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 37860
+      },
+      {
+        "pat_enc_csn_id": "0000142-002",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0000142-003",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4540
+      },
+      {
+        "pat_enc_csn_id": "0000142-004",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 5025
+      },
+      {
+        "pat_enc_csn_id": "0000142-005",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000142-006",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000142-007",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000142-008",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000142-009",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000142-010",
+        "contact_date": "2025-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0000142-011",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000142-012",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 994
+      },
+      {
+        "pat_enc_csn_id": "0000142-013",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000142-014",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 1283
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100142",
+    "diagnoses": [
+      {
+        "dx_id": "0000142-dx-000",
+        "pat_enc_csn_id": "0000142-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000142-acu-000",
+        "pat_enc_csn_id": "0000142-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      },
+      {
+        "dx_id": "0000142-acu-001",
+        "pat_enc_csn_id": "0000142-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100142",
+    "summary": {
+      "total_charges": 52907,
+      "total_payments": 35792,
+      "outstanding_balance": 17115,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000014200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 43685,
+        "total_payments": 27401,
+        "current_balance": 16284,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-08-12",
+        "closed_date": "2025-10-29"
+      },
+      {
+        "hsp_account_id": "HSP000014201",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 9222,
+        "total_payments": 8391,
+        "current_balance": 831,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-26",
+        "closed_date": "2026-01-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100142",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

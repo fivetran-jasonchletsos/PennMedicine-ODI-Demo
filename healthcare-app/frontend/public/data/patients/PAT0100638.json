@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0100638",
+    "med_rec_num": "MRN0200638",
+    "full_name": "Michelle Wilson",
+    "birth_date": "1978-01-02",
+    "age": 48,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 2612,
+    "latitude": 40.43884,
+    "longitude": -79.99838,
+    "last_encounter_date": "2026-05-06",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1699 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 683-2770",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100638",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000638-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 1717
+      },
+      {
+        "pat_enc_csn_id": "0000638-001",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000638-002",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000638-003",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 89
+      },
+      {
+        "pat_enc_csn_id": "0000638-004",
+        "contact_date": "2024-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100638",
+    "diagnoses": [
+      {
+        "dx_id": "0000638-dx-000",
+        "pat_enc_csn_id": "0000638-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000638-acu-000",
+        "pat_enc_csn_id": "0000638-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100638",
+    "summary": {
+      "total_charges": 2612,
+      "total_payments": 1776,
+      "outstanding_balance": 836,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000063800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2612,
+        "total_payments": 1776,
+        "current_balance": 836,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-19",
+        "closed_date": "2025-11-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100638",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "patient": {
+    "pat_id": "PAT0100000",
+    "med_rec_num": "MRN0200000",
+    "full_name": "Richard Patel",
+    "birth_date": "1984-04-21",
+    "age": 42,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 5434,
+    "latitude": 40.35905,
+    "longitude": -79.89583,
+    "last_encounter_date": "2026-05-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1842 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 445-1949",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100000",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000000-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000000-001",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4916
+      },
+      {
+        "pat_enc_csn_id": "0000000-002",
+        "contact_date": "2025-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0000000-003",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 108
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100000",
+    "diagnoses": [
+      {
+        "dx_id": "0000000-dx-000",
+        "pat_enc_csn_id": "0000000-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000000-acu-000",
+        "pat_enc_csn_id": "0000000-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0000000-acu-001",
+        "pat_enc_csn_id": "0000000-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-03-06"
+      },
+      {
+        "dx_id": "0000000-acu-002",
+        "pat_enc_csn_id": "0000000-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100000",
+    "summary": {
+      "total_charges": 5434,
+      "total_payments": 4198,
+      "outstanding_balance": 1236,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000000000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 5434,
+        "total_payments": 4198,
+        "current_balance": 1236,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-02-06",
+        "closed_date": "2026-05-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100000",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100997",
+    "med_rec_num": "MRN0200997",
+    "full_name": "Daniel Gonzalez",
+    "birth_date": "1977-09-12",
+    "age": 49,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 20076,
+    "latitude": 40.30147,
+    "longitude": -79.54067,
+    "last_encounter_date": "2026-05-11",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3057 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 670-5473",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100997",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000997-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000997-001",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000997-002",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4155
+      },
+      {
+        "pat_enc_csn_id": "0000997-003",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000997-004",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 14374
+      },
+      {
+        "pat_enc_csn_id": "0000997-005",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000997-006",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000997-007",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000997-008",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 222
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100997",
+    "diagnoses": [
+      {
+        "dx_id": "0000997-dx-000",
+        "pat_enc_csn_id": "0000997-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000997-acu-000",
+        "pat_enc_csn_id": "0000997-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0000997-acu-002",
+        "pat_enc_csn_id": "0000997-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100997",
+    "summary": {
+      "total_charges": 20076,
+      "total_payments": 17434,
+      "outstanding_balance": 2642,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000099700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11706,
+        "total_payments": 10631,
+        "current_balance": 1075,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-01",
+        "closed_date": "2025-12-15"
+      },
+      {
+        "hsp_account_id": "HSP000099701",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3900,
+        "total_payments": 2887,
+        "current_balance": 1013,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-27",
+        "closed_date": "2026-02-02"
+      },
+      {
+        "hsp_account_id": "HSP000099702",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4470,
+        "total_payments": 3916,
+        "current_balance": 554,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-27",
+        "closed_date": "2025-11-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100997",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

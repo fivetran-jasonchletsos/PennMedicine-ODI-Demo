@@ -1,0 +1,222 @@
+{
+  "patient": {
+    "pat_id": "PAT0101250",
+    "med_rec_num": "MRN0201250",
+    "full_name": "Aisha Davis",
+    "birth_date": "1967-06-01",
+    "age": 59,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 3360,
+    "latitude": 40.50404,
+    "longitude": -79.75718,
+    "last_encounter_date": "2025-11-08",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5101 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 948-1334",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101250",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001250-000",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 54
+      },
+      {
+        "pat_enc_csn_id": "0001250-001",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001250-002",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001250-003",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0001250-004",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001250-005",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001250-006",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0001250-007",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001250-008",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 1650
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101250",
+    "diagnoses": [
+      {
+        "dx_id": "0001250-acu-000",
+        "pat_enc_csn_id": "0001250-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-11-08"
+      },
+      {
+        "dx_id": "0001250-acu-001",
+        "pat_enc_csn_id": "0001250-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-09-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101250",
+    "summary": {
+      "total_charges": 3360,
+      "total_payments": 2610,
+      "outstanding_balance": 750,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3360,
+        "total_payments": 2610,
+        "current_balance": 750,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-25",
+        "closed_date": "2025-12-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101250",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

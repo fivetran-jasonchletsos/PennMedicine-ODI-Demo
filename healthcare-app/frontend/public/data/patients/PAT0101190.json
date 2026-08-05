@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0101190",
+    "med_rec_num": "MRN0201190",
+    "full_name": "Mary Khan",
+    "birth_date": "1949-06-26",
+    "age": 77,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 8,
+    "total_charges": 8143,
+    "latitude": 40.44471,
+    "longitude": -79.95595,
+    "last_encounter_date": "2026-01-30",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "78 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 726-9428",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101190",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001190-000",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0001190-001",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0001190-002",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001190-003",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 5400
+      },
+      {
+        "pat_enc_csn_id": "0001190-004",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0001190-005",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0001190-006",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0001190-007",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 1170
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101190",
+    "diagnoses": [
+      {
+        "dx_id": "0001190-dx-000",
+        "pat_enc_csn_id": "0001190-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0001190-dx-001",
+        "pat_enc_csn_id": "0001190-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001190-acu-000",
+        "pat_enc_csn_id": "0001190-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0001190-acu-001",
+        "pat_enc_csn_id": "0001190-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-03-15"
+      },
+      {
+        "dx_id": "0001190-acu-002",
+        "pat_enc_csn_id": "0001190-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-01-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101190",
+    "summary": {
+      "total_charges": 8143,
+      "total_payments": 6623,
+      "outstanding_balance": 1520,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000119000",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8143,
+        "total_payments": 6623,
+        "current_balance": 1520,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101190",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

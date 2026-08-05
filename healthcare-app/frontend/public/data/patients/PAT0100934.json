@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0100934",
+    "med_rec_num": "MRN0200934",
+    "full_name": "William Walsh",
+    "birth_date": "1999-10-28",
+    "age": 27,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 3627,
+    "latitude": 40.44703,
+    "longitude": -80.10566,
+    "last_encounter_date": "2026-04-29",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "87 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 764-6318",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100934",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000934-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000934-001",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000934-002",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000934-003",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000934-004",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000934-005",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000934-006",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 1533
+      },
+      {
+        "pat_enc_csn_id": "0000934-007",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000934-008",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 365
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100934",
+    "diagnoses": [
+      {
+        "dx_id": "0000934-acu-000",
+        "pat_enc_csn_id": "0000934-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      },
+      {
+        "dx_id": "0000934-acu-001",
+        "pat_enc_csn_id": "0000934-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-26"
+      },
+      {
+        "dx_id": "0000934-acu-002",
+        "pat_enc_csn_id": "0000934-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100934",
+    "summary": {
+      "total_charges": 3627,
+      "total_payments": 3073,
+      "outstanding_balance": 554,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000093400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3627,
+        "total_payments": 3073,
+        "current_balance": 554,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-28",
+        "closed_date": "2026-01-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100934",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

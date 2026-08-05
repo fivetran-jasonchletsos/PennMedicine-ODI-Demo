@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0100677",
+    "med_rec_num": "MRN0200677",
+    "full_name": "Thomas Garcia",
+    "birth_date": "1942-01-23",
+    "age": 84,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 6449,
+    "latitude": 40.37991,
+    "longitude": -80.0567,
+    "last_encounter_date": "2025-12-22",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1120 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 326-4166",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100677",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000677-000",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0000677-001",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4813
+      },
+      {
+        "pat_enc_csn_id": "0000677-002",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 85
+      },
+      {
+        "pat_enc_csn_id": "0000677-003",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000677-004",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000677-005",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000677-006",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000677-007",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000677-008",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 321
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100677",
+    "diagnoses": [
+      {
+        "dx_id": "0000677-dx-000",
+        "pat_enc_csn_id": "0000677-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000677-dx-001",
+        "pat_enc_csn_id": "0000677-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000677-acu-000",
+        "pat_enc_csn_id": "0000677-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-22"
+      },
+      {
+        "dx_id": "0000677-acu-002",
+        "pat_enc_csn_id": "0000677-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100677",
+    "summary": {
+      "total_charges": 6449,
+      "total_payments": 5757,
+      "outstanding_balance": 692,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6449,
+        "total_payments": 5757,
+        "current_balance": 692,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-11",
+        "closed_date": "2025-11-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100677",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

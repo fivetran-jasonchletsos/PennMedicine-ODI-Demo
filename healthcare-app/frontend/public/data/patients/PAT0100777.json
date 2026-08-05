@@ -1,0 +1,202 @@
+{
+  "patient": {
+    "pat_id": "PAT0100777",
+    "med_rec_num": "MRN0200777",
+    "full_name": "Mary Okonkwo",
+    "birth_date": "2022-10-25",
+    "age": 4,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 1889,
+    "latitude": 40.45728,
+    "longitude": -80.00448,
+    "last_encounter_date": "2026-05-07",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3926 Liberty St",
+    "state": "PA",
+    "phone": "(412) 373-8790",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100777",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000777-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000777-001",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000777-002",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000777-003",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000777-004",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000777-005",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0000777-006",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 200
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100777",
+    "diagnoses": [
+      {
+        "dx_id": "0000777-acu-001",
+        "pat_enc_csn_id": "0000777-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      },
+      {
+        "dx_id": "0000777-acu-002",
+        "pat_enc_csn_id": "0000777-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100777",
+    "summary": {
+      "total_charges": 1889,
+      "total_payments": 1487,
+      "outstanding_balance": 402,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000077700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1889,
+        "total_payments": 1487,
+        "current_balance": 402,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100777",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

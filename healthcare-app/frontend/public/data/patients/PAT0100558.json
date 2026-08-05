@@ -1,0 +1,296 @@
+{
+  "patient": {
+    "pat_id": "PAT0100558",
+    "med_rec_num": "MRN0200558",
+    "full_name": "Andrew Okonkwo",
+    "birth_date": "2003-03-05",
+    "age": 23,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 46763,
+    "latitude": 40.45549,
+    "longitude": -79.93388,
+    "last_encounter_date": "2026-05-06",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7018 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 752-7670",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100558",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000558-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000558-001",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000558-002",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000558-003",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 4603
+      },
+      {
+        "pat_enc_csn_id": "0000558-004",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0000558-005",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000558-006",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000558-007",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000558-008",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0000558-009",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 33036
+      },
+      {
+        "pat_enc_csn_id": "0000558-010",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 6167
+      },
+      {
+        "pat_enc_csn_id": "0000558-011",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000558-012",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000558-013",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100558",
+    "diagnoses": [
+      {
+        "dx_id": "0000558-dx-000",
+        "pat_enc_csn_id": "0000558-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000558-dx-001",
+        "pat_enc_csn_id": "0000558-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000558-acu-000",
+        "pat_enc_csn_id": "0000558-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000558-acu-001",
+        "pat_enc_csn_id": "0000558-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      },
+      {
+        "dx_id": "0000558-acu-002",
+        "pat_enc_csn_id": "0000558-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100558",
+    "summary": {
+      "total_charges": 46763,
+      "total_payments": 31559,
+      "outstanding_balance": 15204,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000055800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 46763,
+        "total_payments": 31559,
+        "current_balance": 15204,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-27",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100558",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

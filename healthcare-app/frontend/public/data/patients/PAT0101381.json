@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101381",
+    "med_rec_num": "MRN0201381",
+    "full_name": "Kimberly Garcia",
+    "birth_date": "2001-06-01",
+    "age": 25,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 204,
+    "latitude": 40.36383,
+    "longitude": -79.89988,
+    "last_encounter_date": "2026-05-10",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6070 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 807-4314",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101381",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001381-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 204
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101381",
+    "diagnoses": [
+      {
+        "dx_id": "0001381-acu-000",
+        "pat_enc_csn_id": "0001381-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101381",
+    "summary": {
+      "total_charges": 204,
+      "total_payments": 149,
+      "outstanding_balance": 55,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 204,
+        "total_payments": 149,
+        "current_balance": 55,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101381",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

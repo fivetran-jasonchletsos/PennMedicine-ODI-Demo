@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0100101",
+    "med_rec_num": "MRN0200101",
+    "full_name": "Sandra Wong",
+    "birth_date": "1937-04-11",
+    "age": 89,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 19769,
+    "latitude": 40.37773,
+    "longitude": -80.05086,
+    "last_encounter_date": "2025-12-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1829 Walnut St",
+    "state": "PA",
+    "phone": "(412) 967-2212",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100101",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000101-000",
+        "contact_date": "2025-12-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 4423
+      },
+      {
+        "pat_enc_csn_id": "0000101-001",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000101-002",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 4248
+      },
+      {
+        "pat_enc_csn_id": "0000101-003",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4942
+      },
+      {
+        "pat_enc_csn_id": "0000101-004",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000101-005",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000101-006",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4259
+      },
+      {
+        "pat_enc_csn_id": "0000101-007",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000101-008",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000101-009",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 235
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100101",
+    "diagnoses": [
+      {
+        "dx_id": "0000101-dx-000",
+        "pat_enc_csn_id": "0000101-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000101-dx-001",
+        "pat_enc_csn_id": "0000101-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0000101-acu-000",
+        "pat_enc_csn_id": "0000101-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-02"
+      },
+      {
+        "dx_id": "0000101-acu-002",
+        "pat_enc_csn_id": "0000101-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100101",
+    "summary": {
+      "total_charges": 19769,
+      "total_payments": 12817,
+      "outstanding_balance": 6952,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3500,
+        "total_payments": 2764,
+        "current_balance": 736,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-25",
+        "closed_date": "2026-02-02"
+      },
+      {
+        "hsp_account_id": "HSP000010101",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 16269,
+        "total_payments": 10053,
+        "current_balance": 6216,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100101",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

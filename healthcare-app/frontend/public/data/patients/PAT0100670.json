@@ -1,0 +1,344 @@
+{
+  "patient": {
+    "pat_id": "PAT0100670",
+    "med_rec_num": "MRN0200670",
+    "full_name": "Carol Taylor",
+    "birth_date": "1945-12-04",
+    "age": 81,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 19,
+    "total_charges": 22585,
+    "latitude": 40.47882,
+    "longitude": -79.8297,
+    "last_encounter_date": "2026-05-11",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3149 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 710-2314",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100670",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000670-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000670-001",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000670-002",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000670-003",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000670-004",
+        "contact_date": "2025-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000670-005",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000670-006",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000670-007",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4740
+      },
+      {
+        "pat_enc_csn_id": "0000670-008",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000670-009",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000670-010",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000670-011",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4683
+      },
+      {
+        "pat_enc_csn_id": "0000670-012",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000670-013",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 5611
+      },
+      {
+        "pat_enc_csn_id": "0000670-014",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000670-015",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2768
+      },
+      {
+        "pat_enc_csn_id": "0000670-016",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000670-017",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000670-018",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 361
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100670",
+    "diagnoses": [
+      {
+        "dx_id": "0000670-dx-000",
+        "pat_enc_csn_id": "0000670-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1966-05-13"
+      },
+      {
+        "dx_id": "0000670-dx-001",
+        "pat_enc_csn_id": "0000670-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100670",
+    "summary": {
+      "total_charges": 22585,
+      "total_payments": 15424,
+      "outstanding_balance": 7161,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067000",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1276,
+        "total_payments": 998,
+        "current_balance": 278,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-14",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000067001",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 14308,
+        "total_payments": 8671,
+        "current_balance": 5637,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-11-15",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000067002",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 7001,
+        "total_payments": 5755,
+        "current_balance": 1246,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100670",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

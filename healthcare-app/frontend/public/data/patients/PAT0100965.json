@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100965",
+    "med_rec_num": "MRN0200965",
+    "full_name": "Joseph Singh",
+    "birth_date": "1941-03-25",
+    "age": 85,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 1471,
+    "latitude": 40.37008,
+    "longitude": -80.04509,
+    "last_encounter_date": "2026-04-08",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1378 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 674-6005",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100965",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000965-000",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000965-001",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000965-002",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000965-003",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000965-004",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000965-005",
+        "contact_date": "2024-12-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000965-006",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 316
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100965",
+    "diagnoses": [
+      {
+        "dx_id": "0000965-dx-000",
+        "pat_enc_csn_id": "0000965-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000965-dx-001",
+        "pat_enc_csn_id": "0000965-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000965-acu-000",
+        "pat_enc_csn_id": "0000965-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-08"
+      },
+      {
+        "dx_id": "0000965-acu-002",
+        "pat_enc_csn_id": "0000965-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100965",
+    "summary": {
+      "total_charges": 1471,
+      "total_payments": 1301,
+      "outstanding_balance": 170,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000096500",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1471,
+        "total_payments": 1301,
+        "current_balance": 170,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-05-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100965",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

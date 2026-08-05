@@ -1,0 +1,254 @@
+{
+  "patient": {
+    "pat_id": "PAT0101167",
+    "med_rec_num": "MRN0201167",
+    "full_name": "Carol Brown",
+    "birth_date": "1948-05-01",
+    "age": 78,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 6165,
+    "latitude": 40.46782,
+    "longitude": -79.96061,
+    "last_encounter_date": "2026-03-23",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1102 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 230-5757",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101167",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001167-000",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001167-001",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001167-002",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0001167-003",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001167-004",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001167-005",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 3965
+      },
+      {
+        "pat_enc_csn_id": "0001167-006",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0001167-007",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001167-008",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 366
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101167",
+    "diagnoses": [
+      {
+        "dx_id": "0001167-dx-000",
+        "pat_enc_csn_id": "0001167-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0001167-dx-001",
+        "pat_enc_csn_id": "0001167-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001167-dx-002",
+        "pat_enc_csn_id": "0001167-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001167-acu-000",
+        "pat_enc_csn_id": "0001167-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-23"
+      },
+      {
+        "dx_id": "0001167-acu-001",
+        "pat_enc_csn_id": "0001167-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      },
+      {
+        "dx_id": "0001167-acu-002",
+        "pat_enc_csn_id": "0001167-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101167",
+    "summary": {
+      "total_charges": 6165,
+      "total_payments": 5384,
+      "outstanding_balance": 781,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000116700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6165,
+        "total_payments": 5384,
+        "current_balance": 781,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-10",
+        "closed_date": "2025-12-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101167",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0101172",
+    "med_rec_num": "MRN0201172",
+    "full_name": "Donna Russo",
+    "birth_date": "1964-11-09",
+    "age": 62,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 896,
+    "latitude": 40.45703,
+    "longitude": -79.91527,
+    "last_encounter_date": "2025-11-16",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2341 Centre St",
+    "state": "PA",
+    "phone": "(412) 702-4284",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101172",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001172-000",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0001172-001",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0001172-002",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001172-003",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 115
+      },
+      {
+        "pat_enc_csn_id": "0001172-004",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101172",
+    "diagnoses": [
+      {
+        "dx_id": "0001172-dx-000",
+        "pat_enc_csn_id": "0001172-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001172-acu-000",
+        "pat_enc_csn_id": "0001172-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-16"
+      },
+      {
+        "dx_id": "0001172-acu-001",
+        "pat_enc_csn_id": "0001172-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-06-09"
+      },
+      {
+        "dx_id": "0001172-acu-002",
+        "pat_enc_csn_id": "0001172-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-02-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101172",
+    "summary": {
+      "total_charges": 896,
+      "total_payments": 735,
+      "outstanding_balance": 161,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000117200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 896,
+        "total_payments": 735,
+        "current_balance": 161,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-07-31",
+        "closed_date": "2026-01-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101172",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

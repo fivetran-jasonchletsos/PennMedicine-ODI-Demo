@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100009",
+    "med_rec_num": "MRN0200009",
+    "full_name": "Mark Nguyen",
+    "birth_date": "1942-05-02",
+    "age": 84,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 11880,
+    "latitude": 40.42051,
+    "longitude": -79.78926,
+    "last_encounter_date": "2026-04-16",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1504 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 642-2582",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100009",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000009-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000009-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1398
+      },
+      {
+        "pat_enc_csn_id": "0000009-002",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000009-003",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000009-004",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000009-005",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000009-006",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000009-007",
+        "contact_date": "2025-10-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 6093
+      },
+      {
+        "pat_enc_csn_id": "0000009-008",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000009-009",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 2137
+      },
+      {
+        "pat_enc_csn_id": "0000009-010",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 187
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100009",
+    "diagnoses": [
+      {
+        "dx_id": "0000009-dx-000",
+        "pat_enc_csn_id": "0000009-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0000009-dx-001",
+        "pat_enc_csn_id": "0000009-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1967-05-13"
+      },
+      {
+        "dx_id": "0000009-dx-002",
+        "pat_enc_csn_id": "0000009-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1983-05-13"
+      },
+      {
+        "dx_id": "0000009-acu-000",
+        "pat_enc_csn_id": "0000009-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0000009-acu-002",
+        "pat_enc_csn_id": "0000009-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100009",
+    "summary": {
+      "total_charges": 11880,
+      "total_payments": 8316,
+      "outstanding_balance": 3564,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000000900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 11880,
+        "total_payments": 8316,
+        "current_balance": 3564,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-28",
+        "closed_date": "2026-02-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100009",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

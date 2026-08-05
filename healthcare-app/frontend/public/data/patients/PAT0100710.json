@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0100710",
+    "med_rec_num": "MRN0200710",
+    "full_name": "Carol Martinez",
+    "birth_date": "1961-04-22",
+    "age": 65,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 12253,
+    "latitude": 40.63298,
+    "longitude": -80.05339,
+    "last_encounter_date": "2026-02-04",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1428 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 889-2291",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100710",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000710-000",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000710-001",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 7157
+      },
+      {
+        "pat_enc_csn_id": "0000710-002",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000710-003",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 2287
+      },
+      {
+        "pat_enc_csn_id": "0000710-004",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000710-005",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000710-006",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000710-007",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000710-008",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 149
+      },
+      {
+        "pat_enc_csn_id": "0000710-009",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000710-010",
+        "contact_date": "2024-09-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000710-011",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000710-012",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 49
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100710",
+    "diagnoses": [
+      {
+        "dx_id": "0000710-dx-000",
+        "pat_enc_csn_id": "0000710-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000710-acu-001",
+        "pat_enc_csn_id": "0000710-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100710",
+    "summary": {
+      "total_charges": 12253,
+      "total_payments": 10024,
+      "outstanding_balance": 2229,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 10539,
+        "total_payments": 8777,
+        "current_balance": 1762,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-10-26",
+        "closed_date": "2026-01-17"
+      },
+      {
+        "hsp_account_id": "HSP000071001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 752,
+        "total_payments": 640,
+        "current_balance": 112,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-13",
+        "closed_date": "2026-04-27"
+      },
+      {
+        "hsp_account_id": "HSP000071002",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 962,
+        "total_payments": 607,
+        "current_balance": 355,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-14",
+        "closed_date": "2026-02-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100710",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

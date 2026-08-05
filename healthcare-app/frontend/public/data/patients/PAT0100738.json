@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100738",
+    "med_rec_num": "MRN0200738",
+    "full_name": "Andrew Patel",
+    "birth_date": "1974-06-10",
+    "age": 52,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 9745,
+    "latitude": 40.49695,
+    "longitude": -79.90531,
+    "last_encounter_date": "2026-04-24",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8175 Centre St",
+    "state": "PA",
+    "phone": "(412) 758-7382",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100738",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000738-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000738-001",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000738-002",
+        "contact_date": "2025-10-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000738-003",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 90
+      },
+      {
+        "pat_enc_csn_id": "0000738-004",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2336
+      },
+      {
+        "pat_enc_csn_id": "0000738-005",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6369
+      },
+      {
+        "pat_enc_csn_id": "0000738-006",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100738",
+    "diagnoses": [
+      {
+        "dx_id": "0000738-dx-000",
+        "pat_enc_csn_id": "0000738-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000738-acu-001",
+        "pat_enc_csn_id": "0000738-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-06"
+      },
+      {
+        "dx_id": "0000738-acu-002",
+        "pat_enc_csn_id": "0000738-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100738",
+    "summary": {
+      "total_charges": 9745,
+      "total_payments": 7948,
+      "outstanding_balance": 1797,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000073800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9745,
+        "total_payments": 7948,
+        "current_balance": 1797,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-30",
+        "closed_date": "2026-01-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100738",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

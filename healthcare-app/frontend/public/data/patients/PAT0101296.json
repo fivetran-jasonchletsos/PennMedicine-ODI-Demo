@@ -1,0 +1,273 @@
+{
+  "patient": {
+    "pat_id": "PAT0101296",
+    "med_rec_num": "MRN0201296",
+    "full_name": "James Martin",
+    "birth_date": "1978-08-21",
+    "age": 48,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 28956,
+    "latitude": 40.62459,
+    "longitude": -80.06282,
+    "last_encounter_date": "2026-01-24",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1775 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 784-3255",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101296",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001296-000",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001296-001",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0001296-002",
+        "contact_date": "2025-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0001296-003",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001296-004",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0001296-005",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 75
+      },
+      {
+        "pat_enc_csn_id": "0001296-006",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001296-007",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001296-008",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0001296-009",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0001296-010",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 26152
+      },
+      {
+        "pat_enc_csn_id": "0001296-011",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0001296-012",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 199
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101296",
+    "diagnoses": [
+      {
+        "dx_id": "0001296-dx-000",
+        "pat_enc_csn_id": "0001296-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001296-acu-000",
+        "pat_enc_csn_id": "0001296-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101296",
+    "summary": {
+      "total_charges": 28956,
+      "total_payments": 21637,
+      "outstanding_balance": 7319,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000129600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12689,
+        "total_payments": 10363,
+        "current_balance": 2326,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-03-05",
+        "closed_date": "2026-02-14"
+      },
+      {
+        "hsp_account_id": "HSP000129601",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 16267,
+        "total_payments": 11274,
+        "current_balance": 4993,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-22",
+        "closed_date": "2026-04-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101296",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

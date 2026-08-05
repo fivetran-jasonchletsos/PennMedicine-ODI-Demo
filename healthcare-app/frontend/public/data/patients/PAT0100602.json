@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100602",
+    "med_rec_num": "MRN0200602",
+    "full_name": "Linda Schmidt",
+    "birth_date": "2009-05-09",
+    "age": 17,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 43754,
+    "latitude": 40.48978,
+    "longitude": -79.9102,
+    "last_encounter_date": "2026-04-14",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7593 Liberty St",
+    "state": "PA",
+    "phone": "(412) 887-7307",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100602",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000602-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 21527
+      },
+      {
+        "pat_enc_csn_id": "0000602-001",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000602-002",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000602-003",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000602-004",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 19569
+      },
+      {
+        "pat_enc_csn_id": "0000602-005",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 1774
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100602",
+    "diagnoses": [
+      {
+        "dx_id": "0000602-acu-000",
+        "pat_enc_csn_id": "0000602-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-14"
+      },
+      {
+        "dx_id": "0000602-acu-001",
+        "pat_enc_csn_id": "0000602-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100602",
+    "summary": {
+      "total_charges": 43754,
+      "total_payments": 28183,
+      "outstanding_balance": 15571,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000060200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 43754,
+        "total_payments": 28183,
+        "current_balance": 15571,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-05-11",
+        "closed_date": "2026-02-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100602",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

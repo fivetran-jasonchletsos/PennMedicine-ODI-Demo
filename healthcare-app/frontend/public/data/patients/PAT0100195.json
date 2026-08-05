@@ -1,0 +1,183 @@
+{
+  "patient": {
+    "pat_id": "PAT0100195",
+    "med_rec_num": "MRN0200195",
+    "full_name": "Donna Chen",
+    "birth_date": "1973-10-12",
+    "age": 53,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 19298,
+    "latitude": 40.45618,
+    "longitude": -80.013,
+    "last_encounter_date": "2025-11-24",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2197 Walnut St",
+    "state": "PA",
+    "phone": "(412) 425-8762",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100195",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000195-000",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 18548
+      },
+      {
+        "pat_enc_csn_id": "0000195-001",
+        "contact_date": "2025-04-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000195-002",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000195-003",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 348
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100195",
+    "diagnoses": [
+      {
+        "dx_id": "0000195-acu-000",
+        "pat_enc_csn_id": "0000195-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-24"
+      },
+      {
+        "dx_id": "0000195-acu-002",
+        "pat_enc_csn_id": "0000195-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-03-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100195",
+    "summary": {
+      "total_charges": 19298,
+      "total_payments": 15693,
+      "outstanding_balance": 3605,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000019500",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3023,
+        "total_payments": 1716,
+        "current_balance": 1307,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-11-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000019501",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 16275,
+        "total_payments": 13977,
+        "current_balance": 2298,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-29",
+        "closed_date": "2026-05-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100195",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      },
+      {
+        "pat_id": "PAT0100420",
+        "full_name": "Robert Singh",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 2502
+      }
+    ]
+  }
+}

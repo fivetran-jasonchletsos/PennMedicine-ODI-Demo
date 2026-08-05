@@ -1,0 +1,324 @@
+{
+  "patient": {
+    "pat_id": "PAT0100844",
+    "med_rec_num": "MRN0200844",
+    "full_name": "David Martinez",
+    "birth_date": "1972-02-14",
+    "age": 54,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 4,
+    "encounter_count": 13,
+    "total_charges": 11547,
+    "latitude": 40.49838,
+    "longitude": -79.76833,
+    "last_encounter_date": "2026-03-15",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2602 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 966-7416",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100844",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000844-000",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000844-001",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000844-002",
+        "contact_date": "2026-01-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 94
+      },
+      {
+        "pat_enc_csn_id": "0000844-003",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000844-004",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000844-005",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000844-006",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000844-007",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000844-008",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 6286
+      },
+      {
+        "pat_enc_csn_id": "0000844-009",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000844-010",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000844-011",
+        "contact_date": "2024-10-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000844-012",
+        "contact_date": "2024-05-19",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 2553
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100844",
+    "diagnoses": [
+      {
+        "dx_id": "0000844-dx-000",
+        "pat_enc_csn_id": "0000844-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000844-dx-001",
+        "pat_enc_csn_id": "0000844-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000844-dx-002",
+        "pat_enc_csn_id": "0000844-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000844-dx-003",
+        "pat_enc_csn_id": "0000844-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000844-acu-000",
+        "pat_enc_csn_id": "0000844-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      },
+      {
+        "dx_id": "0000844-acu-001",
+        "pat_enc_csn_id": "0000844-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      },
+      {
+        "dx_id": "0000844-acu-002",
+        "pat_enc_csn_id": "0000844-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100844",
+    "summary": {
+      "total_charges": 11547,
+      "total_payments": 8392,
+      "outstanding_balance": 3155,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6181,
+        "total_payments": 3865,
+        "current_balance": 2316,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-08",
+        "closed_date": "2026-01-30"
+      },
+      {
+        "hsp_account_id": "HSP000084401",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2165,
+        "total_payments": 1846,
+        "current_balance": 319,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-01",
+        "closed_date": "2026-03-22"
+      },
+      {
+        "hsp_account_id": "HSP000084402",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3201,
+        "total_payments": 2681,
+        "current_balance": 520,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100844",
+    "comparables": [
+      {
+        "pat_id": "PAT0100033",
+        "full_name": "Sofia Thomas",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 26167
+      },
+      {
+        "pat_id": "PAT0100087",
+        "full_name": "Patricia Davis",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 7,
+        "total_charges": 9979
+      },
+      {
+        "pat_id": "PAT0100152",
+        "full_name": "Patricia Walsh",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 13388
+      },
+      {
+        "pat_id": "PAT0100153",
+        "full_name": "James Rodriguez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 12,
+        "total_charges": 3091
+      },
+      {
+        "pat_id": "PAT0100170",
+        "full_name": "Margaret Jackson",
+        "age": 52,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1764
+      },
+      {
+        "pat_id": "PAT0100198",
+        "full_name": "Mary Anderson",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 4220
+      }
+    ]
+  }
+}

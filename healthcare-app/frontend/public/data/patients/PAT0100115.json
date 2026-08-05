@@ -1,0 +1,360 @@
+{
+  "patient": {
+    "pat_id": "PAT0100115",
+    "med_rec_num": "MRN0200115",
+    "full_name": "Michelle Jackson",
+    "birth_date": "1941-11-28",
+    "age": 85,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 19,
+    "total_charges": 19258,
+    "latitude": 40.52273,
+    "longitude": -79.96451,
+    "last_encounter_date": "2026-04-29",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3438 Murray St",
+    "state": "PA",
+    "phone": "(412) 224-1265",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100115",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000115-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000115-001",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000115-002",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000115-003",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000115-004",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 5029
+      },
+      {
+        "pat_enc_csn_id": "0000115-005",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 6410
+      },
+      {
+        "pat_enc_csn_id": "0000115-006",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000115-007",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000115-008",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000115-009",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000115-010",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000115-011",
+        "contact_date": "2025-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0000115-012",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 3998
+      },
+      {
+        "pat_enc_csn_id": "0000115-013",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000115-014",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000115-015",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 105
+      },
+      {
+        "pat_enc_csn_id": "0000115-016",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000115-017",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0000115-018",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 320
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100115",
+    "diagnoses": [
+      {
+        "dx_id": "0000115-dx-000",
+        "pat_enc_csn_id": "0000115-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000115-dx-001",
+        "pat_enc_csn_id": "0000115-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000115-dx-002",
+        "pat_enc_csn_id": "0000115-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000115-acu-000",
+        "pat_enc_csn_id": "0000115-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100115",
+    "summary": {
+      "total_charges": 19258,
+      "total_payments": 16462,
+      "outstanding_balance": 2796,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000011500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10973,
+        "total_payments": 9873,
+        "current_balance": 1100,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-25",
+        "closed_date": "2026-02-01"
+      },
+      {
+        "hsp_account_id": "HSP000011501",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5752,
+        "total_payments": 4668,
+        "current_balance": 1084,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-11-05",
+        "closed_date": "2025-11-01"
+      },
+      {
+        "hsp_account_id": "HSP000011502",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2533,
+        "total_payments": 1921,
+        "current_balance": 612,
+        "primary_payer": "Cigna",
+        "opened_date": "2026-01-30",
+        "closed_date": "2026-02-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100115",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

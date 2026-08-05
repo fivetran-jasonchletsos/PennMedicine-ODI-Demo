@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0100278",
+    "med_rec_num": "MRN0200278",
+    "full_name": "Sandra Lopez",
+    "birth_date": "1995-01-02",
+    "age": 31,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 4,
+    "encounter_count": 13,
+    "total_charges": 5140,
+    "latitude": 40.48811,
+    "longitude": -79.89933,
+    "last_encounter_date": "2026-04-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6533 Forbes St",
+    "state": "PA",
+    "phone": "(412) 426-4297",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100278",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000278-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000278-001",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000278-002",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 2676
+      },
+      {
+        "pat_enc_csn_id": "0000278-003",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 93
+      },
+      {
+        "pat_enc_csn_id": "0000278-004",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000278-005",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0000278-006",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000278-007",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000278-008",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000278-009",
+        "contact_date": "2024-10-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0000278-010",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000278-011",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000278-012",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 152
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100278",
+    "diagnoses": [
+      {
+        "dx_id": "0000278-dx-000",
+        "pat_enc_csn_id": "0000278-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000278-dx-001",
+        "pat_enc_csn_id": "0000278-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000278-dx-002",
+        "pat_enc_csn_id": "0000278-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000278-dx-003",
+        "pat_enc_csn_id": "0000278-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000278-acu-000",
+        "pat_enc_csn_id": "0000278-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0000278-acu-002",
+        "pat_enc_csn_id": "0000278-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100278",
+    "summary": {
+      "total_charges": 5140,
+      "total_payments": 3493,
+      "outstanding_balance": 1647,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027800",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5140,
+        "total_payments": 3493,
+        "current_balance": 1647,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-01-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100278",
+    "comparables": [
+      {
+        "pat_id": "PAT0100524",
+        "full_name": "Thomas Schmidt",
+        "age": 33,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 11760
+      },
+      {
+        "pat_id": "PAT0100714",
+        "full_name": "Carlos Greene",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 7645
+      },
+      {
+        "pat_id": "PAT0100824",
+        "full_name": "Carlos Patel",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 36449
+      },
+      {
+        "pat_id": "PAT0100825",
+        "full_name": "Margaret Gonzalez",
+        "age": 32,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 9,
+        "total_charges": 26086
+      },
+      {
+        "pat_id": "PAT0101092",
+        "full_name": "Kimberly Singh",
+        "age": 37,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 40922
+      },
+      {
+        "pat_id": "PAT0101251",
+        "full_name": "Elizabeth Park",
+        "age": 38,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1536
+      }
+    ]
+  }
+}

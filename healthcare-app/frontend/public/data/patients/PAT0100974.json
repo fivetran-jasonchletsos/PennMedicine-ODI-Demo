@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100974",
+    "med_rec_num": "MRN0200974",
+    "full_name": "Aisha Walsh",
+    "birth_date": "1978-10-23",
+    "age": 48,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1451,
+    "latitude": 40.37664,
+    "longitude": -80.05037,
+    "last_encounter_date": "2026-02-03",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1916 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 622-6768",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100974",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000974-000",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000974-001",
+        "contact_date": "2025-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000974-002",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000974-003",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000974-004",
+        "contact_date": "2024-10-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000974-005",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 71
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100974",
+    "diagnoses": [
+      {
+        "dx_id": "0000974-dx-000",
+        "pat_enc_csn_id": "0000974-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000974-acu-000",
+        "pat_enc_csn_id": "0000974-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      },
+      {
+        "dx_id": "0000974-acu-001",
+        "pat_enc_csn_id": "0000974-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-02-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100974",
+    "summary": {
+      "total_charges": 1451,
+      "total_payments": 1190,
+      "outstanding_balance": 261,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000097400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1451,
+        "total_payments": 1190,
+        "current_balance": 261,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100974",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

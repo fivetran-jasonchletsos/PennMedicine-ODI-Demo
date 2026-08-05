@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0100179",
+    "med_rec_num": "MRN0200179",
+    "full_name": "John Jackson",
+    "birth_date": "1993-03-20",
+    "age": 33,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 9213,
+    "latitude": 40.62806,
+    "longitude": -80.06093,
+    "last_encounter_date": "2026-04-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9069 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 410-9015",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100179",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000179-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 1243
+      },
+      {
+        "pat_enc_csn_id": "0000179-001",
+        "contact_date": "2026-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000179-002",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000179-003",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000179-004",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 3862
+      },
+      {
+        "pat_enc_csn_id": "0000179-005",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0000179-006",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000179-007",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000179-008",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1912
+      },
+      {
+        "pat_enc_csn_id": "0000179-009",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000179-010",
+        "contact_date": "2024-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100179",
+    "diagnoses": [
+      {
+        "dx_id": "0000179-dx-000",
+        "pat_enc_csn_id": "0000179-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000179-acu-000",
+        "pat_enc_csn_id": "0000179-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0000179-acu-002",
+        "pat_enc_csn_id": "0000179-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100179",
+    "summary": {
+      "total_charges": 9213,
+      "total_payments": 8112,
+      "outstanding_balance": 1101,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000017900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 9213,
+        "total_payments": 8112,
+        "current_balance": 1101,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-06-21",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100179",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

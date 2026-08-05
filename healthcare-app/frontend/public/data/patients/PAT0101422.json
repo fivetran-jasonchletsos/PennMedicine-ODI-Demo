@@ -1,0 +1,221 @@
+{
+  "patient": {
+    "pat_id": "PAT0101422",
+    "med_rec_num": "MRN0201422",
+    "full_name": "Carol Williams",
+    "birth_date": "2016-08-19",
+    "age": 10,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 21013,
+    "latitude": 40.36458,
+    "longitude": -79.90038,
+    "last_encounter_date": "2026-04-20",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "201 Forbes St",
+    "state": "PA",
+    "phone": "(412) 384-5972",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101422",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001422-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0001422-001",
+        "contact_date": "2025-11-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0001422-002",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0001422-003",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001422-004",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 19549
+      },
+      {
+        "pat_enc_csn_id": "0001422-005",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001422-006",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 169
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101422",
+    "diagnoses": [
+      {
+        "dx_id": "0001422-dx-000",
+        "pat_enc_csn_id": "0001422-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001422-acu-000",
+        "pat_enc_csn_id": "0001422-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0001422-acu-002",
+        "pat_enc_csn_id": "0001422-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-07-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101422",
+    "summary": {
+      "total_charges": 21013,
+      "total_payments": 16443,
+      "outstanding_balance": 4570,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 14871,
+        "total_payments": 11083,
+        "current_balance": 3788,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-25",
+        "closed_date": "2025-12-25"
+      },
+      {
+        "hsp_account_id": "HSP000142201",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 6142,
+        "total_payments": 5360,
+        "current_balance": 782,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-05-31",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101422",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "patient": {
+    "pat_id": "PAT0100652",
+    "med_rec_num": "MRN0200652",
+    "full_name": "Donna Garcia",
+    "birth_date": "2003-01-14",
+    "age": 23,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 50535,
+    "latitude": 40.504,
+    "longitude": -79.75713,
+    "last_encounter_date": "2026-05-02",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5009 Murray St",
+    "state": "PA",
+    "phone": "(412) 679-3818",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100652",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000652-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000652-001",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 14404
+      },
+      {
+        "pat_enc_csn_id": "0000652-002",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000652-003",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 958
+      },
+      {
+        "pat_enc_csn_id": "0000652-004",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 29749
+      },
+      {
+        "pat_enc_csn_id": "0000652-005",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4052
+      },
+      {
+        "pat_enc_csn_id": "0000652-006",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000652-007",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000652-008",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100652",
+    "diagnoses": [
+      {
+        "dx_id": "0000652-acu-001",
+        "pat_enc_csn_id": "0000652-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100652",
+    "summary": {
+      "total_charges": 50535,
+      "total_payments": 41434,
+      "outstanding_balance": 9101,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000065200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 49537,
+        "total_payments": 40683,
+        "current_balance": 8854,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000065201",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 998,
+        "total_payments": 751,
+        "current_balance": 247,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-19",
+        "closed_date": "2026-01-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100652",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0100483",
+    "med_rec_num": "MRN0200483",
+    "full_name": "Carol Gonzalez",
+    "birth_date": "1966-08-28",
+    "age": 60,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 13280,
+    "latitude": 40.33088,
+    "longitude": -80.03474,
+    "last_encounter_date": "2026-04-25",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7344 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 997-8340",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100483",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000483-000",
+        "contact_date": "2026-04-25",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0000483-001",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000483-002",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000483-003",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 369
+      },
+      {
+        "pat_enc_csn_id": "0000483-004",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000483-005",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000483-006",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000483-007",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000483-008",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 5651
+      },
+      {
+        "pat_enc_csn_id": "0000483-009",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 5071
+      },
+      {
+        "pat_enc_csn_id": "0000483-010",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000483-011",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 253
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100483",
+    "diagnoses": [
+      {
+        "dx_id": "0000483-dx-000",
+        "pat_enc_csn_id": "0000483-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000483-dx-001",
+        "pat_enc_csn_id": "0000483-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000483-dx-002",
+        "pat_enc_csn_id": "0000483-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000483-acu-000",
+        "pat_enc_csn_id": "0000483-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-25"
+      },
+      {
+        "dx_id": "0000483-acu-001",
+        "pat_enc_csn_id": "0000483-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-16"
+      },
+      {
+        "dx_id": "0000483-acu-002",
+        "pat_enc_csn_id": "0000483-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100483",
+    "summary": {
+      "total_charges": 13280,
+      "total_payments": 11498,
+      "outstanding_balance": 1782,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 13280,
+        "total_payments": 11498,
+        "current_balance": 1782,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100483",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

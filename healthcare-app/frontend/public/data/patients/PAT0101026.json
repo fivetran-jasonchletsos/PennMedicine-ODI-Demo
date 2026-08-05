@@ -1,0 +1,308 @@
+{
+  "patient": {
+    "pat_id": "PAT0101026",
+    "med_rec_num": "MRN0201026",
+    "full_name": "Aisha Patel",
+    "birth_date": "2001-01-08",
+    "age": 25,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 34954,
+    "latitude": 40.44558,
+    "longitude": -79.9984,
+    "last_encounter_date": "2026-01-27",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6824 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 523-3612",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101026",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001026-000",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0001026-001",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001026-002",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001026-003",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001026-004",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0001026-005",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2057
+      },
+      {
+        "pat_enc_csn_id": "0001026-006",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0001026-007",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001026-008",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0001026-009",
+        "contact_date": "2025-04-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 24296
+      },
+      {
+        "pat_enc_csn_id": "0001026-010",
+        "contact_date": "2025-04-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4952
+      },
+      {
+        "pat_enc_csn_id": "0001026-011",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0001026-012",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0001026-013",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0001026-014",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0001026-015",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101026",
+    "diagnoses": [
+      {
+        "dx_id": "0001026-dx-000",
+        "pat_enc_csn_id": "0001026-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001026-dx-001",
+        "pat_enc_csn_id": "0001026-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001026-acu-000",
+        "pat_enc_csn_id": "0001026-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-27"
+      },
+      {
+        "dx_id": "0001026-acu-001",
+        "pat_enc_csn_id": "0001026-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101026",
+    "summary": {
+      "total_charges": 34954,
+      "total_payments": 30929,
+      "outstanding_balance": 4025,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 34954,
+        "total_payments": 30929,
+        "current_balance": 4025,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-09",
+        "closed_date": "2025-12-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101026",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

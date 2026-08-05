@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0101393",
+    "med_rec_num": "MRN0201393",
+    "full_name": "Kevin Davis",
+    "birth_date": "1963-04-23",
+    "age": 63,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.43782,
+    "longitude": -79.93515,
+    "last_encounter_date": null,
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3927 Murray St",
+    "state": "PA",
+    "phone": "(412) 405-8576",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101393",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101393",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0101393",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000139300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-25",
+        "closed_date": "2026-03-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101393",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

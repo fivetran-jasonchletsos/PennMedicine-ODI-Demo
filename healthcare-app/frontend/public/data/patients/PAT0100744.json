@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100744",
+    "med_rec_num": "MRN0200744",
+    "full_name": "David Martinez",
+    "birth_date": "1976-09-07",
+    "age": 50,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 8355,
+    "latitude": 40.47062,
+    "longitude": -79.83455,
+    "last_encounter_date": "2026-04-28",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "791 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 877-4366",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100744",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000744-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000744-001",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000744-002",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4107
+      },
+      {
+        "pat_enc_csn_id": "0000744-003",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000744-004",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000744-005",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000744-006",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000744-007",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1966
+      },
+      {
+        "pat_enc_csn_id": "0000744-008",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000744-009",
+        "contact_date": "2024-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 282
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100744",
+    "diagnoses": [
+      {
+        "dx_id": "0000744-dx-000",
+        "pat_enc_csn_id": "0000744-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000744-dx-001",
+        "pat_enc_csn_id": "0000744-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000744-dx-002",
+        "pat_enc_csn_id": "0000744-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000744-acu-001",
+        "pat_enc_csn_id": "0000744-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0000744-acu-002",
+        "pat_enc_csn_id": "0000744-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100744",
+    "summary": {
+      "total_charges": 8355,
+      "total_payments": 5764,
+      "outstanding_balance": 2591,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000074400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 8355,
+        "total_payments": 5764,
+        "current_balance": 2591,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-12",
+        "closed_date": "2025-12-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100744",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

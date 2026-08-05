@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0100572",
+    "med_rec_num": "MRN0200572",
+    "full_name": "Janet Taylor",
+    "birth_date": "2006-10-04",
+    "age": 20,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 1409,
+    "latitude": 40.35939,
+    "longitude": -79.89658,
+    "last_encounter_date": "2026-01-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "45 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 708-9271",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100572",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000572-000",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000572-001",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000572-002",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000572-003",
+        "contact_date": "2024-06-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000572-004",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 269
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100572",
+    "diagnoses": [
+      {
+        "dx_id": "0000572-acu-000",
+        "pat_enc_csn_id": "0000572-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-02"
+      },
+      {
+        "dx_id": "0000572-acu-001",
+        "pat_enc_csn_id": "0000572-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-09-25"
+      },
+      {
+        "dx_id": "0000572-acu-002",
+        "pat_enc_csn_id": "0000572-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2024-07-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100572",
+    "summary": {
+      "total_charges": 1409,
+      "total_payments": 1306,
+      "outstanding_balance": 103,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1409,
+        "total_payments": 1306,
+        "current_balance": 103,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-09-24",
+        "closed_date": "2026-04-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100572",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

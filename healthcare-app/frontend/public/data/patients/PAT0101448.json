@@ -1,0 +1,302 @@
+{
+  "patient": {
+    "pat_id": "PAT0101448",
+    "med_rec_num": "MRN0201448",
+    "full_name": "James Smith",
+    "birth_date": "1957-08-21",
+    "age": 69,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 92636,
+    "latitude": 40.44641,
+    "longitude": -79.93226,
+    "last_encounter_date": "2026-03-14",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5918 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 228-4929",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101448",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001448-000",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0001448-001",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0001448-002",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 21319
+      },
+      {
+        "pat_enc_csn_id": "0001448-003",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0001448-004",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0001448-005",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5900
+      },
+      {
+        "pat_enc_csn_id": "0001448-006",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0001448-007",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0001448-008",
+        "contact_date": "2025-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0001448-009",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0001448-010",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 25554
+      },
+      {
+        "pat_enc_csn_id": "0001448-011",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001448-012",
+        "contact_date": "2024-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0001448-013",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 36808
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101448",
+    "diagnoses": [
+      {
+        "dx_id": "0001448-dx-000",
+        "pat_enc_csn_id": "0001448-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001448-acu-000",
+        "pat_enc_csn_id": "0001448-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      },
+      {
+        "dx_id": "0001448-acu-001",
+        "pat_enc_csn_id": "0001448-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101448",
+    "summary": {
+      "total_charges": 92636,
+      "total_payments": 79542,
+      "outstanding_balance": 13094,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 50216,
+        "total_payments": 43630,
+        "current_balance": 6586,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-06",
+        "closed_date": "2026-05-05"
+      },
+      {
+        "hsp_account_id": "HSP000144801",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 22422,
+        "total_payments": 18655,
+        "current_balance": 3767,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-16",
+        "closed_date": "2026-01-26"
+      },
+      {
+        "hsp_account_id": "HSP000144802",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 19998,
+        "total_payments": 17257,
+        "current_balance": 2741,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101448",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0100041",
+    "med_rec_num": "MRN0200041",
+    "full_name": "Sandra Hernandez",
+    "birth_date": "1985-02-17",
+    "age": 41,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 17446,
+    "latitude": 40.44349,
+    "longitude": -79.95697,
+    "last_encounter_date": "2026-04-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8009 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 238-7251",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100041",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000041-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000041-001",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4601
+      },
+      {
+        "pat_enc_csn_id": "0000041-002",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000041-003",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4957
+      },
+      {
+        "pat_enc_csn_id": "0000041-004",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000041-005",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 5034
+      },
+      {
+        "pat_enc_csn_id": "0000041-006",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000041-007",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000041-008",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000041-009",
+        "contact_date": "2025-04-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000041-010",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000041-011",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000041-012",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000041-013",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 145
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100041",
+    "diagnoses": [
+      {
+        "dx_id": "0000041-dx-000",
+        "pat_enc_csn_id": "0000041-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000041-acu-002",
+        "pat_enc_csn_id": "0000041-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100041",
+    "summary": {
+      "total_charges": 17446,
+      "total_payments": 12458,
+      "outstanding_balance": 4988,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000004100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 534,
+        "total_payments": 358,
+        "current_balance": 176,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-26",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000004101",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 16753,
+        "total_payments": 11958,
+        "current_balance": 4795,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-23",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000004102",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 159,
+        "total_payments": 142,
+        "current_balance": 17,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100041",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

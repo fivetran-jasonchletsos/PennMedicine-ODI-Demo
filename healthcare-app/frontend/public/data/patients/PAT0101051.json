@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0101051",
+    "med_rec_num": "MRN0201051",
+    "full_name": "Elizabeth Schmidt",
+    "birth_date": "1975-11-08",
+    "age": 51,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 31358,
+    "latitude": 40.46929,
+    "longitude": -79.96315,
+    "last_encounter_date": "2026-02-26",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1437 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 840-5842",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101051",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001051-000",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0001051-001",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001051-002",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001051-003",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0001051-004",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0001051-005",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001051-006",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 29124
+      },
+      {
+        "pat_enc_csn_id": "0001051-007",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0001051-008",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001051-009",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001051-010",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 352
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101051",
+    "diagnoses": [
+      {
+        "dx_id": "0001051-dx-000",
+        "pat_enc_csn_id": "0001051-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001051-dx-001",
+        "pat_enc_csn_id": "0001051-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0001051-acu-000",
+        "pat_enc_csn_id": "0001051-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-26"
+      },
+      {
+        "dx_id": "0001051-acu-001",
+        "pat_enc_csn_id": "0001051-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      },
+      {
+        "dx_id": "0001051-acu-002",
+        "pat_enc_csn_id": "0001051-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101051",
+    "summary": {
+      "total_charges": 31358,
+      "total_payments": 20136,
+      "outstanding_balance": 11222,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000105100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 31358,
+        "total_payments": 20136,
+        "current_balance": 11222,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-05-21",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101051",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

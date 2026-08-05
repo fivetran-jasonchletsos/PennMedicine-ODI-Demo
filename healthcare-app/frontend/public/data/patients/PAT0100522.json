@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0100522",
+    "med_rec_num": "MRN0200522",
+    "full_name": "Mark Thomas",
+    "birth_date": "1979-09-07",
+    "age": 47,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 10751,
+    "latitude": 40.30042,
+    "longitude": -79.53889,
+    "last_encounter_date": "2026-04-29",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5350 Centre St",
+    "state": "PA",
+    "phone": "(412) 280-5570",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100522",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000522-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000522-001",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 7331
+      },
+      {
+        "pat_enc_csn_id": "0000522-002",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0000522-003",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000522-004",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 1807
+      },
+      {
+        "pat_enc_csn_id": "0000522-005",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000522-006",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000522-007",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000522-008",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000522-009",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000522-010",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000522-011",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 89
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100522",
+    "diagnoses": [
+      {
+        "dx_id": "0000522-dx-000",
+        "pat_enc_csn_id": "0000522-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000522-acu-001",
+        "pat_enc_csn_id": "0000522-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100522",
+    "summary": {
+      "total_charges": 10751,
+      "total_payments": 8247,
+      "outstanding_balance": 2504,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000052200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2160,
+        "total_payments": 1344,
+        "current_balance": 816,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-29",
+        "closed_date": "2026-02-25"
+      },
+      {
+        "hsp_account_id": "HSP000052201",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2828,
+        "total_payments": 2601,
+        "current_balance": 227,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-10-05",
+        "closed_date": "2025-11-26"
+      },
+      {
+        "hsp_account_id": "HSP000052202",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 5763,
+        "total_payments": 4302,
+        "current_balance": 1461,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-13",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100522",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

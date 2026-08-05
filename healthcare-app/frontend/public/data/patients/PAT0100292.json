@@ -1,0 +1,228 @@
+{
+  "patient": {
+    "pat_id": "PAT0100292",
+    "med_rec_num": "MRN0200292",
+    "full_name": "Thomas Wilson",
+    "birth_date": "2012-02-14",
+    "age": 14,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 8,
+    "total_charges": 8409,
+    "latitude": 40.37388,
+    "longitude": -80.04886,
+    "last_encounter_date": "2026-03-22",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7238 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 244-7982",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100292",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000292-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000292-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3117
+      },
+      {
+        "pat_enc_csn_id": "0000292-002",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000292-003",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000292-004",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 1206
+      },
+      {
+        "pat_enc_csn_id": "0000292-005",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000292-006",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 2883
+      },
+      {
+        "pat_enc_csn_id": "0000292-007",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 188
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100292",
+    "diagnoses": [
+      {
+        "dx_id": "0000292-dx-000",
+        "pat_enc_csn_id": "0000292-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000292-dx-001",
+        "pat_enc_csn_id": "0000292-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000292-dx-002",
+        "pat_enc_csn_id": "0000292-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000292-acu-001",
+        "pat_enc_csn_id": "0000292-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100292",
+    "summary": {
+      "total_charges": 8409,
+      "total_payments": 6706,
+      "outstanding_balance": 1703,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000029200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8409,
+        "total_payments": 6706,
+        "current_balance": 1703,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-24",
+        "closed_date": "2025-12-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100292",
+    "comparables": [
+      {
+        "pat_id": "PAT0100200",
+        "full_name": "Aisha Okonkwo",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 8220
+      },
+      {
+        "pat_id": "PAT0100339",
+        "full_name": "Sandra Petrov",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 5894
+      },
+      {
+        "pat_id": "PAT0100537",
+        "full_name": "George Nguyen",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1168
+      },
+      {
+        "pat_id": "PAT0100762",
+        "full_name": "Barbara Miller",
+        "age": 17,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 8662
+      },
+      {
+        "pat_id": "PAT0100829",
+        "full_name": "Thomas Park",
+        "age": 18,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 19804
+      },
+      {
+        "pat_id": "PAT0100877",
+        "full_name": "John Smith",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 2114
+      }
+    ]
+  }
+}

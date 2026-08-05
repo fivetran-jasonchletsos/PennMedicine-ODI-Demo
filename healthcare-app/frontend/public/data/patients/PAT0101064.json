@@ -1,0 +1,248 @@
+{
+  "patient": {
+    "pat_id": "PAT0101064",
+    "med_rec_num": "MRN0201064",
+    "full_name": "Sofia Jackson",
+    "birth_date": "1938-03-22",
+    "age": 88,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 6781,
+    "latitude": 40.45814,
+    "longitude": -79.91887,
+    "last_encounter_date": "2026-03-04",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7948 Highland St",
+    "state": "PA",
+    "phone": "(412) 427-2885",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101064",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001064-000",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0001064-001",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0001064-002",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0001064-003",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001064-004",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001064-005",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 152
+      },
+      {
+        "pat_enc_csn_id": "0001064-006",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001064-007",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0001064-008",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0001064-009",
+        "contact_date": "2024-10-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4245
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101064",
+    "diagnoses": [
+      {
+        "dx_id": "0001064-dx-000",
+        "pat_enc_csn_id": "0001064-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001064-dx-001",
+        "pat_enc_csn_id": "0001064-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0001064-dx-002",
+        "pat_enc_csn_id": "0001064-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1962-05-13"
+      },
+      {
+        "dx_id": "0001064-acu-002",
+        "pat_enc_csn_id": "0001064-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101064",
+    "summary": {
+      "total_charges": 6781,
+      "total_payments": 5279,
+      "outstanding_balance": 1502,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000106400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6781,
+        "total_payments": 5279,
+        "current_balance": 1502,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-17",
+        "closed_date": "2026-02-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101064",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

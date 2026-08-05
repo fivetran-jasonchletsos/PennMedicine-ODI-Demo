@@ -1,0 +1,216 @@
+{
+  "patient": {
+    "pat_id": "PAT0100313",
+    "med_rec_num": "MRN0200313",
+    "full_name": "Mary Wong",
+    "birth_date": "1975-11-11",
+    "age": 51,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 3,
+    "encounter_count": 6,
+    "total_charges": 1697,
+    "latitude": 40.34888,
+    "longitude": -79.84408,
+    "last_encounter_date": "2026-04-18",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7292 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 753-6567",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100313",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000313-000",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000313-001",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000313-002",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000313-003",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000313-004",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000313-005",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 384
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100313",
+    "diagnoses": [
+      {
+        "dx_id": "0000313-dx-000",
+        "pat_enc_csn_id": "0000313-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000313-dx-001",
+        "pat_enc_csn_id": "0000313-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000313-dx-002",
+        "pat_enc_csn_id": "0000313-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000313-acu-000",
+        "pat_enc_csn_id": "0000313-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-18"
+      },
+      {
+        "dx_id": "0000313-acu-002",
+        "pat_enc_csn_id": "0000313-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100313",
+    "summary": {
+      "total_charges": 1697,
+      "total_payments": 1109,
+      "outstanding_balance": 588,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000031300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1697,
+        "total_payments": 1109,
+        "current_balance": 588,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-06-05",
+        "closed_date": "2026-02-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100313",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

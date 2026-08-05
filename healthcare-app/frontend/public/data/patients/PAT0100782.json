@@ -1,0 +1,206 @@
+{
+  "patient": {
+    "pat_id": "PAT0100782",
+    "med_rec_num": "MRN0200782",
+    "full_name": "Aisha Brown",
+    "birth_date": "1979-04-01",
+    "age": 47,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 3320,
+    "latitude": 40.47735,
+    "longitude": -79.96275,
+    "last_encounter_date": "2025-04-19",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2412 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 230-7991",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100782",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000782-000",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000782-001",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000782-002",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000782-003",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 2311
+      },
+      {
+        "pat_enc_csn_id": "0000782-004",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 231
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100782",
+    "diagnoses": [
+      {
+        "dx_id": "0000782-dx-000",
+        "pat_enc_csn_id": "0000782-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000782-dx-001",
+        "pat_enc_csn_id": "0000782-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000782-acu-000",
+        "pat_enc_csn_id": "0000782-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-04-19"
+      },
+      {
+        "dx_id": "0000782-acu-001",
+        "pat_enc_csn_id": "0000782-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-03-23"
+      },
+      {
+        "dx_id": "0000782-acu-002",
+        "pat_enc_csn_id": "0000782-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-01-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100782",
+    "summary": {
+      "total_charges": 3320,
+      "total_payments": 2192,
+      "outstanding_balance": 1128,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000078200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3320,
+        "total_payments": 2192,
+        "current_balance": 1128,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-02",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100782",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

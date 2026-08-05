@@ -1,0 +1,288 @@
+{
+  "patient": {
+    "pat_id": "PAT0100566",
+    "med_rec_num": "MRN0200566",
+    "full_name": "George Johnson",
+    "birth_date": "1962-10-11",
+    "age": 64,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 10600,
+    "latitude": 40.30293,
+    "longitude": -79.53303,
+    "last_encounter_date": "2026-05-07",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5564 Centre St",
+    "state": "PA",
+    "phone": "(412) 839-5058",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100566",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000566-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000566-001",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000566-002",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0000566-003",
+        "contact_date": "2026-02-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 4270
+      },
+      {
+        "pat_enc_csn_id": "0000566-004",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000566-005",
+        "contact_date": "2025-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000566-006",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000566-007",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000566-008",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000566-009",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000566-010",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0000566-011",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000566-012",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000566-013",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3063
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100566",
+    "diagnoses": [
+      {
+        "dx_id": "0000566-dx-000",
+        "pat_enc_csn_id": "0000566-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000566-acu-000",
+        "pat_enc_csn_id": "0000566-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      },
+      {
+        "dx_id": "0000566-acu-001",
+        "pat_enc_csn_id": "0000566-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-19"
+      },
+      {
+        "dx_id": "0000566-acu-002",
+        "pat_enc_csn_id": "0000566-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100566",
+    "summary": {
+      "total_charges": 10600,
+      "total_payments": 8416,
+      "outstanding_balance": 2184,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000056600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10600,
+        "total_payments": 8416,
+        "current_balance": 2184,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-15",
+        "closed_date": "2025-12-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100566",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

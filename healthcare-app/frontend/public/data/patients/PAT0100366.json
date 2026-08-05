@@ -1,0 +1,188 @@
+{
+  "patient": {
+    "pat_id": "PAT0100366",
+    "med_rec_num": "MRN0200366",
+    "full_name": "George Wong",
+    "birth_date": "1975-06-21",
+    "age": 51,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 11219,
+    "latitude": 40.68098,
+    "longitude": -80.10272,
+    "last_encounter_date": "2025-11-30",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8996 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 715-6402",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100366",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000366-000",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5282
+      },
+      {
+        "pat_enc_csn_id": "0000366-001",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000366-002",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5224
+      },
+      {
+        "pat_enc_csn_id": "0000366-003",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 360
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100366",
+    "diagnoses": [
+      {
+        "dx_id": "0000366-dx-000",
+        "pat_enc_csn_id": "0000366-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000366-dx-001",
+        "pat_enc_csn_id": "0000366-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000366-acu-000",
+        "pat_enc_csn_id": "0000366-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-30"
+      },
+      {
+        "dx_id": "0000366-acu-001",
+        "pat_enc_csn_id": "0000366-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-08-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100366",
+    "summary": {
+      "total_charges": 11219,
+      "total_payments": 7300,
+      "outstanding_balance": 3919,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000036600",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 11219,
+        "total_payments": 7300,
+        "current_balance": 3919,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100366",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

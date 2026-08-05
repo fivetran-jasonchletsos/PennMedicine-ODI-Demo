@@ -1,0 +1,244 @@
+{
+  "patient": {
+    "pat_id": "PAT0101460",
+    "med_rec_num": "MRN0201460",
+    "full_name": "John Rodriguez",
+    "birth_date": "1982-07-14",
+    "age": 44,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 8867,
+    "latitude": 40.45364,
+    "longitude": -80.00368,
+    "last_encounter_date": "2026-05-08",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6816 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 804-1032",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101460",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001460-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0001460-001",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0001460-002",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001460-003",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0001460-004",
+        "contact_date": "2025-07-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001460-005",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0001460-006",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0001460-007",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0001460-008",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 6004
+      },
+      {
+        "pat_enc_csn_id": "0001460-009",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0001460-010",
+        "contact_date": "2024-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0001460-011",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 287
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101460",
+    "diagnoses": [
+      {
+        "dx_id": "0001460-acu-002",
+        "pat_enc_csn_id": "0001460-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101460",
+    "summary": {
+      "total_charges": 8867,
+      "total_payments": 7261,
+      "outstanding_balance": 1606,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000146000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8867,
+        "total_payments": 7261,
+        "current_balance": 1606,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-02",
+        "closed_date": "2026-02-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101460",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

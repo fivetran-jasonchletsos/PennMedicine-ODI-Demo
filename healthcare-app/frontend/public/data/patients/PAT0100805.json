@@ -1,0 +1,317 @@
+{
+  "patient": {
+    "pat_id": "PAT0100805",
+    "med_rec_num": "MRN0200805",
+    "full_name": "Aisha Schmidt",
+    "birth_date": "1992-11-25",
+    "age": 34,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 53568,
+    "latitude": 40.36325,
+    "longitude": -79.90368,
+    "last_encounter_date": "2026-04-14",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7815 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 251-5348",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100805",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000805-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000805-001",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000805-002",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 30740
+      },
+      {
+        "pat_enc_csn_id": "0000805-003",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000805-004",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000805-005",
+        "contact_date": "2025-09-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 16260
+      },
+      {
+        "pat_enc_csn_id": "0000805-006",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000805-007",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000805-008",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000805-009",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000805-010",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000805-011",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000805-012",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000805-013",
+        "contact_date": "2024-10-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000805-014",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3707
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100805",
+    "diagnoses": [
+      {
+        "dx_id": "0000805-dx-000",
+        "pat_enc_csn_id": "0000805-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000805-dx-001",
+        "pat_enc_csn_id": "0000805-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000805-acu-000",
+        "pat_enc_csn_id": "0000805-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-14"
+      },
+      {
+        "dx_id": "0000805-acu-001",
+        "pat_enc_csn_id": "0000805-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      },
+      {
+        "dx_id": "0000805-acu-002",
+        "pat_enc_csn_id": "0000805-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100805",
+    "summary": {
+      "total_charges": 53568,
+      "total_payments": 34243,
+      "outstanding_balance": 19325,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000080500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 50267,
+        "total_payments": 32085,
+        "current_balance": 18182,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-12",
+        "closed_date": "2026-02-12"
+      },
+      {
+        "hsp_account_id": "HSP000080501",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3301,
+        "total_payments": 2158,
+        "current_balance": 1143,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-12-11",
+        "closed_date": "2026-04-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100805",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

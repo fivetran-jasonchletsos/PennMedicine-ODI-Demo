@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0101311",
+    "med_rec_num": "MRN0201311",
+    "full_name": "Linda Khan",
+    "birth_date": "1978-07-09",
+    "age": 48,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 2734,
+    "latitude": 40.37957,
+    "longitude": -80.05654,
+    "last_encounter_date": "2026-04-15",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2978 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 205-8920",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101311",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001311-000",
+        "contact_date": "2026-04-15",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 1596
+      },
+      {
+        "pat_enc_csn_id": "0001311-001",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0001311-002",
+        "contact_date": "2025-06-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001311-003",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001311-004",
+        "contact_date": "2024-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001311-005",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 97
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101311",
+    "diagnoses": [
+      {
+        "dx_id": "0001311-dx-000",
+        "pat_enc_csn_id": "0001311-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001311-acu-000",
+        "pat_enc_csn_id": "0001311-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-15"
+      },
+      {
+        "dx_id": "0001311-acu-001",
+        "pat_enc_csn_id": "0001311-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-08-07"
+      },
+      {
+        "dx_id": "0001311-acu-002",
+        "pat_enc_csn_id": "0001311-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-06-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101311",
+    "summary": {
+      "total_charges": 2734,
+      "total_payments": 2486,
+      "outstanding_balance": 248,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000131100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2734,
+        "total_payments": 2486,
+        "current_balance": 248,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-10-04",
+        "closed_date": "2025-12-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101311",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "patient": {
+    "pat_id": "PAT0101321",
+    "med_rec_num": "MRN0201321",
+    "full_name": "Jennifer Wilson",
+    "birth_date": "1994-06-14",
+    "age": 32,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 1439,
+    "latitude": 40.3595,
+    "longitude": -79.89985,
+    "last_encounter_date": "2026-05-07",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8913 Murray St",
+    "state": "PA",
+    "phone": "(412) 774-8078",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101321",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001321-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001321-001",
+        "contact_date": "2026-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0001321-002",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0001321-003",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0001321-004",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001321-005",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 193
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101321",
+    "diagnoses": [
+      {
+        "dx_id": "0001321-acu-002",
+        "pat_enc_csn_id": "0001321-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101321",
+    "summary": {
+      "total_charges": 1439,
+      "total_payments": 1153,
+      "outstanding_balance": 286,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1439,
+        "total_payments": 1153,
+        "current_balance": 286,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-26",
+        "closed_date": "2025-10-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101321",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

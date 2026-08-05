@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0101198",
+    "med_rec_num": "MRN0201198",
+    "full_name": "Sandra Park",
+    "birth_date": "2002-02-07",
+    "age": 24,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 8772,
+    "latitude": 40.49666,
+    "longitude": -79.90686,
+    "last_encounter_date": "2026-04-28",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2064 Centre St",
+    "state": "PA",
+    "phone": "(412) 502-6839",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101198",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001198-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001198-001",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2092
+      },
+      {
+        "pat_enc_csn_id": "0001198-002",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001198-003",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001198-004",
+        "contact_date": "2025-05-22",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 61
+      },
+      {
+        "pat_enc_csn_id": "0001198-005",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6016
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101198",
+    "diagnoses": [
+      {
+        "dx_id": "0001198-dx-000",
+        "pat_enc_csn_id": "0001198-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001198-acu-001",
+        "pat_enc_csn_id": "0001198-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-10-11"
+      },
+      {
+        "dx_id": "0001198-acu-002",
+        "pat_enc_csn_id": "0001198-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-10-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101198",
+    "summary": {
+      "total_charges": 8772,
+      "total_payments": 7959,
+      "outstanding_balance": 813,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000119800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 8772,
+        "total_payments": 7959,
+        "current_balance": 813,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-12-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101198",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

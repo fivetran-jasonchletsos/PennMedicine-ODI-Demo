@@ -1,0 +1,328 @@
+{
+  "patient": {
+    "pat_id": "PAT0100909",
+    "med_rec_num": "MRN0200909",
+    "full_name": "James Gonzalez",
+    "birth_date": "1934-07-12",
+    "age": 92,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 18,
+    "total_charges": 5448,
+    "latitude": 40.63495,
+    "longitude": -80.06303,
+    "last_encounter_date": "2026-04-14",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4926 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 333-2961",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100909",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000909-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000909-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000909-002",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000909-003",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000909-004",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000909-005",
+        "contact_date": "2025-12-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000909-006",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000909-007",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000909-008",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000909-009",
+        "contact_date": "2025-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000909-010",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0000909-011",
+        "contact_date": "2025-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000909-012",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000909-013",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000909-014",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000909-015",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000909-016",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000909-017",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 356
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100909",
+    "diagnoses": [
+      {
+        "dx_id": "0000909-dx-000",
+        "pat_enc_csn_id": "0000909-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1959-05-13"
+      },
+      {
+        "dx_id": "0000909-dx-001",
+        "pat_enc_csn_id": "0000909-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000909-acu-000",
+        "pat_enc_csn_id": "0000909-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-14"
+      },
+      {
+        "dx_id": "0000909-acu-002",
+        "pat_enc_csn_id": "0000909-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100909",
+    "summary": {
+      "total_charges": 5448,
+      "total_payments": 5270,
+      "outstanding_balance": 178,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5448,
+        "total_payments": 5270,
+        "current_balance": 178,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-24",
+        "closed_date": "2025-11-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100909",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

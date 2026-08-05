@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0100467",
+    "med_rec_num": "MRN0200467",
+    "full_name": "Kenji Taylor",
+    "birth_date": "1943-03-27",
+    "age": 83,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 9475,
+    "latitude": 40.49297,
+    "longitude": -79.90573,
+    "last_encounter_date": "2026-04-28",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3352 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 289-1164",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100467",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000467-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000467-001",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000467-002",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000467-003",
+        "contact_date": "2025-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000467-004",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000467-005",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000467-006",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000467-007",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1973
+      },
+      {
+        "pat_enc_csn_id": "0000467-008",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6014
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100467",
+    "diagnoses": [
+      {
+        "dx_id": "0000467-dx-000",
+        "pat_enc_csn_id": "0000467-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000467-dx-001",
+        "pat_enc_csn_id": "0000467-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1966-05-13"
+      },
+      {
+        "dx_id": "0000467-acu-000",
+        "pat_enc_csn_id": "0000467-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0000467-acu-001",
+        "pat_enc_csn_id": "0000467-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-09"
+      },
+      {
+        "dx_id": "0000467-acu-002",
+        "pat_enc_csn_id": "0000467-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100467",
+    "summary": {
+      "total_charges": 9475,
+      "total_payments": 6597,
+      "outstanding_balance": 2878,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 9475,
+        "total_payments": 6597,
+        "current_balance": 2878,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-30",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100467",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

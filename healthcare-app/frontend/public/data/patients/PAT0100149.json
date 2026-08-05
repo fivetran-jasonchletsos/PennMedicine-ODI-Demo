@@ -1,0 +1,271 @@
+{
+  "patient": {
+    "pat_id": "PAT0100149",
+    "med_rec_num": "MRN0200149",
+    "full_name": "John Jones",
+    "birth_date": "1954-11-13",
+    "age": 72,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 45509,
+    "latitude": 40.5329,
+    "longitude": -79.95502,
+    "last_encounter_date": "2026-05-11",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5537 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 742-1990",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100149",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000149-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000149-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 36510
+      },
+      {
+        "pat_enc_csn_id": "0000149-002",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000149-003",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000149-004",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000149-005",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000149-006",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000149-007",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000149-008",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 6075
+      },
+      {
+        "pat_enc_csn_id": "0000149-009",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000149-010",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000149-011",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 416
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100149",
+    "diagnoses": [
+      {
+        "dx_id": "0000149-dx-000",
+        "pat_enc_csn_id": "0000149-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000149-acu-000",
+        "pat_enc_csn_id": "0000149-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0000149-acu-002",
+        "pat_enc_csn_id": "0000149-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100149",
+    "summary": {
+      "total_charges": 45509,
+      "total_payments": 33392,
+      "outstanding_balance": 12117,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000014900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 35285,
+        "total_payments": 24082,
+        "current_balance": 11203,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-26",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000014901",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 10224,
+        "total_payments": 9310,
+        "current_balance": 914,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-01",
+        "closed_date": "2026-02-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100149",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

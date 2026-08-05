@@ -1,0 +1,350 @@
+{
+  "patient": {
+    "pat_id": "PAT0100487",
+    "med_rec_num": "MRN0200487",
+    "full_name": "Mark Petrov",
+    "birth_date": "1949-12-24",
+    "age": 77,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 4,
+    "encounter_count": 18,
+    "total_charges": 19767,
+    "latitude": 40.42506,
+    "longitude": -79.79363,
+    "last_encounter_date": "2025-10-21",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8991 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 642-9847",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100487",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000487-000",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4009
+      },
+      {
+        "pat_enc_csn_id": "0000487-001",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000487-002",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000487-003",
+        "contact_date": "2025-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000487-004",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000487-005",
+        "contact_date": "2024-12-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0000487-006",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000487-007",
+        "contact_date": "2024-10-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000487-008",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 3731
+      },
+      {
+        "pat_enc_csn_id": "0000487-009",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 5069
+      },
+      {
+        "pat_enc_csn_id": "0000487-010",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 3407
+      },
+      {
+        "pat_enc_csn_id": "0000487-011",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000487-012",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000487-013",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000487-014",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0000487-015",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000487-016",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000487-017",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 343
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100487",
+    "diagnoses": [
+      {
+        "dx_id": "0000487-dx-000",
+        "pat_enc_csn_id": "0000487-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000487-dx-001",
+        "pat_enc_csn_id": "0000487-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000487-dx-002",
+        "pat_enc_csn_id": "0000487-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0000487-dx-003",
+        "pat_enc_csn_id": "0000487-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100487",
+    "summary": {
+      "total_charges": 19767,
+      "total_payments": 16913,
+      "outstanding_balance": 2854,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2154,
+        "total_payments": 1493,
+        "current_balance": 661,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-11",
+        "closed_date": "2026-01-19"
+      },
+      {
+        "hsp_account_id": "HSP000048701",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 7858,
+        "total_payments": 6705,
+        "current_balance": 1153,
+        "primary_payer": "Medicaid",
+        "opened_date": "2023-11-25",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000048702",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 9755,
+        "total_payments": 8715,
+        "current_balance": 1040,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100487",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

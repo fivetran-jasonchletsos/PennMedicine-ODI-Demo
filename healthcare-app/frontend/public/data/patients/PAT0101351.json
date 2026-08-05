@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0101351",
+    "med_rec_num": "MRN0201351",
+    "full_name": "Michael Greene",
+    "birth_date": "1947-02-23",
+    "age": 79,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 35126,
+    "latitude": 40.32728,
+    "longitude": -80.04515,
+    "last_encounter_date": "2026-02-17",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1497 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 723-5527",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101351",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001351-000",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0001351-001",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0001351-002",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0001351-003",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0001351-004",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2897
+      },
+      {
+        "pat_enc_csn_id": "0001351-005",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001351-006",
+        "contact_date": "2025-03-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001351-007",
+        "contact_date": "2024-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0001351-008",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4974
+      },
+      {
+        "pat_enc_csn_id": "0001351-009",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 24851
+      },
+      {
+        "pat_enc_csn_id": "0001351-010",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001351-011",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001351-012",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101351",
+    "diagnoses": [
+      {
+        "dx_id": "0001351-dx-000",
+        "pat_enc_csn_id": "0001351-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001351-acu-000",
+        "pat_enc_csn_id": "0001351-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      },
+      {
+        "dx_id": "0001351-acu-001",
+        "pat_enc_csn_id": "0001351-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101351",
+    "summary": {
+      "total_charges": 35126,
+      "total_payments": 31820,
+      "outstanding_balance": 3306,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 35126,
+        "total_payments": 31820,
+        "current_balance": 3306,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-05-23",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101351",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

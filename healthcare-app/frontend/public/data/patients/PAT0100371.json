@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0100371",
+    "med_rec_num": "MRN0200371",
+    "full_name": "Elizabeth Wilson",
+    "birth_date": "1968-05-21",
+    "age": 58,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 4375,
+    "latitude": 40.47373,
+    "longitude": -79.83008,
+    "last_encounter_date": "2025-12-22",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5617 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 238-4930",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100371",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000371-000",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000371-001",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000371-002",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000371-003",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000371-004",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000371-005",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000371-006",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000371-007",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 45
+      },
+      {
+        "pat_enc_csn_id": "0000371-008",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000371-009",
+        "contact_date": "2025-05-30",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000371-010",
+        "contact_date": "2024-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000371-011",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000371-012",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1338
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100371",
+    "diagnoses": [
+      {
+        "dx_id": "0000371-dx-000",
+        "pat_enc_csn_id": "0000371-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000371-dx-001",
+        "pat_enc_csn_id": "0000371-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000371-acu-000",
+        "pat_enc_csn_id": "0000371-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-22"
+      },
+      {
+        "dx_id": "0000371-acu-001",
+        "pat_enc_csn_id": "0000371-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100371",
+    "summary": {
+      "total_charges": 4375,
+      "total_payments": 3764,
+      "outstanding_balance": 611,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000037100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4375,
+        "total_payments": 3764,
+        "current_balance": 611,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-24",
+        "closed_date": "2025-12-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100371",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

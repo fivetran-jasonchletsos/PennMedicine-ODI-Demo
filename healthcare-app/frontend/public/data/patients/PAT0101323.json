@@ -1,0 +1,287 @@
+{
+  "patient": {
+    "pat_id": "PAT0101323",
+    "med_rec_num": "MRN0201323",
+    "full_name": "Barbara Schmidt",
+    "birth_date": "1931-09-21",
+    "age": 95,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 47224,
+    "latitude": 40.47448,
+    "longitude": -79.96405,
+    "last_encounter_date": "2025-12-03",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7197 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 711-2121",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101323",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001323-000",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001323-001",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001323-002",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0001323-003",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 33856
+      },
+      {
+        "pat_enc_csn_id": "0001323-004",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001323-005",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001323-006",
+        "contact_date": "2025-04-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001323-007",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0001323-008",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 10765
+      },
+      {
+        "pat_enc_csn_id": "0001323-009",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001323-010",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0001323-011",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 46
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101323",
+    "diagnoses": [
+      {
+        "dx_id": "0001323-dx-000",
+        "pat_enc_csn_id": "0001323-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001323-dx-001",
+        "pat_enc_csn_id": "0001323-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0001323-acu-000",
+        "pat_enc_csn_id": "0001323-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-03"
+      },
+      {
+        "dx_id": "0001323-acu-001",
+        "pat_enc_csn_id": "0001323-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-12"
+      },
+      {
+        "dx_id": "0001323-acu-002",
+        "pat_enc_csn_id": "0001323-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101323",
+    "summary": {
+      "total_charges": 47224,
+      "total_payments": 37978,
+      "outstanding_balance": 9246,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 27697,
+        "total_payments": 25284,
+        "current_balance": 2413,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-31",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000132301",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 19527,
+        "total_payments": 12694,
+        "current_balance": 6833,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-16",
+        "closed_date": "2026-02-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101323",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

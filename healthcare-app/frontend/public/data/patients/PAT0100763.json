@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0100763",
+    "med_rec_num": "MRN0200763",
+    "full_name": "George Schmidt",
+    "birth_date": "1980-03-28",
+    "age": 46,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 266,
+    "latitude": 40.52857,
+    "longitude": -79.96458,
+    "last_encounter_date": "2025-07-17",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5286 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 518-8732",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100763",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000763-000",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000763-001",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 143
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100763",
+    "diagnoses": [
+      {
+        "dx_id": "0000763-acu-001",
+        "pat_enc_csn_id": "0000763-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100763",
+    "summary": {
+      "total_charges": 266,
+      "total_payments": 236,
+      "outstanding_balance": 30,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 266,
+        "total_payments": 236,
+        "current_balance": 30,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-05-03",
+        "closed_date": "2026-02-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100763",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

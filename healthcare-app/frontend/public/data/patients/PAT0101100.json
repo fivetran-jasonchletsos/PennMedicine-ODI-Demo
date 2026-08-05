@@ -1,0 +1,174 @@
+{
+  "patient": {
+    "pat_id": "PAT0101100",
+    "med_rec_num": "MRN0201100",
+    "full_name": "James Taylor",
+    "birth_date": "1983-07-02",
+    "age": 43,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 6308,
+    "latitude": 40.41993,
+    "longitude": -79.78736,
+    "last_encounter_date": "2026-04-11",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9673 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 384-8874",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101100",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001100-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001100-001",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001100-002",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001100-003",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001100-004",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 4962
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101100",
+    "diagnoses": [
+      {
+        "dx_id": "0001100-acu-000",
+        "pat_enc_csn_id": "0001100-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101100",
+    "summary": {
+      "total_charges": 6308,
+      "total_payments": 5049,
+      "outstanding_balance": 1259,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000110000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6308,
+        "total_payments": 5049,
+        "current_balance": 1259,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-11-28",
+        "closed_date": "2026-02-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101100",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

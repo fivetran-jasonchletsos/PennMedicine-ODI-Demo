@@ -1,0 +1,282 @@
+{
+  "patient": {
+    "pat_id": "PAT0101341",
+    "med_rec_num": "MRN0201341",
+    "full_name": "Susan Schmidt",
+    "birth_date": "1945-03-14",
+    "age": 81,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 0,
+    "encounter_count": 15,
+    "total_charges": 17172,
+    "latitude": 40.52202,
+    "longitude": -79.96465,
+    "last_encounter_date": "2026-05-08",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6438 Beacon St",
+    "state": "PA",
+    "phone": "(412) 906-1889",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101341",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001341-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001341-001",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001341-002",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0001341-003",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001341-004",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 3251
+      },
+      {
+        "pat_enc_csn_id": "0001341-005",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001341-006",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001341-007",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0001341-008",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0001341-009",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5313
+      },
+      {
+        "pat_enc_csn_id": "0001341-010",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5529
+      },
+      {
+        "pat_enc_csn_id": "0001341-011",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001341-012",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0001341-013",
+        "contact_date": "2024-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0001341-014",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 216
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101341",
+    "diagnoses": [
+      {
+        "dx_id": "0001341-acu-000",
+        "pat_enc_csn_id": "0001341-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0001341-acu-001",
+        "pat_enc_csn_id": "0001341-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101341",
+    "summary": {
+      "total_charges": 17172,
+      "total_payments": 10779,
+      "outstanding_balance": 6393,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134100",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 17172,
+        "total_payments": 10779,
+        "current_balance": 6393,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-03",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101341",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      },
+      {
+        "pat_id": "PAT0102763",
+        "full_name": "Reshma Garcia",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1624
+      }
+    ]
+  }
+}

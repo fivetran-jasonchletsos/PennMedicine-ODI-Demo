@@ -1,0 +1,267 @@
+{
+  "patient": {
+    "pat_id": "PAT0100296",
+    "med_rec_num": "MRN0200296",
+    "full_name": "Kevin Chen",
+    "birth_date": "1972-06-15",
+    "age": 54,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 26147,
+    "latitude": 40.47919,
+    "longitude": -79.95718,
+    "last_encounter_date": "2026-03-25",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1783 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 782-7334",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100296",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000296-000",
+        "contact_date": "2026-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000296-001",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000296-002",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0000296-003",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000296-004",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000296-005",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0000296-006",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000296-007",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000296-008",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 23759
+      },
+      {
+        "pat_enc_csn_id": "0000296-009",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 123
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100296",
+    "diagnoses": [
+      {
+        "dx_id": "0000296-dx-000",
+        "pat_enc_csn_id": "0000296-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000296-dx-001",
+        "pat_enc_csn_id": "0000296-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000296-dx-002",
+        "pat_enc_csn_id": "0000296-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0000296-acu-001",
+        "pat_enc_csn_id": "0000296-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-06"
+      },
+      {
+        "dx_id": "0000296-acu-002",
+        "pat_enc_csn_id": "0000296-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100296",
+    "summary": {
+      "total_charges": 26147,
+      "total_payments": 23282,
+      "outstanding_balance": 2865,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000029600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 21250,
+        "total_payments": 19144,
+        "current_balance": 2106,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-23",
+        "closed_date": "2026-02-16"
+      },
+      {
+        "hsp_account_id": "HSP000029601",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4897,
+        "total_payments": 4138,
+        "current_balance": 759,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-05-27",
+        "closed_date": "2025-10-31"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100296",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

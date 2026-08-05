@@ -1,0 +1,264 @@
+{
+  "patient": {
+    "pat_id": "PAT0100134",
+    "med_rec_num": "MRN0200134",
+    "full_name": "Kevin Schmidt",
+    "birth_date": "1949-11-14",
+    "age": 77,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 46143,
+    "latitude": 40.4387,
+    "longitude": -79.96238,
+    "last_encounter_date": "2026-02-21",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3068 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 365-2511",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100134",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000134-000",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000134-001",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000134-002",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0000134-003",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 5597
+      },
+      {
+        "pat_enc_csn_id": "0000134-004",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 2759
+      },
+      {
+        "pat_enc_csn_id": "0000134-005",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000134-006",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000134-007",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 5641
+      },
+      {
+        "pat_enc_csn_id": "0000134-008",
+        "contact_date": "2024-12-25",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 30725
+      },
+      {
+        "pat_enc_csn_id": "0000134-009",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 144
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100134",
+    "diagnoses": [
+      {
+        "dx_id": "0000134-dx-000",
+        "pat_enc_csn_id": "0000134-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1968-05-13"
+      },
+      {
+        "dx_id": "0000134-dx-001",
+        "pat_enc_csn_id": "0000134-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0000134-dx-002",
+        "pat_enc_csn_id": "0000134-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000134-acu-000",
+        "pat_enc_csn_id": "0000134-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      },
+      {
+        "dx_id": "0000134-acu-001",
+        "pat_enc_csn_id": "0000134-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-16"
+      },
+      {
+        "dx_id": "0000134-acu-002",
+        "pat_enc_csn_id": "0000134-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-08-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100134",
+    "summary": {
+      "total_charges": 46143,
+      "total_payments": 34631,
+      "outstanding_balance": 11512,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000013400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 46143,
+        "total_payments": 34631,
+        "current_balance": 11512,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-24",
+        "closed_date": "2026-01-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100134",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

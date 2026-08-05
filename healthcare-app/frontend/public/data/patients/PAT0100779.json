@@ -1,0 +1,224 @@
+{
+  "patient": {
+    "pat_id": "PAT0100779",
+    "med_rec_num": "MRN0200779",
+    "full_name": "Mary Gonzalez",
+    "birth_date": "2001-10-15",
+    "age": 25,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 9708,
+    "latitude": 40.5063,
+    "longitude": -79.75699,
+    "last_encounter_date": "2026-04-29",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7819 Walnut St",
+    "state": "PA",
+    "phone": "(412) 506-7527",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100779",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000779-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4887
+      },
+      {
+        "pat_enc_csn_id": "0000779-001",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000779-002",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000779-003",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000779-004",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 2982
+      },
+      {
+        "pat_enc_csn_id": "0000779-005",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000779-006",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000779-007",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0000779-008",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0000779-009",
+        "contact_date": "2024-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100779",
+    "diagnoses": [
+      {
+        "dx_id": "0000779-acu-000",
+        "pat_enc_csn_id": "0000779-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100779",
+    "summary": {
+      "total_charges": 9708,
+      "total_payments": 6986,
+      "outstanding_balance": 2722,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000077900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9708,
+        "total_payments": 6986,
+        "current_balance": 2722,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-29",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100779",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

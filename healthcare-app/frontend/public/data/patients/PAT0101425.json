@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0101425",
+    "med_rec_num": "MRN0201425",
+    "full_name": "Barbara Miller",
+    "birth_date": "1994-05-09",
+    "age": 32,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 5146,
+    "latitude": 40.4469,
+    "longitude": -79.99313,
+    "last_encounter_date": "2025-12-11",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3608 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 546-5551",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101425",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001425-000",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0001425-001",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0001425-002",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 4413
+      },
+      {
+        "pat_enc_csn_id": "0001425-003",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 332
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101425",
+    "diagnoses": [
+      {
+        "dx_id": "0001425-acu-000",
+        "pat_enc_csn_id": "0001425-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-11"
+      },
+      {
+        "dx_id": "0001425-acu-002",
+        "pat_enc_csn_id": "0001425-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-04-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101425",
+    "summary": {
+      "total_charges": 5146,
+      "total_payments": 3222,
+      "outstanding_balance": 1924,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5146,
+        "total_payments": 3222,
+        "current_balance": 1924,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-02",
+        "closed_date": "2026-04-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101425",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0101354",
+    "med_rec_num": "MRN0201354",
+    "full_name": "Maria Chen",
+    "birth_date": "1960-10-02",
+    "age": 66,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 5325,
+    "latitude": 40.52788,
+    "longitude": -79.95452,
+    "last_encounter_date": "2026-03-31",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8104 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 936-7571",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101354",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001354-000",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0001354-001",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001354-002",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2325
+      },
+      {
+        "pat_enc_csn_id": "0001354-003",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001354-004",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0001354-005",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001354-006",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0001354-007",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001354-008",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001354-009",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0001354-010",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0001354-011",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 228
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101354",
+    "diagnoses": [
+      {
+        "dx_id": "0001354-dx-000",
+        "pat_enc_csn_id": "0001354-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0001354-acu-000",
+        "pat_enc_csn_id": "0001354-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      },
+      {
+        "dx_id": "0001354-acu-001",
+        "pat_enc_csn_id": "0001354-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-15"
+      },
+      {
+        "dx_id": "0001354-acu-002",
+        "pat_enc_csn_id": "0001354-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101354",
+    "summary": {
+      "total_charges": 5325,
+      "total_payments": 3828,
+      "outstanding_balance": 1497,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5325,
+        "total_payments": 3828,
+        "current_balance": 1497,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-29",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101354",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

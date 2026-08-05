@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100683",
+    "med_rec_num": "MRN0200683",
+    "full_name": "Maria Smith",
+    "birth_date": "1978-12-18",
+    "age": 48,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 75171,
+    "latitude": 40.5069,
+    "longitude": -79.75958,
+    "last_encounter_date": "2025-12-16",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2105 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 669-3641",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100683",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000683-000",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 34653
+      },
+      {
+        "pat_enc_csn_id": "0000683-001",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 34761
+      },
+      {
+        "pat_enc_csn_id": "0000683-002",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000683-003",
+        "contact_date": "2025-01-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 2116
+      },
+      {
+        "pat_enc_csn_id": "0000683-004",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 1570
+      },
+      {
+        "pat_enc_csn_id": "0000683-005",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 1945
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100683",
+    "diagnoses": [
+      {
+        "dx_id": "0000683-acu-001",
+        "pat_enc_csn_id": "0000683-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-03"
+      },
+      {
+        "dx_id": "0000683-acu-002",
+        "pat_enc_csn_id": "0000683-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100683",
+    "summary": {
+      "total_charges": 75171,
+      "total_payments": 61760,
+      "outstanding_balance": 13411,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 75171,
+        "total_payments": 61760,
+        "current_balance": 13411,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-04-13",
+        "closed_date": "2026-05-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100683",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

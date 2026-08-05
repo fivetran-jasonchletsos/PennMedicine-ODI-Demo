@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100353",
+    "med_rec_num": "MRN0200353",
+    "full_name": "James Williams",
+    "birth_date": "1971-10-19",
+    "age": 55,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 7886,
+    "latitude": 40.34821,
+    "longitude": -79.8517,
+    "last_encounter_date": "2025-09-26",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9944 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 956-9045",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100353",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000353-000",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000353-001",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000353-002",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000353-003",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 3727
+      },
+      {
+        "pat_enc_csn_id": "0000353-004",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000353-005",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000353-006",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000353-007",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 1624
+      },
+      {
+        "pat_enc_csn_id": "0000353-008",
+        "contact_date": "2025-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000353-009",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000353-010",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000353-011",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 235
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100353",
+    "diagnoses": [
+      {
+        "dx_id": "0000353-acu-000",
+        "pat_enc_csn_id": "0000353-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-26"
+      },
+      {
+        "dx_id": "0000353-acu-001",
+        "pat_enc_csn_id": "0000353-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-09-10"
+      },
+      {
+        "dx_id": "0000353-acu-002",
+        "pat_enc_csn_id": "0000353-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-09-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100353",
+    "summary": {
+      "total_charges": 7886,
+      "total_payments": 7225,
+      "outstanding_balance": 661,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000035300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7886,
+        "total_payments": 7225,
+        "current_balance": 661,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-01",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100353",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      },
+      {
+        "pat_id": "PAT0100420",
+        "full_name": "Robert Singh",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 2502
+      }
+    ]
+  }
+}

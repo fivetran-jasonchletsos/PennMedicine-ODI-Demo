@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0101151",
+    "med_rec_num": "MRN0201151",
+    "full_name": "Andrew Brown",
+    "birth_date": "1970-09-25",
+    "age": 56,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 43168,
+    "latitude": 40.6301,
+    "longitude": -80.06325,
+    "last_encounter_date": "2026-04-10",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8140 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 515-9363",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101151",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001151-000",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 36727
+      },
+      {
+        "pat_enc_csn_id": "0001151-001",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001151-002",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0001151-003",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0001151-004",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001151-005",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001151-006",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001151-007",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001151-008",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4295
+      },
+      {
+        "pat_enc_csn_id": "0001151-009",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001151-010",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 215
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101151",
+    "diagnoses": [
+      {
+        "dx_id": "0001151-dx-000",
+        "pat_enc_csn_id": "0001151-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001151-acu-000",
+        "pat_enc_csn_id": "0001151-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      },
+      {
+        "dx_id": "0001151-acu-001",
+        "pat_enc_csn_id": "0001151-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      },
+      {
+        "dx_id": "0001151-acu-002",
+        "pat_enc_csn_id": "0001151-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101151",
+    "summary": {
+      "total_charges": 43168,
+      "total_payments": 35286,
+      "outstanding_balance": 7882,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000115100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 43168,
+        "total_payments": 35286,
+        "current_balance": 7882,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-21",
+        "closed_date": "2026-01-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101151",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

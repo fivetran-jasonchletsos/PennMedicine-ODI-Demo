@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0101359",
+    "med_rec_num": "MRN0201359",
+    "full_name": "Ashley Hernandez",
+    "birth_date": "2003-06-13",
+    "age": 23,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 48201,
+    "latitude": 40.42282,
+    "longitude": -79.7845,
+    "last_encounter_date": "2026-04-11",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9053 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 784-5125",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101359",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001359-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001359-001",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 4843
+      },
+      {
+        "pat_enc_csn_id": "0001359-002",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0001359-003",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001359-004",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0001359-005",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0001359-006",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0001359-007",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 35287
+      },
+      {
+        "pat_enc_csn_id": "0001359-008",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 5951
+      },
+      {
+        "pat_enc_csn_id": "0001359-009",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001359-010",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001359-011",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 380
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101359",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0101359",
+    "summary": {
+      "total_charges": 48201,
+      "total_payments": 33585,
+      "outstanding_balance": 14616,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 26180,
+        "total_payments": 16279,
+        "current_balance": 9901,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-03-28",
+        "closed_date": "2026-01-04"
+      },
+      {
+        "hsp_account_id": "HSP000135901",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 22021,
+        "total_payments": 17306,
+        "current_balance": 4715,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-24",
+        "closed_date": "2025-11-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101359",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0100549",
+    "med_rec_num": "MRN0200549",
+    "full_name": "Barbara Russo",
+    "birth_date": "1962-11-13",
+    "age": 64,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 629,
+    "latitude": 40.45833,
+    "longitude": -79.90976,
+    "last_encounter_date": "2026-04-01",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9845 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 601-8895",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100549",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000549-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000549-001",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 209
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100549",
+    "diagnoses": [
+      {
+        "dx_id": "0000549-acu-001",
+        "pat_enc_csn_id": "0000549-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2024-09-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100549",
+    "summary": {
+      "total_charges": 629,
+      "total_payments": 485,
+      "outstanding_balance": 144,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 629,
+        "total_payments": 485,
+        "current_balance": 144,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-20",
+        "closed_date": "2026-03-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100549",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      },
+      {
+        "pat_id": "PAT0100619",
+        "full_name": "James Walsh",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 502
+      }
+    ]
+  }
+}

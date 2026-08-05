@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100905",
+    "med_rec_num": "MRN0200905",
+    "full_name": "Carol Kim",
+    "birth_date": "1995-11-21",
+    "age": 31,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1527,
+    "latitude": 40.68513,
+    "longitude": -80.11098,
+    "last_encounter_date": "2025-12-16",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3645 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 566-6522",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100905",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000905-000",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000905-001",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000905-002",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000905-003",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000905-004",
+        "contact_date": "2024-12-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000905-005",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 224
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100905",
+    "diagnoses": [
+      {
+        "dx_id": "0000905-dx-000",
+        "pat_enc_csn_id": "0000905-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000905-acu-002",
+        "pat_enc_csn_id": "0000905-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-04-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100905",
+    "summary": {
+      "total_charges": 1527,
+      "total_payments": 1095,
+      "outstanding_balance": 432,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1527,
+        "total_payments": 1095,
+        "current_balance": 432,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-24",
+        "closed_date": "2025-12-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100905",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

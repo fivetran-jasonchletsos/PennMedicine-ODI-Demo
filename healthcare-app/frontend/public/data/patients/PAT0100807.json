@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100807",
+    "med_rec_num": "MRN0200807",
+    "full_name": "Sharon Lopez",
+    "birth_date": "1986-11-13",
+    "age": 40,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 8075,
+    "latitude": 40.30502,
+    "longitude": -79.54205,
+    "last_encounter_date": "2026-03-30",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2323 Forbes St",
+    "state": "PA",
+    "phone": "(412) 413-2062",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100807",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000807-000",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 98
+      },
+      {
+        "pat_enc_csn_id": "0000807-001",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000807-002",
+        "contact_date": "2025-09-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000807-003",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000807-004",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000807-005",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0000807-006",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 6019
+      },
+      {
+        "pat_enc_csn_id": "0000807-007",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000807-008",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000807-009",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 337
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100807",
+    "diagnoses": [
+      {
+        "dx_id": "0000807-dx-000",
+        "pat_enc_csn_id": "0000807-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000807-dx-001",
+        "pat_enc_csn_id": "0000807-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000807-acu-000",
+        "pat_enc_csn_id": "0000807-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0000807-acu-001",
+        "pat_enc_csn_id": "0000807-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-01"
+      },
+      {
+        "dx_id": "0000807-acu-002",
+        "pat_enc_csn_id": "0000807-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100807",
+    "summary": {
+      "total_charges": 8075,
+      "total_payments": 6457,
+      "outstanding_balance": 1618,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000080700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8075,
+        "total_payments": 6457,
+        "current_balance": 1618,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-22",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100807",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

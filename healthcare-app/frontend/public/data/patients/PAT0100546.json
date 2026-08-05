@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0100546",
+    "med_rec_num": "MRN0200546",
+    "full_name": "Janet Russo",
+    "birth_date": "2023-11-23",
+    "age": 3,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 358,
+    "latitude": 40.50389,
+    "longitude": -79.76155,
+    "last_encounter_date": "2026-05-09",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4320 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 377-5394",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100546",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000546-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000546-001",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 197
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100546",
+    "diagnoses": [
+      {
+        "dx_id": "0000546-dx-000",
+        "pat_enc_csn_id": "0000546-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000546-acu-000",
+        "pat_enc_csn_id": "0000546-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-09"
+      },
+      {
+        "dx_id": "0000546-acu-001",
+        "pat_enc_csn_id": "0000546-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100546",
+    "summary": {
+      "total_charges": 358,
+      "total_payments": 316,
+      "outstanding_balance": 42,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 358,
+        "total_payments": 316,
+        "current_balance": 42,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-12-28",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100546",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

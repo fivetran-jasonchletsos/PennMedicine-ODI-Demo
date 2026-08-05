@@ -1,0 +1,196 @@
+{
+  "patient": {
+    "pat_id": "PAT0101246",
+    "med_rec_num": "MRN0201246",
+    "full_name": "Christopher Miller",
+    "birth_date": "2001-12-11",
+    "age": 25,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 2070,
+    "latitude": 40.47896,
+    "longitude": -79.95572,
+    "last_encounter_date": "2026-01-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5228 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 960-8269",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101246",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001246-000",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0001246-001",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001246-002",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1211
+      },
+      {
+        "pat_enc_csn_id": "0001246-003",
+        "contact_date": "2024-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101246",
+    "diagnoses": [
+      {
+        "dx_id": "0001246-dx-000",
+        "pat_enc_csn_id": "0001246-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001246-dx-001",
+        "pat_enc_csn_id": "0001246-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001246-acu-000",
+        "pat_enc_csn_id": "0001246-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0001246-acu-001",
+        "pat_enc_csn_id": "0001246-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-10"
+      },
+      {
+        "dx_id": "0001246-acu-002",
+        "pat_enc_csn_id": "0001246-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101246",
+    "summary": {
+      "total_charges": 2070,
+      "total_payments": 1675,
+      "outstanding_balance": 395,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000124600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2070,
+        "total_payments": 1675,
+        "current_balance": 395,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-14",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101246",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

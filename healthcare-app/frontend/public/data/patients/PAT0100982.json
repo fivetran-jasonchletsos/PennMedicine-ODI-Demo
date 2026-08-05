@@ -1,0 +1,305 @@
+{
+  "patient": {
+    "pat_id": "PAT0100982",
+    "med_rec_num": "MRN0200982",
+    "full_name": "Jennifer Wong",
+    "birth_date": "2001-10-06",
+    "age": 25,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 18935,
+    "latitude": 40.43908,
+    "longitude": -79.93256,
+    "last_encounter_date": "2026-02-04",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5331 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 863-8056",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100982",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000982-000",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000982-001",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000982-002",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000982-003",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000982-004",
+        "contact_date": "2025-07-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0000982-005",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 4954
+      },
+      {
+        "pat_enc_csn_id": "0000982-006",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000982-007",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000982-008",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 8251
+      },
+      {
+        "pat_enc_csn_id": "0000982-009",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000982-010",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000982-011",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 2876
+      },
+      {
+        "pat_enc_csn_id": "0000982-012",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 272
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100982",
+    "diagnoses": [
+      {
+        "dx_id": "0000982-dx-000",
+        "pat_enc_csn_id": "0000982-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000982-dx-001",
+        "pat_enc_csn_id": "0000982-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000982-dx-002",
+        "pat_enc_csn_id": "0000982-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000982-acu-000",
+        "pat_enc_csn_id": "0000982-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-04"
+      },
+      {
+        "dx_id": "0000982-acu-001",
+        "pat_enc_csn_id": "0000982-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-28"
+      },
+      {
+        "dx_id": "0000982-acu-002",
+        "pat_enc_csn_id": "0000982-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100982",
+    "summary": {
+      "total_charges": 18935,
+      "total_payments": 14910,
+      "outstanding_balance": 4025,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000098200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11553,
+        "total_payments": 8609,
+        "current_balance": 2944,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-30",
+        "closed_date": "2026-03-31"
+      },
+      {
+        "hsp_account_id": "HSP000098201",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7382,
+        "total_payments": 6301,
+        "current_balance": 1081,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-13",
+        "closed_date": "2026-01-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100982",
+    "comparables": [
+      {
+        "pat_id": "PAT0100023",
+        "full_name": "Richard Wilson",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 26025
+      },
+      {
+        "pat_id": "PAT0100140",
+        "full_name": "Jennifer Davis",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 30330
+      },
+      {
+        "pat_id": "PAT0100199",
+        "full_name": "Thomas Wong",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 26545
+      },
+      {
+        "pat_id": "PAT0100314",
+        "full_name": "Reshma Taylor",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 8482
+      },
+      {
+        "pat_id": "PAT0100332",
+        "full_name": "Mark Garcia",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 11166
+      },
+      {
+        "pat_id": "PAT0100343",
+        "full_name": "Reshma Nguyen",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4356
+      }
+    ]
+  }
+}

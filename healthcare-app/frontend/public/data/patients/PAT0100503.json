@@ -1,0 +1,383 @@
+{
+  "patient": {
+    "pat_id": "PAT0100503",
+    "med_rec_num": "MRN0200503",
+    "full_name": "Mary Russo",
+    "birth_date": "1959-10-23",
+    "age": 67,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 4,
+    "encounter_count": 20,
+    "total_charges": 14438,
+    "latitude": 40.49741,
+    "longitude": -79.90737,
+    "last_encounter_date": "2026-04-18",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1148 Walnut St",
+    "state": "PA",
+    "phone": "(412) 287-4734",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100503",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000503-000",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 7384
+      },
+      {
+        "pat_enc_csn_id": "0000503-001",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000503-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000503-003",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0000503-004",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000503-005",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000503-006",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000503-007",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 2576
+      },
+      {
+        "pat_enc_csn_id": "0000503-008",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000503-009",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000503-010",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000503-011",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000503-012",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000503-013",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000503-014",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000503-015",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000503-016",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000503-017",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000503-018",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000503-019",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 128
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100503",
+    "diagnoses": [
+      {
+        "dx_id": "0000503-dx-000",
+        "pat_enc_csn_id": "0000503-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000503-dx-001",
+        "pat_enc_csn_id": "0000503-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000503-dx-002",
+        "pat_enc_csn_id": "0000503-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000503-dx-003",
+        "pat_enc_csn_id": "0000503-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0000503-acu-000",
+        "pat_enc_csn_id": "0000503-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-18"
+      },
+      {
+        "dx_id": "0000503-acu-001",
+        "pat_enc_csn_id": "0000503-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0000503-acu-002",
+        "pat_enc_csn_id": "0000503-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100503",
+    "summary": {
+      "total_charges": 14438,
+      "total_payments": 12396,
+      "outstanding_balance": 2042,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000050300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 969,
+        "total_payments": 806,
+        "current_balance": 163,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-12-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000050301",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 13469,
+        "total_payments": 11590,
+        "current_balance": 1879,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-04-27",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100503",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0100098",
+    "med_rec_num": "MRN0200098",
+    "full_name": "Anil Okonkwo",
+    "birth_date": "1972-06-12",
+    "age": 54,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 930,
+    "latitude": 40.34332,
+    "longitude": -79.84495,
+    "last_encounter_date": "2025-07-26",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3698 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 974-8600",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100098",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000098-000",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000098-001",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000098-002",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000098-003",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 401
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100098",
+    "diagnoses": [
+      {
+        "dx_id": "0000098-dx-000",
+        "pat_enc_csn_id": "0000098-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000098-dx-001",
+        "pat_enc_csn_id": "0000098-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000098-acu-000",
+        "pat_enc_csn_id": "0000098-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100098",
+    "summary": {
+      "total_charges": 930,
+      "total_payments": 640,
+      "outstanding_balance": 290,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000009800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 930,
+        "total_payments": 640,
+        "current_balance": 290,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-02-15",
+        "closed_date": "2026-04-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100098",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

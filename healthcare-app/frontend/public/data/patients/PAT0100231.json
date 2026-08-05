@@ -1,0 +1,320 @@
+{
+  "patient": {
+    "pat_id": "PAT0100231",
+    "med_rec_num": "MRN0200231",
+    "full_name": "Susan Thomas",
+    "birth_date": "1953-08-13",
+    "age": 73,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 15,
+    "total_charges": 44635,
+    "latitude": 40.62671,
+    "longitude": -80.05533,
+    "last_encounter_date": "2026-05-12",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3972 Forbes St",
+    "state": "PA",
+    "phone": "(412) 420-4764",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100231",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000231-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000231-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000231-002",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 34678
+      },
+      {
+        "pat_enc_csn_id": "0000231-003",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000231-004",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5352
+      },
+      {
+        "pat_enc_csn_id": "0000231-005",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 1402
+      },
+      {
+        "pat_enc_csn_id": "0000231-006",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0000231-007",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000231-008",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000231-009",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000231-010",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000231-011",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000231-012",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000231-013",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000231-014",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 171
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100231",
+    "diagnoses": [
+      {
+        "dx_id": "0000231-dx-000",
+        "pat_enc_csn_id": "0000231-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000231-acu-000",
+        "pat_enc_csn_id": "0000231-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-12"
+      },
+      {
+        "dx_id": "0000231-acu-001",
+        "pat_enc_csn_id": "0000231-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      },
+      {
+        "dx_id": "0000231-acu-002",
+        "pat_enc_csn_id": "0000231-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100231",
+    "summary": {
+      "total_charges": 44635,
+      "total_payments": 37975,
+      "outstanding_balance": 6660,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 13442,
+        "total_payments": 10203,
+        "current_balance": 3239,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-18",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000023101",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 2285,
+        "total_payments": 2093,
+        "current_balance": 192,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-12-08",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000023102",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 28908,
+        "total_payments": 25679,
+        "current_balance": 3229,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100231",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "patient": {
+    "pat_id": "PAT0101269",
+    "med_rec_num": "MRN0201269",
+    "full_name": "Sharon Chen",
+    "birth_date": "1984-12-21",
+    "age": 42,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 39881,
+    "latitude": 40.42257,
+    "longitude": -79.78692,
+    "last_encounter_date": "2026-04-16",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4681 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 754-7246",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101269",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001269-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5172
+      },
+      {
+        "pat_enc_csn_id": "0001269-001",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001269-002",
+        "contact_date": "2025-10-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 28249
+      },
+      {
+        "pat_enc_csn_id": "0001269-003",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 122
+      },
+      {
+        "pat_enc_csn_id": "0001269-004",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001269-005",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001269-006",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0001269-007",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0001269-008",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5199
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101269",
+    "diagnoses": [
+      {
+        "dx_id": "0001269-acu-000",
+        "pat_enc_csn_id": "0001269-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0001269-acu-001",
+        "pat_enc_csn_id": "0001269-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-19"
+      },
+      {
+        "dx_id": "0001269-acu-002",
+        "pat_enc_csn_id": "0001269-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101269",
+    "summary": {
+      "total_charges": 39881,
+      "total_payments": 34244,
+      "outstanding_balance": 5637,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000126900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 11099,
+        "total_payments": 9130,
+        "current_balance": 1969,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-13",
+        "closed_date": "2026-04-08"
+      },
+      {
+        "hsp_account_id": "HSP000126901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 28782,
+        "total_payments": 25114,
+        "current_balance": 3668,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-11-23",
+        "closed_date": "2026-02-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101269",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

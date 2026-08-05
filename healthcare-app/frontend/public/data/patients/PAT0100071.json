@@ -1,0 +1,227 @@
+{
+  "patient": {
+    "pat_id": "PAT0100071",
+    "med_rec_num": "MRN0200071",
+    "full_name": "Jennifer Okonkwo",
+    "birth_date": "1964-03-23",
+    "age": 62,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 14270,
+    "latitude": 40.35665,
+    "longitude": -79.89581,
+    "last_encounter_date": "2025-09-02",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6855 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 950-8060",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100071",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000071-000",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 6479
+      },
+      {
+        "pat_enc_csn_id": "0000071-001",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 6132
+      },
+      {
+        "pat_enc_csn_id": "0000071-002",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1001
+      },
+      {
+        "pat_enc_csn_id": "0000071-003",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0000071-004",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000071-005",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 201
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100071",
+    "diagnoses": [
+      {
+        "dx_id": "0000071-dx-000",
+        "pat_enc_csn_id": "0000071-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000071-dx-001",
+        "pat_enc_csn_id": "0000071-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000071-acu-000",
+        "pat_enc_csn_id": "0000071-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-02"
+      },
+      {
+        "dx_id": "0000071-acu-001",
+        "pat_enc_csn_id": "0000071-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-05-21"
+      },
+      {
+        "dx_id": "0000071-acu-002",
+        "pat_enc_csn_id": "0000071-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100071",
+    "summary": {
+      "total_charges": 14270,
+      "total_payments": 12716,
+      "outstanding_balance": 1554,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000007100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8202,
+        "total_payments": 7348,
+        "current_balance": 854,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-03-29",
+        "closed_date": "2026-04-15"
+      },
+      {
+        "hsp_account_id": "HSP000007101",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6068,
+        "total_payments": 5368,
+        "current_balance": 700,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-04-07",
+        "closed_date": "2026-01-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100071",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

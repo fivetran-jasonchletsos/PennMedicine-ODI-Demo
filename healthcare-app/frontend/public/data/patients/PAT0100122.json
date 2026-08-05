@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100122",
+    "med_rec_num": "MRN0200122",
+    "full_name": "John Williams",
+    "birth_date": "1987-05-01",
+    "age": 39,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 12097,
+    "latitude": 40.44043,
+    "longitude": -79.95997,
+    "last_encounter_date": "2026-02-20",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7730 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 336-5774",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100122",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000122-000",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000122-001",
+        "contact_date": "2025-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0000122-002",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 105
+      },
+      {
+        "pat_enc_csn_id": "0000122-003",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5141
+      },
+      {
+        "pat_enc_csn_id": "0000122-004",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000122-005",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4440
+      },
+      {
+        "pat_enc_csn_id": "0000122-006",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000122-007",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000122-008",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000122-009",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000122-010",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000122-011",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 333
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100122",
+    "diagnoses": [
+      {
+        "dx_id": "0000122-dx-000",
+        "pat_enc_csn_id": "0000122-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000122-acu-000",
+        "pat_enc_csn_id": "0000122-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100122",
+    "summary": {
+      "total_charges": 12097,
+      "total_payments": 9165,
+      "outstanding_balance": 2932,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000012200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 12097,
+        "total_payments": 9165,
+        "current_balance": 2932,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-01-09",
+        "closed_date": "2025-11-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100122",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

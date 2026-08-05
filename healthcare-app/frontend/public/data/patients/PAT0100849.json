@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100849",
+    "med_rec_num": "MRN0200849",
+    "full_name": "Margaret Anderson",
+    "birth_date": "1989-01-03",
+    "age": 37,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 2982,
+    "latitude": 40.2977,
+    "longitude": -79.53422,
+    "last_encounter_date": "2026-04-28",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7510 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 856-2505",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100849",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000849-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000849-001",
+        "contact_date": "2026-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000849-002",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000849-003",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000849-004",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000849-005",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000849-006",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000849-007",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000849-008",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000849-009",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000849-010",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000849-011",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000849-012",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 205
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100849",
+    "diagnoses": [
+      {
+        "dx_id": "0000849-dx-000",
+        "pat_enc_csn_id": "0000849-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000849-dx-001",
+        "pat_enc_csn_id": "0000849-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000849-acu-001",
+        "pat_enc_csn_id": "0000849-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100849",
+    "summary": {
+      "total_charges": 2982,
+      "total_payments": 2534,
+      "outstanding_balance": 448,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 2982,
+        "total_payments": 2534,
+        "current_balance": 448,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-05-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100849",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

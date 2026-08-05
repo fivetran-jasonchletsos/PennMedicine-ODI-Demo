@@ -1,0 +1,302 @@
+{
+  "patient": {
+    "pat_id": "PAT0100220",
+    "med_rec_num": "MRN0200220",
+    "full_name": "Hassan Rodriguez",
+    "birth_date": "1932-07-08",
+    "age": 94,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 82683,
+    "latitude": 40.44463,
+    "longitude": -80.10594,
+    "last_encounter_date": "2026-04-14",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5179 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 896-4964",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100220",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000220-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2840
+      },
+      {
+        "pat_enc_csn_id": "0000220-001",
+        "contact_date": "2026-03-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000220-002",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000220-003",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 98
+      },
+      {
+        "pat_enc_csn_id": "0000220-004",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000220-005",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000220-006",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000220-007",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 37690
+      },
+      {
+        "pat_enc_csn_id": "0000220-008",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000220-009",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5686
+      },
+      {
+        "pat_enc_csn_id": "0000220-010",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0000220-011",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000220-012",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000220-013",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 34204
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100220",
+    "diagnoses": [
+      {
+        "dx_id": "0000220-dx-000",
+        "pat_enc_csn_id": "0000220-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1955-05-13"
+      },
+      {
+        "dx_id": "0000220-acu-001",
+        "pat_enc_csn_id": "0000220-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-26"
+      },
+      {
+        "dx_id": "0000220-acu-002",
+        "pat_enc_csn_id": "0000220-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100220",
+    "summary": {
+      "total_charges": 82683,
+      "total_payments": 63542,
+      "outstanding_balance": 19141,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000022000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 53524,
+        "total_payments": 42109,
+        "current_balance": 11415,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-28",
+        "closed_date": "2026-02-03"
+      },
+      {
+        "hsp_account_id": "HSP000022001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 23205,
+        "total_payments": 16470,
+        "current_balance": 6735,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-08-07",
+        "closed_date": "2026-05-08"
+      },
+      {
+        "hsp_account_id": "HSP000022002",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5954,
+        "total_payments": 4963,
+        "current_balance": 991,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-02",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100220",
+    "comparables": [
+      {
+        "pat_id": "PAT0100482",
+        "full_name": "Joseph Russo",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 4745
+      },
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0101330",
+        "full_name": "George Jones",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2537
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      }
+    ]
+  }
+}

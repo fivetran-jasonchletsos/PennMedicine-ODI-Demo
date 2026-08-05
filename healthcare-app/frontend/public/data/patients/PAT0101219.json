@@ -1,0 +1,249 @@
+{
+  "patient": {
+    "pat_id": "PAT0101219",
+    "med_rec_num": "MRN0201219",
+    "full_name": "Sofia Kim",
+    "birth_date": "1941-12-12",
+    "age": 85,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 37993,
+    "latitude": 40.47233,
+    "longitude": -79.83029,
+    "last_encounter_date": "2026-04-07",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1967 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 982-5618",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101219",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001219-000",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001219-001",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0001219-002",
+        "contact_date": "2026-03-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 35542
+      },
+      {
+        "pat_enc_csn_id": "0001219-003",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0001219-004",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001219-005",
+        "contact_date": "2024-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001219-006",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001219-007",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 357
+      },
+      {
+        "pat_enc_csn_id": "0001219-008",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 195
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101219",
+    "diagnoses": [
+      {
+        "dx_id": "0001219-dx-000",
+        "pat_enc_csn_id": "0001219-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1962-05-13"
+      },
+      {
+        "dx_id": "0001219-acu-000",
+        "pat_enc_csn_id": "0001219-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      },
+      {
+        "dx_id": "0001219-acu-001",
+        "pat_enc_csn_id": "0001219-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-17"
+      },
+      {
+        "dx_id": "0001219-acu-002",
+        "pat_enc_csn_id": "0001219-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101219",
+    "summary": {
+      "total_charges": 37993,
+      "total_payments": 29899,
+      "outstanding_balance": 8094,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 19877,
+        "total_payments": 15722,
+        "current_balance": 4155,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-11-26",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000121901",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18116,
+        "total_payments": 14177,
+        "current_balance": 3939,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-11",
+        "closed_date": "2026-02-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101219",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

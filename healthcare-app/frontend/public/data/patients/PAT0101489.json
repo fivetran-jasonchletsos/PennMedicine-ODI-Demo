@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0101489",
+    "med_rec_num": "MRN0201489",
+    "full_name": "Andrew Park",
+    "birth_date": "2007-07-23",
+    "age": 19,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 13796,
+    "latitude": 40.441,
+    "longitude": -79.99956,
+    "last_encounter_date": "2026-02-16",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7008 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 795-8964",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101489",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001489-000",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0001489-001",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0001489-002",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 6264
+      },
+      {
+        "pat_enc_csn_id": "0001489-003",
+        "contact_date": "2025-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001489-004",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001489-005",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001489-006",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5616
+      },
+      {
+        "pat_enc_csn_id": "0001489-007",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001489-008",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 135
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101489",
+    "diagnoses": [
+      {
+        "dx_id": "0001489-acu-000",
+        "pat_enc_csn_id": "0001489-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101489",
+    "summary": {
+      "total_charges": 13796,
+      "total_payments": 10404,
+      "outstanding_balance": 3392,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000148900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8175,
+        "total_payments": 6268,
+        "current_balance": 1907,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-25",
+        "closed_date": "2025-12-13"
+      },
+      {
+        "hsp_account_id": "HSP000148901",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1006,
+        "total_payments": 891,
+        "current_balance": 115,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-14",
+        "closed_date": "2026-02-18"
+      },
+      {
+        "hsp_account_id": "HSP000148902",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 4615,
+        "total_payments": 3245,
+        "current_balance": 1370,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-11",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101489",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

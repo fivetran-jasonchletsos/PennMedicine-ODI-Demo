@@ -1,0 +1,184 @@
+{
+  "patient": {
+    "pat_id": "PAT0101252",
+    "med_rec_num": "MRN0201252",
+    "full_name": "Linda Jackson",
+    "birth_date": "1999-08-23",
+    "age": 27,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 1764,
+    "latitude": 40.46991,
+    "longitude": -79.83514,
+    "last_encounter_date": "2025-11-23",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4037 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 688-7541",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101252",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001252-000",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0001252-001",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001252-002",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0001252-003",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001252-004",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0001252-005",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 290
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101252",
+    "diagnoses": [
+      {
+        "dx_id": "0001252-acu-000",
+        "pat_enc_csn_id": "0001252-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101252",
+    "summary": {
+      "total_charges": 1764,
+      "total_payments": 1447,
+      "outstanding_balance": 317,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1764,
+        "total_payments": 1447,
+        "current_balance": 317,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-05",
+        "closed_date": "2025-12-31"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101252",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

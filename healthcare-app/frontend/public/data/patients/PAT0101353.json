@@ -1,0 +1,282 @@
+{
+  "patient": {
+    "pat_id": "PAT0101353",
+    "med_rec_num": "MRN0201353",
+    "full_name": "Reshma Davis",
+    "birth_date": "1948-05-10",
+    "age": 78,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 9978,
+    "latitude": 40.50157,
+    "longitude": -79.76741,
+    "last_encounter_date": "2026-03-24",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2025 Penn St",
+    "state": "PA",
+    "phone": "(412) 580-6148",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101353",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001353-000",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4410
+      },
+      {
+        "pat_enc_csn_id": "0001353-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001353-002",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001353-003",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001353-004",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0001353-005",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0001353-006",
+        "contact_date": "2025-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0001353-007",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001353-008",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 101
+      },
+      {
+        "pat_enc_csn_id": "0001353-009",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001353-010",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0001353-011",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0001353-012",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2273
+      },
+      {
+        "pat_enc_csn_id": "0001353-013",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0001353-014",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 257
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101353",
+    "diagnoses": [
+      {
+        "dx_id": "0001353-dx-000",
+        "pat_enc_csn_id": "0001353-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001353-dx-001",
+        "pat_enc_csn_id": "0001353-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101353",
+    "summary": {
+      "total_charges": 9978,
+      "total_payments": 6111,
+      "outstanding_balance": 3867,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000135300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9978,
+        "total_payments": 6111,
+        "current_balance": 3867,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-02",
+        "closed_date": "2026-05-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101353",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

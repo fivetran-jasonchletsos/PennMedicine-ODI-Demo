@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100960",
+    "med_rec_num": "MRN0200960",
+    "full_name": "Aisha Khan",
+    "birth_date": "1993-08-07",
+    "age": 33,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 1303,
+    "latitude": 40.41983,
+    "longitude": -79.78736,
+    "last_encounter_date": "2026-02-03",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3594 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 727-1107",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100960",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000960-000",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000960-001",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000960-002",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 80
+      },
+      {
+        "pat_enc_csn_id": "0000960-003",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000960-004",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000960-005",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 330
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100960",
+    "diagnoses": [
+      {
+        "dx_id": "0000960-dx-000",
+        "pat_enc_csn_id": "0000960-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000960-dx-001",
+        "pat_enc_csn_id": "0000960-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000960-acu-001",
+        "pat_enc_csn_id": "0000960-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-21"
+      },
+      {
+        "dx_id": "0000960-acu-002",
+        "pat_enc_csn_id": "0000960-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100960",
+    "summary": {
+      "total_charges": 1303,
+      "total_payments": 816,
+      "outstanding_balance": 487,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000096000",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1303,
+        "total_payments": 816,
+        "current_balance": 487,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-20",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100960",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

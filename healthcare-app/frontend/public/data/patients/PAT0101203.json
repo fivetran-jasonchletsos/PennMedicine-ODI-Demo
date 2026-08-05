@@ -1,0 +1,372 @@
+{
+  "patient": {
+    "pat_id": "PAT0101203",
+    "med_rec_num": "MRN0201203",
+    "full_name": "David Miller",
+    "birth_date": "1935-10-07",
+    "age": 91,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 4,
+    "encounter_count": 23,
+    "total_charges": 33918,
+    "latitude": 40.44974,
+    "longitude": -80.01066,
+    "last_encounter_date": "2026-01-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7359 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 712-4612",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101203",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001203-000",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0001203-001",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0001203-002",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0001203-003",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001203-004",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001203-005",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001203-006",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0001203-007",
+        "contact_date": "2025-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0001203-008",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001203-009",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001203-010",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0001203-011",
+        "contact_date": "2024-12-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0001203-012",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001203-013",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0001203-014",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0001203-015",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001203-016",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0001203-017",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 27572
+      },
+      {
+        "pat_enc_csn_id": "0001203-018",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001203-019",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 368
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101203",
+    "diagnoses": [
+      {
+        "dx_id": "0001203-dx-000",
+        "pat_enc_csn_id": "0001203-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001203-dx-001",
+        "pat_enc_csn_id": "0001203-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001203-dx-002",
+        "pat_enc_csn_id": "0001203-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001203-dx-003",
+        "pat_enc_csn_id": "0001203-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0001203-acu-000",
+        "pat_enc_csn_id": "0001203-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-28"
+      },
+      {
+        "dx_id": "0001203-acu-001",
+        "pat_enc_csn_id": "0001203-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-12"
+      },
+      {
+        "dx_id": "0001203-acu-002",
+        "pat_enc_csn_id": "0001203-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101203",
+    "summary": {
+      "total_charges": 33918,
+      "total_payments": 28417,
+      "outstanding_balance": 5501,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 33918,
+        "total_payments": 28417,
+        "current_balance": 5501,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-05",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101203",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

@@ -1,0 +1,367 @@
+{
+  "patient": {
+    "pat_id": "PAT0100463",
+    "med_rec_num": "MRN0200463",
+    "full_name": "Andrew Russo",
+    "birth_date": "1958-06-07",
+    "age": 68,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 3,
+    "encounter_count": 20,
+    "total_charges": 43820,
+    "latitude": 40.45762,
+    "longitude": -80.0107,
+    "last_encounter_date": "2026-05-07",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2981 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 741-9909",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100463",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000463-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000463-001",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000463-002",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000463-003",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 2979
+      },
+      {
+        "pat_enc_csn_id": "0000463-004",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000463-005",
+        "contact_date": "2025-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000463-006",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000463-007",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000463-008",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 2524
+      },
+      {
+        "pat_enc_csn_id": "0000463-009",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0000463-010",
+        "contact_date": "2025-05-01",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 2639
+      },
+      {
+        "pat_enc_csn_id": "0000463-011",
+        "contact_date": "2025-02-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000463-012",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000463-013",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000463-014",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000463-015",
+        "contact_date": "2024-10-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 20894
+      },
+      {
+        "pat_enc_csn_id": "0000463-016",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 7429
+      },
+      {
+        "pat_enc_csn_id": "0000463-017",
+        "contact_date": "2024-08-17",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000463-018",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 3616
+      },
+      {
+        "pat_enc_csn_id": "0000463-019",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100463",
+    "diagnoses": [
+      {
+        "dx_id": "0000463-dx-000",
+        "pat_enc_csn_id": "0000463-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000463-dx-001",
+        "pat_enc_csn_id": "0000463-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0000463-dx-002",
+        "pat_enc_csn_id": "0000463-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000463-acu-000",
+        "pat_enc_csn_id": "0000463-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      },
+      {
+        "dx_id": "0000463-acu-001",
+        "pat_enc_csn_id": "0000463-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100463",
+    "summary": {
+      "total_charges": 43820,
+      "total_payments": 34113,
+      "outstanding_balance": 9707,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 27367,
+        "total_payments": 21221,
+        "current_balance": 6146,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-10",
+        "closed_date": "2026-01-12"
+      },
+      {
+        "hsp_account_id": "HSP000046301",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 16453,
+        "total_payments": 12892,
+        "current_balance": 3561,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-08",
+        "closed_date": "2026-05-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100463",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

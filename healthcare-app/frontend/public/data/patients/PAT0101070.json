@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0101070",
+    "med_rec_num": "MRN0201070",
+    "full_name": "Kevin Russo",
+    "birth_date": "1994-01-06",
+    "age": 32,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 4913,
+    "latitude": 40.37392,
+    "longitude": -80.05047,
+    "last_encounter_date": "2026-02-08",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "19 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 372-6391",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101070",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001070-000",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4141
+      },
+      {
+        "pat_enc_csn_id": "0001070-001",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001070-002",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 419
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101070",
+    "diagnoses": [
+      {
+        "dx_id": "0001070-dx-000",
+        "pat_enc_csn_id": "0001070-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001070-acu-000",
+        "pat_enc_csn_id": "0001070-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      },
+      {
+        "dx_id": "0001070-acu-001",
+        "pat_enc_csn_id": "0001070-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-07"
+      },
+      {
+        "dx_id": "0001070-acu-002",
+        "pat_enc_csn_id": "0001070-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-06-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101070",
+    "summary": {
+      "total_charges": 4913,
+      "total_payments": 3119,
+      "outstanding_balance": 1794,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000107000",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 4913,
+        "total_payments": 3119,
+        "current_balance": 1794,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-11-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101070",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0100709",
+    "med_rec_num": "MRN0200709",
+    "full_name": "Carlos Smith",
+    "birth_date": "1994-12-14",
+    "age": 32,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 979,
+    "latitude": 40.43925,
+    "longitude": -79.99143,
+    "last_encounter_date": "2025-03-04",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5161 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 748-6251",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100709",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000709-000",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0000709-001",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000709-002",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0000709-003",
+        "contact_date": "2024-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100709",
+    "diagnoses": [
+      {
+        "dx_id": "0000709-acu-000",
+        "pat_enc_csn_id": "0000709-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-03-04"
+      },
+      {
+        "dx_id": "0000709-acu-001",
+        "pat_enc_csn_id": "0000709-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-02-14"
+      },
+      {
+        "dx_id": "0000709-acu-002",
+        "pat_enc_csn_id": "0000709-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-09-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100709",
+    "summary": {
+      "total_charges": 979,
+      "total_payments": 676,
+      "outstanding_balance": 303,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 979,
+        "total_payments": 676,
+        "current_balance": 303,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-03",
+        "closed_date": "2026-04-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100709",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

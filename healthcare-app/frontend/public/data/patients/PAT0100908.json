@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100908",
+    "med_rec_num": "MRN0200908",
+    "full_name": "Paul Greene",
+    "birth_date": "2013-02-25",
+    "age": 13,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 8522,
+    "latitude": 40.44157,
+    "longitude": -79.92516,
+    "last_encounter_date": "2025-11-24",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3332 Liberty St",
+    "state": "PA",
+    "phone": "(412) 829-3153",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100908",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000908-000",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000908-001",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 1379
+      },
+      {
+        "pat_enc_csn_id": "0000908-002",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000908-003",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000908-004",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000908-005",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 3055
+      },
+      {
+        "pat_enc_csn_id": "0000908-006",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000908-007",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000908-008",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 2477
+      },
+      {
+        "pat_enc_csn_id": "0000908-009",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 238
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100908",
+    "diagnoses": [
+      {
+        "dx_id": "0000908-dx-000",
+        "pat_enc_csn_id": "0000908-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000908-dx-001",
+        "pat_enc_csn_id": "0000908-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000908-acu-000",
+        "pat_enc_csn_id": "0000908-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-24"
+      },
+      {
+        "dx_id": "0000908-acu-001",
+        "pat_enc_csn_id": "0000908-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-02"
+      },
+      {
+        "dx_id": "0000908-acu-002",
+        "pat_enc_csn_id": "0000908-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-09-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100908",
+    "summary": {
+      "total_charges": 8522,
+      "total_payments": 5306,
+      "outstanding_balance": 3216,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 8522,
+        "total_payments": 5306,
+        "current_balance": 3216,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100908",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

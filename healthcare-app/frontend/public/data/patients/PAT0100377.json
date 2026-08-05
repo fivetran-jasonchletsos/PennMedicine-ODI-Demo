@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100377",
+    "med_rec_num": "MRN0200377",
+    "full_name": "Daniel Russo",
+    "birth_date": "2018-04-19",
+    "age": 8,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 5093,
+    "latitude": 40.47535,
+    "longitude": -79.95686,
+    "last_encounter_date": "2026-02-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1016 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 784-3786",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100377",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000377-000",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000377-001",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000377-002",
+        "contact_date": "2025-05-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0000377-003",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000377-004",
+        "contact_date": "2024-12-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000377-005",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000377-006",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000377-007",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000377-008",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000377-009",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 2459
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100377",
+    "diagnoses": [
+      {
+        "dx_id": "0000377-dx-000",
+        "pat_enc_csn_id": "0000377-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000377-dx-001",
+        "pat_enc_csn_id": "0000377-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000377-acu-000",
+        "pat_enc_csn_id": "0000377-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-02"
+      },
+      {
+        "dx_id": "0000377-acu-001",
+        "pat_enc_csn_id": "0000377-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-07-14"
+      },
+      {
+        "dx_id": "0000377-acu-002",
+        "pat_enc_csn_id": "0000377-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-05-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100377",
+    "summary": {
+      "total_charges": 5093,
+      "total_payments": 4440,
+      "outstanding_balance": 653,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000037700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5093,
+        "total_payments": 4440,
+        "current_balance": 653,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-02-20",
+        "closed_date": "2026-03-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100377",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

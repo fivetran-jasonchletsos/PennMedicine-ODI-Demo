@@ -1,0 +1,364 @@
+{
+  "patient": {
+    "pat_id": "PAT0100846",
+    "med_rec_num": "MRN0200846",
+    "full_name": "Kenji Schmidt",
+    "birth_date": "1953-09-26",
+    "age": 73,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 20,
+    "total_charges": 23585,
+    "latitude": 40.49935,
+    "longitude": -79.75924,
+    "last_encounter_date": "2026-03-28",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2716 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 754-9427",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100846",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000846-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0000846-001",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000846-002",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0000846-003",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 4028
+      },
+      {
+        "pat_enc_csn_id": "0000846-004",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 66
+      },
+      {
+        "pat_enc_csn_id": "0000846-005",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4016
+      },
+      {
+        "pat_enc_csn_id": "0000846-006",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000846-007",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4505
+      },
+      {
+        "pat_enc_csn_id": "0000846-008",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0000846-009",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 6906
+      },
+      {
+        "pat_enc_csn_id": "0000846-010",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 85
+      },
+      {
+        "pat_enc_csn_id": "0000846-011",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000846-012",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0000846-013",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000846-014",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0000846-015",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000846-016",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000846-017",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000846-018",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000846-019",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 411
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100846",
+    "diagnoses": [
+      {
+        "dx_id": "0000846-dx-000",
+        "pat_enc_csn_id": "0000846-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0000846-dx-001",
+        "pat_enc_csn_id": "0000846-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000846-dx-002",
+        "pat_enc_csn_id": "0000846-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000846-acu-000",
+        "pat_enc_csn_id": "0000846-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000846-acu-001",
+        "pat_enc_csn_id": "0000846-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-08"
+      },
+      {
+        "dx_id": "0000846-acu-002",
+        "pat_enc_csn_id": "0000846-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100846",
+    "summary": {
+      "total_charges": 23585,
+      "total_payments": 21446,
+      "outstanding_balance": 2139,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 23585,
+        "total_payments": 21446,
+        "current_balance": 2139,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-05-16",
+        "closed_date": "2026-02-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100846",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

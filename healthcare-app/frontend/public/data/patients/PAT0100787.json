@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100787",
+    "med_rec_num": "MRN0200787",
+    "full_name": "Ashley Gonzalez",
+    "birth_date": "1943-03-18",
+    "age": 83,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 7006,
+    "latitude": 40.30487,
+    "longitude": -79.54083,
+    "last_encounter_date": "2026-04-29",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2612 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 315-2377",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100787",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000787-000",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000787-001",
+        "contact_date": "2026-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000787-002",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000787-003",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000787-004",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000787-005",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000787-006",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000787-007",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000787-008",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 1943
+      },
+      {
+        "pat_enc_csn_id": "0000787-009",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000787-010",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000787-011",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 2370
+      },
+      {
+        "pat_enc_csn_id": "0000787-012",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 296
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100787",
+    "diagnoses": [
+      {
+        "dx_id": "0000787-dx-000",
+        "pat_enc_csn_id": "0000787-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000787-dx-001",
+        "pat_enc_csn_id": "0000787-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000787-dx-002",
+        "pat_enc_csn_id": "0000787-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100787",
+    "summary": {
+      "total_charges": 7006,
+      "total_payments": 5694,
+      "outstanding_balance": 1312,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000078700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7006,
+        "total_payments": 5694,
+        "current_balance": 1312,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-09-03",
+        "closed_date": "2026-01-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100787",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

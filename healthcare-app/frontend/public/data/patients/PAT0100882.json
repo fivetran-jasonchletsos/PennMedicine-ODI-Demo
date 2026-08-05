@@ -1,0 +1,313 @@
+{
+  "patient": {
+    "pat_id": "PAT0100882",
+    "med_rec_num": "MRN0200882",
+    "full_name": "Andrew Greene",
+    "birth_date": "1947-12-19",
+    "age": 79,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 5,
+    "encounter_count": 13,
+    "total_charges": 70375,
+    "latitude": 40.48108,
+    "longitude": -79.83451,
+    "last_encounter_date": "2025-12-19",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "423 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 684-4356",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100882",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000882-000",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000882-001",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 7265
+      },
+      {
+        "pat_enc_csn_id": "0000882-002",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000882-003",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 30183
+      },
+      {
+        "pat_enc_csn_id": "0000882-004",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0000882-005",
+        "contact_date": "2024-12-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000882-006",
+        "contact_date": "2024-11-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 4318
+      },
+      {
+        "pat_enc_csn_id": "0000882-007",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000882-008",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000882-009",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 6221
+      },
+      {
+        "pat_enc_csn_id": "0000882-010",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0000882-011",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 20192
+      },
+      {
+        "pat_enc_csn_id": "0000882-012",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 306
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100882",
+    "diagnoses": [
+      {
+        "dx_id": "0000882-dx-000",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1965-05-13"
+      },
+      {
+        "dx_id": "0000882-dx-001",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1975-05-13"
+      },
+      {
+        "dx_id": "0000882-dx-002",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1965-05-13"
+      },
+      {
+        "dx_id": "0000882-dx-003",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000882-dx-004",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000882-acu-000",
+        "pat_enc_csn_id": "0000882-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-19"
+      },
+      {
+        "dx_id": "0000882-acu-001",
+        "pat_enc_csn_id": "0000882-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100882",
+    "summary": {
+      "total_charges": 70375,
+      "total_payments": 60067,
+      "outstanding_balance": 10308,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000088200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18081,
+        "total_payments": 12959,
+        "current_balance": 5122,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-08",
+        "closed_date": "2025-12-20"
+      },
+      {
+        "hsp_account_id": "HSP000088201",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 52294,
+        "total_payments": 47108,
+        "current_balance": 5186,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-22",
+        "closed_date": "2026-02-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100882",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}

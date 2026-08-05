@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100497",
+    "med_rec_num": "MRN0200497",
+    "full_name": "Kimberly Chen",
+    "birth_date": "1965-12-13",
+    "age": 61,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 38740,
+    "latitude": 40.4499,
+    "longitude": -80.00372,
+    "last_encounter_date": "2026-03-22",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9484 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 439-9859",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100497",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000497-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000497-001",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0000497-002",
+        "contact_date": "2025-10-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 30726
+      },
+      {
+        "pat_enc_csn_id": "0000497-003",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000497-004",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0000497-005",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000497-006",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000497-007",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5834
+      },
+      {
+        "pat_enc_csn_id": "0000497-008",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000497-009",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000497-010",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 163
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100497",
+    "diagnoses": [
+      {
+        "dx_id": "0000497-dx-000",
+        "pat_enc_csn_id": "0000497-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000497-dx-001",
+        "pat_enc_csn_id": "0000497-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000497-acu-000",
+        "pat_enc_csn_id": "0000497-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0000497-acu-001",
+        "pat_enc_csn_id": "0000497-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-30"
+      },
+      {
+        "dx_id": "0000497-acu-002",
+        "pat_enc_csn_id": "0000497-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100497",
+    "summary": {
+      "total_charges": 38740,
+      "total_payments": 28046,
+      "outstanding_balance": 10694,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000049700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 38740,
+        "total_payments": 28046,
+        "current_balance": 10694,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-23",
+        "closed_date": "2026-02-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100497",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "patient": {
+    "pat_id": "PAT0100160",
+    "med_rec_num": "MRN0200160",
+    "full_name": "Daniel Wilson",
+    "birth_date": "1994-06-02",
+    "age": 32,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 16342,
+    "latitude": 40.44084,
+    "longitude": -79.95727,
+    "last_encounter_date": "2026-05-03",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5198 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 594-7458",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100160",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000160-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 3316
+      },
+      {
+        "pat_enc_csn_id": "0000160-001",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000160-002",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000160-003",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000160-004",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5873
+      },
+      {
+        "pat_enc_csn_id": "0000160-005",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000160-006",
+        "contact_date": "2025-05-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0000160-007",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4799
+      },
+      {
+        "pat_enc_csn_id": "0000160-008",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000160-009",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000160-010",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 392
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100160",
+    "diagnoses": [
+      {
+        "dx_id": "0000160-dx-000",
+        "pat_enc_csn_id": "0000160-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000160-acu-000",
+        "pat_enc_csn_id": "0000160-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      },
+      {
+        "dx_id": "0000160-acu-001",
+        "pat_enc_csn_id": "0000160-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0000160-acu-002",
+        "pat_enc_csn_id": "0000160-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100160",
+    "summary": {
+      "total_charges": 16342,
+      "total_payments": 14247,
+      "outstanding_balance": 2095,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016000",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 13514,
+        "total_payments": 11837,
+        "current_balance": 1677,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000016001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2828,
+        "total_payments": 2410,
+        "current_balance": 418,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-12-19",
+        "closed_date": "2026-02-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100160",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

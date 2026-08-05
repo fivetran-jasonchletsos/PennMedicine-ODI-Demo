@@ -1,0 +1,276 @@
+{
+  "patient": {
+    "pat_id": "PAT0100518",
+    "med_rec_num": "MRN0200518",
+    "full_name": "Mary Greene",
+    "birth_date": "1938-01-03",
+    "age": 88,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 3275,
+    "latitude": 40.49133,
+    "longitude": -79.90975,
+    "last_encounter_date": "2026-05-10",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3379 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 711-9560",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100518",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000518-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000518-001",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0000518-002",
+        "contact_date": "2025-10-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000518-003",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000518-004",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000518-005",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000518-006",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000518-007",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000518-008",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000518-009",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000518-010",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000518-011",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 274
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100518",
+    "diagnoses": [
+      {
+        "dx_id": "0000518-dx-000",
+        "pat_enc_csn_id": "0000518-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0000518-dx-001",
+        "pat_enc_csn_id": "0000518-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1964-05-13"
+      },
+      {
+        "dx_id": "0000518-dx-002",
+        "pat_enc_csn_id": "0000518-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000518-acu-001",
+        "pat_enc_csn_id": "0000518-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-02"
+      },
+      {
+        "dx_id": "0000518-acu-002",
+        "pat_enc_csn_id": "0000518-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-10-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100518",
+    "summary": {
+      "total_charges": 3275,
+      "total_payments": 2284,
+      "outstanding_balance": 991,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000051800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3275,
+        "total_payments": 2284,
+        "current_balance": 991,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-24",
+        "closed_date": "2026-02-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100518",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

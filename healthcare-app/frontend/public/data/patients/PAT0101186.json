@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101186",
+    "med_rec_num": "MRN0201186",
+    "full_name": "Margaret Williams",
+    "birth_date": "1998-12-06",
+    "age": 28,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 9213,
+    "latitude": 40.30199,
+    "longitude": -79.53842,
+    "last_encounter_date": "2026-05-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3978 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 246-9143",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101186",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001186-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001186-001",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001186-002",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 6956
+      },
+      {
+        "pat_enc_csn_id": "0001186-003",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0001186-004",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0001186-005",
+        "contact_date": "2025-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0001186-006",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001186-007",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001186-008",
+        "contact_date": "2024-10-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001186-009",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 76
+      },
+      {
+        "pat_enc_csn_id": "0001186-010",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101186",
+    "diagnoses": [
+      {
+        "dx_id": "0001186-dx-000",
+        "pat_enc_csn_id": "0001186-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001186-acu-000",
+        "pat_enc_csn_id": "0001186-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101186",
+    "summary": {
+      "total_charges": 9213,
+      "total_payments": 8718,
+      "outstanding_balance": 495,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000118600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 9213,
+        "total_payments": 8718,
+        "current_balance": 495,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-01-19",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101186",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

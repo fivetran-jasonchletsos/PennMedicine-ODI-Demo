@@ -1,0 +1,249 @@
+{
+  "patient": {
+    "pat_id": "PAT0100435",
+    "med_rec_num": "MRN0200435",
+    "full_name": "Richard Jones",
+    "birth_date": "1968-11-07",
+    "age": 58,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 35852,
+    "latitude": 40.42307,
+    "longitude": -79.78482,
+    "last_encounter_date": "2026-02-24",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5898 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 482-8133",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100435",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000435-000",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 31494
+      },
+      {
+        "pat_enc_csn_id": "0000435-001",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000435-002",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0000435-003",
+        "contact_date": "2025-08-06",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 2889
+      },
+      {
+        "pat_enc_csn_id": "0000435-004",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000435-005",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 159
+      },
+      {
+        "pat_enc_csn_id": "0000435-006",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000435-007",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000435-008",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100435",
+    "diagnoses": [
+      {
+        "dx_id": "0000435-dx-000",
+        "pat_enc_csn_id": "0000435-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000435-acu-000",
+        "pat_enc_csn_id": "0000435-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      },
+      {
+        "dx_id": "0000435-acu-001",
+        "pat_enc_csn_id": "0000435-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-19"
+      },
+      {
+        "dx_id": "0000435-acu-002",
+        "pat_enc_csn_id": "0000435-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100435",
+    "summary": {
+      "total_charges": 35852,
+      "total_payments": 31852,
+      "outstanding_balance": 4000,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000043500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 15525,
+        "total_payments": 13156,
+        "current_balance": 2369,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-27",
+        "closed_date": "2025-11-27"
+      },
+      {
+        "hsp_account_id": "HSP000043501",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 20327,
+        "total_payments": 18696,
+        "current_balance": 1631,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-25",
+        "closed_date": "2026-02-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100435",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

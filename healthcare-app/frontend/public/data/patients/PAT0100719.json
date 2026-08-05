@@ -1,0 +1,282 @@
+{
+  "patient": {
+    "pat_id": "PAT0100719",
+    "med_rec_num": "MRN0200719",
+    "full_name": "Anil Walsh",
+    "birth_date": "1961-10-28",
+    "age": 65,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 49233,
+    "latitude": 40.52266,
+    "longitude": -79.95921,
+    "last_encounter_date": "2026-04-20",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "84 Murray St",
+    "state": "PA",
+    "phone": "(412) 217-4106",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100719",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000719-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 28103
+      },
+      {
+        "pat_enc_csn_id": "0000719-001",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000719-002",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000719-003",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 11488
+      },
+      {
+        "pat_enc_csn_id": "0000719-004",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000719-005",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 369
+      },
+      {
+        "pat_enc_csn_id": "0000719-006",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000719-007",
+        "contact_date": "2024-10-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2127
+      },
+      {
+        "pat_enc_csn_id": "0000719-008",
+        "contact_date": "2024-10-03",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5426
+      },
+      {
+        "pat_enc_csn_id": "0000719-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000719-010",
+        "contact_date": "2024-08-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000719-011",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 295
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100719",
+    "diagnoses": [
+      {
+        "dx_id": "0000719-dx-000",
+        "pat_enc_csn_id": "0000719-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0000719-acu-000",
+        "pat_enc_csn_id": "0000719-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0000719-acu-002",
+        "pat_enc_csn_id": "0000719-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-06-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100719",
+    "summary": {
+      "total_charges": 49233,
+      "total_payments": 33791,
+      "outstanding_balance": 15442,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 42262,
+        "total_payments": 27304,
+        "current_balance": 14958,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-28",
+        "closed_date": "2025-11-18"
+      },
+      {
+        "hsp_account_id": "HSP000071901",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 87,
+        "total_payments": 77,
+        "current_balance": 10,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-08-26",
+        "closed_date": "2025-11-30"
+      },
+      {
+        "hsp_account_id": "HSP000071902",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6884,
+        "total_payments": 6410,
+        "current_balance": 474,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-10-13",
+        "closed_date": "2026-03-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100719",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

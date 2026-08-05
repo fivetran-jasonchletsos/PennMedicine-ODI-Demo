@@ -1,0 +1,327 @@
+{
+  "patient": {
+    "pat_id": "PAT0100809",
+    "med_rec_num": "MRN0200809",
+    "full_name": "Sharon Jones",
+    "birth_date": "1994-07-04",
+    "age": 32,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 23096,
+    "latitude": 40.44967,
+    "longitude": -79.99817,
+    "last_encounter_date": "2026-04-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7844 Highland St",
+    "state": "PA",
+    "phone": "(412) 201-3077",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100809",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000809-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000809-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000809-002",
+        "contact_date": "2026-03-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 5218
+      },
+      {
+        "pat_enc_csn_id": "0000809-003",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000809-004",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000809-005",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0000809-006",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0000809-007",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 6169
+      },
+      {
+        "pat_enc_csn_id": "0000809-008",
+        "contact_date": "2025-09-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 115
+      },
+      {
+        "pat_enc_csn_id": "0000809-009",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0000809-010",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000809-011",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 383
+      },
+      {
+        "pat_enc_csn_id": "0000809-012",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3752
+      },
+      {
+        "pat_enc_csn_id": "0000809-013",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000809-014",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 4864
+      },
+      {
+        "pat_enc_csn_id": "0000809-015",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 203
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100809",
+    "diagnoses": [
+      {
+        "dx_id": "0000809-dx-000",
+        "pat_enc_csn_id": "0000809-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000809-dx-001",
+        "pat_enc_csn_id": "0000809-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000809-acu-000",
+        "pat_enc_csn_id": "0000809-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0000809-acu-001",
+        "pat_enc_csn_id": "0000809-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      },
+      {
+        "dx_id": "0000809-acu-002",
+        "pat_enc_csn_id": "0000809-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100809",
+    "summary": {
+      "total_charges": 23096,
+      "total_payments": 16793,
+      "outstanding_balance": 6303,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000080900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 14066,
+        "total_payments": 10112,
+        "current_balance": 3954,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-04-30",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000080901",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 9030,
+        "total_payments": 6681,
+        "current_balance": 2349,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-27",
+        "closed_date": "2026-04-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100809",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

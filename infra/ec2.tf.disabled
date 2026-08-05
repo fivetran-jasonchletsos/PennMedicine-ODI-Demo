@@ -1,0 +1,129 @@
+# EC2 Instance with SQL Server (using existing AMI)
+# This is faster and more flexible than RDS
+
+# Data source to get default VPC
+data "aws_vpc" "default" {
+  default = true
+}
+
+# Security Group for SQL Server EC2
+resource "aws_security_group" "sqlserver_sg" {
+  name        = "healthcare-demo-sqlserver-sg"
+  description = "Security group for Healthcare Demo SQL Server EC2"
+  vpc_id      = data.aws_vpc.default.id
+
+  # Allow SQL Server access from Fivetran IPs
+  dynamic "ingress" {
+    for_each = local.fivetran_ips
+    content {
+      from_port   = 1433
+      to_port     = 1433
+      protocol    = "tcp"
+      cidr_blocks = [ingress.value]
+      description = "Fivetran IP: ${ingress.value}"
+    }
+  }
+
+  # Allow RDP access (for management)
+  ingress {
+    from_port   = 3389
+    to_port     = 3389
+    protocol    = "tcp"
+    cidr_blocks = ["0.0.0.0/0"]  # Restrict this in production!
+    description = "RDP access"
+  }
+
+  # Allow all outbound traffic
+  egress {
+    from_port   = 0
+    to_port     = 0
+    protocol    = "-1"
+    cidr_blocks = ["0.0.0.0/0"]
+  }
+
+  tags = {
+    Name        = "healthcare-demo-sqlserver-sg"
+    Environment = "demo"
+    ManagedBy   = "terraform"
+  }
+}
+
+# EC2 Instance with SQL Server
+resource "aws_instance" "sqlserver" {
+  # Use custom AMI or AWS public AMI
+  ami           = var.sql_server_ami_id
+  instance_type = var.instance_type
+
+  vpc_security_group_ids = [aws_security_group.sqlserver_sg.id]
+  
+  # Enable public IP for Fivetran connectivity
+  associate_public_ip_address = true
+
+  # Root volume configuration
+  root_block_device {
+    volume_type           = "gp3"
+    volume_size           = 100
+    delete_on_termination = true
+    encrypted             = false  # Demo environment
+  }
+
+  # User data to configure SQL Server on first boot
+  user_data = <<-EOF
+    <powershell>
+    # Enable SQL Server TCP/IP protocol
+    Import-Module "sqlps" -DisableNameChecking
+    $smo = 'Microsoft.SqlServer.Management.Smo.'
+    $wmi = new-object ($smo + 'Wmi.ManagedComputer')
+    $uri = "ManagedComputer[@Name='localhost']/ ServerInstance[@Name='MSSQLSERVER']/ServerProtocol[@Name='Tcp']"
+    $Tcp = $wmi.GetSmoObject($uri)
+    $Tcp.IsEnabled = $true
+    $Tcp.Alter()
+    
+    # Restart SQL Server service
+    Restart-Service -Name 'MSSQLSERVER' -Force
+    
+    # Create HEALTHCAREDEMO database
+    Invoke-Sqlcmd -Query "CREATE DATABASE HEALTHCAREDEMO"
+    
+    # Create SQL Server login for Fivetran
+    Invoke-Sqlcmd -Query "CREATE LOGIN [${var.rds_username}] WITH PASSWORD = '${var.rds_password}'"
+    Invoke-Sqlcmd -Query "ALTER SERVER ROLE sysadmin ADD MEMBER [${var.rds_username}]"
+    
+    # Configure Windows Firewall
+    New-NetFirewallRule -DisplayName "SQL Server" -Direction Inbound -Protocol TCP -LocalPort 1433 -Action Allow
+    </powershell>
+    EOF
+
+  tags = {
+    Name        = "healthcare-demo-sqlserver"
+    Environment = "demo"
+    ManagedBy   = "terraform"
+  }
+}
+
+# Outputs
+output "sqlserver_public_ip" {
+  description = "SQL Server EC2 public IP"
+  value       = aws_instance.sqlserver.public_ip
+}
+
+output "sqlserver_public_dns" {
+  description = "SQL Server EC2 public DNS"
+  value       = aws_instance.sqlserver.public_dns
+}
+
+output "sqlserver_private_ip" {
+  description = "SQL Server EC2 private IP"
+  value       = aws_instance.sqlserver.private_ip
+}
+
+output "sqlserver_instance_id" {
+  description = "EC2 instance ID"
+  value       = aws_instance.sqlserver.id
+}
+
+output "sqlserver_connection_string" {
+  description = "SQL Server connection string"
+  value       = "Server=${aws_instance.sqlserver.public_dns},1433;Database=HEALTHCAREDEMO;User Id=${var.rds_username};Password=***"
+  sensitive   = true
+}

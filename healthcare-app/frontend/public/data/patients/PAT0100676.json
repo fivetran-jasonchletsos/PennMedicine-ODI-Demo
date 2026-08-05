@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100676",
+    "med_rec_num": "MRN0200676",
+    "full_name": "Patricia Kim",
+    "birth_date": "1968-08-03",
+    "age": 58,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 3820,
+    "latitude": 40.41895,
+    "longitude": -79.7927,
+    "last_encounter_date": "2026-01-20",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1194 Penn St",
+    "state": "PA",
+    "phone": "(412) 937-6719",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100676",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000676-000",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000676-001",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000676-002",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000676-003",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000676-004",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 2743
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100676",
+    "diagnoses": [
+      {
+        "dx_id": "0000676-dx-000",
+        "pat_enc_csn_id": "0000676-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000676-dx-001",
+        "pat_enc_csn_id": "0000676-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000676-acu-001",
+        "pat_enc_csn_id": "0000676-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-09-15"
+      },
+      {
+        "dx_id": "0000676-acu-002",
+        "pat_enc_csn_id": "0000676-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100676",
+    "summary": {
+      "total_charges": 3820,
+      "total_payments": 3364,
+      "outstanding_balance": 456,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3820,
+        "total_payments": 3364,
+        "current_balance": 456,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-04-24",
+        "closed_date": "2025-12-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100676",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

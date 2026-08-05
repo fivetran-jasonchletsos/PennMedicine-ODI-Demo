@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100818",
+    "med_rec_num": "MRN0200818",
+    "full_name": "Kenji Petrov",
+    "birth_date": "2008-10-24",
+    "age": 18,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 3430,
+    "latitude": 40.42277,
+    "longitude": -79.78411,
+    "last_encounter_date": "2026-04-03",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "528 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 481-5300",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100818",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000818-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000818-001",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0000818-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000818-003",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000818-004",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000818-005",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000818-006",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000818-007",
+        "contact_date": "2025-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000818-008",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000818-009",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000818-010",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000818-011",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000818-012",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100818",
+    "diagnoses": [
+      {
+        "dx_id": "0000818-dx-000",
+        "pat_enc_csn_id": "0000818-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000818-acu-000",
+        "pat_enc_csn_id": "0000818-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0000818-acu-002",
+        "pat_enc_csn_id": "0000818-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100818",
+    "summary": {
+      "total_charges": 3430,
+      "total_payments": 3102,
+      "outstanding_balance": 328,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081800",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3430,
+        "total_payments": 3102,
+        "current_balance": 328,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-21",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100818",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

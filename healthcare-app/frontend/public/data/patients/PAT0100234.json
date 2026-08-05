@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0100234",
+    "med_rec_num": "MRN0200234",
+    "full_name": "Donna Thomas",
+    "birth_date": "1992-11-14",
+    "age": 34,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 8889,
+    "latitude": 40.34726,
+    "longitude": -79.84462,
+    "last_encounter_date": "2026-05-03",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6816 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 284-6782",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100234",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000234-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000234-001",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000234-002",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000234-003",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000234-004",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000234-005",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000234-006",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000234-007",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000234-008",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000234-009",
+        "contact_date": "2024-08-09",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5900
+      },
+      {
+        "pat_enc_csn_id": "0000234-010",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 213
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100234",
+    "diagnoses": [
+      {
+        "dx_id": "0000234-acu-000",
+        "pat_enc_csn_id": "0000234-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      },
+      {
+        "dx_id": "0000234-acu-001",
+        "pat_enc_csn_id": "0000234-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-11-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100234",
+    "summary": {
+      "total_charges": 8889,
+      "total_payments": 7129,
+      "outstanding_balance": 1760,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8889,
+        "total_payments": 7129,
+        "current_balance": 1760,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-08",
+        "closed_date": "2025-10-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100234",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "patient": {
+    "pat_id": "PAT0101368",
+    "med_rec_num": "MRN0201368",
+    "full_name": "Carlos Park",
+    "birth_date": "2008-09-04",
+    "age": 18,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 12186,
+    "latitude": 40.44347,
+    "longitude": -79.92955,
+    "last_encounter_date": "2025-08-10",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5532 Penn St",
+    "state": "PA",
+    "phone": "(412) 927-7969",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101368",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001368-000",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001368-001",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6127
+      },
+      {
+        "pat_enc_csn_id": "0001368-002",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001368-003",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0001368-004",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4627
+      },
+      {
+        "pat_enc_csn_id": "0001368-005",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0001368-006",
+        "contact_date": "2024-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101368",
+    "diagnoses": [
+      {
+        "dx_id": "0001368-dx-000",
+        "pat_enc_csn_id": "0001368-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001368-dx-001",
+        "pat_enc_csn_id": "0001368-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001368-acu-000",
+        "pat_enc_csn_id": "0001368-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-08-10"
+      },
+      {
+        "dx_id": "0001368-acu-002",
+        "pat_enc_csn_id": "0001368-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-02-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101368",
+    "summary": {
+      "total_charges": 12186,
+      "total_payments": 9283,
+      "outstanding_balance": 2903,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000136800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5894,
+        "total_payments": 5372,
+        "current_balance": 522,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-10-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000136801",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6292,
+        "total_payments": 3911,
+        "current_balance": 2381,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-24",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101368",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0100732",
+    "med_rec_num": "MRN0200732",
+    "full_name": "Ashley Wilson",
+    "birth_date": "1962-11-14",
+    "age": 64,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 10193,
+    "latitude": 40.42618,
+    "longitude": -79.78298,
+    "last_encounter_date": "2026-03-10",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7681 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 258-6828",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100732",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000732-000",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0000732-001",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000732-002",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0000732-003",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0000732-004",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000732-005",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000732-006",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000732-007",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 66
+      },
+      {
+        "pat_enc_csn_id": "0000732-008",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3956
+      },
+      {
+        "pat_enc_csn_id": "0000732-009",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4741
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100732",
+    "diagnoses": [
+      {
+        "dx_id": "0000732-dx-000",
+        "pat_enc_csn_id": "0000732-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000732-acu-000",
+        "pat_enc_csn_id": "0000732-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      },
+      {
+        "dx_id": "0000732-acu-001",
+        "pat_enc_csn_id": "0000732-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      },
+      {
+        "dx_id": "0000732-acu-002",
+        "pat_enc_csn_id": "0000732-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100732",
+    "summary": {
+      "total_charges": 10193,
+      "total_payments": 8330,
+      "outstanding_balance": 1863,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000073200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 2741,
+        "total_payments": 2357,
+        "current_balance": 384,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-08",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000073201",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 7452,
+        "total_payments": 5973,
+        "current_balance": 1479,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-07-09",
+        "closed_date": "2025-11-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100732",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

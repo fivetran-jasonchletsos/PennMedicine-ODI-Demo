@@ -1,0 +1,324 @@
+{
+  "patient": {
+    "pat_id": "PAT0101181",
+    "med_rec_num": "MRN0201181",
+    "full_name": "Sandra Miller",
+    "birth_date": "1959-11-27",
+    "age": 67,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 4,
+    "encounter_count": 16,
+    "total_charges": 40709,
+    "latitude": 40.52921,
+    "longitude": -79.96437,
+    "last_encounter_date": "2026-05-05",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4154 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 238-3367",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101181",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001181-000",
+        "contact_date": "2026-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001181-001",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0001181-002",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 29303
+      },
+      {
+        "pat_enc_csn_id": "0001181-003",
+        "contact_date": "2025-10-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0001181-004",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001181-005",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0001181-006",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001181-007",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0001181-008",
+        "contact_date": "2025-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0001181-009",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 1849
+      },
+      {
+        "pat_enc_csn_id": "0001181-010",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 3305
+      },
+      {
+        "pat_enc_csn_id": "0001181-011",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0001181-012",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001181-013",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 3160
+      },
+      {
+        "pat_enc_csn_id": "0001181-014",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0001181-015",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 335
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101181",
+    "diagnoses": [
+      {
+        "dx_id": "0001181-dx-000",
+        "pat_enc_csn_id": "0001181-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001181-dx-001",
+        "pat_enc_csn_id": "0001181-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0001181-dx-002",
+        "pat_enc_csn_id": "0001181-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0001181-dx-003",
+        "pat_enc_csn_id": "0001181-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001181-acu-000",
+        "pat_enc_csn_id": "0001181-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-05-05"
+      },
+      {
+        "dx_id": "0001181-acu-001",
+        "pat_enc_csn_id": "0001181-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101181",
+    "summary": {
+      "total_charges": 40709,
+      "total_payments": 35393,
+      "outstanding_balance": 5316,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000118100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 40709,
+        "total_payments": 35393,
+        "current_balance": 5316,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-04-08",
+        "closed_date": "2026-01-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101181",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

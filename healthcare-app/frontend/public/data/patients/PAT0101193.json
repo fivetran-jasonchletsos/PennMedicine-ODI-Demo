@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101193",
+    "med_rec_num": "MRN0201193",
+    "full_name": "Kenji Thomas",
+    "birth_date": "1964-12-17",
+    "age": 62,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 232,
+    "latitude": 40.49687,
+    "longitude": -79.90223,
+    "last_encounter_date": "2025-09-14",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8970 Centre St",
+    "state": "PA",
+    "phone": "(412) 467-5681",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101193",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001193-000",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 232
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101193",
+    "diagnoses": [
+      {
+        "dx_id": "0001193-acu-000",
+        "pat_enc_csn_id": "0001193-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101193",
+    "summary": {
+      "total_charges": 232,
+      "total_payments": 179,
+      "outstanding_balance": 53,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000119300",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 232,
+        "total_payments": 179,
+        "current_balance": 53,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101193",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

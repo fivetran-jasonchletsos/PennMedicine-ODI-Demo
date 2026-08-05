@@ -1,0 +1,212 @@
+{
+  "patient": {
+    "pat_id": "PAT0100239",
+    "med_rec_num": "MRN0200239",
+    "full_name": "Joseph Russo",
+    "birth_date": "2004-04-15",
+    "age": 22,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 7902,
+    "latitude": 40.4714,
+    "longitude": -79.9663,
+    "last_encounter_date": "2026-03-27",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1143 Forbes St",
+    "state": "PA",
+    "phone": "(412) 307-5303",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100239",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000239-000",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000239-001",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000239-002",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000239-003",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000239-004",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2482
+      },
+      {
+        "pat_enc_csn_id": "0000239-005",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000239-006",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000239-007",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 4158
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100239",
+    "diagnoses": [
+      {
+        "dx_id": "0000239-dx-000",
+        "pat_enc_csn_id": "0000239-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000239-acu-000",
+        "pat_enc_csn_id": "0000239-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100239",
+    "summary": {
+      "total_charges": 7902,
+      "total_payments": 7162,
+      "outstanding_balance": 740,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7902,
+        "total_payments": 7162,
+        "current_balance": 740,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-14",
+        "closed_date": "2026-01-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100239",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

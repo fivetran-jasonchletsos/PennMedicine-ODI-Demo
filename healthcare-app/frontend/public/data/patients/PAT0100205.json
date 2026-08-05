@@ -1,0 +1,334 @@
+{
+  "patient": {
+    "pat_id": "PAT0100205",
+    "med_rec_num": "MRN0200205",
+    "full_name": "Barbara Patel",
+    "birth_date": "1972-01-18",
+    "age": 54,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 4,
+    "encounter_count": 17,
+    "total_charges": 15630,
+    "latitude": 40.4944,
+    "longitude": -79.90822,
+    "last_encounter_date": "2026-05-07",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4755 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 450-8273",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100205",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000205-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000205-001",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 1262
+      },
+      {
+        "pat_enc_csn_id": "0000205-002",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000205-003",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000205-004",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0000205-005",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000205-006",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000205-007",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0000205-008",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000205-009",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0000205-010",
+        "contact_date": "2025-06-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 3989
+      },
+      {
+        "pat_enc_csn_id": "0000205-011",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000205-012",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 6961
+      },
+      {
+        "pat_enc_csn_id": "0000205-013",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000205-014",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000205-015",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000205-016",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 379
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100205",
+    "diagnoses": [
+      {
+        "dx_id": "0000205-dx-000",
+        "pat_enc_csn_id": "0000205-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000205-dx-001",
+        "pat_enc_csn_id": "0000205-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000205-dx-002",
+        "pat_enc_csn_id": "0000205-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000205-dx-003",
+        "pat_enc_csn_id": "0000205-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000205-acu-000",
+        "pat_enc_csn_id": "0000205-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      },
+      {
+        "dx_id": "0000205-acu-002",
+        "pat_enc_csn_id": "0000205-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100205",
+    "summary": {
+      "total_charges": 15630,
+      "total_payments": 13564,
+      "outstanding_balance": 2066,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000020500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 15630,
+        "total_payments": 13564,
+        "current_balance": 2066,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-03",
+        "closed_date": "2026-04-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100205",
+    "comparables": [
+      {
+        "pat_id": "PAT0100033",
+        "full_name": "Sofia Thomas",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 26167
+      },
+      {
+        "pat_id": "PAT0100087",
+        "full_name": "Patricia Davis",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 7,
+        "total_charges": 9979
+      },
+      {
+        "pat_id": "PAT0100152",
+        "full_name": "Patricia Walsh",
+        "age": 55,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 13388
+      },
+      {
+        "pat_id": "PAT0100153",
+        "full_name": "James Rodriguez",
+        "age": 56,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 12,
+        "total_charges": 3091
+      },
+      {
+        "pat_id": "PAT0100170",
+        "full_name": "Margaret Jackson",
+        "age": 52,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 6,
+        "total_charges": 1764
+      },
+      {
+        "pat_id": "PAT0100198",
+        "full_name": "Mary Anderson",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 4220
+      }
+    ]
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "patient": {
+    "pat_id": "PAT0100843",
+    "med_rec_num": "MRN0200843",
+    "full_name": "Aisha Miller",
+    "birth_date": "1985-02-07",
+    "age": 41,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 806,
+    "latitude": 40.44042,
+    "longitude": -79.99187,
+    "last_encounter_date": "2025-09-05",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "406 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 828-2495",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100843",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000843-000",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000843-001",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000843-002",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 331
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100843",
+    "diagnoses": [
+      {
+        "dx_id": "0000843-dx-000",
+        "pat_enc_csn_id": "0000843-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000843-acu-001",
+        "pat_enc_csn_id": "0000843-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-06"
+      },
+      {
+        "dx_id": "0000843-acu-002",
+        "pat_enc_csn_id": "0000843-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2024-07-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100843",
+    "summary": {
+      "total_charges": 806,
+      "total_payments": 644,
+      "outstanding_balance": 162,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 806,
+        "total_payments": 644,
+        "current_balance": 162,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100843",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

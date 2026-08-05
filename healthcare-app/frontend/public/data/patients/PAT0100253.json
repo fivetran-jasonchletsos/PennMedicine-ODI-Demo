@@ -1,0 +1,299 @@
+{
+  "patient": {
+    "pat_id": "PAT0100253",
+    "med_rec_num": "MRN0200253",
+    "full_name": "Richard Schmidt",
+    "birth_date": "2004-11-06",
+    "age": 22,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 15029,
+    "latitude": 40.35511,
+    "longitude": -79.90183,
+    "last_encounter_date": "2026-04-13",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4182 Beacon St",
+    "state": "PA",
+    "phone": "(412) 547-9695",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100253",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000253-000",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000253-001",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000253-002",
+        "contact_date": "2025-11-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000253-003",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000253-004",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 5484
+      },
+      {
+        "pat_enc_csn_id": "0000253-005",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000253-006",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000253-007",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000253-008",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000253-009",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 4690
+      },
+      {
+        "pat_enc_csn_id": "0000253-010",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 1438
+      },
+      {
+        "pat_enc_csn_id": "0000253-011",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 951
+      },
+      {
+        "pat_enc_csn_id": "0000253-012",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000253-013",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 248
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100253",
+    "diagnoses": [
+      {
+        "dx_id": "0000253-dx-000",
+        "pat_enc_csn_id": "0000253-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000253-acu-000",
+        "pat_enc_csn_id": "0000253-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0000253-acu-001",
+        "pat_enc_csn_id": "0000253-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-06"
+      },
+      {
+        "dx_id": "0000253-acu-002",
+        "pat_enc_csn_id": "0000253-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-11-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100253",
+    "summary": {
+      "total_charges": 15029,
+      "total_payments": 11855,
+      "outstanding_balance": 3174,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000025300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2981,
+        "total_payments": 2119,
+        "current_balance": 862,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-03-02",
+        "closed_date": "2025-12-01"
+      },
+      {
+        "hsp_account_id": "HSP000025301",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12048,
+        "total_payments": 9736,
+        "current_balance": 2312,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-11",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100253",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

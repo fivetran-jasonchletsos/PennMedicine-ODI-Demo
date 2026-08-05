@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0100356",
+    "med_rec_num": "MRN0200356",
+    "full_name": "Margaret Moore",
+    "birth_date": "2012-01-25",
+    "age": 14,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 1063,
+    "latitude": 40.46781,
+    "longitude": -79.96458,
+    "last_encounter_date": "2026-03-18",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1032 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 560-1920",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100356",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000356-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000356-001",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000356-002",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000356-003",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 236
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100356",
+    "diagnoses": [
+      {
+        "dx_id": "0000356-acu-000",
+        "pat_enc_csn_id": "0000356-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0000356-acu-001",
+        "pat_enc_csn_id": "0000356-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100356",
+    "summary": {
+      "total_charges": 1063,
+      "total_payments": 917,
+      "outstanding_balance": 146,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000035600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1063,
+        "total_payments": 917,
+        "current_balance": 146,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-04-17",
+        "closed_date": "2025-12-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100356",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

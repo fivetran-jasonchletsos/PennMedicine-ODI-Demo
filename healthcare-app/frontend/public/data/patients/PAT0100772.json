@@ -1,0 +1,281 @@
+{
+  "patient": {
+    "pat_id": "PAT0100772",
+    "med_rec_num": "MRN0200772",
+    "full_name": "Barbara Garcia",
+    "birth_date": "2019-02-16",
+    "age": 7,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 66185,
+    "latitude": 40.37405,
+    "longitude": -80.0451,
+    "last_encounter_date": "2026-05-10",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8020 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 638-4926",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100772",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000772-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 15923
+      },
+      {
+        "pat_enc_csn_id": "0000772-001",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000772-002",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000772-003",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000772-004",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000772-005",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 6148
+      },
+      {
+        "pat_enc_csn_id": "0000772-006",
+        "contact_date": "2025-09-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 3960
+      },
+      {
+        "pat_enc_csn_id": "0000772-007",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3029
+      },
+      {
+        "pat_enc_csn_id": "0000772-008",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 8028
+      },
+      {
+        "pat_enc_csn_id": "0000772-009",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5971
+      },
+      {
+        "pat_enc_csn_id": "0000772-010",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000772-011",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000772-012",
+        "contact_date": "2024-08-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 21829
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100772",
+    "diagnoses": [
+      {
+        "dx_id": "0000772-dx-000",
+        "pat_enc_csn_id": "0000772-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000772-dx-001",
+        "pat_enc_csn_id": "0000772-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000772-acu-002",
+        "pat_enc_csn_id": "0000772-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100772",
+    "summary": {
+      "total_charges": 66185,
+      "total_payments": 58063,
+      "outstanding_balance": 8122,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000077200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 16731,
+        "total_payments": 14683,
+        "current_balance": 2048,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000077201",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 49454,
+        "total_payments": 43380,
+        "current_balance": 6074,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-20",
+        "closed_date": "2026-02-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100772",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

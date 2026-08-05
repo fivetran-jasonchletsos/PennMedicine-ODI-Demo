@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0101214",
+    "med_rec_num": "MRN0201214",
+    "full_name": "Susan Nguyen",
+    "birth_date": "1999-10-05",
+    "age": 27,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 2110,
+    "latitude": 40.45378,
+    "longitude": -79.92553,
+    "last_encounter_date": "2026-03-02",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "637 Highland St",
+    "state": "PA",
+    "phone": "(412) 627-5569",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101214",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001214-000",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0001214-001",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001214-002",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001214-003",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0001214-004",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 108
+      },
+      {
+        "pat_enc_csn_id": "0001214-005",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001214-006",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001214-007",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 406
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101214",
+    "diagnoses": [
+      {
+        "dx_id": "0001214-dx-000",
+        "pat_enc_csn_id": "0001214-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0001214-acu-001",
+        "pat_enc_csn_id": "0001214-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-07-22"
+      },
+      {
+        "dx_id": "0001214-acu-002",
+        "pat_enc_csn_id": "0001214-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101214",
+    "summary": {
+      "total_charges": 2110,
+      "total_payments": 1874,
+      "outstanding_balance": 236,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2110,
+        "total_payments": 1874,
+        "current_balance": 236,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-12",
+        "closed_date": "2025-10-31"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101214",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

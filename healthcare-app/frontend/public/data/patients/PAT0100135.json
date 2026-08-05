@@ -1,0 +1,232 @@
+{
+  "patient": {
+    "pat_id": "PAT0100135",
+    "med_rec_num": "MRN0200135",
+    "full_name": "Carol Schmidt",
+    "birth_date": "2003-04-25",
+    "age": 23,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 2953,
+    "latitude": 40.4797,
+    "longitude": -79.83802,
+    "last_encounter_date": "2026-05-10",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5691 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 969-1586",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100135",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000135-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000135-001",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000135-002",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000135-003",
+        "contact_date": "2025-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000135-004",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000135-005",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000135-006",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000135-007",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000135-008",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000135-009",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 349
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100135",
+    "diagnoses": [
+      {
+        "dx_id": "0000135-acu-000",
+        "pat_enc_csn_id": "0000135-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-10"
+      },
+      {
+        "dx_id": "0000135-acu-002",
+        "pat_enc_csn_id": "0000135-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100135",
+    "summary": {
+      "total_charges": 2953,
+      "total_payments": 2384,
+      "outstanding_balance": 569,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000013500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2953,
+        "total_payments": 2384,
+        "current_balance": 569,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-06-12",
+        "closed_date": "2026-02-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100135",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      },
+      {
+        "pat_id": "PAT0100186",
+        "full_name": "Paul Rodriguez",
+        "age": 21,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 3402
+      }
+    ]
+  }
+}

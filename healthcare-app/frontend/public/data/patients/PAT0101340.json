@@ -1,0 +1,188 @@
+{
+  "patient": {
+    "pat_id": "PAT0101340",
+    "med_rec_num": "MRN0201340",
+    "full_name": "Paul Thomas",
+    "birth_date": "1970-01-04",
+    "age": 56,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 3354,
+    "latitude": 40.45331,
+    "longitude": -80.00271,
+    "last_encounter_date": "2025-10-31",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1891 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 882-6950",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101340",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001340-000",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 1740
+      },
+      {
+        "pat_enc_csn_id": "0001340-001",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001340-002",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 1227
+      },
+      {
+        "pat_enc_csn_id": "0001340-003",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 208
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101340",
+    "diagnoses": [
+      {
+        "dx_id": "0001340-dx-000",
+        "pat_enc_csn_id": "0001340-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001340-dx-001",
+        "pat_enc_csn_id": "0001340-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0001340-acu-001",
+        "pat_enc_csn_id": "0001340-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-21"
+      },
+      {
+        "dx_id": "0001340-acu-002",
+        "pat_enc_csn_id": "0001340-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-04-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101340",
+    "summary": {
+      "total_charges": 3354,
+      "total_payments": 3182,
+      "outstanding_balance": 172,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3354,
+        "total_payments": 3182,
+        "current_balance": 172,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-03-26",
+        "closed_date": "2025-12-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101340",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

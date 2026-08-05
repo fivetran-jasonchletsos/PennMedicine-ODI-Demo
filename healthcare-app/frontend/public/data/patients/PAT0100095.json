@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100095",
+    "med_rec_num": "MRN0200095",
+    "full_name": "Hassan Walsh",
+    "birth_date": "1994-11-26",
+    "age": 32,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 3924,
+    "latitude": 40.48879,
+    "longitude": -79.9027,
+    "last_encounter_date": "2026-05-04",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2197 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 489-7956",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100095",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000095-000",
+        "contact_date": "2026-05-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000095-001",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000095-002",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000095-003",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0000095-004",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000095-005",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0000095-006",
+        "contact_date": "2025-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000095-007",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000095-008",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 91
+      },
+      {
+        "pat_enc_csn_id": "0000095-009",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000095-010",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1240
+      },
+      {
+        "pat_enc_csn_id": "0000095-011",
+        "contact_date": "2024-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 205
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100095",
+    "diagnoses": [
+      {
+        "dx_id": "0000095-dx-000",
+        "pat_enc_csn_id": "0000095-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000095-acu-000",
+        "pat_enc_csn_id": "0000095-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-04"
+      },
+      {
+        "dx_id": "0000095-acu-001",
+        "pat_enc_csn_id": "0000095-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0000095-acu-002",
+        "pat_enc_csn_id": "0000095-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100095",
+    "summary": {
+      "total_charges": 3924,
+      "total_payments": 2936,
+      "outstanding_balance": 988,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000009500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3924,
+        "total_payments": 2936,
+        "current_balance": 988,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-08",
+        "closed_date": "2026-04-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100095",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,283 @@
+{
+  "patient": {
+    "pat_id": "PAT0100840",
+    "med_rec_num": "MRN0200840",
+    "full_name": "Thomas Rodriguez",
+    "birth_date": "2006-10-19",
+    "age": 20,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 18946,
+    "latitude": 40.68687,
+    "longitude": -80.10122,
+    "last_encounter_date": "2026-03-28",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5226 Liberty St",
+    "state": "PA",
+    "phone": "(412) 475-5741",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100840",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000840-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000840-001",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000840-002",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000840-003",
+        "contact_date": "2026-01-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000840-004",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000840-005",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000840-006",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000840-007",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 12104
+      },
+      {
+        "pat_enc_csn_id": "0000840-008",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000840-009",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000840-010",
+        "contact_date": "2024-09-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3737
+      },
+      {
+        "pat_enc_csn_id": "0000840-011",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000840-012",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000840-013",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 271
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100840",
+    "diagnoses": [
+      {
+        "dx_id": "0000840-dx-000",
+        "pat_enc_csn_id": "0000840-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000840-acu-000",
+        "pat_enc_csn_id": "0000840-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100840",
+    "summary": {
+      "total_charges": 18946,
+      "total_payments": 15194,
+      "outstanding_balance": 3752,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 17664,
+        "total_payments": 14421,
+        "current_balance": 3243,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-29",
+        "closed_date": "2026-04-21"
+      },
+      {
+        "hsp_account_id": "HSP000084001",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1282,
+        "total_payments": 773,
+        "current_balance": 509,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100840",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "patient": {
+    "pat_id": "PAT0100153",
+    "med_rec_num": "MRN0200153",
+    "full_name": "James Rodriguez",
+    "birth_date": "1970-12-21",
+    "age": 56,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 3091,
+    "latitude": 40.43333,
+    "longitude": -79.92849,
+    "last_encounter_date": "2026-04-01",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4199 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 881-3251",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100153",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000153-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000153-001",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000153-002",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000153-003",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000153-004",
+        "contact_date": "2025-05-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000153-005",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000153-006",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000153-007",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000153-008",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000153-009",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000153-010",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000153-011",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100153",
+    "diagnoses": [
+      {
+        "dx_id": "0000153-dx-000",
+        "pat_enc_csn_id": "0000153-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000153-dx-001",
+        "pat_enc_csn_id": "0000153-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000153-dx-002",
+        "pat_enc_csn_id": "0000153-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000153-acu-001",
+        "pat_enc_csn_id": "0000153-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-26"
+      },
+      {
+        "dx_id": "0000153-acu-002",
+        "pat_enc_csn_id": "0000153-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100153",
+    "summary": {
+      "total_charges": 3091,
+      "total_payments": 2021,
+      "outstanding_balance": 1070,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000015300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3091,
+        "total_payments": 2021,
+        "current_balance": 1070,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-27",
+        "closed_date": "2026-04-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100153",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

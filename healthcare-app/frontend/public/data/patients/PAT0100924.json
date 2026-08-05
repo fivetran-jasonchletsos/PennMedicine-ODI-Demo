@@ -1,0 +1,253 @@
+{
+  "patient": {
+    "pat_id": "PAT0100924",
+    "med_rec_num": "MRN0200924",
+    "full_name": "Aisha Jones",
+    "birth_date": "1951-03-07",
+    "age": 75,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 28535,
+    "latitude": 40.6293,
+    "longitude": -80.06341,
+    "last_encounter_date": "2026-03-01",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3741 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 563-4516",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100924",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000924-000",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000924-001",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 18106
+      },
+      {
+        "pat_enc_csn_id": "0000924-002",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000924-003",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 1920
+      },
+      {
+        "pat_enc_csn_id": "0000924-004",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6300
+      },
+      {
+        "pat_enc_csn_id": "0000924-005",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000924-006",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000924-007",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000924-008",
+        "contact_date": "2024-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000924-009",
+        "contact_date": "2024-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000924-010",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100924",
+    "diagnoses": [
+      {
+        "dx_id": "0000924-dx-000",
+        "pat_enc_csn_id": "0000924-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1975-05-13"
+      },
+      {
+        "dx_id": "0000924-dx-001",
+        "pat_enc_csn_id": "0000924-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100924",
+    "summary": {
+      "total_charges": 28535,
+      "total_payments": 24011,
+      "outstanding_balance": 4524,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000092400",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 19616,
+        "total_payments": 17003,
+        "current_balance": 2613,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-11",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000092401",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8919,
+        "total_payments": 7008,
+        "current_balance": 1911,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-24",
+        "closed_date": "2026-02-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100924",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

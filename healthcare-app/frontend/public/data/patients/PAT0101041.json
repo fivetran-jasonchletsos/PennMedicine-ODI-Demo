@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0101041",
+    "med_rec_num": "MRN0201041",
+    "full_name": "Linda Martin",
+    "birth_date": "1994-01-04",
+    "age": 32,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 2508,
+    "latitude": 40.3571,
+    "longitude": -79.89627,
+    "last_encounter_date": "2026-01-19",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1963 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 833-5727",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101041",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001041-000",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001041-001",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0001041-002",
+        "contact_date": "2025-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0001041-003",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001041-004",
+        "contact_date": "2025-08-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 327
+      },
+      {
+        "pat_enc_csn_id": "0001041-005",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0001041-006",
+        "contact_date": "2025-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001041-007",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001041-008",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 331
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101041",
+    "diagnoses": [
+      {
+        "dx_id": "0001041-dx-000",
+        "pat_enc_csn_id": "0001041-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001041-acu-001",
+        "pat_enc_csn_id": "0001041-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      },
+      {
+        "dx_id": "0001041-acu-002",
+        "pat_enc_csn_id": "0001041-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101041",
+    "summary": {
+      "total_charges": 2508,
+      "total_payments": 1661,
+      "outstanding_balance": 847,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000104100",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2508,
+        "total_payments": 1661,
+        "current_balance": 847,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-03-03",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101041",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

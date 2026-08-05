@@ -1,0 +1,164 @@
+{
+  "patient": {
+    "pat_id": "PAT0100532",
+    "med_rec_num": "MRN0200532",
+    "full_name": "Janet Garcia",
+    "birth_date": "1991-03-25",
+    "age": 35,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 1161,
+    "latitude": 40.49873,
+    "longitude": -79.75848,
+    "last_encounter_date": "2025-09-30",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1979 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 363-5008",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100532",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000532-000",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000532-001",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000532-002",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000532-003",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 392
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100532",
+    "diagnoses": [
+      {
+        "dx_id": "0000532-acu-000",
+        "pat_enc_csn_id": "0000532-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100532",
+    "summary": {
+      "total_charges": 1161,
+      "total_payments": 1087,
+      "outstanding_balance": 74,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000053200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1161,
+        "total_payments": 1087,
+        "current_balance": 74,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100532",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

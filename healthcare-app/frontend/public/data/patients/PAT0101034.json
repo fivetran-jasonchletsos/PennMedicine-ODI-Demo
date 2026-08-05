@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0101034",
+    "med_rec_num": "MRN0201034",
+    "full_name": "Sharon Wong",
+    "birth_date": "1986-06-18",
+    "age": 40,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 11809,
+    "latitude": 40.47591,
+    "longitude": -79.83621,
+    "last_encounter_date": "2026-04-01",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2433 Murray St",
+    "state": "PA",
+    "phone": "(412) 569-7456",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101034",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001034-000",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001034-001",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001034-002",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0001034-003",
+        "contact_date": "2026-01-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0001034-004",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 4283
+      },
+      {
+        "pat_enc_csn_id": "0001034-005",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0001034-006",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001034-007",
+        "contact_date": "2025-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0001034-008",
+        "contact_date": "2025-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0001034-009",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0001034-010",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 1533
+      },
+      {
+        "pat_enc_csn_id": "0001034-011",
+        "contact_date": "2024-11-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 3332
+      },
+      {
+        "pat_enc_csn_id": "0001034-012",
+        "contact_date": "2024-11-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001034-013",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 182
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101034",
+    "diagnoses": [
+      {
+        "dx_id": "0001034-dx-000",
+        "pat_enc_csn_id": "0001034-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0001034-acu-001",
+        "pat_enc_csn_id": "0001034-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101034",
+    "summary": {
+      "total_charges": 11809,
+      "total_payments": 8715,
+      "outstanding_balance": 3094,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4764,
+        "total_payments": 3417,
+        "current_balance": 1347,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-08",
+        "closed_date": "2025-10-31"
+      },
+      {
+        "hsp_account_id": "HSP000103401",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3470,
+        "total_payments": 2088,
+        "current_balance": 1382,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-06-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000103402",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3575,
+        "total_payments": 3210,
+        "current_balance": 365,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-04",
+        "closed_date": "2026-05-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101034",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "patient": {
+    "pat_id": "PAT0100633",
+    "med_rec_num": "MRN0200633",
+    "full_name": "Kenji Thomas",
+    "birth_date": "1986-08-01",
+    "age": 40,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 2988,
+    "latitude": 40.29911,
+    "longitude": -79.54455,
+    "last_encounter_date": "2026-05-01",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3670 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 575-1793",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100633",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000633-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000633-001",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000633-002",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000633-003",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000633-004",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000633-005",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 67
+      },
+      {
+        "pat_enc_csn_id": "0000633-006",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000633-007",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000633-008",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000633-009",
+        "contact_date": "2025-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000633-010",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000633-011",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000633-012",
+        "contact_date": "2024-07-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000633-013",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 114
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100633",
+    "diagnoses": [
+      {
+        "dx_id": "0000633-dx-000",
+        "pat_enc_csn_id": "0000633-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000633-dx-001",
+        "pat_enc_csn_id": "0000633-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000633-acu-000",
+        "pat_enc_csn_id": "0000633-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0000633-acu-001",
+        "pat_enc_csn_id": "0000633-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-08"
+      },
+      {
+        "dx_id": "0000633-acu-002",
+        "pat_enc_csn_id": "0000633-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100633",
+    "summary": {
+      "total_charges": 2988,
+      "total_payments": 1863,
+      "outstanding_balance": 1125,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000063300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2988,
+        "total_payments": 1863,
+        "current_balance": 1125,
+        "primary_payer": "Cigna",
+        "opened_date": "2023-12-25",
+        "closed_date": "2026-02-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100633",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

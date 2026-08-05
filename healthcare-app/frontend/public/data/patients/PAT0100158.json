@@ -1,0 +1,204 @@
+{
+  "patient": {
+    "pat_id": "PAT0100158",
+    "med_rec_num": "MRN0200158",
+    "full_name": "Mark Gonzalez",
+    "birth_date": "1991-01-19",
+    "age": 35,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 22408,
+    "latitude": 40.451,
+    "longitude": -80.10292,
+    "last_encounter_date": "2025-03-02",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2593 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 978-8299",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100158",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000158-000",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000158-001",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000158-002",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000158-003",
+        "contact_date": "2024-08-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 21668
+      },
+      {
+        "pat_enc_csn_id": "0000158-004",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 107
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100158",
+    "diagnoses": [
+      {
+        "dx_id": "0000158-acu-000",
+        "pat_enc_csn_id": "0000158-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-03-02"
+      },
+      {
+        "dx_id": "0000158-acu-001",
+        "pat_enc_csn_id": "0000158-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2024-11-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100158",
+    "summary": {
+      "total_charges": 22408,
+      "total_payments": 19071,
+      "outstanding_balance": 3337,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000015800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 8014,
+        "total_payments": 7213,
+        "current_balance": 801,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-07",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000015801",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 14369,
+        "total_payments": 11838,
+        "current_balance": 2531,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-20",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000015802",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 25,
+        "total_payments": 20,
+        "current_balance": 5,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-09-02",
+        "closed_date": "2025-11-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100158",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100168",
+        "full_name": "Andrew Anderson",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 44040
+      }
+    ]
+  }
+}

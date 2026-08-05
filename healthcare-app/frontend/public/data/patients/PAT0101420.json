@@ -1,0 +1,152 @@
+{
+  "patient": {
+    "pat_id": "PAT0101420",
+    "med_rec_num": "MRN0201420",
+    "full_name": "Hassan O'Brien",
+    "birth_date": "1991-02-17",
+    "age": 35,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 540,
+    "latitude": 40.30543,
+    "longitude": -79.53362,
+    "last_encounter_date": "2026-04-05",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2991 Penn St",
+    "state": "PA",
+    "phone": "(412) 912-2439",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101420",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001420-000",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001420-001",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 355
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101420",
+    "diagnoses": [
+      {
+        "dx_id": "0001420-dx-000",
+        "pat_enc_csn_id": "0001420-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001420-acu-000",
+        "pat_enc_csn_id": "0001420-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101420",
+    "summary": {
+      "total_charges": 540,
+      "total_payments": 453,
+      "outstanding_balance": 87,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142000",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 540,
+        "total_payments": 453,
+        "current_balance": 87,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-02-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101420",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

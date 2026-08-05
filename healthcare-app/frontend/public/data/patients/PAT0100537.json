@@ -1,0 +1,196 @@
+{
+  "patient": {
+    "pat_id": "PAT0100537",
+    "med_rec_num": "MRN0200537",
+    "full_name": "George Nguyen",
+    "birth_date": "2013-06-10",
+    "age": 13,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 1168,
+    "latitude": 40.50673,
+    "longitude": -79.76148,
+    "last_encounter_date": "2025-12-29",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5290 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 466-2699",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100537",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000537-000",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000537-001",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0000537-002",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000537-003",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 378
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100537",
+    "diagnoses": [
+      {
+        "dx_id": "0000537-dx-000",
+        "pat_enc_csn_id": "0000537-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000537-dx-001",
+        "pat_enc_csn_id": "0000537-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000537-acu-000",
+        "pat_enc_csn_id": "0000537-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-29"
+      },
+      {
+        "dx_id": "0000537-acu-001",
+        "pat_enc_csn_id": "0000537-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-17"
+      },
+      {
+        "dx_id": "0000537-acu-002",
+        "pat_enc_csn_id": "0000537-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-02-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100537",
+    "summary": {
+      "total_charges": 1168,
+      "total_payments": 925,
+      "outstanding_balance": 243,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000053700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1168,
+        "total_payments": 925,
+        "current_balance": 243,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-24",
+        "closed_date": "2026-04-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100537",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

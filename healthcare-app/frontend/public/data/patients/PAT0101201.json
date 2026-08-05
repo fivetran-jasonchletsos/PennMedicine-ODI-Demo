@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0101201",
+    "med_rec_num": "MRN0201201",
+    "full_name": "Christopher Gonzalez",
+    "birth_date": "1949-08-01",
+    "age": 77,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 11195,
+    "latitude": 40.44782,
+    "longitude": -79.93438,
+    "last_encounter_date": "2026-03-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "617 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 792-4781",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101201",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001201-000",
+        "contact_date": "2026-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0001201-001",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0001201-002",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 1768
+      },
+      {
+        "pat_enc_csn_id": "0001201-003",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2810
+      },
+      {
+        "pat_enc_csn_id": "0001201-004",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001201-005",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0001201-006",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1070
+      },
+      {
+        "pat_enc_csn_id": "0001201-007",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001201-008",
+        "contact_date": "2025-05-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3411
+      },
+      {
+        "pat_enc_csn_id": "0001201-009",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0001201-010",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 334
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101201",
+    "diagnoses": [
+      {
+        "dx_id": "0001201-dx-000",
+        "pat_enc_csn_id": "0001201-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0001201-acu-000",
+        "pat_enc_csn_id": "0001201-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-27"
+      },
+      {
+        "dx_id": "0001201-acu-002",
+        "pat_enc_csn_id": "0001201-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101201",
+    "summary": {
+      "total_charges": 11195,
+      "total_payments": 7909,
+      "outstanding_balance": 3286,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11195,
+        "total_payments": 7909,
+        "current_balance": 3286,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-26",
+        "closed_date": "2026-04-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101201",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

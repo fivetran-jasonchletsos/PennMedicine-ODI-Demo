@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100949",
+    "med_rec_num": "MRN0200949",
+    "full_name": "Richard Garcia",
+    "birth_date": "1975-07-11",
+    "age": 51,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 3053,
+    "latitude": 40.52924,
+    "longitude": -79.95783,
+    "last_encounter_date": "2025-11-15",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3446 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 803-4330",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100949",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000949-000",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0000949-001",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000949-002",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000949-003",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000949-004",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0000949-005",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000949-006",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000949-007",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000949-008",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000949-009",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0000949-010",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100949",
+    "diagnoses": [
+      {
+        "dx_id": "0000949-dx-000",
+        "pat_enc_csn_id": "0000949-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000949-dx-001",
+        "pat_enc_csn_id": "0000949-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000949-acu-000",
+        "pat_enc_csn_id": "0000949-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-15"
+      },
+      {
+        "dx_id": "0000949-acu-001",
+        "pat_enc_csn_id": "0000949-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-09-29"
+      },
+      {
+        "dx_id": "0000949-acu-002",
+        "pat_enc_csn_id": "0000949-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100949",
+    "summary": {
+      "total_charges": 3053,
+      "total_payments": 2441,
+      "outstanding_balance": 612,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000094900",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 3053,
+        "total_payments": 2441,
+        "current_balance": 612,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100949",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

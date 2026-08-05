@@ -1,0 +1,375 @@
+{
+  "patient": {
+    "pat_id": "PAT0101016",
+    "med_rec_num": "MRN0201016",
+    "full_name": "Daniel Miller",
+    "birth_date": "1956-07-09",
+    "age": 70,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 4,
+    "encounter_count": 22,
+    "total_charges": 32715,
+    "latitude": 40.46806,
+    "longitude": -79.95919,
+    "last_encounter_date": "2026-04-10",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9904 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 712-5260",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101016",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001016-000",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0001016-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 3303
+      },
+      {
+        "pat_enc_csn_id": "0001016-002",
+        "contact_date": "2026-03-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001016-003",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001016-004",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001016-005",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001016-006",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0001016-007",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001016-008",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 242
+      },
+      {
+        "pat_enc_csn_id": "0001016-009",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001016-010",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0001016-011",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 114
+      },
+      {
+        "pat_enc_csn_id": "0001016-012",
+        "contact_date": "2025-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001016-013",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0001016-014",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0001016-015",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0001016-016",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0001016-017",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 23528
+      },
+      {
+        "pat_enc_csn_id": "0001016-018",
+        "contact_date": "2025-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001016-019",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 386
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101016",
+    "diagnoses": [
+      {
+        "dx_id": "0001016-dx-000",
+        "pat_enc_csn_id": "0001016-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001016-dx-001",
+        "pat_enc_csn_id": "0001016-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0001016-dx-002",
+        "pat_enc_csn_id": "0001016-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0001016-dx-003",
+        "pat_enc_csn_id": "0001016-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1981-05-13"
+      },
+      {
+        "dx_id": "0001016-acu-000",
+        "pat_enc_csn_id": "0001016-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      },
+      {
+        "dx_id": "0001016-acu-001",
+        "pat_enc_csn_id": "0001016-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101016",
+    "summary": {
+      "total_charges": 32715,
+      "total_payments": 23465,
+      "outstanding_balance": 9250,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000101600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3768,
+        "total_payments": 2596,
+        "current_balance": 1172,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-04",
+        "closed_date": "2026-05-04"
+      },
+      {
+        "hsp_account_id": "HSP000101601",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 28947,
+        "total_payments": 20869,
+        "current_balance": 8078,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-16",
+        "closed_date": "2026-02-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101016",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

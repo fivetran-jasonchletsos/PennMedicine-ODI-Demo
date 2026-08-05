@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0101328",
+    "med_rec_num": "MRN0201328",
+    "full_name": "Paul Jones",
+    "birth_date": "1953-10-22",
+    "age": 73,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1618,
+    "latitude": 40.29761,
+    "longitude": -79.54274,
+    "last_encounter_date": "2025-08-14",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4549 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 296-9865",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101328",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001328-000",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0001328-001",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0001328-002",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0001328-003",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0001328-004",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001328-005",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 231
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101328",
+    "diagnoses": [
+      {
+        "dx_id": "0001328-dx-000",
+        "pat_enc_csn_id": "0001328-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1976-05-13"
+      },
+      {
+        "dx_id": "0001328-acu-000",
+        "pat_enc_csn_id": "0001328-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-14"
+      },
+      {
+        "dx_id": "0001328-acu-001",
+        "pat_enc_csn_id": "0001328-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-11"
+      },
+      {
+        "dx_id": "0001328-acu-002",
+        "pat_enc_csn_id": "0001328-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101328",
+    "summary": {
+      "total_charges": 1618,
+      "total_payments": 1026,
+      "outstanding_balance": 592,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1618,
+        "total_payments": 1026,
+        "current_balance": 592,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-09-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101328",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

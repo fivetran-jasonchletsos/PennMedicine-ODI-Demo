@@ -1,0 +1,264 @@
+{
+  "patient": {
+    "pat_id": "PAT0100936",
+    "med_rec_num": "MRN0200936",
+    "full_name": "Joseph Schmidt",
+    "birth_date": "1948-05-19",
+    "age": 78,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 10685,
+    "latitude": 40.33135,
+    "longitude": -80.04041,
+    "last_encounter_date": "2026-03-30",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2894 Highland St",
+    "state": "PA",
+    "phone": "(412) 815-4763",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100936",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000936-000",
+        "contact_date": "2026-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0000936-001",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 4351
+      },
+      {
+        "pat_enc_csn_id": "0000936-002",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0000936-003",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000936-004",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000936-005",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000936-006",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3988
+      },
+      {
+        "pat_enc_csn_id": "0000936-007",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000936-008",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000936-009",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 193
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100936",
+    "diagnoses": [
+      {
+        "dx_id": "0000936-dx-000",
+        "pat_enc_csn_id": "0000936-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000936-dx-001",
+        "pat_enc_csn_id": "0000936-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0000936-dx-002",
+        "pat_enc_csn_id": "0000936-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1973-05-13"
+      },
+      {
+        "dx_id": "0000936-acu-000",
+        "pat_enc_csn_id": "0000936-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-30"
+      },
+      {
+        "dx_id": "0000936-acu-001",
+        "pat_enc_csn_id": "0000936-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-19"
+      },
+      {
+        "dx_id": "0000936-acu-002",
+        "pat_enc_csn_id": "0000936-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100936",
+    "summary": {
+      "total_charges": 10685,
+      "total_payments": 7227,
+      "outstanding_balance": 3458,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000093600",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 10685,
+        "total_payments": 7227,
+        "current_balance": 3458,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100936",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

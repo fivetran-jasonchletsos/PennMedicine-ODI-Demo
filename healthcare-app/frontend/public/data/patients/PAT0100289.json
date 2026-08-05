@@ -1,0 +1,376 @@
+{
+  "patient": {
+    "pat_id": "PAT0100289",
+    "med_rec_num": "MRN0200289",
+    "full_name": "Sandra Jackson",
+    "birth_date": "1952-03-12",
+    "age": 74,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 4,
+    "encounter_count": 19,
+    "total_charges": 35624,
+    "latitude": 40.44777,
+    "longitude": -79.92809,
+    "last_encounter_date": "2026-04-20",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9970 Centre St",
+    "state": "PA",
+    "phone": "(412) 281-6647",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100289",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000289-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000289-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000289-002",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0000289-003",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4938
+      },
+      {
+        "pat_enc_csn_id": "0000289-004",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 2150
+      },
+      {
+        "pat_enc_csn_id": "0000289-005",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000289-006",
+        "contact_date": "2025-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000289-007",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000289-008",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000289-009",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000289-010",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 5812
+      },
+      {
+        "pat_enc_csn_id": "0000289-011",
+        "contact_date": "2025-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000289-012",
+        "contact_date": "2025-01-18",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 11508
+      },
+      {
+        "pat_enc_csn_id": "0000289-013",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 3416
+      },
+      {
+        "pat_enc_csn_id": "0000289-014",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000289-015",
+        "contact_date": "2024-10-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 4390
+      },
+      {
+        "pat_enc_csn_id": "0000289-016",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000289-017",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000289-018",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 269
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100289",
+    "diagnoses": [
+      {
+        "dx_id": "0000289-dx-000",
+        "pat_enc_csn_id": "0000289-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000289-dx-001",
+        "pat_enc_csn_id": "0000289-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000289-dx-002",
+        "pat_enc_csn_id": "0000289-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000289-dx-003",
+        "pat_enc_csn_id": "0000289-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000289-acu-001",
+        "pat_enc_csn_id": "0000289-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      },
+      {
+        "dx_id": "0000289-acu-002",
+        "pat_enc_csn_id": "0000289-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100289",
+    "summary": {
+      "total_charges": 35624,
+      "total_payments": 29127,
+      "outstanding_balance": 6497,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000028900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10612,
+        "total_payments": 8362,
+        "current_balance": 2250,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-22",
+        "closed_date": "2025-12-29"
+      },
+      {
+        "hsp_account_id": "HSP000028901",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 14495,
+        "total_payments": 12918,
+        "current_balance": 1577,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-13",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000028902",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 10517,
+        "total_payments": 7847,
+        "current_balance": 2670,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-26",
+        "closed_date": "2025-11-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100289",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0100761",
+    "med_rec_num": "MRN0200761",
+    "full_name": "Sandra O'Brien",
+    "birth_date": "1988-07-11",
+    "age": 38,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 6235,
+    "latitude": 40.68756,
+    "longitude": -80.10743,
+    "last_encounter_date": "2026-01-12",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6236 Highland St",
+    "state": "PA",
+    "phone": "(412) 768-7504",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100761",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000761-000",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000761-001",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000761-002",
+        "contact_date": "2025-10-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0000761-003",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000761-004",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4214
+      },
+      {
+        "pat_enc_csn_id": "0000761-005",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000761-006",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000761-007",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000761-008",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 402
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100761",
+    "diagnoses": [
+      {
+        "dx_id": "0000761-dx-000",
+        "pat_enc_csn_id": "0000761-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000761-acu-001",
+        "pat_enc_csn_id": "0000761-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      },
+      {
+        "dx_id": "0000761-acu-002",
+        "pat_enc_csn_id": "0000761-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100761",
+    "summary": {
+      "total_charges": 6235,
+      "total_payments": 4681,
+      "outstanding_balance": 1554,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6235,
+        "total_payments": 4681,
+        "current_balance": 1554,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-10-20",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100761",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

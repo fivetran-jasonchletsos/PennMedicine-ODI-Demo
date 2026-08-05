@@ -1,0 +1,241 @@
+{
+  "patient": {
+    "pat_id": "PAT0100768",
+    "med_rec_num": "MRN0200768",
+    "full_name": "Margaret Lopez",
+    "birth_date": "1991-06-23",
+    "age": 35,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 11552,
+    "latitude": 40.43788,
+    "longitude": -79.93178,
+    "last_encounter_date": "2026-04-30",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1344 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 827-5587",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100768",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000768-000",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000768-001",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4605
+      },
+      {
+        "pat_enc_csn_id": "0000768-002",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000768-003",
+        "contact_date": "2025-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000768-004",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0000768-005",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 4924
+      },
+      {
+        "pat_enc_csn_id": "0000768-006",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000768-007",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000768-008",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 195
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100768",
+    "diagnoses": [
+      {
+        "dx_id": "0000768-dx-000",
+        "pat_enc_csn_id": "0000768-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000768-acu-000",
+        "pat_enc_csn_id": "0000768-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      },
+      {
+        "dx_id": "0000768-acu-002",
+        "pat_enc_csn_id": "0000768-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100768",
+    "summary": {
+      "total_charges": 11552,
+      "total_payments": 8232,
+      "outstanding_balance": 3320,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000076800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 8144,
+        "total_payments": 5607,
+        "current_balance": 2537,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-12-03",
+        "closed_date": "2026-03-28"
+      },
+      {
+        "hsp_account_id": "HSP000076801",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3408,
+        "total_payments": 2625,
+        "current_balance": 783,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-10",
+        "closed_date": "2025-11-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100768",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

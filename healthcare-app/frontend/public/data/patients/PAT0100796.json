@@ -1,0 +1,212 @@
+{
+  "patient": {
+    "pat_id": "PAT0100796",
+    "med_rec_num": "MRN0200796",
+    "full_name": "Michelle Brown",
+    "birth_date": "2006-10-18",
+    "age": 20,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 8301,
+    "latitude": 40.62832,
+    "longitude": -80.05991,
+    "last_encounter_date": "2025-11-21",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "137 Forbes St",
+    "state": "PA",
+    "phone": "(412) 460-3259",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100796",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000796-000",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 6520
+      },
+      {
+        "pat_enc_csn_id": "0000796-001",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000796-002",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000796-003",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000796-004",
+        "contact_date": "2025-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 357
+      },
+      {
+        "pat_enc_csn_id": "0000796-005",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0000796-006",
+        "contact_date": "2024-08-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0000796-007",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 259
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100796",
+    "diagnoses": [
+      {
+        "dx_id": "0000796-dx-000",
+        "pat_enc_csn_id": "0000796-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000796-acu-000",
+        "pat_enc_csn_id": "0000796-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100796",
+    "summary": {
+      "total_charges": 8301,
+      "total_payments": 6557,
+      "outstanding_balance": 1744,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000079600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8301,
+        "total_payments": 6557,
+        "current_balance": 1744,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-09-30",
+        "closed_date": "2026-04-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100796",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

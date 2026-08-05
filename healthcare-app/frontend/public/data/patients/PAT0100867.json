@@ -1,0 +1,202 @@
+{
+  "patient": {
+    "pat_id": "PAT0100867",
+    "med_rec_num": "MRN0200867",
+    "full_name": "Sharon Thomas",
+    "birth_date": "2011-06-02",
+    "age": 15,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 6192,
+    "latitude": 40.68771,
+    "longitude": -80.10083,
+    "last_encounter_date": "2026-01-31",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2601 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 637-8101",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100867",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000867-000",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000867-001",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000867-002",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000867-003",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 4604
+      },
+      {
+        "pat_enc_csn_id": "0000867-004",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000867-005",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000867-006",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100867",
+    "diagnoses": [
+      {
+        "dx_id": "0000867-acu-000",
+        "pat_enc_csn_id": "0000867-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      },
+      {
+        "dx_id": "0000867-acu-002",
+        "pat_enc_csn_id": "0000867-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100867",
+    "summary": {
+      "total_charges": 6192,
+      "total_payments": 4326,
+      "outstanding_balance": 1866,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086700",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 6192,
+        "total_payments": 4326,
+        "current_balance": 1866,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-18",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100867",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

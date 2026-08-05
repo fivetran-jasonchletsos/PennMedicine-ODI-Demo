@@ -1,0 +1,380 @@
+{
+  "patient": {
+    "pat_id": "PAT0100543",
+    "med_rec_num": "MRN0200543",
+    "full_name": "Patricia Jones",
+    "birth_date": "1946-04-28",
+    "age": 80,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 5,
+    "encounter_count": 20,
+    "total_charges": 36407,
+    "latitude": 40.35753,
+    "longitude": -79.8999,
+    "last_encounter_date": "2026-05-11",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8713 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 439-7805",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100543",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000543-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 1986
+      },
+      {
+        "pat_enc_csn_id": "0000543-001",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000543-002",
+        "contact_date": "2026-03-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000543-003",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000543-004",
+        "contact_date": "2026-01-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000543-005",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000543-006",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000543-007",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000543-008",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000543-009",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000543-010",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0000543-011",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 2608
+      },
+      {
+        "pat_enc_csn_id": "0000543-012",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000543-013",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000543-014",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000543-015",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000543-016",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000543-017",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000543-018",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0000543-019",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 27507
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100543",
+    "diagnoses": [
+      {
+        "dx_id": "0000543-dx-000",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000543-dx-001",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000543-dx-002",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000543-dx-003",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000543-dx-004",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1983-05-13"
+      },
+      {
+        "dx_id": "0000543-acu-000",
+        "pat_enc_csn_id": "0000543-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0000543-acu-001",
+        "pat_enc_csn_id": "0000543-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0000543-acu-002",
+        "pat_enc_csn_id": "0000543-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100543",
+    "summary": {
+      "total_charges": 36407,
+      "total_payments": 28831,
+      "outstanding_balance": 7576,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054300",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 36407,
+        "total_payments": 28831,
+        "current_balance": 7576,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-12-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100543",
+    "comparables": [
+      {
+        "pat_id": "PAT0100049",
+        "full_name": "Daniel Greene",
+        "age": 81,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 22,
+        "total_charges": 10561
+      },
+      {
+        "pat_id": "PAT0100076",
+        "full_name": "Patricia Walsh",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 13961
+      },
+      {
+        "pat_id": "PAT0100109",
+        "full_name": "Sandra Lopez",
+        "age": 80,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 31497
+      },
+      {
+        "pat_id": "PAT0100119",
+        "full_name": "Thomas Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 11,
+        "total_charges": 7931
+      },
+      {
+        "pat_id": "PAT0100206",
+        "full_name": "Carol O'Brien",
+        "age": 83,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 13323
+      },
+      {
+        "pat_id": "PAT0100250",
+        "full_name": "Thomas Rodriguez",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 2955
+      }
+    ]
+  }
+}

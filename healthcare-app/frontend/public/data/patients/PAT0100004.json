@@ -1,0 +1,262 @@
+{
+  "patient": {
+    "pat_id": "PAT0100004",
+    "med_rec_num": "MRN0200004",
+    "full_name": "Carol Smith",
+    "birth_date": "1955-06-10",
+    "age": 71,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 4192,
+    "latitude": 40.44954,
+    "longitude": -80.09826,
+    "last_encounter_date": "2026-04-22",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7395 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 783-7209",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100004",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000004-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000004-001",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000004-002",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000004-003",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000004-004",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000004-005",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000004-006",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000004-007",
+        "contact_date": "2025-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000004-008",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000004-009",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000004-010",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000004-011",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000004-012",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 367
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100004",
+    "diagnoses": [
+      {
+        "dx_id": "0000004-dx-000",
+        "pat_enc_csn_id": "0000004-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000004-acu-000",
+        "pat_enc_csn_id": "0000004-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100004",
+    "summary": {
+      "total_charges": 4192,
+      "total_payments": 3622,
+      "outstanding_balance": 570,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000000400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 4192,
+        "total_payments": 3622,
+        "current_balance": 570,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-08-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100004",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

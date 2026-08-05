@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0101449",
+    "med_rec_num": "MRN0201449",
+    "full_name": "Michelle Chen",
+    "birth_date": "2008-11-14",
+    "age": 18,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 7752,
+    "latitude": 40.37935,
+    "longitude": -80.04625,
+    "last_encounter_date": "2026-03-20",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4018 Liberty St",
+    "state": "PA",
+    "phone": "(412) 319-1639",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101449",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001449-000",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0001449-001",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001449-002",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001449-003",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001449-004",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4810
+      },
+      {
+        "pat_enc_csn_id": "0001449-005",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0001449-006",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001449-007",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0001449-008",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0001449-009",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0001449-010",
+        "contact_date": "2024-06-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001449-011",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 164
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101449",
+    "diagnoses": [
+      {
+        "dx_id": "0001449-acu-000",
+        "pat_enc_csn_id": "0001449-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      },
+      {
+        "dx_id": "0001449-acu-002",
+        "pat_enc_csn_id": "0001449-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101449",
+    "summary": {
+      "total_charges": 7752,
+      "total_payments": 5838,
+      "outstanding_balance": 1914,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144900",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 7752,
+        "total_payments": 5838,
+        "current_balance": 1914,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-08-31",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101449",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100813",
+    "med_rec_num": "MRN0200813",
+    "full_name": "Patricia Wilson",
+    "birth_date": "2006-01-27",
+    "age": 20,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 1292,
+    "latitude": 40.46391,
+    "longitude": -79.91324,
+    "last_encounter_date": "2026-02-15",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2991 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 844-3147",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100813",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000813-000",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000813-001",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000813-002",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000813-003",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000813-004",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000813-005",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 154
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100813",
+    "diagnoses": [
+      {
+        "dx_id": "0000813-acu-000",
+        "pat_enc_csn_id": "0000813-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-15"
+      },
+      {
+        "dx_id": "0000813-acu-002",
+        "pat_enc_csn_id": "0000813-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100813",
+    "summary": {
+      "total_charges": 1292,
+      "total_payments": 958,
+      "outstanding_balance": 334,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000081300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 1292,
+        "total_payments": 958,
+        "current_balance": 334,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100813",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "patient": {
+    "pat_id": "PAT0100729",
+    "med_rec_num": "MRN0200729",
+    "full_name": "Susan Kim",
+    "birth_date": "1936-06-04",
+    "age": 90,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 19,
+    "total_charges": 30893,
+    "latitude": 40.42826,
+    "longitude": -79.78844,
+    "last_encounter_date": "2026-05-06",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8284 Beacon St",
+    "state": "PA",
+    "phone": "(412) 736-7392",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100729",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000729-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 3491
+      },
+      {
+        "pat_enc_csn_id": "0000729-001",
+        "contact_date": "2026-04-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000729-002",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3714
+      },
+      {
+        "pat_enc_csn_id": "0000729-003",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000729-004",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000729-005",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000729-006",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0000729-007",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000729-008",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000729-009",
+        "contact_date": "2025-04-21",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 5183
+      },
+      {
+        "pat_enc_csn_id": "0000729-010",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000729-011",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000729-012",
+        "contact_date": "2025-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000729-013",
+        "contact_date": "2025-01-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 4905
+      },
+      {
+        "pat_enc_csn_id": "0000729-014",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 67
+      },
+      {
+        "pat_enc_csn_id": "0000729-015",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 4026
+      },
+      {
+        "pat_enc_csn_id": "0000729-016",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 6171
+      },
+      {
+        "pat_enc_csn_id": "0000729-017",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000729-018",
+        "contact_date": "2024-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 268
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100729",
+    "diagnoses": [
+      {
+        "dx_id": "0000729-dx-000",
+        "pat_enc_csn_id": "0000729-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000729-dx-001",
+        "pat_enc_csn_id": "0000729-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000729-dx-002",
+        "pat_enc_csn_id": "0000729-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1955-05-13"
+      },
+      {
+        "dx_id": "0000729-acu-000",
+        "pat_enc_csn_id": "0000729-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0000729-acu-001",
+        "pat_enc_csn_id": "0000729-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-04"
+      },
+      {
+        "dx_id": "0000729-acu-002",
+        "pat_enc_csn_id": "0000729-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100729",
+    "summary": {
+      "total_charges": 30893,
+      "total_payments": 27240,
+      "outstanding_balance": 3653,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000072900",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 28057,
+        "total_payments": 24834,
+        "current_balance": 3223,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-06-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000072901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 656,
+        "total_payments": 429,
+        "current_balance": 227,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-31",
+        "closed_date": "2026-01-07"
+      },
+      {
+        "hsp_account_id": "HSP000072902",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 2180,
+        "total_payments": 1977,
+        "current_balance": 203,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-06-19",
+        "closed_date": "2026-01-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100729",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

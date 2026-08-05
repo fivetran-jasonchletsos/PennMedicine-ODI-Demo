@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0101220",
+    "med_rec_num": "MRN0201220",
+    "full_name": "Thomas Khan",
+    "birth_date": "2015-03-25",
+    "age": 11,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 6515,
+    "latitude": 40.47868,
+    "longitude": -79.83283,
+    "last_encounter_date": "2026-03-31",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5432 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 530-2417",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101220",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001220-000",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001220-001",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 1387
+      },
+      {
+        "pat_enc_csn_id": "0001220-002",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0001220-003",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 149
+      },
+      {
+        "pat_enc_csn_id": "0001220-004",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0001220-005",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0001220-006",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0001220-007",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0001220-008",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0001220-009",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001220-010",
+        "contact_date": "2024-10-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3226
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101220",
+    "diagnoses": [
+      {
+        "dx_id": "0001220-dx-000",
+        "pat_enc_csn_id": "0001220-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001220-acu-000",
+        "pat_enc_csn_id": "0001220-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      },
+      {
+        "dx_id": "0001220-acu-001",
+        "pat_enc_csn_id": "0001220-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0001220-acu-002",
+        "pat_enc_csn_id": "0001220-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101220",
+    "summary": {
+      "total_charges": 6515,
+      "total_payments": 3948,
+      "outstanding_balance": 2567,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000122000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6515,
+        "total_payments": 3948,
+        "current_balance": 2567,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-20",
+        "closed_date": "2026-04-14"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101220",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

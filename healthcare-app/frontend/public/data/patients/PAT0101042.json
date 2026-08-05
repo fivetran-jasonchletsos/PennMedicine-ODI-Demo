@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0101042",
+    "med_rec_num": "MRN0201042",
+    "full_name": "Michael Martin",
+    "birth_date": "2004-08-20",
+    "age": 22,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 42548,
+    "latitude": 40.68183,
+    "longitude": -80.10356,
+    "last_encounter_date": "2025-11-19",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5456 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 423-6946",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101042",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001042-000",
+        "contact_date": "2025-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0001042-001",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 24891
+      },
+      {
+        "pat_enc_csn_id": "0001042-002",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001042-003",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0001042-004",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 15777
+      },
+      {
+        "pat_enc_csn_id": "0001042-005",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0001042-006",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0001042-007",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001042-008",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 64
+      },
+      {
+        "pat_enc_csn_id": "0001042-009",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 326
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101042",
+    "diagnoses": [
+      {
+        "dx_id": "0001042-dx-000",
+        "pat_enc_csn_id": "0001042-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001042-dx-001",
+        "pat_enc_csn_id": "0001042-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001042-dx-002",
+        "pat_enc_csn_id": "0001042-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001042-acu-001",
+        "pat_enc_csn_id": "0001042-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-09-07"
+      },
+      {
+        "dx_id": "0001042-acu-002",
+        "pat_enc_csn_id": "0001042-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-06-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101042",
+    "summary": {
+      "total_charges": 42548,
+      "total_payments": 35681,
+      "outstanding_balance": 6867,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000104200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 33160,
+        "total_payments": 29881,
+        "current_balance": 3279,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-25",
+        "closed_date": "2026-03-21"
+      },
+      {
+        "hsp_account_id": "HSP000104201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5861,
+        "total_payments": 3638,
+        "current_balance": 2223,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-03-31",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000104202",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3527,
+        "total_payments": 2162,
+        "current_balance": 1365,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-06",
+        "closed_date": "2026-04-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101042",
+    "comparables": [
+      {
+        "pat_id": "PAT0100023",
+        "full_name": "Richard Wilson",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 26025
+      },
+      {
+        "pat_id": "PAT0100140",
+        "full_name": "Jennifer Davis",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 30330
+      },
+      {
+        "pat_id": "PAT0100199",
+        "full_name": "Thomas Wong",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 26545
+      },
+      {
+        "pat_id": "PAT0100314",
+        "full_name": "Reshma Taylor",
+        "age": 24,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 8482
+      },
+      {
+        "pat_id": "PAT0100332",
+        "full_name": "Mark Garcia",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 11166
+      },
+      {
+        "pat_id": "PAT0100343",
+        "full_name": "Reshma Nguyen",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4356
+      }
+    ]
+  }
+}

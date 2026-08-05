@@ -1,0 +1,152 @@
+{
+  "patient": {
+    "pat_id": "PAT0101178",
+    "med_rec_num": "MRN0201178",
+    "full_name": "John Schmidt",
+    "birth_date": "1962-08-07",
+    "age": 64,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 588,
+    "latitude": 40.4413,
+    "longitude": -79.93379,
+    "last_encounter_date": "2025-01-09",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5278 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 958-4710",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101178",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001178-000",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001178-001",
+        "contact_date": "2024-10-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101178",
+    "diagnoses": [
+      {
+        "dx_id": "0001178-dx-000",
+        "pat_enc_csn_id": "0001178-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0001178-acu-001",
+        "pat_enc_csn_id": "0001178-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2024-10-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101178",
+    "summary": {
+      "total_charges": 588,
+      "total_payments": 517,
+      "outstanding_balance": 71,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000117800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 588,
+        "total_payments": 517,
+        "current_balance": 71,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-03-18",
+        "closed_date": "2026-04-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101178",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

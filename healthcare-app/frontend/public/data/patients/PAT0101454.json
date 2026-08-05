@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0101454",
+    "med_rec_num": "MRN0201454",
+    "full_name": "Susan Anderson",
+    "birth_date": "1978-12-26",
+    "age": 48,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 11156,
+    "latitude": 40.30331,
+    "longitude": -79.53879,
+    "last_encounter_date": "2026-05-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4369 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 495-6131",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101454",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001454-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001454-001",
+        "contact_date": "2026-05-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0001454-002",
+        "contact_date": "2026-03-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0001454-003",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001454-004",
+        "contact_date": "2026-02-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001454-005",
+        "contact_date": "2026-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001454-006",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001454-007",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001454-008",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 7406
+      },
+      {
+        "pat_enc_csn_id": "0001454-009",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001454-010",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0001454-011",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001454-012",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001454-013",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 201
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101454",
+    "diagnoses": [
+      {
+        "dx_id": "0001454-dx-000",
+        "pat_enc_csn_id": "0001454-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0001454-dx-001",
+        "pat_enc_csn_id": "0001454-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101454",
+    "summary": {
+      "total_charges": 11156,
+      "total_payments": 8063,
+      "outstanding_balance": 3093,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000145400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 622,
+        "total_payments": 380,
+        "current_balance": 242,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-06",
+        "closed_date": "2026-01-25"
+      },
+      {
+        "hsp_account_id": "HSP000145401",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6198,
+        "total_payments": 4188,
+        "current_balance": 2010,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-05",
+        "closed_date": "2026-04-18"
+      },
+      {
+        "hsp_account_id": "HSP000145402",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4336,
+        "total_payments": 3495,
+        "current_balance": 841,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-10",
+        "closed_date": "2025-11-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101454",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

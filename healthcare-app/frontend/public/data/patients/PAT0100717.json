@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100717",
+    "med_rec_num": "MRN0200717",
+    "full_name": "John Wong",
+    "birth_date": "1991-12-18",
+    "age": 35,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 5074,
+    "latitude": 40.45124,
+    "longitude": -80.00934,
+    "last_encounter_date": "2025-11-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4067 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 750-3509",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100717",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000717-000",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 3631
+      },
+      {
+        "pat_enc_csn_id": "0000717-001",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000717-002",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000717-003",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000717-004",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000717-005",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000717-006",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000717-007",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 190
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100717",
+    "diagnoses": [
+      {
+        "dx_id": "0000717-dx-000",
+        "pat_enc_csn_id": "0000717-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000717-acu-000",
+        "pat_enc_csn_id": "0000717-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-11-30"
+      },
+      {
+        "dx_id": "0000717-acu-001",
+        "pat_enc_csn_id": "0000717-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100717",
+    "summary": {
+      "total_charges": 5074,
+      "total_payments": 3999,
+      "outstanding_balance": 1075,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5074,
+        "total_payments": 3999,
+        "current_balance": 1075,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-05-20",
+        "closed_date": "2026-03-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100717",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

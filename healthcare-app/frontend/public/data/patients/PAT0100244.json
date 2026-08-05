@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0100244",
+    "med_rec_num": "MRN0200244",
+    "full_name": "Barbara Kim",
+    "birth_date": "2008-07-24",
+    "age": 18,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 7165,
+    "latitude": 40.4344,
+    "longitude": -79.93382,
+    "last_encounter_date": "2025-02-04",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8386 Walnut St",
+    "state": "PA",
+    "phone": "(412) 375-2812",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100244",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000244-000",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000244-001",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 6248
+      },
+      {
+        "pat_enc_csn_id": "0000244-002",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000244-003",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000244-004",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 232
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100244",
+    "diagnoses": [
+      {
+        "dx_id": "0000244-acu-000",
+        "pat_enc_csn_id": "0000244-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-02-04"
+      },
+      {
+        "dx_id": "0000244-acu-001",
+        "pat_enc_csn_id": "0000244-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-31"
+      },
+      {
+        "dx_id": "0000244-acu-002",
+        "pat_enc_csn_id": "0000244-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100244",
+    "summary": {
+      "total_charges": 7165,
+      "total_payments": 6002,
+      "outstanding_balance": 1163,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000024400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7165,
+        "total_payments": 6002,
+        "current_balance": 1163,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-09",
+        "closed_date": "2025-12-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100244",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100274",
+        "full_name": "Elizabeth Gonzalez",
+        "age": 11,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 7092
+      }
+    ]
+  }
+}

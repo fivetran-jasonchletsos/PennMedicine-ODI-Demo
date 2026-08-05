@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101068",
+    "med_rec_num": "MRN0201068",
+    "full_name": "David Johnson",
+    "birth_date": "1999-11-22",
+    "age": 27,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 202,
+    "latitude": 40.37597,
+    "longitude": -80.05123,
+    "last_encounter_date": "2025-03-09",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6089 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 924-7117",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101068",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001068-000",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 202
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101068",
+    "diagnoses": [
+      {
+        "dx_id": "0001068-acu-000",
+        "pat_enc_csn_id": "0001068-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-03-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101068",
+    "summary": {
+      "total_charges": 202,
+      "total_payments": 185,
+      "outstanding_balance": 17,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000106800",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 202,
+        "total_payments": 185,
+        "current_balance": 17,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-24",
+        "closed_date": "2026-02-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101068",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100508",
+    "med_rec_num": "MRN0200508",
+    "full_name": "Maria Gonzalez",
+    "birth_date": "1969-04-25",
+    "age": 57,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 2688,
+    "latitude": 40.35828,
+    "longitude": -79.90097,
+    "last_encounter_date": "2026-02-01",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7731 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 234-8309",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100508",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000508-000",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000508-001",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000508-002",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000508-003",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000508-004",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000508-005",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0000508-006",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000508-007",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000508-008",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000508-009",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0000508-010",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000508-011",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 200
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100508",
+    "diagnoses": [
+      {
+        "dx_id": "0000508-dx-000",
+        "pat_enc_csn_id": "0000508-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000508-dx-001",
+        "pat_enc_csn_id": "0000508-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000508-dx-002",
+        "pat_enc_csn_id": "0000508-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100508",
+    "summary": {
+      "total_charges": 2688,
+      "total_payments": 1719,
+      "outstanding_balance": 969,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000050800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2688,
+        "total_payments": 1719,
+        "current_balance": 969,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-05-15",
+        "closed_date": "2026-05-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100508",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

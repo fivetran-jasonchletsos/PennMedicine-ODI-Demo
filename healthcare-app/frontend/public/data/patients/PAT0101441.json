@@ -1,0 +1,164 @@
+{
+  "patient": {
+    "pat_id": "PAT0101441",
+    "med_rec_num": "MRN0201441",
+    "full_name": "John Petrov",
+    "birth_date": "1997-07-23",
+    "age": 29,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 2396,
+    "latitude": 40.43874,
+    "longitude": -79.95659,
+    "last_encounter_date": "2025-07-23",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4627 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 861-5514",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101441",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001441-000",
+        "contact_date": "2025-07-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0001441-001",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 1805
+      },
+      {
+        "pat_enc_csn_id": "0001441-002",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0001441-003",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 188
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101441",
+    "diagnoses": [
+      {
+        "dx_id": "0001441-acu-000",
+        "pat_enc_csn_id": "0001441-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101441",
+    "summary": {
+      "total_charges": 2396,
+      "total_payments": 1756,
+      "outstanding_balance": 640,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2396,
+        "total_payments": 1756,
+        "current_balance": 640,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101441",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

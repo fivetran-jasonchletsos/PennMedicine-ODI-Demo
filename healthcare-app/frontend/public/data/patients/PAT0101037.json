@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0101037",
+    "med_rec_num": "MRN0201037",
+    "full_name": "Elizabeth Patel",
+    "birth_date": "2007-06-15",
+    "age": 19,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 10033,
+    "latitude": 40.42799,
+    "longitude": -79.79441,
+    "last_encounter_date": "2026-04-09",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1306 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 881-2170",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101037",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001037-000",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0001037-001",
+        "contact_date": "2026-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001037-002",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0001037-003",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0001037-004",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0001037-005",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001037-006",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 7237
+      },
+      {
+        "pat_enc_csn_id": "0001037-007",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001037-008",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001037-009",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 404
+      },
+      {
+        "pat_enc_csn_id": "0001037-010",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 222
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101037",
+    "diagnoses": [
+      {
+        "dx_id": "0001037-acu-001",
+        "pat_enc_csn_id": "0001037-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-21"
+      },
+      {
+        "dx_id": "0001037-acu-002",
+        "pat_enc_csn_id": "0001037-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101037",
+    "summary": {
+      "total_charges": 10033,
+      "total_payments": 6825,
+      "outstanding_balance": 3208,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103700",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 10033,
+        "total_payments": 6825,
+        "current_balance": 3208,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101037",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

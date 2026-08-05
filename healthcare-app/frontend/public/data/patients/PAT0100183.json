@@ -1,0 +1,206 @@
+{
+  "patient": {
+    "pat_id": "PAT0100183",
+    "med_rec_num": "MRN0200183",
+    "full_name": "Linda Gonzalez",
+    "birth_date": "1985-08-06",
+    "age": 41,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 4659,
+    "latitude": 40.34714,
+    "longitude": -79.84446,
+    "last_encounter_date": "2025-08-12",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "208 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 432-9206",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100183",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000183-000",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000183-001",
+        "contact_date": "2025-07-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000183-002",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000183-003",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000183-004",
+        "contact_date": "2024-12-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 3603
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100183",
+    "diagnoses": [
+      {
+        "dx_id": "0000183-dx-000",
+        "pat_enc_csn_id": "0000183-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000183-dx-001",
+        "pat_enc_csn_id": "0000183-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000183-acu-000",
+        "pat_enc_csn_id": "0000183-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-12"
+      },
+      {
+        "dx_id": "0000183-acu-001",
+        "pat_enc_csn_id": "0000183-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-07-23"
+      },
+      {
+        "dx_id": "0000183-acu-002",
+        "pat_enc_csn_id": "0000183-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100183",
+    "summary": {
+      "total_charges": 4659,
+      "total_payments": 2857,
+      "outstanding_balance": 1802,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000018300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4659,
+        "total_payments": 2857,
+        "current_balance": 1802,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-05-09",
+        "closed_date": "2026-03-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100183",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

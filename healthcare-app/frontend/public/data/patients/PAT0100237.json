@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0100237",
+    "med_rec_num": "MRN0200237",
+    "full_name": "Kenji Chen",
+    "birth_date": "1988-07-07",
+    "age": 38,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 5009,
+    "latitude": 40.48929,
+    "longitude": -79.90209,
+    "last_encounter_date": "2026-04-24",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6781 Centre St",
+    "state": "PA",
+    "phone": "(412) 724-9135",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100237",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000237-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 2910
+      },
+      {
+        "pat_enc_csn_id": "0000237-001",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0000237-002",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000237-003",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0000237-004",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000237-005",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000237-006",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000237-007",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000237-008",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100237",
+    "diagnoses": [
+      {
+        "dx_id": "0000237-dx-000",
+        "pat_enc_csn_id": "0000237-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000237-acu-000",
+        "pat_enc_csn_id": "0000237-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-24"
+      },
+      {
+        "dx_id": "0000237-acu-001",
+        "pat_enc_csn_id": "0000237-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      },
+      {
+        "dx_id": "0000237-acu-002",
+        "pat_enc_csn_id": "0000237-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100237",
+    "summary": {
+      "total_charges": 5009,
+      "total_payments": 4553,
+      "outstanding_balance": 456,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5009,
+        "total_payments": 4553,
+        "current_balance": 456,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-01-20",
+        "closed_date": "2025-12-19"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100237",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

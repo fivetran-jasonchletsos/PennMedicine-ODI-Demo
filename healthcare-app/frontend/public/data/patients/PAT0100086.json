@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100086",
+    "med_rec_num": "MRN0200086",
+    "full_name": "John Singh",
+    "birth_date": "1991-05-01",
+    "age": 35,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 14457,
+    "latitude": 40.47353,
+    "longitude": -79.83079,
+    "last_encounter_date": "2026-02-01",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7592 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 286-1896",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100086",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000086-000",
+        "contact_date": "2026-02-01",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 7309
+      },
+      {
+        "pat_enc_csn_id": "0000086-001",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000086-002",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000086-003",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000086-004",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 4260
+      },
+      {
+        "pat_enc_csn_id": "0000086-005",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000086-006",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 1924
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100086",
+    "diagnoses": [
+      {
+        "dx_id": "0000086-dx-000",
+        "pat_enc_csn_id": "0000086-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000086-dx-001",
+        "pat_enc_csn_id": "0000086-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000086-acu-001",
+        "pat_enc_csn_id": "0000086-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-20"
+      },
+      {
+        "dx_id": "0000086-acu-002",
+        "pat_enc_csn_id": "0000086-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-07-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100086",
+    "summary": {
+      "total_charges": 14457,
+      "total_payments": 12735,
+      "outstanding_balance": 1722,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000008600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 14457,
+        "total_payments": 12735,
+        "current_balance": 1722,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-02-18",
+        "closed_date": "2026-02-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100086",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

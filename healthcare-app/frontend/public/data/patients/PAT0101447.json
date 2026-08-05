@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0101447",
+    "med_rec_num": "MRN0201447",
+    "full_name": "Elizabeth Williams",
+    "birth_date": "1995-09-23",
+    "age": 31,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 3501,
+    "latitude": 40.44235,
+    "longitude": -79.99759,
+    "last_encounter_date": "2026-04-07",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1446 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 747-8435",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101447",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001447-000",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0001447-001",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0001447-002",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001447-003",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001447-004",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0001447-005",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001447-006",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001447-007",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0001447-008",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001447-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001447-010",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001447-011",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0001447-012",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 101
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101447",
+    "diagnoses": [
+      {
+        "dx_id": "0001447-dx-000",
+        "pat_enc_csn_id": "0001447-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001447-acu-000",
+        "pat_enc_csn_id": "0001447-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      },
+      {
+        "dx_id": "0001447-acu-002",
+        "pat_enc_csn_id": "0001447-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101447",
+    "summary": {
+      "total_charges": 3501,
+      "total_payments": 3177,
+      "outstanding_balance": 324,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3501,
+        "total_payments": 3177,
+        "current_balance": 324,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-03-02",
+        "closed_date": "2025-11-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101447",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

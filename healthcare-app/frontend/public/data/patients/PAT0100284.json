@@ -1,0 +1,135 @@
+{
+  "patient": {
+    "pat_id": "PAT0100284",
+    "med_rec_num": "MRN0200284",
+    "full_name": "Aisha Lopez",
+    "birth_date": "2017-05-27",
+    "age": 9,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 747,
+    "latitude": 40.45545,
+    "longitude": -79.91081,
+    "last_encounter_date": "2025-07-20",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2736 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 728-1349",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100284",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000284-000",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0000284-001",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 396
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100284",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100284",
+    "summary": {
+      "total_charges": 747,
+      "total_payments": 472,
+      "outstanding_balance": 275,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000028400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 747,
+        "total_payments": 472,
+        "current_balance": 275,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100284",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      },
+      {
+        "pat_id": "PAT0100338",
+        "full_name": "Kimberly Taylor",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 3614
+      }
+    ]
+  }
+}

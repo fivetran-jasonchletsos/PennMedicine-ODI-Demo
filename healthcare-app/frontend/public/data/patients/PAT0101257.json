@@ -1,0 +1,278 @@
+{
+  "patient": {
+    "pat_id": "PAT0101257",
+    "med_rec_num": "MRN0201257",
+    "full_name": "Mary Williams",
+    "birth_date": "1984-04-03",
+    "age": 42,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 5542,
+    "latitude": 40.47482,
+    "longitude": -79.96319,
+    "last_encounter_date": "2026-02-18",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "436 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 311-6656",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101257",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001257-000",
+        "contact_date": "2026-02-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0001257-001",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0001257-002",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0001257-003",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0001257-004",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 2514
+      },
+      {
+        "pat_enc_csn_id": "0001257-005",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0001257-006",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 132
+      },
+      {
+        "pat_enc_csn_id": "0001257-007",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0001257-008",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001257-009",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0001257-010",
+        "contact_date": "2024-07-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001257-011",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001257-012",
+        "contact_date": "2024-05-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 282
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101257",
+    "diagnoses": [
+      {
+        "dx_id": "0001257-dx-000",
+        "pat_enc_csn_id": "0001257-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001257-dx-001",
+        "pat_enc_csn_id": "0001257-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001257-acu-001",
+        "pat_enc_csn_id": "0001257-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-09-22"
+      },
+      {
+        "dx_id": "0001257-acu-002",
+        "pat_enc_csn_id": "0001257-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101257",
+    "summary": {
+      "total_charges": 5542,
+      "total_payments": 4943,
+      "outstanding_balance": 599,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5542,
+        "total_payments": 4943,
+        "current_balance": 599,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-01",
+        "closed_date": "2025-10-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101257",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

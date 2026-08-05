@@ -1,0 +1,212 @@
+{
+  "patient": {
+    "pat_id": "PAT0100416",
+    "med_rec_num": "MRN0200416",
+    "full_name": "Aisha Hernandez",
+    "birth_date": "1966-06-05",
+    "age": 60,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 2088,
+    "latitude": 40.50527,
+    "longitude": -79.76209,
+    "last_encounter_date": "2026-05-11",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6810 Liberty St",
+    "state": "PA",
+    "phone": "(412) 289-9641",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100416",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000416-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000416-001",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000416-002",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000416-003",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000416-004",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000416-005",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000416-006",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000416-007",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 295
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100416",
+    "diagnoses": [
+      {
+        "dx_id": "0000416-dx-000",
+        "pat_enc_csn_id": "0000416-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000416-acu-001",
+        "pat_enc_csn_id": "0000416-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100416",
+    "summary": {
+      "total_charges": 2088,
+      "total_payments": 2023,
+      "outstanding_balance": 65,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000041600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2088,
+        "total_payments": 2023,
+        "current_balance": 65,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-02",
+        "closed_date": "2026-01-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100416",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

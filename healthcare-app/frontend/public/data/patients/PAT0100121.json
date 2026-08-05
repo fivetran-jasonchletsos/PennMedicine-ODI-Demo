@@ -1,0 +1,152 @@
+{
+  "patient": {
+    "pat_id": "PAT0100121",
+    "med_rec_num": "MRN0200121",
+    "full_name": "Patricia Thomas",
+    "birth_date": "1977-03-21",
+    "age": 49,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 570,
+    "latitude": 40.45185,
+    "longitude": -80.01316,
+    "last_encounter_date": "2026-04-17",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2522 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 876-8206",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100121",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000121-000",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000121-001",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 384
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100121",
+    "diagnoses": [
+      {
+        "dx_id": "0000121-acu-000",
+        "pat_enc_csn_id": "0000121-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-17"
+      },
+      {
+        "dx_id": "0000121-acu-001",
+        "pat_enc_csn_id": "0000121-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100121",
+    "summary": {
+      "total_charges": 570,
+      "total_payments": 364,
+      "outstanding_balance": 206,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000012100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 570,
+        "total_payments": 364,
+        "current_balance": 206,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-20",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100121",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      },
+      {
+        "pat_id": "PAT0100345",
+        "full_name": "Michelle Garcia",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 183
+      }
+    ]
+  }
+}

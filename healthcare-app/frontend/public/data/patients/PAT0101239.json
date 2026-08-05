@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0101239",
+    "med_rec_num": "MRN0201239",
+    "full_name": "Sofia Khan",
+    "birth_date": "1968-09-18",
+    "age": 58,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 38364,
+    "latitude": 40.33215,
+    "longitude": -80.03812,
+    "last_encounter_date": "2026-04-12",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8067 Liberty St",
+    "state": "PA",
+    "phone": "(412) 302-7752",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101239",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001239-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 35115
+      },
+      {
+        "pat_enc_csn_id": "0001239-001",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0001239-002",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001239-003",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001239-004",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0001239-005",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001239-006",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0001239-007",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0001239-008",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001239-009",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0001239-010",
+        "contact_date": "2024-11-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0001239-011",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 418
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101239",
+    "diagnoses": [
+      {
+        "dx_id": "0001239-acu-001",
+        "pat_enc_csn_id": "0001239-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101239",
+    "summary": {
+      "total_charges": 38364,
+      "total_payments": 31577,
+      "outstanding_balance": 6787,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000123900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 37550,
+        "total_payments": 30883,
+        "current_balance": 6667,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-02-02",
+        "closed_date": "2025-11-02"
+      },
+      {
+        "hsp_account_id": "HSP000123901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 119,
+        "total_payments": 95,
+        "current_balance": 24,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-25",
+        "closed_date": "2026-02-19"
+      },
+      {
+        "hsp_account_id": "HSP000123902",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 695,
+        "total_payments": 599,
+        "current_balance": 96,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-19",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101239",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

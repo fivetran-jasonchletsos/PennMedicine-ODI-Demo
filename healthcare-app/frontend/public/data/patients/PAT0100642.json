@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100642",
+    "med_rec_num": "MRN0200642",
+    "full_name": "James Hernandez",
+    "birth_date": "1957-03-02",
+    "age": 69,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 7755,
+    "latitude": 40.47049,
+    "longitude": -79.96518,
+    "last_encounter_date": "2026-05-04",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8034 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 431-8272",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100642",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000642-000",
+        "contact_date": "2026-05-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0000642-001",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 57
+      },
+      {
+        "pat_enc_csn_id": "0000642-002",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000642-003",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000642-004",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 6223
+      },
+      {
+        "pat_enc_csn_id": "0000642-005",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000642-006",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 394
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100642",
+    "diagnoses": [
+      {
+        "dx_id": "0000642-dx-000",
+        "pat_enc_csn_id": "0000642-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000642-acu-000",
+        "pat_enc_csn_id": "0000642-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-04"
+      },
+      {
+        "dx_id": "0000642-acu-001",
+        "pat_enc_csn_id": "0000642-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      },
+      {
+        "dx_id": "0000642-acu-002",
+        "pat_enc_csn_id": "0000642-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100642",
+    "summary": {
+      "total_charges": 7755,
+      "total_payments": 6688,
+      "outstanding_balance": 1067,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000064200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7755,
+        "total_payments": 6688,
+        "current_balance": 1067,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-07-19",
+        "closed_date": "2025-11-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100642",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

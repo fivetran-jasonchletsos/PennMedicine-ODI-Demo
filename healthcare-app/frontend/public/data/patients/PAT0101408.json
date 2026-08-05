@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0101408",
+    "med_rec_num": "MRN0201408",
+    "full_name": "Sofia Hernandez",
+    "birth_date": "1981-09-12",
+    "age": 45,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 3192,
+    "latitude": 40.63342,
+    "longitude": -80.05784,
+    "last_encounter_date": "2026-04-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4154 Forbes St",
+    "state": "PA",
+    "phone": "(412) 593-1293",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101408",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001408-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0001408-001",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 1207
+      },
+      {
+        "pat_enc_csn_id": "0001408-002",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0001408-003",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001408-004",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001408-005",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0001408-006",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0001408-007",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001408-008",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0001408-009",
+        "contact_date": "2024-10-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0001408-010",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101408",
+    "diagnoses": [
+      {
+        "dx_id": "0001408-dx-000",
+        "pat_enc_csn_id": "0001408-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0001408-acu-000",
+        "pat_enc_csn_id": "0001408-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      },
+      {
+        "dx_id": "0001408-acu-001",
+        "pat_enc_csn_id": "0001408-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      },
+      {
+        "dx_id": "0001408-acu-002",
+        "pat_enc_csn_id": "0001408-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101408",
+    "summary": {
+      "total_charges": 3192,
+      "total_payments": 2755,
+      "outstanding_balance": 437,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000140800",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3192,
+        "total_payments": 2755,
+        "current_balance": 437,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-05-24",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101408",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

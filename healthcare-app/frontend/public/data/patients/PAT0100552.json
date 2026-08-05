@@ -1,0 +1,236 @@
+{
+  "patient": {
+    "pat_id": "PAT0100552",
+    "med_rec_num": "MRN0200552",
+    "full_name": "Aisha Johnson",
+    "birth_date": "1984-02-07",
+    "age": 42,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 3,
+    "encounter_count": 8,
+    "total_charges": 23352,
+    "latitude": 40.33305,
+    "longitude": -80.04154,
+    "last_encounter_date": "2025-09-21",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3312 Penn St",
+    "state": "PA",
+    "phone": "(412) 814-7422",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100552",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000552-000",
+        "contact_date": "2025-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000552-001",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000552-002",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 1047
+      },
+      {
+        "pat_enc_csn_id": "0000552-003",
+        "contact_date": "2025-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000552-004",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000552-005",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 20844
+      },
+      {
+        "pat_enc_csn_id": "0000552-006",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000552-007",
+        "contact_date": "2024-07-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 172
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100552",
+    "diagnoses": [
+      {
+        "dx_id": "0000552-dx-000",
+        "pat_enc_csn_id": "0000552-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000552-dx-001",
+        "pat_enc_csn_id": "0000552-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000552-dx-002",
+        "pat_enc_csn_id": "0000552-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000552-acu-001",
+        "pat_enc_csn_id": "0000552-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-26"
+      },
+      {
+        "dx_id": "0000552-acu-002",
+        "pat_enc_csn_id": "0000552-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-04-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100552",
+    "summary": {
+      "total_charges": 23352,
+      "total_payments": 21241,
+      "outstanding_balance": 2111,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000055200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 23352,
+        "total_payments": 21241,
+        "current_balance": 2111,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-31",
+        "closed_date": "2026-05-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100552",
+    "comparables": [
+      {
+        "pat_id": "PAT0100031",
+        "full_name": "Anil Brown",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 5220
+      },
+      {
+        "pat_id": "PAT0100085",
+        "full_name": "Linda Brown",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 19592
+      },
+      {
+        "pat_id": "PAT0100090",
+        "full_name": "Aisha Nguyen",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 9144
+      },
+      {
+        "pat_id": "PAT0100136",
+        "full_name": "Susan Wong",
+        "age": 46,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 4716
+      },
+      {
+        "pat_id": "PAT0100183",
+        "full_name": "Linda Gonzalez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4659
+      },
+      {
+        "pat_id": "PAT0100279",
+        "full_name": "Thomas Russo",
+        "age": 46,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 5705
+      }
+    ]
+  }
+}

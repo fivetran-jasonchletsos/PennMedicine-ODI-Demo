@@ -1,0 +1,231 @@
+{
+  "patient": {
+    "pat_id": "PAT0101399",
+    "med_rec_num": "MRN0201399",
+    "full_name": "Richard Miller",
+    "birth_date": "1931-09-12",
+    "age": 95,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 8,
+    "total_charges": 14336,
+    "latitude": 40.67846,
+    "longitude": -80.10264,
+    "last_encounter_date": "2026-04-22",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7126 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 600-3901",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101399",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001399-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0001399-001",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5926
+      },
+      {
+        "pat_enc_csn_id": "0001399-002",
+        "contact_date": "2026-01-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0001399-003",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0001399-004",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 7013
+      },
+      {
+        "pat_enc_csn_id": "0001399-005",
+        "contact_date": "2025-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0001399-006",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001399-007",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 227
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101399",
+    "diagnoses": [
+      {
+        "dx_id": "0001399-dx-000",
+        "pat_enc_csn_id": "0001399-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0001399-acu-001",
+        "pat_enc_csn_id": "0001399-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      },
+      {
+        "dx_id": "0001399-acu-002",
+        "pat_enc_csn_id": "0001399-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101399",
+    "summary": {
+      "total_charges": 14336,
+      "total_payments": 9831,
+      "outstanding_balance": 4505,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000139900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 13444,
+        "total_payments": 9288,
+        "current_balance": 4156,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-27",
+        "closed_date": "2025-11-28"
+      },
+      {
+        "hsp_account_id": "HSP000139901",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 892,
+        "total_payments": 543,
+        "current_balance": 349,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-01-12",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101399",
+    "comparables": [
+      {
+        "pat_id": "PAT0100482",
+        "full_name": "Joseph Russo",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 4745
+      },
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0101330",
+        "full_name": "George Jones",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2537
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      }
+    ]
+  }
+}

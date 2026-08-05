@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100110",
+    "med_rec_num": "MRN0200110",
+    "full_name": "William Nguyen",
+    "birth_date": "1969-06-15",
+    "age": 57,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 1610,
+    "latitude": 40.53222,
+    "longitude": -79.96423,
+    "last_encounter_date": "2026-03-06",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5821 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 836-7844",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100110",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000110-000",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000110-001",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000110-002",
+        "contact_date": "2025-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000110-003",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000110-004",
+        "contact_date": "2025-02-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000110-005",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 152
+      },
+      {
+        "pat_enc_csn_id": "0000110-006",
+        "contact_date": "2024-08-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 268
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100110",
+    "diagnoses": [
+      {
+        "dx_id": "0000110-dx-000",
+        "pat_enc_csn_id": "0000110-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000110-dx-001",
+        "pat_enc_csn_id": "0000110-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000110-acu-000",
+        "pat_enc_csn_id": "0000110-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0000110-acu-002",
+        "pat_enc_csn_id": "0000110-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100110",
+    "summary": {
+      "total_charges": 1610,
+      "total_payments": 1043,
+      "outstanding_balance": 567,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000011000",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1610,
+        "total_payments": 1043,
+        "current_balance": 567,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-25",
+        "closed_date": "2026-03-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100110",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "patient": {
+    "pat_id": "PAT0100447",
+    "med_rec_num": "MRN0200447",
+    "full_name": "George Patel",
+    "birth_date": "2026-10-02",
+    "age": 0,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 10121,
+    "latitude": 40.44629,
+    "longitude": -79.96127,
+    "last_encounter_date": "2026-02-11",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8952 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 217-5799",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100447",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000447-000",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000447-001",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0000447-002",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 2235
+      },
+      {
+        "pat_enc_csn_id": "0000447-003",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000447-004",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000447-005",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5565
+      },
+      {
+        "pat_enc_csn_id": "0000447-006",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000447-007",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000447-008",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000447-009",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 327
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100447",
+    "diagnoses": [
+      {
+        "dx_id": "0000447-dx-000",
+        "pat_enc_csn_id": "0000447-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000447-dx-001",
+        "pat_enc_csn_id": "0000447-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000447-acu-000",
+        "pat_enc_csn_id": "0000447-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      },
+      {
+        "dx_id": "0000447-acu-001",
+        "pat_enc_csn_id": "0000447-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-22"
+      },
+      {
+        "dx_id": "0000447-acu-002",
+        "pat_enc_csn_id": "0000447-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-11-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100447",
+    "summary": {
+      "total_charges": 10121,
+      "total_payments": 6617,
+      "outstanding_balance": 3504,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000044700",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 10121,
+        "total_payments": 6617,
+        "current_balance": 3504,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-31",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100447",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

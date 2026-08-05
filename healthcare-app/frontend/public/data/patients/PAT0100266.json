@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100266",
+    "med_rec_num": "MRN0200266",
+    "full_name": "Patricia Thomas",
+    "birth_date": "1948-09-15",
+    "age": 78,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 2220,
+    "latitude": 40.46786,
+    "longitude": -79.96025,
+    "last_encounter_date": "2026-03-28",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1561 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 772-1897",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100266",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000266-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000266-001",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000266-002",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000266-003",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 1210
+      },
+      {
+        "pat_enc_csn_id": "0000266-004",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000266-005",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 116
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100266",
+    "diagnoses": [
+      {
+        "dx_id": "0000266-dx-000",
+        "pat_enc_csn_id": "0000266-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000266-acu-000",
+        "pat_enc_csn_id": "0000266-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000266-acu-001",
+        "pat_enc_csn_id": "0000266-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100266",
+    "summary": {
+      "total_charges": 2220,
+      "total_payments": 1764,
+      "outstanding_balance": 456,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000026600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2220,
+        "total_payments": 1764,
+        "current_balance": 456,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-13",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100266",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

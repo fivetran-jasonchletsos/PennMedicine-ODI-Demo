@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100718",
+    "med_rec_num": "MRN0200718",
+    "full_name": "Daniel Khan",
+    "birth_date": "2021-07-21",
+    "age": 5,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 1646,
+    "latitude": 40.47543,
+    "longitude": -79.96324,
+    "last_encounter_date": "2026-02-22",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9272 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 900-3013",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100718",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000718-000",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000718-001",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000718-002",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000718-003",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0000718-004",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000718-005",
+        "contact_date": "2025-04-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000718-006",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 411
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100718",
+    "diagnoses": [
+      {
+        "dx_id": "0000718-acu-000",
+        "pat_enc_csn_id": "0000718-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-22"
+      },
+      {
+        "dx_id": "0000718-acu-001",
+        "pat_enc_csn_id": "0000718-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-09-14"
+      },
+      {
+        "dx_id": "0000718-acu-002",
+        "pat_enc_csn_id": "0000718-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-08-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100718",
+    "summary": {
+      "total_charges": 1646,
+      "total_payments": 1339,
+      "outstanding_balance": 307,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000071800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1646,
+        "total_payments": 1339,
+        "current_balance": 307,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-02-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100718",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

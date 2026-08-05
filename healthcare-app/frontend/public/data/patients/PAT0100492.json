@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0100492",
+    "med_rec_num": "MRN0200492",
+    "full_name": "Jennifer Martin",
+    "birth_date": "1932-05-16",
+    "age": 94,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 15,
+    "total_charges": 55157,
+    "latitude": 40.36314,
+    "longitude": -79.90651,
+    "last_encounter_date": "2026-02-23",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2035 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 624-2124",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100492",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000492-000",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000492-001",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000492-002",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000492-003",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000492-004",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 4396
+      },
+      {
+        "pat_enc_csn_id": "0000492-005",
+        "contact_date": "2025-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0000492-006",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000492-007",
+        "contact_date": "2025-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000492-008",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000492-009",
+        "contact_date": "2024-10-22",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 7470
+      },
+      {
+        "pat_enc_csn_id": "0000492-010",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000492-011",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0000492-012",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2803
+      },
+      {
+        "pat_enc_csn_id": "0000492-013",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 37601
+      },
+      {
+        "pat_enc_csn_id": "0000492-014",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 196
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100492",
+    "diagnoses": [
+      {
+        "dx_id": "0000492-dx-000",
+        "pat_enc_csn_id": "0000492-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1997-05-13"
+      },
+      {
+        "dx_id": "0000492-acu-000",
+        "pat_enc_csn_id": "0000492-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      },
+      {
+        "dx_id": "0000492-acu-001",
+        "pat_enc_csn_id": "0000492-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-04"
+      },
+      {
+        "dx_id": "0000492-acu-002",
+        "pat_enc_csn_id": "0000492-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100492",
+    "summary": {
+      "total_charges": 55157,
+      "total_payments": 50633,
+      "outstanding_balance": 4524,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000049200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 55157,
+        "total_payments": 50633,
+        "current_balance": 4524,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100492",
+    "comparables": [
+      {
+        "pat_id": "PAT0100482",
+        "full_name": "Joseph Russo",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 4745
+      },
+      {
+        "pat_id": "PAT0101192",
+        "full_name": "Janet Chen",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 27283
+      },
+      {
+        "pat_id": "PAT0101330",
+        "full_name": "George Jones",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2537
+      },
+      {
+        "pat_id": "PAT0103490",
+        "full_name": "John Davis",
+        "age": 95,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 8103
+      },
+      {
+        "pat_id": "PAT0104441",
+        "full_name": "Patricia Russo",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 13612
+      },
+      {
+        "pat_id": "PAT0104566",
+        "full_name": "John Chen",
+        "age": 93,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 57846
+      }
+    ]
+  }
+}

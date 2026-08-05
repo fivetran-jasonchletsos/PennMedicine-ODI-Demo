@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100993",
+    "med_rec_num": "MRN0200993",
+    "full_name": "Ashley Walsh",
+    "birth_date": "1964-10-23",
+    "age": 62,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1157,
+    "latitude": 40.33103,
+    "longitude": -80.03641,
+    "last_encounter_date": "2026-04-23",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9840 Walnut St",
+    "state": "PA",
+    "phone": "(412) 693-5163",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100993",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000993-000",
+        "contact_date": "2026-04-23",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 182
+      },
+      {
+        "pat_enc_csn_id": "0000993-001",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0000993-002",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000993-003",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0000993-004",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0000993-005",
+        "contact_date": "2024-07-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 126
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100993",
+    "diagnoses": [
+      {
+        "dx_id": "0000993-dx-000",
+        "pat_enc_csn_id": "0000993-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000993-acu-001",
+        "pat_enc_csn_id": "0000993-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-22"
+      },
+      {
+        "dx_id": "0000993-acu-002",
+        "pat_enc_csn_id": "0000993-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-01-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100993",
+    "summary": {
+      "total_charges": 1157,
+      "total_payments": 1040,
+      "outstanding_balance": 117,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000099300",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1157,
+        "total_payments": 1040,
+        "current_balance": 117,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100993",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0100955",
+    "med_rec_num": "MRN0200955",
+    "full_name": "David Miller",
+    "birth_date": "1962-01-17",
+    "age": 64,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 22783,
+    "latitude": 40.34769,
+    "longitude": -79.85518,
+    "last_encounter_date": "2026-04-17",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9282 Centre St",
+    "state": "PA",
+    "phone": "(412) 441-1321",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100955",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000955-000",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000955-001",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000955-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 14842
+      },
+      {
+        "pat_enc_csn_id": "0000955-003",
+        "contact_date": "2026-02-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 286
+      },
+      {
+        "pat_enc_csn_id": "0000955-004",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 4734
+      },
+      {
+        "pat_enc_csn_id": "0000955-005",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000955-006",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000955-007",
+        "contact_date": "2025-08-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000955-008",
+        "contact_date": "2025-07-09",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0000955-009",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000955-010",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000955-011",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000955-012",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000955-013",
+        "contact_date": "2024-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 260
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100955",
+    "diagnoses": [
+      {
+        "dx_id": "0000955-dx-000",
+        "pat_enc_csn_id": "0000955-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000955-acu-002",
+        "pat_enc_csn_id": "0000955-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100955",
+    "summary": {
+      "total_charges": 22783,
+      "total_payments": 17130,
+      "outstanding_balance": 5653,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000095500",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 22783,
+        "total_payments": 17130,
+        "current_balance": 5653,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-06",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100955",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

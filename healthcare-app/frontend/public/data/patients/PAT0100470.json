@@ -1,0 +1,114 @@
+{
+  "patient": {
+    "pat_id": "PAT0100470",
+    "med_rec_num": "MRN0200470",
+    "full_name": "Christopher Patel",
+    "birth_date": "2007-07-04",
+    "age": 19,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 0,
+    "total_charges": 0,
+    "latitude": 40.3501,
+    "longitude": -79.84442,
+    "last_encounter_date": null,
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8008 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 440-1297",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100470",
+    "encounters": []
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100470",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0100470",
+    "summary": {
+      "total_charges": 0,
+      "total_payments": 0,
+      "outstanding_balance": 0,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000047000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 0,
+        "total_payments": 0,
+        "current_balance": 0,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-25",
+        "closed_date": "2026-05-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100470",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0101254",
+    "med_rec_num": "MRN0201254",
+    "full_name": "Christopher Wilson",
+    "birth_date": "2002-03-26",
+    "age": 24,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 7979,
+    "latitude": 40.46945,
+    "longitude": -79.83834,
+    "last_encounter_date": "2026-04-12",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4219 Centre St",
+    "state": "PA",
+    "phone": "(412) 556-8988",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101254",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001254-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 4075
+      },
+      {
+        "pat_enc_csn_id": "0001254-001",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001254-002",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0001254-003",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001254-004",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 2681
+      },
+      {
+        "pat_enc_csn_id": "0001254-005",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 315
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101254",
+    "diagnoses": [
+      {
+        "dx_id": "0001254-acu-000",
+        "pat_enc_csn_id": "0001254-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      },
+      {
+        "dx_id": "0001254-acu-001",
+        "pat_enc_csn_id": "0001254-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-17"
+      },
+      {
+        "dx_id": "0001254-acu-002",
+        "pat_enc_csn_id": "0001254-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-02-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101254",
+    "summary": {
+      "total_charges": 7979,
+      "total_payments": 5053,
+      "outstanding_balance": 2926,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7979,
+        "total_payments": 5053,
+        "current_balance": 2926,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-05-03",
+        "closed_date": "2026-03-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101254",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

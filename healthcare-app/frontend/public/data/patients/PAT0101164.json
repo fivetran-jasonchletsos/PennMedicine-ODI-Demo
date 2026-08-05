@@ -1,0 +1,190 @@
+{
+  "patient": {
+    "pat_id": "PAT0101164",
+    "med_rec_num": "MRN0201164",
+    "full_name": "Michael Rodriguez",
+    "birth_date": "1954-09-06",
+    "age": 72,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 8403,
+    "latitude": 40.50424,
+    "longitude": -79.76291,
+    "last_encounter_date": "2026-05-05",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4079 Beacon St",
+    "state": "PA",
+    "phone": "(412) 448-9374",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101164",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001164-000",
+        "contact_date": "2026-05-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 7419
+      },
+      {
+        "pat_enc_csn_id": "0001164-001",
+        "contact_date": "2026-02-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0001164-002",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001164-003",
+        "contact_date": "2025-12-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001164-004",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 329
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101164",
+    "diagnoses": [
+      {
+        "dx_id": "0001164-dx-000",
+        "pat_enc_csn_id": "0001164-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0001164-acu-000",
+        "pat_enc_csn_id": "0001164-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-05"
+      },
+      {
+        "dx_id": "0001164-acu-001",
+        "pat_enc_csn_id": "0001164-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101164",
+    "summary": {
+      "total_charges": 8403,
+      "total_payments": 6932,
+      "outstanding_balance": 1471,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000116400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8403,
+        "total_payments": 6932,
+        "current_balance": 1471,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101164",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

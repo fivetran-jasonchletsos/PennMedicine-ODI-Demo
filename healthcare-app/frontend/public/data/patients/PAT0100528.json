@@ -1,0 +1,282 @@
+{
+  "patient": {
+    "pat_id": "PAT0100528",
+    "med_rec_num": "MRN0200528",
+    "full_name": "Kimberly Garcia",
+    "birth_date": "1975-12-10",
+    "age": 51,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 10209,
+    "latitude": 40.49422,
+    "longitude": -79.90643,
+    "last_encounter_date": "2026-04-19",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8504 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 722-3834",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100528",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000528-000",
+        "contact_date": "2026-04-19",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000528-001",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0000528-002",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000528-003",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000528-004",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000528-005",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000528-006",
+        "contact_date": "2024-11-25",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 7367
+      },
+      {
+        "pat_enc_csn_id": "0000528-007",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000528-008",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000528-009",
+        "contact_date": "2024-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 365
+      },
+      {
+        "pat_enc_csn_id": "0000528-010",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 359
+      },
+      {
+        "pat_enc_csn_id": "0000528-011",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100528",
+    "diagnoses": [
+      {
+        "dx_id": "0000528-dx-000",
+        "pat_enc_csn_id": "0000528-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000528-acu-000",
+        "pat_enc_csn_id": "0000528-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-19"
+      },
+      {
+        "dx_id": "0000528-acu-001",
+        "pat_enc_csn_id": "0000528-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100528",
+    "summary": {
+      "total_charges": 10209,
+      "total_payments": 7281,
+      "outstanding_balance": 2928,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000052800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 5835,
+        "total_payments": 3732,
+        "current_balance": 2103,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-05-19",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000052801",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 4265,
+        "total_payments": 3450,
+        "current_balance": 815,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-18",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000052802",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 109,
+        "total_payments": 99,
+        "current_balance": 10,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-29",
+        "closed_date": "2026-04-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100528",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

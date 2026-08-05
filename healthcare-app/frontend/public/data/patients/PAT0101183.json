@@ -1,0 +1,365 @@
+{
+  "patient": {
+    "pat_id": "PAT0101183",
+    "med_rec_num": "MRN0201183",
+    "full_name": "John Park",
+    "birth_date": "1947-03-20",
+    "age": 79,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 19,
+    "total_charges": 30036,
+    "latitude": 40.4776,
+    "longitude": -79.96237,
+    "last_encounter_date": "2026-04-27",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9373 Centre St",
+    "state": "PA",
+    "phone": "(412) 714-5418",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101183",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001183-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3883
+      },
+      {
+        "pat_enc_csn_id": "0001183-001",
+        "contact_date": "2026-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0001183-002",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 4025
+      },
+      {
+        "pat_enc_csn_id": "0001183-003",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0001183-004",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001183-005",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001183-006",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0001183-007",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0001183-008",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001183-009",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001183-010",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5485
+      },
+      {
+        "pat_enc_csn_id": "0001183-011",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0001183-012",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001183-013",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 13329
+      },
+      {
+        "pat_enc_csn_id": "0001183-014",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001183-015",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0001183-016",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001183-017",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0001183-018",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 196
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101183",
+    "diagnoses": [
+      {
+        "dx_id": "0001183-dx-000",
+        "pat_enc_csn_id": "0001183-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1982-05-13"
+      },
+      {
+        "dx_id": "0001183-dx-001",
+        "pat_enc_csn_id": "0001183-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1974-05-13"
+      },
+      {
+        "dx_id": "0001183-dx-002",
+        "pat_enc_csn_id": "0001183-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001183-acu-000",
+        "pat_enc_csn_id": "0001183-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-27"
+      },
+      {
+        "dx_id": "0001183-acu-001",
+        "pat_enc_csn_id": "0001183-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-15"
+      },
+      {
+        "dx_id": "0001183-acu-002",
+        "pat_enc_csn_id": "0001183-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101183",
+    "summary": {
+      "total_charges": 30036,
+      "total_payments": 26906,
+      "outstanding_balance": 3130,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000118300",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 26198,
+        "total_payments": 23955,
+        "current_balance": 2243,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-01",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000118301",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 3838,
+        "total_payments": 2951,
+        "current_balance": 887,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101183",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

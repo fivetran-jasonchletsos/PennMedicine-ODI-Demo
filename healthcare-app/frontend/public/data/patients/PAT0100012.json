@@ -1,0 +1,253 @@
+{
+  "patient": {
+    "pat_id": "PAT0100012",
+    "med_rec_num": "MRN0200012",
+    "full_name": "Anil Singh",
+    "birth_date": "1992-04-08",
+    "age": 34,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 14790,
+    "latitude": 40.43996,
+    "longitude": -79.96325,
+    "last_encounter_date": "2026-01-27",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8586 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 738-9914",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100012",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000012-000",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000012-001",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000012-002",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000012-003",
+        "contact_date": "2025-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000012-004",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000012-005",
+        "contact_date": "2025-01-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000012-006",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0000012-007",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 5042
+      },
+      {
+        "pat_enc_csn_id": "0000012-008",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0000012-009",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 2424
+      },
+      {
+        "pat_enc_csn_id": "0000012-010",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 5223
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100012",
+    "diagnoses": [
+      {
+        "dx_id": "0000012-acu-001",
+        "pat_enc_csn_id": "0000012-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-05"
+      },
+      {
+        "dx_id": "0000012-acu-002",
+        "pat_enc_csn_id": "0000012-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-10-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100012",
+    "summary": {
+      "total_charges": 14790,
+      "total_payments": 9448,
+      "outstanding_balance": 5342,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000001200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3893,
+        "total_payments": 2905,
+        "current_balance": 988,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-21",
+        "closed_date": "2026-01-05"
+      },
+      {
+        "hsp_account_id": "HSP000001201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 10897,
+        "total_payments": 6543,
+        "current_balance": 4354,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-04-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100012",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      },
+      {
+        "pat_id": "PAT0100168",
+        "full_name": "Andrew Anderson",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 44040
+      }
+    ]
+  }
+}

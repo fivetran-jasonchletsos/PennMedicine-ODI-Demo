@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0101055",
+    "med_rec_num": "MRN0201055",
+    "full_name": "Anil Hernandez",
+    "birth_date": "1935-10-22",
+    "age": 91,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 5341,
+    "latitude": 40.32554,
+    "longitude": -80.03996,
+    "last_encounter_date": "2026-01-31",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7889 Forbes St",
+    "state": "PA",
+    "phone": "(412) 307-4369",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101055",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001055-000",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0001055-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0001055-002",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0001055-003",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001055-004",
+        "contact_date": "2025-07-10",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001055-005",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001055-006",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001055-007",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0001055-008",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0001055-009",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0001055-010",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 2878
+      },
+      {
+        "pat_enc_csn_id": "0001055-011",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 396
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101055",
+    "diagnoses": [
+      {
+        "dx_id": "0001055-dx-000",
+        "pat_enc_csn_id": "0001055-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001055-dx-001",
+        "pat_enc_csn_id": "0001055-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1961-05-13"
+      },
+      {
+        "dx_id": "0001055-acu-000",
+        "pat_enc_csn_id": "0001055-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      },
+      {
+        "dx_id": "0001055-acu-002",
+        "pat_enc_csn_id": "0001055-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-10-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101055",
+    "summary": {
+      "total_charges": 5341,
+      "total_payments": 4841,
+      "outstanding_balance": 500,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000105500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 5341,
+        "total_payments": 4841,
+        "current_balance": 500,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-11-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101055",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0101317",
+    "med_rec_num": "MRN0201317",
+    "full_name": "Susan Martin",
+    "birth_date": "1965-10-20",
+    "age": 61,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 7895,
+    "latitude": 40.52478,
+    "longitude": -79.96221,
+    "last_encounter_date": "2026-04-14",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5283 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 878-1519",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101317",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001317-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0001317-001",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0001317-002",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0001317-003",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 4398
+      },
+      {
+        "pat_enc_csn_id": "0001317-004",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001317-005",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001317-006",
+        "contact_date": "2024-09-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 1730
+      },
+      {
+        "pat_enc_csn_id": "0001317-007",
+        "contact_date": "2024-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001317-008",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 225
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101317",
+    "diagnoses": [
+      {
+        "dx_id": "0001317-dx-000",
+        "pat_enc_csn_id": "0001317-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0001317-dx-001",
+        "pat_enc_csn_id": "0001317-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0001317-acu-000",
+        "pat_enc_csn_id": "0001317-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-14"
+      },
+      {
+        "dx_id": "0001317-acu-001",
+        "pat_enc_csn_id": "0001317-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-20"
+      },
+      {
+        "dx_id": "0001317-acu-002",
+        "pat_enc_csn_id": "0001317-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-07-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101317",
+    "summary": {
+      "total_charges": 7895,
+      "total_payments": 6763,
+      "outstanding_balance": 1132,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000131700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7895,
+        "total_payments": 6763,
+        "current_balance": 1132,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-03-02",
+        "closed_date": "2026-05-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101317",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

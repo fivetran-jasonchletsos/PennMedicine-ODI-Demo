@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100588",
+    "med_rec_num": "MRN0200588",
+    "full_name": "Michelle Martin",
+    "birth_date": "1951-02-23",
+    "age": 75,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Aisha O'Brien",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 34247,
+    "latitude": 40.35582,
+    "longitude": -79.89762,
+    "last_encounter_date": "2025-06-09",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1503 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 509-7029",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100588",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000588-000",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000588-001",
+        "contact_date": "2025-04-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000588-002",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000588-003",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000588-004",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000588-005",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 32480
+      },
+      {
+        "pat_enc_csn_id": "0000588-006",
+        "contact_date": "2024-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 248
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100588",
+    "diagnoses": [
+      {
+        "dx_id": "0000588-dx-000",
+        "pat_enc_csn_id": "0000588-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000588-acu-000",
+        "pat_enc_csn_id": "0000588-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-06-09"
+      },
+      {
+        "dx_id": "0000588-acu-001",
+        "pat_enc_csn_id": "0000588-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-04-21"
+      },
+      {
+        "dx_id": "0000588-acu-002",
+        "pat_enc_csn_id": "0000588-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-03-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100588",
+    "summary": {
+      "total_charges": 34247,
+      "total_payments": 29254,
+      "outstanding_balance": 4993,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000058800",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 34247,
+        "total_payments": 29254,
+        "current_balance": 4993,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100588",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

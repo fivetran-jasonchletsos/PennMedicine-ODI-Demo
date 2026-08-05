@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0101028",
+    "med_rec_num": "MRN0201028",
+    "full_name": "Michelle Wilson",
+    "birth_date": "1983-05-04",
+    "age": 43,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 1012,
+    "latitude": 40.44626,
+    "longitude": -79.99464,
+    "last_encounter_date": "2025-07-08",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4953 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 998-8296",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101028",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001028-000",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 414
+      },
+      {
+        "pat_enc_csn_id": "0001028-001",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0001028-002",
+        "contact_date": "2024-08-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 282
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101028",
+    "diagnoses": [
+      {
+        "dx_id": "0001028-dx-000",
+        "pat_enc_csn_id": "0001028-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0001028-acu-000",
+        "pat_enc_csn_id": "0001028-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101028",
+    "summary": {
+      "total_charges": 1012,
+      "total_payments": 610,
+      "outstanding_balance": 402,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102800",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 1012,
+        "total_payments": 610,
+        "current_balance": 402,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101028",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

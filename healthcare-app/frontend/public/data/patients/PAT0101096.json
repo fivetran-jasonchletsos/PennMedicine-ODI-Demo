@@ -1,0 +1,306 @@
+{
+  "patient": {
+    "pat_id": "PAT0101096",
+    "med_rec_num": "MRN0201096",
+    "full_name": "Donna Taylor",
+    "birth_date": "1960-12-07",
+    "age": 66,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 3,
+    "encounter_count": 15,
+    "total_charges": 6820,
+    "latitude": 40.4485,
+    "longitude": -80.00552,
+    "last_encounter_date": "2026-01-14",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4830 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 211-9961",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101096",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001096-000",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 341
+      },
+      {
+        "pat_enc_csn_id": "0001096-001",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0001096-002",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001096-003",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0001096-004",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001096-005",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001096-006",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 3280
+      },
+      {
+        "pat_enc_csn_id": "0001096-007",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001096-008",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0001096-009",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001096-010",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001096-011",
+        "contact_date": "2024-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0001096-012",
+        "contact_date": "2024-10-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001096-013",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0001096-014",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 144
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101096",
+    "diagnoses": [
+      {
+        "dx_id": "0001096-dx-000",
+        "pat_enc_csn_id": "0001096-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001096-dx-001",
+        "pat_enc_csn_id": "0001096-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001096-dx-002",
+        "pat_enc_csn_id": "0001096-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001096-acu-000",
+        "pat_enc_csn_id": "0001096-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-14"
+      },
+      {
+        "dx_id": "0001096-acu-001",
+        "pat_enc_csn_id": "0001096-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101096",
+    "summary": {
+      "total_charges": 6820,
+      "total_payments": 4655,
+      "outstanding_balance": 2165,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000109600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 6820,
+        "total_payments": 4655,
+        "current_balance": 2165,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-08-07",
+        "closed_date": "2026-03-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101096",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

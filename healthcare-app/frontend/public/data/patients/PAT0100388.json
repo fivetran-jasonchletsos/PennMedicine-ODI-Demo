@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100388",
+    "med_rec_num": "MRN0200388",
+    "full_name": "Margaret Wong",
+    "birth_date": "1965-12-14",
+    "age": 61,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 2680,
+    "latitude": 40.30575,
+    "longitude": -79.53482,
+    "last_encounter_date": "2026-03-18",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5768 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 502-6105",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100388",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000388-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000388-001",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000388-002",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000388-003",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000388-004",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0000388-005",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000388-006",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000388-007",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000388-008",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000388-009",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000388-010",
+        "contact_date": "2024-06-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000388-011",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 185
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100388",
+    "diagnoses": [
+      {
+        "dx_id": "0000388-dx-000",
+        "pat_enc_csn_id": "0000388-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000388-dx-001",
+        "pat_enc_csn_id": "0000388-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0000388-acu-000",
+        "pat_enc_csn_id": "0000388-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0000388-acu-002",
+        "pat_enc_csn_id": "0000388-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100388",
+    "summary": {
+      "total_charges": 2680,
+      "total_payments": 1795,
+      "outstanding_balance": 885,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000038800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 2680,
+        "total_payments": 1795,
+        "current_balance": 885,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-11",
+        "closed_date": "2026-03-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100388",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

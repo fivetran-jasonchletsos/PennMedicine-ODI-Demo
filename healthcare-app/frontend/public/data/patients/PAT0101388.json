@@ -1,0 +1,196 @@
+{
+  "patient": {
+    "pat_id": "PAT0101388",
+    "med_rec_num": "MRN0201388",
+    "full_name": "Andrew Johnson",
+    "birth_date": "1999-07-21",
+    "age": 27,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 3497,
+    "latitude": 40.35447,
+    "longitude": -79.90401,
+    "last_encounter_date": "2026-05-11",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2646 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 753-6165",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101388",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001388-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 2887
+      },
+      {
+        "pat_enc_csn_id": "0001388-001",
+        "contact_date": "2024-11-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 95
+      },
+      {
+        "pat_enc_csn_id": "0001388-002",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0001388-003",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 319
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101388",
+    "diagnoses": [
+      {
+        "dx_id": "0001388-dx-000",
+        "pat_enc_csn_id": "0001388-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001388-dx-001",
+        "pat_enc_csn_id": "0001388-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001388-acu-000",
+        "pat_enc_csn_id": "0001388-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0001388-acu-001",
+        "pat_enc_csn_id": "0001388-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-11-09"
+      },
+      {
+        "dx_id": "0001388-acu-002",
+        "pat_enc_csn_id": "0001388-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2024-09-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101388",
+    "summary": {
+      "total_charges": 3497,
+      "total_payments": 2302,
+      "outstanding_balance": 1195,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3497,
+        "total_payments": 2302,
+        "current_balance": 1195,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-12",
+        "closed_date": "2026-02-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101388",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

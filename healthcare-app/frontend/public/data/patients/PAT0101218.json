@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0101218",
+    "med_rec_num": "MRN0201218",
+    "full_name": "John Russo",
+    "birth_date": "1964-01-15",
+    "age": 62,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 27177,
+    "latitude": 40.6341,
+    "longitude": -80.06374,
+    "last_encounter_date": "2026-04-16",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8462 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 674-2308",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0101218",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001218-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001218-001",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 1597
+      },
+      {
+        "pat_enc_csn_id": "0001218-002",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001218-003",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0001218-004",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0001218-005",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 15941
+      },
+      {
+        "pat_enc_csn_id": "0001218-006",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0001218-007",
+        "contact_date": "2025-07-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0001218-008",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 6701
+      },
+      {
+        "pat_enc_csn_id": "0001218-009",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0001218-010",
+        "contact_date": "2024-12-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 352
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101218",
+    "diagnoses": [
+      {
+        "dx_id": "0001218-dx-000",
+        "pat_enc_csn_id": "0001218-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001218-dx-001",
+        "pat_enc_csn_id": "0001218-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001218-dx-002",
+        "pat_enc_csn_id": "0001218-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      },
+      {
+        "dx_id": "0001218-dx-003",
+        "pat_enc_csn_id": "0001218-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001218-acu-001",
+        "pat_enc_csn_id": "0001218-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      },
+      {
+        "dx_id": "0001218-acu-002",
+        "pat_enc_csn_id": "0001218-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101218",
+    "summary": {
+      "total_charges": 27177,
+      "total_payments": 17360,
+      "outstanding_balance": 9817,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 27177,
+        "total_payments": 17360,
+        "current_balance": 9817,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-16",
+        "closed_date": "2025-12-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101218",
+    "comparables": [
+      {
+        "pat_id": "PAT0100044",
+        "full_name": "Carlos Nguyen",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 18,
+        "total_charges": 65457
+      },
+      {
+        "pat_id": "PAT0100045",
+        "full_name": "Sofia Wong",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33940
+      },
+      {
+        "pat_id": "PAT0100078",
+        "full_name": "Sandra Wilson",
+        "age": 65,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 13,
+        "total_charges": 18312
+      },
+      {
+        "pat_id": "PAT0100146",
+        "full_name": "John Wilson",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 71776
+      },
+      {
+        "pat_id": "PAT0100148",
+        "full_name": "Hassan Nguyen",
+        "age": 65,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 26432
+      },
+      {
+        "pat_id": "PAT0100150",
+        "full_name": "Thomas Martin",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 8,
+        "total_charges": 2015
+      }
+    ]
+  }
+}

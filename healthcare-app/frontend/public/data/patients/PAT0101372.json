@@ -1,0 +1,294 @@
+{
+  "patient": {
+    "pat_id": "PAT0101372",
+    "med_rec_num": "MRN0201372",
+    "full_name": "Sofia Jackson",
+    "birth_date": "2000-11-09",
+    "age": 26,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 15241,
+    "latitude": 40.68008,
+    "longitude": -80.10675,
+    "last_encounter_date": "2026-04-23",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9817 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 479-5555",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101372",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001372-000",
+        "contact_date": "2026-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001372-001",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 3350
+      },
+      {
+        "pat_enc_csn_id": "0001372-002",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001372-003",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001372-004",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001372-005",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0001372-006",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0001372-007",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 3753
+      },
+      {
+        "pat_enc_csn_id": "0001372-008",
+        "contact_date": "2025-09-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001372-009",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5575
+      },
+      {
+        "pat_enc_csn_id": "0001372-010",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0001372-011",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001372-012",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0001372-013",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 176
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101372",
+    "diagnoses": [
+      {
+        "dx_id": "0001372-dx-000",
+        "pat_enc_csn_id": "0001372-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001372-acu-001",
+        "pat_enc_csn_id": "0001372-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101372",
+    "summary": {
+      "total_charges": 15241,
+      "total_payments": 13708,
+      "outstanding_balance": 1533,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000137200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 12578,
+        "total_payments": 11325,
+        "current_balance": 1253,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-07",
+        "closed_date": "2025-11-15"
+      },
+      {
+        "hsp_account_id": "HSP000137201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1553,
+        "total_payments": 1366,
+        "current_balance": 187,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-10-15",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000137202",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1110,
+        "total_payments": 1017,
+        "current_balance": 93,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-26",
+        "closed_date": "2026-01-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101372",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

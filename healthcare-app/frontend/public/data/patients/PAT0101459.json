@@ -1,0 +1,249 @@
+{
+  "patient": {
+    "pat_id": "PAT0101459",
+    "med_rec_num": "MRN0201459",
+    "full_name": "Aisha Wilson",
+    "birth_date": "1936-04-14",
+    "age": 90,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 38161,
+    "latitude": 40.36526,
+    "longitude": -79.90211,
+    "last_encounter_date": "2026-04-07",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9238 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 947-8022",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101459",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001459-000",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 282
+      },
+      {
+        "pat_enc_csn_id": "0001459-001",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0001459-002",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001459-003",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 4241
+      },
+      {
+        "pat_enc_csn_id": "0001459-004",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 2917
+      },
+      {
+        "pat_enc_csn_id": "0001459-005",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0001459-006",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001459-007",
+        "contact_date": "2024-07-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0001459-008",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 29543
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101459",
+    "diagnoses": [
+      {
+        "dx_id": "0001459-dx-000",
+        "pat_enc_csn_id": "0001459-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0001459-dx-001",
+        "pat_enc_csn_id": "0001459-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "1955-05-13"
+      },
+      {
+        "dx_id": "0001459-acu-000",
+        "pat_enc_csn_id": "0001459-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      },
+      {
+        "dx_id": "0001459-acu-002",
+        "pat_enc_csn_id": "0001459-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101459",
+    "summary": {
+      "total_charges": 38161,
+      "total_payments": 24950,
+      "outstanding_balance": 13211,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000145900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 34354,
+        "total_payments": 22072,
+        "current_balance": 12282,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-12",
+        "closed_date": "2026-01-05"
+      },
+      {
+        "hsp_account_id": "HSP000145901",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3807,
+        "total_payments": 2878,
+        "current_balance": 929,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-07-16",
+        "closed_date": "2026-04-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101459",
+    "comparables": [
+      {
+        "pat_id": "PAT0100035",
+        "full_name": "Andrew Martinez",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1434
+      },
+      {
+        "pat_id": "PAT0100220",
+        "full_name": "Hassan Rodriguez",
+        "age": 94,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 82683
+      },
+      {
+        "pat_id": "PAT0100225",
+        "full_name": "Carol Wilson",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 28337
+      },
+      {
+        "pat_id": "PAT0100359",
+        "full_name": "David Wilson",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 8394
+      },
+      {
+        "pat_id": "PAT0100480",
+        "full_name": "Sofia Jones",
+        "age": 93,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 8649
+      },
+      {
+        "pat_id": "PAT0100492",
+        "full_name": "Jennifer Martin",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 55157
+      }
+    ]
+  }
+}

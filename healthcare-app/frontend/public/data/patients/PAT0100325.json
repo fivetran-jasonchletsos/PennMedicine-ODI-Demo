@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100325",
+    "med_rec_num": "MRN0200325",
+    "full_name": "Michael Smith",
+    "birth_date": "1974-09-21",
+    "age": 52,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 3567,
+    "latitude": 40.63428,
+    "longitude": -80.05452,
+    "last_encounter_date": "2026-03-22",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7856 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 688-8919",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100325",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000325-000",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000325-001",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0000325-002",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000325-003",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000325-004",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000325-005",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000325-006",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000325-007",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000325-008",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0000325-009",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000325-010",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0000325-011",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 384
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100325",
+    "diagnoses": [
+      {
+        "dx_id": "0000325-acu-000",
+        "pat_enc_csn_id": "0000325-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0000325-acu-002",
+        "pat_enc_csn_id": "0000325-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100325",
+    "summary": {
+      "total_charges": 3567,
+      "total_payments": 3371,
+      "outstanding_balance": 196,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000032500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 3567,
+        "total_payments": 3371,
+        "current_balance": 196,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-01-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100325",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      },
+      {
+        "pat_id": "PAT0100420",
+        "full_name": "Robert Singh",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 2502
+      }
+    ]
+  }
+}

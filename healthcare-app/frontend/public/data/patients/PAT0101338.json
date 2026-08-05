@@ -1,0 +1,326 @@
+{
+  "patient": {
+    "pat_id": "PAT0101338",
+    "med_rec_num": "MRN0201338",
+    "full_name": "Anil Johnson",
+    "birth_date": "2008-08-12",
+    "age": 18,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 3,
+    "encounter_count": 17,
+    "total_charges": 5484,
+    "latitude": 40.34375,
+    "longitude": -79.84342,
+    "last_encounter_date": "2026-05-02",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2502 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 737-2893",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101338",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001338-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001338-001",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001338-002",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0001338-003",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001338-004",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1201
+      },
+      {
+        "pat_enc_csn_id": "0001338-005",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0001338-006",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0001338-007",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0001338-008",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0001338-009",
+        "contact_date": "2025-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0001338-010",
+        "contact_date": "2025-03-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001338-011",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001338-012",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0001338-013",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0001338-014",
+        "contact_date": "2024-08-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001338-015",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0001338-016",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 404
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101338",
+    "diagnoses": [
+      {
+        "dx_id": "0001338-dx-000",
+        "pat_enc_csn_id": "0001338-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001338-dx-001",
+        "pat_enc_csn_id": "0001338-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001338-dx-002",
+        "pat_enc_csn_id": "0001338-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001338-acu-001",
+        "pat_enc_csn_id": "0001338-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0001338-acu-002",
+        "pat_enc_csn_id": "0001338-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-12-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101338",
+    "summary": {
+      "total_charges": 5484,
+      "total_payments": 4295,
+      "outstanding_balance": 1189,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5484,
+        "total_payments": 4295,
+        "current_balance": 1189,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-03-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101338",
+    "comparables": [
+      {
+        "pat_id": "PAT0100200",
+        "full_name": "Aisha Okonkwo",
+        "age": 19,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 8220
+      },
+      {
+        "pat_id": "PAT0100339",
+        "full_name": "Sandra Petrov",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 5894
+      },
+      {
+        "pat_id": "PAT0100537",
+        "full_name": "George Nguyen",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1168
+      },
+      {
+        "pat_id": "PAT0100762",
+        "full_name": "Barbara Miller",
+        "age": 17,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 8662
+      },
+      {
+        "pat_id": "PAT0100829",
+        "full_name": "Thomas Park",
+        "age": 18,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 19804
+      },
+      {
+        "pat_id": "PAT0100877",
+        "full_name": "John Smith",
+        "age": 13,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 2114
+      }
+    ]
+  }
+}

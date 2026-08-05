@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0e7490"/>
+      <stop offset="1" stop-color="#1e40af"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- Medical cross — recognizable at 16px -->
+  <path d="M26 12h12v14h14v12H38v14H26V38H12V26h14z" fill="#ffffff"/>
+  <!-- Subtle inner hairline for institutional polish -->
+  <path d="M26 12h12v14h14v12H38v14H26V38H12V26h14z" fill="none" stroke="#cbd5e1" stroke-width="0.5" opacity="0.4"/>
+</svg>

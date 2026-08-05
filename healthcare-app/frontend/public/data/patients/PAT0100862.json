@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0100862",
+    "med_rec_num": "MRN0200862",
+    "full_name": "Barbara Jackson",
+    "birth_date": "1993-06-05",
+    "age": 33,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 10216,
+    "latitude": 40.35169,
+    "longitude": -79.84609,
+    "last_encounter_date": "2025-11-27",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2142 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 547-1049",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100862",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000862-000",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0000862-001",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000862-002",
+        "contact_date": "2025-07-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000862-003",
+        "contact_date": "2025-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0000862-004",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000862-005",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000862-006",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000862-007",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000862-008",
+        "contact_date": "2025-01-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 371
+      },
+      {
+        "pat_enc_csn_id": "0000862-009",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 7161
+      },
+      {
+        "pat_enc_csn_id": "0000862-010",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000862-011",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100862",
+    "diagnoses": [
+      {
+        "dx_id": "0000862-dx-000",
+        "pat_enc_csn_id": "0000862-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000862-acu-002",
+        "pat_enc_csn_id": "0000862-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100862",
+    "summary": {
+      "total_charges": 10216,
+      "total_payments": 7945,
+      "outstanding_balance": 2271,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7721,
+        "total_payments": 5824,
+        "current_balance": 1897,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-29",
+        "closed_date": "2025-11-30"
+      },
+      {
+        "hsp_account_id": "HSP000086201",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1757,
+        "total_payments": 1462,
+        "current_balance": 295,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-21",
+        "closed_date": "2026-01-09"
+      },
+      {
+        "hsp_account_id": "HSP000086202",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 738,
+        "total_payments": 659,
+        "current_balance": 79,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-11-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100862",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

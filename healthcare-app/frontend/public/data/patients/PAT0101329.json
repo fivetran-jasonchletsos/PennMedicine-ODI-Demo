@@ -1,0 +1,237 @@
+{
+  "patient": {
+    "pat_id": "PAT0101329",
+    "med_rec_num": "MRN0201329",
+    "full_name": "John Chen",
+    "birth_date": "1967-12-27",
+    "age": 59,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 7,
+    "total_charges": 10879,
+    "latitude": 40.4491,
+    "longitude": -79.92792,
+    "last_encounter_date": "2026-03-04",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "58 Beacon St",
+    "state": "PA",
+    "phone": "(412) 216-1164",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101329",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001329-000",
+        "contact_date": "2026-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 295
+      },
+      {
+        "pat_enc_csn_id": "0001329-001",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0001329-002",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 1781
+      },
+      {
+        "pat_enc_csn_id": "0001329-003",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0001329-004",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 6453
+      },
+      {
+        "pat_enc_csn_id": "0001329-005",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 1575
+      },
+      {
+        "pat_enc_csn_id": "0001329-006",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 249
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101329",
+    "diagnoses": [
+      {
+        "dx_id": "0001329-dx-000",
+        "pat_enc_csn_id": "0001329-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0001329-dx-001",
+        "pat_enc_csn_id": "0001329-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001329-dx-002",
+        "pat_enc_csn_id": "0001329-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0001329-acu-001",
+        "pat_enc_csn_id": "0001329-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-13"
+      },
+      {
+        "dx_id": "0001329-acu-002",
+        "pat_enc_csn_id": "0001329-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-04-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101329",
+    "summary": {
+      "total_charges": 10879,
+      "total_payments": 8661,
+      "outstanding_balance": 2218,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132900",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 699,
+        "total_payments": 642,
+        "current_balance": 57,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-11",
+        "closed_date": "2025-12-01"
+      },
+      {
+        "hsp_account_id": "HSP000132901",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 10180,
+        "total_payments": 8019,
+        "current_balance": 2161,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-14",
+        "closed_date": "2026-02-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101329",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

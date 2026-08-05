@@ -1,0 +1,170 @@
+{
+  "patient": {
+    "pat_id": "PAT0100155",
+    "med_rec_num": "MRN0200155",
+    "full_name": "Ashley Schmidt",
+    "birth_date": "1969-03-04",
+    "age": 57,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 838,
+    "latitude": 40.52196,
+    "longitude": -79.95536,
+    "last_encounter_date": "2026-03-16",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8291 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 473-9160",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100155",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000155-000",
+        "contact_date": "2026-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000155-001",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000155-002",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 216
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100155",
+    "diagnoses": [
+      {
+        "dx_id": "0000155-dx-000",
+        "pat_enc_csn_id": "0000155-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000155-acu-000",
+        "pat_enc_csn_id": "0000155-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-16"
+      },
+      {
+        "dx_id": "0000155-acu-002",
+        "pat_enc_csn_id": "0000155-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100155",
+    "summary": {
+      "total_charges": 838,
+      "total_payments": 588,
+      "outstanding_balance": 250,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000015500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 838,
+        "total_payments": 588,
+        "current_balance": 250,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-09-11",
+        "closed_date": "2025-11-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100155",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

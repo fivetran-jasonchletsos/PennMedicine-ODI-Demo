@@ -1,0 +1,257 @@
+{
+  "patient": {
+    "pat_id": "PAT0101101",
+    "med_rec_num": "MRN0201101",
+    "full_name": "Donna Martinez",
+    "birth_date": "1938-10-20",
+    "age": 88,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 43184,
+    "latitude": 40.44607,
+    "longitude": -79.99809,
+    "last_encounter_date": "2026-03-13",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "229 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 783-5398",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101101",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001101-000",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0001101-001",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 244
+      },
+      {
+        "pat_enc_csn_id": "0001101-002",
+        "contact_date": "2025-10-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5903
+      },
+      {
+        "pat_enc_csn_id": "0001101-003",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0001101-004",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 35440
+      },
+      {
+        "pat_enc_csn_id": "0001101-005",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0001101-006",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0001101-007",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0001101-008",
+        "contact_date": "2024-07-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 150
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101101",
+    "diagnoses": [
+      {
+        "dx_id": "0001101-dx-000",
+        "pat_enc_csn_id": "0001101-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0001101-dx-001",
+        "pat_enc_csn_id": "0001101-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0001101-dx-002",
+        "pat_enc_csn_id": "0001101-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0001101-acu-000",
+        "pat_enc_csn_id": "0001101-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-13"
+      },
+      {
+        "dx_id": "0001101-acu-001",
+        "pat_enc_csn_id": "0001101-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101101",
+    "summary": {
+      "total_charges": 43184,
+      "total_payments": 30683,
+      "outstanding_balance": 12501,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000110100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 17213,
+        "total_payments": 11830,
+        "current_balance": 5383,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-04-20",
+        "closed_date": "2026-04-02"
+      },
+      {
+        "hsp_account_id": "HSP000110101",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 25971,
+        "total_payments": 18853,
+        "current_balance": 7118,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101101",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

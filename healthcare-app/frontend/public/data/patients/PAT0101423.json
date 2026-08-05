@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0101423",
+    "med_rec_num": "MRN0201423",
+    "full_name": "Mary Thomas",
+    "birth_date": "1967-10-28",
+    "age": 59,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 7,
+    "total_charges": 1839,
+    "latitude": 40.29615,
+    "longitude": -79.54142,
+    "last_encounter_date": "2026-01-30",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9712 Forbes St",
+    "state": "PA",
+    "phone": "(412) 771-1077",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101423",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001423-000",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0001423-001",
+        "contact_date": "2025-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0001423-002",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0001423-003",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0001423-004",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001423-005",
+        "contact_date": "2024-08-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0001423-006",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 394
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101423",
+    "diagnoses": [
+      {
+        "dx_id": "0001423-dx-000",
+        "pat_enc_csn_id": "0001423-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0001423-dx-001",
+        "pat_enc_csn_id": "0001423-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0001423-acu-000",
+        "pat_enc_csn_id": "0001423-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0001423-acu-001",
+        "pat_enc_csn_id": "0001423-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-11-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101423",
+    "summary": {
+      "total_charges": 1839,
+      "total_payments": 1675,
+      "outstanding_balance": 164,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1839,
+        "total_payments": 1675,
+        "current_balance": 164,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-10",
+        "closed_date": "2026-03-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101423",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

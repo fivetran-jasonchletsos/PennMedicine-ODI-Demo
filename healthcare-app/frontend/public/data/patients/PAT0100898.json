@@ -1,0 +1,266 @@
+{
+  "patient": {
+    "pat_id": "PAT0100898",
+    "med_rec_num": "MRN0200898",
+    "full_name": "Reshma Davis",
+    "birth_date": "1935-01-16",
+    "age": 91,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 6734,
+    "latitude": 40.42254,
+    "longitude": -79.78984,
+    "last_encounter_date": "2026-03-01",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8874 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 753-8560",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100898",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000898-000",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000898-001",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000898-002",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000898-003",
+        "contact_date": "2025-11-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000898-004",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 107
+      },
+      {
+        "pat_enc_csn_id": "0000898-005",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000898-006",
+        "contact_date": "2025-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 269
+      },
+      {
+        "pat_enc_csn_id": "0000898-007",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000898-008",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000898-009",
+        "contact_date": "2024-09-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 334
+      },
+      {
+        "pat_enc_csn_id": "0000898-010",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4461
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100898",
+    "diagnoses": [
+      {
+        "dx_id": "0000898-dx-000",
+        "pat_enc_csn_id": "0000898-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1976-05-13"
+      },
+      {
+        "dx_id": "0000898-dx-001",
+        "pat_enc_csn_id": "0000898-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000898-dx-002",
+        "pat_enc_csn_id": "0000898-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1965-05-13"
+      },
+      {
+        "dx_id": "0000898-acu-000",
+        "pat_enc_csn_id": "0000898-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      },
+      {
+        "dx_id": "0000898-acu-002",
+        "pat_enc_csn_id": "0000898-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100898",
+    "summary": {
+      "total_charges": 6734,
+      "total_payments": 5893,
+      "outstanding_balance": 841,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000089800",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6734,
+        "total_payments": 5893,
+        "current_balance": 841,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-11-14",
+        "closed_date": "2026-01-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100898",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

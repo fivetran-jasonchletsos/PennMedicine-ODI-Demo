@@ -1,0 +1,343 @@
+{
+  "patient": {
+    "pat_id": "PAT0101103",
+    "med_rec_num": "MRN0201103",
+    "full_name": "Hassan Davis",
+    "birth_date": "1955-11-27",
+    "age": 71,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 5,
+    "encounter_count": 16,
+    "total_charges": 25333,
+    "latitude": 40.35204,
+    "longitude": -79.85293,
+    "last_encounter_date": "2026-03-18",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "703 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 514-5337",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101103",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001103-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001103-001",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0001103-002",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0001103-003",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0001103-004",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0001103-005",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0001103-006",
+        "contact_date": "2025-03-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0001103-007",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 126
+      },
+      {
+        "pat_enc_csn_id": "0001103-008",
+        "contact_date": "2024-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001103-009",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001103-010",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001103-011",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 403
+      },
+      {
+        "pat_enc_csn_id": "0001103-012",
+        "contact_date": "2024-08-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0001103-013",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 20433
+      },
+      {
+        "pat_enc_csn_id": "0001103-014",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 967
+      },
+      {
+        "pat_enc_csn_id": "0001103-015",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 416
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101103",
+    "diagnoses": [
+      {
+        "dx_id": "0001103-dx-000",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0001103-dx-001",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001103-dx-002",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001103-dx-003",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001103-dx-004",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0001103-acu-000",
+        "pat_enc_csn_id": "0001103-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0001103-acu-001",
+        "pat_enc_csn_id": "0001103-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101103",
+    "summary": {
+      "total_charges": 25333,
+      "total_payments": 16505,
+      "outstanding_balance": 8828,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000110300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6495,
+        "total_payments": 4715,
+        "current_balance": 1780,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-20",
+        "closed_date": "2026-01-05"
+      },
+      {
+        "hsp_account_id": "HSP000110301",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 18838,
+        "total_payments": 11790,
+        "current_balance": 7048,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-08-17",
+        "closed_date": "2026-01-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101103",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}

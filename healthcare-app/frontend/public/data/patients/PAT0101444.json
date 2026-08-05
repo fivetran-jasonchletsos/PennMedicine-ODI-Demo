@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0101444",
+    "med_rec_num": "MRN0201444",
+    "full_name": "Ashley Wong",
+    "birth_date": "1950-11-23",
+    "age": 76,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 39090,
+    "latitude": 40.49731,
+    "longitude": -79.90602,
+    "last_encounter_date": "2026-02-04",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5336 Walnut St",
+    "state": "PA",
+    "phone": "(412) 943-2546",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101444",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001444-000",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0001444-001",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0001444-002",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 34568
+      },
+      {
+        "pat_enc_csn_id": "0001444-003",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001444-004",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0001444-005",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0001444-006",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001444-007",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0001444-008",
+        "contact_date": "2024-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0001444-009",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0001444-010",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 2270
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101444",
+    "diagnoses": [
+      {
+        "dx_id": "0001444-dx-000",
+        "pat_enc_csn_id": "0001444-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001444-dx-001",
+        "pat_enc_csn_id": "0001444-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001444-dx-002",
+        "pat_enc_csn_id": "0001444-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0001444-dx-003",
+        "pat_enc_csn_id": "0001444-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0001444-acu-001",
+        "pat_enc_csn_id": "0001444-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-14"
+      },
+      {
+        "dx_id": "0001444-acu-002",
+        "pat_enc_csn_id": "0001444-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-06-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101444",
+    "summary": {
+      "total_charges": 39090,
+      "total_payments": 25106,
+      "outstanding_balance": 13984,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000144400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 39090,
+        "total_payments": 25106,
+        "current_balance": 13984,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-22",
+        "closed_date": "2026-03-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101444",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

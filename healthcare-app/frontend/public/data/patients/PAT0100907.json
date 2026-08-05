@@ -1,0 +1,249 @@
+{
+  "patient": {
+    "pat_id": "PAT0100907",
+    "med_rec_num": "MRN0200907",
+    "full_name": "Maria Thomas",
+    "birth_date": "2000-08-01",
+    "age": 26,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 20559,
+    "latitude": 40.62837,
+    "longitude": -80.05825,
+    "last_encounter_date": "2026-03-24",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3985 Centre St",
+    "state": "PA",
+    "phone": "(412) 934-6742",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100907",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000907-000",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0000907-001",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000907-002",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000907-003",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 18306
+      },
+      {
+        "pat_enc_csn_id": "0000907-004",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000907-005",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000907-006",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000907-007",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000907-008",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 306
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100907",
+    "diagnoses": [
+      {
+        "dx_id": "0000907-dx-000",
+        "pat_enc_csn_id": "0000907-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000907-dx-001",
+        "pat_enc_csn_id": "0000907-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000907-acu-000",
+        "pat_enc_csn_id": "0000907-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-24"
+      },
+      {
+        "dx_id": "0000907-acu-002",
+        "pat_enc_csn_id": "0000907-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100907",
+    "summary": {
+      "total_charges": 20559,
+      "total_payments": 12376,
+      "outstanding_balance": 8183,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000090700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 6963,
+        "total_payments": 4196,
+        "current_balance": 2767,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-15",
+        "closed_date": "2025-12-23"
+      },
+      {
+        "hsp_account_id": "HSP000090701",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 13596,
+        "total_payments": 8180,
+        "current_balance": 5416,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100907",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

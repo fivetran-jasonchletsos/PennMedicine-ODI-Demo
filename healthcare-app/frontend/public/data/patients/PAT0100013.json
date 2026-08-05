@@ -1,0 +1,277 @@
+{
+  "patient": {
+    "pat_id": "PAT0100013",
+    "med_rec_num": "MRN0200013",
+    "full_name": "Mary Walsh",
+    "birth_date": "1934-02-12",
+    "age": 92,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 18481,
+    "latitude": 40.5306,
+    "longitude": -79.95826,
+    "last_encounter_date": "2026-04-05",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8057 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 338-2213",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100013",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000013-000",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000013-001",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000013-002",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000013-003",
+        "contact_date": "2025-07-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0000013-004",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000013-005",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000013-006",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 14157
+      },
+      {
+        "pat_enc_csn_id": "0000013-007",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 1485
+      },
+      {
+        "pat_enc_csn_id": "0000013-008",
+        "contact_date": "2024-12-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000013-009",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 278
+      },
+      {
+        "pat_enc_csn_id": "0000013-010",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 219
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100013",
+    "diagnoses": [
+      {
+        "dx_id": "0000013-dx-000",
+        "pat_enc_csn_id": "0000013-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000013-dx-001",
+        "pat_enc_csn_id": "0000013-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1967-05-13"
+      },
+      {
+        "dx_id": "0000013-dx-002",
+        "pat_enc_csn_id": "0000013-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000013-dx-003",
+        "pat_enc_csn_id": "0000013-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0000013-acu-002",
+        "pat_enc_csn_id": "0000013-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-07-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100013",
+    "summary": {
+      "total_charges": 18481,
+      "total_payments": 12551,
+      "outstanding_balance": 5930,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000001300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 12190,
+        "total_payments": 8540,
+        "current_balance": 3650,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000001301",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 6291,
+        "total_payments": 4011,
+        "current_balance": 2280,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-02-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100013",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

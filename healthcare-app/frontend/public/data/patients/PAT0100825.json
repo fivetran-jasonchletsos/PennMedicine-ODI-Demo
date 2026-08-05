@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100825",
+    "med_rec_num": "MRN0200825",
+    "full_name": "Margaret Gonzalez",
+    "birth_date": "1994-04-07",
+    "age": 32,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 26086,
+    "latitude": 40.44104,
+    "longitude": -80.10649,
+    "last_encounter_date": "2025-12-26",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5802 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 768-7962",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100825",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000825-000",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000825-001",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 20689
+      },
+      {
+        "pat_enc_csn_id": "0000825-002",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 3585
+      },
+      {
+        "pat_enc_csn_id": "0000825-003",
+        "contact_date": "2025-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000825-004",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000825-005",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000825-006",
+        "contact_date": "2024-07-14",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0000825-007",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000825-008",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 393
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100825",
+    "diagnoses": [
+      {
+        "dx_id": "0000825-dx-000",
+        "pat_enc_csn_id": "0000825-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000825-dx-001",
+        "pat_enc_csn_id": "0000825-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000825-dx-002",
+        "pat_enc_csn_id": "0000825-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000825-acu-001",
+        "pat_enc_csn_id": "0000825-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-10-20"
+      },
+      {
+        "dx_id": "0000825-acu-002",
+        "pat_enc_csn_id": "0000825-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100825",
+    "summary": {
+      "total_charges": 26086,
+      "total_payments": 18558,
+      "outstanding_balance": 7528,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000082500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5862,
+        "total_payments": 5132,
+        "current_balance": 730,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-10-05",
+        "closed_date": "2026-04-09"
+      },
+      {
+        "hsp_account_id": "HSP000082501",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5272,
+        "total_payments": 3298,
+        "current_balance": 1974,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-25",
+        "closed_date": "2026-01-26"
+      },
+      {
+        "hsp_account_id": "HSP000082502",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 14952,
+        "total_payments": 10128,
+        "current_balance": 4824,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-02-09",
+        "closed_date": "2025-12-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100825",
+    "comparables": [
+      {
+        "pat_id": "PAT0100015",
+        "full_name": "Barbara Kim",
+        "age": 39,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 12340
+      },
+      {
+        "pat_id": "PAT0100055",
+        "full_name": "David Greene",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1361
+      },
+      {
+        "pat_id": "PAT0100064",
+        "full_name": "Daniel Greene",
+        "age": 31,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1311
+      },
+      {
+        "pat_id": "PAT0100086",
+        "full_name": "John Singh",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 14457
+      },
+      {
+        "pat_id": "PAT0100108",
+        "full_name": "Janet Greene",
+        "age": 30,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 25729
+      },
+      {
+        "pat_id": "PAT0100147",
+        "full_name": "Linda Williams",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1039
+      }
+    ]
+  }
+}

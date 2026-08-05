@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0101171",
+    "med_rec_num": "MRN0201171",
+    "full_name": "Michael Jones",
+    "birth_date": "1973-12-18",
+    "age": 53,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 686,
+    "latitude": 40.34478,
+    "longitude": -79.84572,
+    "last_encounter_date": "2026-02-03",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2818 Centre St",
+    "state": "PA",
+    "phone": "(412) 944-3186",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101171",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001171-000",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0001171-001",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 281
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101171",
+    "diagnoses": [
+      {
+        "dx_id": "0001171-dx-000",
+        "pat_enc_csn_id": "0001171-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001171-acu-000",
+        "pat_enc_csn_id": "0001171-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-03"
+      },
+      {
+        "dx_id": "0001171-acu-001",
+        "pat_enc_csn_id": "0001171-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-08-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101171",
+    "summary": {
+      "total_charges": 686,
+      "total_payments": 570,
+      "outstanding_balance": 116,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000117100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 686,
+        "total_payments": 570,
+        "current_balance": 116,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-10",
+        "closed_date": "2026-04-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101171",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

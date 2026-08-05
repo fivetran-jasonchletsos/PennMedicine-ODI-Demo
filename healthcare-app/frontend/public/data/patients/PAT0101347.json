@@ -1,0 +1,213 @@
+{
+  "patient": {
+    "pat_id": "PAT0101347",
+    "med_rec_num": "MRN0201347",
+    "full_name": "Donna Smith",
+    "birth_date": "2008-09-22",
+    "age": 18,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 21191,
+    "latitude": 40.447,
+    "longitude": -79.92767,
+    "last_encounter_date": "2026-03-24",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4763 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 270-5749",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101347",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001347-000",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 15661
+      },
+      {
+        "pat_enc_csn_id": "0001347-001",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001347-002",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0001347-003",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001347-004",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 4211
+      },
+      {
+        "pat_enc_csn_id": "0001347-005",
+        "contact_date": "2025-05-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0001347-006",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 376
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101347",
+    "diagnoses": [
+      {
+        "dx_id": "0001347-acu-000",
+        "pat_enc_csn_id": "0001347-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-24"
+      },
+      {
+        "dx_id": "0001347-acu-002",
+        "pat_enc_csn_id": "0001347-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101347",
+    "summary": {
+      "total_charges": 21191,
+      "total_payments": 13131,
+      "outstanding_balance": 8060,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5555,
+        "total_payments": 3698,
+        "current_balance": 1857,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-04-02",
+        "closed_date": "2026-01-28"
+      },
+      {
+        "hsp_account_id": "HSP000134701",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 15636,
+        "total_payments": 9433,
+        "current_balance": 6203,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-03",
+        "closed_date": "2026-04-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101347",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

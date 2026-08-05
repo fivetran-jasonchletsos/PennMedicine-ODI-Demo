@@ -1,0 +1,322 @@
+{
+  "patient": {
+    "pat_id": "PAT0101337",
+    "med_rec_num": "MRN0201337",
+    "full_name": "John Wilson",
+    "birth_date": "1973-07-03",
+    "age": 53,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 2,
+    "encounter_count": 16,
+    "total_charges": 52694,
+    "latitude": 40.62801,
+    "longitude": -80.05303,
+    "last_encounter_date": "2026-04-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4794 Centre St",
+    "state": "PA",
+    "phone": "(412) 272-5644",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101337",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001337-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0001337-001",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 2476
+      },
+      {
+        "pat_enc_csn_id": "0001337-002",
+        "contact_date": "2026-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0001337-003",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0001337-004",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001337-005",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 3966
+      },
+      {
+        "pat_enc_csn_id": "0001337-006",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 4252
+      },
+      {
+        "pat_enc_csn_id": "0001337-007",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0001337-008",
+        "contact_date": "2025-09-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0001337-009",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001337-010",
+        "contact_date": "2025-02-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001337-011",
+        "contact_date": "2025-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0001337-012",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0001337-013",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5320
+      },
+      {
+        "pat_enc_csn_id": "0001337-014",
+        "contact_date": "2024-09-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0001337-015",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 33699
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101337",
+    "diagnoses": [
+      {
+        "dx_id": "0001337-dx-000",
+        "pat_enc_csn_id": "0001337-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0001337-dx-001",
+        "pat_enc_csn_id": "0001337-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      },
+      {
+        "dx_id": "0001337-acu-001",
+        "pat_enc_csn_id": "0001337-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101337",
+    "summary": {
+      "total_charges": 52694,
+      "total_payments": 46118,
+      "outstanding_balance": 6576,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 50516,
+        "total_payments": 44222,
+        "current_balance": 6294,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-02",
+        "closed_date": "2025-10-29"
+      },
+      {
+        "hsp_account_id": "HSP000133701",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1804,
+        "total_payments": 1658,
+        "current_balance": 146,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000133702",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 374,
+        "total_payments": 238,
+        "current_balance": 136,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101337",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

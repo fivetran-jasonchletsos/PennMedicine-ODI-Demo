@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0101363",
+    "med_rec_num": "MRN0201363",
+    "full_name": "Jennifer Singh",
+    "birth_date": "1993-01-10",
+    "age": 33,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 5759,
+    "latitude": 40.35089,
+    "longitude": -79.85137,
+    "last_encounter_date": "2025-11-20",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3728 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 408-9946",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101363",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001363-000",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0001363-001",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 366
+      },
+      {
+        "pat_enc_csn_id": "0001363-002",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0001363-003",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4921
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101363",
+    "diagnoses": [
+      {
+        "dx_id": "0001363-dx-000",
+        "pat_enc_csn_id": "0001363-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001363-acu-001",
+        "pat_enc_csn_id": "0001363-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-18"
+      },
+      {
+        "dx_id": "0001363-acu-002",
+        "pat_enc_csn_id": "0001363-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101363",
+    "summary": {
+      "total_charges": 5759,
+      "total_payments": 5116,
+      "outstanding_balance": 643,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000136300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5759,
+        "total_payments": 5116,
+        "current_balance": 643,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-02-24",
+        "closed_date": "2025-11-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101363",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

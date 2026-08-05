@@ -1,0 +1,288 @@
+{
+  "patient": {
+    "pat_id": "PAT0100315",
+    "med_rec_num": "MRN0200315",
+    "full_name": "Kevin Williams",
+    "birth_date": "1967-09-11",
+    "age": 59,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 71651,
+    "latitude": 40.43579,
+    "longitude": -79.93541,
+    "last_encounter_date": "2026-05-02",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1387 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 937-5990",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100315",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000315-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000315-001",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000315-002",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000315-003",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000315-004",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000315-005",
+        "contact_date": "2025-01-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 36463
+      },
+      {
+        "pat_enc_csn_id": "0000315-006",
+        "contact_date": "2025-01-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 33017
+      },
+      {
+        "pat_enc_csn_id": "0000315-007",
+        "contact_date": "2025-01-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000315-008",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 369
+      },
+      {
+        "pat_enc_csn_id": "0000315-009",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 146
+      },
+      {
+        "pat_enc_csn_id": "0000315-010",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 297
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100315",
+    "diagnoses": [
+      {
+        "dx_id": "0000315-dx-000",
+        "pat_enc_csn_id": "0000315-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000315-dx-001",
+        "pat_enc_csn_id": "0000315-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000315-acu-000",
+        "pat_enc_csn_id": "0000315-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0000315-acu-001",
+        "pat_enc_csn_id": "0000315-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      },
+      {
+        "dx_id": "0000315-acu-002",
+        "pat_enc_csn_id": "0000315-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-30"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100315",
+    "summary": {
+      "total_charges": 71651,
+      "total_payments": 60808,
+      "outstanding_balance": 10843,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000031500",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 8789,
+        "total_payments": 6988,
+        "current_balance": 1801,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000031501",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 748,
+        "total_payments": 536,
+        "current_balance": 212,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-16",
+        "closed_date": "2026-01-31"
+      },
+      {
+        "hsp_account_id": "HSP000031502",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 62114,
+        "total_payments": 53284,
+        "current_balance": 8830,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-09",
+        "closed_date": "2026-03-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100315",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

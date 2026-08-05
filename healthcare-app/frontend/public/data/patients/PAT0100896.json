@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0100896",
+    "med_rec_num": "MRN0200896",
+    "full_name": "William Brown",
+    "birth_date": "1970-10-01",
+    "age": 56,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 457,
+    "latitude": 40.42129,
+    "longitude": -79.79156,
+    "last_encounter_date": "2025-12-03",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5547 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 747-7027",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100896",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000896-000",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000896-001",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 168
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100896",
+    "diagnoses": [
+      {
+        "dx_id": "0000896-dx-000",
+        "pat_enc_csn_id": "0000896-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0000896-acu-000",
+        "pat_enc_csn_id": "0000896-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-03"
+      },
+      {
+        "dx_id": "0000896-acu-001",
+        "pat_enc_csn_id": "0000896-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-09"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100896",
+    "summary": {
+      "total_charges": 457,
+      "total_payments": 398,
+      "outstanding_balance": 59,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000089600",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 457,
+        "total_payments": 398,
+        "current_balance": 59,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100896",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

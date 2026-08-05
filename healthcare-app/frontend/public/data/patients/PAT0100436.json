@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100436",
+    "med_rec_num": "MRN0200436",
+    "full_name": "Kimberly Park",
+    "birth_date": "1996-05-01",
+    "age": 30,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 10473,
+    "latitude": 40.29656,
+    "longitude": -79.54169,
+    "last_encounter_date": "2026-04-20",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3120 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 298-4190",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100436",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000436-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000436-001",
+        "contact_date": "2026-04-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000436-002",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000436-003",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000436-004",
+        "contact_date": "2025-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000436-005",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 2701
+      },
+      {
+        "pat_enc_csn_id": "0000436-006",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0000436-007",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 3854
+      },
+      {
+        "pat_enc_csn_id": "0000436-008",
+        "contact_date": "2024-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000436-009",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000436-010",
+        "contact_date": "2024-11-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 1593
+      },
+      {
+        "pat_enc_csn_id": "0000436-011",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 271
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100436",
+    "diagnoses": [
+      {
+        "dx_id": "0000436-dx-000",
+        "pat_enc_csn_id": "0000436-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000436-dx-001",
+        "pat_enc_csn_id": "0000436-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000436-acu-000",
+        "pat_enc_csn_id": "0000436-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100436",
+    "summary": {
+      "total_charges": 10473,
+      "total_payments": 8260,
+      "outstanding_balance": 2213,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000043600",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 10473,
+        "total_payments": 8260,
+        "current_balance": 2213,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-19",
+        "closed_date": "2025-10-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100436",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

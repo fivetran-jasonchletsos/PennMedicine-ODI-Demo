@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0100441",
+    "med_rec_num": "MRN0200441",
+    "full_name": "Anil Greene",
+    "birth_date": "1940-10-26",
+    "age": 86,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 23068,
+    "latitude": 40.47256,
+    "longitude": -79.83164,
+    "last_encounter_date": "2026-02-11",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2513 Murray St",
+    "state": "PA",
+    "phone": "(412) 615-5284",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100441",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000441-000",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000441-001",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000441-002",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 16352
+      },
+      {
+        "pat_enc_csn_id": "0000441-003",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000441-004",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 1253
+      },
+      {
+        "pat_enc_csn_id": "0000441-005",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000441-006",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000441-007",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 3724
+      },
+      {
+        "pat_enc_csn_id": "0000441-008",
+        "contact_date": "2024-07-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000441-009",
+        "contact_date": "2024-06-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000441-010",
+        "contact_date": "2024-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000441-011",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 97
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100441",
+    "diagnoses": [
+      {
+        "dx_id": "0000441-dx-000",
+        "pat_enc_csn_id": "0000441-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000441-dx-001",
+        "pat_enc_csn_id": "0000441-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000441-dx-002",
+        "pat_enc_csn_id": "0000441-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000441-acu-000",
+        "pat_enc_csn_id": "0000441-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      },
+      {
+        "dx_id": "0000441-acu-001",
+        "pat_enc_csn_id": "0000441-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      },
+      {
+        "dx_id": "0000441-acu-002",
+        "pat_enc_csn_id": "0000441-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-07-08"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100441",
+    "summary": {
+      "total_charges": 23068,
+      "total_payments": 20842,
+      "outstanding_balance": 2226,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000044100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 23068,
+        "total_payments": 20842,
+        "current_balance": 2226,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-09",
+        "closed_date": "2026-01-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100441",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

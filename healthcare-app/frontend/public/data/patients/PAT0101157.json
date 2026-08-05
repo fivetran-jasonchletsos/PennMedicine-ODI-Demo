@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101157",
+    "med_rec_num": "MRN0201157",
+    "full_name": "Kevin Patel",
+    "birth_date": "1978-04-26",
+    "age": 48,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 182,
+    "latitude": 40.3016,
+    "longitude": -79.53331,
+    "last_encounter_date": "2026-03-31",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "889 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 774-6200",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101157",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001157-000",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 182
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101157",
+    "diagnoses": [
+      {
+        "dx_id": "0001157-acu-000",
+        "pat_enc_csn_id": "0001157-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101157",
+    "summary": {
+      "total_charges": 182,
+      "total_payments": 149,
+      "outstanding_balance": 33,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000115700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 182,
+        "total_payments": 149,
+        "current_balance": 33,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-05-02",
+        "closed_date": "2026-01-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101157",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

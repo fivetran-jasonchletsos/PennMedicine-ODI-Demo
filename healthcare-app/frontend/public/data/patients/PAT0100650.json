@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0100650",
+    "med_rec_num": "MRN0200650",
+    "full_name": "Daniel Singh",
+    "birth_date": "1990-08-15",
+    "age": 36,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 4,
+    "total_charges": 6375,
+    "latitude": 40.37086,
+    "longitude": -80.04667,
+    "last_encounter_date": "2025-12-14",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8316 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 901-8247",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100650",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000650-000",
+        "contact_date": "2025-12-14",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5853
+      },
+      {
+        "pat_enc_csn_id": "0000650-001",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 54
+      },
+      {
+        "pat_enc_csn_id": "0000650-002",
+        "contact_date": "2025-06-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000650-003",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 279
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100650",
+    "diagnoses": [
+      {
+        "dx_id": "0000650-acu-001",
+        "pat_enc_csn_id": "0000650-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-08-21"
+      },
+      {
+        "dx_id": "0000650-acu-002",
+        "pat_enc_csn_id": "0000650-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-06-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100650",
+    "summary": {
+      "total_charges": 6375,
+      "total_payments": 5747,
+      "outstanding_balance": 628,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000065000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 6375,
+        "total_payments": 5747,
+        "current_balance": 628,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-04",
+        "closed_date": "2026-01-15"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100650",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

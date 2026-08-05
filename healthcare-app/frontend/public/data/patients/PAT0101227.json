@@ -1,0 +1,320 @@
+{
+  "patient": {
+    "pat_id": "PAT0101227",
+    "med_rec_num": "MRN0201227",
+    "full_name": "Maria Hernandez",
+    "birth_date": "1958-11-23",
+    "age": 68,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 18,
+    "total_charges": 46491,
+    "latitude": 40.35461,
+    "longitude": -79.89796,
+    "last_encounter_date": "2026-05-03",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2463 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 431-3617",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101227",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001227-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001227-001",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 30392
+      },
+      {
+        "pat_enc_csn_id": "0001227-002",
+        "contact_date": "2026-04-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001227-003",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001227-004",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0001227-005",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0001227-006",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 1948
+      },
+      {
+        "pat_enc_csn_id": "0001227-007",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0001227-008",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6112
+      },
+      {
+        "pat_enc_csn_id": "0001227-009",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0001227-010",
+        "contact_date": "2025-08-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 4497
+      },
+      {
+        "pat_enc_csn_id": "0001227-011",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0001227-012",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0001227-013",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0001227-014",
+        "contact_date": "2024-08-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0001227-015",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001227-016",
+        "contact_date": "2024-06-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0001227-017",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 208
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101227",
+    "diagnoses": [
+      {
+        "dx_id": "0001227-dx-000",
+        "pat_enc_csn_id": "0001227-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0001227-dx-001",
+        "pat_enc_csn_id": "0001227-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0001227-acu-002",
+        "pat_enc_csn_id": "0001227-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101227",
+    "summary": {
+      "total_charges": 46491,
+      "total_payments": 37307,
+      "outstanding_balance": 9184,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000122700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 46491,
+        "total_payments": 37307,
+        "current_balance": 9184,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-06",
+        "closed_date": "2026-01-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101227",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

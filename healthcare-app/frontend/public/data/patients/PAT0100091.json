@@ -1,0 +1,291 @@
+{
+  "patient": {
+    "pat_id": "PAT0100091",
+    "med_rec_num": "MRN0200091",
+    "full_name": "Joseph Martin",
+    "birth_date": "1938-08-11",
+    "age": 88,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 18481,
+    "latitude": 40.46197,
+    "longitude": -79.91003,
+    "last_encounter_date": "2026-04-16",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6970 Murray St",
+    "state": "PA",
+    "phone": "(412) 675-6224",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100091",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000091-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000091-001",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000091-002",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 168
+      },
+      {
+        "pat_enc_csn_id": "0000091-003",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000091-004",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000091-005",
+        "contact_date": "2025-11-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3003
+      },
+      {
+        "pat_enc_csn_id": "0000091-006",
+        "contact_date": "2025-11-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000091-007",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2732
+      },
+      {
+        "pat_enc_csn_id": "0000091-008",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000091-009",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000091-010",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0000091-011",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 5907
+      },
+      {
+        "pat_enc_csn_id": "0000091-012",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 4325
+      },
+      {
+        "pat_enc_csn_id": "0000091-013",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 217
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100091",
+    "diagnoses": [
+      {
+        "dx_id": "0000091-dx-000",
+        "pat_enc_csn_id": "0000091-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1984-05-13"
+      },
+      {
+        "dx_id": "0000091-dx-001",
+        "pat_enc_csn_id": "0000091-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0000091-acu-000",
+        "pat_enc_csn_id": "0000091-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100091",
+    "summary": {
+      "total_charges": 18481,
+      "total_payments": 13052,
+      "outstanding_balance": 5429,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000009100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 17382,
+        "total_payments": 12054,
+        "current_balance": 5328,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-12-03",
+        "closed_date": "2025-12-02"
+      },
+      {
+        "hsp_account_id": "HSP000009101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1099,
+        "total_payments": 998,
+        "current_balance": 101,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-03-01",
+        "closed_date": "2026-01-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100091",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0101437",
+    "med_rec_num": "MRN0201437",
+    "full_name": "Thomas Nguyen",
+    "birth_date": "2026-03-25",
+    "age": 0,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 324,
+    "latitude": 40.41824,
+    "longitude": -79.7833,
+    "last_encounter_date": "2025-05-10",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7749 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 391-2542",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101437",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001437-000",
+        "contact_date": "2025-05-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 324
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101437",
+    "diagnoses": [
+      {
+        "dx_id": "0001437-acu-000",
+        "pat_enc_csn_id": "0001437-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101437",
+    "summary": {
+      "total_charges": 324,
+      "total_payments": 263,
+      "outstanding_balance": 61,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000143700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 324,
+        "total_payments": 263,
+        "current_balance": 61,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-24",
+        "closed_date": "2026-02-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101437",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "patient": {
+    "pat_id": "PAT0101185",
+    "med_rec_num": "MRN0201185",
+    "full_name": "Reshma Kim",
+    "birth_date": "2000-10-04",
+    "age": 26,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 61590,
+    "latitude": 40.44702,
+    "longitude": -79.93319,
+    "last_encounter_date": "2026-03-03",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2380 Highland St",
+    "state": "PA",
+    "phone": "(412) 814-1311",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101185",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001185-000",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001185-001",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001185-002",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 35400
+      },
+      {
+        "pat_enc_csn_id": "0001185-003",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 410
+      },
+      {
+        "pat_enc_csn_id": "0001185-004",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001185-005",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0001185-006",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0001185-007",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0001185-008",
+        "contact_date": "2025-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0001185-009",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 4947
+      },
+      {
+        "pat_enc_csn_id": "0001185-010",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 18729
+      },
+      {
+        "pat_enc_csn_id": "0001185-011",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 147
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101185",
+    "diagnoses": [
+      {
+        "dx_id": "0001185-dx-000",
+        "pat_enc_csn_id": "0001185-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001185-dx-001",
+        "pat_enc_csn_id": "0001185-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001185-acu-001",
+        "pat_enc_csn_id": "0001185-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-03-02"
+      },
+      {
+        "dx_id": "0001185-acu-002",
+        "pat_enc_csn_id": "0001185-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101185",
+    "summary": {
+      "total_charges": 61590,
+      "total_payments": 43365,
+      "outstanding_balance": 18225,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000118500",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 47787,
+        "total_payments": 32641,
+        "current_balance": 15146,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-16",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000118501",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4441,
+        "total_payments": 2904,
+        "current_balance": 1537,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-30",
+        "closed_date": "2026-02-14"
+      },
+      {
+        "hsp_account_id": "HSP000118502",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 9362,
+        "total_payments": 7820,
+        "current_balance": 1542,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-30",
+        "closed_date": "2026-04-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101185",
+    "comparables": [
+      {
+        "pat_id": "PAT0100061",
+        "full_name": "Linda Nguyen",
+        "age": 27,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 50177
+      },
+      {
+        "pat_id": "PAT0100068",
+        "full_name": "Daniel Schmidt",
+        "age": 23,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 6520
+      },
+      {
+        "pat_id": "PAT0100072",
+        "full_name": "Christopher Wilson",
+        "age": 29,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 1018
+      },
+      {
+        "pat_id": "PAT0100082",
+        "full_name": "Susan Kim",
+        "age": 28,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 36134
+      },
+      {
+        "pat_id": "PAT0100096",
+        "full_name": "Joseph Chen",
+        "age": 20,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1141
+      },
+      {
+        "pat_id": "PAT0100103",
+        "full_name": "Paul Park",
+        "age": 24,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 5733
+      }
+    ]
+  }
+}

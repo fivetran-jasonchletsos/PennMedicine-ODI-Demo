@@ -1,0 +1,254 @@
+{
+  "patient": {
+    "pat_id": "PAT0100439",
+    "med_rec_num": "MRN0200439",
+    "full_name": "Carol Kim",
+    "birth_date": "2009-10-19",
+    "age": 17,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 12947,
+    "latitude": 40.30229,
+    "longitude": -79.53689,
+    "last_encounter_date": "2026-03-13",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4957 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 202-6869",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100439",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000439-000",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000439-001",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000439-002",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000439-003",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000439-004",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 54
+      },
+      {
+        "pat_enc_csn_id": "0000439-005",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000439-006",
+        "contact_date": "2024-12-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000439-007",
+        "contact_date": "2024-12-15",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4676
+      },
+      {
+        "pat_enc_csn_id": "0000439-008",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000439-009",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 5936
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100439",
+    "diagnoses": [
+      {
+        "dx_id": "0000439-acu-001",
+        "pat_enc_csn_id": "0000439-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-02"
+      },
+      {
+        "dx_id": "0000439-acu-002",
+        "pat_enc_csn_id": "0000439-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100439",
+    "summary": {
+      "total_charges": 12947,
+      "total_payments": 9455,
+      "outstanding_balance": 3492,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000043900",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 7395,
+        "total_payments": 5042,
+        "current_balance": 2353,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-10-31",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000043901",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4647,
+        "total_payments": 3839,
+        "current_balance": 808,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-29",
+        "closed_date": "2026-01-24"
+      },
+      {
+        "hsp_account_id": "HSP000043902",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 905,
+        "total_payments": 574,
+        "current_balance": 331,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-02-27",
+        "closed_date": "2026-04-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100439",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "patient": {
+    "pat_id": "PAT0100986",
+    "med_rec_num": "MRN0200986",
+    "full_name": "Michael Patel",
+    "birth_date": "1965-09-26",
+    "age": 61,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 5395,
+    "latitude": 40.53333,
+    "longitude": -79.96507,
+    "last_encounter_date": "2026-02-23",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3517 Penn St",
+    "state": "PA",
+    "phone": "(412) 646-6849",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100986",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000986-000",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000986-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0000986-002",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000986-003",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000986-004",
+        "contact_date": "2025-10-17",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 3070
+      },
+      {
+        "pat_enc_csn_id": "0000986-005",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000986-006",
+        "contact_date": "2025-08-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000986-007",
+        "contact_date": "2025-07-20",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000986-008",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000986-009",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 152
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100986",
+    "diagnoses": [
+      {
+        "dx_id": "0000986-acu-000",
+        "pat_enc_csn_id": "0000986-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      },
+      {
+        "dx_id": "0000986-acu-001",
+        "pat_enc_csn_id": "0000986-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-01-31"
+      },
+      {
+        "dx_id": "0000986-acu-002",
+        "pat_enc_csn_id": "0000986-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100986",
+    "summary": {
+      "total_charges": 5395,
+      "total_payments": 4656,
+      "outstanding_balance": 739,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000098600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5395,
+        "total_payments": 4656,
+        "current_balance": 739,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-01-09",
+        "closed_date": "2026-03-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100986",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

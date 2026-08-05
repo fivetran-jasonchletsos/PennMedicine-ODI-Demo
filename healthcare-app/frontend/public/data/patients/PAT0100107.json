@@ -1,0 +1,280 @@
+{
+  "patient": {
+    "pat_id": "PAT0100107",
+    "med_rec_num": "MRN0200107",
+    "full_name": "Elizabeth Wong",
+    "birth_date": "1985-11-19",
+    "age": 41,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 3,
+    "encounter_count": 11,
+    "total_charges": 12872,
+    "latitude": 40.33425,
+    "longitude": -80.03355,
+    "last_encounter_date": "2026-04-14",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2229 Walnut St",
+    "state": "PA",
+    "phone": "(412) 499-7984",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100107",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000107-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000107-001",
+        "contact_date": "2026-03-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000107-002",
+        "contact_date": "2026-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000107-003",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 2467
+      },
+      {
+        "pat_enc_csn_id": "0000107-004",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000107-005",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000107-006",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 1448
+      },
+      {
+        "pat_enc_csn_id": "0000107-007",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000107-008",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000107-009",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 6495
+      },
+      {
+        "pat_enc_csn_id": "0000107-010",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 410
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100107",
+    "diagnoses": [
+      {
+        "dx_id": "0000107-dx-000",
+        "pat_enc_csn_id": "0000107-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000107-dx-001",
+        "pat_enc_csn_id": "0000107-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000107-dx-002",
+        "pat_enc_csn_id": "0000107-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000107-acu-002",
+        "pat_enc_csn_id": "0000107-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100107",
+    "summary": {
+      "total_charges": 12872,
+      "total_payments": 11117,
+      "outstanding_balance": 1755,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2543,
+        "total_payments": 2039,
+        "current_balance": 504,
+        "primary_payer": "Self-pay",
+        "opened_date": "2025-03-11",
+        "closed_date": "2026-04-13"
+      },
+      {
+        "hsp_account_id": "HSP000010701",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5543,
+        "total_payments": 4734,
+        "current_balance": 809,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-03-02",
+        "closed_date": "2026-01-10"
+      },
+      {
+        "hsp_account_id": "HSP000010702",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4786,
+        "total_payments": 4344,
+        "current_balance": 442,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-04-24",
+        "closed_date": "2026-02-01"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100107",
+    "comparables": [
+      {
+        "pat_id": "PAT0100031",
+        "full_name": "Anil Brown",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 5220
+      },
+      {
+        "pat_id": "PAT0100085",
+        "full_name": "Linda Brown",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 19592
+      },
+      {
+        "pat_id": "PAT0100090",
+        "full_name": "Aisha Nguyen",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 9144
+      },
+      {
+        "pat_id": "PAT0100136",
+        "full_name": "Susan Wong",
+        "age": 46,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 4716
+      },
+      {
+        "pat_id": "PAT0100183",
+        "full_name": "Linda Gonzalez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4659
+      },
+      {
+        "pat_id": "PAT0100279",
+        "full_name": "Thomas Russo",
+        "age": 46,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 5705
+      }
+    ]
+  }
+}

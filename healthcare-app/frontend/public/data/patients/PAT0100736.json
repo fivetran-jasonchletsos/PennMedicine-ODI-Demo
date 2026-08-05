@@ -1,0 +1,134 @@
+{
+  "patient": {
+    "pat_id": "PAT0100736",
+    "med_rec_num": "MRN0200736",
+    "full_name": "Patricia Jackson",
+    "birth_date": "1980-04-10",
+    "age": 46,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Mark Gonzalez",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 410,
+    "latitude": 40.37607,
+    "longitude": -80.05209,
+    "last_encounter_date": "2025-11-06",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9336 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 312-2570",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100736",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000736-000",
+        "contact_date": "2025-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 410
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100736",
+    "diagnoses": [
+      {
+        "dx_id": "0000736-acu-000",
+        "pat_enc_csn_id": "0000736-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-11-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100736",
+    "summary": {
+      "total_charges": 410,
+      "total_payments": 287,
+      "outstanding_balance": 123,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000073600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 410,
+        "total_payments": 287,
+        "current_balance": 123,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100736",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

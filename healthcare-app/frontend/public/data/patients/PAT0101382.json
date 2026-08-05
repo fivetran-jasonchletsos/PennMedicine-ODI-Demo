@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0101382",
+    "med_rec_num": "MRN0201382",
+    "full_name": "Hassan Okonkwo",
+    "birth_date": "1955-11-09",
+    "age": 71,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 32617,
+    "latitude": 40.47928,
+    "longitude": -79.83273,
+    "last_encounter_date": "2025-08-21",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8276 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 515-7656",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101382",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001382-000",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001382-001",
+        "contact_date": "2025-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0001382-002",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001382-003",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001382-004",
+        "contact_date": "2025-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0001382-005",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 10813
+      },
+      {
+        "pat_enc_csn_id": "0001382-006",
+        "contact_date": "2025-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001382-007",
+        "contact_date": "2025-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0001382-008",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0001382-009",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0001382-010",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 16443
+      },
+      {
+        "pat_enc_csn_id": "0001382-011",
+        "contact_date": "2024-09-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0001382-012",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0001382-013",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2073
+      },
+      {
+        "pat_enc_csn_id": "0001382-014",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101382",
+    "diagnoses": [
+      {
+        "dx_id": "0001382-dx-000",
+        "pat_enc_csn_id": "0001382-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001382-dx-001",
+        "pat_enc_csn_id": "0001382-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0001382-acu-001",
+        "pat_enc_csn_id": "0001382-001",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-07-30"
+      },
+      {
+        "dx_id": "0001382-acu-002",
+        "pat_enc_csn_id": "0001382-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-06-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101382",
+    "summary": {
+      "total_charges": 32617,
+      "total_payments": 23512,
+      "outstanding_balance": 9105,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 32617,
+        "total_payments": 23512,
+        "current_balance": 9105,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-08",
+        "closed_date": "2025-11-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101382",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

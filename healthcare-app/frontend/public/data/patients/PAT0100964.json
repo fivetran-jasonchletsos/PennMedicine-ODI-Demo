@@ -1,0 +1,314 @@
+{
+  "patient": {
+    "pat_id": "PAT0100964",
+    "med_rec_num": "MRN0200964",
+    "full_name": "Aisha Anderson",
+    "birth_date": "1982-12-27",
+    "age": 44,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 15,
+    "total_charges": 38284,
+    "latitude": 40.49885,
+    "longitude": -79.76484,
+    "last_encounter_date": "2026-02-14",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6597 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 317-4772",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100964",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000964-000",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000964-001",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0000964-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000964-003",
+        "contact_date": "2025-11-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5344
+      },
+      {
+        "pat_enc_csn_id": "0000964-004",
+        "contact_date": "2025-10-20",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 10182
+      },
+      {
+        "pat_enc_csn_id": "0000964-005",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000964-006",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 6544
+      },
+      {
+        "pat_enc_csn_id": "0000964-007",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 5609
+      },
+      {
+        "pat_enc_csn_id": "0000964-008",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000964-009",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000964-010",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0000964-011",
+        "contact_date": "2024-11-08",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5086
+      },
+      {
+        "pat_enc_csn_id": "0000964-012",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 3168
+      },
+      {
+        "pat_enc_csn_id": "0000964-013",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000964-014",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100964",
+    "diagnoses": [
+      {
+        "dx_id": "0000964-dx-000",
+        "pat_enc_csn_id": "0000964-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000964-dx-001",
+        "pat_enc_csn_id": "0000964-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000964-dx-002",
+        "pat_enc_csn_id": "0000964-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000964-acu-000",
+        "pat_enc_csn_id": "0000964-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      },
+      {
+        "dx_id": "0000964-acu-001",
+        "pat_enc_csn_id": "0000964-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-10"
+      },
+      {
+        "dx_id": "0000964-acu-002",
+        "pat_enc_csn_id": "0000964-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100964",
+    "summary": {
+      "total_charges": 38284,
+      "total_payments": 35050,
+      "outstanding_balance": 3234,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000096400",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 38284,
+        "total_payments": 35050,
+        "current_balance": 3234,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-25",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100964",
+    "comparables": [
+      {
+        "pat_id": "PAT0100031",
+        "full_name": "Anil Brown",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 12,
+        "total_charges": 5220
+      },
+      {
+        "pat_id": "PAT0100085",
+        "full_name": "Linda Brown",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 19592
+      },
+      {
+        "pat_id": "PAT0100090",
+        "full_name": "Aisha Nguyen",
+        "age": 48,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 9144
+      },
+      {
+        "pat_id": "PAT0100136",
+        "full_name": "Susan Wong",
+        "age": 46,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 4716
+      },
+      {
+        "pat_id": "PAT0100183",
+        "full_name": "Linda Gonzalez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 4659
+      },
+      {
+        "pat_id": "PAT0100279",
+        "full_name": "Thomas Russo",
+        "age": 46,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 5705
+      }
+    ]
+  }
+}

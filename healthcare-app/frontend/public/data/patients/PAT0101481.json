@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0101481",
+    "med_rec_num": "MRN0201481",
+    "full_name": "Joseph Okonkwo",
+    "birth_date": "1960-06-06",
+    "age": 66,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 9,
+    "total_charges": 3203,
+    "latitude": 40.68145,
+    "longitude": -80.1021,
+    "last_encounter_date": "2026-01-27",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7062 Highland Ave",
+    "state": "PA",
+    "phone": "(412) 695-7763",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101481",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001481-000",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001481-001",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001481-002",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0001481-003",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 1495
+      },
+      {
+        "pat_enc_csn_id": "0001481-004",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0001481-005",
+        "contact_date": "2024-10-06",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0001481-006",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0001481-007",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0001481-008",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 198
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101481",
+    "diagnoses": [
+      {
+        "dx_id": "0001481-dx-000",
+        "pat_enc_csn_id": "0001481-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0001481-dx-001",
+        "pat_enc_csn_id": "0001481-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "1999-05-13"
+      },
+      {
+        "dx_id": "0001481-dx-002",
+        "pat_enc_csn_id": "0001481-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0001481-acu-002",
+        "pat_enc_csn_id": "0001481-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-02-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101481",
+    "summary": {
+      "total_charges": 3203,
+      "total_payments": 2649,
+      "outstanding_balance": 554,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000148100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3203,
+        "total_payments": 2649,
+        "current_balance": 554,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-02",
+        "closed_date": "2025-11-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101481",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

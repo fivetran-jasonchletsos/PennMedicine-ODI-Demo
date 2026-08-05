@@ -1,0 +1,328 @@
+{
+  "patient": {
+    "pat_id": "PAT0101202",
+    "med_rec_num": "MRN0201202",
+    "full_name": "Reshma Thomas",
+    "birth_date": "1961-12-04",
+    "age": 65,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 15608,
+    "latitude": 40.34236,
+    "longitude": -79.85192,
+    "last_encounter_date": "2026-05-06",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6531 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 499-8910",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101202",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001202-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 47
+      },
+      {
+        "pat_enc_csn_id": "0001202-001",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0001202-002",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 145
+      },
+      {
+        "pat_enc_csn_id": "0001202-003",
+        "contact_date": "2026-01-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001202-004",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001202-005",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0001202-006",
+        "contact_date": "2025-11-15",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 6004
+      },
+      {
+        "pat_enc_csn_id": "0001202-007",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3708
+      },
+      {
+        "pat_enc_csn_id": "0001202-008",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 3311
+      },
+      {
+        "pat_enc_csn_id": "0001202-009",
+        "contact_date": "2025-03-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001202-010",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0001202-011",
+        "contact_date": "2024-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 184
+      },
+      {
+        "pat_enc_csn_id": "0001202-012",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001202-013",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0001202-014",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 180
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101202",
+    "diagnoses": [
+      {
+        "dx_id": "0001202-dx-000",
+        "pat_enc_csn_id": "0001202-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0001202-dx-001",
+        "pat_enc_csn_id": "0001202-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001202-acu-000",
+        "pat_enc_csn_id": "0001202-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      },
+      {
+        "dx_id": "0001202-acu-001",
+        "pat_enc_csn_id": "0001202-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-26"
+      },
+      {
+        "dx_id": "0001202-acu-002",
+        "pat_enc_csn_id": "0001202-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101202",
+    "summary": {
+      "total_charges": 15608,
+      "total_payments": 14011,
+      "outstanding_balance": 1597,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 9198,
+        "total_payments": 8349,
+        "current_balance": 849,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-21",
+        "closed_date": "2025-12-02"
+      },
+      {
+        "hsp_account_id": "HSP000120201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 1203,
+        "total_payments": 1019,
+        "current_balance": 184,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-20",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000120202",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5207,
+        "total_payments": 4643,
+        "current_balance": 564,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-11",
+        "closed_date": "2026-03-13"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101202",
+    "comparables": [
+      {
+        "pat_id": "PAT0100016",
+        "full_name": "William Petrov",
+        "age": 66,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 13276
+      },
+      {
+        "pat_id": "PAT0100028",
+        "full_name": "Sharon Nguyen",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 1243
+      },
+      {
+        "pat_id": "PAT0100030",
+        "full_name": "Ashley Miller",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 7177
+      },
+      {
+        "pat_id": "PAT0100037",
+        "full_name": "Donna Jones",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 1101
+      },
+      {
+        "pat_id": "PAT0100052",
+        "full_name": "Anil Walsh",
+        "age": 60,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 4605
+      },
+      {
+        "pat_id": "PAT0100059",
+        "full_name": "Linda Singh",
+        "age": 69,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 43741
+      }
+    ]
+  }
+}

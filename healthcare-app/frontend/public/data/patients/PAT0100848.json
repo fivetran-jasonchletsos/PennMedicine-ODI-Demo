@@ -1,0 +1,321 @@
+{
+  "patient": {
+    "pat_id": "PAT0100848",
+    "med_rec_num": "MRN0200848",
+    "full_name": "James Petrov",
+    "birth_date": "1938-09-21",
+    "age": 88,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 3,
+    "encounter_count": 17,
+    "total_charges": 44833,
+    "latitude": 40.3252,
+    "longitude": -80.03611,
+    "last_encounter_date": "2026-04-24",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "236 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 693-6110",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100848",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000848-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000848-001",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 226
+      },
+      {
+        "pat_enc_csn_id": "0000848-002",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000848-003",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0000848-004",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000848-005",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000848-006",
+        "contact_date": "2026-01-02",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000848-007",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 290
+      },
+      {
+        "pat_enc_csn_id": "0000848-008",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000848-009",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000848-010",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 2294
+      },
+      {
+        "pat_enc_csn_id": "0000848-011",
+        "contact_date": "2024-12-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 6080
+      },
+      {
+        "pat_enc_csn_id": "0000848-012",
+        "contact_date": "2024-07-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 26950
+      },
+      {
+        "pat_enc_csn_id": "0000848-013",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000848-014",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000848-015",
+        "contact_date": "2024-06-25",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 5974
+      },
+      {
+        "pat_enc_csn_id": "0000848-016",
+        "contact_date": "2024-05-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 413
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100848",
+    "diagnoses": [
+      {
+        "dx_id": "0000848-dx-000",
+        "pat_enc_csn_id": "0000848-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1967-05-13"
+      },
+      {
+        "dx_id": "0000848-dx-001",
+        "pat_enc_csn_id": "0000848-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000848-dx-002",
+        "pat_enc_csn_id": "0000848-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2000-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100848",
+    "summary": {
+      "total_charges": 44833,
+      "total_payments": 29183,
+      "outstanding_balance": 15650,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000084800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5823,
+        "total_payments": 4704,
+        "current_balance": 1119,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000084801",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 39010,
+        "total_payments": 24479,
+        "current_balance": 14531,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-05-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100848",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

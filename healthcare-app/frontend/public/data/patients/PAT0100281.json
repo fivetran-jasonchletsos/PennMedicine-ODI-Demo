@@ -1,0 +1,338 @@
+{
+  "patient": {
+    "pat_id": "PAT0100281",
+    "med_rec_num": "MRN0200281",
+    "full_name": "Kenji Park",
+    "birth_date": "1950-08-15",
+    "age": 76,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 19,
+    "total_charges": 50344,
+    "latitude": 40.36451,
+    "longitude": -79.89738,
+    "last_encounter_date": "2026-01-09",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "918 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 693-9109",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100281",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000281-000",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000281-001",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0000281-002",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0000281-003",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000281-004",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000281-005",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000281-006",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000281-007",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 322
+      },
+      {
+        "pat_enc_csn_id": "0000281-008",
+        "contact_date": "2025-02-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000281-009",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000281-010",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000281-011",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 26524
+      },
+      {
+        "pat_enc_csn_id": "0000281-012",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 16050
+      },
+      {
+        "pat_enc_csn_id": "0000281-013",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000281-014",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 127
+      },
+      {
+        "pat_enc_csn_id": "0000281-015",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000281-016",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000281-017",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4217
+      },
+      {
+        "pat_enc_csn_id": "0000281-018",
+        "contact_date": "2024-08-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 129
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100281",
+    "diagnoses": [
+      {
+        "dx_id": "0000281-dx-000",
+        "pat_enc_csn_id": "0000281-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1983-05-13"
+      },
+      {
+        "dx_id": "0000281-dx-001",
+        "pat_enc_csn_id": "0000281-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2001-05-13"
+      },
+      {
+        "dx_id": "0000281-dx-002",
+        "pat_enc_csn_id": "0000281-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0000281-acu-002",
+        "pat_enc_csn_id": "0000281-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-09-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100281",
+    "summary": {
+      "total_charges": 50344,
+      "total_payments": 45232,
+      "outstanding_balance": 5112,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000028100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 50344,
+        "total_payments": 45232,
+        "current_balance": 5112,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-22",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100281",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

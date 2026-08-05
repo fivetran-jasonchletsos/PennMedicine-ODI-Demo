@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0101310",
+    "med_rec_num": "MRN0201310",
+    "full_name": "Michelle Martinez",
+    "birth_date": "2021-10-20",
+    "age": 5,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 8530,
+    "latitude": 40.53132,
+    "longitude": -79.95869,
+    "last_encounter_date": "2026-04-16",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2222 Liberty St",
+    "state": "PA",
+    "phone": "(412) 221-6613",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101310",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001310-000",
+        "contact_date": "2026-04-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0001310-001",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0001310-002",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001310-003",
+        "contact_date": "2025-11-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001310-004",
+        "contact_date": "2025-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001310-005",
+        "contact_date": "2025-08-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 155
+      },
+      {
+        "pat_enc_csn_id": "0001310-006",
+        "contact_date": "2025-08-05",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 3995
+      },
+      {
+        "pat_enc_csn_id": "0001310-007",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001310-008",
+        "contact_date": "2025-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001310-009",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 2110
+      },
+      {
+        "pat_enc_csn_id": "0001310-010",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0001310-011",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101310",
+    "diagnoses": [
+      {
+        "dx_id": "0001310-dx-000",
+        "pat_enc_csn_id": "0001310-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001310-acu-000",
+        "pat_enc_csn_id": "0001310-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-16"
+      },
+      {
+        "dx_id": "0001310-acu-002",
+        "pat_enc_csn_id": "0001310-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101310",
+    "summary": {
+      "total_charges": 8530,
+      "total_payments": 7813,
+      "outstanding_balance": 717,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000131000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8530,
+        "total_payments": 7813,
+        "current_balance": 717,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-06-22",
+        "closed_date": "2026-03-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101310",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

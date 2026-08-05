@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0100519",
+    "med_rec_num": "MRN0200519",
+    "full_name": "Michelle Park",
+    "birth_date": "1958-05-07",
+    "age": 68,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 15,
+    "total_charges": 6971,
+    "latitude": 40.68127,
+    "longitude": -80.10221,
+    "last_encounter_date": "2026-04-27",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2027 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 223-7173",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100519",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000519-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000519-001",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 45
+      },
+      {
+        "pat_enc_csn_id": "0000519-002",
+        "contact_date": "2026-01-16",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2530
+      },
+      {
+        "pat_enc_csn_id": "0000519-003",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000519-004",
+        "contact_date": "2025-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000519-005",
+        "contact_date": "2025-07-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000519-006",
+        "contact_date": "2025-07-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000519-007",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000519-008",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1438
+      },
+      {
+        "pat_enc_csn_id": "0000519-009",
+        "contact_date": "2025-01-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0000519-010",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0000519-011",
+        "contact_date": "2024-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000519-012",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000519-013",
+        "contact_date": "2024-07-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000519-014",
+        "contact_date": "2024-07-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 191
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100519",
+    "diagnoses": [
+      {
+        "dx_id": "0000519-dx-000",
+        "pat_enc_csn_id": "0000519-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1998-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100519",
+    "summary": {
+      "total_charges": 6971,
+      "total_payments": 4235,
+      "outstanding_balance": 2736,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000051900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 6971,
+        "total_payments": 4235,
+        "current_balance": 2736,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-30",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100519",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

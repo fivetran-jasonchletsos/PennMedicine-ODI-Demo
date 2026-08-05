@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0101345",
+    "med_rec_num": "MRN0201345",
+    "full_name": "Susan Martin",
+    "birth_date": "1967-02-07",
+    "age": 59,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 3406,
+    "latitude": 40.37744,
+    "longitude": -80.0458,
+    "last_encounter_date": "2026-05-11",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3925 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 866-5059",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101345",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001345-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 266
+      },
+      {
+        "pat_enc_csn_id": "0001345-001",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0001345-002",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001345-003",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001345-004",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0001345-005",
+        "contact_date": "2025-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0001345-006",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0001345-007",
+        "contact_date": "2025-04-16",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0001345-008",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0001345-009",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0001345-010",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0001345-011",
+        "contact_date": "2024-12-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 198
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101345",
+    "diagnoses": [
+      {
+        "dx_id": "0001345-acu-000",
+        "pat_enc_csn_id": "0001345-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0001345-acu-001",
+        "pat_enc_csn_id": "0001345-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-11"
+      },
+      {
+        "dx_id": "0001345-acu-002",
+        "pat_enc_csn_id": "0001345-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101345",
+    "summary": {
+      "total_charges": 3406,
+      "total_payments": 3296,
+      "outstanding_balance": 110,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3406,
+        "total_payments": 3296,
+        "current_balance": 110,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-09-17",
+        "closed_date": "2026-01-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101345",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

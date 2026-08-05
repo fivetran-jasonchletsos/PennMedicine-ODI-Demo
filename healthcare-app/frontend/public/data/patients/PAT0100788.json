@@ -1,0 +1,260 @@
+{
+  "patient": {
+    "pat_id": "PAT0100788",
+    "med_rec_num": "MRN0200788",
+    "full_name": "Mary Thomas",
+    "birth_date": "1999-10-28",
+    "age": 27,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 13890,
+    "latitude": 40.35281,
+    "longitude": -79.84341,
+    "last_encounter_date": "2026-04-17",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "56 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 731-7902",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100788",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000788-000",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3097
+      },
+      {
+        "pat_enc_csn_id": "0000788-001",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000788-002",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000788-003",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000788-004",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000788-005",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000788-006",
+        "contact_date": "2025-06-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0000788-007",
+        "contact_date": "2025-02-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 4829
+      },
+      {
+        "pat_enc_csn_id": "0000788-008",
+        "contact_date": "2024-11-20",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 4417
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100788",
+    "diagnoses": [
+      {
+        "dx_id": "0000788-dx-000",
+        "pat_enc_csn_id": "0000788-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000788-acu-000",
+        "pat_enc_csn_id": "0000788-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-17"
+      },
+      {
+        "dx_id": "0000788-acu-001",
+        "pat_enc_csn_id": "0000788-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      },
+      {
+        "dx_id": "0000788-acu-002",
+        "pat_enc_csn_id": "0000788-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100788",
+    "summary": {
+      "total_charges": 13890,
+      "total_payments": 11616,
+      "outstanding_balance": 2274,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000078800",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 7413,
+        "total_payments": 6499,
+        "current_balance": 914,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-05-15",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000078801",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2961,
+        "total_payments": 2361,
+        "current_balance": 600,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-19",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000078802",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 3516,
+        "total_payments": 2756,
+        "current_balance": 760,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-21",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100788",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

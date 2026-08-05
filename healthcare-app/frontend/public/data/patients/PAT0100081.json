@@ -1,0 +1,336 @@
+{
+  "patient": {
+    "pat_id": "PAT0100081",
+    "med_rec_num": "MRN0200081",
+    "full_name": "Linda Moore",
+    "birth_date": "1954-08-02",
+    "age": 72,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 4,
+    "encounter_count": 15,
+    "total_charges": 17595,
+    "latitude": 40.62547,
+    "longitude": -80.05876,
+    "last_encounter_date": "2026-05-02",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6802 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 226-3512",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100081",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000081-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000081-001",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000081-002",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0000081-003",
+        "contact_date": "2025-07-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000081-004",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000081-005",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000081-006",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000081-007",
+        "contact_date": "2025-02-19",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 7167
+      },
+      {
+        "pat_enc_csn_id": "0000081-008",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0000081-009",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 2349
+      },
+      {
+        "pat_enc_csn_id": "0000081-010",
+        "contact_date": "2024-12-17",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 4470
+      },
+      {
+        "pat_enc_csn_id": "0000081-011",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000081-012",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000081-013",
+        "contact_date": "2024-06-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000081-014",
+        "contact_date": "2024-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 418
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100081",
+    "diagnoses": [
+      {
+        "dx_id": "0000081-dx-000",
+        "pat_enc_csn_id": "0000081-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000081-dx-001",
+        "pat_enc_csn_id": "0000081-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1974-05-13"
+      },
+      {
+        "dx_id": "0000081-dx-002",
+        "pat_enc_csn_id": "0000081-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000081-dx-003",
+        "pat_enc_csn_id": "0000081-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000081-acu-000",
+        "pat_enc_csn_id": "0000081-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0000081-acu-001",
+        "pat_enc_csn_id": "0000081-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100081",
+    "summary": {
+      "total_charges": 17595,
+      "total_payments": 15733,
+      "outstanding_balance": 1862,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000008100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 3267,
+        "total_payments": 2850,
+        "current_balance": 417,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-09-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000008101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9037,
+        "total_payments": 8220,
+        "current_balance": 817,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-24",
+        "closed_date": "2025-11-28"
+      },
+      {
+        "hsp_account_id": "HSP000008102",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5291,
+        "total_payments": 4663,
+        "current_balance": 628,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100081",
+    "comparables": [
+      {
+        "pat_id": "PAT0100056",
+        "full_name": "Anil Hernandez",
+        "age": 79,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 14,
+        "total_charges": 6472
+      },
+      {
+        "pat_id": "PAT0100074",
+        "full_name": "Linda Rodriguez",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 14568
+      },
+      {
+        "pat_id": "PAT0100134",
+        "full_name": "Kevin Schmidt",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 46143
+      },
+      {
+        "pat_id": "PAT0100138",
+        "full_name": "Barbara Khan",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 21885
+      },
+      {
+        "pat_id": "PAT0100171",
+        "full_name": "Richard Martin",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 10917
+      },
+      {
+        "pat_id": "PAT0100177",
+        "full_name": "Ashley Kim",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 10,
+        "total_charges": 37230
+      }
+    ]
+  }
+}

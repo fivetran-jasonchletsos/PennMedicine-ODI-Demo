@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0100606",
+    "med_rec_num": "MRN0200606",
+    "full_name": "Kevin Thomas",
+    "birth_date": "1993-02-24",
+    "age": 33,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 8930,
+    "latitude": 40.45022,
+    "longitude": -80.00365,
+    "last_encounter_date": "2026-04-28",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9759 Liberty St",
+    "state": "PA",
+    "phone": "(412) 851-4597",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100606",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000606-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000606-001",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 5808
+      },
+      {
+        "pat_enc_csn_id": "0000606-002",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0000606-003",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000606-004",
+        "contact_date": "2024-06-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 2302
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100606",
+    "diagnoses": [
+      {
+        "dx_id": "0000606-dx-000",
+        "pat_enc_csn_id": "0000606-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000606-dx-001",
+        "pat_enc_csn_id": "0000606-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000606-acu-000",
+        "pat_enc_csn_id": "0000606-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0000606-acu-002",
+        "pat_enc_csn_id": "0000606-002",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100606",
+    "summary": {
+      "total_charges": 8930,
+      "total_payments": 7383,
+      "outstanding_balance": 1547,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000060600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8930,
+        "total_payments": 7383,
+        "current_balance": 1547,
+        "primary_payer": "Medicare",
+        "opened_date": "2023-12-27",
+        "closed_date": "2026-01-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100606",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

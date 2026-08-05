@@ -1,0 +1,262 @@
+{
+  "patient": {
+    "pat_id": "PAT0101386",
+    "med_rec_num": "MRN0201386",
+    "full_name": "Sofia Williams",
+    "birth_date": "1949-10-22",
+    "age": 77,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15206",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 13,
+    "total_charges": 4858,
+    "latitude": 40.45953,
+    "longitude": -79.9198,
+    "last_encounter_date": "2026-02-09",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9370 Beacon St",
+    "state": "PA",
+    "phone": "(412) 518-8212",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101386",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001386-000",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0001386-001",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 80
+      },
+      {
+        "pat_enc_csn_id": "0001386-002",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 411
+      },
+      {
+        "pat_enc_csn_id": "0001386-003",
+        "contact_date": "2025-12-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 401
+      },
+      {
+        "pat_enc_csn_id": "0001386-004",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0001386-005",
+        "contact_date": "2025-10-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0001386-006",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0001386-007",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0001386-008",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001386-009",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0001386-010",
+        "contact_date": "2024-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001386-011",
+        "contact_date": "2024-07-24",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 2414
+      },
+      {
+        "pat_enc_csn_id": "0001386-012",
+        "contact_date": "2024-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 312
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101386",
+    "diagnoses": [
+      {
+        "dx_id": "0001386-acu-000",
+        "pat_enc_csn_id": "0001386-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-09"
+      },
+      {
+        "dx_id": "0001386-acu-001",
+        "pat_enc_csn_id": "0001386-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-19"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101386",
+    "summary": {
+      "total_charges": 4858,
+      "total_payments": 3216,
+      "outstanding_balance": 1642,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 4858,
+        "total_payments": 3216,
+        "current_balance": 1642,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-02-06",
+        "closed_date": "2026-03-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101386",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      },
+      {
+        "pat_id": "PAT0101493",
+        "full_name": "Anil Okonkwo",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 661
+      }
+    ]
+  }
+}

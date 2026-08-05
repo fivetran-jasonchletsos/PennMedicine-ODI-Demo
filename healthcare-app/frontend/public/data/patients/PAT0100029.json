@@ -1,0 +1,213 @@
+{
+  "patient": {
+    "pat_id": "PAT0100029",
+    "med_rec_num": "MRN0200029",
+    "full_name": "Sandra Chen",
+    "birth_date": "2014-01-11",
+    "age": 12,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 25188,
+    "latitude": 40.49003,
+    "longitude": -79.90099,
+    "last_encounter_date": "2026-03-14",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3585 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 893-9530",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100029",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000029-000",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000029-001",
+        "contact_date": "2025-12-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0000029-002",
+        "contact_date": "2025-10-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000029-003",
+        "contact_date": "2025-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000029-004",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 23482
+      },
+      {
+        "pat_enc_csn_id": "0000029-005",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0000029-006",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 399
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100029",
+    "diagnoses": [
+      {
+        "dx_id": "0000029-acu-000",
+        "pat_enc_csn_id": "0000029-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-14"
+      },
+      {
+        "dx_id": "0000029-acu-001",
+        "pat_enc_csn_id": "0000029-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100029",
+    "summary": {
+      "total_charges": 25188,
+      "total_payments": 16044,
+      "outstanding_balance": 9144,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000002900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 21351,
+        "total_payments": 12871,
+        "current_balance": 8480,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-29",
+        "closed_date": "2025-12-10"
+      },
+      {
+        "hsp_account_id": "HSP000002901",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3837,
+        "total_payments": 3173,
+        "current_balance": 664,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-06",
+        "closed_date": "2026-02-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100029",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      },
+      {
+        "pat_id": "PAT0100274",
+        "full_name": "Elizabeth Gonzalez",
+        "age": 11,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 7092
+      }
+    ]
+  }
+}

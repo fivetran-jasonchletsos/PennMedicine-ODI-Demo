@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100887",
+    "med_rec_num": "MRN0200887",
+    "full_name": "Andrew Gonzalez",
+    "birth_date": "1969-06-02",
+    "age": 57,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 5649,
+    "latitude": 40.29551,
+    "longitude": -79.53888,
+    "last_encounter_date": "2026-03-29",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9707 Centre St",
+    "state": "PA",
+    "phone": "(412) 984-1132",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100887",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000887-000",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000887-001",
+        "contact_date": "2026-03-14",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0000887-002",
+        "contact_date": "2026-01-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1310
+      },
+      {
+        "pat_enc_csn_id": "0000887-003",
+        "contact_date": "2025-12-31",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1855
+      },
+      {
+        "pat_enc_csn_id": "0000887-004",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000887-005",
+        "contact_date": "2025-10-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000887-006",
+        "contact_date": "2025-05-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000887-007",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 387
+      },
+      {
+        "pat_enc_csn_id": "0000887-008",
+        "contact_date": "2024-11-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000887-009",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000887-010",
+        "contact_date": "2024-09-25",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000887-011",
+        "contact_date": "2024-09-13",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 184
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100887",
+    "diagnoses": [
+      {
+        "dx_id": "0000887-dx-000",
+        "pat_enc_csn_id": "0000887-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000887-acu-000",
+        "pat_enc_csn_id": "0000887-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100887",
+    "summary": {
+      "total_charges": 5649,
+      "total_payments": 3779,
+      "outstanding_balance": 1870,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000088700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5649,
+        "total_payments": 3779,
+        "current_balance": 1870,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-02-24",
+        "closed_date": "2025-12-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100887",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

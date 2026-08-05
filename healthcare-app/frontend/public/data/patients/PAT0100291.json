@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100291",
+    "med_rec_num": "MRN0200291",
+    "full_name": "Sharon Singh",
+    "birth_date": "1990-06-11",
+    "age": 36,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 18189,
+    "latitude": 40.62766,
+    "longitude": -80.05251,
+    "last_encounter_date": "2026-01-05",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4756 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 839-4869",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100291",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000291-000",
+        "contact_date": "2026-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000291-001",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000291-002",
+        "contact_date": "2025-06-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 17473
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100291",
+    "diagnoses": [
+      {
+        "dx_id": "0000291-dx-000",
+        "pat_enc_csn_id": "0000291-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000291-acu-000",
+        "pat_enc_csn_id": "0000291-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-05"
+      },
+      {
+        "dx_id": "0000291-acu-001",
+        "pat_enc_csn_id": "0000291-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-09-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100291",
+    "summary": {
+      "total_charges": 18189,
+      "total_payments": 14924,
+      "outstanding_balance": 3265,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000029100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 9389,
+        "total_payments": 8297,
+        "current_balance": 1092,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000029101",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7235,
+        "total_payments": 5645,
+        "current_balance": 1590,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-03-21",
+        "closed_date": "2025-11-15"
+      },
+      {
+        "hsp_account_id": "HSP000029102",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1565,
+        "total_payments": 982,
+        "current_balance": 583,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-05",
+        "closed_date": "2026-01-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100291",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

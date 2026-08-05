@@ -1,0 +1,218 @@
+{
+  "patient": {
+    "pat_id": "PAT0100263",
+    "med_rec_num": "MRN0200263",
+    "full_name": "Linda Petrov",
+    "birth_date": "1968-07-19",
+    "age": 58,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 1826,
+    "latitude": 40.44578,
+    "longitude": -80.09898,
+    "last_encounter_date": "2026-02-19",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1468 Forbes St",
+    "state": "PA",
+    "phone": "(412) 740-6487",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100263",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000263-000",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000263-001",
+        "contact_date": "2025-12-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0000263-002",
+        "contact_date": "2025-10-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000263-003",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000263-004",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000263-005",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 283
+      },
+      {
+        "pat_enc_csn_id": "0000263-006",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 283
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100263",
+    "diagnoses": [
+      {
+        "dx_id": "0000263-dx-000",
+        "pat_enc_csn_id": "0000263-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000263-acu-000",
+        "pat_enc_csn_id": "0000263-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-19"
+      },
+      {
+        "dx_id": "0000263-acu-001",
+        "pat_enc_csn_id": "0000263-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-15"
+      },
+      {
+        "dx_id": "0000263-acu-002",
+        "pat_enc_csn_id": "0000263-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-10-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100263",
+    "summary": {
+      "total_charges": 1826,
+      "total_payments": 997,
+      "outstanding_balance": 829,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000026300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1826,
+        "total_payments": 997,
+        "current_balance": 829,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-08-31",
+        "closed_date": "2026-01-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100263",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

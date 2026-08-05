@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0101237",
+    "med_rec_num": "MRN0201237",
+    "full_name": "Kimberly Chen",
+    "birth_date": "1971-05-05",
+    "age": 55,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 4470,
+    "latitude": 40.32658,
+    "longitude": -80.03776,
+    "last_encounter_date": "2025-10-23",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1743 Penn St",
+    "state": "PA",
+    "phone": "(412) 299-1072",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101237",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001237-000",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0001237-001",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0001237-002",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0001237-003",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001237-004",
+        "contact_date": "2024-09-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0001237-005",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 3225
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101237",
+    "diagnoses": [
+      {
+        "dx_id": "0001237-dx-000",
+        "pat_enc_csn_id": "0001237-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001237-acu-000",
+        "pat_enc_csn_id": "0001237-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-23"
+      },
+      {
+        "dx_id": "0001237-acu-001",
+        "pat_enc_csn_id": "0001237-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-01"
+      },
+      {
+        "dx_id": "0001237-acu-002",
+        "pat_enc_csn_id": "0001237-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-06-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101237",
+    "summary": {
+      "total_charges": 4470,
+      "total_payments": 2850,
+      "outstanding_balance": 1620,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000123700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 4470,
+        "total_payments": 2850,
+        "current_balance": 1620,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-12-08",
+        "closed_date": "2026-02-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101237",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

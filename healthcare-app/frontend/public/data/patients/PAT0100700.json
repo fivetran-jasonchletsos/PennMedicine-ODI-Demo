@@ -1,0 +1,367 @@
+{
+  "patient": {
+    "pat_id": "PAT0100700",
+    "med_rec_num": "MRN0200700",
+    "full_name": "Susan Petrov",
+    "birth_date": "1934-07-17",
+    "age": 92,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 3,
+    "encounter_count": 20,
+    "total_charges": 39295,
+    "latitude": 40.63408,
+    "longitude": -80.05618,
+    "last_encounter_date": "2026-04-11",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "134 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 894-4009",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100700",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000700-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 12000
+      },
+      {
+        "pat_enc_csn_id": "0000700-001",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 154
+      },
+      {
+        "pat_enc_csn_id": "0000700-002",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000700-003",
+        "contact_date": "2026-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000700-004",
+        "contact_date": "2026-02-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5750
+      },
+      {
+        "pat_enc_csn_id": "0000700-005",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000700-006",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000700-007",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 3662
+      },
+      {
+        "pat_enc_csn_id": "0000700-008",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 6967
+      },
+      {
+        "pat_enc_csn_id": "0000700-009",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000700-010",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 249
+      },
+      {
+        "pat_enc_csn_id": "0000700-011",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000700-012",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000700-013",
+        "contact_date": "2025-06-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0000700-014",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0000700-015",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000700-016",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 2916
+      },
+      {
+        "pat_enc_csn_id": "0000700-017",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0000700-018",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 4740
+      },
+      {
+        "pat_enc_csn_id": "0000700-019",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 265
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100700",
+    "diagnoses": [
+      {
+        "dx_id": "0000700-dx-000",
+        "pat_enc_csn_id": "0000700-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000700-dx-001",
+        "pat_enc_csn_id": "0000700-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000700-dx-002",
+        "pat_enc_csn_id": "0000700-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000700-acu-000",
+        "pat_enc_csn_id": "0000700-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-11"
+      },
+      {
+        "dx_id": "0000700-acu-001",
+        "pat_enc_csn_id": "0000700-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100700",
+    "summary": {
+      "total_charges": 39295,
+      "total_payments": 34222,
+      "outstanding_balance": 5073,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000070000",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 37980,
+        "total_payments": 33135,
+        "current_balance": 4845,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-08-04",
+        "closed_date": "2025-10-26"
+      },
+      {
+        "hsp_account_id": "HSP000070001",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 1315,
+        "total_payments": 1087,
+        "current_balance": 228,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-04",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100700",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

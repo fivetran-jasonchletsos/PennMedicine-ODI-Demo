@@ -1,0 +1,39 @@
+# ============================================================
+# dbt profile for the Healthcare EPIC Snowflake demo.
+#
+# Reads credentials from environment so secrets never live in repo.
+# Set these locally or as repo secrets in GitHub Actions:
+#
+#   SNOWFLAKE_ACCOUNT       e.g. abc12345.us-east-1
+#   SNOWFLAKE_USER
+#   SNOWFLAKE_PASSWORD      (or use SNOWFLAKE_PRIVATE_KEY_PATH)
+#   SNOWFLAKE_ROLE          e.g. JASON_CHLETSOS_DBT_ROLE
+#   SNOWFLAKE_DATABASE      default: JASON_CHLETSOS_EPIC
+#   SNOWFLAKE_WAREHOUSE     default: JASON_CHLETSOS_TRANSFORM_WH
+# ============================================================
+
+healthcare_clarity:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'JASON_CHLETSOS_DBT_ROLE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'JASON_CHLETSOS_EPIC') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'JASON_CHLETSOS_TRANSFORM_WH') }}"
+      schema: "STAGING"
+      threads: 8
+      client_session_keep_alive: False
+
+    prod:
+      type: snowflake
+      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
+      user: "{{ env_var('SNOWFLAKE_USER') }}"
+      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
+      role: "{{ env_var('SNOWFLAKE_ROLE', 'JASON_CHLETSOS_DBT_ROLE') }}"
+      database: "{{ env_var('SNOWFLAKE_DATABASE', 'JASON_CHLETSOS_EPIC') }}"
+      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'JASON_CHLETSOS_TRANSFORM_WH') }}"
+      schema: "STAGING"
+      threads: 16

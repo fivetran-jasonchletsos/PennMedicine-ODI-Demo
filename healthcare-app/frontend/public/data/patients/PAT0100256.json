@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100256",
+    "med_rec_num": "MRN0200256",
+    "full_name": "Sharon Chen",
+    "birth_date": "1987-05-03",
+    "age": 39,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 12651,
+    "latitude": 40.62629,
+    "longitude": -80.06026,
+    "last_encounter_date": "2026-03-12",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2530 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 616-1133",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100256",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000256-000",
+        "contact_date": "2026-03-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0000256-001",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 8514
+      },
+      {
+        "pat_enc_csn_id": "0000256-002",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 3182
+      },
+      {
+        "pat_enc_csn_id": "0000256-003",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0000256-004",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 207
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100256",
+    "diagnoses": [
+      {
+        "dx_id": "0000256-dx-000",
+        "pat_enc_csn_id": "0000256-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000256-dx-001",
+        "pat_enc_csn_id": "0000256-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000256-acu-001",
+        "pat_enc_csn_id": "0000256-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-17"
+      },
+      {
+        "dx_id": "0000256-acu-002",
+        "pat_enc_csn_id": "0000256-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-04-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100256",
+    "summary": {
+      "total_charges": 12651,
+      "total_payments": 10986,
+      "outstanding_balance": 1665,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000025600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2832,
+        "total_payments": 2456,
+        "current_balance": 376,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-01-30",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000025601",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1478,
+        "total_payments": 1057,
+        "current_balance": 421,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-15",
+        "closed_date": "2026-02-11"
+      },
+      {
+        "hsp_account_id": "HSP000025602",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 8341,
+        "total_payments": 7473,
+        "current_balance": 868,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-12-10",
+        "closed_date": "2026-03-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100256",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100128",
+    "med_rec_num": "MRN0200128",
+    "full_name": "Mark Park",
+    "birth_date": "1949-01-05",
+    "age": 77,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 1775,
+    "latitude": 40.43573,
+    "longitude": -79.92782,
+    "last_encounter_date": "2026-03-29",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4549 Penn Ave",
+    "state": "PA",
+    "phone": "(412) 701-4544",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100128",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000128-000",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 363
+      },
+      {
+        "pat_enc_csn_id": "0000128-001",
+        "contact_date": "2026-02-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000128-002",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000128-003",
+        "contact_date": "2025-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000128-004",
+        "contact_date": "2024-12-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 251
+      },
+      {
+        "pat_enc_csn_id": "0000128-005",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 408
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100128",
+    "diagnoses": [
+      {
+        "dx_id": "0000128-dx-000",
+        "pat_enc_csn_id": "0000128-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000128-acu-000",
+        "pat_enc_csn_id": "0000128-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-29"
+      },
+      {
+        "dx_id": "0000128-acu-001",
+        "pat_enc_csn_id": "0000128-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-27"
+      },
+      {
+        "dx_id": "0000128-acu-002",
+        "pat_enc_csn_id": "0000128-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100128",
+    "summary": {
+      "total_charges": 1775,
+      "total_payments": 1528,
+      "outstanding_balance": 247,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000012800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1775,
+        "total_payments": 1528,
+        "current_balance": 247,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-03-10",
+        "closed_date": "2025-10-30"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100128",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

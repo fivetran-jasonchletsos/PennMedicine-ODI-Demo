@@ -1,0 +1,196 @@
+{
+  "patient": {
+    "pat_id": "PAT0100494",
+    "med_rec_num": "MRN0200494",
+    "full_name": "Hassan Martin",
+    "birth_date": "1969-03-07",
+    "age": 57,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 2,
+    "encounter_count": 4,
+    "total_charges": 6642,
+    "latitude": 40.4982,
+    "longitude": -79.76552,
+    "last_encounter_date": "2026-01-24",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6651 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 442-3905",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100494",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000494-000",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 123
+      },
+      {
+        "pat_enc_csn_id": "0000494-001",
+        "contact_date": "2025-06-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 6131
+      },
+      {
+        "pat_enc_csn_id": "0000494-002",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000494-003",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 217
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100494",
+    "diagnoses": [
+      {
+        "dx_id": "0000494-dx-000",
+        "pat_enc_csn_id": "0000494-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0000494-dx-001",
+        "pat_enc_csn_id": "0000494-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0000494-acu-000",
+        "pat_enc_csn_id": "0000494-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      },
+      {
+        "dx_id": "0000494-acu-001",
+        "pat_enc_csn_id": "0000494-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-06-19"
+      },
+      {
+        "dx_id": "0000494-acu-002",
+        "pat_enc_csn_id": "0000494-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-03-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100494",
+    "summary": {
+      "total_charges": 6642,
+      "total_payments": 5395,
+      "outstanding_balance": 1247,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000049400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6642,
+        "total_payments": 5395,
+        "current_balance": 1247,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-29",
+        "closed_date": "2026-04-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100494",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

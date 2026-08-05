@@ -1,0 +1,214 @@
+{
+  "patient": {
+    "pat_id": "PAT0100165",
+    "med_rec_num": "MRN0200165",
+    "full_name": "Carlos Jackson",
+    "birth_date": "1999-10-18",
+    "age": 27,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Daniel Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 9,
+    "total_charges": 2045,
+    "latitude": 40.43498,
+    "longitude": -79.93231,
+    "last_encounter_date": "2026-04-24",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3353 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 904-3013",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100165",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000165-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000165-001",
+        "contact_date": "2026-03-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0000165-002",
+        "contact_date": "2026-01-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0000165-003",
+        "contact_date": "2025-12-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000165-004",
+        "contact_date": "2025-03-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000165-005",
+        "contact_date": "2025-01-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000165-006",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000165-007",
+        "contact_date": "2024-11-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000165-008",
+        "contact_date": "2024-11-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 150
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100165",
+    "diagnoses": [
+      {
+        "dx_id": "0000165-acu-001",
+        "pat_enc_csn_id": "0000165-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-31"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100165",
+    "summary": {
+      "total_charges": 2045,
+      "total_payments": 1782,
+      "outstanding_balance": 263,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2045,
+        "total_payments": 1782,
+        "current_balance": 263,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-30",
+        "closed_date": "2025-11-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100165",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      },
+      {
+        "pat_id": "PAT0100186",
+        "full_name": "Paul Rodriguez",
+        "age": 21,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 3402
+      }
+    ]
+  }
+}

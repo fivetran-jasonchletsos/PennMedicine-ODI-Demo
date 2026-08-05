@@ -1,0 +1,332 @@
+{
+  "patient": {
+    "pat_id": "PAT0100560",
+    "med_rec_num": "MRN0200560",
+    "full_name": "James Gonzalez",
+    "birth_date": "1955-08-08",
+    "age": 71,
+    "sex": "M",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Michael Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 17,
+    "total_charges": 13790,
+    "latitude": 40.44166,
+    "longitude": -80.10034,
+    "last_encounter_date": "2026-03-29",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "920 Centre Blvd",
+    "state": "PA",
+    "phone": "(412) 602-5760",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100560",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000560-000",
+        "contact_date": "2026-03-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000560-001",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000560-002",
+        "contact_date": "2025-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000560-003",
+        "contact_date": "2025-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000560-004",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0000560-005",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000560-006",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000560-007",
+        "contact_date": "2025-03-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000560-008",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0000560-009",
+        "contact_date": "2025-02-28",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 135
+      },
+      {
+        "pat_enc_csn_id": "0000560-010",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000560-011",
+        "contact_date": "2025-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000560-012",
+        "contact_date": "2025-02-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2633
+      },
+      {
+        "pat_enc_csn_id": "0000560-013",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 3322
+      },
+      {
+        "pat_enc_csn_id": "0000560-014",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000560-015",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 4695
+      },
+      {
+        "pat_enc_csn_id": "0000560-016",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 187
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100560",
+    "diagnoses": [
+      {
+        "dx_id": "0000560-dx-000",
+        "pat_enc_csn_id": "0000560-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000560-acu-001",
+        "pat_enc_csn_id": "0000560-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0000560-acu-002",
+        "pat_enc_csn_id": "0000560-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100560",
+    "summary": {
+      "total_charges": 13790,
+      "total_payments": 10796,
+      "outstanding_balance": 2994,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000056000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1047,
+        "total_payments": 728,
+        "current_balance": 319,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-31",
+        "closed_date": "2025-10-28"
+      },
+      {
+        "hsp_account_id": "HSP000056001",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 7590,
+        "total_payments": 5499,
+        "current_balance": 2091,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-31",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000056002",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5153,
+        "total_payments": 4569,
+        "current_balance": 584,
+        "primary_payer": "Cigna",
+        "opened_date": "2023-12-02",
+        "closed_date": "2026-04-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100560",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

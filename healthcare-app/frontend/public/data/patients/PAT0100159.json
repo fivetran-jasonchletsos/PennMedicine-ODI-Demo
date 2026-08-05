@@ -1,0 +1,238 @@
+{
+  "patient": {
+    "pat_id": "PAT0100159",
+    "med_rec_num": "MRN0200159",
+    "full_name": "Sharon Walsh",
+    "birth_date": "1988-04-10",
+    "age": 38,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 9,
+    "total_charges": 6240,
+    "latitude": 40.47375,
+    "longitude": -79.83513,
+    "last_encounter_date": "2026-03-03",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6259 Forbes St",
+    "state": "PA",
+    "phone": "(412) 869-2469",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100159",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000159-000",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0000159-001",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000159-002",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000159-003",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000159-004",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000159-005",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0000159-006",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 4230
+      },
+      {
+        "pat_enc_csn_id": "0000159-007",
+        "contact_date": "2024-09-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000159-008",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 148
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100159",
+    "diagnoses": [
+      {
+        "dx_id": "0000159-dx-000",
+        "pat_enc_csn_id": "0000159-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000159-dx-001",
+        "pat_enc_csn_id": "0000159-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000159-acu-000",
+        "pat_enc_csn_id": "0000159-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      },
+      {
+        "dx_id": "0000159-acu-002",
+        "pat_enc_csn_id": "0000159-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100159",
+    "summary": {
+      "total_charges": 6240,
+      "total_payments": 5349,
+      "outstanding_balance": 891,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000015900",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 6240,
+        "total_payments": 5349,
+        "current_balance": 891,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-06-16",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100159",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

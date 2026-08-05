@@ -1,0 +1,330 @@
+{
+  "patient": {
+    "pat_id": "PAT0100590",
+    "med_rec_num": "MRN0200590",
+    "full_name": "Elizabeth Jackson",
+    "birth_date": "1951-12-19",
+    "age": 75,
+    "sex": "F",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 16,
+    "total_charges": 26497,
+    "latitude": 40.38082,
+    "longitude": -80.05132,
+    "last_encounter_date": "2026-03-05",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7961 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 974-8459",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100590",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000590-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000590-001",
+        "contact_date": "2026-02-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000590-002",
+        "contact_date": "2026-02-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000590-003",
+        "contact_date": "2025-10-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000590-004",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000590-005",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 50
+      },
+      {
+        "pat_enc_csn_id": "0000590-006",
+        "contact_date": "2025-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 247
+      },
+      {
+        "pat_enc_csn_id": "0000590-007",
+        "contact_date": "2025-05-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 361
+      },
+      {
+        "pat_enc_csn_id": "0000590-008",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000590-009",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 340
+      },
+      {
+        "pat_enc_csn_id": "0000590-010",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000590-011",
+        "contact_date": "2024-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0000590-012",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 20940
+      },
+      {
+        "pat_enc_csn_id": "0000590-013",
+        "contact_date": "2024-09-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000590-014",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000590-015",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 1897
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100590",
+    "diagnoses": [
+      {
+        "dx_id": "0000590-dx-000",
+        "pat_enc_csn_id": "0000590-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000590-acu-000",
+        "pat_enc_csn_id": "0000590-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      },
+      {
+        "dx_id": "0000590-acu-001",
+        "pat_enc_csn_id": "0000590-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-24"
+      },
+      {
+        "dx_id": "0000590-acu-002",
+        "pat_enc_csn_id": "0000590-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-02-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100590",
+    "summary": {
+      "total_charges": 26497,
+      "total_payments": 18371,
+      "outstanding_balance": 8126,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000059000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 18013,
+        "total_payments": 10920,
+        "current_balance": 7093,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-09",
+        "closed_date": "2025-12-24"
+      },
+      {
+        "hsp_account_id": "HSP000059001",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2824,
+        "total_payments": 2358,
+        "current_balance": 466,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-09",
+        "closed_date": "2025-12-28"
+      },
+      {
+        "hsp_account_id": "HSP000059002",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 5660,
+        "total_payments": 5093,
+        "current_balance": 567,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-07-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100590",
+    "comparables": [
+      {
+        "pat_id": "PAT0100201",
+        "full_name": "Sofia O'Brien",
+        "age": 79,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 5973
+      },
+      {
+        "pat_id": "PAT0100328",
+        "full_name": "Hassan Schmidt",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 17208
+      },
+      {
+        "pat_id": "PAT0100594",
+        "full_name": "Paul Taylor",
+        "age": 73,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 5594
+      },
+      {
+        "pat_id": "PAT0100673",
+        "full_name": "Carol Nguyen",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 704
+      },
+      {
+        "pat_id": "PAT0101386",
+        "full_name": "Sofia Williams",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 13,
+        "total_charges": 4858
+      },
+      {
+        "pat_id": "PAT0101456",
+        "full_name": "Elizabeth Jackson",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 21313
+      }
+    ]
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "patient": {
+    "pat_id": "PAT0100486",
+    "med_rec_num": "MRN0200486",
+    "full_name": "Patricia Patel",
+    "birth_date": "2000-08-04",
+    "age": 26,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 43082,
+    "latitude": 40.47124,
+    "longitude": -79.83335,
+    "last_encounter_date": "2026-04-20",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8810 Walnut St",
+    "state": "PA",
+    "phone": "(412) 710-1752",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100486",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000486-000",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 231
+      },
+      {
+        "pat_enc_csn_id": "0000486-001",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000486-002",
+        "contact_date": "2025-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000486-003",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000486-004",
+        "contact_date": "2025-10-04",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 34691
+      },
+      {
+        "pat_enc_csn_id": "0000486-005",
+        "contact_date": "2025-07-24",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0000486-006",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000486-007",
+        "contact_date": "2025-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0000486-008",
+        "contact_date": "2024-10-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000486-009",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 152
+      },
+      {
+        "pat_enc_csn_id": "0000486-010",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000486-011",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Procedure",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5970
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100486",
+    "diagnoses": [
+      {
+        "dx_id": "0000486-dx-000",
+        "pat_enc_csn_id": "0000486-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000486-acu-000",
+        "pat_enc_csn_id": "0000486-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-20"
+      },
+      {
+        "dx_id": "0000486-acu-001",
+        "pat_enc_csn_id": "0000486-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000486-acu-002",
+        "pat_enc_csn_id": "0000486-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-12-23"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100486",
+    "summary": {
+      "total_charges": 43082,
+      "total_payments": 27184,
+      "outstanding_balance": 15898,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000048600",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 43082,
+        "total_payments": 27184,
+        "current_balance": 15898,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-08-20",
+        "closed_date": "2025-11-02"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100486",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

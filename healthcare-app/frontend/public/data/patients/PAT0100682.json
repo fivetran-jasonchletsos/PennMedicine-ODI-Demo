@@ -1,0 +1,310 @@
+{
+  "patient": {
+    "pat_id": "PAT0100682",
+    "med_rec_num": "MRN0200682",
+    "full_name": "Michael Okonkwo",
+    "birth_date": "1985-08-10",
+    "age": 41,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 17590,
+    "latitude": 40.52541,
+    "longitude": -79.9587,
+    "last_encounter_date": "2026-05-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3525 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 529-5518",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100682",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000682-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0000682-001",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 103
+      },
+      {
+        "pat_enc_csn_id": "0000682-002",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 207
+      },
+      {
+        "pat_enc_csn_id": "0000682-003",
+        "contact_date": "2025-12-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 5229
+      },
+      {
+        "pat_enc_csn_id": "0000682-004",
+        "contact_date": "2025-12-28",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2675
+      },
+      {
+        "pat_enc_csn_id": "0000682-005",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 5028
+      },
+      {
+        "pat_enc_csn_id": "0000682-006",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000682-007",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000682-008",
+        "contact_date": "2025-02-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 139
+      },
+      {
+        "pat_enc_csn_id": "0000682-009",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0000682-010",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 2438
+      },
+      {
+        "pat_enc_csn_id": "0000682-011",
+        "contact_date": "2024-11-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000682-012",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0000682-013",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 323
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100682",
+    "diagnoses": [
+      {
+        "dx_id": "0000682-dx-000",
+        "pat_enc_csn_id": "0000682-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      },
+      {
+        "dx_id": "0000682-acu-000",
+        "pat_enc_csn_id": "0000682-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-03"
+      },
+      {
+        "dx_id": "0000682-acu-001",
+        "pat_enc_csn_id": "0000682-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      },
+      {
+        "dx_id": "0000682-acu-002",
+        "pat_enc_csn_id": "0000682-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100682",
+    "summary": {
+      "total_charges": 17590,
+      "total_payments": 13051,
+      "outstanding_balance": 4539,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000068200",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 10048,
+        "total_payments": 7222,
+        "current_balance": 2826,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-28",
+        "closed_date": "2025-11-06"
+      },
+      {
+        "hsp_account_id": "HSP000068201",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 6289,
+        "total_payments": 4925,
+        "current_balance": 1364,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-20",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000068202",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1253,
+        "total_payments": 904,
+        "current_balance": 349,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-23",
+        "closed_date": "2026-02-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100682",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100171",
+    "med_rec_num": "MRN0200171",
+    "full_name": "Richard Martin",
+    "birth_date": "1948-04-19",
+    "age": 78,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 10917,
+    "latitude": 40.50532,
+    "longitude": -79.75769,
+    "last_encounter_date": "2026-03-16",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9369 Beacon St",
+    "state": "PA",
+    "phone": "(412) 619-9908",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100171",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000171-000",
+        "contact_date": "2026-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 379
+      },
+      {
+        "pat_enc_csn_id": "0000171-001",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 1387
+      },
+      {
+        "pat_enc_csn_id": "0000171-002",
+        "contact_date": "2025-09-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0000171-003",
+        "contact_date": "2025-08-17",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 2081
+      },
+      {
+        "pat_enc_csn_id": "0000171-004",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0000171-005",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000171-006",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 5604
+      },
+      {
+        "pat_enc_csn_id": "0000171-007",
+        "contact_date": "2024-10-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000171-008",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000171-009",
+        "contact_date": "2024-07-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 132
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100171",
+    "diagnoses": [
+      {
+        "dx_id": "0000171-dx-000",
+        "pat_enc_csn_id": "0000171-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000171-dx-001",
+        "pat_enc_csn_id": "0000171-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000171-dx-002",
+        "pat_enc_csn_id": "0000171-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000171-acu-001",
+        "pat_enc_csn_id": "0000171-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100171",
+    "summary": {
+      "total_charges": 10917,
+      "total_payments": 8674,
+      "outstanding_balance": 2243,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000017100",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 10578,
+        "total_payments": 8451,
+        "current_balance": 2127,
+        "primary_payer": "Cigna",
+        "opened_date": "2026-03-08",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000017101",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 269,
+        "total_payments": 174,
+        "current_balance": 95,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-01",
+        "closed_date": "2025-11-26"
+      },
+      {
+        "hsp_account_id": "HSP000017102",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 70,
+        "total_payments": 49,
+        "current_balance": 21,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100171",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

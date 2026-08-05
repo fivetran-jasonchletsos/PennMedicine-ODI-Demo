@@ -1,0 +1,199 @@
+{
+  "patient": {
+    "pat_id": "PAT0100276",
+    "med_rec_num": "MRN0200276",
+    "full_name": "James Thomas",
+    "birth_date": "1965-09-18",
+    "age": 61,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 11729,
+    "latitude": 40.34773,
+    "longitude": -79.84388,
+    "last_encounter_date": "2026-04-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2372 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 210-3500",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100276",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000276-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000276-001",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000276-002",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000276-003",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 10889
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100276",
+    "diagnoses": [
+      {
+        "dx_id": "0000276-dx-000",
+        "pat_enc_csn_id": "0000276-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000276-acu-000",
+        "pat_enc_csn_id": "0000276-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      },
+      {
+        "dx_id": "0000276-acu-001",
+        "pat_enc_csn_id": "0000276-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      },
+      {
+        "dx_id": "0000276-acu-002",
+        "pat_enc_csn_id": "0000276-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-01-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100276",
+    "summary": {
+      "total_charges": 11729,
+      "total_payments": 9893,
+      "outstanding_balance": 1836,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027600",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4953,
+        "total_payments": 4023,
+        "current_balance": 930,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-04",
+        "closed_date": "2026-03-08"
+      },
+      {
+        "hsp_account_id": "HSP000027601",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 6776,
+        "total_payments": 5870,
+        "current_balance": 906,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-09",
+        "closed_date": "2026-02-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100276",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "patient": {
+    "pat_id": "PAT0100865",
+    "med_rec_num": "MRN0200865",
+    "full_name": "William Moore",
+    "birth_date": "1981-08-18",
+    "age": 45,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 7054,
+    "latitude": 40.62899,
+    "longitude": -80.06121,
+    "last_encounter_date": "2026-04-21",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6698 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 431-1547",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100865",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000865-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000865-001",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 6023
+      },
+      {
+        "pat_enc_csn_id": "0000865-002",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0000865-003",
+        "contact_date": "2025-02-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000865-004",
+        "contact_date": "2024-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 320
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100865",
+    "diagnoses": [
+      {
+        "dx_id": "0000865-acu-001",
+        "pat_enc_csn_id": "0000865-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100865",
+    "summary": {
+      "total_charges": 7054,
+      "total_payments": 5476,
+      "outstanding_balance": 1578,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7054,
+        "total_payments": 5476,
+        "current_balance": 1578,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-06-01",
+        "closed_date": "2026-03-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100865",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

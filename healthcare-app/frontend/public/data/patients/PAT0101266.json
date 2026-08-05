@@ -1,0 +1,250 @@
+{
+  "patient": {
+    "pat_id": "PAT0101266",
+    "med_rec_num": "MRN0201266",
+    "full_name": "Mary Johnson",
+    "birth_date": "1991-08-15",
+    "age": 35,
+    "sex": "F",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 0,
+    "encounter_count": 11,
+    "total_charges": 5728,
+    "latitude": 40.49046,
+    "longitude": -79.90177,
+    "last_encounter_date": "2026-05-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1931 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 364-2809",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101266",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001266-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0001266-001",
+        "contact_date": "2026-02-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0001266-002",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 3430
+      },
+      {
+        "pat_enc_csn_id": "0001266-003",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 131
+      },
+      {
+        "pat_enc_csn_id": "0001266-004",
+        "contact_date": "2025-03-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 263
+      },
+      {
+        "pat_enc_csn_id": "0001266-005",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001266-006",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0001266-007",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001266-008",
+        "contact_date": "2024-06-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0001266-009",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0001266-010",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 218
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101266",
+    "diagnoses": [
+      {
+        "dx_id": "0001266-acu-000",
+        "pat_enc_csn_id": "0001266-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-09"
+      },
+      {
+        "dx_id": "0001266-acu-001",
+        "pat_enc_csn_id": "0001266-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-13"
+      },
+      {
+        "dx_id": "0001266-acu-002",
+        "pat_enc_csn_id": "0001266-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-09-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101266",
+    "summary": {
+      "total_charges": 5728,
+      "total_payments": 4820,
+      "outstanding_balance": 908,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000126600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5728,
+        "total_payments": 4820,
+        "current_balance": 908,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-08-13",
+        "closed_date": "2026-04-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101266",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

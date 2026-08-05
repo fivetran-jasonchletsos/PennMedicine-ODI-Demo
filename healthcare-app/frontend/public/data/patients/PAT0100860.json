@@ -1,0 +1,220 @@
+{
+  "patient": {
+    "pat_id": "PAT0100860",
+    "med_rec_num": "MRN0200860",
+    "full_name": "Andrew Singh",
+    "birth_date": "1982-08-28",
+    "age": 44,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 0,
+    "encounter_count": 8,
+    "total_charges": 14763,
+    "latitude": 40.44011,
+    "longitude": -79.93125,
+    "last_encounter_date": "2025-12-16",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8557 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 302-9675",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100860",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000860-000",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 5786
+      },
+      {
+        "pat_enc_csn_id": "0000860-001",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000860-002",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000860-003",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 4334
+      },
+      {
+        "pat_enc_csn_id": "0000860-004",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000860-005",
+        "contact_date": "2024-12-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000860-006",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 3617
+      },
+      {
+        "pat_enc_csn_id": "0000860-007",
+        "contact_date": "2024-09-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 216
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100860",
+    "diagnoses": [
+      {
+        "dx_id": "0000860-acu-000",
+        "pat_enc_csn_id": "0000860-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-16"
+      },
+      {
+        "dx_id": "0000860-acu-001",
+        "pat_enc_csn_id": "0000860-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-10"
+      },
+      {
+        "dx_id": "0000860-acu-002",
+        "pat_enc_csn_id": "0000860-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-07-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100860",
+    "summary": {
+      "total_charges": 14763,
+      "total_payments": 12748,
+      "outstanding_balance": 2015,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000086000",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 14763,
+        "total_payments": 12748,
+        "current_balance": 2015,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-17",
+        "closed_date": "2025-11-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100860",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

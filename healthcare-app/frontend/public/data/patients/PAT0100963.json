@@ -1,0 +1,328 @@
+{
+  "patient": {
+    "pat_id": "PAT0100963",
+    "med_rec_num": "MRN0200963",
+    "full_name": "Janet Okonkwo",
+    "birth_date": "1937-06-14",
+    "age": 89,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 4,
+    "encounter_count": 18,
+    "total_charges": 4501,
+    "latitude": 40.43959,
+    "longitude": -80.00024,
+    "last_encounter_date": "2026-02-26",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4417 Centre St",
+    "state": "PA",
+    "phone": "(412) 632-9512",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100963",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000963-000",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000963-001",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000963-002",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 56
+      },
+      {
+        "pat_enc_csn_id": "0000963-003",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000963-004",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 170
+      },
+      {
+        "pat_enc_csn_id": "0000963-005",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000963-006",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0000963-007",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000963-008",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000963-009",
+        "contact_date": "2025-01-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 240
+      },
+      {
+        "pat_enc_csn_id": "0000963-010",
+        "contact_date": "2024-12-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000963-011",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000963-012",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000963-013",
+        "contact_date": "2024-09-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000963-014",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000963-015",
+        "contact_date": "2024-07-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 312
+      },
+      {
+        "pat_enc_csn_id": "0000963-016",
+        "contact_date": "2024-07-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000963-017",
+        "contact_date": "2024-06-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 105
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100963",
+    "diagnoses": [
+      {
+        "dx_id": "0000963-dx-000",
+        "pat_enc_csn_id": "0000963-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000963-dx-001",
+        "pat_enc_csn_id": "0000963-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000963-dx-002",
+        "pat_enc_csn_id": "0000963-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0000963-dx-003",
+        "pat_enc_csn_id": "0000963-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "1967-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100963",
+    "summary": {
+      "total_charges": 4501,
+      "total_payments": 3602,
+      "outstanding_balance": 899,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000096300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4501,
+        "total_payments": 3602,
+        "current_balance": 899,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-27",
+        "closed_date": "2026-04-20"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100963",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "patient": {
+    "pat_id": "PAT0101455",
+    "med_rec_num": "MRN0201455",
+    "full_name": "Thomas Okonkwo",
+    "birth_date": "1985-01-01",
+    "age": 41,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 5652,
+    "latitude": 40.47749,
+    "longitude": -79.83085,
+    "last_encounter_date": "2026-04-27",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4335 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 268-3631",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101455",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001455-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0001455-001",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 5339
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101455",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0101455",
+    "summary": {
+      "total_charges": 5652,
+      "total_payments": 4696,
+      "outstanding_balance": 956,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000145500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5652,
+        "total_payments": 4696,
+        "current_balance": 956,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-16",
+        "closed_date": "2026-03-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101455",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

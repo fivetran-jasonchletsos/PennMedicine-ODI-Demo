@@ -1,0 +1,230 @@
+{
+  "patient": {
+    "pat_id": "PAT0101022",
+    "med_rec_num": "MRN0201022",
+    "full_name": "Kimberly Singh",
+    "birth_date": "2005-05-24",
+    "age": 21,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Robert Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 9,
+    "total_charges": 9656,
+    "latitude": 40.43898,
+    "longitude": -79.99884,
+    "last_encounter_date": "2026-05-12",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6904 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 463-9119",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101022",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001022-000",
+        "contact_date": "2026-05-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2530
+      },
+      {
+        "pat_enc_csn_id": "0001022-001",
+        "contact_date": "2026-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 277
+      },
+      {
+        "pat_enc_csn_id": "0001022-002",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001022-003",
+        "contact_date": "2025-08-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0001022-004",
+        "contact_date": "2025-07-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 362
+      },
+      {
+        "pat_enc_csn_id": "0001022-005",
+        "contact_date": "2025-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001022-006",
+        "contact_date": "2025-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0001022-007",
+        "contact_date": "2025-01-18",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2885
+      },
+      {
+        "pat_enc_csn_id": "0001022-008",
+        "contact_date": "2024-11-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2412
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101022",
+    "diagnoses": [
+      {
+        "dx_id": "0001022-dx-000",
+        "pat_enc_csn_id": "0001022-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0001022-acu-000",
+        "pat_enc_csn_id": "0001022-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-12"
+      },
+      {
+        "dx_id": "0001022-acu-001",
+        "pat_enc_csn_id": "0001022-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101022",
+    "summary": {
+      "total_charges": 9656,
+      "total_payments": 6462,
+      "outstanding_balance": 3194,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000102200",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 9656,
+        "total_payments": 6462,
+        "current_balance": 3194,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-10",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101022",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

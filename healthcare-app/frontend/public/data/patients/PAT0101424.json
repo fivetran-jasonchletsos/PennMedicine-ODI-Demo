@@ -1,0 +1,286 @@
+{
+  "patient": {
+    "pat_id": "PAT0101424",
+    "med_rec_num": "MRN0201424",
+    "full_name": "Andrew Thomas",
+    "birth_date": "1946-10-15",
+    "age": 80,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Aisha Hernandez",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 9973,
+    "latitude": 40.46948,
+    "longitude": -79.95879,
+    "last_encounter_date": "2026-04-22",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3609 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 921-2849",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101424",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001424-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001424-001",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0001424-002",
+        "contact_date": "2026-03-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4098
+      },
+      {
+        "pat_enc_csn_id": "0001424-003",
+        "contact_date": "2026-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001424-004",
+        "contact_date": "2026-01-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0001424-005",
+        "contact_date": "2025-12-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0001424-006",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0001424-007",
+        "contact_date": "2025-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001424-008",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 3272
+      },
+      {
+        "pat_enc_csn_id": "0001424-009",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001424-010",
+        "contact_date": "2024-10-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0001424-011",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001424-012",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 254
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101424",
+    "diagnoses": [
+      {
+        "dx_id": "0001424-dx-000",
+        "pat_enc_csn_id": "0001424-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2002-05-13"
+      },
+      {
+        "dx_id": "0001424-dx-001",
+        "pat_enc_csn_id": "0001424-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001424-dx-002",
+        "pat_enc_csn_id": "0001424-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001424-acu-000",
+        "pat_enc_csn_id": "0001424-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      },
+      {
+        "dx_id": "0001424-acu-001",
+        "pat_enc_csn_id": "0001424-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101424",
+    "summary": {
+      "total_charges": 9973,
+      "total_payments": 7659,
+      "outstanding_balance": 2314,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000142400",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 9973,
+        "total_payments": 7659,
+        "current_balance": 2314,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-08-31",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101424",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

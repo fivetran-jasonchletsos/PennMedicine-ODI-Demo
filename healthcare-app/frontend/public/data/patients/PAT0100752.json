@@ -1,0 +1,240 @@
+{
+  "patient": {
+    "pat_id": "PAT0100752",
+    "med_rec_num": "MRN0200752",
+    "full_name": "Patricia Chen",
+    "birth_date": "1999-06-07",
+    "age": 27,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 68819,
+    "latitude": 40.35647,
+    "longitude": -79.90233,
+    "last_encounter_date": "2026-03-28",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2815 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 642-8437",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100752",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000752-000",
+        "contact_date": "2026-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000752-001",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 34503
+      },
+      {
+        "pat_enc_csn_id": "0000752-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 4960
+      },
+      {
+        "pat_enc_csn_id": "0000752-003",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 21873
+      },
+      {
+        "pat_enc_csn_id": "0000752-004",
+        "contact_date": "2025-07-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000752-005",
+        "contact_date": "2025-04-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000752-006",
+        "contact_date": "2024-11-22",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5634
+      },
+      {
+        "pat_enc_csn_id": "0000752-007",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000752-008",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000752-009",
+        "contact_date": "2024-06-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 241
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100752",
+    "diagnoses": [
+      {
+        "dx_id": "0000752-dx-000",
+        "pat_enc_csn_id": "0000752-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000752-acu-000",
+        "pat_enc_csn_id": "0000752-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-28"
+      },
+      {
+        "dx_id": "0000752-acu-002",
+        "pat_enc_csn_id": "0000752-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100752",
+    "summary": {
+      "total_charges": 68819,
+      "total_payments": 45951,
+      "outstanding_balance": 22868,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000075200",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 68819,
+        "total_payments": 45951,
+        "current_balance": 22868,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-02-03",
+        "closed_date": "2025-12-31"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100752",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.local
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node / frontend
+node_modules/
+healthcare-app/frontend/node_modules/
+healthcare-app/frontend/dist/
+
+# dbt
+transform/target/
+transform/dbt_packages/
+transform/logs/
+transform/.user.yml
+transform/dev.duckdb
+
+# Terraform
+infra/.terraform/
+infra/.terraform.lock.hcl
+infra/terraform.tfstate*
+infra/*.tfvars
+
+# Build artifacts
+logs/
+*.log

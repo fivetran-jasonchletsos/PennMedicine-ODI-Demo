@@ -1,0 +1,299 @@
+{
+  "patient": {
+    "pat_id": "PAT0101376",
+    "med_rec_num": "MRN0201376",
+    "full_name": "Michael Khan",
+    "birth_date": "1990-07-04",
+    "age": 36,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 33474,
+    "latitude": 40.32781,
+    "longitude": -80.04339,
+    "last_encounter_date": "2026-03-19",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3166 Beacon St",
+    "state": "PA",
+    "phone": "(412) 538-6480",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101376",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001376-000",
+        "contact_date": "2026-03-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001376-001",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2439
+      },
+      {
+        "pat_enc_csn_id": "0001376-002",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0001376-003",
+        "contact_date": "2025-11-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 393
+      },
+      {
+        "pat_enc_csn_id": "0001376-004",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 3097
+      },
+      {
+        "pat_enc_csn_id": "0001376-005",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 128
+      },
+      {
+        "pat_enc_csn_id": "0001376-006",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 1485
+      },
+      {
+        "pat_enc_csn_id": "0001376-007",
+        "contact_date": "2025-04-12",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0001376-008",
+        "contact_date": "2024-11-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0001376-009",
+        "contact_date": "2024-10-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001376-010",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3362
+      },
+      {
+        "pat_enc_csn_id": "0001376-011",
+        "contact_date": "2024-09-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001376-012",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 20899
+      },
+      {
+        "pat_enc_csn_id": "0001376-013",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 260
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101376",
+    "diagnoses": [
+      {
+        "dx_id": "0001376-dx-000",
+        "pat_enc_csn_id": "0001376-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001376-acu-000",
+        "pat_enc_csn_id": "0001376-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-19"
+      },
+      {
+        "dx_id": "0001376-acu-001",
+        "pat_enc_csn_id": "0001376-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      },
+      {
+        "dx_id": "0001376-acu-002",
+        "pat_enc_csn_id": "0001376-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101376",
+    "summary": {
+      "total_charges": 33474,
+      "total_payments": 29669,
+      "outstanding_balance": 3805,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000137600",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 10484,
+        "total_payments": 8983,
+        "current_balance": 1501,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-02-08",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000137601",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 22990,
+        "total_payments": 20686,
+        "current_balance": 2304,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-11-08",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101376",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

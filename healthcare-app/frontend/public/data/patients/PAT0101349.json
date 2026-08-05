@@ -1,0 +1,272 @@
+{
+  "patient": {
+    "pat_id": "PAT0101349",
+    "med_rec_num": "MRN0201349",
+    "full_name": "Reshma Lopez",
+    "birth_date": "1996-11-26",
+    "age": 30,
+    "sex": "F",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Mark Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 8936,
+    "latitude": 40.68917,
+    "longitude": -80.10689,
+    "last_encounter_date": "2026-04-24",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9844 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 483-9682",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101349",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001349-000",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 150
+      },
+      {
+        "pat_enc_csn_id": "0001349-001",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0001349-002",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 394
+      },
+      {
+        "pat_enc_csn_id": "0001349-003",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001349-004",
+        "contact_date": "2026-01-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0001349-005",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 113
+      },
+      {
+        "pat_enc_csn_id": "0001349-006",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 157
+      },
+      {
+        "pat_enc_csn_id": "0001349-007",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 5531
+      },
+      {
+        "pat_enc_csn_id": "0001349-008",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 314
+      },
+      {
+        "pat_enc_csn_id": "0001349-009",
+        "contact_date": "2025-04-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 305
+      },
+      {
+        "pat_enc_csn_id": "0001349-010",
+        "contact_date": "2025-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001349-011",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 377
+      },
+      {
+        "pat_enc_csn_id": "0001349-012",
+        "contact_date": "2024-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0001349-013",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101349",
+    "diagnoses": [
+      {
+        "dx_id": "0001349-dx-000",
+        "pat_enc_csn_id": "0001349-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2022-05-13"
+      },
+      {
+        "dx_id": "0001349-dx-001",
+        "pat_enc_csn_id": "0001349-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101349",
+    "summary": {
+      "total_charges": 8936,
+      "total_payments": 5767,
+      "outstanding_balance": 3169,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000134900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8936,
+        "total_payments": 5767,
+        "current_balance": 3169,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-09",
+        "closed_date": "2026-02-25"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101349",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

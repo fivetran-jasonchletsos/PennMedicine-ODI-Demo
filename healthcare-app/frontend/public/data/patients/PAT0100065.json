@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0100065",
+    "med_rec_num": "MRN0200065",
+    "full_name": "David Nguyen",
+    "birth_date": "2016-09-23",
+    "age": 10,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 5,
+    "total_charges": 17881,
+    "latitude": 40.36345,
+    "longitude": -79.90034,
+    "last_encounter_date": "2026-04-05",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "42 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 530-8086",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100065",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000065-000",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 958
+      },
+      {
+        "pat_enc_csn_id": "0000065-001",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000065-002",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000065-003",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000065-004",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 16303
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100065",
+    "diagnoses": [
+      {
+        "dx_id": "0000065-dx-000",
+        "pat_enc_csn_id": "0000065-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000065-acu-000",
+        "pat_enc_csn_id": "0000065-000",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100065",
+    "summary": {
+      "total_charges": 17881,
+      "total_payments": 15204,
+      "outstanding_balance": 2677,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000006500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 17881,
+        "total_payments": 15204,
+        "current_balance": 2677,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-29",
+        "closed_date": "2026-05-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100065",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

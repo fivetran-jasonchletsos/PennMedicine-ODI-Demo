@@ -1,0 +1,274 @@
+{
+  "patient": {
+    "pat_id": "PAT0100119",
+    "med_rec_num": "MRN0200119",
+    "full_name": "Thomas Miller",
+    "birth_date": "1941-01-08",
+    "age": 85,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 4,
+    "encounter_count": 11,
+    "total_charges": 7931,
+    "latitude": 40.49152,
+    "longitude": -79.90077,
+    "last_encounter_date": "2025-10-12",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "3211 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 991-2663",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100119",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000119-000",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 3328
+      },
+      {
+        "pat_enc_csn_id": "0000119-001",
+        "contact_date": "2025-08-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 236
+      },
+      {
+        "pat_enc_csn_id": "0000119-002",
+        "contact_date": "2025-08-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000119-003",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 273
+      },
+      {
+        "pat_enc_csn_id": "0000119-004",
+        "contact_date": "2025-04-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 5,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000119-005",
+        "contact_date": "2025-04-19",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 70
+      },
+      {
+        "pat_enc_csn_id": "0000119-006",
+        "contact_date": "2025-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0000119-007",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000119-008",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 2423
+      },
+      {
+        "pat_enc_csn_id": "0000119-009",
+        "contact_date": "2024-05-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 222
+      },
+      {
+        "pat_enc_csn_id": "0000119-010",
+        "contact_date": "2024-05-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 206
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100119",
+    "diagnoses": [
+      {
+        "dx_id": "0000119-dx-000",
+        "pat_enc_csn_id": "0000119-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000119-dx-001",
+        "pat_enc_csn_id": "0000119-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000119-dx-002",
+        "pat_enc_csn_id": "0000119-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1976-05-13"
+      },
+      {
+        "dx_id": "0000119-dx-003",
+        "pat_enc_csn_id": "0000119-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1991-05-13"
+      },
+      {
+        "dx_id": "0000119-acu-000",
+        "pat_enc_csn_id": "0000119-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-10-12"
+      },
+      {
+        "dx_id": "0000119-acu-002",
+        "pat_enc_csn_id": "0000119-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-08-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100119",
+    "summary": {
+      "total_charges": 7931,
+      "total_payments": 5205,
+      "outstanding_balance": 2726,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000011900",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7931,
+        "total_payments": 5205,
+        "current_balance": 2726,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-29",
+        "closed_date": "2026-01-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100119",
+    "comparables": [
+      {
+        "pat_id": "PAT0100009",
+        "full_name": "Mark Nguyen",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 11,
+        "total_charges": 11880
+      },
+      {
+        "pat_id": "PAT0100088",
+        "full_name": "Mark Greene",
+        "age": 89,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 21,
+        "total_charges": 23517
+      },
+      {
+        "pat_id": "PAT0100089",
+        "full_name": "George Kim",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 52050
+      },
+      {
+        "pat_id": "PAT0100115",
+        "full_name": "Michelle Jackson",
+        "age": 85,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 19258
+      },
+      {
+        "pat_id": "PAT0100174",
+        "full_name": "Christopher Garcia",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 11889
+      },
+      {
+        "pat_id": "PAT0100226",
+        "full_name": "John Wilson",
+        "age": 87,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 12595
+      }
+    ]
+  }
+}

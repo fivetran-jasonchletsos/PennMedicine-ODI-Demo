@@ -1,0 +1,172 @@
+{
+  "patient": {
+    "pat_id": "PAT0100632",
+    "med_rec_num": "MRN0200632",
+    "full_name": "Hassan O'Brien",
+    "birth_date": "1988-03-04",
+    "age": 38,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Michael Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 789,
+    "latitude": 40.4947,
+    "longitude": -79.90238,
+    "last_encounter_date": "2026-04-12",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6890 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 637-2415",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100632",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000632-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000632-001",
+        "contact_date": "2025-08-21",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000632-002",
+        "contact_date": "2025-06-03",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000632-003",
+        "contact_date": "2024-07-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 176
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100632",
+    "diagnoses": [
+      {
+        "dx_id": "0000632-dx-000",
+        "pat_enc_csn_id": "0000632-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000632-acu-001",
+        "pat_enc_csn_id": "0000632-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-08-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100632",
+    "summary": {
+      "total_charges": 789,
+      "total_payments": 603,
+      "outstanding_balance": 186,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000063200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 789,
+        "total_payments": 603,
+        "current_balance": 186,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-27",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100632",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

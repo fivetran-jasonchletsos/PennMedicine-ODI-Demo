@@ -1,0 +1,210 @@
+{
+  "patient": {
+    "pat_id": "PAT0100975",
+    "med_rec_num": "MRN0200975",
+    "full_name": "Donna O'Brien",
+    "birth_date": "1987-10-13",
+    "age": 39,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 3341,
+    "latitude": 40.43523,
+    "longitude": -79.92515,
+    "last_encounter_date": "2026-04-03",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7741 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 993-7671",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100975",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000975-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 1570
+      },
+      {
+        "pat_enc_csn_id": "0000975-001",
+        "contact_date": "2026-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000975-002",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000975-003",
+        "contact_date": "2025-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000975-004",
+        "contact_date": "2024-09-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0000975-005",
+        "contact_date": "2024-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000975-006",
+        "contact_date": "2024-06-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 325
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100975",
+    "diagnoses": [
+      {
+        "dx_id": "0000975-dx-000",
+        "pat_enc_csn_id": "0000975-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000975-acu-000",
+        "pat_enc_csn_id": "0000975-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      },
+      {
+        "dx_id": "0000975-acu-001",
+        "pat_enc_csn_id": "0000975-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100975",
+    "summary": {
+      "total_charges": 3341,
+      "total_payments": 2776,
+      "outstanding_balance": 565,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000097500",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3341,
+        "total_payments": 2776,
+        "current_balance": 565,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-03-24",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100975",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

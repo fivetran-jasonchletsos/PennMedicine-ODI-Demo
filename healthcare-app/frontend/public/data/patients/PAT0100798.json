@@ -1,0 +1,208 @@
+{
+  "patient": {
+    "pat_id": "PAT0100798",
+    "med_rec_num": "MRN0200798",
+    "full_name": "Paul Smith",
+    "birth_date": "1989-12-23",
+    "age": 37,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15222",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 6231,
+    "latitude": 40.43938,
+    "longitude": -79.99393,
+    "last_encounter_date": "2026-02-10",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "7257 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 424-2306",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100798",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000798-000",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0000798-001",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 130
+      },
+      {
+        "pat_enc_csn_id": "0000798-002",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000798-003",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 5252
+      },
+      {
+        "pat_enc_csn_id": "0000798-004",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000798-005",
+        "contact_date": "2024-07-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 152
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100798",
+    "diagnoses": [
+      {
+        "dx_id": "0000798-dx-000",
+        "pat_enc_csn_id": "0000798-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000798-dx-001",
+        "pat_enc_csn_id": "0000798-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000798-acu-001",
+        "pat_enc_csn_id": "0000798-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-20"
+      },
+      {
+        "dx_id": "0000798-acu-002",
+        "pat_enc_csn_id": "0000798-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2024-12-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100798",
+    "summary": {
+      "total_charges": 6231,
+      "total_payments": 5209,
+      "outstanding_balance": 1022,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000079800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 6231,
+        "total_payments": 5209,
+        "current_balance": 1022,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-10-27",
+        "closed_date": "2026-05-08"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100798",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

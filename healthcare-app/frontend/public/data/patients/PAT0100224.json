@@ -1,0 +1,162 @@
+{
+  "patient": {
+    "pat_id": "PAT0100224",
+    "med_rec_num": "MRN0200224",
+    "full_name": "Kimberly Rodriguez",
+    "birth_date": "1990-04-17",
+    "age": 36,
+    "sex": "F",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 2470,
+    "latitude": 40.62951,
+    "longitude": -80.0583,
+    "last_encounter_date": "2025-10-26",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4263 Walnut Ave",
+    "state": "PA",
+    "phone": "(412) 570-4823",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100224",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000224-000",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000224-001",
+        "contact_date": "2025-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 310
+      },
+      {
+        "pat_enc_csn_id": "0000224-002",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1893
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100224",
+    "diagnoses": [
+      {
+        "dx_id": "0000224-dx-000",
+        "pat_enc_csn_id": "0000224-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000224-acu-000",
+        "pat_enc_csn_id": "0000224-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-10-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100224",
+    "summary": {
+      "total_charges": 2470,
+      "total_payments": 1615,
+      "outstanding_balance": 855,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000022400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2470,
+        "total_payments": 1615,
+        "current_balance": 855,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-08",
+        "closed_date": "2026-02-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100224",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

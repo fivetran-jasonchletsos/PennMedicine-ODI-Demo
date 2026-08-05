@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0101313",
+    "med_rec_num": "MRN0201313",
+    "full_name": "Daniel Jackson",
+    "birth_date": "1956-04-08",
+    "age": 70,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 42231,
+    "latitude": 40.35883,
+    "longitude": -79.89982,
+    "last_encounter_date": "2026-03-07",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4207 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 536-1055",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101313",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001313-000",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 136
+      },
+      {
+        "pat_enc_csn_id": "0001313-001",
+        "contact_date": "2025-12-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0001313-002",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0001313-003",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0001313-004",
+        "contact_date": "2025-04-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0001313-005",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001313-006",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001313-007",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 5476
+      },
+      {
+        "pat_enc_csn_id": "0001313-008",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 34852
+      },
+      {
+        "pat_enc_csn_id": "0001313-009",
+        "contact_date": "2024-05-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 132
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101313",
+    "diagnoses": [
+      {
+        "dx_id": "0001313-dx-000",
+        "pat_enc_csn_id": "0001313-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0001313-dx-001",
+        "pat_enc_csn_id": "0001313-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001313-dx-002",
+        "pat_enc_csn_id": "0001313-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "1978-05-13"
+      },
+      {
+        "dx_id": "0001313-acu-002",
+        "pat_enc_csn_id": "0001313-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-09-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101313",
+    "summary": {
+      "total_charges": 42231,
+      "total_payments": 37696,
+      "outstanding_balance": 4535,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000131300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 3688,
+        "total_payments": 3196,
+        "current_balance": 492,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-02",
+        "closed_date": "2026-04-05"
+      },
+      {
+        "hsp_account_id": "HSP000131301",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 38034,
+        "total_payments": 34191,
+        "current_balance": 3843,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-09",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000131302",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 509,
+        "total_payments": 309,
+        "current_balance": 200,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-09-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101313",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

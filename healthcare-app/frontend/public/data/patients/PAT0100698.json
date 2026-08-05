@@ -1,0 +1,222 @@
+{
+  "patient": {
+    "pat_id": "PAT0100698",
+    "med_rec_num": "MRN0200698",
+    "full_name": "Mark Jackson",
+    "birth_date": "1987-07-07",
+    "age": 39,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 14166,
+    "latitude": 40.4461,
+    "longitude": -79.96266,
+    "last_encounter_date": "2026-02-09",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5692 Liberty St",
+    "state": "PA",
+    "phone": "(412) 690-9134",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0100698",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000698-000",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 12792
+      },
+      {
+        "pat_enc_csn_id": "0000698-001",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 275
+      },
+      {
+        "pat_enc_csn_id": "0000698-002",
+        "contact_date": "2025-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 397
+      },
+      {
+        "pat_enc_csn_id": "0000698-003",
+        "contact_date": "2025-03-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000698-004",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0000698-005",
+        "contact_date": "2024-10-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 185
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100698",
+    "diagnoses": [
+      {
+        "dx_id": "0000698-dx-000",
+        "pat_enc_csn_id": "0000698-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000698-acu-000",
+        "pat_enc_csn_id": "0000698-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-09"
+      },
+      {
+        "dx_id": "0000698-acu-001",
+        "pat_enc_csn_id": "0000698-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100698",
+    "summary": {
+      "total_charges": 14166,
+      "total_payments": 11305,
+      "outstanding_balance": 2861,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000069800",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 2918,
+        "total_payments": 1882,
+        "current_balance": 1036,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-24",
+        "closed_date": "2025-12-27"
+      },
+      {
+        "hsp_account_id": "HSP000069801",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 338,
+        "total_payments": 251,
+        "current_balance": 87,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-09-05",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000069802",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 10910,
+        "total_payments": 9172,
+        "current_balance": 1738,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-05-21",
+        "closed_date": "2025-12-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100698",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "patient": {
+    "pat_id": "PAT0100059",
+    "med_rec_num": "MRN0200059",
+    "full_name": "Linda Singh",
+    "birth_date": "1957-01-15",
+    "age": 69,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 43741,
+    "latitude": 40.42977,
+    "longitude": -79.78787,
+    "last_encounter_date": "2026-05-07",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8258 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 958-8583",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100059",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000059-000",
+        "contact_date": "2026-05-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 144
+      },
+      {
+        "pat_enc_csn_id": "0000059-001",
+        "contact_date": "2026-03-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000059-002",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 256
+      },
+      {
+        "pat_enc_csn_id": "0000059-003",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000059-004",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5399
+      },
+      {
+        "pat_enc_csn_id": "0000059-005",
+        "contact_date": "2025-11-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 30233
+      },
+      {
+        "pat_enc_csn_id": "0000059-006",
+        "contact_date": "2025-09-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 333
+      },
+      {
+        "pat_enc_csn_id": "0000059-007",
+        "contact_date": "2025-04-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000059-008",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 175
+      },
+      {
+        "pat_enc_csn_id": "0000059-009",
+        "contact_date": "2024-12-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000059-010",
+        "contact_date": "2024-09-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0000059-011",
+        "contact_date": "2024-07-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 5519
+      },
+      {
+        "pat_enc_csn_id": "0000059-012",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 254
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100059",
+    "diagnoses": [
+      {
+        "dx_id": "0000059-dx-000",
+        "pat_enc_csn_id": "0000059-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1979-05-13"
+      },
+      {
+        "dx_id": "0000059-acu-000",
+        "pat_enc_csn_id": "0000059-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100059",
+    "summary": {
+      "total_charges": 43741,
+      "total_payments": 37026,
+      "outstanding_balance": 6715,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000005900",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 19686,
+        "total_payments": 15106,
+        "current_balance": 4580,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-15",
+        "closed_date": "2025-12-22"
+      },
+      {
+        "hsp_account_id": "HSP000005901",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 24055,
+        "total_payments": 21920,
+        "current_balance": 2135,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-04-06",
+        "closed_date": "2026-03-09"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100059",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100385",
+        "full_name": "Kevin Anderson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37585
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      }
+    ]
+  }
+}

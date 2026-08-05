@@ -1,0 +1,271 @@
+{
+  "patient": {
+    "pat_id": "PAT0100678",
+    "med_rec_num": "MRN0200678",
+    "full_name": "Aisha O'Brien",
+    "birth_date": "1979-06-22",
+    "age": 47,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 24193,
+    "latitude": 40.47075,
+    "longitude": -79.83093,
+    "last_encounter_date": "2026-03-18",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5567 Murray St",
+    "state": "PA",
+    "phone": "(412) 878-8339",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100678",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000678-000",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 390
+      },
+      {
+        "pat_enc_csn_id": "0000678-001",
+        "contact_date": "2026-02-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0000678-002",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 2394
+      },
+      {
+        "pat_enc_csn_id": "0000678-003",
+        "contact_date": "2025-05-12",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 6560
+      },
+      {
+        "pat_enc_csn_id": "0000678-004",
+        "contact_date": "2025-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000678-005",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0000678-006",
+        "contact_date": "2025-02-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000678-007",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 13327
+      },
+      {
+        "pat_enc_csn_id": "0000678-008",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000678-009",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 160
+      },
+      {
+        "pat_enc_csn_id": "0000678-010",
+        "contact_date": "2024-06-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000678-011",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 174
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100678",
+    "diagnoses": [
+      {
+        "dx_id": "0000678-acu-000",
+        "pat_enc_csn_id": "0000678-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-18"
+      },
+      {
+        "dx_id": "0000678-acu-001",
+        "pat_enc_csn_id": "0000678-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-28"
+      },
+      {
+        "dx_id": "0000678-acu-002",
+        "pat_enc_csn_id": "0000678-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-05-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100678",
+    "summary": {
+      "total_charges": 24193,
+      "total_payments": 20920,
+      "outstanding_balance": 3273,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000067800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 3955,
+        "total_payments": 3360,
+        "current_balance": 595,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-06",
+        "closed_date": "2026-05-12"
+      },
+      {
+        "hsp_account_id": "HSP000067801",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 20238,
+        "total_payments": 17560,
+        "current_balance": 2678,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-07-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100678",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

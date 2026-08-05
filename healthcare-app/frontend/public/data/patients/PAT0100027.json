@@ -1,0 +1,160 @@
+{
+  "patient": {
+    "pat_id": "PAT0100027",
+    "med_rec_num": "MRN0200027",
+    "full_name": "Anil Petrov",
+    "birth_date": "1969-12-01",
+    "age": 57,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 1,
+    "encounter_count": 2,
+    "total_charges": 580,
+    "latitude": 40.48061,
+    "longitude": -79.83882,
+    "last_encounter_date": "2026-02-02",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7629 Highland St",
+    "state": "PA",
+    "phone": "(412) 475-2009",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100027",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000027-000",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000027-001",
+        "contact_date": "2025-03-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 380
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100027",
+    "diagnoses": [
+      {
+        "dx_id": "0000027-dx-000",
+        "pat_enc_csn_id": "0000027-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000027-acu-000",
+        "pat_enc_csn_id": "0000027-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-02"
+      },
+      {
+        "dx_id": "0000027-acu-001",
+        "pat_enc_csn_id": "0000027-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-03-01"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100027",
+    "summary": {
+      "total_charges": 580,
+      "total_payments": 483,
+      "outstanding_balance": 97,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000002700",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 580,
+        "total_payments": 483,
+        "current_balance": 97,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-19",
+        "closed_date": "2026-01-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100027",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

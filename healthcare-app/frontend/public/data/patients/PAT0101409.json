@@ -1,0 +1,332 @@
+{
+  "patient": {
+    "pat_id": "PAT0101409",
+    "med_rec_num": "MRN0201409",
+    "full_name": "Kevin Greene",
+    "birth_date": "1996-12-12",
+    "age": 30,
+    "sex": "M",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 3,
+    "encounter_count": 17,
+    "total_charges": 20961,
+    "latitude": 40.33075,
+    "longitude": -80.04227,
+    "last_encounter_date": "2026-05-10",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9452 Walnut St",
+    "state": "PA",
+    "phone": "(412) 839-7696",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101409",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001409-000",
+        "contact_date": "2026-05-10",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 6149
+      },
+      {
+        "pat_enc_csn_id": "0001409-001",
+        "contact_date": "2026-03-01",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 162
+      },
+      {
+        "pat_enc_csn_id": "0001409-002",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0001409-003",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0001409-004",
+        "contact_date": "2026-01-14",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 276
+      },
+      {
+        "pat_enc_csn_id": "0001409-005",
+        "contact_date": "2026-01-10",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001409-006",
+        "contact_date": "2025-10-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001409-007",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0001409-008",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0001409-009",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0001409-010",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0001409-011",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0001409-012",
+        "contact_date": "2025-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0001409-013",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 268
+      },
+      {
+        "pat_enc_csn_id": "0001409-014",
+        "contact_date": "2024-06-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 5173
+      },
+      {
+        "pat_enc_csn_id": "0001409-015",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0001409-016",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 6251
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101409",
+    "diagnoses": [
+      {
+        "dx_id": "0001409-dx-000",
+        "pat_enc_csn_id": "0001409-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001409-dx-001",
+        "pat_enc_csn_id": "0001409-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001409-dx-002",
+        "pat_enc_csn_id": "0001409-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2023-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101409",
+    "summary": {
+      "total_charges": 20961,
+      "total_payments": 14024,
+      "outstanding_balance": 6937,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000140900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 11749,
+        "total_payments": 7673,
+        "current_balance": 4076,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-20",
+        "closed_date": "2026-03-30"
+      },
+      {
+        "hsp_account_id": "HSP000140901",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1792,
+        "total_payments": 1446,
+        "current_balance": 346,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-17",
+        "closed_date": "2026-04-27"
+      },
+      {
+        "hsp_account_id": "HSP000140902",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7420,
+        "total_payments": 4905,
+        "current_balance": 2515,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-09",
+        "closed_date": "2026-02-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101409",
+    "comparables": [
+      {
+        "pat_id": "PAT0100015",
+        "full_name": "Barbara Kim",
+        "age": 39,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 12340
+      },
+      {
+        "pat_id": "PAT0100055",
+        "full_name": "David Greene",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1361
+      },
+      {
+        "pat_id": "PAT0100064",
+        "full_name": "Daniel Greene",
+        "age": 31,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1311
+      },
+      {
+        "pat_id": "PAT0100086",
+        "full_name": "John Singh",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 14457
+      },
+      {
+        "pat_id": "PAT0100108",
+        "full_name": "Janet Greene",
+        "age": 30,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 25729
+      },
+      {
+        "pat_id": "PAT0100147",
+        "full_name": "Linda Williams",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1039
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "patient": {
+    "pat_id": "PAT0100172",
+    "med_rec_num": "MRN0200172",
+    "full_name": "Mark Thomas",
+    "birth_date": "2026-03-11",
+    "age": 0,
+    "sex": "M",
+    "city": "Cranberry Twp",
+    "zip_code": "16066",
+    "primary_care_provider": "Dr. Ashley Miller",
+    "active_chronic_count": 2,
+    "encounter_count": 6,
+    "total_charges": 15799,
+    "latitude": 40.68989,
+    "longitude": -80.11149,
+    "last_encounter_date": "2026-05-06",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "5661 Beacon Blvd",
+    "state": "PA",
+    "phone": "(412) 314-7263",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100172",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000172-000",
+        "contact_date": "2026-05-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000172-001",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000172-002",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 14241
+      },
+      {
+        "pat_enc_csn_id": "0000172-003",
+        "contact_date": "2025-11-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000172-004",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000172-005",
+        "contact_date": "2025-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 329
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100172",
+    "diagnoses": [
+      {
+        "dx_id": "0000172-dx-000",
+        "pat_enc_csn_id": "0000172-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000172-dx-001",
+        "pat_enc_csn_id": "0000172-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000172-acu-000",
+        "pat_enc_csn_id": "0000172-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-05-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100172",
+    "summary": {
+      "total_charges": 15799,
+      "total_payments": 12279,
+      "outstanding_balance": 3520,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000017200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 13071,
+        "total_payments": 10236,
+        "current_balance": 2835,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-07",
+        "closed_date": "2026-02-11"
+      },
+      {
+        "hsp_account_id": "HSP000017201",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 2728,
+        "total_payments": 2043,
+        "current_balance": 685,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2023-12-28",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100172",
+    "comparables": [
+      {
+        "pat_id": "PAT0100230",
+        "full_name": "George Johnson",
+        "age": 9,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 5934
+      },
+      {
+        "pat_id": "PAT0100236",
+        "full_name": "Christopher O'Brien",
+        "age": 2,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 42027
+      },
+      {
+        "pat_id": "PAT0100309",
+        "full_name": "Janet Smith",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 8,
+        "total_charges": 12844
+      },
+      {
+        "pat_id": "PAT0100546",
+        "full_name": "Janet Russo",
+        "age": 3,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_id": "PAT0100625",
+        "full_name": "Daniel Khan",
+        "age": 8,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 5279
+      },
+      {
+        "pat_id": "PAT0100666",
+        "full_name": "Margaret Patel",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 12753
+      }
+    ]
+  }
+}

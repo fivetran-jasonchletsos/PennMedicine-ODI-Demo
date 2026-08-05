@@ -1,0 +1,125 @@
+{
+  "patient": {
+    "pat_id": "PAT0101039",
+    "med_rec_num": "MRN0201039",
+    "full_name": "Ashley Lopez",
+    "birth_date": "2010-04-24",
+    "age": 16,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 1,
+    "total_charges": 252,
+    "latitude": 40.4344,
+    "longitude": -79.9242,
+    "last_encounter_date": "2024-11-28",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3873 Beacon St",
+    "state": "PA",
+    "phone": "(412) 621-5291",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101039",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001039-000",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 252
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101039",
+    "diagnoses": []
+  },
+  "accounts": {
+    "pat_id": "PAT0101039",
+    "summary": {
+      "total_charges": 252,
+      "total_payments": 195,
+      "outstanding_balance": 57,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000103900",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 252,
+        "total_payments": 195,
+        "current_balance": 57,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-05-08",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101039",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

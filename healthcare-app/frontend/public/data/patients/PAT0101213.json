@@ -1,0 +1,182 @@
+{
+  "patient": {
+    "pat_id": "PAT0101213",
+    "med_rec_num": "MRN0201213",
+    "full_name": "Mary Kim",
+    "birth_date": "1968-12-08",
+    "age": 58,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 0,
+    "encounter_count": 5,
+    "total_charges": 1171,
+    "latitude": 40.30396,
+    "longitude": -79.53872,
+    "last_encounter_date": "2025-09-11",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6639 Forbes St",
+    "state": "PA",
+    "phone": "(412) 954-3130",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101213",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001213-000",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 163
+      },
+      {
+        "pat_enc_csn_id": "0001213-001",
+        "contact_date": "2025-07-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 304
+      },
+      {
+        "pat_enc_csn_id": "0001213-002",
+        "contact_date": "2025-07-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 83
+      },
+      {
+        "pat_enc_csn_id": "0001213-003",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 335
+      },
+      {
+        "pat_enc_csn_id": "0001213-004",
+        "contact_date": "2024-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101213",
+    "diagnoses": [
+      {
+        "dx_id": "0001213-acu-000",
+        "pat_enc_csn_id": "0001213-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-11"
+      },
+      {
+        "dx_id": "0001213-acu-002",
+        "pat_enc_csn_id": "0001213-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-07-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101213",
+    "summary": {
+      "total_charges": 1171,
+      "total_payments": 826,
+      "outstanding_balance": 345,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000121300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 1171,
+        "total_payments": 826,
+        "current_balance": 345,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-04-25",
+        "closed_date": "2025-12-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101213",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

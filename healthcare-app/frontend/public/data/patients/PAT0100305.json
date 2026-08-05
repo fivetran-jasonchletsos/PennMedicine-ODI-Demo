@@ -1,0 +1,307 @@
+{
+  "patient": {
+    "pat_id": "PAT0100305",
+    "med_rec_num": "MRN0200305",
+    "full_name": "Patricia Thomas",
+    "birth_date": "1982-04-27",
+    "age": 44,
+    "sex": "F",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 40450,
+    "latitude": 40.52253,
+    "longitude": -79.95602,
+    "last_encounter_date": "2026-04-13",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4813 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 457-6266",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100305",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000305-000",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 21210
+      },
+      {
+        "pat_enc_csn_id": "0000305-001",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 261
+      },
+      {
+        "pat_enc_csn_id": "0000305-002",
+        "contact_date": "2026-02-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000305-003",
+        "contact_date": "2026-01-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 6379
+      },
+      {
+        "pat_enc_csn_id": "0000305-004",
+        "contact_date": "2025-12-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000305-005",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0000305-006",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 253
+      },
+      {
+        "pat_enc_csn_id": "0000305-007",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0000305-008",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 5942
+      },
+      {
+        "pat_enc_csn_id": "0000305-009",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000305-010",
+        "contact_date": "2024-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0000305-011",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000305-012",
+        "contact_date": "2024-07-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 350
+      },
+      {
+        "pat_enc_csn_id": "0000305-013",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 4159
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100305",
+    "diagnoses": [
+      {
+        "dx_id": "0000305-dx-000",
+        "pat_enc_csn_id": "0000305-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000305-dx-001",
+        "pat_enc_csn_id": "0000305-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000305-acu-000",
+        "pat_enc_csn_id": "0000305-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0000305-acu-001",
+        "pat_enc_csn_id": "0000305-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      },
+      {
+        "dx_id": "0000305-acu-002",
+        "pat_enc_csn_id": "0000305-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-02-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100305",
+    "summary": {
+      "total_charges": 40450,
+      "total_payments": 35175,
+      "outstanding_balance": 5275,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030500",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7317,
+        "total_payments": 6184,
+        "current_balance": 1133,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-08-04",
+        "closed_date": "2025-12-12"
+      },
+      {
+        "hsp_account_id": "HSP000030501",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 33133,
+        "total_payments": 28991,
+        "current_balance": 4142,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100305",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

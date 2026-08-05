@@ -1,0 +1,252 @@
+{
+  "patient": {
+    "pat_id": "PAT0100665",
+    "med_rec_num": "MRN0200665",
+    "full_name": "Robert Okonkwo",
+    "birth_date": "2002-06-19",
+    "age": 24,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Aisha Williams",
+    "active_chronic_count": 0,
+    "encounter_count": 12,
+    "total_charges": 2611,
+    "latitude": 40.42013,
+    "longitude": -79.79204,
+    "last_encounter_date": "2026-04-13",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1621 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 841-8035",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100665",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000665-000",
+        "contact_date": "2026-04-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 172
+      },
+      {
+        "pat_enc_csn_id": "0000665-001",
+        "contact_date": "2026-04-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000665-002",
+        "contact_date": "2026-01-29",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 105
+      },
+      {
+        "pat_enc_csn_id": "0000665-003",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 169
+      },
+      {
+        "pat_enc_csn_id": "0000665-004",
+        "contact_date": "2025-06-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000665-005",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000665-006",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 246
+      },
+      {
+        "pat_enc_csn_id": "0000665-007",
+        "contact_date": "2025-02-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000665-008",
+        "contact_date": "2024-12-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000665-009",
+        "contact_date": "2024-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000665-010",
+        "contact_date": "2024-10-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000665-011",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 196
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100665",
+    "diagnoses": [
+      {
+        "dx_id": "0000665-acu-000",
+        "pat_enc_csn_id": "0000665-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-13"
+      },
+      {
+        "dx_id": "0000665-acu-001",
+        "pat_enc_csn_id": "0000665-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100665",
+    "summary": {
+      "total_charges": 2611,
+      "total_payments": 2156,
+      "outstanding_balance": 455,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000066500",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2611,
+        "total_payments": 2156,
+        "current_balance": 455,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-25",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100665",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

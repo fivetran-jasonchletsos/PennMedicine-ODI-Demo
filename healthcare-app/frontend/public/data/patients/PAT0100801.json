@@ -1,0 +1,240 @@
+{
+  "patient": {
+    "pat_id": "PAT0100801",
+    "med_rec_num": "MRN0200801",
+    "full_name": "Patricia Miller",
+    "birth_date": "1982-08-16",
+    "age": 44,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 2,
+    "encounter_count": 10,
+    "total_charges": 6277,
+    "latitude": 40.33206,
+    "longitude": -80.04258,
+    "last_encounter_date": "2026-04-14",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8458 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 722-7962",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100801",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000801-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000801-001",
+        "contact_date": "2026-03-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 348
+      },
+      {
+        "pat_enc_csn_id": "0000801-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000801-003",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 357
+      },
+      {
+        "pat_enc_csn_id": "0000801-004",
+        "contact_date": "2025-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000801-005",
+        "contact_date": "2025-06-24",
+        "encounter_type": "Procedure",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 3599
+      },
+      {
+        "pat_enc_csn_id": "0000801-006",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000801-007",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 188
+      },
+      {
+        "pat_enc_csn_id": "0000801-008",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000801-009",
+        "contact_date": "2024-06-05",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 180
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100801",
+    "diagnoses": [
+      {
+        "dx_id": "0000801-dx-000",
+        "pat_enc_csn_id": "0000801-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000801-dx-001",
+        "pat_enc_csn_id": "0000801-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000801-acu-002",
+        "pat_enc_csn_id": "0000801-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100801",
+    "summary": {
+      "total_charges": 6277,
+      "total_payments": 5534,
+      "outstanding_balance": 743,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000080100",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 6277,
+        "total_payments": 5534,
+        "current_balance": 743,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-11-29",
+        "closed_date": "2025-11-05"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100801",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

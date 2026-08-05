@@ -1,0 +1,224 @@
+{
+  "patient": {
+    "pat_id": "PAT0101251",
+    "med_rec_num": "MRN0201251",
+    "full_name": "Elizabeth Park",
+    "birth_date": "1988-01-05",
+    "age": 38,
+    "sex": "F",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Ashley Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 6,
+    "total_charges": 1536,
+    "latitude": 40.41921,
+    "longitude": -79.79247,
+    "last_encounter_date": "2026-04-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "2076 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 499-5963",
+    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+  },
+  "encounters": {
+    "pat_id": "PAT0101251",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001251-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0001251-001",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001251-002",
+        "contact_date": "2025-08-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0001251-003",
+        "contact_date": "2024-11-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0001251-004",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001251-005",
+        "contact_date": "2024-08-11",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 132
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101251",
+    "diagnoses": [
+      {
+        "dx_id": "0001251-dx-000",
+        "pat_enc_csn_id": "0001251-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0001251-dx-001",
+        "pat_enc_csn_id": "0001251-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0001251-dx-002",
+        "pat_enc_csn_id": "0001251-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001251-acu-000",
+        "pat_enc_csn_id": "0001251-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      },
+      {
+        "dx_id": "0001251-acu-001",
+        "pat_enc_csn_id": "0001251-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-10"
+      },
+      {
+        "dx_id": "0001251-acu-002",
+        "pat_enc_csn_id": "0001251-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-08-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101251",
+    "summary": {
+      "total_charges": 1536,
+      "total_payments": 1397,
+      "outstanding_balance": 139,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000125100",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1536,
+        "total_payments": 1397,
+        "current_balance": 139,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-04",
+        "closed_date": "2026-03-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101251",
+    "comparables": [
+      {
+        "pat_id": "PAT0100015",
+        "full_name": "Barbara Kim",
+        "age": 39,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 12340
+      },
+      {
+        "pat_id": "PAT0100055",
+        "full_name": "David Greene",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1361
+      },
+      {
+        "pat_id": "PAT0100064",
+        "full_name": "Daniel Greene",
+        "age": 31,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1311
+      },
+      {
+        "pat_id": "PAT0100086",
+        "full_name": "John Singh",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 14457
+      },
+      {
+        "pat_id": "PAT0100108",
+        "full_name": "Janet Greene",
+        "age": 30,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 25729
+      },
+      {
+        "pat_id": "PAT0100147",
+        "full_name": "Linda Williams",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 1039
+      }
+    ]
+  }
+}

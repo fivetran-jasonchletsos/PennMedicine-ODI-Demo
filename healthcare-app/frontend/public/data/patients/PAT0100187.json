@@ -1,0 +1,280 @@
+{
+  "patient": {
+    "pat_id": "PAT0100187",
+    "med_rec_num": "MRN0200187",
+    "full_name": "Carlos Kim",
+    "birth_date": "1996-08-20",
+    "age": 30,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 39299,
+    "latitude": 40.30714,
+    "longitude": -79.54001,
+    "last_encounter_date": "2026-05-01",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9163 Centre St",
+    "state": "PA",
+    "phone": "(412) 782-9932",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100187",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000187-000",
+        "contact_date": "2026-05-01",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0000187-001",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 26254
+      },
+      {
+        "pat_enc_csn_id": "0000187-002",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 10346
+      },
+      {
+        "pat_enc_csn_id": "0000187-003",
+        "contact_date": "2025-03-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0000187-004",
+        "contact_date": "2025-02-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 79
+      },
+      {
+        "pat_enc_csn_id": "0000187-005",
+        "contact_date": "2025-02-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000187-006",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000187-007",
+        "contact_date": "2024-11-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 382
+      },
+      {
+        "pat_enc_csn_id": "0000187-008",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0000187-009",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000187-010",
+        "contact_date": "2024-07-08",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 1036
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100187",
+    "diagnoses": [
+      {
+        "dx_id": "0000187-dx-000",
+        "pat_enc_csn_id": "0000187-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000187-acu-000",
+        "pat_enc_csn_id": "0000187-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-01"
+      },
+      {
+        "dx_id": "0000187-acu-001",
+        "pat_enc_csn_id": "0000187-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-01"
+      },
+      {
+        "dx_id": "0000187-acu-002",
+        "pat_enc_csn_id": "0000187-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-03-29"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100187",
+    "summary": {
+      "total_charges": 39299,
+      "total_payments": 24401,
+      "outstanding_balance": 14898,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000018700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 32486,
+        "total_payments": 19836,
+        "current_balance": 12650,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-25",
+        "closed_date": "2025-11-29"
+      },
+      {
+        "hsp_account_id": "HSP000018701",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 5499,
+        "total_payments": 3537,
+        "current_balance": 1962,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-04-02",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000018702",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 1314,
+        "total_payments": 1028,
+        "current_balance": 286,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-03",
+        "closed_date": "2026-01-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100187",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100104",
+    "med_rec_num": "MRN0200104",
+    "full_name": "Margaret Garcia",
+    "birth_date": "1996-07-03",
+    "age": 30,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Aisha Anderson",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 36417,
+    "latitude": 40.45992,
+    "longitude": -80.00823,
+    "last_encounter_date": "2026-04-28",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "8848 Liberty St",
+    "state": "PA",
+    "phone": "(412) 583-3600",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100104",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000104-000",
+        "contact_date": "2026-04-28",
+        "encounter_type": "Follow-up",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0000104-001",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000104-002",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0000104-003",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 408
+      },
+      {
+        "pat_enc_csn_id": "0000104-004",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 5192
+      },
+      {
+        "pat_enc_csn_id": "0000104-005",
+        "contact_date": "2025-08-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000104-006",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 22027
+      },
+      {
+        "pat_enc_csn_id": "0000104-007",
+        "contact_date": "2025-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0000104-008",
+        "contact_date": "2025-01-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      },
+      {
+        "pat_enc_csn_id": "0000104-009",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000104-010",
+        "contact_date": "2024-10-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 4047
+      },
+      {
+        "pat_enc_csn_id": "0000104-011",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000104-012",
+        "contact_date": "2024-08-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 2695
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100104",
+    "diagnoses": [
+      {
+        "dx_id": "0000104-dx-000",
+        "pat_enc_csn_id": "0000104-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000104-acu-000",
+        "pat_enc_csn_id": "0000104-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-28"
+      },
+      {
+        "dx_id": "0000104-acu-002",
+        "pat_enc_csn_id": "0000104-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-17"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100104",
+    "summary": {
+      "total_charges": 36417,
+      "total_payments": 30527,
+      "outstanding_balance": 5890,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000010400",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 36417,
+        "total_payments": 30527,
+        "current_balance": 5890,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-22",
+        "closed_date": "2026-04-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100104",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

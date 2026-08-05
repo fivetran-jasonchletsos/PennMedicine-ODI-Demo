@@ -1,0 +1,287 @@
+{
+  "patient": {
+    "pat_id": "PAT0100651",
+    "med_rec_num": "MRN0200651",
+    "full_name": "Richard O'Brien",
+    "birth_date": "1986-10-25",
+    "age": 40,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 45553,
+    "latitude": 40.29753,
+    "longitude": -79.53891,
+    "last_encounter_date": "2026-02-09",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "456 Liberty Rd",
+    "state": "PA",
+    "phone": "(412) 593-7445",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100651",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000651-000",
+        "contact_date": "2026-02-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0000651-001",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000651-002",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 200
+      },
+      {
+        "pat_enc_csn_id": "0000651-003",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 32878
+      },
+      {
+        "pat_enc_csn_id": "0000651-004",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 10224
+      },
+      {
+        "pat_enc_csn_id": "0000651-005",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0000651-006",
+        "contact_date": "2025-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0000651-007",
+        "contact_date": "2025-01-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000651-008",
+        "contact_date": "2024-11-11",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 193
+      },
+      {
+        "pat_enc_csn_id": "0000651-009",
+        "contact_date": "2024-10-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 119
+      },
+      {
+        "pat_enc_csn_id": "0000651-010",
+        "contact_date": "2024-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 274
+      },
+      {
+        "pat_enc_csn_id": "0000651-011",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 275
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100651",
+    "diagnoses": [
+      {
+        "dx_id": "0000651-dx-000",
+        "pat_enc_csn_id": "0000651-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0000651-dx-001",
+        "pat_enc_csn_id": "0000651-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0000651-acu-000",
+        "pat_enc_csn_id": "0000651-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-09"
+      },
+      {
+        "dx_id": "0000651-acu-001",
+        "pat_enc_csn_id": "0000651-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      },
+      {
+        "dx_id": "0000651-acu-002",
+        "pat_enc_csn_id": "0000651-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100651",
+    "summary": {
+      "total_charges": 45553,
+      "total_payments": 36511,
+      "outstanding_balance": 9042,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000065100",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 36043,
+        "total_payments": 28589,
+        "current_balance": 7454,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-09-16",
+        "closed_date": "2026-05-08"
+      },
+      {
+        "hsp_account_id": "HSP000065101",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 9510,
+        "total_payments": 7922,
+        "current_balance": 1588,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-09-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100651",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

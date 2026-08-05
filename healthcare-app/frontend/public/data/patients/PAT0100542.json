@@ -1,0 +1,324 @@
+{
+  "patient": {
+    "pat_id": "PAT0100542",
+    "med_rec_num": "MRN0200542",
+    "full_name": "Carlos Greene",
+    "birth_date": "1941-10-06",
+    "age": 85,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 5,
+    "encounter_count": 16,
+    "total_charges": 7002,
+    "latitude": 40.52645,
+    "longitude": -79.96517,
+    "last_encounter_date": "2026-03-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "847 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 217-9323",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100542",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000542-000",
+        "contact_date": "2026-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 329
+      },
+      {
+        "pat_enc_csn_id": "0000542-001",
+        "contact_date": "2026-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000542-002",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000542-003",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000542-004",
+        "contact_date": "2025-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 287
+      },
+      {
+        "pat_enc_csn_id": "0000542-005",
+        "contact_date": "2025-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 356
+      },
+      {
+        "pat_enc_csn_id": "0000542-006",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 3160
+      },
+      {
+        "pat_enc_csn_id": "0000542-007",
+        "contact_date": "2025-09-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 138
+      },
+      {
+        "pat_enc_csn_id": "0000542-008",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 307
+      },
+      {
+        "pat_enc_csn_id": "0000542-009",
+        "contact_date": "2025-07-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 234
+      },
+      {
+        "pat_enc_csn_id": "0000542-010",
+        "contact_date": "2025-01-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000542-011",
+        "contact_date": "2024-12-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0000542-012",
+        "contact_date": "2024-12-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000542-013",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 106
+      },
+      {
+        "pat_enc_csn_id": "0000542-014",
+        "contact_date": "2024-08-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0000542-015",
+        "contact_date": "2024-06-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 198
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100542",
+    "diagnoses": [
+      {
+        "dx_id": "0000542-dx-000",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0000542-dx-001",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2012-05-13"
+      },
+      {
+        "dx_id": "0000542-dx-002",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1960-05-13"
+      },
+      {
+        "dx_id": "0000542-dx-003",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1961-05-13"
+      },
+      {
+        "dx_id": "0000542-dx-004",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000542-acu-000",
+        "pat_enc_csn_id": "0000542-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100542",
+    "summary": {
+      "total_charges": 7002,
+      "total_payments": 4417,
+      "outstanding_balance": 2585,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000054200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 7002,
+        "total_payments": 4417,
+        "current_balance": 2585,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-11-17",
+        "closed_date": "2025-11-10"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100542",
+    "comparables": [
+      {
+        "pat_id": "PAT0100049",
+        "full_name": "Daniel Greene",
+        "age": 81,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 22,
+        "total_charges": 10561
+      },
+      {
+        "pat_id": "PAT0100076",
+        "full_name": "Patricia Walsh",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 13961
+      },
+      {
+        "pat_id": "PAT0100109",
+        "full_name": "Sandra Lopez",
+        "age": 80,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 31497
+      },
+      {
+        "pat_id": "PAT0100119",
+        "full_name": "Thomas Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 11,
+        "total_charges": 7931
+      },
+      {
+        "pat_id": "PAT0100206",
+        "full_name": "Carol O'Brien",
+        "age": 83,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 13323
+      },
+      {
+        "pat_id": "PAT0100250",
+        "full_name": "Thomas Rodriguez",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 12,
+        "total_charges": 2955
+      }
+    ]
+  }
+}

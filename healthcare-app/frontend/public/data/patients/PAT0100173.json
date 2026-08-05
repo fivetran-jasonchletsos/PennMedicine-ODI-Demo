@@ -1,0 +1,269 @@
+{
+  "patient": {
+    "pat_id": "PAT0100173",
+    "med_rec_num": "MRN0200173",
+    "full_name": "David O'Brien",
+    "birth_date": "1988-09-13",
+    "age": 38,
+    "sex": "M",
+    "city": "Aspinwall",
+    "zip_code": "15215",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 10624,
+    "latitude": 40.49509,
+    "longitude": -79.90147,
+    "last_encounter_date": "2026-04-02",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6375 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 251-1377",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100173",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000173-000",
+        "contact_date": "2026-04-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 370
+      },
+      {
+        "pat_enc_csn_id": "0000173-001",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 420
+      },
+      {
+        "pat_enc_csn_id": "0000173-002",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000173-003",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Follow-up",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0000173-004",
+        "contact_date": "2025-12-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000173-005",
+        "contact_date": "2025-10-18",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 3987
+      },
+      {
+        "pat_enc_csn_id": "0000173-006",
+        "contact_date": "2025-08-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0000173-007",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 1239
+      },
+      {
+        "pat_enc_csn_id": "0000173-008",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000173-009",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 3265
+      },
+      {
+        "pat_enc_csn_id": "0000173-010",
+        "contact_date": "2024-10-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100173",
+    "diagnoses": [
+      {
+        "dx_id": "0000173-dx-000",
+        "pat_enc_csn_id": "0000173-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2009-05-13"
+      },
+      {
+        "dx_id": "0000173-dx-001",
+        "pat_enc_csn_id": "0000173-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000173-acu-000",
+        "pat_enc_csn_id": "0000173-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-04-02"
+      },
+      {
+        "dx_id": "0000173-acu-001",
+        "pat_enc_csn_id": "0000173-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100173",
+    "summary": {
+      "total_charges": 10624,
+      "total_payments": 8567,
+      "outstanding_balance": 2057,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000017300",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 9301,
+        "total_payments": 7435,
+        "current_balance": 1866,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-01-01",
+        "closed_date": "2025-12-15"
+      },
+      {
+        "hsp_account_id": "HSP000017301",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1323,
+        "total_payments": 1132,
+        "current_balance": 191,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-10",
+        "closed_date": "2026-04-21"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100173",
+    "comparables": [
+      {
+        "pat_id": "PAT0100022",
+        "full_name": "Sofia Smith",
+        "age": 35,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 9,
+        "total_charges": 3623
+      },
+      {
+        "pat_id": "PAT0100032",
+        "full_name": "John Jackson",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 12503
+      },
+      {
+        "pat_id": "PAT0100057",
+        "full_name": "Anil Okonkwo",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 30788
+      },
+      {
+        "pat_id": "PAT0100058",
+        "full_name": "Ashley Singh",
+        "age": 33,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 5636
+      },
+      {
+        "pat_id": "PAT0100060",
+        "full_name": "Donna Taylor",
+        "age": 36,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 2936
+      },
+      {
+        "pat_id": "PAT0100095",
+        "full_name": "Hassan Walsh",
+        "age": 32,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 3924
+      }
+    ]
+  }
+}

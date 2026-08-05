@@ -1,0 +1,286 @@
+{
+  "patient": {
+    "pat_id": "PAT0100829",
+    "med_rec_num": "MRN0200829",
+    "full_name": "Thomas Park",
+    "birth_date": "2008-05-16",
+    "age": 18,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Mark Nguyen",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 19804,
+    "latitude": 40.47641,
+    "longitude": -79.83102,
+    "last_encounter_date": "2026-04-08",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2247 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 356-7191",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100829",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000829-000",
+        "contact_date": "2026-04-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 8190
+      },
+      {
+        "pat_enc_csn_id": "0000829-001",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 320
+      },
+      {
+        "pat_enc_csn_id": "0000829-002",
+        "contact_date": "2026-02-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000829-003",
+        "contact_date": "2025-10-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000829-004",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 281
+      },
+      {
+        "pat_enc_csn_id": "0000829-005",
+        "contact_date": "2025-03-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 392
+      },
+      {
+        "pat_enc_csn_id": "0000829-006",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Miller",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 417
+      },
+      {
+        "pat_enc_csn_id": "0000829-007",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0000829-008",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 380
+      },
+      {
+        "pat_enc_csn_id": "0000829-009",
+        "contact_date": "2024-07-10",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 5487
+      },
+      {
+        "pat_enc_csn_id": "0000829-010",
+        "contact_date": "2024-06-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000829-011",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 147
+      },
+      {
+        "pat_enc_csn_id": "0000829-012",
+        "contact_date": "2024-05-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 3178
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100829",
+    "diagnoses": [
+      {
+        "dx_id": "0000829-dx-000",
+        "pat_enc_csn_id": "0000829-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000829-dx-001",
+        "pat_enc_csn_id": "0000829-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000829-acu-000",
+        "pat_enc_csn_id": "0000829-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-08"
+      },
+      {
+        "dx_id": "0000829-acu-001",
+        "pat_enc_csn_id": "0000829-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-12"
+      },
+      {
+        "dx_id": "0000829-acu-002",
+        "pat_enc_csn_id": "0000829-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100829",
+    "summary": {
+      "total_charges": 19804,
+      "total_payments": 18130,
+      "outstanding_balance": 1674,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000082900",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 19804,
+        "total_payments": 18130,
+        "current_balance": 1674,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-21",
+        "closed_date": "2025-11-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100829",
+    "comparables": [
+      {
+        "pat_id": "PAT0100053",
+        "full_name": "Kimberly Lopez",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 596
+      },
+      {
+        "pat_id": "PAT0100065",
+        "full_name": "David Nguyen",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 17881
+      },
+      {
+        "pat_id": "PAT0100125",
+        "full_name": "Jennifer Okonkwo",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 835
+      },
+      {
+        "pat_id": "PAT0100213",
+        "full_name": "Andrew Miller",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 5837
+      },
+      {
+        "pat_id": "PAT0100221",
+        "full_name": "Richard Garcia",
+        "age": 17,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 9889
+      },
+      {
+        "pat_id": "PAT0100280",
+        "full_name": "Donna Brown",
+        "age": 14,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 10301
+      }
+    ]
+  }
+}

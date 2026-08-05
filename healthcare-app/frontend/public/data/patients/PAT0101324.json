@@ -1,0 +1,178 @@
+{
+  "patient": {
+    "pat_id": "PAT0101324",
+    "med_rec_num": "MRN0201324",
+    "full_name": "Paul Walsh",
+    "birth_date": "1990-06-21",
+    "age": 36,
+    "sex": "M",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 3,
+    "total_charges": 833,
+    "latitude": 40.50163,
+    "longitude": -79.75885,
+    "last_encounter_date": "2026-04-12",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4635 Liberty St",
+    "state": "PA",
+    "phone": "(412) 973-1039",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101324",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001324-000",
+        "contact_date": "2026-04-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0001324-001",
+        "contact_date": "2026-02-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001324-002",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 304
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101324",
+    "diagnoses": [
+      {
+        "dx_id": "0001324-dx-000",
+        "pat_enc_csn_id": "0001324-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0001324-acu-000",
+        "pat_enc_csn_id": "0001324-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-12"
+      },
+      {
+        "dx_id": "0001324-acu-001",
+        "pat_enc_csn_id": "0001324-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-02-15"
+      },
+      {
+        "dx_id": "0001324-acu-002",
+        "pat_enc_csn_id": "0001324-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101324",
+    "summary": {
+      "total_charges": 833,
+      "total_payments": 698,
+      "outstanding_balance": 135,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000132400",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 833,
+        "total_payments": 698,
+        "current_balance": 135,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-02-02",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101324",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

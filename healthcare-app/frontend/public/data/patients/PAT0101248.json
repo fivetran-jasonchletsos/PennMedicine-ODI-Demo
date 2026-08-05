@@ -1,0 +1,232 @@
+{
+  "patient": {
+    "pat_id": "PAT0101248",
+    "med_rec_num": "MRN0201248",
+    "full_name": "Patricia Jackson",
+    "birth_date": "1982-03-12",
+    "age": 44,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Daniel Schmidt",
+    "active_chronic_count": 1,
+    "encounter_count": 7,
+    "total_charges": 36589,
+    "latitude": 40.44854,
+    "longitude": -80.00921,
+    "last_encounter_date": "2026-03-17",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "6897 Centre St",
+    "state": "PA",
+    "phone": "(412) 501-3276",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101248",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001248-000",
+        "contact_date": "2026-03-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0001248-001",
+        "contact_date": "2026-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0001248-002",
+        "contact_date": "2025-10-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 29077
+      },
+      {
+        "pat_enc_csn_id": "0001248-003",
+        "contact_date": "2025-10-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0001248-004",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 332
+      },
+      {
+        "pat_enc_csn_id": "0001248-005",
+        "contact_date": "2025-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0001248-006",
+        "contact_date": "2024-08-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 6286
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101248",
+    "diagnoses": [
+      {
+        "dx_id": "0001248-dx-000",
+        "pat_enc_csn_id": "0001248-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0001248-acu-000",
+        "pat_enc_csn_id": "0001248-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-17"
+      },
+      {
+        "dx_id": "0001248-acu-002",
+        "pat_enc_csn_id": "0001248-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-10-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101248",
+    "summary": {
+      "total_charges": 36589,
+      "total_payments": 30933,
+      "outstanding_balance": 5656,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000124800",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 26918,
+        "total_payments": 23913,
+        "current_balance": 3005,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-18",
+        "closed_date": "2025-11-17"
+      },
+      {
+        "hsp_account_id": "HSP000124801",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 9444,
+        "total_payments": 6869,
+        "current_balance": 2575,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-06-08",
+        "closed_date": "2025-11-07"
+      },
+      {
+        "hsp_account_id": "HSP000124802",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 227,
+        "total_payments": 151,
+        "current_balance": 76,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-10-19",
+        "closed_date": "2026-02-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101248",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

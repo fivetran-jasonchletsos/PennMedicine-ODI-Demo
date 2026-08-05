@@ -1,0 +1,317 @@
+{
+  "patient": {
+    "pat_id": "PAT0100952",
+    "med_rec_num": "MRN0200952",
+    "full_name": "George Khan",
+    "birth_date": "1952-05-06",
+    "age": 74,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 2,
+    "encounter_count": 15,
+    "total_charges": 39008,
+    "latitude": 40.3587,
+    "longitude": -79.90123,
+    "last_encounter_date": "2026-05-02",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4652 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 529-4359",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100952",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000952-000",
+        "contact_date": "2026-05-02",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000952-001",
+        "contact_date": "2026-04-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000952-002",
+        "contact_date": "2026-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000952-003",
+        "contact_date": "2026-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 233
+      },
+      {
+        "pat_enc_csn_id": "0000952-004",
+        "contact_date": "2025-12-16",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 35556
+      },
+      {
+        "pat_enc_csn_id": "0000952-005",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000952-006",
+        "contact_date": "2025-09-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000952-007",
+        "contact_date": "2025-06-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 235
+      },
+      {
+        "pat_enc_csn_id": "0000952-008",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 245
+      },
+      {
+        "pat_enc_csn_id": "0000952-009",
+        "contact_date": "2024-10-07",
+        "encounter_type": "Follow-up",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000952-010",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 389
+      },
+      {
+        "pat_enc_csn_id": "0000952-011",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000952-012",
+        "contact_date": "2024-09-15",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 285
+      },
+      {
+        "pat_enc_csn_id": "0000952-013",
+        "contact_date": "2024-08-31",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 191
+      },
+      {
+        "pat_enc_csn_id": "0000952-014",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 124
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100952",
+    "diagnoses": [
+      {
+        "dx_id": "0000952-dx-000",
+        "pat_enc_csn_id": "0000952-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000952-dx-001",
+        "pat_enc_csn_id": "0000952-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000952-acu-000",
+        "pat_enc_csn_id": "0000952-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-05-02"
+      },
+      {
+        "dx_id": "0000952-acu-001",
+        "pat_enc_csn_id": "0000952-001",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-19"
+      },
+      {
+        "dx_id": "0000952-acu-002",
+        "pat_enc_csn_id": "0000952-002",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-01-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100952",
+    "summary": {
+      "total_charges": 39008,
+      "total_payments": 32010,
+      "outstanding_balance": 6998,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000095200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 31511,
+        "total_payments": 26259,
+        "current_balance": 5252,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-12",
+        "closed_date": "2026-01-10"
+      },
+      {
+        "hsp_account_id": "HSP000095201",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 7497,
+        "total_payments": 5751,
+        "current_balance": 1746,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-12-31",
+        "closed_date": "2026-01-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100952",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

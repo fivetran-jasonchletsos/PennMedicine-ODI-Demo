@@ -1,0 +1,298 @@
+{
+  "patient": {
+    "pat_id": "PAT0101333",
+    "med_rec_num": "MRN0201333",
+    "full_name": "Mary Gonzalez",
+    "birth_date": "1936-05-07",
+    "age": 90,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Robert Taylor",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 13335,
+    "latitude": 40.35276,
+    "longitude": -79.84647,
+    "last_encounter_date": "2026-05-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8150 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 749-3550",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101333",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001333-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001333-001",
+        "contact_date": "2026-03-22",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0001333-002",
+        "contact_date": "2025-11-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001333-003",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 5047
+      },
+      {
+        "pat_enc_csn_id": "0001333-004",
+        "contact_date": "2025-07-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 288
+      },
+      {
+        "pat_enc_csn_id": "0001333-005",
+        "contact_date": "2025-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 284
+      },
+      {
+        "pat_enc_csn_id": "0001333-006",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0001333-007",
+        "contact_date": "2025-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0001333-008",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0001333-009",
+        "contact_date": "2024-12-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 308
+      },
+      {
+        "pat_enc_csn_id": "0001333-010",
+        "contact_date": "2024-08-28",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 5464
+      },
+      {
+        "pat_enc_csn_id": "0001333-011",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 360
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101333",
+    "diagnoses": [
+      {
+        "dx_id": "0001333-dx-000",
+        "pat_enc_csn_id": "0001333-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0001333-dx-001",
+        "pat_enc_csn_id": "0001333-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0001333-dx-002",
+        "pat_enc_csn_id": "0001333-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001333-acu-001",
+        "pat_enc_csn_id": "0001333-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-22"
+      },
+      {
+        "dx_id": "0001333-acu-002",
+        "pat_enc_csn_id": "0001333-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-10"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101333",
+    "summary": {
+      "total_charges": 13335,
+      "total_payments": 9777,
+      "outstanding_balance": 3558,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133300",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 12144,
+        "total_payments": 8991,
+        "current_balance": 3153,
+        "primary_payer": "Self-pay",
+        "opened_date": "2024-11-17",
+        "closed_date": "2026-05-08"
+      },
+      {
+        "hsp_account_id": "HSP000133301",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 1044,
+        "total_payments": 664,
+        "current_balance": 380,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-24",
+        "closed_date": "2025-10-29"
+      },
+      {
+        "hsp_account_id": "HSP000133302",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 147,
+        "total_payments": 122,
+        "current_balance": 25,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-06-01",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101333",
+    "comparables": [
+      {
+        "pat_id": "PAT0100054",
+        "full_name": "Michael Wilson",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 13904
+      },
+      {
+        "pat_id": "PAT0100209",
+        "full_name": "Linda Thomas",
+        "age": 91,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 1867
+      },
+      {
+        "pat_id": "PAT0100500",
+        "full_name": "Kenji Wilson",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 47043
+      },
+      {
+        "pat_id": "PAT0100616",
+        "full_name": "Christopher Schmidt",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 10049
+      },
+      {
+        "pat_id": "PAT0100653",
+        "full_name": "Michael Kim",
+        "age": 92,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 13587
+      },
+      {
+        "pat_id": "PAT0100684",
+        "full_name": "Mary Patel",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 8,
+        "total_charges": 16806
+      }
+    ]
+  }
+}

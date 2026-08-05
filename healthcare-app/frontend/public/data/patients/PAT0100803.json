@@ -1,0 +1,200 @@
+{
+  "patient": {
+    "pat_id": "PAT0100803",
+    "med_rec_num": "MRN0200803",
+    "full_name": "David Hernandez",
+    "birth_date": "1940-11-19",
+    "age": 86,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 8170,
+    "latitude": 40.62983,
+    "longitude": -80.05829,
+    "last_encounter_date": "2026-01-09",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2075 Highland St",
+    "state": "PA",
+    "phone": "(412) 838-3960",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100803",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000803-000",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 3944
+      },
+      {
+        "pat_enc_csn_id": "0000803-001",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 321
+      },
+      {
+        "pat_enc_csn_id": "0000803-002",
+        "contact_date": "2025-12-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 372
+      },
+      {
+        "pat_enc_csn_id": "0000803-003",
+        "contact_date": "2025-07-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 328
+      },
+      {
+        "pat_enc_csn_id": "0000803-004",
+        "contact_date": "2024-12-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3156
+      },
+      {
+        "pat_enc_csn_id": "0000803-005",
+        "contact_date": "2024-11-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 49
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100803",
+    "diagnoses": [
+      {
+        "dx_id": "0000803-dx-000",
+        "pat_enc_csn_id": "0000803-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1973-05-13"
+      },
+      {
+        "dx_id": "0000803-acu-000",
+        "pat_enc_csn_id": "0000803-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-09"
+      },
+      {
+        "dx_id": "0000803-acu-002",
+        "pat_enc_csn_id": "0000803-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100803",
+    "summary": {
+      "total_charges": 8170,
+      "total_payments": 6592,
+      "outstanding_balance": 1578,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000080300",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8170,
+        "total_payments": 6592,
+        "current_balance": 1578,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-31",
+        "closed_date": "2026-03-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100803",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

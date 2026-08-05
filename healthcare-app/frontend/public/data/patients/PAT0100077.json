@@ -1,0 +1,192 @@
+{
+  "patient": {
+    "pat_id": "PAT0100077",
+    "med_rec_num": "MRN0200077",
+    "full_name": "Hassan Taylor",
+    "birth_date": "2016-09-12",
+    "age": 10,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Maria Okonkwo",
+    "active_chronic_count": 0,
+    "encounter_count": 6,
+    "total_charges": 3450,
+    "latitude": 40.42328,
+    "longitude": -79.78599,
+    "last_encounter_date": "2026-05-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4841 Beacon Ave",
+    "state": "PA",
+    "phone": "(412) 840-1170",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100077",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000077-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 257
+      },
+      {
+        "pat_enc_csn_id": "0000077-001",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 129
+      },
+      {
+        "pat_enc_csn_id": "0000077-002",
+        "contact_date": "2025-11-24",
+        "encounter_type": "Follow-up",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 177
+      },
+      {
+        "pat_enc_csn_id": "0000077-003",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0000077-004",
+        "contact_date": "2025-01-31",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 2289
+      },
+      {
+        "pat_enc_csn_id": "0000077-005",
+        "contact_date": "2024-11-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 344
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100077",
+    "diagnoses": [
+      {
+        "dx_id": "0000077-acu-000",
+        "pat_enc_csn_id": "0000077-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-05-09"
+      },
+      {
+        "dx_id": "0000077-acu-002",
+        "pat_enc_csn_id": "0000077-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-11-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100077",
+    "summary": {
+      "total_charges": 3450,
+      "total_payments": 2477,
+      "outstanding_balance": 973,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000007700",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 3450,
+        "total_payments": 2477,
+        "current_balance": 973,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2026-01-18",
+        "closed_date": "2025-12-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100077",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      },
+      {
+        "pat_id": "PAT0100274",
+        "full_name": "Elizabeth Gonzalez",
+        "age": 11,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 7092
+      }
+    ]
+  }
+}

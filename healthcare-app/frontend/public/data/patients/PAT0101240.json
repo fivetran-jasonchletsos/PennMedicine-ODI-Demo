@@ -1,0 +1,299 @@
+{
+  "patient": {
+    "pat_id": "PAT0101240",
+    "med_rec_num": "MRN0201240",
+    "full_name": "Sharon Lopez",
+    "birth_date": "1950-02-06",
+    "age": 76,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Linda Thomas",
+    "active_chronic_count": 2,
+    "encounter_count": 14,
+    "total_charges": 21815,
+    "latitude": 40.35233,
+    "longitude": -79.84846,
+    "last_encounter_date": "2026-04-09",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7504 Liberty Ave",
+    "state": "PA",
+    "phone": "(412) 821-2478",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101240",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001240-000",
+        "contact_date": "2026-04-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0001240-001",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001240-002",
+        "contact_date": "2026-01-17",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0001240-003",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 120
+      },
+      {
+        "pat_enc_csn_id": "0001240-004",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 5635
+      },
+      {
+        "pat_enc_csn_id": "0001240-005",
+        "contact_date": "2025-07-06",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 2778
+      },
+      {
+        "pat_enc_csn_id": "0001240-006",
+        "contact_date": "2025-06-10",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 7336
+      },
+      {
+        "pat_enc_csn_id": "0001240-007",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 3539
+      },
+      {
+        "pat_enc_csn_id": "0001240-008",
+        "contact_date": "2024-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 243
+      },
+      {
+        "pat_enc_csn_id": "0001240-009",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 219
+      },
+      {
+        "pat_enc_csn_id": "0001240-010",
+        "contact_date": "2024-09-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 143
+      },
+      {
+        "pat_enc_csn_id": "0001240-011",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0001240-012",
+        "contact_date": "2024-06-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 271
+      },
+      {
+        "pat_enc_csn_id": "0001240-013",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 263
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101240",
+    "diagnoses": [
+      {
+        "dx_id": "0001240-dx-000",
+        "pat_enc_csn_id": "0001240-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0001240-dx-001",
+        "pat_enc_csn_id": "0001240-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1969-05-13"
+      },
+      {
+        "dx_id": "0001240-acu-000",
+        "pat_enc_csn_id": "0001240-000",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-09"
+      },
+      {
+        "dx_id": "0001240-acu-001",
+        "pat_enc_csn_id": "0001240-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101240",
+    "summary": {
+      "total_charges": 21815,
+      "total_payments": 18388,
+      "outstanding_balance": 3427,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000124000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5838,
+        "total_payments": 4629,
+        "current_balance": 1209,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-12-04",
+        "closed_date": "2026-04-12"
+      },
+      {
+        "hsp_account_id": "HSP000124001",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 15977,
+        "total_payments": 13759,
+        "current_balance": 2218,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-13",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101240",
+    "comparables": [
+      {
+        "pat_id": "PAT0100004",
+        "full_name": "Carol Smith",
+        "age": 71,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 4192
+      },
+      {
+        "pat_id": "PAT0100010",
+        "full_name": "Reshma O'Brien",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 12864
+      },
+      {
+        "pat_id": "PAT0100046",
+        "full_name": "Kimberly Okonkwo",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 43245
+      },
+      {
+        "pat_id": "PAT0100120",
+        "full_name": "Andrew Lopez",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1601
+      },
+      {
+        "pat_id": "PAT0100128",
+        "full_name": "Mark Park",
+        "age": 77,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 6,
+        "total_charges": 1775
+      },
+      {
+        "pat_id": "PAT0100142",
+        "full_name": "Maria Smith",
+        "age": 73,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 15,
+        "total_charges": 52907
+      }
+    ]
+  }
+}

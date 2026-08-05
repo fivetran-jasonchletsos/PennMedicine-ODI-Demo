@@ -1,0 +1,246 @@
+{
+  "patient": {
+    "pat_id": "PAT0101209",
+    "med_rec_num": "MRN0201209",
+    "full_name": "Mary Russo",
+    "birth_date": "2007-12-08",
+    "age": 19,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Kenji Walsh",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 32148,
+    "latitude": 40.34976,
+    "longitude": -79.85143,
+    "last_encounter_date": "2026-05-09",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8423 Murray St",
+    "state": "PA",
+    "phone": "(412) 456-5953",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101209",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001209-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 29829
+      },
+      {
+        "pat_enc_csn_id": "0001209-001",
+        "contact_date": "2026-02-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0001209-002",
+        "contact_date": "2025-09-28",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 315
+      },
+      {
+        "pat_enc_csn_id": "0001209-003",
+        "contact_date": "2025-07-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 259
+      },
+      {
+        "pat_enc_csn_id": "0001209-004",
+        "contact_date": "2025-06-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0001209-005",
+        "contact_date": "2025-04-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 351
+      },
+      {
+        "pat_enc_csn_id": "0001209-006",
+        "contact_date": "2025-03-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 254
+      },
+      {
+        "pat_enc_csn_id": "0001209-007",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 373
+      },
+      {
+        "pat_enc_csn_id": "0001209-008",
+        "contact_date": "2024-12-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001209-009",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 97
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101209",
+    "diagnoses": [
+      {
+        "dx_id": "0001209-acu-002",
+        "pat_enc_csn_id": "0001209-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-09-28"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101209",
+    "summary": {
+      "total_charges": 32148,
+      "total_payments": 21665,
+      "outstanding_balance": 10483,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000120900",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 7514,
+        "total_payments": 4931,
+        "current_balance": 2583,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-10",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000120901",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 23763,
+        "total_payments": 15981,
+        "current_balance": 7782,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-10-27",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000120902",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 871,
+        "total_payments": 753,
+        "current_balance": 118,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-28",
+        "closed_date": "2026-01-16"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101209",
+    "comparables": [
+      {
+        "pat_id": "PAT0100019",
+        "full_name": "Michelle Jackson",
+        "age": 15,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 146
+      },
+      {
+        "pat_id": "PAT0100029",
+        "full_name": "Sandra Chen",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 25188
+      },
+      {
+        "pat_id": "PAT0100063",
+        "full_name": "William Nguyen",
+        "age": 11,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 37124
+      },
+      {
+        "pat_id": "PAT0100077",
+        "full_name": "Hassan Taylor",
+        "age": 10,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 3450
+      },
+      {
+        "pat_id": "PAT0100163",
+        "full_name": "Barbara Khan",
+        "age": 12,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 9609
+      },
+      {
+        "pat_id": "PAT0100244",
+        "full_name": "Barbara Kim",
+        "age": 18,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 7165
+      }
+    ]
+  }
+}

@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0100645",
+    "med_rec_num": "MRN0200645",
+    "full_name": "Barbara Walsh",
+    "birth_date": "1981-03-12",
+    "age": 45,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 5604,
+    "latitude": 40.33448,
+    "longitude": -80.04485,
+    "last_encounter_date": "2026-03-08",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5766 Highland Blvd",
+    "state": "PA",
+    "phone": "(412) 638-2006",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100645",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000645-000",
+        "contact_date": "2026-03-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0000645-001",
+        "contact_date": "2026-01-25",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 66
+      },
+      {
+        "pat_enc_csn_id": "0000645-002",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000645-003",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 342
+      },
+      {
+        "pat_enc_csn_id": "0000645-004",
+        "contact_date": "2025-02-08",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 52
+      },
+      {
+        "pat_enc_csn_id": "0000645-005",
+        "contact_date": "2024-12-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 255
+      },
+      {
+        "pat_enc_csn_id": "0000645-006",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 3515
+      },
+      {
+        "pat_enc_csn_id": "0000645-007",
+        "contact_date": "2024-07-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000645-008",
+        "contact_date": "2024-07-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000645-009",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 375
+      },
+      {
+        "pat_enc_csn_id": "0000645-010",
+        "contact_date": "2024-06-01",
+        "encounter_type": "Follow-up",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 154
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100645",
+    "diagnoses": [
+      {
+        "dx_id": "0000645-dx-000",
+        "pat_enc_csn_id": "0000645-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0000645-dx-001",
+        "pat_enc_csn_id": "0000645-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000645-acu-000",
+        "pat_enc_csn_id": "0000645-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-03-08"
+      },
+      {
+        "dx_id": "0000645-acu-001",
+        "pat_enc_csn_id": "0000645-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100645",
+    "summary": {
+      "total_charges": 5604,
+      "total_payments": 5007,
+      "outstanding_balance": 597,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000064500",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5604,
+        "total_payments": 5007,
+        "current_balance": 597,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-04-04",
+        "closed_date": "2026-04-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100645",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

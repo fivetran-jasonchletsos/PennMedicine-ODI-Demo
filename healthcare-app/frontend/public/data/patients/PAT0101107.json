@@ -1,0 +1,226 @@
+{
+  "patient": {
+    "pat_id": "PAT0101107",
+    "med_rec_num": "MRN0201107",
+    "full_name": "Margaret Smith",
+    "birth_date": "1971-01-14",
+    "age": 55,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. David Johnson",
+    "active_chronic_count": 3,
+    "encounter_count": 7,
+    "total_charges": 6509,
+    "latitude": 40.33458,
+    "longitude": -80.03481,
+    "last_encounter_date": "2026-01-30",
+    "race": "Asian",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1648 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 579-8187",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101107",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001107-000",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 280
+      },
+      {
+        "pat_enc_csn_id": "0001107-001",
+        "contact_date": "2025-09-19",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 376
+      },
+      {
+        "pat_enc_csn_id": "0001107-002",
+        "contact_date": "2025-08-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 381
+      },
+      {
+        "pat_enc_csn_id": "0001107-003",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 344
+      },
+      {
+        "pat_enc_csn_id": "0001107-004",
+        "contact_date": "2025-05-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001107-005",
+        "contact_date": "2025-03-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 153
+      },
+      {
+        "pat_enc_csn_id": "0001107-006",
+        "contact_date": "2024-10-19",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 4710
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101107",
+    "diagnoses": [
+      {
+        "dx_id": "0001107-dx-000",
+        "pat_enc_csn_id": "0001107-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0001107-dx-001",
+        "pat_enc_csn_id": "0001107-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0001107-dx-002",
+        "pat_enc_csn_id": "0001107-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1989-05-13"
+      },
+      {
+        "dx_id": "0001107-acu-000",
+        "pat_enc_csn_id": "0001107-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-30"
+      },
+      {
+        "dx_id": "0001107-acu-002",
+        "pat_enc_csn_id": "0001107-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-08-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101107",
+    "summary": {
+      "total_charges": 6509,
+      "total_payments": 4355,
+      "outstanding_balance": 2154,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000110700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 6509,
+        "total_payments": 4355,
+        "current_balance": 2154,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-24",
+        "closed_date": "2026-04-23"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101107",
+    "comparables": [
+      {
+        "pat_id": "PAT0100011",
+        "full_name": "Maria Brown",
+        "age": 56,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 1055
+      },
+      {
+        "pat_id": "PAT0100048",
+        "full_name": "James Jones",
+        "age": 51,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 67750
+      },
+      {
+        "pat_id": "PAT0100069",
+        "full_name": "Jennifer Greene",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 11,
+        "total_charges": 2865
+      },
+      {
+        "pat_id": "PAT0100098",
+        "full_name": "Anil Okonkwo",
+        "age": 54,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 930
+      },
+      {
+        "pat_id": "PAT0100110",
+        "full_name": "William Nguyen",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1610
+      },
+      {
+        "pat_id": "PAT0100113",
+        "full_name": "Susan Rodriguez",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 5,
+        "total_charges": 3289
+      }
+    ]
+  }
+}

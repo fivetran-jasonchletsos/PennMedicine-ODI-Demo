@@ -1,0 +1,284 @@
+{
+  "patient": {
+    "pat_id": "PAT0101383",
+    "med_rec_num": "MRN0201383",
+    "full_name": "Thomas Williams",
+    "birth_date": "1941-05-17",
+    "age": 85,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 12,
+    "total_charges": 4758,
+    "latitude": 40.63355,
+    "longitude": -80.06419,
+    "last_encounter_date": "2026-05-11",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2379 Liberty St",
+    "state": "PA",
+    "phone": "(412) 497-1793",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101383",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001383-000",
+        "contact_date": "2026-05-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0001383-001",
+        "contact_date": "2026-01-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 111
+      },
+      {
+        "pat_enc_csn_id": "0001383-002",
+        "contact_date": "2025-09-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001383-003",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 84
+      },
+      {
+        "pat_enc_csn_id": "0001383-004",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001383-005",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0001383-006",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 2548
+      },
+      {
+        "pat_enc_csn_id": "0001383-007",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0001383-008",
+        "contact_date": "2025-03-20",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 161
+      },
+      {
+        "pat_enc_csn_id": "0001383-009",
+        "contact_date": "2025-01-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0001383-010",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 203
+      },
+      {
+        "pat_enc_csn_id": "0001383-011",
+        "contact_date": "2024-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 364
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101383",
+    "diagnoses": [
+      {
+        "dx_id": "0001383-dx-000",
+        "pat_enc_csn_id": "0001383-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0001383-dx-001",
+        "pat_enc_csn_id": "0001383-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0001383-dx-002",
+        "pat_enc_csn_id": "0001383-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1959-05-13"
+      },
+      {
+        "dx_id": "0001383-acu-000",
+        "pat_enc_csn_id": "0001383-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-05-11"
+      },
+      {
+        "dx_id": "0001383-acu-001",
+        "pat_enc_csn_id": "0001383-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-01-18"
+      },
+      {
+        "dx_id": "0001383-acu-002",
+        "pat_enc_csn_id": "0001383-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-09-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101383",
+    "summary": {
+      "total_charges": 4758,
+      "total_payments": 3469,
+      "outstanding_balance": 1289,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000138300",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 4758,
+        "total_payments": 3469,
+        "current_balance": 1289,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-11-20",
+        "closed_date": "2026-02-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101383",
+    "comparables": [
+      {
+        "pat_id": "PAT0100073",
+        "full_name": "Kenji Schmidt",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 33356
+      },
+      {
+        "pat_id": "PAT0100075",
+        "full_name": "Kevin Walsh",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 17,
+        "total_charges": 13125
+      },
+      {
+        "pat_id": "PAT0100083",
+        "full_name": "George Johnson",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 15,
+        "total_charges": 18721
+      },
+      {
+        "pat_id": "PAT0100091",
+        "full_name": "Joseph Martin",
+        "age": 88,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 18481
+      },
+      {
+        "pat_id": "PAT0100101",
+        "full_name": "Sandra Wong",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 10,
+        "total_charges": 19769
+      },
+      {
+        "pat_id": "PAT0100124",
+        "full_name": "William Jones",
+        "age": 83,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 35420
+      }
+    ]
+  }
+}

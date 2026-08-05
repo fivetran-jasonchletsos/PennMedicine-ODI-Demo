@@ -1,0 +1,205 @@
+{
+  "patient": {
+    "pat_id": "PAT0100286",
+    "med_rec_num": "MRN0200286",
+    "full_name": "Linda Gonzalez",
+    "birth_date": "2025-02-08",
+    "age": 1,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 27119,
+    "latitude": 40.3283,
+    "longitude": -80.03368,
+    "last_encounter_date": "2026-02-23",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8846 Beacon St",
+    "state": "PA",
+    "phone": "(412) 877-7411",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0100286",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000286-000",
+        "contact_date": "2026-02-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000286-001",
+        "contact_date": "2025-10-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000286-002",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 19534
+      },
+      {
+        "pat_enc_csn_id": "0000286-003",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_enc_csn_id": "0000286-004",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 1,
+        "total_charges": 267
+      },
+      {
+        "pat_enc_csn_id": "0000286-005",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000286-006",
+        "contact_date": "2024-09-05",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 6485
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100286",
+    "diagnoses": [
+      {
+        "dx_id": "0000286-acu-001",
+        "pat_enc_csn_id": "0000286-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100286",
+    "summary": {
+      "total_charges": 27119,
+      "total_payments": 22986,
+      "outstanding_balance": 4133,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000028600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3718,
+        "total_payments": 2919,
+        "current_balance": 799,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-02-25",
+        "closed_date": "2025-11-07"
+      },
+      {
+        "hsp_account_id": "HSP000028601",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 23401,
+        "total_payments": 20067,
+        "current_balance": 3334,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-11-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100286",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      },
+      {
+        "pat_id": "PAT0100338",
+        "full_name": "Kimberly Taylor",
+        "age": 8,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 3614
+      }
+    ]
+  }
+}

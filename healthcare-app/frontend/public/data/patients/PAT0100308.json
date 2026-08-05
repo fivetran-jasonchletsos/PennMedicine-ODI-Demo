@@ -1,0 +1,386 @@
+{
+  "patient": {
+    "pat_id": "PAT0100308",
+    "med_rec_num": "MRN0200308",
+    "full_name": "Sofia Kim",
+    "birth_date": "1962-04-13",
+    "age": 64,
+    "sex": "F",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 5,
+    "encounter_count": 20,
+    "total_charges": 62211,
+    "latitude": 40.29914,
+    "longitude": -79.5428,
+    "last_encounter_date": "2026-04-18",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "9659 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 689-1556",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100308",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000308-000",
+        "contact_date": "2026-04-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000308-001",
+        "contact_date": "2026-02-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 176
+      },
+      {
+        "pat_enc_csn_id": "0000308-002",
+        "contact_date": "2026-01-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 36274
+      },
+      {
+        "pat_enc_csn_id": "0000308-003",
+        "contact_date": "2025-12-04",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000308-004",
+        "contact_date": "2025-11-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 396
+      },
+      {
+        "pat_enc_csn_id": "0000308-005",
+        "contact_date": "2025-09-11",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 3684
+      },
+      {
+        "pat_enc_csn_id": "0000308-006",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0000308-007",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 6068
+      },
+      {
+        "pat_enc_csn_id": "0000308-008",
+        "contact_date": "2025-05-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000308-009",
+        "contact_date": "2025-04-11",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000308-010",
+        "contact_date": "2025-03-31",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 419
+      },
+      {
+        "pat_enc_csn_id": "0000308-011",
+        "contact_date": "2025-02-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 198
+      },
+      {
+        "pat_enc_csn_id": "0000308-012",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000308-013",
+        "contact_date": "2024-10-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 343
+      },
+      {
+        "pat_enc_csn_id": "0000308-014",
+        "contact_date": "2024-10-13",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 6,
+        "total_charges": 4036
+      },
+      {
+        "pat_enc_csn_id": "0000308-015",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 3082
+      },
+      {
+        "pat_enc_csn_id": "0000308-016",
+        "contact_date": "2024-08-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 5550
+      },
+      {
+        "pat_enc_csn_id": "0000308-017",
+        "contact_date": "2024-07-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 214
+      },
+      {
+        "pat_enc_csn_id": "0000308-018",
+        "contact_date": "2024-06-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000308-019",
+        "contact_date": "2024-06-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 399
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100308",
+    "diagnoses": [
+      {
+        "dx_id": "0000308-dx-000",
+        "pat_enc_csn_id": "0000308-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2010-05-13"
+      },
+      {
+        "dx_id": "0000308-dx-001",
+        "pat_enc_csn_id": "0000308-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2005-05-13"
+      },
+      {
+        "dx_id": "0000308-dx-002",
+        "pat_enc_csn_id": "0000308-000",
+        "icd10_code": "J45.909",
+        "diagnosis_name": "Unspecified asthma, uncomplicated",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000308-dx-003",
+        "pat_enc_csn_id": "0000308-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000308-dx-004",
+        "pat_enc_csn_id": "0000308-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000308-acu-001",
+        "pat_enc_csn_id": "0000308-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100308",
+    "summary": {
+      "total_charges": 62211,
+      "total_payments": 48824,
+      "outstanding_balance": 13387,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000030800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 61591,
+        "total_payments": 48343,
+        "current_balance": 13248,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-31",
+        "closed_date": "2026-01-10"
+      },
+      {
+        "hsp_account_id": "HSP000030801",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 225,
+        "total_payments": 156,
+        "current_balance": 69,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-31",
+        "closed_date": "2026-02-05"
+      },
+      {
+        "hsp_account_id": "HSP000030802",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 395,
+        "total_payments": 325,
+        "current_balance": 70,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-23",
+        "closed_date": "2026-02-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100308",
+    "comparables": [
+      {
+        "pat_id": "PAT0100025",
+        "full_name": "James Okonkwo",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 13,
+        "total_charges": 16528
+      },
+      {
+        "pat_id": "PAT0100026",
+        "full_name": "Jennifer Taylor",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 14304
+      },
+      {
+        "pat_id": "PAT0100066",
+        "full_name": "Joseph Brown",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 13,
+        "total_charges": 39753
+      },
+      {
+        "pat_id": "PAT0100218",
+        "full_name": "Elizabeth Johnson",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 34586
+      },
+      {
+        "pat_id": "PAT0100380",
+        "full_name": "George Chen",
+        "age": 69,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 17,
+        "total_charges": 27102
+      },
+      {
+        "pat_id": "PAT0100503",
+        "full_name": "Mary Russo",
+        "age": 67,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 14438
+      }
+    ]
+  }
+}

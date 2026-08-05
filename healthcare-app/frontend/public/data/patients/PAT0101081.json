@@ -1,0 +1,262 @@
+{
+  "patient": {
+    "pat_id": "PAT0101081",
+    "med_rec_num": "MRN0201081",
+    "full_name": "Robert Chen",
+    "birth_date": "1967-04-22",
+    "age": 59,
+    "sex": "M",
+    "city": "Glenshaw",
+    "zip_code": "15116",
+    "primary_care_provider": "Dr. Sarah Hernandez",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 9389,
+    "latitude": 40.52409,
+    "longitude": -79.96198,
+    "last_encounter_date": "2026-01-13",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1918 Beacon St",
+    "state": "PA",
+    "phone": "(412) 744-2670",
+    "primary_care_department": "Pulmonology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101081",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001081-000",
+        "contact_date": "2026-01-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3596
+      },
+      {
+        "pat_enc_csn_id": "0001081-001",
+        "contact_date": "2025-10-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 289
+      },
+      {
+        "pat_enc_csn_id": "0001081-002",
+        "contact_date": "2025-09-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 158
+      },
+      {
+        "pat_enc_csn_id": "0001081-003",
+        "contact_date": "2025-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001081-004",
+        "contact_date": "2025-08-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 294
+      },
+      {
+        "pat_enc_csn_id": "0001081-005",
+        "contact_date": "2025-08-09",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0001081-006",
+        "contact_date": "2025-08-02",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3266
+      },
+      {
+        "pat_enc_csn_id": "0001081-007",
+        "contact_date": "2025-06-23",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 228
+      },
+      {
+        "pat_enc_csn_id": "0001081-008",
+        "contact_date": "2025-05-25",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 100
+      },
+      {
+        "pat_enc_csn_id": "0001081-009",
+        "contact_date": "2025-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0001081-010",
+        "contact_date": "2025-01-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0001081-011",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0001081-012",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 315
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101081",
+    "diagnoses": [
+      {
+        "dx_id": "0001081-dx-000",
+        "pat_enc_csn_id": "0001081-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1985-05-13"
+      },
+      {
+        "dx_id": "0001081-acu-002",
+        "pat_enc_csn_id": "0001081-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-25"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101081",
+    "summary": {
+      "total_charges": 9389,
+      "total_payments": 5975,
+      "outstanding_balance": 3414,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000108100",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 9389,
+        "total_payments": 5975,
+        "current_balance": 3414,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-16",
+        "closed_date": "2026-03-03"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101081",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "patient": {
+    "pat_id": "PAT0100831",
+    "med_rec_num": "MRN0200831",
+    "full_name": "Thomas Brown",
+    "birth_date": "1945-12-01",
+    "age": 81,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Ashley Garcia",
+    "active_chronic_count": 2,
+    "encounter_count": 11,
+    "total_charges": 2709,
+    "latitude": 40.34348,
+    "longitude": -79.8434,
+    "last_encounter_date": "2026-04-21",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3543 Centre St",
+    "state": "PA",
+    "phone": "(412) 549-1418",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0100831",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000831-000",
+        "contact_date": "2026-04-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 125
+      },
+      {
+        "pat_enc_csn_id": "0000831-001",
+        "contact_date": "2026-01-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 325
+      },
+      {
+        "pat_enc_csn_id": "0000831-002",
+        "contact_date": "2026-01-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 300
+      },
+      {
+        "pat_enc_csn_id": "0000831-003",
+        "contact_date": "2026-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000831-004",
+        "contact_date": "2025-12-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000831-005",
+        "contact_date": "2025-10-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 141
+      },
+      {
+        "pat_enc_csn_id": "0000831-006",
+        "contact_date": "2025-09-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000831-007",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0000831-008",
+        "contact_date": "2025-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 409
+      },
+      {
+        "pat_enc_csn_id": "0000831-009",
+        "contact_date": "2024-11-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0000831-010",
+        "contact_date": "2024-05-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 203
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100831",
+    "diagnoses": [
+      {
+        "dx_id": "0000831-dx-000",
+        "pat_enc_csn_id": "0000831-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0000831-dx-001",
+        "pat_enc_csn_id": "0000831-000",
+        "icd10_code": "I50.9",
+        "diagnosis_name": "Heart failure, unspecified",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100831",
+    "summary": {
+      "total_charges": 2709,
+      "total_payments": 1785,
+      "outstanding_balance": 924,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000083100",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2709,
+        "total_payments": 1785,
+        "current_balance": 924,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-07-08",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100831",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

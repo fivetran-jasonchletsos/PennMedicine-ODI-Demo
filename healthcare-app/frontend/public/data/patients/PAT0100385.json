@@ -1,0 +1,221 @@
+{
+  "patient": {
+    "pat_id": "PAT0100385",
+    "med_rec_num": "MRN0200385",
+    "full_name": "Kevin Anderson",
+    "birth_date": "1965-12-21",
+    "age": 61,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Michael Greene",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 37585,
+    "latitude": 40.41832,
+    "longitude": -79.78962,
+    "last_encounter_date": "2025-01-09",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6038 Beacon Rd",
+    "state": "PA",
+    "phone": "(412) 382-5968",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100385",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000385-000",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000385-001",
+        "contact_date": "2025-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 407
+      },
+      {
+        "pat_enc_csn_id": "0000385-002",
+        "contact_date": "2024-09-26",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 24690
+      },
+      {
+        "pat_enc_csn_id": "0000385-003",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 354
+      },
+      {
+        "pat_enc_csn_id": "0000385-004",
+        "contact_date": "2024-08-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 364
+      },
+      {
+        "pat_enc_csn_id": "0000385-005",
+        "contact_date": "2024-06-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 11220
+      },
+      {
+        "pat_enc_csn_id": "0000385-006",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 369
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100385",
+    "diagnoses": [
+      {
+        "dx_id": "0000385-acu-000",
+        "pat_enc_csn_id": "0000385-000",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-01-09"
+      },
+      {
+        "dx_id": "0000385-acu-001",
+        "pat_enc_csn_id": "0000385-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-01-04"
+      },
+      {
+        "dx_id": "0000385-acu-002",
+        "pat_enc_csn_id": "0000385-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2024-09-26"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100385",
+    "summary": {
+      "total_charges": 37585,
+      "total_payments": 32284,
+      "outstanding_balance": 5301,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000038500",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 2709,
+        "total_payments": 1746,
+        "current_balance": 963,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-12-01",
+        "closed_date": "2025-11-24"
+      },
+      {
+        "hsp_account_id": "HSP000038501",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 34876,
+        "total_payments": 30538,
+        "current_balance": 4338,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-07-02",
+        "closed_date": "2026-03-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100385",
+    "comparables": [
+      {
+        "pat_id": "PAT0100133",
+        "full_name": "James Petrov",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 571
+      },
+      {
+        "pat_id": "PAT0100355",
+        "full_name": "Anil Wilson",
+        "age": 61,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 26512
+      },
+      {
+        "pat_id": "PAT0100431",
+        "full_name": "Michelle Khan",
+        "age": 63,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 13665
+      },
+      {
+        "pat_id": "PAT0100549",
+        "full_name": "Barbara Russo",
+        "age": 64,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 629
+      },
+      {
+        "pat_id": "PAT0100593",
+        "full_name": "Michael Park",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 13109
+      },
+      {
+        "pat_id": "PAT0100619",
+        "full_name": "James Walsh",
+        "age": 62,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 502
+      }
+    ]
+  }
+}

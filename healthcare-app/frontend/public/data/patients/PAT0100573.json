@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100573",
+    "med_rec_num": "MRN0200573",
+    "full_name": "Linda Martinez",
+    "birth_date": "1959-11-12",
+    "age": 67,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Mark Jackson",
+    "active_chronic_count": 3,
+    "encounter_count": 10,
+    "total_charges": 42428,
+    "latitude": 40.36162,
+    "longitude": -79.90037,
+    "last_encounter_date": "2026-04-27",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6244 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 225-7072",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100573",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000573-000",
+        "contact_date": "2026-04-27",
+        "encounter_type": "Follow-up",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 165
+      },
+      {
+        "pat_enc_csn_id": "0000573-001",
+        "contact_date": "2026-04-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0000573-002",
+        "contact_date": "2025-10-14",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 33097
+      },
+      {
+        "pat_enc_csn_id": "0000573-003",
+        "contact_date": "2025-09-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000573-004",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 1453
+      },
+      {
+        "pat_enc_csn_id": "0000573-005",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 110
+      },
+      {
+        "pat_enc_csn_id": "0000573-006",
+        "contact_date": "2025-01-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha O'Brien",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 260
+      },
+      {
+        "pat_enc_csn_id": "0000573-007",
+        "contact_date": "2024-12-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0000573-008",
+        "contact_date": "2024-06-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 6295
+      },
+      {
+        "pat_enc_csn_id": "0000573-009",
+        "contact_date": "2024-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 398
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100573",
+    "diagnoses": [
+      {
+        "dx_id": "0000573-dx-000",
+        "pat_enc_csn_id": "0000573-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000573-dx-001",
+        "pat_enc_csn_id": "0000573-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000573-dx-002",
+        "pat_enc_csn_id": "0000573-000",
+        "icd10_code": "F41.9",
+        "diagnosis_name": "Anxiety disorder, unspecified",
+        "chronic": true,
+        "first_recorded": "1980-05-13"
+      },
+      {
+        "dx_id": "0000573-acu-002",
+        "pat_enc_csn_id": "0000573-002",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-10-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100573",
+    "summary": {
+      "total_charges": 42428,
+      "total_payments": 38034,
+      "outstanding_balance": 4394,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000057300",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 25541,
+        "total_payments": 24621,
+        "current_balance": 920,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-09-04",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000057301",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 4164,
+        "total_payments": 3304,
+        "current_balance": 860,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-01",
+        "closed_date": "2026-03-10"
+      },
+      {
+        "hsp_account_id": "HSP000057302",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 12723,
+        "total_payments": 10109,
+        "current_balance": 2614,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-10-30",
+        "closed_date": "2026-03-27"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100573",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

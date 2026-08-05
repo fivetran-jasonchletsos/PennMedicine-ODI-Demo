@@ -1,0 +1,240 @@
+{
+  "patient": {
+    "pat_id": "PAT0101307",
+    "med_rec_num": "MRN0201307",
+    "full_name": "Maria Singh",
+    "birth_date": "1991-04-13",
+    "age": 35,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15212",
+    "primary_care_provider": "Dr. Kenji Hernandez",
+    "active_chronic_count": 0,
+    "encounter_count": 10,
+    "total_charges": 8668,
+    "latitude": 40.45931,
+    "longitude": -80.01075,
+    "last_encounter_date": "2026-05-08",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "9731 Walnut Blvd",
+    "state": "PA",
+    "phone": "(412) 711-4785",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0101307",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001307-000",
+        "contact_date": "2026-05-08",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0001307-001",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0001307-002",
+        "contact_date": "2026-01-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 1,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0001307-003",
+        "contact_date": "2026-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 1,
+        "total_charges": 367
+      },
+      {
+        "pat_enc_csn_id": "0001307-004",
+        "contact_date": "2026-01-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 412
+      },
+      {
+        "pat_enc_csn_id": "0001307-005",
+        "contact_date": "2025-10-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 324
+      },
+      {
+        "pat_enc_csn_id": "0001307-006",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 360
+      },
+      {
+        "pat_enc_csn_id": "0001307-007",
+        "contact_date": "2025-05-03",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 1,
+        "total_charges": 5909
+      },
+      {
+        "pat_enc_csn_id": "0001307-008",
+        "contact_date": "2025-02-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 301
+      },
+      {
+        "pat_enc_csn_id": "0001307-009",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 1,
+        "total_charges": 282
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101307",
+    "diagnoses": [
+      {
+        "dx_id": "0001307-acu-000",
+        "pat_enc_csn_id": "0001307-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-08"
+      },
+      {
+        "dx_id": "0001307-acu-001",
+        "pat_enc_csn_id": "0001307-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-16"
+      },
+      {
+        "dx_id": "0001307-acu-002",
+        "pat_enc_csn_id": "0001307-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-01-21"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101307",
+    "summary": {
+      "total_charges": 8668,
+      "total_payments": 5720,
+      "outstanding_balance": 2948,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000130700",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 8668,
+        "total_payments": 5720,
+        "current_balance": 2948,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-30",
+        "closed_date": "2025-12-24"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101307",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

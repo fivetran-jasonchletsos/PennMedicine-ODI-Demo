@@ -1,0 +1,297 @@
+{
+  "patient": {
+    "pat_id": "PAT0100078",
+    "med_rec_num": "MRN0200078",
+    "full_name": "Sandra Wilson",
+    "birth_date": "1961-08-08",
+    "age": 65,
+    "sex": "F",
+    "city": "Bethel Park",
+    "zip_code": "15102",
+    "primary_care_provider": "Dr. Maria Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 13,
+    "total_charges": 18312,
+    "latitude": 40.32713,
+    "longitude": -80.03822,
+    "last_encounter_date": "2026-05-03",
+    "race": "Asian",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6409 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 268-2854",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100078",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000078-000",
+        "contact_date": "2026-05-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000078-001",
+        "contact_date": "2026-04-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 319
+      },
+      {
+        "pat_enc_csn_id": "0000078-002",
+        "contact_date": "2026-03-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000078-003",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 413
+      },
+      {
+        "pat_enc_csn_id": "0000078-004",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 229
+      },
+      {
+        "pat_enc_csn_id": "0000078-005",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 347
+      },
+      {
+        "pat_enc_csn_id": "0000078-006",
+        "contact_date": "2025-12-21",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 405
+      },
+      {
+        "pat_enc_csn_id": "0000078-007",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 102
+      },
+      {
+        "pat_enc_csn_id": "0000078-008",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 208
+      },
+      {
+        "pat_enc_csn_id": "0000078-009",
+        "contact_date": "2025-11-01",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 217
+      },
+      {
+        "pat_enc_csn_id": "0000078-010",
+        "contact_date": "2025-05-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 337
+      },
+      {
+        "pat_enc_csn_id": "0000078-011",
+        "contact_date": "2025-02-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 416
+      },
+      {
+        "pat_enc_csn_id": "0000078-012",
+        "contact_date": "2024-07-22",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Maria Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 14702
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100078",
+    "diagnoses": [
+      {
+        "dx_id": "0000078-dx-000",
+        "pat_enc_csn_id": "0000078-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000078-dx-001",
+        "pat_enc_csn_id": "0000078-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000078-dx-002",
+        "pat_enc_csn_id": "0000078-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000078-acu-001",
+        "pat_enc_csn_id": "0000078-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-30"
+      },
+      {
+        "dx_id": "0000078-acu-002",
+        "pat_enc_csn_id": "0000078-002",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-03-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100078",
+    "summary": {
+      "total_charges": 18312,
+      "total_payments": 12843,
+      "outstanding_balance": 5469,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000007800",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5942,
+        "total_payments": 5119,
+        "current_balance": 823,
+        "primary_payer": "Cigna",
+        "opened_date": "2025-04-22",
+        "closed_date": "2026-03-04"
+      },
+      {
+        "hsp_account_id": "HSP000007801",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 12370,
+        "total_payments": 7724,
+        "current_balance": 4646,
+        "primary_payer": "Aetna",
+        "opened_date": "2026-04-11",
+        "closed_date": "2026-04-04"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100078",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

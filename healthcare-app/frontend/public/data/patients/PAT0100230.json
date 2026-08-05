@@ -1,0 +1,258 @@
+{
+  "patient": {
+    "pat_id": "PAT0100230",
+    "med_rec_num": "MRN0200230",
+    "full_name": "George Johnson",
+    "birth_date": "2017-07-26",
+    "age": 9,
+    "sex": "M",
+    "city": "Mt Lebanon",
+    "zip_code": "15228",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 1,
+    "encounter_count": 11,
+    "total_charges": 5934,
+    "latitude": 40.37915,
+    "longitude": -80.05007,
+    "last_encounter_date": "2026-05-09",
+    "race": "Other",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1217 Penn Blvd",
+    "state": "PA",
+    "phone": "(412) 915-7258",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100230",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000230-000",
+        "contact_date": "2026-05-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 272
+      },
+      {
+        "pat_enc_csn_id": "0000230-001",
+        "contact_date": "2026-04-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 385
+      },
+      {
+        "pat_enc_csn_id": "0000230-002",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3451
+      },
+      {
+        "pat_enc_csn_id": "0000230-003",
+        "contact_date": "2025-11-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 326
+      },
+      {
+        "pat_enc_csn_id": "0000230-004",
+        "contact_date": "2025-08-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 211
+      },
+      {
+        "pat_enc_csn_id": "0000230-005",
+        "contact_date": "2025-05-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 133
+      },
+      {
+        "pat_enc_csn_id": "0000230-006",
+        "contact_date": "2025-04-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 218
+      },
+      {
+        "pat_enc_csn_id": "0000230-007",
+        "contact_date": "2025-04-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0000230-008",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Greene",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 311
+      },
+      {
+        "pat_enc_csn_id": "0000230-009",
+        "contact_date": "2024-09-02",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 51
+      },
+      {
+        "pat_enc_csn_id": "0000230-010",
+        "contact_date": "2024-08-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 374
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100230",
+    "diagnoses": [
+      {
+        "dx_id": "0000230-dx-000",
+        "pat_enc_csn_id": "0000230-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2025-05-13"
+      },
+      {
+        "dx_id": "0000230-acu-000",
+        "pat_enc_csn_id": "0000230-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-05-09"
+      },
+      {
+        "dx_id": "0000230-acu-001",
+        "pat_enc_csn_id": "0000230-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-17"
+      },
+      {
+        "dx_id": "0000230-acu-002",
+        "pat_enc_csn_id": "0000230-002",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100230",
+    "summary": {
+      "total_charges": 5934,
+      "total_payments": 3925,
+      "outstanding_balance": 2009,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000023000",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 5934,
+        "total_payments": 3925,
+        "current_balance": 2009,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-04-25",
+        "closed_date": "2026-01-17"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100230",
+    "comparables": [
+      {
+        "pat_id": "PAT0100006",
+        "full_name": "Ashley Russo",
+        "age": 0,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 318
+      },
+      {
+        "pat_id": "PAT0100084",
+        "full_name": "Janet Greene",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 1807
+      },
+      {
+        "pat_id": "PAT0100116",
+        "full_name": "Linda O'Brien",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 46409
+      },
+      {
+        "pat_id": "PAT0100284",
+        "full_name": "Aisha Lopez",
+        "age": 9,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 747
+      },
+      {
+        "pat_id": "PAT0100286",
+        "full_name": "Linda Gonzalez",
+        "age": 1,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 27119
+      },
+      {
+        "pat_id": "PAT0100335",
+        "full_name": "Elizabeth Okonkwo",
+        "age": 7,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2574
+      }
+    ]
+  }
+}

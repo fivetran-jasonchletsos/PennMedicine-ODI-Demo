@@ -1,0 +1,271 @@
+{
+  "patient": {
+    "pat_id": "PAT0100551",
+    "med_rec_num": "MRN0200551",
+    "full_name": "Carol Lopez",
+    "birth_date": "1938-03-06",
+    "age": 88,
+    "sex": "F",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 2,
+    "encounter_count": 12,
+    "total_charges": 37291,
+    "latitude": 40.47274,
+    "longitude": -79.83505,
+    "last_encounter_date": "2026-04-11",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "7836 Murray Rd",
+    "state": "PA",
+    "phone": "(412) 295-6925",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100551",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000551-000",
+        "contact_date": "2026-04-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000551-001",
+        "contact_date": "2026-04-06",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000551-002",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 223
+      },
+      {
+        "pat_enc_csn_id": "0000551-003",
+        "contact_date": "2025-11-29",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 368
+      },
+      {
+        "pat_enc_csn_id": "0000551-004",
+        "contact_date": "2025-09-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 3439
+      },
+      {
+        "pat_enc_csn_id": "0000551-005",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 3,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000551-006",
+        "contact_date": "2025-07-21",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 2722
+      },
+      {
+        "pat_enc_csn_id": "0000551-007",
+        "contact_date": "2025-07-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 3,
+        "total_charges": 323
+      },
+      {
+        "pat_enc_csn_id": "0000551-008",
+        "contact_date": "2024-12-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 239
+      },
+      {
+        "pat_enc_csn_id": "0000551-009",
+        "contact_date": "2024-10-01",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 18772
+      },
+      {
+        "pat_enc_csn_id": "0000551-010",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 4091
+      },
+      {
+        "pat_enc_csn_id": "0000551-011",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 6425
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100551",
+    "diagnoses": [
+      {
+        "dx_id": "0000551-dx-000",
+        "pat_enc_csn_id": "0000551-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1994-05-13"
+      },
+      {
+        "dx_id": "0000551-dx-001",
+        "pat_enc_csn_id": "0000551-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1995-05-13"
+      },
+      {
+        "dx_id": "0000551-acu-002",
+        "pat_enc_csn_id": "0000551-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-12-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100551",
+    "summary": {
+      "total_charges": 37291,
+      "total_payments": 23644,
+      "outstanding_balance": 13647,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000055100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 35479,
+        "total_payments": 22154,
+        "current_balance": 13325,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-03-11",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000055101",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 1812,
+        "total_payments": 1490,
+        "current_balance": 322,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-07-22",
+        "closed_date": "2026-02-11"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100551",
+    "comparables": [
+      {
+        "pat_id": "PAT0100094",
+        "full_name": "David Moore",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 16,
+        "total_charges": 9105
+      },
+      {
+        "pat_id": "PAT0100144",
+        "full_name": "Hassan Miller",
+        "age": 85,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 42748
+      },
+      {
+        "pat_id": "PAT0100414",
+        "full_name": "Janet Johnson",
+        "age": 89,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 5,
+        "total_charges": 7471
+      },
+      {
+        "pat_id": "PAT0100499",
+        "full_name": "Paul Petrov",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 39428
+      },
+      {
+        "pat_id": "PAT0100520",
+        "full_name": "Sharon Davis",
+        "age": 87,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 17,
+        "total_charges": 47280
+      },
+      {
+        "pat_id": "PAT0100694",
+        "full_name": "Donna Rodriguez",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 8277
+      }
+    ]
+  }
+}

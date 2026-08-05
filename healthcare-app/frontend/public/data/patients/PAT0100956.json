@@ -1,0 +1,144 @@
+{
+  "patient": {
+    "pat_id": "PAT0100956",
+    "med_rec_num": "MRN0200956",
+    "full_name": "Kevin Garcia",
+    "birth_date": "2001-11-23",
+    "age": 25,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. James Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 2,
+    "total_charges": 632,
+    "latitude": 40.36208,
+    "longitude": -79.90257,
+    "last_encounter_date": "2025-06-20",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "1205 Centre Rd",
+    "state": "PA",
+    "phone": "(412) 226-9886",
+    "primary_care_department": "Orthopedics"
+  },
+  "encounters": {
+    "pat_id": "PAT0100956",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000956-000",
+        "contact_date": "2025-06-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 1,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0000956-001",
+        "contact_date": "2024-12-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 407
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100956",
+    "diagnoses": [
+      {
+        "dx_id": "0000956-acu-000",
+        "pat_enc_csn_id": "0000956-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-06-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100956",
+    "summary": {
+      "total_charges": 632,
+      "total_payments": 534,
+      "outstanding_balance": 98,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000095600",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 632,
+        "total_payments": 534,
+        "current_balance": 98,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-12-23",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100956",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

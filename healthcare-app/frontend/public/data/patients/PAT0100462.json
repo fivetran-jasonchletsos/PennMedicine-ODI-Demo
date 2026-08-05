@@ -1,0 +1,354 @@
+{
+  "patient": {
+    "pat_id": "PAT0100462",
+    "med_rec_num": "MRN0200462",
+    "full_name": "David Brown",
+    "birth_date": "1934-02-20",
+    "age": 92,
+    "sex": "M",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 4,
+    "encounter_count": 19,
+    "total_charges": 25919,
+    "latitude": 40.34198,
+    "longitude": -79.84541,
+    "last_encounter_date": "2026-03-05",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1548 Beacon St",
+    "state": "PA",
+    "phone": "(412) 438-2854",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0100462",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000462-000",
+        "contact_date": "2026-03-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0000462-001",
+        "contact_date": "2026-02-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 213
+      },
+      {
+        "pat_enc_csn_id": "0000462-002",
+        "contact_date": "2026-01-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 194
+      },
+      {
+        "pat_enc_csn_id": "0000462-003",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 2815
+      },
+      {
+        "pat_enc_csn_id": "0000462-004",
+        "contact_date": "2025-08-25",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 190
+      },
+      {
+        "pat_enc_csn_id": "0000462-005",
+        "contact_date": "2025-08-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 5,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000462-006",
+        "contact_date": "2025-06-28",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 97
+      },
+      {
+        "pat_enc_csn_id": "0000462-007",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 5,
+        "total_charges": 2098
+      },
+      {
+        "pat_enc_csn_id": "0000462-008",
+        "contact_date": "2025-05-24",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 7260
+      },
+      {
+        "pat_enc_csn_id": "0000462-009",
+        "contact_date": "2025-05-19",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 5,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0000462-010",
+        "contact_date": "2025-05-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 118
+      },
+      {
+        "pat_enc_csn_id": "0000462-011",
+        "contact_date": "2025-03-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 5,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000462-012",
+        "contact_date": "2024-10-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 5,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0000462-013",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000462-014",
+        "contact_date": "2024-09-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000462-015",
+        "contact_date": "2024-08-21",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 5,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0000462-016",
+        "contact_date": "2024-07-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 4906
+      },
+      {
+        "pat_enc_csn_id": "0000462-017",
+        "contact_date": "2024-06-22",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 5,
+        "total_charges": 5712
+      },
+      {
+        "pat_enc_csn_id": "0000462-018",
+        "contact_date": "2024-05-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 4,
+        "total_charges": 345
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100462",
+    "diagnoses": [
+      {
+        "dx_id": "0000462-dx-000",
+        "pat_enc_csn_id": "0000462-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "1958-05-13"
+      },
+      {
+        "dx_id": "0000462-dx-001",
+        "pat_enc_csn_id": "0000462-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1971-05-13"
+      },
+      {
+        "dx_id": "0000462-dx-002",
+        "pat_enc_csn_id": "0000462-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2003-05-13"
+      },
+      {
+        "dx_id": "0000462-dx-003",
+        "pat_enc_csn_id": "0000462-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0000462-acu-001",
+        "pat_enc_csn_id": "0000462-001",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2026-02-07"
+      },
+      {
+        "dx_id": "0000462-acu-002",
+        "pat_enc_csn_id": "0000462-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-20"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100462",
+    "summary": {
+      "total_charges": 25919,
+      "total_payments": 22435,
+      "outstanding_balance": 3484,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000046200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 25919,
+        "total_payments": 22435,
+        "current_balance": 3484,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-04-03",
+        "closed_date": "2025-11-06"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100462",
+    "comparables": [
+      {
+        "pat_id": "PAT0100039",
+        "full_name": "Janet Jackson",
+        "age": 94,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 38248
+      },
+      {
+        "pat_id": "PAT0100247",
+        "full_name": "Paul Chen",
+        "age": 91,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39653
+      },
+      {
+        "pat_id": "PAT0100700",
+        "full_name": "Susan Petrov",
+        "age": 92,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 20,
+        "total_charges": 39295
+      },
+      {
+        "pat_id": "PAT0100713",
+        "full_name": "Reshma Patel",
+        "age": 95,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 15,
+        "total_charges": 17526
+      },
+      {
+        "pat_id": "PAT0100729",
+        "full_name": "Susan Kim",
+        "age": 90,
+        "sex": "F",
+        "chronic_overlap_count": 3,
+        "encounter_count": 19,
+        "total_charges": 30893
+      },
+      {
+        "pat_id": "PAT0100776",
+        "full_name": "Andrew Singh",
+        "age": 90,
+        "sex": "M",
+        "chronic_overlap_count": 3,
+        "encounter_count": 16,
+        "total_charges": 33842
+      }
+    ]
+  }
+}

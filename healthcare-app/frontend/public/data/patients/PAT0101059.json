@@ -1,0 +1,194 @@
+{
+  "patient": {
+    "pat_id": "PAT0101059",
+    "med_rec_num": "MRN0201059",
+    "full_name": "Kimberly Gonzalez",
+    "birth_date": "1998-06-21",
+    "age": 28,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. David Russo",
+    "active_chronic_count": 0,
+    "encounter_count": 7,
+    "total_charges": 2180,
+    "latitude": 40.44497,
+    "longitude": -79.96413,
+    "last_encounter_date": "2025-06-22",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6528 Forbes St",
+    "state": "PA",
+    "phone": "(412) 498-5479",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101059",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001059-000",
+        "contact_date": "2025-06-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 297
+      },
+      {
+        "pat_enc_csn_id": "0001059-001",
+        "contact_date": "2025-06-06",
+        "encounter_type": "Follow-up",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 225
+      },
+      {
+        "pat_enc_csn_id": "0001059-002",
+        "contact_date": "2025-06-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 303
+      },
+      {
+        "pat_enc_csn_id": "0001059-003",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 0,
+        "total_charges": 415
+      },
+      {
+        "pat_enc_csn_id": "0001059-004",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 1,
+        "total_charges": 209
+      },
+      {
+        "pat_enc_csn_id": "0001059-005",
+        "contact_date": "2024-10-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 391
+      },
+      {
+        "pat_enc_csn_id": "0001059-006",
+        "contact_date": "2024-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 1,
+        "total_charges": 340
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101059",
+    "diagnoses": [
+      {
+        "dx_id": "0001059-acu-002",
+        "pat_enc_csn_id": "0001059-002",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-06-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101059",
+    "summary": {
+      "total_charges": 2180,
+      "total_payments": 1811,
+      "outstanding_balance": 369,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000105900",
+        "account_type": "Imaging",
+        "status": "Open",
+        "total_charges": 2180,
+        "total_payments": 1811,
+        "current_balance": 369,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-07",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101059",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

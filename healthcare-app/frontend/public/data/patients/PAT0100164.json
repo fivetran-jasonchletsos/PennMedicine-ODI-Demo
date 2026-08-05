@@ -1,0 +1,270 @@
+{
+  "patient": {
+    "pat_id": "PAT0100164",
+    "med_rec_num": "MRN0200164",
+    "full_name": "Linda Smith",
+    "birth_date": "1996-02-07",
+    "age": 30,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15213",
+    "primary_care_provider": "Dr. Robert Chen",
+    "active_chronic_count": 1,
+    "encounter_count": 13,
+    "total_charges": 50879,
+    "latitude": 40.44607,
+    "longitude": -79.95731,
+    "last_encounter_date": "2026-04-22",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1243 Liberty Blvd",
+    "state": "PA",
+    "phone": "(412) 315-7733",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100164",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000164-000",
+        "contact_date": "2026-04-22",
+        "encounter_type": "Procedure",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 5273
+      },
+      {
+        "pat_enc_csn_id": "0000164-001",
+        "contact_date": "2026-02-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 402
+      },
+      {
+        "pat_enc_csn_id": "0000164-002",
+        "contact_date": "2026-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0000164-003",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000164-004",
+        "contact_date": "2025-11-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 167
+      },
+      {
+        "pat_enc_csn_id": "0000164-005",
+        "contact_date": "2025-09-01",
+        "encounter_type": "Emergency Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3031
+      },
+      {
+        "pat_enc_csn_id": "0000164-006",
+        "contact_date": "2025-04-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 33318
+      },
+      {
+        "pat_enc_csn_id": "0000164-007",
+        "contact_date": "2025-03-09",
+        "encounter_type": "Procedure",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 6947
+      },
+      {
+        "pat_enc_csn_id": "0000164-008",
+        "contact_date": "2025-01-19",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 205
+      },
+      {
+        "pat_enc_csn_id": "0000164-009",
+        "contact_date": "2024-12-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 248
+      },
+      {
+        "pat_enc_csn_id": "0000164-010",
+        "contact_date": "2024-11-04",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000164-011",
+        "contact_date": "2024-07-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Chen",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 331
+      },
+      {
+        "pat_enc_csn_id": "0000164-012",
+        "contact_date": "2024-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 292
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100164",
+    "diagnoses": [
+      {
+        "dx_id": "0000164-dx-000",
+        "pat_enc_csn_id": "0000164-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0000164-acu-000",
+        "pat_enc_csn_id": "0000164-000",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-04-22"
+      },
+      {
+        "dx_id": "0000164-acu-001",
+        "pat_enc_csn_id": "0000164-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-04"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100164",
+    "summary": {
+      "total_charges": 50879,
+      "total_payments": 41594,
+      "outstanding_balance": 9285,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000016400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 50879,
+        "total_payments": 41594,
+        "current_balance": 9285,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-07-26",
+        "closed_date": "2025-11-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100164",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

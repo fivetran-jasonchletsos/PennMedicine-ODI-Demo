@@ -1,0 +1,243 @@
+{
+  "patient": {
+    "pat_id": "PAT0101132",
+    "med_rec_num": "MRN0201132",
+    "full_name": "Sofia Hernandez",
+    "birth_date": "2000-02-12",
+    "age": 26,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Michael Wong",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 27330,
+    "latitude": 40.43993,
+    "longitude": -79.93204,
+    "last_encounter_date": "2026-04-03",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "1740 Walnut St",
+    "state": "PA",
+    "phone": "(412) 977-3737",
+    "primary_care_department": "Cardiology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101132",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001132-000",
+        "contact_date": "2026-04-03",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 21796
+      },
+      {
+        "pat_enc_csn_id": "0001132-001",
+        "contact_date": "2026-03-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0001132-002",
+        "contact_date": "2026-02-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 339
+      },
+      {
+        "pat_enc_csn_id": "0001132-003",
+        "contact_date": "2025-10-31",
+        "encounter_type": "Office Visit",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 357
+      },
+      {
+        "pat_enc_csn_id": "0001132-004",
+        "contact_date": "2025-05-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 173
+      },
+      {
+        "pat_enc_csn_id": "0001132-005",
+        "contact_date": "2025-05-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 374
+      },
+      {
+        "pat_enc_csn_id": "0001132-006",
+        "contact_date": "2025-03-17",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 230
+      },
+      {
+        "pat_enc_csn_id": "0001132-007",
+        "contact_date": "2025-03-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 202
+      },
+      {
+        "pat_enc_csn_id": "0001132-008",
+        "contact_date": "2025-01-22",
+        "encounter_type": "Procedure",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 3414
+      },
+      {
+        "pat_enc_csn_id": "0001132-009",
+        "contact_date": "2024-05-17",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 311
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101132",
+    "diagnoses": [
+      {
+        "dx_id": "0001132-dx-000",
+        "pat_enc_csn_id": "0001132-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001132-acu-000",
+        "pat_enc_csn_id": "0001132-000",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-03"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101132",
+    "summary": {
+      "total_charges": 27330,
+      "total_payments": 22972,
+      "outstanding_balance": 4358,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000113200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 23119,
+        "total_payments": 19532,
+        "current_balance": 3587,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-18",
+        "closed_date": "2026-04-04"
+      },
+      {
+        "hsp_account_id": "HSP000113201",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 4211,
+        "total_payments": 3440,
+        "current_balance": 771,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-08-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101132",
+    "comparables": [
+      {
+        "pat_id": "PAT0100001",
+        "full_name": "Michelle Hernandez",
+        "age": 20,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 104
+      },
+      {
+        "pat_id": "PAT0100079",
+        "full_name": "Reshma Patel",
+        "age": 26,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 18403
+      },
+      {
+        "pat_id": "PAT0100112",
+        "full_name": "John Walsh",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 6,
+        "total_charges": 7691
+      },
+      {
+        "pat_id": "PAT0100135",
+        "full_name": "Carol Schmidt",
+        "age": 23,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 2953
+      },
+      {
+        "pat_id": "PAT0100165",
+        "full_name": "Carlos Jackson",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 9,
+        "total_charges": 2045
+      },
+      {
+        "pat_id": "PAT0100167",
+        "full_name": "Paul Patel",
+        "age": 27,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 8,
+        "total_charges": 27501
+      }
+    ]
+  }
+}

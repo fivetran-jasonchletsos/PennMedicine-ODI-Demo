@@ -1,0 +1,335 @@
+{
+  "patient": {
+    "pat_id": "PAT0100926",
+    "med_rec_num": "MRN0200926",
+    "full_name": "Anil Khan",
+    "birth_date": "1962-09-09",
+    "age": 64,
+    "sex": "M",
+    "city": "Wexford",
+    "zip_code": "15090",
+    "primary_care_provider": "Dr. Sophia Moore",
+    "active_chronic_count": 3,
+    "encounter_count": 16,
+    "total_charges": 18813,
+    "latitude": 40.62387,
+    "longitude": -80.06314,
+    "last_encounter_date": "2026-02-20",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2793 Forbes Rd",
+    "state": "PA",
+    "phone": "(412) 949-3799",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0100926",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000926-000",
+        "contact_date": "2026-02-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 352
+      },
+      {
+        "pat_enc_csn_id": "0000926-001",
+        "contact_date": "2026-02-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 317
+      },
+      {
+        "pat_enc_csn_id": "0000926-002",
+        "contact_date": "2026-02-14",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 309
+      },
+      {
+        "pat_enc_csn_id": "0000926-003",
+        "contact_date": "2026-01-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 187
+      },
+      {
+        "pat_enc_csn_id": "0000926-004",
+        "contact_date": "2026-01-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 201
+      },
+      {
+        "pat_enc_csn_id": "0000926-005",
+        "contact_date": "2025-10-28",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 4,
+        "total_charges": 9076
+      },
+      {
+        "pat_enc_csn_id": "0000926-006",
+        "contact_date": "2025-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 4,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0000926-007",
+        "contact_date": "2025-09-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 206
+      },
+      {
+        "pat_enc_csn_id": "0000926-008",
+        "contact_date": "2025-09-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 353
+      },
+      {
+        "pat_enc_csn_id": "0000926-009",
+        "contact_date": "2025-06-11",
+        "encounter_type": "Follow-up",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 238
+      },
+      {
+        "pat_enc_csn_id": "0000926-010",
+        "contact_date": "2025-01-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 258
+      },
+      {
+        "pat_enc_csn_id": "0000926-011",
+        "contact_date": "2025-01-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 181
+      },
+      {
+        "pat_enc_csn_id": "0000926-012",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0000926-013",
+        "contact_date": "2024-10-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 400
+      },
+      {
+        "pat_enc_csn_id": "0000926-014",
+        "contact_date": "2024-08-30",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 5736
+      },
+      {
+        "pat_enc_csn_id": "0000926-015",
+        "contact_date": "2024-08-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 274
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100926",
+    "diagnoses": [
+      {
+        "dx_id": "0000926-dx-000",
+        "pat_enc_csn_id": "0000926-000",
+        "icd10_code": "E11.9",
+        "diagnosis_name": "Type 2 diabetes mellitus",
+        "chronic": true,
+        "first_recorded": "2024-05-13"
+      },
+      {
+        "dx_id": "0000926-dx-001",
+        "pat_enc_csn_id": "0000926-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "1990-05-13"
+      },
+      {
+        "dx_id": "0000926-dx-002",
+        "pat_enc_csn_id": "0000926-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2004-05-13"
+      },
+      {
+        "dx_id": "0000926-acu-000",
+        "pat_enc_csn_id": "0000926-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-20"
+      },
+      {
+        "dx_id": "0000926-acu-001",
+        "pat_enc_csn_id": "0000926-001",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2026-02-16"
+      },
+      {
+        "dx_id": "0000926-acu-002",
+        "pat_enc_csn_id": "0000926-002",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2026-02-14"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100926",
+    "summary": {
+      "total_charges": 18813,
+      "total_payments": 14721,
+      "outstanding_balance": 4092,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000092600",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 6599,
+        "total_payments": 4048,
+        "current_balance": 2551,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-06-04",
+        "closed_date": "2026-01-17"
+      },
+      {
+        "hsp_account_id": "HSP000092601",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 12214,
+        "total_payments": 10673,
+        "current_balance": 1541,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-31",
+        "closed_date": "2026-03-29"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100926",
+    "comparables": [
+      {
+        "pat_id": "PAT0100020",
+        "full_name": "Jennifer Martin",
+        "age": 60,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 2492
+      },
+      {
+        "pat_id": "PAT0100034",
+        "full_name": "Margaret Khan",
+        "age": 66,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 22373
+      },
+      {
+        "pat_id": "PAT0100071",
+        "full_name": "Jennifer Okonkwo",
+        "age": 62,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 6,
+        "total_charges": 14270
+      },
+      {
+        "pat_id": "PAT0100099",
+        "full_name": "Donna Lopez",
+        "age": 61,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 4,
+        "total_charges": 36047
+      },
+      {
+        "pat_id": "PAT0100175",
+        "full_name": "Christopher Lopez",
+        "age": 67,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 19,
+        "total_charges": 21052
+      },
+      {
+        "pat_id": "PAT0100248",
+        "full_name": "Kenji Greene",
+        "age": 63,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 16,
+        "total_charges": 3626
+      }
+    ]
+  }
+}

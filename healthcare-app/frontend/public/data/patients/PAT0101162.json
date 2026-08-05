@@ -1,0 +1,259 @@
+{
+  "patient": {
+    "pat_id": "PAT0101162",
+    "med_rec_num": "MRN0201162",
+    "full_name": "Elizabeth Moore",
+    "birth_date": "1981-10-19",
+    "age": 45,
+    "sex": "F",
+    "city": "Plum",
+    "zip_code": "15239",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 10,
+    "total_charges": 53153,
+    "latitude": 40.49728,
+    "longitude": -79.75844,
+    "last_encounter_date": "2025-12-17",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8366 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 667-6976",
+    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+  },
+  "encounters": {
+    "pat_id": "PAT0101162",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001162-000",
+        "contact_date": "2025-12-17",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 109
+      },
+      {
+        "pat_enc_csn_id": "0001162-001",
+        "contact_date": "2025-07-02",
+        "encounter_type": "Telehealth",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0001162-002",
+        "contact_date": "2025-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0001162-003",
+        "contact_date": "2025-04-02",
+        "encounter_type": "Hospital Admission",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 11950
+      },
+      {
+        "pat_enc_csn_id": "0001162-004",
+        "contact_date": "2025-03-28",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 291
+      },
+      {
+        "pat_enc_csn_id": "0001162-005",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 137
+      },
+      {
+        "pat_enc_csn_id": "0001162-006",
+        "contact_date": "2025-01-11",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 210
+      },
+      {
+        "pat_enc_csn_id": "0001162-007",
+        "contact_date": "2024-10-08",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 6042
+      },
+      {
+        "pat_enc_csn_id": "0001162-008",
+        "contact_date": "2024-07-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 32131
+      },
+      {
+        "pat_enc_csn_id": "0001162-009",
+        "contact_date": "2024-06-30",
+        "encounter_type": "Procedure",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 1889
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101162",
+    "diagnoses": [
+      {
+        "dx_id": "0001162-dx-000",
+        "pat_enc_csn_id": "0001162-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0001162-acu-000",
+        "pat_enc_csn_id": "0001162-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2025-12-17"
+      },
+      {
+        "dx_id": "0001162-acu-001",
+        "pat_enc_csn_id": "0001162-001",
+        "icd10_code": "N39.0",
+        "diagnosis_name": "Urinary tract infection",
+        "chronic": false,
+        "first_recorded": "2025-07-02"
+      },
+      {
+        "dx_id": "0001162-acu-002",
+        "pat_enc_csn_id": "0001162-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-04-05"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101162",
+    "summary": {
+      "total_charges": 53153,
+      "total_payments": 35709,
+      "outstanding_balance": 17444,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000116200",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 11201,
+        "total_payments": 6859,
+        "current_balance": 4342,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-03-22",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000116201",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 41952,
+        "total_payments": 28850,
+        "current_balance": 13102,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-10-26",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101162",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

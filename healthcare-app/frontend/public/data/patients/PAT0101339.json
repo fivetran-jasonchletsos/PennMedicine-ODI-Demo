@@ -1,0 +1,378 @@
+{
+  "patient": {
+    "pat_id": "PAT0101339",
+    "med_rec_num": "MRN0201339",
+    "full_name": "Sofia Singh",
+    "birth_date": "1956-01-24",
+    "age": 70,
+    "sex": "F",
+    "city": "McKeesport",
+    "zip_code": "15132",
+    "primary_care_provider": "Dr. Mark Anderson",
+    "active_chronic_count": 3,
+    "encounter_count": 21,
+    "total_charges": 20031,
+    "latitude": 40.34967,
+    "longitude": -79.8474,
+    "last_encounter_date": "2026-04-14",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2915 Murray Blvd",
+    "state": "PA",
+    "phone": "(412) 690-5797",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0101339",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001339-000",
+        "contact_date": "2026-04-14",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0001339-001",
+        "contact_date": "2026-03-12",
+        "encounter_type": "Telehealth",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 117
+      },
+      {
+        "pat_enc_csn_id": "0001339-002",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 96
+      },
+      {
+        "pat_enc_csn_id": "0001339-003",
+        "contact_date": "2025-11-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001339-004",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001339-005",
+        "contact_date": "2025-10-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 185
+      },
+      {
+        "pat_enc_csn_id": "0001339-006",
+        "contact_date": "2025-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 4,
+        "total_charges": 221
+      },
+      {
+        "pat_enc_csn_id": "0001339-007",
+        "contact_date": "2025-08-08",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 7330
+      },
+      {
+        "pat_enc_csn_id": "0001339-008",
+        "contact_date": "2025-07-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 4,
+        "total_charges": 241
+      },
+      {
+        "pat_enc_csn_id": "0001339-009",
+        "contact_date": "2025-07-01",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0001339-010",
+        "contact_date": "2025-04-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 386
+      },
+      {
+        "pat_enc_csn_id": "0001339-011",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 4789
+      },
+      {
+        "pat_enc_csn_id": "0001339-012",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 156
+      },
+      {
+        "pat_enc_csn_id": "0001339-013",
+        "contact_date": "2025-01-10",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 186
+      },
+      {
+        "pat_enc_csn_id": "0001339-014",
+        "contact_date": "2025-01-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 4,
+        "total_charges": 399
+      },
+      {
+        "pat_enc_csn_id": "0001339-015",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 197
+      },
+      {
+        "pat_enc_csn_id": "0001339-016",
+        "contact_date": "2024-09-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 4,
+        "total_charges": 195
+      },
+      {
+        "pat_enc_csn_id": "0001339-017",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Lab Only",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 4,
+        "total_charges": 270
+      },
+      {
+        "pat_enc_csn_id": "0001339-018",
+        "contact_date": "2024-09-17",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 4,
+        "total_charges": 378
+      },
+      {
+        "pat_enc_csn_id": "0001339-019",
+        "contact_date": "2024-09-16",
+        "encounter_type": "Lab Only",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Anderson",
+        "chief_complaint": null,
+        "diagnosis_count": 3,
+        "total_charges": 257
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101339",
+    "diagnoses": [
+      {
+        "dx_id": "0001339-dx-000",
+        "pat_enc_csn_id": "0001339-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "1996-05-13"
+      },
+      {
+        "dx_id": "0001339-dx-001",
+        "pat_enc_csn_id": "0001339-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "2019-05-13"
+      },
+      {
+        "dx_id": "0001339-dx-002",
+        "pat_enc_csn_id": "0001339-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1987-05-13"
+      },
+      {
+        "dx_id": "0001339-acu-000",
+        "pat_enc_csn_id": "0001339-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-04-14"
+      },
+      {
+        "dx_id": "0001339-acu-001",
+        "pat_enc_csn_id": "0001339-001",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-12"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101339",
+    "summary": {
+      "total_charges": 20031,
+      "total_payments": 19125,
+      "outstanding_balance": 906,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000133900",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 19938,
+        "total_payments": 19064,
+        "current_balance": 874,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-01-17",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000133901",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 16,
+        "total_payments": 13,
+        "current_balance": 3,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2023-11-26",
+        "closed_date": "2026-03-18"
+      },
+      {
+        "hsp_account_id": "HSP000133902",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 77,
+        "total_payments": 48,
+        "current_balance": 29,
+        "primary_payer": "Aetna",
+        "opened_date": "2025-07-20",
+        "closed_date": "2026-02-07"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101339",
+    "comparables": [
+      {
+        "pat_id": "PAT0100002",
+        "full_name": "Joseph Gonzalez",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 1863
+      },
+      {
+        "pat_id": "PAT0100036",
+        "full_name": "Maria Wilson",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 9,
+        "total_charges": 27991
+      },
+      {
+        "pat_id": "PAT0100042",
+        "full_name": "George Smith",
+        "age": 71,
+        "sex": "M",
+        "chronic_overlap_count": 2,
+        "encounter_count": 14,
+        "total_charges": 43531
+      },
+      {
+        "pat_id": "PAT0100092",
+        "full_name": "Janet Nguyen",
+        "age": 77,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 13,
+        "total_charges": 43177
+      },
+      {
+        "pat_id": "PAT0100100",
+        "full_name": "Kimberly Davis",
+        "age": 70,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 18,
+        "total_charges": 4245
+      },
+      {
+        "pat_id": "PAT0100126",
+        "full_name": "Linda Khan",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 2,
+        "encounter_count": 7,
+        "total_charges": 34931
+      }
+    ]
+  }
+}

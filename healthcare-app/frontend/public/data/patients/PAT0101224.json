@@ -1,0 +1,289 @@
+{
+  "patient": {
+    "pat_id": "PAT0101224",
+    "med_rec_num": "MRN0201224",
+    "full_name": "Kenji Jackson",
+    "birth_date": "1970-11-06",
+    "age": 56,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15201",
+    "primary_care_provider": "Dr. Linda Martinez",
+    "active_chronic_count": 2,
+    "encounter_count": 13,
+    "total_charges": 17361,
+    "latitude": 40.47336,
+    "longitude": -79.96531,
+    "last_encounter_date": "2026-01-08",
+    "race": "Black or African American",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6156 Beacon St",
+    "state": "PA",
+    "phone": "(412) 507-9350",
+    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+  },
+  "encounters": {
+    "pat_id": "PAT0101224",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001224-000",
+        "contact_date": "2026-01-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 3,
+        "total_charges": 358
+      },
+      {
+        "pat_enc_csn_id": "0001224-001",
+        "contact_date": "2025-11-12",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 296
+      },
+      {
+        "pat_enc_csn_id": "0001224-002",
+        "contact_date": "2025-10-11",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Aisha Anderson",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 3,
+        "total_charges": 179
+      },
+      {
+        "pat_enc_csn_id": "0001224-003",
+        "contact_date": "2025-08-30",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 1975
+      },
+      {
+        "pat_enc_csn_id": "0001224-004",
+        "contact_date": "2025-07-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 384
+      },
+      {
+        "pat_enc_csn_id": "0001224-005",
+        "contact_date": "2025-07-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Jackson",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 99
+      },
+      {
+        "pat_enc_csn_id": "0001224-006",
+        "contact_date": "2025-06-16",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 180
+      },
+      {
+        "pat_enc_csn_id": "0001224-007",
+        "contact_date": "2025-06-14",
+        "encounter_type": "Follow-up",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 148
+      },
+      {
+        "pat_enc_csn_id": "0001224-008",
+        "contact_date": "2025-05-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 279
+      },
+      {
+        "pat_enc_csn_id": "0001224-009",
+        "contact_date": "2025-04-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001224-010",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 3,
+        "total_charges": 265
+      },
+      {
+        "pat_enc_csn_id": "0001224-011",
+        "contact_date": "2024-06-23",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 6532
+      },
+      {
+        "pat_enc_csn_id": "0001224-012",
+        "contact_date": "2024-05-25",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 3,
+        "total_charges": 6248
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101224",
+    "diagnoses": [
+      {
+        "dx_id": "0001224-dx-000",
+        "pat_enc_csn_id": "0001224-000",
+        "icd10_code": "F32.A",
+        "diagnosis_name": "Depression, unspecified",
+        "chronic": true,
+        "first_recorded": "1992-05-13"
+      },
+      {
+        "dx_id": "0001224-dx-001",
+        "pat_enc_csn_id": "0001224-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0001224-acu-000",
+        "pat_enc_csn_id": "0001224-000",
+        "icd10_code": "S00.93",
+        "diagnosis_name": "Contusion of head",
+        "chronic": false,
+        "first_recorded": "2026-01-08"
+      },
+      {
+        "dx_id": "0001224-acu-002",
+        "pat_enc_csn_id": "0001224-002",
+        "icd10_code": "J45.901",
+        "diagnosis_name": "Unspecified asthma with exacerbation",
+        "chronic": false,
+        "first_recorded": "2025-10-11"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101224",
+    "summary": {
+      "total_charges": 17361,
+      "total_payments": 12779,
+      "outstanding_balance": 4582,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000122400",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 5614,
+        "total_payments": 4402,
+        "current_balance": 1212,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2026-02-19",
+        "closed_date": "2026-02-26"
+      },
+      {
+        "hsp_account_id": "HSP000122401",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 11747,
+        "total_payments": 8377,
+        "current_balance": 3370,
+        "primary_payer": "Cigna",
+        "opened_date": "2024-08-08",
+        "closed_date": "2026-02-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101224",
+    "comparables": [
+      {
+        "pat_id": "PAT0100027",
+        "full_name": "Anil Petrov",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 2,
+        "total_charges": 580
+      },
+      {
+        "pat_id": "PAT0100043",
+        "full_name": "Hassan Thomas",
+        "age": 57,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 11,
+        "total_charges": 7211
+      },
+      {
+        "pat_id": "PAT0100051",
+        "full_name": "Donna Chen",
+        "age": 50,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 3032
+      },
+      {
+        "pat_id": "PAT0100106",
+        "full_name": "Janet Singh",
+        "age": 59,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 13,
+        "total_charges": 8462
+      },
+      {
+        "pat_id": "PAT0100154",
+        "full_name": "Janet Miller",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 7,
+        "total_charges": 1959
+      },
+      {
+        "pat_id": "PAT0100155",
+        "full_name": "Ashley Schmidt",
+        "age": 57,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 3,
+        "total_charges": 838
+      }
+    ]
+  }
+}

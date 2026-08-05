@@ -1,0 +1,198 @@
+{
+  "patient": {
+    "pat_id": "PAT0101431",
+    "med_rec_num": "MRN0201431",
+    "full_name": "Mary Jones",
+    "birth_date": "1984-10-13",
+    "age": 42,
+    "sex": "F",
+    "city": "Pittsburgh",
+    "zip_code": "15217",
+    "primary_care_provider": "Dr. Mark Davis",
+    "active_chronic_count": 2,
+    "encounter_count": 5,
+    "total_charges": 2714,
+    "latitude": 40.43438,
+    "longitude": -79.92924,
+    "last_encounter_date": "2025-09-23",
+    "race": "White",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "3231 Highland Rd",
+    "state": "PA",
+    "phone": "(412) 428-6072",
+    "primary_care_department": "Nephrology"
+  },
+  "encounters": {
+    "pat_id": "PAT0101431",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001431-000",
+        "contact_date": "2025-09-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 3,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0001431-001",
+        "contact_date": "2024-12-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 1780
+      },
+      {
+        "pat_enc_csn_id": "0001431-002",
+        "contact_date": "2024-08-27",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 3,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0001431-003",
+        "contact_date": "2024-08-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Mark Davis",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 299
+      },
+      {
+        "pat_enc_csn_id": "0001431-004",
+        "contact_date": "2024-05-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 2,
+        "total_charges": 212
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101431",
+    "diagnoses": [
+      {
+        "dx_id": "0001431-dx-000",
+        "pat_enc_csn_id": "0001431-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2015-05-13"
+      },
+      {
+        "dx_id": "0001431-dx-001",
+        "pat_enc_csn_id": "0001431-000",
+        "icd10_code": "K21.9",
+        "diagnosis_name": "GERD without esophagitis",
+        "chronic": true,
+        "first_recorded": "2008-05-13"
+      },
+      {
+        "dx_id": "0001431-acu-000",
+        "pat_enc_csn_id": "0001431-000",
+        "icd10_code": "J20.9",
+        "diagnosis_name": "Acute bronchitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-09-23"
+      },
+      {
+        "dx_id": "0001431-acu-002",
+        "pat_enc_csn_id": "0001431-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2024-08-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101431",
+    "summary": {
+      "total_charges": 2714,
+      "total_payments": 1703,
+      "outstanding_balance": 1011,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000143100",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 2714,
+        "total_payments": 1703,
+        "current_balance": 1011,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-07-17",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101431",
+    "comparables": [
+      {
+        "pat_id": "PAT0100000",
+        "full_name": "Richard Patel",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 4,
+        "total_charges": 5434
+      },
+      {
+        "pat_id": "PAT0100005",
+        "full_name": "Aisha Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 10,
+        "total_charges": 8414
+      },
+      {
+        "pat_id": "PAT0100008",
+        "full_name": "Michael Schmidt",
+        "age": 42,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 12,
+        "total_charges": 13204
+      },
+      {
+        "pat_id": "PAT0100024",
+        "full_name": "Michael Smith",
+        "age": 47,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 4965
+      },
+      {
+        "pat_id": "PAT0100041",
+        "full_name": "Sandra Hernandez",
+        "age": 41,
+        "sex": "F",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 17446
+      },
+      {
+        "pat_id": "PAT0100114",
+        "full_name": "George Russo",
+        "age": 45,
+        "sex": "M",
+        "chronic_overlap_count": 1,
+        "encounter_count": 14,
+        "total_charges": 25275
+      }
+    ]
+  }
+}

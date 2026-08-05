@@ -1,0 +1,263 @@
+{
+  "patient": {
+    "pat_id": "PAT0100820",
+    "med_rec_num": "MRN0200820",
+    "full_name": "Ashley Martin",
+    "birth_date": "1978-02-15",
+    "age": 48,
+    "sex": "F",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Carlos Okonkwo",
+    "active_chronic_count": 1,
+    "encounter_count": 12,
+    "total_charges": 16035,
+    "latitude": 40.35958,
+    "longitude": -79.90035,
+    "last_encounter_date": "2026-04-26",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "2855 Penn Rd",
+    "state": "PA",
+    "phone": "(412) 894-7585",
+    "primary_care_department": "Psychiatry & Behavioral Health"
+  },
+  "encounters": {
+    "pat_id": "PAT0100820",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000820-000",
+        "contact_date": "2026-04-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 346
+      },
+      {
+        "pat_enc_csn_id": "0000820-001",
+        "contact_date": "2026-03-07",
+        "encounter_type": "Procedure",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Ashley Garcia",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 2961
+      },
+      {
+        "pat_enc_csn_id": "0000820-002",
+        "contact_date": "2025-11-28",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 183
+      },
+      {
+        "pat_enc_csn_id": "0000820-003",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Telehealth",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000820-004",
+        "contact_date": "2025-07-22",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 349
+      },
+      {
+        "pat_enc_csn_id": "0000820-005",
+        "contact_date": "2025-06-13",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 6375
+      },
+      {
+        "pat_enc_csn_id": "0000820-006",
+        "contact_date": "2025-04-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 216
+      },
+      {
+        "pat_enc_csn_id": "0000820-007",
+        "contact_date": "2025-03-26",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 292
+      },
+      {
+        "pat_enc_csn_id": "0000820-008",
+        "contact_date": "2025-03-03",
+        "encounter_type": "Lab Only",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000820-009",
+        "contact_date": "2025-02-26",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 4402
+      },
+      {
+        "pat_enc_csn_id": "0000820-010",
+        "contact_date": "2024-11-18",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 2,
+        "total_charges": 302
+      },
+      {
+        "pat_enc_csn_id": "0000820-011",
+        "contact_date": "2024-05-31",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 246
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100820",
+    "diagnoses": [
+      {
+        "dx_id": "0000820-dx-000",
+        "pat_enc_csn_id": "0000820-000",
+        "icd10_code": "G47.33",
+        "diagnosis_name": "Obstructive sleep apnea (adult)",
+        "chronic": true,
+        "first_recorded": "2017-05-13"
+      },
+      {
+        "dx_id": "0000820-acu-001",
+        "pat_enc_csn_id": "0000820-001",
+        "icd10_code": "R07.9",
+        "diagnosis_name": "Chest pain, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-03-07"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100820",
+    "summary": {
+      "total_charges": 16035,
+      "total_payments": 14125,
+      "outstanding_balance": 1910,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000082000",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 8394,
+        "total_payments": 7461,
+        "current_balance": 933,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-06",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000082001",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 7641,
+        "total_payments": 6664,
+        "current_balance": 977,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-02-13",
+        "closed_date": "2026-03-26"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100820",
+    "comparables": [
+      {
+        "pat_id": "PAT0100017",
+        "full_name": "Patricia Lopez",
+        "age": 44,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 0,
+        "total_charges": 0
+      },
+      {
+        "pat_id": "PAT0100021",
+        "full_name": "Mark Patel",
+        "age": 48,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8852
+      },
+      {
+        "pat_id": "PAT0100121",
+        "full_name": "Patricia Thomas",
+        "age": 49,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 570
+      },
+      {
+        "pat_id": "PAT0100178",
+        "full_name": "Kenji Rodriguez",
+        "age": 41,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 42123
+      },
+      {
+        "pat_id": "PAT0100240",
+        "full_name": "Janet Moore",
+        "age": 45,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 181
+      },
+      {
+        "pat_id": "PAT0100249",
+        "full_name": "Michelle Russo",
+        "age": 43,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 2,
+        "total_charges": 2028
+      }
+    ]
+  }
+}

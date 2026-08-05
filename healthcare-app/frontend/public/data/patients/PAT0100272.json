@@ -1,0 +1,391 @@
+{
+  "patient": {
+    "pat_id": "PAT0100272",
+    "med_rec_num": "MRN0200272",
+    "full_name": "Richard Smith",
+    "birth_date": "1949-11-26",
+    "age": 77,
+    "sex": "M",
+    "city": "West Mifflin",
+    "zip_code": "15122",
+    "primary_care_provider": "Dr. Sophia Gonzalez",
+    "active_chronic_count": 6,
+    "encounter_count": 26,
+    "total_charges": 56663,
+    "latitude": 40.36449,
+    "longitude": -79.90542,
+    "last_encounter_date": "2026-05-05",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "8742 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 410-4311",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100272",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000272-000",
+        "contact_date": "2026-05-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Michael Wong",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 250
+      },
+      {
+        "pat_enc_csn_id": "0000272-001",
+        "contact_date": "2026-04-24",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 116
+      },
+      {
+        "pat_enc_csn_id": "0000272-002",
+        "contact_date": "2026-04-07",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 36912
+      },
+      {
+        "pat_enc_csn_id": "0000272-003",
+        "contact_date": "2026-04-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 406
+      },
+      {
+        "pat_enc_csn_id": "0000272-004",
+        "contact_date": "2026-02-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000272-005",
+        "contact_date": "2025-12-03",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 178
+      },
+      {
+        "pat_enc_csn_id": "0000272-006",
+        "contact_date": "2025-11-08",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 338
+      },
+      {
+        "pat_enc_csn_id": "0000272-007",
+        "contact_date": "2025-10-25",
+        "encounter_type": "Procedure",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 4525
+      },
+      {
+        "pat_enc_csn_id": "0000272-008",
+        "contact_date": "2025-10-14",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 140
+      },
+      {
+        "pat_enc_csn_id": "0000272-009",
+        "contact_date": "2025-08-29",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 3453
+      },
+      {
+        "pat_enc_csn_id": "0000272-010",
+        "contact_date": "2025-05-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 345
+      },
+      {
+        "pat_enc_csn_id": "0000272-011",
+        "contact_date": "2025-05-06",
+        "encounter_type": "Lab Only",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 174
+      },
+      {
+        "pat_enc_csn_id": "0000272-012",
+        "contact_date": "2025-04-04",
+        "encounter_type": "Office Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 293
+      },
+      {
+        "pat_enc_csn_id": "0000272-013",
+        "contact_date": "2025-03-15",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 5164
+      },
+      {
+        "pat_enc_csn_id": "0000272-014",
+        "contact_date": "2025-02-24",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 336
+      },
+      {
+        "pat_enc_csn_id": "0000272-015",
+        "contact_date": "2025-02-17",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. David Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 124
+      },
+      {
+        "pat_enc_csn_id": "0000272-016",
+        "contact_date": "2024-12-16",
+        "encounter_type": "Procedure",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 1121
+      },
+      {
+        "pat_enc_csn_id": "0000272-017",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 388
+      },
+      {
+        "pat_enc_csn_id": "0000272-018",
+        "contact_date": "2024-09-14",
+        "encounter_type": "Lab Only",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 6,
+        "total_charges": 61
+      },
+      {
+        "pat_enc_csn_id": "0000272-019",
+        "contact_date": "2024-08-23",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Sophia Gonzalez",
+        "chief_complaint": null,
+        "diagnosis_count": 6,
+        "total_charges": 275
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100272",
+    "diagnoses": [
+      {
+        "dx_id": "0000272-dx-000",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0000272-dx-001",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "1986-05-13"
+      },
+      {
+        "dx_id": "0000272-dx-002",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "J44.9",
+        "diagnosis_name": "Chronic obstructive pulmonary disease",
+        "chronic": true,
+        "first_recorded": "2006-05-13"
+      },
+      {
+        "dx_id": "0000272-dx-003",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "M19.90",
+        "diagnosis_name": "Unspecified osteoarthritis",
+        "chronic": true,
+        "first_recorded": "2007-05-13"
+      },
+      {
+        "dx_id": "0000272-dx-004",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "1988-05-13"
+      },
+      {
+        "dx_id": "0000272-dx-005",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "1970-05-13"
+      },
+      {
+        "dx_id": "0000272-acu-000",
+        "pat_enc_csn_id": "0000272-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-05-05"
+      },
+      {
+        "dx_id": "0000272-acu-001",
+        "pat_enc_csn_id": "0000272-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2026-04-24"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100272",
+    "summary": {
+      "total_charges": 56663,
+      "total_payments": 45072,
+      "outstanding_balance": 11591,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000027200",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 14510,
+        "total_payments": 10339,
+        "current_balance": 4171,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-04-04",
+        "closed_date": "2026-03-18"
+      },
+      {
+        "hsp_account_id": "HSP000027201",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 42153,
+        "total_payments": 34733,
+        "current_balance": 7420,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-19",
+        "closed_date": "2026-01-28"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100272",
+    "comparables": [
+      {
+        "pat_id": "PAT0100003",
+        "full_name": "Linda Rodriguez",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 24,
+        "total_charges": 14863
+      },
+      {
+        "pat_id": "PAT0100105",
+        "full_name": "Patricia Kim",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 17508
+      },
+      {
+        "pat_id": "PAT0100141",
+        "full_name": "Richard Walsh",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 10859
+      },
+      {
+        "pat_id": "PAT0100189",
+        "full_name": "Mark Williams",
+        "age": 70,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 20,
+        "total_charges": 41472
+      },
+      {
+        "pat_id": "PAT0100320",
+        "full_name": "Anil Greene",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 5,
+        "encounter_count": 17,
+        "total_charges": 35184
+      },
+      {
+        "pat_id": "PAT0100321",
+        "full_name": "Sandra Russo",
+        "age": 76,
+        "sex": "F",
+        "chronic_overlap_count": 5,
+        "encounter_count": 19,
+        "total_charges": 33891
+      }
+    ]
+  }
+}

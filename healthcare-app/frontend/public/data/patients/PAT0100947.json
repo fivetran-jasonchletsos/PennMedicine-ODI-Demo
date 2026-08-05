@@ -1,0 +1,180 @@
+{
+  "patient": {
+    "pat_id": "PAT0100947",
+    "med_rec_num": "MRN0200947",
+    "full_name": "James Davis",
+    "birth_date": "1970-09-12",
+    "age": 56,
+    "sex": "M",
+    "city": "Penn Hills",
+    "zip_code": "15235",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 1,
+    "encounter_count": 4,
+    "total_charges": 5856,
+    "latitude": 40.47341,
+    "longitude": -79.83088,
+    "last_encounter_date": "2026-02-25",
+    "race": "Other",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "4703 Centre Ave",
+    "state": "PA",
+    "phone": "(412) 487-6581",
+    "primary_care_department": "OB-GYN"
+  },
+  "encounters": {
+    "pat_id": "PAT0100947",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000947-000",
+        "contact_date": "2026-02-25",
+        "encounter_type": "Follow-up",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0000947-001",
+        "contact_date": "2025-12-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Sophia Moore",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 5267
+      },
+      {
+        "pat_enc_csn_id": "0000947-002",
+        "contact_date": "2025-07-16",
+        "encounter_type": "Lab Only",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000947-003",
+        "contact_date": "2025-03-29",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Martinez",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 204
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100947",
+    "diagnoses": [
+      {
+        "dx_id": "0000947-dx-000",
+        "pat_enc_csn_id": "0000947-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2016-05-13"
+      },
+      {
+        "dx_id": "0000947-acu-001",
+        "pat_enc_csn_id": "0000947-001",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2025-12-27"
+      },
+      {
+        "dx_id": "0000947-acu-002",
+        "pat_enc_csn_id": "0000947-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2025-07-16"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100947",
+    "summary": {
+      "total_charges": 5856,
+      "total_payments": 4598,
+      "outstanding_balance": 1258,
+      "account_count": 1
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000094700",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 5856,
+        "total_payments": 4598,
+        "current_balance": 1258,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-01-01",
+        "closed_date": "2026-01-22"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100947",
+    "comparables": [
+      {
+        "pat_id": "PAT0100018",
+        "full_name": "Richard Gonzalez",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 981
+      },
+      {
+        "pat_id": "PAT0100040",
+        "full_name": "John Moore",
+        "age": 50,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 7,
+        "total_charges": 2082
+      },
+      {
+        "pat_id": "PAT0100195",
+        "full_name": "Donna Chen",
+        "age": 53,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 19298
+      },
+      {
+        "pat_id": "PAT0100325",
+        "full_name": "Michael Smith",
+        "age": 52,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 3567
+      },
+      {
+        "pat_id": "PAT0100353",
+        "full_name": "James Williams",
+        "age": 55,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 7886
+      },
+      {
+        "pat_id": "PAT0100391",
+        "full_name": "Joseph Kim",
+        "age": 59,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 3,
+        "total_charges": 2053
+      }
+    ]
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "patient": {
+    "pat_id": "PAT0100604",
+    "med_rec_num": "MRN0200604",
+    "full_name": "Carol Khan",
+    "birth_date": "1996-02-23",
+    "age": 30,
+    "sex": "F",
+    "city": "Robinson Twp",
+    "zip_code": "15205",
+    "primary_care_provider": "Dr. Daniel Rodriguez",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 35869,
+    "latitude": 40.44646,
+    "longitude": -80.10135,
+    "last_encounter_date": "2025-11-03",
+    "race": "Black or African American",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "4645 Murray Ave",
+    "state": "PA",
+    "phone": "(412) 744-5928",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100604",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000604-000",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 199
+      },
+      {
+        "pat_enc_csn_id": "0000604-001",
+        "contact_date": "2025-09-27",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 27880
+      },
+      {
+        "pat_enc_csn_id": "0000604-002",
+        "contact_date": "2025-06-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. David Johnson",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 3692
+      },
+      {
+        "pat_enc_csn_id": "0000604-003",
+        "contact_date": "2025-05-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0000604-004",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Lab Only",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Thomas",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 121
+      },
+      {
+        "pat_enc_csn_id": "0000604-005",
+        "contact_date": "2025-02-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Kenji Hernandez",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000604-006",
+        "contact_date": "2025-01-29",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 313
+      },
+      {
+        "pat_enc_csn_id": "0000604-007",
+        "contact_date": "2024-12-07",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Sarah Hernandez",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 212
+      },
+      {
+        "pat_enc_csn_id": "0000604-008",
+        "contact_date": "2024-10-16",
+        "encounter_type": "Telehealth",
+        "department_name": "Cardiology",
+        "provider_name": "Dr. Michael Garcia",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 171
+      },
+      {
+        "pat_enc_csn_id": "0000604-009",
+        "contact_date": "2024-10-02",
+        "encounter_type": "Procedure",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Michael Johnson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 2278
+      },
+      {
+        "pat_enc_csn_id": "0000604-010",
+        "contact_date": "2024-09-23",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 164
+      },
+      {
+        "pat_enc_csn_id": "0000604-011",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 2,
+        "total_charges": 112
+      },
+      {
+        "pat_enc_csn_id": "0000604-012",
+        "contact_date": "2024-08-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. James Russo",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 2,
+        "total_charges": 192
+      },
+      {
+        "pat_enc_csn_id": "0000604-013",
+        "contact_date": "2024-05-15",
+        "encounter_type": "Telehealth",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Rodriguez",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 2,
+        "total_charges": 173
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100604",
+    "diagnoses": [
+      {
+        "dx_id": "0000604-dx-000",
+        "pat_enc_csn_id": "0000604-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2014-05-13"
+      },
+      {
+        "dx_id": "0000604-acu-000",
+        "pat_enc_csn_id": "0000604-000",
+        "icd10_code": "R10.9",
+        "diagnosis_name": "Unspecified abdominal pain",
+        "chronic": false,
+        "first_recorded": "2025-11-03"
+      },
+      {
+        "dx_id": "0000604-acu-002",
+        "pat_enc_csn_id": "0000604-002",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-06-27"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100604",
+    "summary": {
+      "total_charges": 35869,
+      "total_payments": 31336,
+      "outstanding_balance": 4533,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000060400",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 15571,
+        "total_payments": 13929,
+        "current_balance": 1642,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-01-12",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000060401",
+        "account_type": "Professional",
+        "status": "Closed",
+        "total_charges": 15234,
+        "total_payments": 13810,
+        "current_balance": 1424,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-07-19",
+        "closed_date": "2026-01-04"
+      },
+      {
+        "hsp_account_id": "HSP000060402",
+        "account_type": "Rx",
+        "status": "Open",
+        "total_charges": 5064,
+        "total_payments": 3597,
+        "current_balance": 1467,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-06-15",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100604",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

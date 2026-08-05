@@ -1,0 +1,291 @@
+{
+  "patient": {
+    "pat_id": "PAT0100922",
+    "med_rec_num": "MRN0200922",
+    "full_name": "William Chen",
+    "birth_date": "1937-05-18",
+    "age": 89,
+    "sex": "M",
+    "city": "Pittsburgh",
+    "zip_code": "15232",
+    "primary_care_provider": "Dr. Aisha Wilson",
+    "active_chronic_count": 1,
+    "encounter_count": 14,
+    "total_charges": 18610,
+    "latitude": 40.4539,
+    "longitude": -79.92588,
+    "last_encounter_date": "2026-03-06",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "5085 Walnut Rd",
+    "state": "PA",
+    "phone": "(412) 361-3261",
+    "primary_care_department": "Endocrinology"
+  },
+  "encounters": {
+    "pat_id": "PAT0100922",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0000922-000",
+        "contact_date": "2026-03-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Williams",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0000922-001",
+        "contact_date": "2026-02-12",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 142
+      },
+      {
+        "pat_enc_csn_id": "0000922-002",
+        "contact_date": "2026-02-06",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Daniel Schmidt",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 5132
+      },
+      {
+        "pat_enc_csn_id": "0000922-003",
+        "contact_date": "2025-12-10",
+        "encounter_type": "Telehealth",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 134
+      },
+      {
+        "pat_enc_csn_id": "0000922-004",
+        "contact_date": "2025-12-09",
+        "encounter_type": "Office Visit",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 237
+      },
+      {
+        "pat_enc_csn_id": "0000922-005",
+        "contact_date": "2025-11-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Cellulitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 264
+      },
+      {
+        "pat_enc_csn_id": "0000922-006",
+        "contact_date": "2025-11-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 224
+      },
+      {
+        "pat_enc_csn_id": "0000922-007",
+        "contact_date": "2025-10-03",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Unspecified abdominal pain",
+        "diagnosis_count": 2,
+        "total_charges": 298
+      },
+      {
+        "pat_enc_csn_id": "0000922-008",
+        "contact_date": "2025-09-05",
+        "encounter_type": "Telehealth",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Ashley Moore",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 166
+      },
+      {
+        "pat_enc_csn_id": "0000922-009",
+        "contact_date": "2025-08-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 355
+      },
+      {
+        "pat_enc_csn_id": "0000922-010",
+        "contact_date": "2025-06-08",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Nephrology",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 10706
+      },
+      {
+        "pat_enc_csn_id": "0000922-011",
+        "contact_date": "2025-05-30",
+        "encounter_type": "Office Visit",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Aisha Wilson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 227
+      },
+      {
+        "pat_enc_csn_id": "0000922-012",
+        "contact_date": "2025-04-06",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Carlos Okonkwo",
+        "chief_complaint": "Contusion of head",
+        "diagnosis_count": 2,
+        "total_charges": 306
+      },
+      {
+        "pat_enc_csn_id": "0000922-013",
+        "contact_date": "2024-05-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Maria Okonkwo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 101
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0100922",
+    "diagnoses": [
+      {
+        "dx_id": "0000922-dx-000",
+        "pat_enc_csn_id": "0000922-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2013-05-13"
+      },
+      {
+        "dx_id": "0000922-acu-000",
+        "pat_enc_csn_id": "0000922-000",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2026-03-06"
+      },
+      {
+        "dx_id": "0000922-acu-002",
+        "pat_enc_csn_id": "0000922-002",
+        "icd10_code": "L03.90",
+        "diagnosis_name": "Cellulitis, unspecified",
+        "chronic": false,
+        "first_recorded": "2026-02-06"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0100922",
+    "summary": {
+      "total_charges": 18610,
+      "total_payments": 13096,
+      "outstanding_balance": 5514,
+      "account_count": 2
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000092200",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 18492,
+        "total_payments": 13025,
+        "current_balance": 5467,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-12-27",
+        "closed_date": "2026-03-01"
+      },
+      {
+        "hsp_account_id": "HSP000092201",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 118,
+        "total_payments": 71,
+        "current_balance": 47,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2024-01-24",
+        "closed_date": "2026-05-12"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0100922",
+    "comparables": [
+      {
+        "pat_id": "PAT0100139",
+        "full_name": "James Patel",
+        "age": 86,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 38707
+      },
+      {
+        "pat_id": "PAT0100892",
+        "full_name": "Robert Greene",
+        "age": 80,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 22603
+      },
+      {
+        "pat_id": "PAT0100945",
+        "full_name": "Paul Patel",
+        "age": 84,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 8986
+      },
+      {
+        "pat_id": "PAT0101341",
+        "full_name": "Susan Schmidt",
+        "age": 81,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 15,
+        "total_charges": 17172
+      },
+      {
+        "pat_id": "PAT0101708",
+        "full_name": "Michael Garcia",
+        "age": 82,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 14,
+        "total_charges": 45713
+      },
+      {
+        "pat_id": "PAT0102096",
+        "full_name": "Carol Walsh",
+        "age": 82,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 4,
+        "total_charges": 4959
+      }
+    ]
+  }
+}

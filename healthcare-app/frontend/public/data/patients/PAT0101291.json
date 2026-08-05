@@ -1,0 +1,214 @@
+{
+  "patient": {
+    "pat_id": "PAT0101291",
+    "med_rec_num": "MRN0201291",
+    "full_name": "Michael Garcia",
+    "birth_date": "1991-09-24",
+    "age": 35,
+    "sex": "M",
+    "city": "Greensburg",
+    "zip_code": "15601",
+    "primary_care_provider": "Dr. Linda Russo",
+    "active_chronic_count": 1,
+    "encounter_count": 6,
+    "total_charges": 45480,
+    "latitude": 40.30426,
+    "longitude": -79.53658,
+    "last_encounter_date": "2025-11-05",
+    "race": "White",
+    "ethnicity": "Not Hispanic or Latino",
+    "mailing_address": "6194 Forbes Ave",
+    "state": "PA",
+    "phone": "(412) 466-8731",
+    "primary_care_department": "Family Medicine \u2014 North Hills"
+  },
+  "encounters": {
+    "pat_id": "PAT0101291",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001291-000",
+        "contact_date": "2025-11-05",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Psychiatry & Behavioral Health",
+        "provider_name": "Dr. Daniel Jackson",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 28304
+      },
+      {
+        "pat_enc_csn_id": "0001291-001",
+        "contact_date": "2025-09-15",
+        "encounter_type": "Lab Only",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 2,
+        "total_charges": 189
+      },
+      {
+        "pat_enc_csn_id": "0001291-002",
+        "contact_date": "2025-01-13",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 215
+      },
+      {
+        "pat_enc_csn_id": "0001291-003",
+        "contact_date": "2024-12-23",
+        "encounter_type": "Hospital Admission",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": null,
+        "diagnosis_count": 1,
+        "total_charges": 12584
+      },
+      {
+        "pat_enc_csn_id": "0001291-004",
+        "contact_date": "2024-12-05",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 398
+      },
+      {
+        "pat_enc_csn_id": "0001291-005",
+        "contact_date": "2024-10-23",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Linda Russo",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 2,
+        "total_charges": 3790
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101291",
+    "diagnoses": [
+      {
+        "dx_id": "0001291-dx-000",
+        "pat_enc_csn_id": "0001291-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2011-05-13"
+      },
+      {
+        "dx_id": "0001291-acu-001",
+        "pat_enc_csn_id": "0001291-001",
+        "icd10_code": "R51",
+        "diagnosis_name": "Headache",
+        "chronic": false,
+        "first_recorded": "2025-09-15"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101291",
+    "summary": {
+      "total_charges": 45480,
+      "total_payments": 41991,
+      "outstanding_balance": 3489,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000129100",
+        "account_type": "Hospital",
+        "status": "Open",
+        "total_charges": 24046,
+        "total_payments": 21576,
+        "current_balance": 2470,
+        "primary_payer": "Aetna",
+        "opened_date": "2024-10-22",
+        "closed_date": null
+      },
+      {
+        "hsp_account_id": "HSP000129101",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 3306,
+        "total_payments": 2861,
+        "current_balance": 445,
+        "primary_payer": "UPMC Health Plan",
+        "opened_date": "2025-01-13",
+        "closed_date": "2026-03-18"
+      },
+      {
+        "hsp_account_id": "HSP000129102",
+        "account_type": "Professional",
+        "status": "Open",
+        "total_charges": 18128,
+        "total_payments": 17554,
+        "current_balance": 574,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-02-14",
+        "closed_date": null
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101291",
+    "comparables": [
+      {
+        "pat_id": "PAT0100007",
+        "full_name": "David Okonkwo",
+        "age": 37,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 12,
+        "total_charges": 2937
+      },
+      {
+        "pat_id": "PAT0100012",
+        "full_name": "Anil Singh",
+        "age": 34,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 11,
+        "total_charges": 14790
+      },
+      {
+        "pat_id": "PAT0100062",
+        "full_name": "Christopher Okonkwo",
+        "age": 38,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 6545
+      },
+      {
+        "pat_id": "PAT0100117",
+        "full_name": "Elizabeth Kim",
+        "age": 31,
+        "sex": "F",
+        "chronic_overlap_count": 0,
+        "encounter_count": 10,
+        "total_charges": 33077
+      },
+      {
+        "pat_id": "PAT0100123",
+        "full_name": "Kevin Garcia",
+        "age": 36,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 1,
+        "total_charges": 398
+      },
+      {
+        "pat_id": "PAT0100158",
+        "full_name": "Mark Gonzalez",
+        "age": 35,
+        "sex": "M",
+        "chronic_overlap_count": 0,
+        "encounter_count": 5,
+        "total_charges": 22408
+      }
+    ]
+  }
+}

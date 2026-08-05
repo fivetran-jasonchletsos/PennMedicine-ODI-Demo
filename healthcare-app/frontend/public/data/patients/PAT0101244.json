@@ -1,0 +1,344 @@
+{
+  "patient": {
+    "pat_id": "PAT0101244",
+    "med_rec_num": "MRN0201244",
+    "full_name": "Daniel Davis",
+    "birth_date": "1952-02-24",
+    "age": 74,
+    "sex": "M",
+    "city": "Monroeville",
+    "zip_code": "15146",
+    "primary_care_provider": "Dr. Daniel Khan",
+    "active_chronic_count": 5,
+    "encounter_count": 15,
+    "total_charges": 13100,
+    "latitude": 40.42823,
+    "longitude": -79.79304,
+    "last_encounter_date": "2026-01-15",
+    "race": "Hispanic/Latino",
+    "ethnicity": "Hispanic or Latino",
+    "mailing_address": "400 Forbes Blvd",
+    "state": "PA",
+    "phone": "(412) 701-4148",
+    "primary_care_department": "Emergency Department \u2014 Main"
+  },
+  "encounters": {
+    "pat_id": "PAT0101244",
+    "encounters": [
+      {
+        "pat_enc_csn_id": "0001244-000",
+        "contact_date": "2026-01-15",
+        "encounter_type": "Office Visit",
+        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 318
+      },
+      {
+        "pat_enc_csn_id": "0001244-001",
+        "contact_date": "2025-12-18",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Mark Nguyen",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 196
+      },
+      {
+        "pat_enc_csn_id": "0001244-002",
+        "contact_date": "2025-11-30",
+        "encounter_type": "Telehealth",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Kenji Walsh",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 151
+      },
+      {
+        "pat_enc_csn_id": "0001244-003",
+        "contact_date": "2025-09-20",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 232
+      },
+      {
+        "pat_enc_csn_id": "0001244-004",
+        "contact_date": "2025-09-02",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Aisha Hernandez",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 252
+      },
+      {
+        "pat_enc_csn_id": "0001244-005",
+        "contact_date": "2025-05-27",
+        "encounter_type": "Emergency Visit",
+        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Unspecified asthma with exacerbation",
+        "diagnosis_count": 6,
+        "total_charges": 3344
+      },
+      {
+        "pat_enc_csn_id": "0001244-006",
+        "contact_date": "2025-05-27",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Urinary tract infection",
+        "diagnosis_count": 6,
+        "total_charges": 395
+      },
+      {
+        "pat_enc_csn_id": "0001244-007",
+        "contact_date": "2025-05-07",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Acute bronchitis, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 418
+      },
+      {
+        "pat_enc_csn_id": "0001244-008",
+        "contact_date": "2025-04-13",
+        "encounter_type": "Office Visit",
+        "department_name": "Endocrinology",
+        "provider_name": "Dr. Robert Taylor",
+        "chief_complaint": "Headache",
+        "diagnosis_count": 6,
+        "total_charges": 330
+      },
+      {
+        "pat_enc_csn_id": "0001244-009",
+        "contact_date": "2025-03-02",
+        "encounter_type": "Office Visit",
+        "department_name": "Emergency Department \u2014 Main",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 262
+      },
+      {
+        "pat_enc_csn_id": "0001244-010",
+        "contact_date": "2025-01-21",
+        "encounter_type": "Follow-up",
+        "department_name": "Orthopedics",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 220
+      },
+      {
+        "pat_enc_csn_id": "0001244-011",
+        "contact_date": "2024-11-29",
+        "encounter_type": "Procedure",
+        "department_name": "Pulmonology",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": null,
+        "diagnosis_count": 5,
+        "total_charges": 5201
+      },
+      {
+        "pat_enc_csn_id": "0001244-012",
+        "contact_date": "2024-11-02",
+        "encounter_type": "Procedure",
+        "department_name": "Family Medicine \u2014 North Hills",
+        "provider_name": "Dr. Mark Gonzalez",
+        "chief_complaint": "Acute upper respiratory infection",
+        "diagnosis_count": 6,
+        "total_charges": 1355
+      },
+      {
+        "pat_enc_csn_id": "0001244-013",
+        "contact_date": "2024-09-22",
+        "encounter_type": "Office Visit",
+        "department_name": "OB-GYN",
+        "provider_name": "Dr. Robert Johnson",
+        "chief_complaint": "Chest pain, unspecified",
+        "diagnosis_count": 6,
+        "total_charges": 316
+      },
+      {
+        "pat_enc_csn_id": "0001244-014",
+        "contact_date": "2024-07-26",
+        "encounter_type": "Telehealth",
+        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "provider_name": "Dr. Daniel Khan",
+        "chief_complaint": "Pain in unspecified joint",
+        "diagnosis_count": 6,
+        "total_charges": 110
+      }
+    ]
+  },
+  "diagnoses": {
+    "pat_id": "PAT0101244",
+    "diagnoses": [
+      {
+        "dx_id": "0001244-dx-000",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "I10",
+        "diagnosis_name": "Essential (primary) hypertension",
+        "chronic": true,
+        "first_recorded": "1993-05-13"
+      },
+      {
+        "dx_id": "0001244-dx-001",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "E78.5",
+        "diagnosis_name": "Hyperlipidemia, unspecified",
+        "chronic": true,
+        "first_recorded": "2021-05-13"
+      },
+      {
+        "dx_id": "0001244-dx-002",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "N18.3",
+        "diagnosis_name": "Chronic kidney disease, stage 3",
+        "chronic": true,
+        "first_recorded": "1977-05-13"
+      },
+      {
+        "dx_id": "0001244-dx-003",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "E66.9",
+        "diagnosis_name": "Obesity, unspecified",
+        "chronic": true,
+        "first_recorded": "2020-05-13"
+      },
+      {
+        "dx_id": "0001244-dx-004",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "M54.50",
+        "diagnosis_name": "Low back pain, unspecified",
+        "chronic": true,
+        "first_recorded": "2018-05-13"
+      },
+      {
+        "dx_id": "0001244-acu-000",
+        "pat_enc_csn_id": "0001244-000",
+        "icd10_code": "J06.9",
+        "diagnosis_name": "Acute upper respiratory infection",
+        "chronic": false,
+        "first_recorded": "2026-01-15"
+      },
+      {
+        "dx_id": "0001244-acu-001",
+        "pat_enc_csn_id": "0001244-001",
+        "icd10_code": "M25.50",
+        "diagnosis_name": "Pain in unspecified joint",
+        "chronic": false,
+        "first_recorded": "2025-12-18"
+      }
+    ]
+  },
+  "accounts": {
+    "pat_id": "PAT0101244",
+    "summary": {
+      "total_charges": 13100,
+      "total_payments": 8988,
+      "outstanding_balance": 4112,
+      "account_count": 3
+    },
+    "accounts": [
+      {
+        "hsp_account_id": "HSP000124400",
+        "account_type": "Imaging",
+        "status": "Closed",
+        "total_charges": 12058,
+        "total_payments": 8320,
+        "current_balance": 3738,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-07-26",
+        "closed_date": "2026-02-20"
+      },
+      {
+        "hsp_account_id": "HSP000124401",
+        "account_type": "Hospital",
+        "status": "Closed",
+        "total_charges": 807,
+        "total_payments": 527,
+        "current_balance": 280,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2024-09-30",
+        "closed_date": "2026-02-02"
+      },
+      {
+        "hsp_account_id": "HSP000124402",
+        "account_type": "Rx",
+        "status": "Closed",
+        "total_charges": 235,
+        "total_payments": 141,
+        "current_balance": 94,
+        "primary_payer": "Highmark BCBS",
+        "opened_date": "2025-06-29",
+        "closed_date": "2026-04-18"
+      }
+    ]
+  },
+  "comparables": {
+    "pat_id": "PAT0101244",
+    "comparables": [
+      {
+        "pat_id": "PAT0100014",
+        "full_name": "Ashley Hernandez",
+        "age": 75,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 20,
+        "total_charges": 9559
+      },
+      {
+        "pat_id": "PAT0100081",
+        "full_name": "Linda Moore",
+        "age": 72,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 15,
+        "total_charges": 17595
+      },
+      {
+        "pat_id": "PAT0100156",
+        "full_name": "Aisha Martinez",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 52051
+      },
+      {
+        "pat_id": "PAT0100212",
+        "full_name": "George Lopez",
+        "age": 78,
+        "sex": "M",
+        "chronic_overlap_count": 4,
+        "encounter_count": 21,
+        "total_charges": 19299
+      },
+      {
+        "pat_id": "PAT0100232",
+        "full_name": "Maria Taylor",
+        "age": 78,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 16,
+        "total_charges": 9359
+      },
+      {
+        "pat_id": "PAT0100289",
+        "full_name": "Sandra Jackson",
+        "age": 74,
+        "sex": "F",
+        "chronic_overlap_count": 4,
+        "encounter_count": 19,
+        "total_charges": 35624
+      }
+    ]
+  }
+}
