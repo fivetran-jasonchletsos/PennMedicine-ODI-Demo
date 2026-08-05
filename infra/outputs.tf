@@ -13,6 +13,11 @@ output "fivetran_connector_name" {
   value       = fivetran_connector.healthcare_sqlserver.name
 }
 
+output "fivetran_qualtrics_connector_id" {
+  description = "Fivetran Qualtrics connector ID"
+  value       = fivetran_connector.qualtrics.id
+}
+
 output "sqlserver_host" {
   description = "EC2 SQL Server hostname"
   value       = var.sqlserver_host

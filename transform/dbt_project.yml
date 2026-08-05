@@ -33,8 +33,8 @@ models:
 
 seeds:
   healthcare_clarity:
-    +schema: seeds
+    +schema: jason_chletsos_pennmed_seeds
 
-tests:
+data_tests:
   +store_failures: true
-  +schema: test_results
+  +schema: jason_chletsos_pennmed_test_results

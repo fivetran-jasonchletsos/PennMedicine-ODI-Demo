@@ -731,7 +731,7 @@ export default function WizardLivePage() {
           border-top-right-radius: 9px;
         }
         .wizard-terminal::after {
-          content: 'clarity-health/wizard-live · dbt-wizard';
+          content: 'pennmed/wizard-live · dbt-wizard';
           position: absolute;
           top: 0; left: 0; right: 0;
           height: 28px;

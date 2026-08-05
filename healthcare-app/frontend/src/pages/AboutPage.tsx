@@ -43,7 +43,7 @@ export default function AboutPage() {
           freshness="4.2 min ago"
           source="Penn Medicine · Epic Clarity CDC"
           rows="2.4M rows · 8 tables"
-          fivetranUrl="https://fivetran.com/dashboard/connections/sanctity_finally/status"
+          fivetranUrl="https://fivetran.com/dashboard/connections/pennmed_epic_clarity/status"
         />
       </div>
 
@@ -114,7 +114,7 @@ const DATA_SOURCES = [
   {
     title: 'Fivetran Epic Clarity connector',
     description:
-      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) into Iceberg (MDLS) on S3 via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as JASON_CHLETSOS_EHR_DEMO.',
+      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) into Iceberg (MDLS) on S3 via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as jason_chletsos_pennmed_ehr_demo.',
   },
   {
     title: 'Iceberg (MDLS) — Managed Data Lake',

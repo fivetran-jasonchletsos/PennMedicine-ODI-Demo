@@ -863,7 +863,7 @@ export default function ActivationLivePage() {
           border-top-right-radius: 9px;
         }
         .wizard-terminal::after {
-          content: 'clarity-health/activations-live · NewCo Activations';
+          content: 'pennmed/activations-live · NewCo Activations';
           position: absolute;
           top: 0; left: 0; right: 0;
           height: 28px;

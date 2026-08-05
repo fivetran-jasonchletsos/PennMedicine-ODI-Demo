@@ -128,64 +128,9 @@ def from_databricks() -> dict[str, Any]:
 # ---------------------------------------------------------------------------
 # Demo fallback so the site renders something even without Databricks.
 
-FIRST_NAMES = ["James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Michael",
-               "Linda", "William", "Elizabeth", "David", "Barbara", "Anil", "Reshma",
-               "Sofia", "Daniel", "Margaret", "Robert", "Aisha", "Kenji"]
-LAST_NAMES = ["Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller",
-              "Davis", "Rodriguez", "Martinez", "Hernandez", "Lopez", "Gonzalez",
-              "Wilson", "Anderson", "Thomas", "Taylor", "Moore", "Jackson", "Martin",
-              "Patel", "Okonkwo", "Walsh", "Greene", "Chen"]
-CITIES = ["Pittsburgh", "Shaler", "Mt Lebanon", "Squirrel Hill", "Lawrenceville",
-          "North Side", "Highland Park", "Aspinwall", "Oakland", "Shadyside"]
-ZIPS = ["15116", "15217", "15222", "15206", "15212", "15201", "15228", "15215",
-        "15213", "15232"]
-PROVIDERS = ["Dr. Patel", "Dr. Nguyen", "Dr. Williams", "Dr. Chen", "Dr. Garcia",
-             "Dr. Rodriguez", "Dr. Kim", "Dr. O'Connor"]
-
 
 def fallback_dataset(n: int = 10000) -> dict[str, Any]:
     return synth_generate(n_patients=n)
-
-
-def _legacy_demo_dataset(n: int = 240) -> dict[str, Any]:
-    rng = random.Random(42)
-    today = dt.date.today()
-    patients: list[dict[str, Any]] = []
-    for i in range(n):
-        first = rng.choice(FIRST_NAMES)
-        last = rng.choice(LAST_NAMES)
-        age = rng.randint(2, 92)
-        birth = today.replace(year=today.year - age, month=rng.randint(1, 12), day=rng.randint(1, 28))
-        sex = rng.choice(["M", "F"])
-        city_idx = rng.randint(0, len(CITIES) - 1)
-        encounters = rng.randint(0, 25)
-        chronic = rng.choices([0, 1, 2, 3, 4, 5], weights=[55, 22, 12, 6, 3, 2])[0]
-        charge_per_visit = rng.randint(150, 4500)
-        patients.append({
-            "pat_id": f"PAT{100000 + i:06d}",
-            "med_rec_num": f"MRN{100042 + i * 7:06d}",
-            "full_name": f"{first} {last}",
-            "birth_date": birth.isoformat(),
-            "age": age,
-            "sex": sex,
-            "city": CITIES[city_idx],
-            "zip_code": ZIPS[city_idx],
-            "primary_care_provider": rng.choice(PROVIDERS),
-            "active_chronic_count": chronic,
-            "encounter_count": encounters,
-            "total_charges": encounters * charge_per_visit,
-            "latitude": 40.45 + (city_idx - 5) * 0.02,
-            "longitude": -79.99 + (city_idx - 5) * 0.02,
-        })
-    summary = {
-        "total_patients": n,
-        "total_encounters": sum(p["encounter_count"] for p in patients),
-        "total_diagnoses": sum(p["active_chronic_count"] for p in patients) * 2,
-        "avg_encounter_cost": round(sum(p["total_charges"] for p in patients) / max(1, sum(p["encounter_count"] for p in patients)), 2),
-        "active_chronic_count": sum(p["active_chronic_count"] for p in patients),
-        "current_year": today.year,
-    }
-    return {"summary": summary, "patients": patients}
 
 
 # ---------------------------------------------------------------------------

@@ -24,6 +24,7 @@ fct_account_summary as (
         copay_amount,
         deductible_amount,
         disallowed_amount,
+        copay_amount + deductible_amount + disallowed_amount as total_charges,
         discharge_disposition,
         drg_name,
         encounter_type,

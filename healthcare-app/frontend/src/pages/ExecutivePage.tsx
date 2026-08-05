@@ -331,7 +331,7 @@ export default function ExecutivePage() {
           source="Penn Medicine · Epic Clarity CDC · 8 tables"
           rows="jason_chletsos_epic_clarity · 4 mart schemas · 21 dbt Labs models"
           ctaTo={() => navigate('/pipeline')}
-          fivetranUrl="https://fivetran.com/dashboard/connections/sanctity_finally/status"
+          fivetranUrl="https://fivetran.com/dashboard/connections/pennmed_epic_clarity/status"
         />
 
         {/* Method note — booth visitors will read this */}

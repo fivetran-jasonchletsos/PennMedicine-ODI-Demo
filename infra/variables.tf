@@ -51,3 +51,27 @@ variable "fivetran_destination_id" {
   description = "Fivetran destination group ID for the Databricks Unity Catalog destination (jason_chletsos_databricks)"
   type        = string
 }
+
+# Fivetran Qualtrics Connector Configuration
+variable "qualtrics_data_center" {
+  description = "Qualtrics data center ID (e.g. \"iad1\"), found in the Qualtrics account URL just before qualtrics.com"
+  type        = string
+}
+
+variable "qualtrics_client_id" {
+  description = "Client ID for the Qualtrics OAuth client application, obtained from the Qualtrics API console when registering an OAuth client (or via Fivetran's connect-card OAuth flow)"
+  type        = string
+  sensitive   = true
+}
+
+variable "qualtrics_client_secret" {
+  description = "Client secret for the Qualtrics OAuth client application, obtained from the Qualtrics API console when registering an OAuth client (or via Fivetran's connect-card OAuth flow)"
+  type        = string
+  sensitive   = true
+}
+
+variable "qualtrics_refresh_token" {
+  description = "Long-lived OAuth refresh token issued for the Qualtrics OAuth client, obtained via Fivetran's connect-card OAuth flow or the Qualtrics API console"
+  type        = string
+  sensitive   = true
+}

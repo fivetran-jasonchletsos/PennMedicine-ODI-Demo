@@ -15,3 +15,13 @@ fivetran_api_secret = "your-fivetran-api-secret"
 # destination (jason_chletsos_databricks) — the destination itself
 # is not managed by this Terraform, only referenced by ID here.
 fivetran_destination_id = "your-databricks-destination-group-id"
+
+# Fivetran Qualtrics Connector Configuration
+# data_center is found in your Qualtrics account URL, just before
+# "qualtrics.com" (e.g. "iad1"). The client_id/client_secret/refresh_token
+# come from a Qualtrics OAuth client application, obtained via Fivetran's
+# connect-card OAuth flow or the Qualtrics API console.
+qualtrics_data_center   = "iad1"
+qualtrics_client_id     = "your-qualtrics-oauth-client-id"
+qualtrics_client_secret = "your-qualtrics-oauth-client-secret"
+qualtrics_refresh_token = "your-qualtrics-oauth-refresh-token"

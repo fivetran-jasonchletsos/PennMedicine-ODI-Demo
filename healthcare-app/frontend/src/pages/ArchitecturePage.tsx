@@ -111,7 +111,7 @@ ORDER BY encounters_30d DESC;`,
 LOAD iceberg;
 
 SELECT *
-FROM iceberg_scan('s3://clarity-odi-lake/gold/fct_payor_denied_claims/')
+FROM iceberg_scan('s3://pennmed-odi-lake/gold/fct_payor_denied_claims/')
 WHERE denial_reason_code IN ('CO-50','CO-97')
 LIMIT 100;`,
   },

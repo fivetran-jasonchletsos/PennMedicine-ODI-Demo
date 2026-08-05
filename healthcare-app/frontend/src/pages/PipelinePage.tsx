@@ -35,14 +35,14 @@ interface Connector {
 }
 
 const CONNECTORS: Connector[] = [
-  { table: 'PATIENT',        schema: 'ehr_demo', rowsCdc: 412,   lagSec: 32, status: 'healthy', lastSyncMin: 4, throughput: [22, 18, 26, 31, 28, 24, 30, 34, 29, 27, 33, 38],               fivetranId: 'sanctity_finally' },
-  { table: 'PAT_ENC',        schema: 'ehr_demo', rowsCdc: 8214,  lagSec: 41, status: 'healthy', lastSyncMin: 4, throughput: [380, 420, 460, 510, 540, 560, 510, 480, 530, 560, 590, 610],   fivetranId: 'sanctity_finally' },
-  { table: 'PAT_ENC_DX',     schema: 'ehr_demo', rowsCdc: 14288, lagSec: 48, status: 'healthy', lastSyncMin: 4, throughput: [620, 680, 710, 760, 820, 880, 840, 800, 860, 920, 980, 1040],  fivetranId: 'sanctity_finally' },
-  { table: 'HSP_ACCOUNT',    schema: 'ehr_demo', rowsCdc: 6480,  lagSec: 39, status: 'healthy', lastSyncMin: 4, throughput: [240, 280, 310, 340, 360, 380, 360, 340, 380, 410, 440, 470],   fivetranId: 'sanctity_finally' },
-  { table: 'HSP_TRANSACTION', schema: 'ehr_demo', rowsCdc: 22146, lagSec: 52, status: 'healthy', lastSyncMin: 4, throughput: [840, 920, 1010, 1080, 1140, 1200, 1180, 1160, 1220, 1280, 1340, 1410], fivetranId: 'sanctity_finally' },
-  { table: 'MEDICATIONS',    schema: 'ehr_demo', rowsCdc: 3024,  lagSec: 36, status: 'healthy', lastSyncMin: 4, throughput: [110, 130, 150, 170, 180, 190, 200, 210, 220, 230, 240, 252],   fivetranId: 'sanctity_finally' },
-  { table: 'PROVIDERS',      schema: 'ehr_demo', rowsCdc: 24,    lagSec: 18, status: 'healthy', lastSyncMin: 4, throughput: [1, 2, 1, 0, 3, 1, 2, 1, 2, 1, 0, 2],                           fivetranId: 'sanctity_finally' },
-  { table: 'DEPARTMENTS',    schema: 'ehr_demo', rowsCdc: 6,     lagSec: 14, status: 'healthy', lastSyncMin: 4, throughput: [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0],                           fivetranId: 'sanctity_finally' },
+  { table: 'PATIENT',        schema: 'ehr_demo', rowsCdc: 412,   lagSec: 32, status: 'healthy', lastSyncMin: 4, throughput: [22, 18, 26, 31, 28, 24, 30, 34, 29, 27, 33, 38],               fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'PAT_ENC',        schema: 'ehr_demo', rowsCdc: 8214,  lagSec: 41, status: 'healthy', lastSyncMin: 4, throughput: [380, 420, 460, 510, 540, 560, 510, 480, 530, 560, 590, 610],   fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'PAT_ENC_DX',     schema: 'ehr_demo', rowsCdc: 14288, lagSec: 48, status: 'healthy', lastSyncMin: 4, throughput: [620, 680, 710, 760, 820, 880, 840, 800, 860, 920, 980, 1040],  fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'HSP_ACCOUNT',    schema: 'ehr_demo', rowsCdc: 6480,  lagSec: 39, status: 'healthy', lastSyncMin: 4, throughput: [240, 280, 310, 340, 360, 380, 360, 340, 380, 410, 440, 470],   fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'HSP_TRANSACTION', schema: 'ehr_demo', rowsCdc: 22146, lagSec: 52, status: 'healthy', lastSyncMin: 4, throughput: [840, 920, 1010, 1080, 1140, 1200, 1180, 1160, 1220, 1280, 1340, 1410], fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'MEDICATIONS',    schema: 'ehr_demo', rowsCdc: 3024,  lagSec: 36, status: 'healthy', lastSyncMin: 4, throughput: [110, 130, 150, 170, 180, 190, 200, 210, 220, 230, 240, 252],   fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'PROVIDERS',      schema: 'ehr_demo', rowsCdc: 24,    lagSec: 18, status: 'healthy', lastSyncMin: 4, throughput: [1, 2, 1, 0, 3, 1, 2, 1, 2, 1, 0, 2],                           fivetranId: FIVETRAN_CONNECTOR_ID },
+  { table: 'DEPARTMENTS',    schema: 'ehr_demo', rowsCdc: 6,     lagSec: 14, status: 'healthy', lastSyncMin: 4, throughput: [0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0],                           fivetranId: FIVETRAN_CONNECTOR_ID },
 ];
 
 const DBT_MODELS = [

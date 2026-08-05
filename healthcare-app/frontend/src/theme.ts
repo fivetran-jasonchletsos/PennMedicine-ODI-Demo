@@ -1,7 +1,7 @@
-// Two-theme switch — Fivetran (default) ↔ Snowflake. Flips a data-theme
+// Two-theme switch — Fivetran (default) ↔ Databricks. Flips a data-theme
 // attribute on <html> which the CSS variables in index.css listen for.
 
-export type Theme = 'fivetran' | 'snowflake';
+export type Theme = 'fivetran' | 'databricks';
 
 const KEY = 'epic-demo:theme';
 const listeners = new Set<(t: Theme) => void>();

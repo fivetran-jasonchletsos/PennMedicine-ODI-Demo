@@ -12,7 +12,7 @@
  * (data). IBM Plex is the EHR/medical-device standard — the same family used
  * on clinical and lab instrumentation.
  *
- * Brand (Fivetran / Snowflake) operates as an *accent* — the calm clinical
+ * Brand (Fivetran / Databricks) operates as an *accent* — the calm clinical
  * palette is consistent across both themes. Only the link/CTA color and the
  * institutional accent rail at the top of the page shift between themes.
  */
@@ -40,7 +40,7 @@
   --institutional-accent: linear-gradient(90deg, #0e7490 0%, #1e40af 100%);
 }
 
-:root[data-theme="snowflake"] {
+:root[data-theme="databricks"] {
   --color-brand-50:  #ecfeff;
   --color-brand-100: #cffafe;
   --color-brand-200: #a5f3fc;
@@ -52,7 +52,7 @@
   --color-brand-800: #155e75;
   --color-brand-900: #164e63;
   --color-accent-500: #11567f;
-  --brand-name: "Snowflake";
+  --brand-name: "Databricks";
   --institutional-accent: linear-gradient(90deg, #155e75 0%, #29b5e8 100%);
 }
 
