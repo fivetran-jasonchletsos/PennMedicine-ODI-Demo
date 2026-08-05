@@ -6,15 +6,15 @@
     "birth_date": "1969-06-02",
     "age": 57,
     "sex": "M",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 1,
     "encounter_count": 12,
     "total_charges": 5649,
-    "latitude": 40.29551,
-    "longitude": -79.53888,
-    "last_encounter_date": "2026-03-29",
+    "latitude": 39.84361,
+    "longitude": -75.35658,
+    "last_encounter_date": "2026-06-21",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9707 Centre St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000887-000",
-        "contact_date": "2026-03-29",
+        "contact_date": "2026-06-21",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Davis",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-001",
-        "contact_date": "2026-03-14",
+        "contact_date": "2026-06-06",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-002",
-        "contact_date": "2026-01-26",
+        "contact_date": "2026-04-20",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Miller",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-003",
-        "contact_date": "2025-12-31",
+        "contact_date": "2026-03-25",
         "encounter_type": "Procedure",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Martinez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-004",
-        "contact_date": "2025-11-30",
+        "contact_date": "2026-02-22",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Jackson",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-005",
-        "contact_date": "2025-10-05",
+        "contact_date": "2025-12-28",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Johnson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-006",
-        "contact_date": "2025-05-15",
+        "contact_date": "2025-08-07",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Johnson",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000887-007",
-        "contact_date": "2025-02-03",
+        "contact_date": "2025-04-28",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-008",
-        "contact_date": "2024-11-15",
+        "contact_date": "2025-02-07",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Johnson",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-009",
-        "contact_date": "2024-11-05",
+        "contact_date": "2025-01-28",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Greene",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-010",
-        "contact_date": "2024-09-25",
+        "contact_date": "2024-12-18",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Hernandez",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000887-011",
-        "contact_date": "2024-09-13",
+        "contact_date": "2024-12-06",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Johnson",
@@ -156,7 +156,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0000887-acu-000",
@@ -164,7 +164,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-29"
+        "first_recorded": "2026-06-21"
       }
     ]
   },
@@ -184,9 +184,9 @@
         "total_charges": 5649,
         "total_payments": 3779,
         "current_balance": 1870,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-02-24",
-        "closed_date": "2025-12-25"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-05-19",
+        "closed_date": "2026-03-19"
       }
     ]
   },

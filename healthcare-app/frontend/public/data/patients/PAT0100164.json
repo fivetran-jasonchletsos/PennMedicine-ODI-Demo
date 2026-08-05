@@ -6,15 +6,15 @@
     "birth_date": "1996-02-07",
     "age": 30,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Robert Chen",
     "active_chronic_count": 1,
     "encounter_count": 13,
     "total_charges": 50879,
-    "latitude": 40.44607,
-    "longitude": -79.95731,
-    "last_encounter_date": "2026-04-22",
+    "latitude": 39.94537,
+    "longitude": -75.21661,
+    "last_encounter_date": "2026-07-15",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1243 Liberty Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000164-000",
-        "contact_date": "2026-04-22",
+        "contact_date": "2026-07-15",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Anderson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-001",
-        "contact_date": "2026-02-04",
+        "contact_date": "2026-04-29",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha Wilson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-002",
-        "contact_date": "2026-01-30",
+        "contact_date": "2026-04-24",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Robert Chen",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-003",
-        "contact_date": "2025-12-09",
+        "contact_date": "2026-03-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Chen",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-004",
-        "contact_date": "2025-11-11",
+        "contact_date": "2026-02-03",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Chen",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-005",
-        "contact_date": "2025-09-01",
+        "contact_date": "2025-11-24",
         "encounter_type": "Emergency Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Chen",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000164-006",
-        "contact_date": "2025-04-28",
+        "contact_date": "2025-07-21",
         "encounter_type": "Hospital Admission",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-007",
-        "contact_date": "2025-03-09",
+        "contact_date": "2025-06-01",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. James Russo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-008",
-        "contact_date": "2025-01-19",
+        "contact_date": "2025-04-13",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Chen",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000164-009",
-        "contact_date": "2024-12-13",
+        "contact_date": "2025-03-07",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-010",
-        "contact_date": "2024-11-04",
+        "contact_date": "2025-01-27",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Chen",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-011",
-        "contact_date": "2024-07-31",
+        "contact_date": "2024-10-23",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Chen",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0000164-012",
-        "contact_date": "2024-05-30",
+        "contact_date": "2024-08-22",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Russo",
@@ -166,7 +166,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0000164-acu-000",
@@ -174,7 +174,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-04-22"
+        "first_recorded": "2026-07-15"
       },
       {
         "dx_id": "0000164-acu-001",
@@ -182,7 +182,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-04"
+        "first_recorded": "2026-04-29"
       }
     ]
   },
@@ -202,9 +202,9 @@
         "total_charges": 50879,
         "total_payments": 41594,
         "current_balance": 9285,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-26",
-        "closed_date": "2025-11-18"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-10-18",
+        "closed_date": "2026-02-10"
       }
     ]
   },

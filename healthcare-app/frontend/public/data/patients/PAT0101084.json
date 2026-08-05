@@ -6,28 +6,28 @@
     "birth_date": "1984-08-28",
     "age": 42,
     "sex": "F",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Mark Davis",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 32763,
-    "latitude": 40.29959,
-    "longitude": -79.54259,
-    "last_encounter_date": "2026-04-23",
+    "latitude": 39.84769,
+    "longitude": -75.36029,
+    "last_encounter_date": "2026-07-16",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "840 Highland St",
     "state": "PA",
     "phone": "(412) 459-9992",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0101084",
     "encounters": [
       {
         "pat_enc_csn_id": "0001084-000",
-        "contact_date": "2026-04-23",
+        "contact_date": "2026-07-16",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Davis",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001084-001",
-        "contact_date": "2026-02-05",
+        "contact_date": "2026-04-30",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Garcia",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001084-002",
-        "contact_date": "2025-10-26",
+        "contact_date": "2026-01-18",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Davis",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001084-003",
-        "contact_date": "2025-03-05",
+        "contact_date": "2025-05-28",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001084-004",
-        "contact_date": "2024-08-31",
+        "contact_date": "2024-11-23",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001084-005",
-        "contact_date": "2024-08-29",
+        "contact_date": "2024-11-21",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001084-006",
-        "contact_date": "2024-08-27",
+        "contact_date": "2024-11-19",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Jackson",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001084-007",
-        "contact_date": "2024-08-25",
+        "contact_date": "2024-11-17",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001084-008",
-        "contact_date": "2024-08-13",
+        "contact_date": "2024-11-05",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -126,7 +126,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "2013-05-13"
+        "first_recorded": "2013-08-05"
       },
       {
         "dx_id": "0001084-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2010-05-13"
+        "first_recorded": "2010-08-05"
       },
       {
         "dx_id": "0001084-acu-000",
@@ -142,7 +142,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-04-23"
+        "first_recorded": "2026-07-16"
       },
       {
         "dx_id": "0001084-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-02-05"
+        "first_recorded": "2026-04-30"
       },
       {
         "dx_id": "0001084-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-10-26"
+        "first_recorded": "2026-01-18"
       }
     ]
   },
@@ -166,8 +166,8 @@
     "pat_id": "PAT0101084",
     "summary": {
       "total_charges": 32763,
-      "total_payments": 22409,
-      "outstanding_balance": 10354,
+      "total_payments": 24114,
+      "outstanding_balance": 8649,
       "account_count": 3
     },
     "accounts": [
@@ -178,8 +178,8 @@
         "total_charges": 21406,
         "total_payments": 13399,
         "current_balance": 8007,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-04-05",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-06-28",
         "closed_date": null
       },
       {
@@ -189,8 +189,8 @@
         "total_charges": 1073,
         "total_payments": 915,
         "current_balance": 158,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-03-19",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-06-11",
         "closed_date": null
       },
       {
@@ -198,11 +198,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 10284,
-        "total_payments": 8095,
-        "current_balance": 2189,
-        "primary_payer": "Medicare",
-        "opened_date": "2025-03-17",
-        "closed_date": "2026-04-27"
+        "total_payments": 9800,
+        "current_balance": 484,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-06-09",
+        "closed_date": "2026-07-20"
       }
     ]
   },

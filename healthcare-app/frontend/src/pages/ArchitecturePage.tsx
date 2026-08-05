@@ -1,11 +1,10 @@
-// Clarity Health — Open Data Infrastructure architecture page.
+// Penn Medicine — Open Data Infrastructure architecture page.
 //
-// Ported from Verity Insurance's ArchitecturePage to give Clarity the
-// same medallion / multi-engine surface (Snowflake Summit 2026 recording
-// set, 9am). Healthcare-flavoured: Clarity EHR (Epic Clarity) + payor
-// claims (Oracle) + HL7 v2 feed + CMS public datasets. Snowflake is
-// the primary engine; Athena/DuckDB/Trino/Spark stay listed as the
-// same open-lake reads.
+// Ported from Verity Insurance's ArchitecturePage to give this build the
+// same medallion / multi-engine surface. Healthcare-flavoured: Clarity EHR
+// (Epic Clarity) + payor claims (Oracle) + HL7 v2 feed + CMS public
+// datasets. Databricks (Unity Catalog) is the primary engine; Athena/
+// DuckDB/Trino/Spark stay listed as the same open-lake reads.
 //
 // Iceberg table list is inlined (no extra API endpoint) so the page
 // can render in the recording even if connectors are paused.
@@ -23,11 +22,11 @@ const CLARITY_SOURCES: SourceNode[] = [
 ];
 
 const CLARITY_ENGINES: EngineNode[] = [
-  { name: 'Snowflake', active: true,  logo: 'snowflake' },
-  { name: 'Athena',                   logo: 'athena' },
-  { name: 'DuckDB',                   logo: 'duckdb' },
-  { name: 'Trino',                    logo: 'trino' },
-  { name: 'Spark',                    logo: 'spark' },
+  { name: 'Databricks', active: true,  logo: 'databricks' },
+  { name: 'Athena',                    logo: 'athena' },
+  { name: 'DuckDB',                    logo: 'duckdb' },
+  { name: 'Trino',                     logo: 'trino' },
+  { name: 'Spark',                     logo: 'spark' },
 ];
 
 // ─── Types (local) ──────────────────────────────────────────────────────────
@@ -44,7 +43,7 @@ interface IcebergTable {
 }
 
 interface QueryEngine {
-  name: 'Snowflake' | 'Athena' | 'DuckDB' | 'Trino' | 'Spark';
+  name: 'Databricks' | 'Athena' | 'DuckDB' | 'Trino' | 'Spark';
   status: 'active' | 'available' | 'demo';
   description: string;
   sample_query: string;
@@ -79,9 +78,9 @@ const TABLES: IcebergTable[] = [
 
 const ENGINES: QueryEngine[] = [
   {
-    name: 'Snowflake',
+    name: 'Databricks',
     status: 'active',
-    description: 'Primary engine for the Clarity gold layer. Reads Iceberg externals through Polaris catalog; auto-suspends between queries. Where the front end, the cost-estimator, and the dbt-wizard run-time agents all land. Humans and agents read the same gold layer.',
+    description: 'Primary engine for the gold layer. A serverless Databricks SQL warehouse reads the same lakehouse tables through Unity Catalog and auto-stops between queries. Where the front end, the cost-estimator, and the dbt-wizard run-time agents all land. Humans and agents read the same gold layer, governed by the same catalog.',
     sample_query: `SELECT
   p.patient_id, p.age_band, p.payor_class,
   c.condition_label, c.last_seen_at,
@@ -140,11 +139,11 @@ df.groupBy("payor_class", "department")\\
 ];
 
 const ENGINE_COLORS: Record<QueryEngine['name'], string> = {
-  Snowflake: '#29b5e8',
-  Athena:    '#b8975c',
-  DuckDB:    '#0b2545',
-  Trino:     '#1d4e89',
-  Spark:     '#b45309',
+  Databricks: '#FF3621',
+  Athena:     '#b8975c',
+  DuckDB:     '#0b2545',
+  Trino:      '#1d4e89',
+  Spark:      '#b45309',
 };
 
 // ─── Number formatters (local — Clarity's api/queries doesn't export these) ─
@@ -183,9 +182,10 @@ export default function ArchitecturePage() {
           One lake. Every engine. The whole patient story.
         </h1>
         <p className="mt-3 text-[var(--ink-muted)] max-w-3xl leading-relaxed">
-          Clarity Health treats <em>storage</em>, <em>catalog</em>, and <em>compute</em> as three
-          independently swappable layers. Iceberg is the storage spec. Glue is the catalog.
-          Snowflake, Athena, DuckDB, Trino, and Spark can all read the same tables &mdash; no copy,
+          Penn Medicine treats <em>storage</em>, <em>catalog</em>, and <em>compute</em> as three
+          independently swappable layers. Iceberg is the storage spec. Databricks Unity Catalog is
+          the governing catalog. Databricks SQL warehouses do the primary reading and writing, and
+          Athena, DuckDB, Trino, and Spark can all reach the same open tables &mdash; no copy,
           no extract, no proprietary format between the EHR and the analyst.
         </p>
         <p className="mt-3 font-serif italic text-[15px] text-[var(--ink-strong)] max-w-3xl leading-relaxed">
@@ -204,12 +204,13 @@ export default function ArchitecturePage() {
       <section className="clinical-card p-6 sm:p-8 mb-8" style={cardStyle}>
         <div className="eyebrow mb-1">Data Flow</div>
         <h2 className="font-serif text-2xl font-semibold text-[var(--ink-strong)] mb-2">
-          Fivetran → Iceberg (MDLS) → Snowflake · Athena · Trino → dbt
+          Fivetran → Iceberg (MDLS) → Databricks (Unity Catalog) → dbt Labs
         </h2>
         <p className="text-sm text-[var(--ink-muted)] mb-6 leading-relaxed max-w-3xl">
-          Every source lands in open Apache Iceberg format on S3 — the Managed Data Lake. All query
-          engines read the same bytes, no copies. Fivetran Transformations triggers the dbt job the
-          moment the Epic Clarity sync finishes.
+          Every source lands in open Apache Iceberg format on S3 — the Managed Data Lake. Databricks
+          registers those tables in Unity Catalog and is the primary read/write engine; Athena, Trino,
+          DuckDB, and Spark can all reach the same bytes with no copies. Fivetran Transformations
+          triggers the dbt Labs job the moment the Epic Clarity sync finishes.
         </p>
 
         <ProductStageRail accent="#0e7490" />
@@ -900,7 +901,7 @@ function CostPanel() {
             </h2>
             <p className="text-sm text-[var(--ink-muted)] mt-1 max-w-3xl">
               Storage and compute billed separately. Storage is essentially free at this scale; compute scales
-              with workload because Snowflake warehouses auto-suspend when no one is reading.
+              with workload because serverless Databricks SQL warehouses auto-stop when no one is reading.
             </p>
           </div>
           <div className="inline-flex items-center gap-1.5 rounded-sm px-2.5 py-1.5 text-[10px] font-bold uppercase tracking-wider text-white shrink-0" style={{ background: '#0d9488' }}>
@@ -910,7 +911,7 @@ function CostPanel() {
       </header>
       <div className="grid grid-cols-1 md:grid-cols-4 divide-y md:divide-y-0 md:divide-x divide-[var(--hairline-soft,#e8e4d8)]">
         <CostTile label="Storage · per day"   value="$0.87"  sub="2.4 TB across bronze/silver/gold · S3 Standard-IA"  color="#16a34a" />
-        <CostTile label="Compute · per day"   value="$4.12"  sub="Snowflake XS auto-suspend · dbt · Athena ad-hoc" color="#0d9488" />
+        <CostTile label="Compute · per day"   value="$4.12"  sub="Databricks serverless SQL auto-stop · dbt · Athena ad-hoc" color="#0d9488" />
         <CostTile label="Zero-row dbt · saved" value="$4.76"  sub="78% of Fivetran syncs no-op today · downstream dbt builds finish in zero rows" color="#7c3aed" />
         <CostTile label="Equivalent MDS"      value="$15.40" sub="Internal benchmark · same data, warehouse-resident" color="#dc2626" />
       </div>
@@ -1246,7 +1247,7 @@ expectations:
 // =============================================================================
 // ActivationsPanel — NewCo Activations (formerly Census), the native
 // reverse-ETL stage that sits directly after Transformations. TRIGGER /
-// DESTINATION / OUTCOME below are vertical-specific to Clarity Health's
+// DESTINATION / OUTCOME below are vertical-specific to Penn Medicine's
 // SEP-1 sepsis-bundle redraw workflow.
 // =============================================================================
 function ActivationsPanel() {
@@ -1310,10 +1311,10 @@ function BeforeAfterPanel() {
   return (
     <section className="grid grid-cols-1 md:grid-cols-2 gap-5">
       <div className="clinical-card p-6 border-l-4" style={{ ...cardStyle, borderLeftColor: '#dc2626' }}>
-        <div className="eyebrow" style={{ color: '#dc2626' }}>Before · Modern Data Stack</div>
+        <div className="eyebrow" style={{ color: '#dc2626' }}>Before · Hand-built ADF into Databricks</div>
         <h3 className="mt-1 font-serif text-xl font-semibold text-[var(--ink-strong)]">14 hops · 3 copies of the bytes</h3>
-        <pre className="font-mono text-[10.5px] leading-relaxed mt-4 p-3 rounded-sm overflow-x-auto" style={{ background: '#fef2f2', color: '#7f1d1d', border: '1px solid #fecaca' }}>{`Source → SFTP → Stitch → Snowflake (raw)
-       → dbt → Snowflake (silver) → Snowflake (gold)
+        <pre className="font-mono text-[10.5px] leading-relaxed mt-4 p-3 rounded-sm overflow-x-auto" style={{ background: '#fef2f2', color: '#7f1d1d', border: '1px solid #fecaca' }}>{`Source → hand-built ADF pipeline (custom CDC) → staging tables (raw)
+       → ADF merge notebook → Databricks (silver) → Databricks (gold)
        → Census reverse-ETL → Hightouch → 3rd-party AI store
        → Looker materialised view → BI extract → analyst laptop`}</pre>
         <div className="mt-4">
@@ -1335,9 +1336,9 @@ function BeforeAfterPanel() {
         <div className="eyebrow" style={{ color: '#0d9488' }}>After · Open Data Infrastructure</div>
         <h3 className="mt-1 font-serif text-xl font-semibold text-[var(--ink-strong)]">5 hops · 1 copy of the bytes</h3>
         <pre className="font-mono text-[10.5px] leading-relaxed mt-4 p-3 rounded-sm overflow-x-auto" style={{ background: '#ecfdf5', color: '#064e3b', border: '1px solid #a7f3d0' }}>{`Source → Fivetran CDC → Iceberg bronze
-       → dbt → Iceberg silver
-       → dbt → Iceberg gold
-       ↳ Snowflake · Athena · DuckDB · Trino · Spark
+       → dbt Labs → Iceberg silver
+       → dbt Labs → Iceberg gold
+       ↳ Databricks (Unity Catalog) primary · Athena, DuckDB, Trino, Spark still welcome
          (all reading the same bytes, no copies)
        → NewCo Activations (native) → TigerConnect`}</pre>
         <div className="mt-4">

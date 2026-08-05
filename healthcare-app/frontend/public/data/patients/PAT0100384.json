@@ -6,15 +6,15 @@
     "birth_date": "1986-01-25",
     "age": 40,
     "sex": "F",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Mark Gonzalez",
     "active_chronic_count": 3,
     "encounter_count": 7,
     "total_charges": 1147,
-    "latitude": 40.63264,
-    "longitude": -80.05362,
-    "last_encounter_date": "2025-10-26",
+    "latitude": 40.08174,
+    "longitude": -75.29652,
+    "last_encounter_date": "2026-01-18",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1229 Penn Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000384-000",
-        "contact_date": "2025-10-26",
+        "contact_date": "2026-01-18",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000384-001",
-        "contact_date": "2025-10-24",
+        "contact_date": "2026-01-16",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Gonzalez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000384-002",
-        "contact_date": "2025-10-22",
+        "contact_date": "2026-01-14",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sophia Moore",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000384-003",
-        "contact_date": "2025-06-18",
+        "contact_date": "2025-09-10",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000384-004",
-        "contact_date": "2025-06-04",
+        "contact_date": "2025-08-27",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000384-005",
-        "contact_date": "2024-12-27",
+        "contact_date": "2025-03-21",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000384-006",
-        "contact_date": "2024-10-04",
+        "contact_date": "2024-12-27",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Gonzalez",
@@ -106,7 +106,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2019-05-13"
+        "first_recorded": "2019-08-05"
       },
       {
         "dx_id": "0000384-dx-001",
@@ -114,7 +114,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2011-05-13"
+        "first_recorded": "2011-08-05"
       },
       {
         "dx_id": "0000384-dx-002",
@@ -122,7 +122,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2019-05-13"
+        "first_recorded": "2019-08-05"
       },
       {
         "dx_id": "0000384-acu-001",
@@ -130,7 +130,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-10-24"
+        "first_recorded": "2026-01-16"
       },
       {
         "dx_id": "0000384-acu-002",
@@ -138,7 +138,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-10-22"
+        "first_recorded": "2026-01-14"
       }
     ]
   },
@@ -146,8 +146,8 @@
     "pat_id": "PAT0100384",
     "summary": {
       "total_charges": 1147,
-      "total_payments": 1050,
-      "outstanding_balance": 97,
+      "total_payments": 941,
+      "outstanding_balance": 206,
       "account_count": 1
     },
     "accounts": [
@@ -156,11 +156,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 1147,
-        "total_payments": 1050,
-        "current_balance": 97,
-        "primary_payer": "Cigna",
-        "opened_date": "2026-03-01",
-        "closed_date": "2025-11-18"
+        "total_payments": 941,
+        "current_balance": 206,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-05-24",
+        "closed_date": "2026-02-10"
       }
     ]
   },

@@ -3,7 +3,8 @@ version: 2
 sources:
   - name: clarity
     description: Epic Clarity source data synced via Fivetran's Epic Clarity connector
-    schema: jason_chletsos_ehr_demo
+    database: jason_chletsos_pennmed
+    schema: jason_chletsos_pennmed_ehr_demo
     tables:
       - name: patient
         description: Patient demographic and administrative information

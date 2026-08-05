@@ -6,28 +6,28 @@
     "birth_date": "1977-12-04",
     "age": 49,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. David Russo",
     "active_chronic_count": 1,
     "encounter_count": 13,
     "total_charges": 23414,
-    "latitude": 40.4407,
-    "longitude": -79.96143,
-    "last_encounter_date": "2026-04-21",
+    "latitude": 39.94,
+    "longitude": -75.22073,
+    "last_encounter_date": "2026-07-14",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6660 Highland Ave",
     "state": "PA",
     "phone": "(412) 233-4110",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100275",
     "encounters": [
       {
         "pat_enc_csn_id": "0000275-000",
-        "contact_date": "2026-04-21",
+        "contact_date": "2026-07-14",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Davis",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-001",
-        "contact_date": "2026-01-24",
+        "contact_date": "2026-04-18",
         "encounter_type": "Emergency Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Garcia",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-002",
-        "contact_date": "2025-12-07",
+        "contact_date": "2026-03-01",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Williams",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000275-003",
-        "contact_date": "2025-10-22",
+        "contact_date": "2026-01-14",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Russo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000275-004",
-        "contact_date": "2025-10-18",
+        "contact_date": "2026-01-10",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-005",
-        "contact_date": "2025-09-28",
+        "contact_date": "2025-12-21",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. David Russo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-006",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Anderson",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000275-007",
-        "contact_date": "2025-07-27",
+        "contact_date": "2025-10-19",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. David Russo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000275-008",
-        "contact_date": "2025-05-01",
+        "contact_date": "2025-07-24",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-009",
-        "contact_date": "2025-02-05",
+        "contact_date": "2025-04-30",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Wong",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-010",
-        "contact_date": "2024-12-28",
+        "contact_date": "2025-03-22",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Russo",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-011",
-        "contact_date": "2024-10-12",
+        "contact_date": "2025-01-04",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Greene",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0000275-012",
-        "contact_date": "2024-07-29",
+        "contact_date": "2024-10-21",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. David Russo",
@@ -166,7 +166,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000275-acu-000",
@@ -174,7 +174,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-04-21"
+        "first_recorded": "2026-07-14"
       },
       {
         "dx_id": "0000275-acu-001",
@@ -182,7 +182,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-01-24"
+        "first_recorded": "2026-04-18"
       },
       {
         "dx_id": "0000275-acu-002",
@@ -190,7 +190,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-12-07"
+        "first_recorded": "2026-03-01"
       }
     ]
   },
@@ -210,9 +210,9 @@
         "total_charges": 18975,
         "total_payments": 11665,
         "current_balance": 7310,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-07-22",
-        "closed_date": "2026-03-11"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-14",
+        "closed_date": "2026-06-03"
       },
       {
         "hsp_account_id": "HSP000027501",
@@ -221,9 +221,9 @@
         "total_charges": 3442,
         "total_payments": 2622,
         "current_balance": 820,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-04-20",
-        "closed_date": "2026-05-06"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-07-13",
+        "closed_date": "2026-07-29"
       },
       {
         "hsp_account_id": "HSP000027502",
@@ -232,9 +232,9 @@
         "total_charges": 997,
         "total_payments": 623,
         "current_balance": 374,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-24",
-        "closed_date": "2026-03-21"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-03-18",
+        "closed_date": "2026-06-13"
       }
     ]
   },

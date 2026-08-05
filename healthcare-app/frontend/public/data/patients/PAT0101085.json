@@ -6,30 +6,30 @@
     "birth_date": "1971-01-07",
     "age": 55,
     "sex": "F",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Michael Greene",
     "active_chronic_count": 1,
     "encounter_count": 7,
     "total_charges": 5550,
-    "latitude": 40.49758,
-    "longitude": -79.9072,
-    "last_encounter_date": "2026-04-24",
+    "latitude": 40.00898,
+    "longitude": -75.2962,
+    "last_encounter_date": "2026-07-17",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "920 Forbes Blvd",
     "state": "PA",
     "phone": "(412) 676-5801",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0101085",
     "encounters": [
       {
         "pat_enc_csn_id": "0001085-000",
-        "contact_date": "2026-04-24",
+        "contact_date": "2026-07-17",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001085-001",
-        "contact_date": "2025-12-28",
+        "contact_date": "2026-03-22",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Greene",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001085-002",
-        "contact_date": "2025-11-23",
+        "contact_date": "2026-02-15",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Chen",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001085-003",
-        "contact_date": "2024-10-21",
+        "contact_date": "2025-01-13",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001085-004",
-        "contact_date": "2024-09-26",
+        "contact_date": "2024-12-19",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Greene",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001085-005",
-        "contact_date": "2024-06-06",
+        "contact_date": "2024-08-29",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001085-006",
-        "contact_date": "2024-05-26",
+        "contact_date": "2024-08-18",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -106,7 +106,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2003-05-13"
+        "first_recorded": "2003-08-05"
       },
       {
         "dx_id": "0001085-acu-000",
@@ -114,7 +114,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-04-24"
+        "first_recorded": "2026-07-17"
       },
       {
         "dx_id": "0001085-acu-001",
@@ -122,7 +122,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-12-28"
+        "first_recorded": "2026-03-22"
       },
       {
         "dx_id": "0001085-acu-002",
@@ -130,7 +130,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-11-23"
+        "first_recorded": "2026-02-15"
       }
     ]
   },
@@ -151,7 +151,7 @@
         "total_payments": 4374,
         "current_balance": 1176,
         "primary_payer": "Medicare",
-        "opened_date": "2025-10-13",
+        "opened_date": "2026-01-05",
         "closed_date": null
       }
     ]

@@ -6,15 +6,15 @@
     "birth_date": "2023-06-25",
     "age": 3,
     "sex": "M",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Ashley Miller",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 73661,
-    "latitude": 40.52674,
-    "longitude": -79.95574,
-    "last_encounter_date": "2025-10-06",
+    "latitude": 40.00574,
+    "longitude": -75.22584,
+    "last_encounter_date": "2025-12-29",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "1311 Murray St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000941-000",
-        "contact_date": "2025-10-06",
+        "contact_date": "2025-12-29",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Miller",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000941-001",
-        "contact_date": "2024-12-05",
+        "contact_date": "2025-02-27",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Ashley Miller",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000941-002",
-        "contact_date": "2024-10-10",
+        "contact_date": "2025-01-02",
         "encounter_type": "Hospital Admission",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000941-003",
-        "contact_date": "2024-06-27",
+        "contact_date": "2024-09-19",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000941-004",
-        "contact_date": "2024-06-15",
+        "contact_date": "2024-09-07",
         "encounter_type": "Hospital Admission",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000941-005",
-        "contact_date": "2024-05-16",
+        "contact_date": "2024-08-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -96,7 +96,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000941-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-06"
+        "first_recorded": "2025-12-29"
       },
       {
         "dx_id": "0000941-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2024-12-05"
+        "first_recorded": "2025-02-27"
       },
       {
         "dx_id": "0000941-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2024-10-10"
+        "first_recorded": "2025-01-02"
       }
     ]
   },
@@ -141,7 +141,7 @@
         "total_payments": 61340,
         "current_balance": 12321,
         "primary_payer": "Medicare",
-        "opened_date": "2025-06-04",
+        "opened_date": "2025-08-27",
         "closed_date": null
       }
     ]

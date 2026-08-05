@@ -206,11 +206,11 @@ export default function ExecutivePage() {
             <div>
               <div className="eyebrow mb-2">Executive Cockpit · CEO View</div>
               <h1 className="font-serif text-3xl sm:text-4xl font-semibold leading-tight text-[var(--ink-strong)] tracking-tight">
-                Memorial Health · System Performance
+                Penn Medicine · System Performance
               </h1>
               <p className="mt-2 text-sm text-[var(--ink-muted)] max-w-3xl leading-relaxed">
                 The ten measures that drive operating margin, cost of capital, and reimbursement risk —
-                with peer percentiles and dollar-impact context. Built on Clarity Health EHR · Fivetran · Snowflake.
+                with peer percentiles and dollar-impact context. Built on Penn Medicine EHR · Fivetran · Databricks.
               </p>
             </div>
             <div className="flex flex-col items-end gap-2">
@@ -238,7 +238,7 @@ export default function ExecutivePage() {
               <span className="font-semibold text-[var(--clinical-green)]">60 bps to 4.6%</span>{' '}
               this period, led by a{' '}
               <span className="font-semibold">0.7-point drop in agency labor</span>{' '}
-              at the Memorial campus and a{' '}
+              at the flagship campus and a{' '}
               <span className="font-semibold">1.2-point reduction in initial denial rate</span>.
               ED boarding remains the standout outlier at 146 min vs. 120 min target — see opportunity feed.
             </>
@@ -262,16 +262,16 @@ export default function ExecutivePage() {
             {tiles.map((t, i) => (
               <KpiTile key={i} {...t} />
             ))}
-            {/* 11th tile — Snowflake compute spend story for the booth narrative */}
+            {/* 11th tile — Databricks compute spend story for the booth narrative */}
             <KpiTile
-              label="Snowflake compute · YTD"
+              label="Databricks compute · YTD"
               value="$58.4K"
-              subValue="elastic · auto-suspend"
+              subValue="serverless SQL · auto-stop"
               delta={{ value: '− 96%', trend: 'good', vs: 'vs legacy DW $1.6M' }}
               spark={spark([78, 74, 72, 70, 68, 66, 64, 62, 61, 60, 59, 58])}
               peer={{ position: 86, median: 50, topQuartile: 78 }}
               benchmark="Industry $0.8–1.5M / yr"
-              dollarLever="Retiring the on-prem Oracle warehouse + Snowflake elastic compute = $1.6M/yr operating expense reduction."
+              dollarLever="Retiring the on-prem Oracle warehouse + Databricks elastic compute = $1.6M/yr operating expense reduction."
               badge="Cloud finance"
               badgeTone="info"
             />
@@ -325,11 +325,11 @@ export default function ExecutivePage() {
           </div>
         </section>
 
-        {/* Provenance — the Snowflake + Fivetran story underneath */}
+        {/* Provenance — the Databricks + Fivetran story underneath */}
         <ProvenanceStrip
           freshness="4.2 min ago"
-          source="Clarity Health · Epic Clarity CDC · 8 tables"
-          rows="JASON_CHLETSOS_EPIC · 4 mart schemas · 21 dbt Labs models"
+          source="Penn Medicine · Epic Clarity CDC · 8 tables"
+          rows="jason_chletsos_epic_clarity · 4 mart schemas · 21 dbt Labs models"
           ctaTo={() => navigate('/pipeline')}
           fivetranUrl="https://fivetran.com/dashboard/connections/sanctity_finally/status"
         />

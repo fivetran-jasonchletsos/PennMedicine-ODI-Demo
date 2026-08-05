@@ -6,15 +6,15 @@
     "birth_date": "1964-10-23",
     "age": 62,
     "sex": "F",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 1157,
-    "latitude": 40.33103,
-    "longitude": -80.03641,
-    "last_encounter_date": "2026-04-23",
+    "latitude": 40.09043,
+    "longitude": -75.39431,
+    "last_encounter_date": "2026-07-16",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9840 Walnut St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000993-000",
-        "contact_date": "2026-04-23",
+        "contact_date": "2026-07-16",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000993-001",
-        "contact_date": "2025-12-22",
+        "contact_date": "2026-03-16",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000993-002",
-        "contact_date": "2025-01-29",
+        "contact_date": "2025-04-23",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000993-003",
-        "contact_date": "2024-11-16",
+        "contact_date": "2025-02-08",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000993-004",
-        "contact_date": "2024-08-11",
+        "contact_date": "2024-11-03",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000993-005",
-        "contact_date": "2024-07-28",
+        "contact_date": "2024-10-20",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -96,7 +96,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000993-acu-001",
@@ -104,7 +104,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-22"
+        "first_recorded": "2026-03-16"
       },
       {
         "dx_id": "0000993-acu-002",
@@ -112,7 +112,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-01-29"
+        "first_recorded": "2025-04-23"
       }
     ]
   },
@@ -132,8 +132,8 @@
         "total_charges": 1157,
         "total_payments": 1040,
         "current_balance": 117,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-07-15",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-07",
         "closed_date": null
       }
     ]

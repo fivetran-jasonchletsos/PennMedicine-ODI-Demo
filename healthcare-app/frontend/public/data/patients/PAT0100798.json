@@ -6,15 +6,15 @@
     "birth_date": "1989-12-23",
     "age": 37,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15222",
+    "city": "Philadelphia",
+    "zip_code": "19124",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 2,
     "encounter_count": 6,
     "total_charges": 6231,
-    "latitude": 40.43938,
-    "longitude": -79.99393,
-    "last_encounter_date": "2026-02-10",
+    "latitude": 40.09158,
+    "longitude": -75.08413,
+    "last_encounter_date": "2026-05-05",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7257 Forbes Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000798-000",
-        "contact_date": "2026-02-10",
+        "contact_date": "2026-05-05",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Nguyen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000798-001",
-        "contact_date": "2025-09-20",
+        "contact_date": "2025-12-13",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Thomas",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000798-002",
-        "contact_date": "2024-12-26",
+        "contact_date": "2025-03-20",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Nguyen",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000798-003",
-        "contact_date": "2024-09-23",
+        "contact_date": "2024-12-16",
         "encounter_type": "Emergency Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Jackson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000798-004",
-        "contact_date": "2024-09-14",
+        "contact_date": "2024-12-07",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000798-005",
-        "contact_date": "2024-07-15",
+        "contact_date": "2024-10-07",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Maria Moore",
@@ -96,7 +96,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000798-dx-001",
@@ -104,7 +104,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000798-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-09-20"
+        "first_recorded": "2025-12-13"
       },
       {
         "dx_id": "0000798-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2024-12-26"
+        "first_recorded": "2025-03-20"
       }
     ]
   },
@@ -141,8 +141,8 @@
         "total_payments": 5209,
         "current_balance": 1022,
         "primary_payer": "Medicare",
-        "opened_date": "2024-10-27",
-        "closed_date": "2026-05-08"
+        "opened_date": "2025-01-19",
+        "closed_date": "2026-07-31"
       }
     ]
   },

@@ -6,15 +6,15 @@
     "birth_date": "2008-03-25",
     "age": 18,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Maria Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 1726,
-    "latitude": 40.42698,
-    "longitude": -79.79308,
-    "last_encounter_date": "2026-03-07",
+    "latitude": 40.31318,
+    "longitude": -75.13438,
+    "last_encounter_date": "2026-05-30",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4752 Murray Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001450-000",
-        "contact_date": "2026-03-07",
+        "contact_date": "2026-05-30",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001450-001",
-        "contact_date": "2025-02-14",
+        "contact_date": "2025-05-09",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001450-002",
-        "contact_date": "2024-10-12",
+        "contact_date": "2025-01-04",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Okonkwo",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001450-003",
-        "contact_date": "2024-09-21",
+        "contact_date": "2024-12-14",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001450-004",
-        "contact_date": "2024-06-13",
+        "contact_date": "2024-09-05",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Okonkwo",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001450-005",
-        "contact_date": "2024-05-24",
+        "contact_date": "2024-08-16",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Ashley Garcia",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -96,7 +96,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0001450-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-03-07"
+        "first_recorded": "2026-05-30"
       },
       {
         "dx_id": "0001450-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-02-14"
+        "first_recorded": "2025-05-09"
       },
       {
         "dx_id": "0001450-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2024-10-12"
+        "first_recorded": "2025-01-04"
       }
     ]
   },
@@ -140,8 +140,8 @@
         "total_charges": 1726,
         "total_payments": 1049,
         "current_balance": 677,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-02-11",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-05-06",
         "closed_date": null
       }
     ]

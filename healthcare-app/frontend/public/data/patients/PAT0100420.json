@@ -6,15 +6,15 @@
     "birth_date": "1975-01-28",
     "age": 51,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Ashley Garcia",
     "active_chronic_count": 0,
     "encounter_count": 4,
     "total_charges": 2502,
-    "latitude": 40.44785,
-    "longitude": -79.96376,
-    "last_encounter_date": "2026-03-22",
+    "latitude": 39.94715,
+    "longitude": -75.22306,
+    "last_encounter_date": "2026-06-14",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7376 Centre Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000420-000",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Garcia",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000420-001",
-        "contact_date": "2025-12-22",
+        "contact_date": "2026-03-16",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Garcia",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 1,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000420-002",
-        "contact_date": "2025-11-19",
+        "contact_date": "2026-02-11",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Garcia",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000420-003",
-        "contact_date": "2024-08-18",
+        "contact_date": "2024-11-10",
         "encounter_type": "Procedure",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -76,7 +76,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-22"
+        "first_recorded": "2026-06-14"
       },
       {
         "dx_id": "0000420-acu-001",
@@ -84,7 +84,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-12-22"
+        "first_recorded": "2026-03-16"
       },
       {
         "dx_id": "0000420-acu-002",
@@ -92,7 +92,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-11-19"
+        "first_recorded": "2026-02-11"
       }
     ]
   },
@@ -112,8 +112,8 @@
         "total_charges": 2502,
         "total_payments": 2143,
         "current_balance": 359,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-01",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-23",
         "closed_date": null
       }
     ]

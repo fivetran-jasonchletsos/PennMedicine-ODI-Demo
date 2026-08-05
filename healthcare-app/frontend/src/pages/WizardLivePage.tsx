@@ -1,5 +1,5 @@
 /*
- * WizardLivePage — dbt-wizard live-build playback for Clarity Health.
+ * WizardLivePage — dbt-wizard live-build playback for Penn Medicine.
  *
  * Architecture: step rail + sub-agent narration panel + SQL panel + YAML panel
  * + Play/Pause/Speed controls. Ported from Banking-ODI-Demo.
@@ -44,13 +44,13 @@ const INITIAL: RevealState = {
 const STEP_DEFS = [
   { label: 'Discovery',            who: 'Explorer',     tools: 'status, search',          insight: '4 silver candidates'   },
   { label: 'Schema Understanding', who: 'Summary',      tools: 'describe, lineage',       insight: '14 cols · 0 null keys' },
-  { label: 'Data Inspection',      who: 'Worker',       tools: 'warehouse, dbt_show',     insight: 'XS warehouse slice'    },
+  { label: 'Data Inspection',      who: 'Worker',       tools: 'warehouse, dbt_show',     insight: 'serverless SQL slice'  },
   { label: 'Model Creation',       who: 'Worker',       tools: 'file edits, model gen',   insight: 'SQL authored'          },
   { label: 'Test Authoring',       who: 'Verification', tools: 'describe, dbt_show',      insight: '7 tests + uniqueness'  },
   { label: 'Materialization',      who: 'Worker + Ver', tools: 'dbt_run, lineage',        insight: '284 rows · iceberg'    },
 ];
 
-// Agent accent colors aligned with Clarity Health palette
+// Agent accent colors aligned with Penn Medicine palette
 const AGENT_STEP_COLOR: Record<string, string> = {
   explorer:     '#0d9488',
   summary:      '#7c3aed',

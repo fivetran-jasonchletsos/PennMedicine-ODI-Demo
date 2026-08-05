@@ -6,15 +6,15 @@
     "birth_date": "1953-10-22",
     "age": 73,
     "sex": "M",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Mark Davis",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 1618,
-    "latitude": 40.29761,
-    "longitude": -79.54274,
-    "last_encounter_date": "2025-08-14",
+    "latitude": 39.84571,
+    "longitude": -75.36044,
+    "last_encounter_date": "2025-11-06",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4549 Forbes Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001328-000",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001328-001",
-        "contact_date": "2025-08-11",
+        "contact_date": "2025-11-03",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Davis",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001328-002",
-        "contact_date": "2025-08-10",
+        "contact_date": "2025-11-02",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Davis",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001328-003",
-        "contact_date": "2025-07-15",
+        "contact_date": "2025-10-07",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001328-004",
-        "contact_date": "2024-09-19",
+        "contact_date": "2024-12-12",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Davis",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001328-005",
-        "contact_date": "2024-05-21",
+        "contact_date": "2024-08-13",
         "encounter_type": "Follow-up",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Davis",
@@ -96,7 +96,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1976-05-13"
+        "first_recorded": "1976-08-05"
       },
       {
         "dx_id": "0001328-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-14"
+        "first_recorded": "2025-11-06"
       },
       {
         "dx_id": "0001328-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-11"
+        "first_recorded": "2025-11-03"
       },
       {
         "dx_id": "0001328-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-10"
+        "first_recorded": "2025-11-02"
       }
     ]
   },
@@ -128,8 +128,8 @@
     "pat_id": "PAT0101328",
     "summary": {
       "total_charges": 1618,
-      "total_payments": 1026,
-      "outstanding_balance": 592,
+      "total_payments": 1479,
+      "outstanding_balance": 139,
       "account_count": 1
     },
     "accounts": [
@@ -138,10 +138,10 @@
         "account_type": "Hospital",
         "status": "Open",
         "total_charges": 1618,
-        "total_payments": 1026,
-        "current_balance": 592,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-09-23",
+        "total_payments": 1479,
+        "current_balance": 139,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-16",
         "closed_date": null
       }
     ]

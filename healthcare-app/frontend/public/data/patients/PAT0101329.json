@@ -6,15 +6,15 @@
     "birth_date": "1967-12-27",
     "age": 59,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 3,
     "encounter_count": 7,
     "total_charges": 10879,
-    "latitude": 40.4491,
-    "longitude": -79.92792,
-    "last_encounter_date": "2026-03-04",
+    "latitude": 39.9346,
+    "longitude": -75.14942,
+    "last_encounter_date": "2026-05-27",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "58 Beacon St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001329-000",
-        "contact_date": "2026-03-04",
+        "contact_date": "2026-05-27",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Garcia",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001329-001",
-        "contact_date": "2025-08-13",
+        "contact_date": "2025-11-05",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 4,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001329-002",
-        "contact_date": "2025-04-29",
+        "contact_date": "2025-07-22",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Taylor",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001329-003",
-        "contact_date": "2025-03-05",
+        "contact_date": "2025-05-28",
         "encounter_type": "Lab Only",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001329-004",
-        "contact_date": "2024-08-03",
+        "contact_date": "2024-10-26",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001329-005",
-        "contact_date": "2024-07-20",
+        "contact_date": "2024-10-12",
         "encounter_type": "Procedure",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001329-006",
-        "contact_date": "2024-06-08",
+        "contact_date": "2024-08-31",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Garcia",
@@ -106,7 +106,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2012-05-13"
+        "first_recorded": "2012-08-05"
       },
       {
         "dx_id": "0001329-dx-001",
@@ -114,7 +114,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2005-05-13"
+        "first_recorded": "2005-08-05"
       },
       {
         "dx_id": "0001329-dx-002",
@@ -122,7 +122,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "1999-05-13"
+        "first_recorded": "1999-08-05"
       },
       {
         "dx_id": "0001329-acu-001",
@@ -130,7 +130,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-13"
+        "first_recorded": "2025-11-05"
       },
       {
         "dx_id": "0001329-acu-002",
@@ -138,7 +138,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-04-29"
+        "first_recorded": "2025-07-22"
       }
     ]
   },
@@ -158,9 +158,9 @@
         "total_charges": 699,
         "total_payments": 642,
         "current_balance": 57,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-02-11",
-        "closed_date": "2025-12-01"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-05-06",
+        "closed_date": "2026-02-23"
       },
       {
         "hsp_account_id": "HSP000132901",
@@ -169,9 +169,9 @@
         "total_charges": 10180,
         "total_payments": 8019,
         "current_balance": 2161,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-06-14",
-        "closed_date": "2026-02-04"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-09-06",
+        "closed_date": "2026-04-29"
       }
     ]
   },

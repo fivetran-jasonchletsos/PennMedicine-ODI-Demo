@@ -6,15 +6,15 @@
     "birth_date": "2002-02-07",
     "age": 24,
     "sex": "M",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Robert Chen",
     "active_chronic_count": 2,
     "encounter_count": 6,
     "total_charges": 14623,
-    "latitude": 40.63243,
-    "longitude": -80.05864,
-    "last_encounter_date": "2025-12-18",
+    "latitude": 40.08153,
+    "longitude": -75.30154,
+    "last_encounter_date": "2026-03-12",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9791 Liberty Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000755-000",
-        "contact_date": "2025-12-18",
+        "contact_date": "2026-03-12",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Anderson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000755-001",
-        "contact_date": "2025-09-17",
+        "contact_date": "2025-12-10",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Chen",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000755-002",
-        "contact_date": "2025-06-20",
+        "contact_date": "2025-09-12",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Linda Russo",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000755-003",
-        "contact_date": "2024-12-13",
+        "contact_date": "2025-03-07",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000755-004",
-        "contact_date": "2024-10-30",
+        "contact_date": "2025-01-22",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000755-005",
-        "contact_date": "2024-10-25",
+        "contact_date": "2025-01-17",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 3,
@@ -96,7 +96,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000755-dx-001",
@@ -104,7 +104,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000755-acu-000",
@@ -112,7 +112,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-18"
+        "first_recorded": "2026-03-12"
       },
       {
         "dx_id": "0000755-acu-001",
@@ -120,7 +120,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-09-17"
+        "first_recorded": "2025-12-10"
       }
     ]
   },
@@ -140,9 +140,9 @@
         "total_charges": 14623,
         "total_payments": 11795,
         "current_balance": 2828,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-29",
-        "closed_date": "2025-10-30"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-03-23",
+        "closed_date": "2026-01-22"
       }
     ]
   },

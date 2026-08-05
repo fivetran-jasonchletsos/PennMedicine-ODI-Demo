@@ -6,28 +6,28 @@
     "birth_date": "1975-07-11",
     "age": 51,
     "sex": "M",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 2,
     "encounter_count": 11,
     "total_charges": 3053,
-    "latitude": 40.52924,
-    "longitude": -79.95783,
-    "last_encounter_date": "2025-11-15",
+    "latitude": 40.00824,
+    "longitude": -75.22793,
+    "last_encounter_date": "2026-02-07",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3446 Penn Rd",
     "state": "PA",
     "phone": "(412) 803-4330",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100949",
     "encounters": [
       {
         "pat_enc_csn_id": "0000949-000",
-        "contact_date": "2025-11-15",
+        "contact_date": "2026-02-07",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-001",
-        "contact_date": "2025-09-29",
+        "contact_date": "2025-12-22",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-002",
-        "contact_date": "2025-08-21",
+        "contact_date": "2025-11-13",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Garcia",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000949-003",
-        "contact_date": "2025-07-06",
+        "contact_date": "2025-09-28",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Headache",
         "diagnosis_count": 3,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000949-004",
-        "contact_date": "2025-04-15",
+        "contact_date": "2025-07-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-005",
-        "contact_date": "2025-02-15",
+        "contact_date": "2025-05-10",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Jackson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-006",
-        "contact_date": "2024-09-12",
+        "contact_date": "2024-12-05",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-007",
-        "contact_date": "2024-08-26",
+        "contact_date": "2024-11-18",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Garcia",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000949-008",
-        "contact_date": "2024-07-19",
+        "contact_date": "2024-10-11",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Rodriguez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-009",
-        "contact_date": "2024-07-08",
+        "contact_date": "2024-09-30",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000949-010",
-        "contact_date": "2024-06-10",
+        "contact_date": "2024-09-02",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Garcia",
@@ -146,7 +146,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2014-05-13"
+        "first_recorded": "2014-08-05"
       },
       {
         "dx_id": "0000949-dx-001",
@@ -154,7 +154,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000949-acu-000",
@@ -162,7 +162,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-11-15"
+        "first_recorded": "2026-02-07"
       },
       {
         "dx_id": "0000949-acu-001",
@@ -170,7 +170,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-09-29"
+        "first_recorded": "2025-12-22"
       },
       {
         "dx_id": "0000949-acu-002",
@@ -178,7 +178,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-21"
+        "first_recorded": "2025-11-13"
       }
     ]
   },
@@ -198,8 +198,8 @@
         "total_charges": 3053,
         "total_payments": 2441,
         "current_balance": 612,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-03-14",
+        "primary_payer": "Aetna",
+        "opened_date": "2025-06-06",
         "closed_date": null
       }
     ]

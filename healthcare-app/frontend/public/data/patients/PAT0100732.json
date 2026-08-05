@@ -6,28 +6,28 @@
     "birth_date": "1962-11-14",
     "age": 64,
     "sex": "F",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 1,
     "encounter_count": 10,
     "total_charges": 10193,
-    "latitude": 40.42618,
-    "longitude": -79.78298,
-    "last_encounter_date": "2026-03-10",
+    "latitude": 40.31238,
+    "longitude": -75.12428,
+    "last_encounter_date": "2026-06-02",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7681 Walnut Ave",
     "state": "PA",
     "phone": "(412) 258-6828",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100732",
     "encounters": [
       {
         "pat_enc_csn_id": "0000732-000",
-        "contact_date": "2026-03-10",
+        "contact_date": "2026-06-02",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Moore",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000732-001",
-        "contact_date": "2026-02-24",
+        "contact_date": "2026-05-19",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000732-002",
-        "contact_date": "2026-01-29",
+        "contact_date": "2026-04-23",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000732-003",
-        "contact_date": "2025-11-24",
+        "contact_date": "2026-02-16",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000732-004",
-        "contact_date": "2025-08-23",
+        "contact_date": "2025-11-15",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000732-005",
-        "contact_date": "2025-01-20",
+        "contact_date": "2025-04-14",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000732-006",
-        "contact_date": "2024-10-31",
+        "contact_date": "2025-01-23",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Russo",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000732-007",
-        "contact_date": "2024-08-05",
+        "contact_date": "2024-10-28",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Walsh",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000732-008",
-        "contact_date": "2024-06-27",
+        "contact_date": "2024-09-19",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Moore",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000732-009",
-        "contact_date": "2024-05-17",
+        "contact_date": "2024-08-09",
         "encounter_type": "Procedure",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1994-05-13"
+        "first_recorded": "1994-08-05"
       },
       {
         "dx_id": "0000732-acu-000",
@@ -144,7 +144,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-03-10"
+        "first_recorded": "2026-06-02"
       },
       {
         "dx_id": "0000732-acu-001",
@@ -152,7 +152,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-24"
+        "first_recorded": "2026-05-19"
       },
       {
         "dx_id": "0000732-acu-002",
@@ -160,7 +160,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-01-29"
+        "first_recorded": "2026-04-23"
       }
     ]
   },
@@ -168,8 +168,8 @@
     "pat_id": "PAT0100732",
     "summary": {
       "total_charges": 10193,
-      "total_payments": 8330,
-      "outstanding_balance": 1863,
+      "total_payments": 8737,
+      "outstanding_balance": 1456,
       "account_count": 2
     },
     "accounts": [
@@ -181,7 +181,7 @@
         "total_payments": 2357,
         "current_balance": 384,
         "primary_payer": "Medicare",
-        "opened_date": "2025-02-08",
+        "opened_date": "2025-05-03",
         "closed_date": null
       },
       {
@@ -189,11 +189,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 7452,
-        "total_payments": 5973,
-        "current_balance": 1479,
-        "primary_payer": "Medicare",
-        "opened_date": "2025-07-09",
-        "closed_date": "2025-11-14"
+        "total_payments": 6380,
+        "current_balance": 1072,
+        "primary_payer": "Medicaid",
+        "opened_date": "2025-10-01",
+        "closed_date": "2026-02-06"
       }
     ]
   },

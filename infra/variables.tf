@@ -48,6 +48,6 @@ variable "fivetran_api_secret" {
 }
 
 variable "fivetran_destination_id" {
-  description = "Fivetran destination group ID for MDLS"
+  description = "Fivetran destination group ID for the Databricks Unity Catalog destination (jason_chletsos_databricks)"
   type        = string
 }

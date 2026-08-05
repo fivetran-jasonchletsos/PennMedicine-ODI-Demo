@@ -62,25 +62,19 @@ const MODE_META: Record<
 
 const RAMP = ['#cffafe', '#67e8f9', '#22b4d1', '#0e7490', '#164e63'];
 
-// PA ZIP-prefix → city guess (Pittsburgh metro + surrounding).
+// PA/NJ ZIP-prefix → city guess (Philadelphia metro + surrounding).
 const ZIP_PREFIX_CITY: Record<string, string> = {
-  '150': 'Pittsburgh metro · PA',
-  '151': 'Pittsburgh · PA',
-  '152': 'Pittsburgh · PA',
-  '153': 'Washington · PA',
-  '154': 'Uniontown · PA',
-  '155': 'Bedford · PA',
-  '156': 'Johnstown · PA',
-  '157': 'Altoona · PA',
-  '158': 'Du Bois · PA',
-  '159': 'Indiana · PA',
-  '160': 'New Castle · PA',
-  '161': 'Sharon · PA',
-  '162': 'Kittanning · PA',
-  '163': 'Oil City · PA',
-  '164': 'Erie · PA',
-  '165': 'Erie · PA',
-  '166': 'Greensburg · PA',
+  '190': 'Philadelphia metro · PA',
+  '191': 'Philadelphia · PA',
+  '193': 'West Chester · PA',
+  '194': 'Main Line · PA',
+  '189': 'Doylestown · PA',
+  '184': 'Doylestown · PA',
+  '195': 'Reading · PA',
+  '196': 'Lancaster · PA',
+  '080': 'Cherry Hill · NJ',
+  '081': 'Camden · NJ',
+  '082': 'Cherry Hill · NJ',
 };
 
 function cityFromZip(zip: string, fallback: string): string {
@@ -379,7 +373,7 @@ export default function MapPage() {
                   {selected ? (
                     <>ZIP {selected.zip} <span className="text-[var(--ink-soft)] font-normal text-sm">· {selected.cityGuess}</span></>
                   ) : (
-                    <>Pittsburgh metro <span className="text-[var(--ink-soft)] font-normal text-sm">· {MODE_META[mode].label}</span></>
+                    <>Philadelphia metro <span className="text-[var(--ink-soft)] font-normal text-sm">· {MODE_META[mode].label}</span></>
                   )}
                 </div>
               </div>
@@ -613,7 +607,7 @@ export default function MapPage() {
         {/* Provenance */}
         <ProvenanceStrip
           freshness="4 min ago"
-          source="Clarity Health · Epic Clarity CDC"
+          source="Penn Medicine · Epic Clarity CDC"
           rows={`${formatNumber(totalPatients)} placed patients · 1 ZIP-rollup mart`}
         />
       </div>

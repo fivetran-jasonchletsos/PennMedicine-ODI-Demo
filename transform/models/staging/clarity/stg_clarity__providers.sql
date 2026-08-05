@@ -8,12 +8,12 @@ with source as (
 
 renamed as (
     select
-        cast(prov_id as varchar)                    as provider_id,
+        cast(prov_id as string)                    as provider_id,
         trim(prov_name)                             as provider_name,
         trim(prov_type)                             as provider_type,
         trim(clinician_title)                       as clinician_title,
-        cast(primary_specialty_c as varchar)        as specialty_code,
-        cast(department_id as varchar)              as primary_department_id,
+        cast(primary_specialty_c as string)        as specialty_code,
+        cast(department_id as string)              as primary_department_id,
         current_timestamp                           as loaded_at
     from source
 )

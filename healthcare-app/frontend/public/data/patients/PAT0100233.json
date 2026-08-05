@@ -6,15 +6,15 @@
     "birth_date": "1990-10-12",
     "age": 36,
     "sex": "M",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 1,
     "encounter_count": 7,
     "total_charges": 1942,
-    "latitude": 40.50763,
-    "longitude": -79.7668,
-    "last_encounter_date": "2026-04-14",
+    "latitude": 39.96553,
+    "longitude": -75.6095,
+    "last_encounter_date": "2026-07-07",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3913 Centre St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000233-000",
-        "contact_date": "2026-04-14",
+        "contact_date": "2026-07-07",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000233-001",
-        "contact_date": "2026-01-30",
+        "contact_date": "2026-04-24",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000233-002",
-        "contact_date": "2025-12-30",
+        "contact_date": "2026-03-24",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000233-003",
-        "contact_date": "2025-05-16",
+        "contact_date": "2025-08-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000233-004",
-        "contact_date": "2025-05-04",
+        "contact_date": "2025-07-27",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000233-005",
-        "contact_date": "2024-12-20",
+        "contact_date": "2025-03-14",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Jackson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000233-006",
-        "contact_date": "2024-10-11",
+        "contact_date": "2025-01-03",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Thomas",
@@ -106,7 +106,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000233-acu-000",
@@ -114,7 +114,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-04-14"
+        "first_recorded": "2026-07-07"
       },
       {
         "dx_id": "0000233-acu-001",
@@ -122,7 +122,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-01-30"
+        "first_recorded": "2026-04-24"
       },
       {
         "dx_id": "0000233-acu-002",
@@ -130,7 +130,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-30"
+        "first_recorded": "2026-03-24"
       }
     ]
   },
@@ -138,8 +138,8 @@
     "pat_id": "PAT0100233",
     "summary": {
       "total_charges": 1942,
-      "total_payments": 1639,
-      "outstanding_balance": 303,
+      "total_payments": 1844,
+      "outstanding_balance": 98,
       "account_count": 1
     },
     "accounts": [
@@ -148,11 +148,11 @@
         "account_type": "Professional",
         "status": "Closed",
         "total_charges": 1942,
-        "total_payments": 1639,
-        "current_balance": 303,
-        "primary_payer": "Medicare",
-        "opened_date": "2025-12-21",
-        "closed_date": "2026-02-22"
+        "total_payments": 1844,
+        "current_balance": 98,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-03-15",
+        "closed_date": "2026-05-17"
       }
     ]
   },

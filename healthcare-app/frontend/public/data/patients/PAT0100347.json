@@ -6,28 +6,28 @@
     "birth_date": "1967-01-09",
     "age": 59,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Aisha Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 2297,
-    "latitude": 40.35448,
-    "longitude": -79.90094,
-    "last_encounter_date": "2026-05-12",
+    "latitude": 39.92898,
+    "longitude": -75.03084,
+    "last_encounter_date": "2026-08-04",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7351 Liberty Rd",
     "state": "PA",
     "phone": "(412) 826-4327",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100347",
     "encounters": [
       {
         "pat_enc_csn_id": "0000347-000",
-        "contact_date": "2026-05-12",
+        "contact_date": "2026-08-04",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Davis",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000347-001",
-        "contact_date": "2026-04-18",
+        "contact_date": "2026-07-11",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000347-002",
-        "contact_date": "2026-02-19",
+        "contact_date": "2026-05-14",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Khan",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000347-003",
-        "contact_date": "2026-01-13",
+        "contact_date": "2026-04-07",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000347-004",
-        "contact_date": "2025-10-10",
+        "contact_date": "2026-01-02",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000347-005",
-        "contact_date": "2025-06-19",
+        "contact_date": "2025-09-11",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000347-006",
-        "contact_date": "2025-06-13",
+        "contact_date": "2025-09-05",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000347-007",
-        "contact_date": "2025-05-25",
+        "contact_date": "2025-08-17",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000347-008",
-        "contact_date": "2024-06-01",
+        "contact_date": "2024-08-24",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -126,7 +126,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1996-05-13"
+        "first_recorded": "1996-08-05"
       },
       {
         "dx_id": "0000347-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000347-acu-000",
@@ -142,7 +142,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-05-12"
+        "first_recorded": "2026-08-04"
       },
       {
         "dx_id": "0000347-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-18"
+        "first_recorded": "2026-07-11"
       },
       {
         "dx_id": "0000347-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-02-19"
+        "first_recorded": "2026-05-14"
       }
     ]
   },
@@ -178,9 +178,9 @@
         "total_charges": 2297,
         "total_payments": 1967,
         "current_balance": 330,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-11-07",
-        "closed_date": "2025-11-14"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-01-30",
+        "closed_date": "2026-02-06"
       }
     ]
   },

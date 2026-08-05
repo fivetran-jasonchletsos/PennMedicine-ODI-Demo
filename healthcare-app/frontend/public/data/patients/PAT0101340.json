@@ -6,30 +6,30 @@
     "birth_date": "1970-01-04",
     "age": 56,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. Aisha Williams",
     "active_chronic_count": 2,
     "encounter_count": 4,
     "total_charges": 3354,
-    "latitude": 40.45331,
-    "longitude": -80.00271,
-    "last_encounter_date": "2025-10-31",
+    "latitude": 39.96681,
+    "longitude": -75.16791,
+    "last_encounter_date": "2026-01-23",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1891 Highland Ave",
     "state": "PA",
     "phone": "(412) 882-6950",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0101340",
     "encounters": [
       {
         "pat_enc_csn_id": "0001340-000",
-        "contact_date": "2025-10-31",
+        "contact_date": "2026-01-23",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001340-001",
-        "contact_date": "2025-09-21",
+        "contact_date": "2025-12-14",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Williams",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001340-002",
-        "contact_date": "2025-04-07",
+        "contact_date": "2025-06-30",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001340-003",
-        "contact_date": "2025-03-06",
+        "contact_date": "2025-05-29",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -76,7 +76,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0001340-dx-001",
@@ -84,7 +84,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2023-05-13"
+        "first_recorded": "2023-08-05"
       },
       {
         "dx_id": "0001340-acu-001",
@@ -92,7 +92,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-09-21"
+        "first_recorded": "2025-12-14"
       },
       {
         "dx_id": "0001340-acu-002",
@@ -100,7 +100,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-04-07"
+        "first_recorded": "2025-06-30"
       }
     ]
   },
@@ -121,8 +121,8 @@
         "total_payments": 3182,
         "current_balance": 172,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-03-26",
-        "closed_date": "2025-12-26"
+        "opened_date": "2025-06-18",
+        "closed_date": "2026-03-20"
       }
     ]
   },

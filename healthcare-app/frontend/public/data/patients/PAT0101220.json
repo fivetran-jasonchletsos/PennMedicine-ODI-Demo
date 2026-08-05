@@ -6,15 +6,15 @@
     "birth_date": "2015-03-25",
     "age": 11,
     "sex": "M",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 6515,
-    "latitude": 40.47868,
-    "longitude": -79.83283,
-    "last_encounter_date": "2026-03-31",
+    "latitude": 40.11348,
+    "longitude": -75.27733,
+    "last_encounter_date": "2026-06-23",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5432 Walnut Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001220-000",
-        "contact_date": "2026-03-31",
+        "contact_date": "2026-06-23",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Moore",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001220-001",
-        "contact_date": "2026-01-30",
+        "contact_date": "2026-04-24",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-002",
-        "contact_date": "2026-01-10",
+        "contact_date": "2026-04-04",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Moore",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-003",
-        "contact_date": "2025-12-22",
+        "contact_date": "2026-03-16",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-004",
-        "contact_date": "2025-08-28",
+        "contact_date": "2025-11-20",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001220-005",
-        "contact_date": "2025-08-07",
+        "contact_date": "2025-10-30",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-006",
-        "contact_date": "2025-06-03",
+        "contact_date": "2025-08-26",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Wilson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-007",
-        "contact_date": "2025-05-06",
+        "contact_date": "2025-07-29",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Moore",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-008",
-        "contact_date": "2024-12-13",
+        "contact_date": "2025-03-07",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Kenji Walsh",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001220-009",
-        "contact_date": "2024-11-13",
+        "contact_date": "2025-02-05",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sarah Hernandez",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0001220-010",
-        "contact_date": "2024-10-12",
+        "contact_date": "2025-01-04",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -146,7 +146,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0001220-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-03-31"
+        "first_recorded": "2026-06-23"
       },
       {
         "dx_id": "0001220-acu-001",
@@ -162,7 +162,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-01-30"
+        "first_recorded": "2026-04-24"
       },
       {
         "dx_id": "0001220-acu-002",
@@ -170,7 +170,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-01-10"
+        "first_recorded": "2026-04-04"
       }
     ]
   },
@@ -190,9 +190,9 @@
         "total_charges": 6515,
         "total_payments": 3948,
         "current_balance": 2567,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-08-20",
-        "closed_date": "2026-04-14"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-12",
+        "closed_date": "2026-07-07"
       }
     ]
   },

@@ -6,28 +6,28 @@
     "birth_date": "1957-01-14",
     "age": 69,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Maria Okonkwo",
     "active_chronic_count": 2,
     "encounter_count": 10,
     "total_charges": 72697,
-    "latitude": 40.46278,
-    "longitude": -79.9148,
-    "last_encounter_date": "2026-02-08",
+    "latitude": 39.95418,
+    "longitude": -75.1652,
+    "last_encounter_date": "2026-05-03",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6006 Forbes Blvd",
     "state": "PA",
     "phone": "(412) 620-6078",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100739",
     "encounters": [
       {
         "pat_enc_csn_id": "0000739-000",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-001",
-        "contact_date": "2026-02-02",
+        "contact_date": "2026-04-27",
         "encounter_type": "Hospital Admission",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Thomas",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-002",
-        "contact_date": "2026-01-21",
+        "contact_date": "2026-04-15",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Hernandez",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000739-003",
-        "contact_date": "2025-11-20",
+        "contact_date": "2026-02-12",
         "encounter_type": "Follow-up",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Headache",
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-004",
-        "contact_date": "2025-11-08",
+        "contact_date": "2026-01-31",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Chen",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-005",
-        "contact_date": "2025-08-10",
+        "contact_date": "2025-11-02",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-006",
-        "contact_date": "2025-06-27",
+        "contact_date": "2025-09-19",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-007",
-        "contact_date": "2025-06-18",
+        "contact_date": "2025-09-10",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. James Russo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000739-008",
-        "contact_date": "2024-12-21",
+        "contact_date": "2025-03-15",
         "encounter_type": "Emergency Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Hernandez",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000739-009",
-        "contact_date": "2024-09-04",
+        "contact_date": "2024-11-27",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0000739-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2004-05-13"
+        "first_recorded": "2004-08-05"
       },
       {
         "dx_id": "0000739-acu-000",
@@ -152,7 +152,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-02-08"
+        "first_recorded": "2026-05-03"
       },
       {
         "dx_id": "0000739-acu-002",
@@ -160,7 +160,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-01-21"
+        "first_recorded": "2026-04-15"
       }
     ]
   },
@@ -168,8 +168,8 @@
     "pat_id": "PAT0100739",
     "summary": {
       "total_charges": 72697,
-      "total_payments": 56719,
-      "outstanding_balance": 15978,
+      "total_payments": 49977,
+      "outstanding_balance": 22720,
       "account_count": 3
     },
     "accounts": [
@@ -181,7 +181,7 @@
         "total_payments": 5598,
         "current_balance": 3715,
         "primary_payer": "Aetna",
-        "opened_date": "2026-03-27",
+        "opened_date": "2026-06-19",
         "closed_date": null
       },
       {
@@ -191,8 +191,8 @@
         "total_charges": 39655,
         "total_payments": 29509,
         "current_balance": 10146,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-03-08",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-05-31",
         "closed_date": null
       },
       {
@@ -200,11 +200,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 23729,
-        "total_payments": 21612,
-        "current_balance": 2117,
-        "primary_payer": "Medicaid",
-        "opened_date": "2024-12-22",
-        "closed_date": "2026-03-18"
+        "total_payments": 14870,
+        "current_balance": 8859,
+        "primary_payer": "Self-pay",
+        "opened_date": "2025-03-16",
+        "closed_date": "2026-06-10"
       }
     ]
   },

@@ -6,28 +6,28 @@
     "birth_date": "1975-04-03",
     "age": 51,
     "sex": "M",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Daniel Jackson",
     "active_chronic_count": 2,
     "encounter_count": 7,
     "total_charges": 29949,
-    "latitude": 40.34482,
-    "longitude": -79.84815,
-    "last_encounter_date": "2025-11-01",
+    "latitude": 40.15602,
+    "longitude": -75.22135,
+    "last_encounter_date": "2026-01-24",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7653 Murray Blvd",
     "state": "PA",
     "phone": "(412) 912-7454",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100246",
     "encounters": [
       {
         "pat_enc_csn_id": "0000246-000",
-        "contact_date": "2025-11-01",
+        "contact_date": "2026-01-24",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Jackson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000246-001",
-        "contact_date": "2025-05-16",
+        "contact_date": "2025-08-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000246-002",
-        "contact_date": "2025-05-04",
+        "contact_date": "2025-07-27",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000246-003",
-        "contact_date": "2025-01-19",
+        "contact_date": "2025-04-13",
         "encounter_type": "Hospital Admission",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000246-004",
-        "contact_date": "2024-12-21",
+        "contact_date": "2025-03-15",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 3,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000246-005",
-        "contact_date": "2024-10-28",
+        "contact_date": "2025-01-20",
         "encounter_type": "Follow-up",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000246-006",
-        "contact_date": "2024-05-23",
+        "contact_date": "2024-08-15",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -106,7 +106,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2003-05-13"
+        "first_recorded": "2003-08-05"
       },
       {
         "dx_id": "0000246-dx-001",
@@ -114,7 +114,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "1995-05-13"
+        "first_recorded": "1995-08-05"
       },
       {
         "dx_id": "0000246-acu-001",
@@ -122,7 +122,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-05-16"
+        "first_recorded": "2025-08-08"
       },
       {
         "dx_id": "0000246-acu-002",
@@ -130,7 +130,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-05-04"
+        "first_recorded": "2025-07-27"
       }
     ]
   },
@@ -150,9 +150,9 @@
         "total_charges": 1991,
         "total_payments": 1671,
         "current_balance": 320,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-01",
-        "closed_date": "2025-12-01"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-23",
+        "closed_date": "2026-02-23"
       },
       {
         "hsp_account_id": "HSP000024601",
@@ -161,9 +161,9 @@
         "total_charges": 27958,
         "total_payments": 17721,
         "current_balance": 10237,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-15",
-        "closed_date": "2025-11-06"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-03-09",
+        "closed_date": "2026-01-29"
       }
     ]
   },

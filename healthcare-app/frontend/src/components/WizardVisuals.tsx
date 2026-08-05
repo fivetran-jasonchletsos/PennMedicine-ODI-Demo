@@ -1,16 +1,16 @@
 /*
  * WizardVisuals — hero visualizations for the dbt-wizard pages.
- * Adapted from Banking-ODI-Demo for Clarity Health clinical analytics.
+ * Adapted from Banking-ODI-Demo for Penn Medicine clinical analytics.
  *
  * Components:
- *   WizardPipelineFlow   — 4-stage animated pipeline (Fivetran → Iceberg → dbt-wizard → Snowflake)
+ *   WizardPipelineFlow   — animated pipeline (Fivetran → Iceberg → dbt-wizard → Databricks)
  *   LineagePanel         — live-evolving lineage graph for WizardLivePage
  *   WizardHub            — hub-and-spoke radial for the 4 sub-agents
  *   BuildCompleteSummary — 4-pane summary for build-complete panel
  *   ModelRegistry        — grouped view of dbt project models with new one highlighted
  *   LiveBuildThumbnail   — auto-playing preview for the "Watch live build" CTA
  *
- * Zero-dep SVG and CSS. Aligned with the Clarity Health teal/violet palette.
+ * Zero-dep SVG and CSS. Aligned with the Penn Medicine teal/violet palette.
  */
 
 import { useEffect, useMemo, useRef, useState } from 'react';
@@ -21,11 +21,11 @@ import type { WizardScenario } from './wizardTypes';
 // ─────────────────────────────────────────────────────────────────────────
 
 const C = {
-  fivetran: '#0073EA',
-  iceberg:  '#7C3AED',
-  dbt:      '#FF694A',
-  snow:     '#29B5E8',
-  teal:     '#0d9488',
+  fivetran:   '#0073EA',
+  iceberg:    '#7C3AED',
+  dbt:        '#FF694A',
+  databricks: '#FF3621',
+  teal:       '#0d9488',
   violet:   '#7c3aed',
   rose:     '#be185d',
   green:    '#145e36',
@@ -50,17 +50,16 @@ type Stage = {
 };
 
 const PIPELINE_STAGES: Stage[] = [
-  { key: 'src',  layer: 'Sources',        vendor: 'Clarity Health EHR',  stat: 'Epic Clarity · 8 CDC tables',    color: C.inkDim,  icon: 'E' },
-  { key: 'ft',   layer: 'Ingestion',      vendor: 'Fivetran',             stat: 'Epic Clarity connector · Iceberg lands',    color: C.fivetran, icon: 'F' },
-  { key: 'ice',  layer: 'Open Lake',      vendor: 'Iceberg (MDLS) on S3', stat: 'ACID · open · multi-engine',   color: C.iceberg,  icon: 'I' },
-  { key: 'snow', layer: 'Compute',        vendor: 'Snowflake / Athena / Trino', stat: 'External Iceberg reads', color: C.snow,    icon: 'S' },
-  { key: 'dbt',  layer: 'Build-time AI',  vendor: 'dbt Labs + dbt-wizard',stat: 'Fivetran-triggered · 4 sub-agents · 90s/model',    color: C.dbt,      icon: 'W' },
+  { key: 'src',    layer: 'Sources',       vendor: 'Penn Medicine EHR',       stat: 'Epic Clarity · 8 CDC tables',    color: C.inkDim,  icon: 'E' },
+  { key: 'ft',     layer: 'Ingestion',     vendor: 'Fivetran',                stat: 'Log-based CDC · Iceberg lands',    color: C.fivetran, icon: 'F' },
+  { key: 'lake',   layer: 'Lakehouse',     vendor: 'Databricks (Unity Catalog)', stat: 'Iceberg (MDLS) on S3 · governed reads', color: C.databricks, icon: 'D' },
+  { key: 'dbt',    layer: 'Build-time AI', vendor: 'dbt Labs + dbt-wizard',   stat: 'Fivetran-triggered · 4 sub-agents · 90s/model',    color: C.dbt,      icon: 'W' },
 ];
 
 export function WizardPipelineFlow() {
   return (
     <div className="wiz-flow relative">
-      <div className="grid grid-cols-1 md:grid-cols-9 gap-3 md:gap-2 items-stretch">
+      <div className="grid grid-cols-1 md:grid-cols-7 gap-3 md:gap-2 items-stretch">
         {PIPELINE_STAGES.map((stage, i) => (
           <FragmentRow key={stage.key} stage={stage} isLast={i === PIPELINE_STAGES.length - 1} idx={i} />
         ))}
@@ -605,7 +604,7 @@ export function ModelRegistry({ newModelCode }: { newModelCode: string }) {
 
 const FRAMES = [
   { agent: 'EXPLORER',     color: C.teal,   line1: 'dbt search "sepsis bundle compliance"', line2: 'found 4 silver candidates' },
-  { agent: 'WORKER',       color: C.rose,   line1: 'authoring fct_sepsis_bundle_….sql', line2: 'dbt_show ran on XS warehouse' },
+  { agent: 'WORKER',       color: C.rose,   line1: 'authoring fct_sepsis_bundle_….sql', line2: 'dbt_show ran on serverless SQL warehouse' },
   { agent: 'VERIFICATION', color: C.bull,   line1: 'dbt test --select +new',                line2: '7 tests passed · materialized' },
 ];
 

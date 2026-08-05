@@ -6,15 +6,15 @@
     "birth_date": "2025-07-07",
     "age": 1,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Michael Greene",
     "active_chronic_count": 1,
     "encounter_count": 4,
     "total_charges": 1156,
-    "latitude": 40.46046,
-    "longitude": -79.91802,
-    "last_encounter_date": "2026-02-15",
+    "latitude": 39.95186,
+    "longitude": -75.16842,
+    "last_encounter_date": "2026-05-10",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7356 Forbes Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000976-000",
-        "contact_date": "2026-02-15",
+        "contact_date": "2026-05-10",
         "encounter_type": "Lab Only",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Greene",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000976-001",
-        "contact_date": "2026-02-06",
+        "contact_date": "2026-05-01",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000976-002",
-        "contact_date": "2024-11-28",
+        "contact_date": "2025-02-20",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000976-003",
-        "contact_date": "2024-08-06",
+        "contact_date": "2024-10-29",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Greene",
@@ -76,7 +76,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000976-acu-001",
@@ -84,7 +84,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-06"
+        "first_recorded": "2026-05-01"
       },
       {
         "dx_id": "0000976-acu-002",
@@ -92,7 +92,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2024-11-28"
+        "first_recorded": "2025-02-20"
       }
     ]
   },
@@ -113,8 +113,8 @@
         "total_payments": 1037,
         "current_balance": 119,
         "primary_payer": "Medicare",
-        "opened_date": "2025-07-23",
-        "closed_date": "2026-05-07"
+        "opened_date": "2025-10-15",
+        "closed_date": "2026-07-30"
       }
     ]
   },

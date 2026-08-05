@@ -6,15 +6,15 @@
     "birth_date": "1981-08-18",
     "age": 45,
     "sex": "M",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 0,
     "encounter_count": 5,
     "total_charges": 7054,
-    "latitude": 40.62899,
-    "longitude": -80.06121,
-    "last_encounter_date": "2026-04-21",
+    "latitude": 40.07809,
+    "longitude": -75.30411,
+    "last_encounter_date": "2026-07-14",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6698 Penn Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000865-000",
-        "contact_date": "2026-04-21",
+        "contact_date": "2026-07-14",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000865-001",
-        "contact_date": "2026-04-10",
+        "contact_date": "2026-07-03",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Taylor",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000865-002",
-        "contact_date": "2025-03-07",
+        "contact_date": "2025-05-30",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000865-003",
-        "contact_date": "2025-02-22",
+        "contact_date": "2025-05-17",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Taylor",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000865-004",
-        "contact_date": "2024-08-07",
+        "contact_date": "2024-10-30",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -86,7 +86,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-04-10"
+        "first_recorded": "2026-07-03"
       }
     ]
   },
@@ -106,9 +106,9 @@
         "total_charges": 7054,
         "total_payments": 5476,
         "current_balance": 1578,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-06-01",
-        "closed_date": "2026-03-18"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-08-24",
+        "closed_date": "2026-06-10"
       }
     ]
   },

@@ -6,15 +6,15 @@
     "birth_date": "1950-11-15",
     "age": 76,
     "sex": "F",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Aisha Williams",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 704,
-    "latitude": 40.47743,
-    "longitude": -79.83938,
-    "last_encounter_date": "2026-04-12",
+    "latitude": 40.11223,
+    "longitude": -75.28388,
+    "last_encounter_date": "2026-07-05",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6504 Liberty Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000673-000",
-        "contact_date": "2026-04-12",
+        "contact_date": "2026-07-05",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000673-001",
-        "contact_date": "2026-01-15",
+        "contact_date": "2026-04-09",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000673-002",
-        "contact_date": "2025-10-09",
+        "contact_date": "2026-01-01",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Williams",
@@ -66,7 +66,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-15"
+        "first_recorded": "2026-04-09"
       },
       {
         "dx_id": "0000673-acu-002",
@@ -74,7 +74,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-10-09"
+        "first_recorded": "2026-01-01"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 704,
         "total_payments": 484,
         "current_balance": 220,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2026-04-03",
-        "closed_date": "2026-01-06"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-06-26",
+        "closed_date": "2026-03-31"
       }
     ]
   },

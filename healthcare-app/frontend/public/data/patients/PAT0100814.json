@@ -6,28 +6,28 @@
     "birth_date": "1959-04-22",
     "age": 67,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. Ashley Miller",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 38035,
-    "latitude": 40.45015,
-    "longitude": -80.01203,
-    "last_encounter_date": "2025-12-12",
+    "latitude": 39.96365,
+    "longitude": -75.17723,
+    "last_encounter_date": "2026-03-06",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4453 Murray Ave",
     "state": "PA",
     "phone": "(412) 719-9627",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100814",
     "encounters": [
       {
         "pat_enc_csn_id": "0000814-000",
-        "contact_date": "2025-12-12",
+        "contact_date": "2026-03-06",
         "encounter_type": "Hospital Admission",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Davis",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000814-001",
-        "contact_date": "2025-12-05",
+        "contact_date": "2026-02-27",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000814-002",
-        "contact_date": "2025-01-03",
+        "contact_date": "2025-03-28",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Schmidt",
@@ -66,7 +66,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-12-12"
+        "first_recorded": "2026-03-06"
       },
       {
         "dx_id": "0000814-acu-002",
@@ -74,7 +74,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-01-03"
+        "first_recorded": "2025-03-28"
       }
     ]
   },
@@ -95,8 +95,8 @@
         "total_payments": 33731,
         "current_balance": 4304,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-02-22",
-        "closed_date": "2026-04-25"
+        "opened_date": "2024-05-16",
+        "closed_date": "2026-07-18"
       }
     ]
   },

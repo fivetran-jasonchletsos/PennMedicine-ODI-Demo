@@ -6,15 +6,15 @@
     "birth_date": "1976-08-25",
     "age": 50,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Mark Anderson",
     "active_chronic_count": 3,
     "encounter_count": 9,
     "total_charges": 11718,
-    "latitude": 40.47887,
-    "longitude": -79.96334,
-    "last_encounter_date": "2026-02-18",
+    "latitude": 39.94287,
+    "longitude": -75.18354,
+    "last_encounter_date": "2026-05-13",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1511 Centre Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001083-000",
-        "contact_date": "2026-02-18",
+        "contact_date": "2026-05-13",
         "encounter_type": "Procedure",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Anderson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001083-001",
-        "contact_date": "2025-12-13",
+        "contact_date": "2026-03-07",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. James Russo",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001083-002",
-        "contact_date": "2025-10-12",
+        "contact_date": "2026-01-04",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 4,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001083-003",
-        "contact_date": "2025-08-25",
+        "contact_date": "2025-11-17",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001083-004",
-        "contact_date": "2025-07-26",
+        "contact_date": "2025-10-18",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Anderson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 4,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001083-005",
-        "contact_date": "2025-01-22",
+        "contact_date": "2025-04-16",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 4,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001083-006",
-        "contact_date": "2024-09-12",
+        "contact_date": "2024-12-05",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Anderson",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001083-007",
-        "contact_date": "2024-06-28",
+        "contact_date": "2024-09-20",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 4,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001083-008",
-        "contact_date": "2024-06-06",
+        "contact_date": "2024-08-29",
         "encounter_type": "Emergency Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Johnson",
@@ -126,7 +126,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1996-05-13"
+        "first_recorded": "1996-08-05"
       },
       {
         "dx_id": "0001083-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "I50.9",
         "diagnosis_name": "Heart failure, unspecified",
         "chronic": true,
-        "first_recorded": "2000-05-13"
+        "first_recorded": "2000-08-05"
       },
       {
         "dx_id": "0001083-dx-002",
@@ -142,7 +142,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "1994-05-13"
+        "first_recorded": "1994-08-05"
       },
       {
         "dx_id": "0001083-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-12-13"
+        "first_recorded": "2026-03-07"
       },
       {
         "dx_id": "0001083-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-10-12"
+        "first_recorded": "2026-01-04"
       }
     ]
   },
@@ -178,8 +178,8 @@
         "total_charges": 3901,
         "total_payments": 2640,
         "current_balance": 1261,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-05-29",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-08-21",
         "closed_date": null
       },
       {
@@ -189,8 +189,8 @@
         "total_charges": 980,
         "total_payments": 820,
         "current_balance": 160,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-10-31",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-01-23",
         "closed_date": null
       },
       {
@@ -201,8 +201,8 @@
         "total_payments": 6040,
         "current_balance": 797,
         "primary_payer": "Medicare",
-        "opened_date": "2024-03-15",
-        "closed_date": "2026-02-28"
+        "opened_date": "2024-06-07",
+        "closed_date": "2026-05-23"
       }
     ]
   },

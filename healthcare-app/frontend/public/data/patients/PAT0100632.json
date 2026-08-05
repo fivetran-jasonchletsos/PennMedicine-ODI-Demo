@@ -6,28 +6,28 @@
     "birth_date": "1988-03-04",
     "age": 38,
     "sex": "M",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 1,
     "encounter_count": 4,
     "total_charges": 789,
-    "latitude": 40.4947,
-    "longitude": -79.90238,
-    "last_encounter_date": "2026-04-12",
+    "latitude": 40.0061,
+    "longitude": -75.29138,
+    "last_encounter_date": "2026-07-05",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6890 Forbes Ave",
     "state": "PA",
     "phone": "(412) 637-2415",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100632",
     "encounters": [
       {
         "pat_enc_csn_id": "0000632-000",
-        "contact_date": "2026-04-12",
+        "contact_date": "2026-07-05",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000632-001",
-        "contact_date": "2025-08-21",
+        "contact_date": "2025-11-13",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Anderson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000632-002",
-        "contact_date": "2025-06-03",
+        "contact_date": "2025-08-26",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Wilson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000632-003",
-        "contact_date": "2024-07-30",
+        "contact_date": "2024-10-22",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Johnson",
@@ -76,7 +76,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2015-05-13"
+        "first_recorded": "2015-08-05"
       },
       {
         "dx_id": "0000632-acu-001",
@@ -84,7 +84,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-08-21"
+        "first_recorded": "2025-11-13"
       }
     ]
   },
@@ -104,8 +104,8 @@
         "total_charges": 789,
         "total_payments": 603,
         "current_balance": 186,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-07-27",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-19",
         "closed_date": null
       }
     ]

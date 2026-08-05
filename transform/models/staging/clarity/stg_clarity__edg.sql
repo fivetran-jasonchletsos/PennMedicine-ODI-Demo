@@ -8,7 +8,7 @@ with source as (
 
 renamed as (
     select
-        cast(dx_id as varchar)                      as diagnosis_id,
+        cast(dx_id as string)                      as diagnosis_id,
         trim(dx_name)                               as diagnosis_name,
         -- icd9_code not present in source
         trim(icd10_code)                            as icd10_code,

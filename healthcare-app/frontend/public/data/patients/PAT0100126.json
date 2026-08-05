@@ -6,15 +6,15 @@
     "birth_date": "1948-07-07",
     "age": 78,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 2,
     "encounter_count": 7,
     "total_charges": 34931,
-    "latitude": 40.44668,
-    "longitude": -79.92885,
-    "last_encounter_date": "2026-05-05",
+    "latitude": 39.93218,
+    "longitude": -75.15035,
+    "last_encounter_date": "2026-07-28",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2037 Penn St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000126-000",
-        "contact_date": "2026-05-05",
+        "contact_date": "2026-07-28",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Moore",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000126-001",
-        "contact_date": "2026-02-14",
+        "contact_date": "2026-05-09",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000126-002",
-        "contact_date": "2025-05-29",
+        "contact_date": "2025-08-21",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000126-003",
-        "contact_date": "2025-04-26",
+        "contact_date": "2025-07-19",
         "encounter_type": "Follow-up",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000126-004",
-        "contact_date": "2025-01-13",
+        "contact_date": "2025-04-07",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Moore",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000126-005",
-        "contact_date": "2024-10-15",
+        "contact_date": "2025-01-07",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000126-006",
-        "contact_date": "2024-07-28",
+        "contact_date": "2024-10-20",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -106,7 +106,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1978-05-13"
+        "first_recorded": "1978-08-05"
       },
       {
         "dx_id": "0000126-dx-001",
@@ -114,7 +114,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "1997-05-13"
+        "first_recorded": "1997-08-05"
       },
       {
         "dx_id": "0000126-acu-001",
@@ -122,7 +122,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-02-14"
+        "first_recorded": "2026-05-09"
       },
       {
         "dx_id": "0000126-acu-002",
@@ -130,7 +130,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-05-29"
+        "first_recorded": "2025-08-21"
       }
     ]
   },
@@ -138,8 +138,8 @@
     "pat_id": "PAT0100126",
     "summary": {
       "total_charges": 34931,
-      "total_payments": 30477,
-      "outstanding_balance": 4454,
+      "total_payments": 30194,
+      "outstanding_balance": 4737,
       "account_count": 1
     },
     "accounts": [
@@ -148,10 +148,10 @@
         "account_type": "Imaging",
         "status": "Open",
         "total_charges": 34931,
-        "total_payments": 30477,
-        "current_balance": 4454,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-04-07",
+        "total_payments": 30194,
+        "current_balance": 4737,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-30",
         "closed_date": null
       }
     ]

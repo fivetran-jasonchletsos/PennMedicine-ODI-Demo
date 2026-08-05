@@ -16,7 +16,7 @@ export default function AboutAgentPage() {
             </h1>
             <p className="mt-5 text-base sm:text-lg text-[var(--ink-muted)] max-w-2xl leading-relaxed">
               The agent translates plain-English questions into deterministic queries against the same
-              Snowflake-derived snapshot the rest of the platform reads. Two execution paths — a local
+              Databricks-derived snapshot the rest of the platform reads. Two execution paths — a local
               rules engine — return tables, charts, and short
               narrative summaries.
             </p>
@@ -159,7 +159,7 @@ export default function AboutAgentPage() {
                 tested and lineage-tracked, before returning a result.
               </p>
               <p>
-                The output is a production dbt model that every downstream consumer — Snowflake views,
+                The output is a production dbt model that every downstream consumer — Databricks views,
                 clinical dashboards, population health surfaces — can read on its next pass.
               </p>
             </div>
@@ -177,17 +177,17 @@ export default function AboutAgentPage() {
           <p className="mt-3 text-sm text-[var(--ink-muted)] max-w-3xl">
             The snapshot is a daily export from{' '}
             <code className="font-mono text-[13px] bg-white border border-[var(--hairline)] px-1.5 py-0.5 rounded">
-              JASON_CHLETSOS_EPIC.CLINICAL.*
+              jason_chletsos_epic_clarity.clinical.*
             </code>{' '}
             and{' '}
             <code className="font-mono text-[13px] bg-white border border-[var(--hairline)] px-1.5 py-0.5 rounded">
-              FINANCIAL.*
+              jason_chletsos_epic_clarity.financial.*
             </code>
             , produced by{' '}
             <code className="font-mono text-[13px] bg-white border border-[var(--hairline)] px-1.5 py-0.5 rounded">
               scripts/build_snapshot.py
             </code>
-            . No PHI ever leaves Snowflake unmediated.
+            . No PHI ever leaves Databricks unmediated.
           </p>
         </div>
       </section>

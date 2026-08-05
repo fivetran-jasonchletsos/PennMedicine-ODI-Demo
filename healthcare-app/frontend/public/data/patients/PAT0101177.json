@@ -6,28 +6,28 @@
     "birth_date": "1957-08-14",
     "age": 69,
     "sex": "F",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. David Russo",
     "active_chronic_count": 3,
     "encounter_count": 9,
     "total_charges": 3223,
-    "latitude": 40.52322,
-    "longitude": -79.96294,
-    "last_encounter_date": "2025-10-23",
+    "latitude": 40.00222,
+    "longitude": -75.23304,
+    "last_encounter_date": "2026-01-15",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3144 Beacon St",
     "state": "PA",
     "phone": "(412) 958-5462",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0101177",
     "encounters": [
       {
         "pat_enc_csn_id": "0001177-000",
-        "contact_date": "2025-10-23",
+        "contact_date": "2026-01-15",
         "encounter_type": "Follow-up",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001177-001",
-        "contact_date": "2025-08-02",
+        "contact_date": "2025-10-25",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Chen",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001177-002",
-        "contact_date": "2025-07-22",
+        "contact_date": "2025-10-14",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 4,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001177-003",
-        "contact_date": "2025-05-14",
+        "contact_date": "2025-08-06",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 4,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001177-004",
-        "contact_date": "2025-04-18",
+        "contact_date": "2025-07-11",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001177-005",
-        "contact_date": "2025-04-10",
+        "contact_date": "2025-07-03",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Jackson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001177-006",
-        "contact_date": "2025-01-28",
+        "contact_date": "2025-04-22",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Garcia",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001177-007",
-        "contact_date": "2024-10-08",
+        "contact_date": "2024-12-31",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Russo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001177-008",
-        "contact_date": "2024-09-28",
+        "contact_date": "2024-12-21",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -126,7 +126,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1983-05-13"
+        "first_recorded": "1983-08-05"
       },
       {
         "dx_id": "0001177-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2002-05-13"
+        "first_recorded": "2002-08-05"
       },
       {
         "dx_id": "0001177-dx-002",
@@ -142,7 +142,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2004-05-13"
+        "first_recorded": "2004-08-05"
       },
       {
         "dx_id": "0001177-acu-000",
@@ -150,7 +150,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-10-23"
+        "first_recorded": "2026-01-15"
       },
       {
         "dx_id": "0001177-acu-001",
@@ -158,7 +158,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-02"
+        "first_recorded": "2025-10-25"
       },
       {
         "dx_id": "0001177-acu-002",
@@ -166,7 +166,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-07-22"
+        "first_recorded": "2025-10-14"
       }
     ]
   },
@@ -174,8 +174,8 @@
     "pat_id": "PAT0101177",
     "summary": {
       "total_charges": 3223,
-      "total_payments": 2951,
-      "outstanding_balance": 272,
+      "total_payments": 3042,
+      "outstanding_balance": 181,
       "account_count": 1
     },
     "accounts": [
@@ -184,11 +184,11 @@
         "account_type": "Rx",
         "status": "Closed",
         "total_charges": 3223,
-        "total_payments": 2951,
-        "current_balance": 272,
-        "primary_payer": "Medicare",
-        "opened_date": "2026-02-04",
-        "closed_date": "2025-11-18"
+        "total_payments": 3042,
+        "current_balance": 181,
+        "primary_payer": "Medicaid",
+        "opened_date": "2026-04-29",
+        "closed_date": "2026-02-10"
       }
     ]
   },

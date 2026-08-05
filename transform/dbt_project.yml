@@ -20,16 +20,16 @@ models:
   healthcare_clarity:
     staging:
       +materialized: view
-      +schema: staging
+      +schema: jason_chletsos_pennmed_staging
     intermediate:
       +materialized: view
-      +schema: intermediate
+      +schema: jason_chletsos_pennmed_intermediate
     marts:
       +materialized: table
       clinical:
-        +schema: clinical
+        +schema: jason_chletsos_pennmed_clinical
       financial:
-        +schema: financial
+        +schema: jason_chletsos_pennmed_financial
 
 seeds:
   healthcare_clarity:

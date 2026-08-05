@@ -6,28 +6,28 @@
     "birth_date": "2007-03-16",
     "age": 19,
     "sex": "F",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Mark Anderson",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 1415,
-    "latitude": 40.49802,
-    "longitude": -79.76627,
-    "last_encounter_date": "2026-04-24",
+    "latitude": 39.95592,
+    "longitude": -75.60897,
+    "last_encounter_date": "2026-07-17",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4099 Liberty Blvd",
     "state": "PA",
     "phone": "(412) 674-8692",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100799",
     "encounters": [
       {
         "pat_enc_csn_id": "0000799-000",
-        "contact_date": "2026-04-24",
+        "contact_date": "2026-07-17",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Greene",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000799-001",
-        "contact_date": "2026-01-01",
+        "contact_date": "2026-03-26",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Johnson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000799-002",
-        "contact_date": "2025-12-12",
+        "contact_date": "2026-03-06",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Miller",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000799-003",
-        "contact_date": "2024-09-19",
+        "contact_date": "2024-12-12",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Anderson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000799-004",
-        "contact_date": "2024-05-18",
+        "contact_date": "2024-08-10",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Anderson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -86,7 +86,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000799-acu-000",
@@ -94,7 +94,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-04-24"
+        "first_recorded": "2026-07-17"
       }
     ]
   },
@@ -115,8 +115,8 @@
         "total_payments": 1171,
         "current_balance": 244,
         "primary_payer": "Medicare",
-        "opened_date": "2024-10-17",
-        "closed_date": "2026-03-01"
+        "opened_date": "2025-01-09",
+        "closed_date": "2026-05-24"
       }
     ]
   },

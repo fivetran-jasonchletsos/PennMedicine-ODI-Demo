@@ -6,15 +6,15 @@
     "birth_date": "1949-08-01",
     "age": 77,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Daniel Schmidt",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 11195,
-    "latitude": 40.44782,
-    "longitude": -79.93438,
-    "last_encounter_date": "2026-03-27",
+    "latitude": 39.93332,
+    "longitude": -75.15588,
+    "last_encounter_date": "2026-06-19",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "617 Beacon Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001201-000",
-        "contact_date": "2026-03-27",
+        "contact_date": "2026-06-19",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001201-001",
-        "contact_date": "2026-03-18",
+        "contact_date": "2026-06-10",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Schmidt",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001201-002",
-        "contact_date": "2026-03-14",
+        "contact_date": "2026-06-06",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001201-003",
-        "contact_date": "2025-09-26",
+        "contact_date": "2025-12-19",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001201-004",
-        "contact_date": "2025-09-08",
+        "contact_date": "2025-12-01",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001201-005",
-        "contact_date": "2025-09-03",
+        "contact_date": "2025-11-26",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001201-006",
-        "contact_date": "2025-07-15",
+        "contact_date": "2025-10-07",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001201-007",
-        "contact_date": "2025-06-07",
+        "contact_date": "2025-08-30",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001201-008",
-        "contact_date": "2025-05-23",
+        "contact_date": "2025-08-15",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001201-009",
-        "contact_date": "2024-07-09",
+        "contact_date": "2024-10-01",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0001201-010",
-        "contact_date": "2024-07-09",
+        "contact_date": "2024-10-01",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -146,7 +146,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1979-05-13"
+        "first_recorded": "1979-08-05"
       },
       {
         "dx_id": "0001201-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-27"
+        "first_recorded": "2026-06-19"
       },
       {
         "dx_id": "0001201-acu-002",
@@ -162,7 +162,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-03-14"
+        "first_recorded": "2026-06-06"
       }
     ]
   },
@@ -182,9 +182,9 @@
         "total_charges": 11195,
         "total_payments": 7909,
         "current_balance": 3286,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-11-26",
-        "closed_date": "2026-04-09"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-18",
+        "closed_date": "2026-07-02"
       }
     ]
   },

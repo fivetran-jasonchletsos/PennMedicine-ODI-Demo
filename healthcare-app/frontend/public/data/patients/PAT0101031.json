@@ -6,15 +6,15 @@
     "birth_date": "1938-10-26",
     "age": 88,
     "sex": "M",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Daniel Schmidt",
     "active_chronic_count": 3,
     "encounter_count": 10,
     "total_charges": 2503,
-    "latitude": 40.32852,
-    "longitude": -80.03555,
-    "last_encounter_date": "2025-09-14",
+    "latitude": 40.08792,
+    "longitude": -75.39345,
+    "last_encounter_date": "2025-12-07",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7379 Murray Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001031-000",
-        "contact_date": "2025-09-14",
+        "contact_date": "2025-12-07",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. James Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-001",
-        "contact_date": "2025-07-29",
+        "contact_date": "2025-10-21",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001031-002",
-        "contact_date": "2025-03-11",
+        "contact_date": "2025-06-03",
         "encounter_type": "Lab Only",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 4,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-003",
-        "contact_date": "2025-02-19",
+        "contact_date": "2025-05-14",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-004",
-        "contact_date": "2024-12-29",
+        "contact_date": "2025-03-23",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-005",
-        "contact_date": "2024-12-26",
+        "contact_date": "2025-03-20",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. David Russo",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001031-006",
-        "contact_date": "2024-10-04",
+        "contact_date": "2024-12-27",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Anderson",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 4,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-007",
-        "contact_date": "2024-07-20",
+        "contact_date": "2024-10-12",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001031-008",
-        "contact_date": "2024-06-17",
+        "contact_date": "2024-09-09",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 4,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001031-009",
-        "contact_date": "2024-05-25",
+        "contact_date": "2024-08-17",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Schmidt",
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1992-05-13"
+        "first_recorded": "1992-08-05"
       },
       {
         "dx_id": "0001031-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1986-05-13"
+        "first_recorded": "1986-08-05"
       },
       {
         "dx_id": "0001031-dx-002",
@@ -152,7 +152,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "1974-05-13"
+        "first_recorded": "1974-08-05"
       },
       {
         "dx_id": "0001031-acu-000",
@@ -160,7 +160,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-09-14"
+        "first_recorded": "2025-12-07"
       },
       {
         "dx_id": "0001031-acu-002",
@@ -168,7 +168,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-03-11"
+        "first_recorded": "2025-06-03"
       }
     ]
   },
@@ -188,9 +188,9 @@
         "total_charges": 2503,
         "total_payments": 2190,
         "current_balance": 313,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-08-19",
-        "closed_date": "2025-11-27"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-11-11",
+        "closed_date": "2026-02-19"
       }
     ]
   },

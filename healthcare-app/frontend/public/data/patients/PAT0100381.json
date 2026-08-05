@@ -6,15 +6,15 @@
     "birth_date": "1955-11-24",
     "age": 71,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 1336,
-    "latitude": 40.47621,
-    "longitude": -79.96048,
-    "last_encounter_date": "2026-04-14",
+    "latitude": 39.94021,
+    "longitude": -75.18068,
+    "last_encounter_date": "2026-07-07",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3875 Highland Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000381-000",
-        "contact_date": "2026-04-14",
+        "contact_date": "2026-07-07",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000381-001",
-        "contact_date": "2026-03-07",
+        "contact_date": "2026-05-30",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000381-002",
-        "contact_date": "2025-12-20",
+        "contact_date": "2026-03-14",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha Wilson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000381-003",
-        "contact_date": "2025-06-20",
+        "contact_date": "2025-09-12",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000381-004",
-        "contact_date": "2024-11-14",
+        "contact_date": "2025-02-06",
         "encounter_type": "Follow-up",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Walsh",
@@ -86,7 +86,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2006-05-13"
+        "first_recorded": "2006-08-05"
       },
       {
         "dx_id": "0000381-acu-001",
@@ -94,7 +94,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-07"
+        "first_recorded": "2026-05-30"
       }
     ]
   },
@@ -114,8 +114,8 @@
         "total_charges": 1336,
         "total_payments": 1098,
         "current_balance": 238,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-08-09",
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-01",
         "closed_date": null
       }
     ]

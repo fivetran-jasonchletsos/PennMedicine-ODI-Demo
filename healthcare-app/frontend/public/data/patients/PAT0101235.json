@@ -6,15 +6,15 @@
     "birth_date": "2020-02-05",
     "age": 6,
     "sex": "F",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Aisha Anderson",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 3154,
-    "latitude": 40.32528,
-    "longitude": -80.04016,
-    "last_encounter_date": "2026-05-01",
+    "latitude": 40.08468,
+    "longitude": -75.39806,
+    "last_encounter_date": "2026-07-24",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5369 Beacon Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001235-000",
-        "contact_date": "2026-05-01",
+        "contact_date": "2026-07-24",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Anderson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001235-001",
-        "contact_date": "2026-03-31",
+        "contact_date": "2026-06-23",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 1,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001235-002",
-        "contact_date": "2025-08-04",
+        "contact_date": "2025-10-27",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Anderson",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001235-003",
-        "contact_date": "2025-04-10",
+        "contact_date": "2025-07-03",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001235-004",
-        "contact_date": "2025-02-04",
+        "contact_date": "2025-04-29",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Anderson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001235-005",
-        "contact_date": "2024-07-18",
+        "contact_date": "2024-10-10",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001235-006",
-        "contact_date": "2024-06-05",
+        "contact_date": "2024-08-28",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -106,7 +106,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-31"
+        "first_recorded": "2026-06-23"
       }
     ]
   },
@@ -126,9 +126,9 @@
         "total_charges": 3154,
         "total_payments": 2150,
         "current_balance": 1004,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-01-09",
-        "closed_date": "2026-01-09"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-04-03",
+        "closed_date": "2026-04-03"
       }
     ]
   },

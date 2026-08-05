@@ -39,7 +39,7 @@ export interface EngineNode {
 }
 
 export type VendorLogo =
-  | 'snowflake' | 'fivetran' | 'dbt' | 'iceberg' | 'glue'
+  | 'databricks' | 'fivetran' | 'dbt' | 'iceberg' | 'glue'
   | 'oracle'    | 'sqlserver'| 'epic_clarity' | 'hl7'  | 'cms'
   | 'sec'       | 'fred'     | 'cfpb' | 'naic' | 'noaa'
   | 'athena'    | 'duckdb'   | 'trino'| 'spark'
@@ -164,7 +164,7 @@ export function AliveMedallion({
           <footer className="am-lakehouse-footer">
             <span className="am-dbt-chip">
               <VendorMark kind="dbt" size={14} />
-              dbt on Snowflake compute · commits Silver + Gold as Iceberg snapshots
+              dbt Labs on Databricks compute · commits Silver + Gold as Delta/Iceberg snapshots
             </span>
             <span className="am-dbt-chip am-gx-chip">
               <VendorMark kind="great_expectations" size={14} />
@@ -332,20 +332,12 @@ function VendorMark({ kind, size = 20 }: { kind: VendorLogo; size?: number }) {
   const s: CSSProperties = { display: 'inline-block', overflow: 'visible', flexShrink: 0 };
   const common = { width: size, height: size, viewBox: '0 0 24 24', preserveAspectRatio: 'xMidYMid meet' as const, style: s, 'aria-hidden': true };
   switch (kind) {
-    case 'snowflake':
+    case 'databricks':
       return (
         <svg {...common}>
-          <g fill="#29B5E8">
-            <path d="M12 1.5l1.6 2.8h-3.2z" />
-            <path d="M12 22.5l-1.6-2.8h3.2z" />
-            <path d="M1.5 12l2.8 1.6v-3.2z" />
-            <path d="M22.5 12l-2.8-1.6v3.2z" />
-            <path d="M4.2 4.2l2.6 1-1.6 1.6z" />
-            <path d="M19.8 19.8l-2.6-1 1.6-1.6z" />
-            <path d="M19.8 4.2l-1 2.6-1.6-1.6z" />
-            <path d="M4.2 19.8l1-2.6 1.6 1.6z" />
-            <circle cx="12" cy="12" r="3.2" />
-          </g>
+          <rect width="24" height="24" rx="5" fill="#FF3621" />
+          <path d="M12 6l6.5 3.4v0.2L12 13 5.5 9.6v-0.2z" fill="#fff" />
+          <path d="M5.5 12.4L12 15.8l6.5-3.4v2.2L12 18 5.5 14.6z" fill="#fff" opacity="0.85" />
         </svg>
       );
     case 'fivetran':

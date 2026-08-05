@@ -6,15 +6,15 @@
     "birth_date": "1982-08-28",
     "age": 44,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Aisha Wilson",
     "active_chronic_count": 0,
     "encounter_count": 8,
     "total_charges": 14763,
-    "latitude": 40.44011,
-    "longitude": -79.93125,
-    "last_encounter_date": "2025-12-16",
+    "latitude": 39.95451,
+    "longitude": -75.19435,
+    "last_encounter_date": "2026-03-10",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8557 Murray Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000860-000",
-        "contact_date": "2025-12-16",
+        "contact_date": "2026-03-10",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-001",
-        "contact_date": "2025-12-10",
+        "contact_date": "2026-03-04",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000860-002",
-        "contact_date": "2025-07-01",
+        "contact_date": "2025-09-23",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-003",
-        "contact_date": "2025-04-08",
+        "contact_date": "2025-07-01",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Wilson",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-004",
-        "contact_date": "2025-02-14",
+        "contact_date": "2025-05-09",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Williams",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-005",
-        "contact_date": "2024-12-11",
+        "contact_date": "2025-03-05",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Wilson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-006",
-        "contact_date": "2024-11-22",
+        "contact_date": "2025-02-14",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha Wilson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000860-007",
-        "contact_date": "2024-09-27",
+        "contact_date": "2024-12-20",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -116,7 +116,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-12-16"
+        "first_recorded": "2026-03-10"
       },
       {
         "dx_id": "0000860-acu-001",
@@ -124,7 +124,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-12-10"
+        "first_recorded": "2026-03-04"
       },
       {
         "dx_id": "0000860-acu-002",
@@ -132,7 +132,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-07-01"
+        "first_recorded": "2025-09-23"
       }
     ]
   },
@@ -152,9 +152,9 @@
         "total_charges": 14763,
         "total_payments": 12748,
         "current_balance": 2015,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-09-17",
-        "closed_date": "2025-11-08"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-12-10",
+        "closed_date": "2026-01-31"
       }
     ]
   },

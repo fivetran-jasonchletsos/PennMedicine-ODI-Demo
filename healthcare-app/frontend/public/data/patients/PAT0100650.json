@@ -6,15 +6,15 @@
     "birth_date": "1990-08-15",
     "age": 36,
     "sex": "M",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 0,
     "encounter_count": 4,
     "total_charges": 6375,
-    "latitude": 40.37086,
-    "longitude": -80.04667,
-    "last_encounter_date": "2025-12-14",
+    "latitude": 40.01536,
+    "longitude": -75.32177,
+    "last_encounter_date": "2026-03-08",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8316 Walnut Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000650-000",
-        "contact_date": "2025-12-14",
+        "contact_date": "2026-03-08",
         "encounter_type": "Procedure",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Hernandez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000650-001",
-        "contact_date": "2025-08-21",
+        "contact_date": "2025-11-13",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. David Johnson",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000650-002",
-        "contact_date": "2025-06-25",
+        "contact_date": "2025-09-17",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000650-003",
-        "contact_date": "2024-09-03",
+        "contact_date": "2024-11-26",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. David Johnson",
@@ -76,7 +76,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-08-21"
+        "first_recorded": "2025-11-13"
       },
       {
         "dx_id": "0000650-acu-002",
@@ -84,7 +84,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-06-25"
+        "first_recorded": "2025-09-17"
       }
     ]
   },
@@ -104,9 +104,9 @@
         "total_charges": 6375,
         "total_payments": 5747,
         "current_balance": 628,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2026-04-04",
-        "closed_date": "2026-01-15"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-06-27",
+        "closed_date": "2026-04-09"
       }
     ]
   },

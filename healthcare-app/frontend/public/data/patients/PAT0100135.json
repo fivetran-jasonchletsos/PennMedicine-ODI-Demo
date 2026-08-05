@@ -6,28 +6,28 @@
     "birth_date": "2003-04-25",
     "age": 23,
     "sex": "F",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 10,
     "total_charges": 2953,
-    "latitude": 40.4797,
-    "longitude": -79.83802,
-    "last_encounter_date": "2026-05-10",
+    "latitude": 40.1145,
+    "longitude": -75.28252,
+    "last_encounter_date": "2026-08-02",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5691 Walnut Rd",
     "state": "PA",
     "phone": "(412) 969-1586",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100135",
     "encounters": [
       {
         "pat_enc_csn_id": "0000135-000",
-        "contact_date": "2026-05-10",
+        "contact_date": "2026-08-02",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-001",
-        "contact_date": "2025-12-13",
+        "contact_date": "2026-03-07",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-002",
-        "contact_date": "2025-11-30",
+        "contact_date": "2026-02-22",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-003",
-        "contact_date": "2025-11-18",
+        "contact_date": "2026-02-10",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-004",
-        "contact_date": "2025-03-24",
+        "contact_date": "2025-06-16",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Kenji Walsh",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-005",
-        "contact_date": "2025-02-08",
+        "contact_date": "2025-05-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-006",
-        "contact_date": "2025-01-08",
+        "contact_date": "2025-04-02",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000135-007",
-        "contact_date": "2024-12-20",
+        "contact_date": "2025-03-14",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Rodriguez",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-008",
-        "contact_date": "2024-07-06",
+        "contact_date": "2024-09-28",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000135-009",
-        "contact_date": "2024-06-14",
+        "contact_date": "2024-09-06",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Walsh",
@@ -136,7 +136,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-05-10"
+        "first_recorded": "2026-08-02"
       },
       {
         "dx_id": "0000135-acu-002",
@@ -144,7 +144,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-30"
+        "first_recorded": "2026-02-22"
       }
     ]
   },
@@ -152,8 +152,8 @@
     "pat_id": "PAT0100135",
     "summary": {
       "total_charges": 2953,
-      "total_payments": 2384,
-      "outstanding_balance": 569,
+      "total_payments": 2703,
+      "outstanding_balance": 250,
       "account_count": 1
     },
     "accounts": [
@@ -162,11 +162,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 2953,
-        "total_payments": 2384,
-        "current_balance": 569,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-06-12",
-        "closed_date": "2026-02-15"
+        "total_payments": 2703,
+        "current_balance": 250,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-09-04",
+        "closed_date": "2026-05-10"
       }
     ]
   },

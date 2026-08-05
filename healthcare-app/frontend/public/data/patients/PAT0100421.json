@@ -6,15 +6,15 @@
     "birth_date": "1975-01-27",
     "age": 51,
     "sex": "M",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 1036,
-    "latitude": 40.49365,
-    "longitude": -79.90834,
-    "last_encounter_date": "2025-08-22",
+    "latitude": 40.00505,
+    "longitude": -75.29734,
+    "last_encounter_date": "2025-11-14",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3532 Penn St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000421-000",
-        "contact_date": "2025-08-22",
+        "contact_date": "2025-11-14",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Walsh",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000421-001",
-        "contact_date": "2025-03-14",
+        "contact_date": "2025-06-06",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Taylor",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000421-002",
-        "contact_date": "2024-07-29",
+        "contact_date": "2024-10-21",
         "encounter_type": "Lab Only",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -66,7 +66,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2015-05-13"
+        "first_recorded": "2015-08-05"
       },
       {
         "dx_id": "0000421-acu-001",
@@ -74,7 +74,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-03-14"
+        "first_recorded": "2025-06-06"
       },
       {
         "dx_id": "0000421-acu-002",
@@ -82,7 +82,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2024-07-29"
+        "first_recorded": "2024-10-21"
       }
     ]
   },
@@ -90,8 +90,8 @@
     "pat_id": "PAT0100421",
     "summary": {
       "total_charges": 1036,
-      "total_payments": 706,
-      "outstanding_balance": 330,
+      "total_payments": 858,
+      "outstanding_balance": 178,
       "account_count": 1
     },
     "accounts": [
@@ -100,11 +100,11 @@
         "account_type": "Professional",
         "status": "Closed",
         "total_charges": 1036,
-        "total_payments": 706,
-        "current_balance": 330,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-12-23",
-        "closed_date": "2025-12-15"
+        "total_payments": 858,
+        "current_balance": 178,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-17",
+        "closed_date": "2026-03-09"
       }
     ]
   },

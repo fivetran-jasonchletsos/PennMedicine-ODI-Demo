@@ -6,28 +6,28 @@
     "birth_date": "1994-01-06",
     "age": 32,
     "sex": "M",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Aisha Hernandez",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 4913,
-    "latitude": 40.37392,
-    "longitude": -80.05047,
-    "last_encounter_date": "2026-02-08",
+    "latitude": 40.01842,
+    "longitude": -75.32557,
+    "last_encounter_date": "2026-05-03",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "19 Centre Ave",
     "state": "PA",
     "phone": "(412) 372-6391",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0101070",
     "encounters": [
       {
         "pat_enc_csn_id": "0001070-000",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Jackson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001070-001",
-        "contact_date": "2025-08-07",
+        "contact_date": "2025-10-30",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001070-002",
-        "contact_date": "2024-06-24",
+        "contact_date": "2024-09-16",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -66,7 +66,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0001070-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-08"
+        "first_recorded": "2026-05-03"
       },
       {
         "dx_id": "0001070-acu-001",
@@ -82,7 +82,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-07"
+        "first_recorded": "2025-10-30"
       },
       {
         "dx_id": "0001070-acu-002",
@@ -90,7 +90,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2024-06-24"
+        "first_recorded": "2024-09-16"
       }
     ]
   },
@@ -110,8 +110,8 @@
         "total_charges": 4913,
         "total_payments": 3119,
         "current_balance": 1794,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2023-11-25",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-02-17",
         "closed_date": null
       }
     ]

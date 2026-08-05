@@ -6,28 +6,28 @@
     "birth_date": "1999-06-11",
     "age": 27,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. James Russo",
     "active_chronic_count": 1,
     "encounter_count": 13,
     "total_charges": 24359,
-    "latitude": 40.45521,
-    "longitude": -80.00574,
-    "last_encounter_date": "2026-05-05",
+    "latitude": 39.96871,
+    "longitude": -75.17094,
+    "last_encounter_date": "2026-07-28",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6679 Forbes Ave",
     "state": "PA",
     "phone": "(412) 908-9184",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100267",
     "encounters": [
       {
         "pat_enc_csn_id": "0000267-000",
-        "contact_date": "2026-05-05",
+        "contact_date": "2026-07-28",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha Williams",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-001",
-        "contact_date": "2026-03-13",
+        "contact_date": "2026-06-05",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Nguyen",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000267-002",
-        "contact_date": "2026-02-16",
+        "contact_date": "2026-05-11",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000267-003",
-        "contact_date": "2025-12-29",
+        "contact_date": "2026-03-23",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. James Russo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000267-004",
-        "contact_date": "2025-12-20",
+        "contact_date": "2026-03-14",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000267-005",
-        "contact_date": "2025-11-08",
+        "contact_date": "2026-01-31",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-006",
-        "contact_date": "2025-10-06",
+        "contact_date": "2025-12-29",
         "encounter_type": "Procedure",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000267-007",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. James Russo",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-008",
-        "contact_date": "2025-05-16",
+        "contact_date": "2025-08-08",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Hernandez",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-009",
-        "contact_date": "2025-05-03",
+        "contact_date": "2025-07-26",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Johnson",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-010",
-        "contact_date": "2025-04-13",
+        "contact_date": "2025-07-06",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-011",
-        "contact_date": "2025-01-15",
+        "contact_date": "2025-04-09",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. David Russo",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0000267-012",
-        "contact_date": "2024-10-18",
+        "contact_date": "2025-01-10",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Hernandez",
@@ -166,7 +166,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000267-acu-000",
@@ -174,7 +174,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-05-05"
+        "first_recorded": "2026-07-28"
       },
       {
         "dx_id": "0000267-acu-002",
@@ -182,7 +182,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-02-16"
+        "first_recorded": "2026-05-11"
       }
     ]
   },
@@ -203,7 +203,7 @@
         "total_payments": 14662,
         "current_balance": 5172,
         "primary_payer": "Self-pay",
-        "opened_date": "2024-07-04",
+        "opened_date": "2024-09-26",
         "closed_date": null
       },
       {
@@ -213,8 +213,8 @@
         "total_charges": 4485,
         "total_payments": 2784,
         "current_balance": 1701,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-03-02",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-05-25",
         "closed_date": null
       },
       {
@@ -225,8 +225,8 @@
         "total_payments": 35,
         "current_balance": 5,
         "primary_payer": "Medicare",
-        "opened_date": "2024-05-08",
-        "closed_date": "2025-10-28"
+        "opened_date": "2024-07-31",
+        "closed_date": "2026-01-20"
       }
     ]
   },

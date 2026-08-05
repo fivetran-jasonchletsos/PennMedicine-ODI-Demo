@@ -8,13 +8,15 @@ export default function AboutPage() {
         <h1 className="font-serif text-3xl font-semibold text-[var(--ink-strong)] tracking-tight">About this demo</h1>
         <p className="mt-3 text-[var(--ink-muted)] leading-relaxed">
           A reference build that demonstrates an end-to-end EHR → Fivetran → Iceberg (MDLS) →
-          Snowflake / Athena / Trino → dbt Labs → React data pipeline. The source is an Epic Clarity
-          reporting database hosted on AWS EC2; Fivetran's Epic Clarity connector lands every change
-          into the Managed Data Lake on S3 in open Apache Iceberg format; Snowflake, Athena, and Trino
-          all read the same bytes; Fivetran Transformations triggers dbt Labs the moment the Epic
-          Clarity sync finishes, which builds the bronze (staging), silver (intermediate), and gold
-          (mart) layers; a Python script exports the marts to JSON and a static React SPA serves the
-          user-facing experience.
+          Databricks (Unity Catalog) → dbt Labs → React data pipeline. The source is an Epic Clarity
+          reporting database hosted on AWS EC2; Fivetran's Epic Clarity connector captures change data
+          via log-based CDC and lands it into the Managed Data Lake on S3 in open Apache Iceberg
+          format — no hand-built ingestion pipeline to maintain against Epic's schema changes; Databricks
+          registers the same tables in Unity Catalog and is the primary read/write engine; Fivetran
+          Transformations triggers dbt Labs the moment the Epic Clarity sync finishes, which builds
+          the bronze (staging), silver (intermediate), and gold (mart) layers on Databricks compute; a
+          Python script exports the marts to JSON and a static React SPA serves the user-facing
+          experience.
         </p>
       </header>
 
@@ -32,14 +34,14 @@ export default function AboutPage() {
         <span className="text-[var(--hairline)]">│</span>
         <div className="flex items-baseline gap-1.5">
           <span className="font-serif text-lg font-semibold text-[var(--ink-strong)] tabular leading-none">$0.84</span>
-          <span className="text-xs text-[var(--ink-soft)]">Snowflake compute / patient / month</span>
+          <span className="text-xs text-[var(--ink-soft)]">Databricks compute / patient / month</span>
         </div>
       </div>
 
       <div className="mb-10">
         <ProvenanceStrip
           freshness="4.2 min ago"
-          source="Clarity Health · Epic Clarity CDC"
+          source="Penn Medicine · Epic Clarity CDC"
           rows="2.4M rows · 8 tables"
           fivetranUrl="https://fivetran.com/dashboard/connections/sanctity_finally/status"
         />
@@ -112,17 +114,17 @@ const DATA_SOURCES = [
   {
     title: 'Fivetran Epic Clarity connector',
     description:
-      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) into Iceberg (MDLS) on S3 on a configurable schedule. Schema name lands as JASON_CHLETSOS_EHR_DEMO.',
+      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) into Iceberg (MDLS) on S3 via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as JASON_CHLETSOS_EHR_DEMO.',
   },
   {
     title: 'Iceberg (MDLS) — Managed Data Lake',
     description:
-      'Apache Iceberg tables on S3 serve as the single source of truth. Snowflake, Athena, and Trino read the same bytes through external table catalogs — no duplication, no extracts.',
+      'Apache Iceberg tables on S3 serve as the single source of truth. Databricks reads and governs the same bytes through Unity Catalog — no duplication, no extracts.',
   },
   {
-    title: 'Snowflake — primary query engine',
+    title: 'Databricks — primary query engine',
     description:
-      'Database JASON_CHLETSOS_EPIC reads the Iceberg bronze/silver/gold tables through an external catalog. Warehouses are split into a transform warehouse for dbt Labs (Fivetran-triggered) and a query warehouse for the API layer.',
+      'Unity Catalog governs the Iceberg bronze/silver/gold tables as one namespace with row filters and column masks on PHI. A serverless SQL warehouse runs dbt Labs (Fivetran-triggered) and serves the API layer, auto-stopping between queries.',
   },
 ];
 
@@ -141,9 +143,9 @@ const STEPS = [
   },
   {
     icon: '3',
-    name: 'Snowflake / Athena / Trino — Query engines',
-    desc: 'All three engines read the same Iceberg bytes via external table catalogs. Snowflake is the primary engine for this demo; Athena and Trino are available for ad-hoc and regulatory reporting at zero extra storage cost.',
-    tags: ['Snowflake', 'Athena', 'Trino', 'Zero copy'],
+    name: 'Databricks (Unity Catalog) — Query engine',
+    desc: 'A serverless Databricks SQL warehouse reads the Iceberg bytes through Unity Catalog and is the primary engine for this demo; Athena and Trino remain available for ad-hoc and regulatory reporting against the same open tables at zero extra storage cost.',
+    tags: ['Databricks', 'Unity Catalog', 'Athena', 'Trino', 'Zero copy'],
   },
   {
     icon: '4',

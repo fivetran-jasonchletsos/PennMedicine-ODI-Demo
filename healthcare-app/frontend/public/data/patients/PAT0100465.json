@@ -6,15 +6,15 @@
     "birth_date": "2008-12-16",
     "age": 18,
     "sex": "F",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 0,
     "encounter_count": 5,
     "total_charges": 4470,
-    "latitude": 40.33552,
-    "longitude": -80.03383,
-    "last_encounter_date": "2025-09-13",
+    "latitude": 40.09492,
+    "longitude": -75.39173,
+    "last_encounter_date": "2025-12-06",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8924 Highland Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000465-000",
-        "contact_date": "2025-09-13",
+        "contact_date": "2025-12-06",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Chen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000465-001",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000465-002",
-        "contact_date": "2025-06-17",
+        "contact_date": "2025-09-09",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Khan",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000465-003",
-        "contact_date": "2025-06-05",
+        "contact_date": "2025-08-28",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000465-004",
-        "contact_date": "2024-12-07",
+        "contact_date": "2025-03-01",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Nguyen",
@@ -86,7 +86,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-09-13"
+        "first_recorded": "2025-12-06"
       },
       {
         "dx_id": "0000465-acu-001",
@@ -94,7 +94,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-14"
+        "first_recorded": "2025-11-06"
       },
       {
         "dx_id": "0000465-acu-002",
@@ -102,7 +102,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-06-17"
+        "first_recorded": "2025-09-09"
       }
     ]
   },
@@ -123,7 +123,7 @@
         "total_payments": 3701,
         "current_balance": 769,
         "primary_payer": "Medicare",
-        "opened_date": "2026-02-01",
+        "opened_date": "2026-04-26",
         "closed_date": null
       }
     ]

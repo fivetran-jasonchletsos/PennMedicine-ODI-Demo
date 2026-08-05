@@ -6,15 +6,15 @@
     "birth_date": "1991-05-04",
     "age": 35,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Mark Gonzalez",
     "active_chronic_count": 1,
     "encounter_count": 7,
     "total_charges": 1546,
-    "latitude": 40.43941,
-    "longitude": -79.96122,
-    "last_encounter_date": "2026-04-02",
+    "latitude": 39.93871,
+    "longitude": -75.22052,
+    "last_encounter_date": "2026-06-25",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4619 Murray Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000370-000",
-        "contact_date": "2026-04-02",
+        "contact_date": "2026-06-25",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Gonzalez",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000370-001",
-        "contact_date": "2026-01-07",
+        "contact_date": "2026-04-01",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000370-002",
-        "contact_date": "2025-10-01",
+        "contact_date": "2025-12-24",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000370-003",
-        "contact_date": "2025-07-09",
+        "contact_date": "2025-10-01",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000370-004",
-        "contact_date": "2025-06-12",
+        "contact_date": "2025-09-04",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000370-005",
-        "contact_date": "2025-04-13",
+        "contact_date": "2025-07-06",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Gonzalez",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000370-006",
-        "contact_date": "2025-03-30",
+        "contact_date": "2025-06-22",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Gonzalez",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -106,7 +106,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000370-acu-000",
@@ -114,7 +114,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-04-02"
+        "first_recorded": "2026-06-25"
       },
       {
         "dx_id": "0000370-acu-002",
@@ -122,7 +122,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-10-01"
+        "first_recorded": "2025-12-24"
       }
     ]
   },
@@ -142,9 +142,9 @@
         "total_charges": 1546,
         "total_payments": 969,
         "current_balance": 577,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2023-12-19",
-        "closed_date": "2026-03-29"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-03-12",
+        "closed_date": "2026-06-21"
       }
     ]
   },

@@ -6,15 +6,15 @@
     "birth_date": "1984-12-21",
     "age": 42,
     "sex": "F",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 0,
     "encounter_count": 9,
     "total_charges": 39881,
-    "latitude": 40.42257,
-    "longitude": -79.78692,
-    "last_encounter_date": "2026-04-16",
+    "latitude": 40.30877,
+    "longitude": -75.12822,
+    "last_encounter_date": "2026-07-09",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4681 Walnut Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001269-000",
-        "contact_date": "2026-04-16",
+        "contact_date": "2026-07-09",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001269-001",
-        "contact_date": "2026-03-19",
+        "contact_date": "2026-06-11",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Maria Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001269-002",
-        "contact_date": "2025-10-22",
+        "contact_date": "2026-01-14",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Moore",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001269-003",
-        "contact_date": "2025-07-04",
+        "contact_date": "2025-09-26",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001269-004",
-        "contact_date": "2025-05-12",
+        "contact_date": "2025-08-04",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001269-005",
-        "contact_date": "2025-03-05",
+        "contact_date": "2025-05-28",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 1,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001269-006",
-        "contact_date": "2024-10-16",
+        "contact_date": "2025-01-08",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001269-007",
-        "contact_date": "2024-09-15",
+        "contact_date": "2024-12-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001269-008",
-        "contact_date": "2024-05-28",
+        "contact_date": "2024-08-20",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Greene",
@@ -126,7 +126,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-16"
+        "first_recorded": "2026-07-09"
       },
       {
         "dx_id": "0001269-acu-001",
@@ -134,7 +134,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-03-19"
+        "first_recorded": "2026-06-11"
       },
       {
         "dx_id": "0001269-acu-002",
@@ -142,7 +142,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-10-22"
+        "first_recorded": "2026-01-14"
       }
     ]
   },
@@ -162,9 +162,9 @@
         "total_charges": 11099,
         "total_payments": 9130,
         "current_balance": 1969,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-11-13",
-        "closed_date": "2026-04-08"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-05",
+        "closed_date": "2026-07-01"
       },
       {
         "hsp_account_id": "HSP000126901",
@@ -174,8 +174,8 @@
         "total_payments": 25114,
         "current_balance": 3668,
         "primary_payer": "Medicare",
-        "opened_date": "2024-11-23",
-        "closed_date": "2026-02-03"
+        "opened_date": "2025-02-15",
+        "closed_date": "2026-04-28"
       }
     ]
   },

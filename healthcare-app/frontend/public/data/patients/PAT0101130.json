@@ -6,15 +6,15 @@
     "birth_date": "2006-12-14",
     "age": 20,
     "sex": "F",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 1,
     "encounter_count": 10,
     "total_charges": 4676,
-    "latitude": 40.49764,
-    "longitude": -79.90671,
-    "last_encounter_date": "2026-04-30",
+    "latitude": 40.00904,
+    "longitude": -75.29571,
+    "last_encounter_date": "2026-07-23",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9154 Murray Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001130-000",
-        "contact_date": "2026-04-30",
+        "contact_date": "2026-07-23",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-001",
-        "contact_date": "2026-02-14",
+        "contact_date": "2026-05-09",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Greene",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001130-002",
-        "contact_date": "2025-08-26",
+        "contact_date": "2025-11-18",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-003",
-        "contact_date": "2025-08-09",
+        "contact_date": "2025-11-01",
         "encounter_type": "Lab Only",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-004",
-        "contact_date": "2025-07-25",
+        "contact_date": "2025-10-17",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Russo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-005",
-        "contact_date": "2025-06-30",
+        "contact_date": "2025-09-22",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-006",
-        "contact_date": "2025-03-27",
+        "contact_date": "2025-06-19",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001130-007",
-        "contact_date": "2024-12-30",
+        "contact_date": "2025-03-24",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Okonkwo",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001130-008",
-        "contact_date": "2024-08-16",
+        "contact_date": "2024-11-08",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0001130-009",
-        "contact_date": "2024-08-12",
+        "contact_date": "2024-11-04",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -136,7 +136,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0001130-acu-000",
@@ -144,7 +144,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-04-30"
+        "first_recorded": "2026-07-23"
       },
       {
         "dx_id": "0001130-acu-002",
@@ -152,7 +152,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-08-26"
+        "first_recorded": "2025-11-18"
       }
     ]
   },
@@ -160,8 +160,8 @@
     "pat_id": "PAT0101130",
     "summary": {
       "total_charges": 4676,
-      "total_payments": 3809,
-      "outstanding_balance": 867,
+      "total_payments": 4497,
+      "outstanding_balance": 179,
       "account_count": 1
     },
     "accounts": [
@@ -170,11 +170,11 @@
         "account_type": "Imaging",
         "status": "Closed",
         "total_charges": 4676,
-        "total_payments": 3809,
-        "current_balance": 867,
-        "primary_payer": "Medicare",
-        "opened_date": "2024-06-25",
-        "closed_date": "2025-11-11"
+        "total_payments": 4497,
+        "current_balance": 179,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-09-17",
+        "closed_date": "2026-02-03"
       }
     ]
   },

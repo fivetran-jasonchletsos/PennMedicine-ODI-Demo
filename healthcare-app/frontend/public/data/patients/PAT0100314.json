@@ -6,15 +6,15 @@
     "birth_date": "2002-12-26",
     "age": 24,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Ashley Miller",
     "active_chronic_count": 2,
     "encounter_count": 6,
     "total_charges": 8482,
-    "latitude": 40.46985,
-    "longitude": -79.95577,
-    "last_encounter_date": "2026-01-09",
+    "latitude": 39.93385,
+    "longitude": -75.17597,
+    "last_encounter_date": "2026-04-03",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8604 Forbes St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000314-000",
-        "contact_date": "2026-01-09",
+        "contact_date": "2026-04-03",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000314-001",
-        "contact_date": "2025-09-21",
+        "contact_date": "2025-12-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Miller",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000314-002",
-        "contact_date": "2025-06-11",
+        "contact_date": "2025-09-03",
         "encounter_type": "Procedure",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Miller",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000314-003",
-        "contact_date": "2025-02-15",
+        "contact_date": "2025-05-10",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Linda Martinez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000314-004",
-        "contact_date": "2024-09-05",
+        "contact_date": "2024-11-28",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Miller",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000314-005",
-        "contact_date": "2024-08-29",
+        "contact_date": "2024-11-21",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Miller",
@@ -96,7 +96,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000314-dx-001",
@@ -104,7 +104,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       }
     ]
   },
@@ -125,8 +125,8 @@
         "total_payments": 8196,
         "current_balance": 286,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-03-07",
-        "closed_date": "2026-03-20"
+        "opened_date": "2025-05-30",
+        "closed_date": "2026-06-12"
       }
     ]
   },

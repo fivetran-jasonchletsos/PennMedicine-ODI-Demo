@@ -6,15 +6,15 @@
     "birth_date": "1967-06-26",
     "age": 59,
     "sex": "F",
-    "city": "Cranberry Twp",
-    "zip_code": "16066",
+    "city": "Norristown",
+    "zip_code": "19401",
     "primary_care_provider": "Dr. Ashley Moore",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 3289,
-    "latitude": 40.68995,
-    "longitude": -80.10905,
-    "last_encounter_date": "2025-12-17",
+    "latitude": 40.12715,
+    "longitude": -75.34315,
+    "last_encounter_date": "2026-03-11",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6049 Walnut St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000113-000",
-        "contact_date": "2025-12-17",
+        "contact_date": "2026-03-11",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Ashley Moore",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000113-001",
-        "contact_date": "2025-10-27",
+        "contact_date": "2026-01-19",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Moore",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000113-002",
-        "contact_date": "2025-09-26",
+        "contact_date": "2025-12-19",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000113-003",
-        "contact_date": "2025-06-19",
+        "contact_date": "2025-09-11",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Headache",
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000113-004",
-        "contact_date": "2024-08-15",
+        "contact_date": "2024-11-07",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Ashley Moore",
@@ -86,7 +86,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2010-05-13"
+        "first_recorded": "2010-08-05"
       },
       {
         "dx_id": "0000113-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "1993-05-13"
+        "first_recorded": "1993-08-05"
       },
       {
         "dx_id": "0000113-acu-000",
@@ -102,7 +102,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-17"
+        "first_recorded": "2026-03-11"
       },
       {
         "dx_id": "0000113-acu-002",
@@ -110,7 +110,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-09-26"
+        "first_recorded": "2025-12-19"
       }
     ]
   },
@@ -131,7 +131,7 @@
         "total_payments": 2570,
         "current_balance": 719,
         "primary_payer": "Medicare",
-        "opened_date": "2025-11-17",
+        "opened_date": "2026-02-09",
         "closed_date": null
       }
     ]

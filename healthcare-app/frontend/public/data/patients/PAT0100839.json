@@ -6,15 +6,15 @@
     "birth_date": "1993-03-08",
     "age": 33,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Aisha Hernandez",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 812,
-    "latitude": 40.45761,
-    "longitude": -79.90972,
-    "last_encounter_date": "2025-11-20",
+    "latitude": 39.94901,
+    "longitude": -75.16012,
+    "last_encounter_date": "2026-02-12",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "92 Penn Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000839-000",
-        "contact_date": "2025-11-20",
+        "contact_date": "2026-02-12",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000839-001",
-        "contact_date": "2025-06-09",
+        "contact_date": "2025-09-01",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000839-002",
-        "contact_date": "2024-06-22",
+        "contact_date": "2024-09-14",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -66,7 +66,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-11-20"
+        "first_recorded": "2026-02-12"
       },
       {
         "dx_id": "0000839-acu-001",
@@ -74,7 +74,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-06-09"
+        "first_recorded": "2025-09-01"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 812,
         "total_payments": 593,
         "current_balance": 219,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2026-01-12",
-        "closed_date": "2026-04-11"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-04-06",
+        "closed_date": "2026-07-04"
       }
     ]
   },

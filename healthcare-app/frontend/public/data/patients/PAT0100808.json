@@ -6,15 +6,15 @@
     "birth_date": "1968-10-16",
     "age": 58,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 2,
     "encounter_count": 11,
     "total_charges": 37296,
-    "latitude": 40.43409,
-    "longitude": -79.93247,
-    "last_encounter_date": "2026-04-16",
+    "latitude": 39.94849,
+    "longitude": -75.19557,
+    "last_encounter_date": "2026-07-09",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5971 Walnut Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000808-000",
-        "contact_date": "2026-04-16",
+        "contact_date": "2026-07-09",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000808-001",
-        "contact_date": "2026-03-02",
+        "contact_date": "2026-05-25",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000808-002",
-        "contact_date": "2026-02-16",
+        "contact_date": "2026-05-11",
         "encounter_type": "Hospital Admission",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Johnson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000808-003",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Johnson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000808-004",
-        "contact_date": "2025-09-09",
+        "contact_date": "2025-12-02",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000808-005",
-        "contact_date": "2025-08-11",
+        "contact_date": "2025-11-03",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000808-006",
-        "contact_date": "2025-07-30",
+        "contact_date": "2025-10-22",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000808-007",
-        "contact_date": "2025-07-07",
+        "contact_date": "2025-09-29",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Johnson",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000808-008",
-        "contact_date": "2025-05-25",
+        "contact_date": "2025-08-17",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Jackson",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000808-009",
-        "contact_date": "2025-04-18",
+        "contact_date": "2025-07-11",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000808-010",
-        "contact_date": "2025-02-17",
+        "contact_date": "2025-05-12",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. David Russo",
@@ -146,7 +146,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2002-05-13"
+        "first_recorded": "2002-08-05"
       },
       {
         "dx_id": "0000808-dx-001",
@@ -154,7 +154,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000808-acu-000",
@@ -162,7 +162,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-16"
+        "first_recorded": "2026-07-09"
       },
       {
         "dx_id": "0000808-acu-001",
@@ -170,7 +170,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-02"
+        "first_recorded": "2026-05-25"
       },
       {
         "dx_id": "0000808-acu-002",
@@ -178,7 +178,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-02-16"
+        "first_recorded": "2026-05-11"
       }
     ]
   },
@@ -186,8 +186,8 @@
     "pat_id": "PAT0100808",
     "summary": {
       "total_charges": 37296,
-      "total_payments": 32373,
-      "outstanding_balance": 4923,
+      "total_payments": 31947,
+      "outstanding_balance": 5349,
       "account_count": 3
     },
     "accounts": [
@@ -199,29 +199,29 @@
         "total_payments": 21239,
         "current_balance": 2835,
         "primary_payer": "Medicare",
-        "opened_date": "2025-06-28",
-        "closed_date": "2025-12-30"
+        "opened_date": "2025-09-20",
+        "closed_date": "2026-03-24"
       },
       {
         "hsp_account_id": "HSP000080801",
         "account_type": "Imaging",
         "status": "Closed",
         "total_charges": 954,
-        "total_payments": 710,
-        "current_balance": 244,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-06-27",
-        "closed_date": "2026-01-03"
+        "total_payments": 798,
+        "current_balance": 156,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-09-19",
+        "closed_date": "2026-03-28"
       },
       {
         "hsp_account_id": "HSP000080802",
         "account_type": "Rx",
         "status": "Open",
         "total_charges": 12268,
-        "total_payments": 10424,
-        "current_balance": 1844,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-06-02",
+        "total_payments": 9910,
+        "current_balance": 2358,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-25",
         "closed_date": null
       }
     ]

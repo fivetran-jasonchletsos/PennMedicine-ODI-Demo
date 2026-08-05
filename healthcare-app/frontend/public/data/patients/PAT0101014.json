@@ -6,28 +6,28 @@
     "birth_date": "1938-08-04",
     "age": 88,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Mark Thomas",
     "active_chronic_count": 2,
     "encounter_count": 10,
     "total_charges": 2508,
-    "latitude": 40.35769,
-    "longitude": -79.90294,
-    "last_encounter_date": "2026-04-26",
+    "latitude": 39.93219,
+    "longitude": -75.03284,
+    "last_encounter_date": "2026-07-19",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2085 Highland Blvd",
     "state": "PA",
     "phone": "(412) 530-7037",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0101014",
     "encounters": [
       {
         "pat_enc_csn_id": "0001014-000",
-        "contact_date": "2026-04-26",
+        "contact_date": "2026-07-19",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Schmidt",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001014-001",
-        "contact_date": "2026-04-17",
+        "contact_date": "2026-07-10",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-002",
-        "contact_date": "2026-02-24",
+        "contact_date": "2026-05-19",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Thomas",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-003",
-        "contact_date": "2025-11-01",
+        "contact_date": "2026-01-24",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Thomas",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-004",
-        "contact_date": "2025-07-28",
+        "contact_date": "2025-10-20",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Thomas",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001014-005",
-        "contact_date": "2025-07-18",
+        "contact_date": "2025-10-10",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-006",
-        "contact_date": "2025-05-24",
+        "contact_date": "2025-08-16",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Garcia",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-007",
-        "contact_date": "2025-04-05",
+        "contact_date": "2025-06-28",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Thomas",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-008",
-        "contact_date": "2025-03-28",
+        "contact_date": "2025-06-20",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Gonzalez",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001014-009",
-        "contact_date": "2025-01-31",
+        "contact_date": "2025-04-25",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Thomas",
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1959-05-13"
+        "first_recorded": "1959-08-05"
       },
       {
         "dx_id": "0001014-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1975-05-13"
+        "first_recorded": "1975-08-05"
       },
       {
         "dx_id": "0001014-acu-000",
@@ -152,7 +152,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-26"
+        "first_recorded": "2026-07-19"
       },
       {
         "dx_id": "0001014-acu-001",
@@ -160,7 +160,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-04-17"
+        "first_recorded": "2026-07-10"
       }
     ]
   },
@@ -180,9 +180,9 @@
         "total_charges": 2508,
         "total_payments": 1814,
         "current_balance": 694,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-10-19",
-        "closed_date": "2026-04-07"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-01-11",
+        "closed_date": "2026-06-30"
       }
     ]
   },

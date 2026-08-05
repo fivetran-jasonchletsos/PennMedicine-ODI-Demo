@@ -6,15 +6,15 @@
     "birth_date": "1962-11-13",
     "age": 64,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 629,
-    "latitude": 40.45833,
-    "longitude": -79.90976,
-    "last_encounter_date": "2026-04-01",
+    "latitude": 39.94973,
+    "longitude": -75.16016,
+    "last_encounter_date": "2026-06-24",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9845 Walnut Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000549-000",
-        "contact_date": "2026-04-01",
+        "contact_date": "2026-06-24",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000549-001",
-        "contact_date": "2024-09-21",
+        "contact_date": "2024-12-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Taylor",
@@ -56,7 +56,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2024-09-21"
+        "first_recorded": "2024-12-14"
       }
     ]
   },
@@ -76,9 +76,9 @@
         "total_charges": 629,
         "total_payments": 485,
         "current_balance": 144,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-03-20",
-        "closed_date": "2026-03-27"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-12",
+        "closed_date": "2026-06-19"
       }
     ]
   },

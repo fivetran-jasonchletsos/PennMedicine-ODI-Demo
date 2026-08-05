@@ -6,15 +6,15 @@
     "birth_date": "1971-07-24",
     "age": 55,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Kenji Hernandez",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 614,
-    "latitude": 40.44541,
-    "longitude": -79.93346,
-    "last_encounter_date": "2025-11-18",
+    "latitude": 39.93091,
+    "longitude": -75.15496,
+    "last_encounter_date": "2026-02-10",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9521 Highland Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000834-000",
-        "contact_date": "2025-11-18",
+        "contact_date": "2026-02-10",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000834-001",
-        "contact_date": "2025-06-16",
+        "contact_date": "2025-09-08",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -56,7 +56,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-06-16"
+        "first_recorded": "2025-09-08"
       }
     ]
   },
@@ -76,9 +76,9 @@
         "total_charges": 614,
         "total_payments": 389,
         "current_balance": 225,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2026-03-01",
-        "closed_date": "2026-02-13"
+        "primary_payer": "Aetna",
+        "opened_date": "2026-05-24",
+        "closed_date": "2026-05-08"
       }
     ]
   },

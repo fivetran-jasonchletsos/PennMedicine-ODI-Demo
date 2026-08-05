@@ -6,28 +6,28 @@
     "birth_date": "1990-06-11",
     "age": 36,
     "sex": "F",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Maria Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 18189,
-    "latitude": 40.62766,
-    "longitude": -80.05251,
-    "last_encounter_date": "2026-01-05",
+    "latitude": 40.07676,
+    "longitude": -75.29541,
+    "last_encounter_date": "2026-03-30",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4756 Murray Rd",
     "state": "PA",
     "phone": "(412) 839-4869",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100291",
     "encounters": [
       {
         "pat_enc_csn_id": "0000291-000",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000291-001",
-        "contact_date": "2025-09-23",
+        "contact_date": "2025-12-16",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Okonkwo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000291-002",
-        "contact_date": "2025-06-15",
+        "contact_date": "2025-09-07",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Moore",
@@ -66,7 +66,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0000291-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-01-05"
+        "first_recorded": "2026-03-30"
       },
       {
         "dx_id": "0000291-acu-001",
@@ -82,7 +82,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-09-23"
+        "first_recorded": "2025-12-16"
       }
     ]
   },
@@ -102,8 +102,8 @@
         "total_charges": 9389,
         "total_payments": 8297,
         "current_balance": 1092,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-01-09",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-04-03",
         "closed_date": null
       },
       {
@@ -113,9 +113,9 @@
         "total_charges": 7235,
         "total_payments": 5645,
         "current_balance": 1590,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-03-21",
-        "closed_date": "2025-11-15"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-06-13",
+        "closed_date": "2026-02-07"
       },
       {
         "hsp_account_id": "HSP000029102",
@@ -124,9 +124,9 @@
         "total_charges": 1565,
         "total_payments": 982,
         "current_balance": 583,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-03-05",
-        "closed_date": "2026-01-21"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-05-28",
+        "closed_date": "2026-04-15"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "2001-10-15",
     "age": 25,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Linda Thomas",
     "active_chronic_count": 1,
     "encounter_count": 12,
     "total_charges": 87823,
-    "latitude": 40.43321,
-    "longitude": -79.93571,
-    "last_encounter_date": "2025-12-23",
+    "latitude": 39.94761,
+    "longitude": -75.19881,
+    "last_encounter_date": "2026-03-17",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6023 Penn St",
     "state": "PA",
     "phone": "(412) 956-1942",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100871",
     "encounters": [
       {
         "pat_enc_csn_id": "0000871-000",
-        "contact_date": "2025-12-23",
+        "contact_date": "2026-03-17",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-001",
-        "contact_date": "2025-11-25",
+        "contact_date": "2026-02-17",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Thomas",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-002",
-        "contact_date": "2025-07-29",
+        "contact_date": "2025-10-21",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Anderson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-003",
-        "contact_date": "2025-06-05",
+        "contact_date": "2025-08-28",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Greene",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-004",
-        "contact_date": "2025-03-27",
+        "contact_date": "2025-06-19",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Thomas",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-005",
-        "contact_date": "2025-02-05",
+        "contact_date": "2025-04-30",
         "encounter_type": "Procedure",
         "department_name": "Nephrology",
         "provider_name": "Dr. James Russo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-006",
-        "contact_date": "2025-01-28",
+        "contact_date": "2025-04-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Linda Martinez",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000871-007",
-        "contact_date": "2024-12-29",
+        "contact_date": "2025-03-23",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-008",
-        "contact_date": "2024-10-23",
+        "contact_date": "2025-01-15",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-009",
-        "contact_date": "2024-10-22",
+        "contact_date": "2025-01-14",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Thomas",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-010",
-        "contact_date": "2024-10-16",
+        "contact_date": "2025-01-08",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Thomas",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000871-011",
-        "contact_date": "2024-05-22",
+        "contact_date": "2024-08-14",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Jackson",
@@ -156,7 +156,7 @@
         "icd10_code": "N18.3",
         "diagnosis_name": "Chronic kidney disease, stage 3",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000871-acu-000",
@@ -164,7 +164,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-12-23"
+        "first_recorded": "2026-03-17"
       },
       {
         "dx_id": "0000871-acu-001",
@@ -172,7 +172,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-25"
+        "first_recorded": "2026-02-17"
       },
       {
         "dx_id": "0000871-acu-002",
@@ -180,7 +180,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-07-29"
+        "first_recorded": "2025-10-21"
       }
     ]
   },
@@ -200,9 +200,9 @@
         "total_charges": 12220,
         "total_payments": 8201,
         "current_balance": 4019,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-05-03",
-        "closed_date": "2026-04-21"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-07-26",
+        "closed_date": "2026-07-14"
       },
       {
         "hsp_account_id": "HSP000087101",
@@ -211,9 +211,9 @@
         "total_charges": 60155,
         "total_payments": 43639,
         "current_balance": 16516,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-06-29",
-        "closed_date": "2026-03-27"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-09-21",
+        "closed_date": "2026-06-19"
       },
       {
         "hsp_account_id": "HSP000087102",
@@ -223,8 +223,8 @@
         "total_payments": 13872,
         "current_balance": 1576,
         "primary_payer": "Medicare",
-        "opened_date": "2025-04-16",
-        "closed_date": "2026-01-04"
+        "opened_date": "2025-07-09",
+        "closed_date": "2026-03-29"
       }
     ]
   },

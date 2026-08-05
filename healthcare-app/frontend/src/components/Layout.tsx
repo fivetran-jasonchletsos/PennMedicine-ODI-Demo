@@ -52,7 +52,7 @@ const NAV: NavEntry[] = [
 
 const DEMOS = [
   { key: 'tax-assessment', name: 'Allegheny County Tax', industry: 'Public sector · Property assessment', url: 'https://fivetran-jasonchletsos.github.io/tax-assessment-databricks-demo/', accent: '#dc2626' },
-  { key: 'healthcare',     name: 'Clarity Health',        industry: 'Healthcare · Clinical analytics',     url: 'https://fivetran-jasonchletsos.github.io/Healthcare-EPIC-Snowflake-Demo/', accent: '#0d9488' },
+  { key: 'healthcare',     name: 'Penn Medicine',        industry: 'Healthcare · Clinical analytics',     url: 'https://fivetran-jasonchletsos.github.io/PennMedicine-ODI-Demo/', accent: '#0d9488' },
   { key: 'finserv',        name: 'Altavest Capital',     industry: 'Financial Services · Wealth & banking', url: 'https://fivetran-jasonchletsos.github.io/FinServ-ODI-Demo/', accent: '#1d4ed8' },
   { key: 'insurance',     name: 'Verity Insurance',           industry: 'Insurance · Policies, claims, reinsurance', url: 'https://fivetran-jasonchletsos.github.io/Insurance-ODI-Demo/', accent: '#0369a1' },
   { key: 'media',          name: 'Lighthouse Media',     industry: 'Media · Audience intelligence',       url: 'https://fivetran-jasonchletsos.github.io/Media-ODI-Demo/', accent: '#7c3aed' },
@@ -235,7 +235,7 @@ export default function Layout() {
               </div>
               <div className="leading-tight min-w-0">
                 <div className="font-serif font-semibold text-lg sm:text-xl text-[var(--ink-strong)] tracking-tight truncate">
-                  Clarity Health
+                  Penn Medicine
                 </div>
                 <div className="text-[10px] sm:text-[11px] font-medium text-[var(--ink-soft)] uppercase tracking-[0.14em]">
                   Clinical Analytics Platform
@@ -379,28 +379,20 @@ export default function Layout() {
       <footer className="border-t border-[var(--hairline)] bg-white mt-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-8 text-xs sm:text-sm text-[var(--ink-muted)] grid grid-cols-1 md:grid-cols-3 gap-6">
           <div>
-            <div className="font-serif font-semibold text-[var(--ink-strong)] mb-1.5">Clarity Health · Analytics</div>
+            <div className="font-serif font-semibold text-[var(--ink-strong)] mb-1.5">Penn Medicine · Analytics</div>
             <p className="leading-relaxed text-[var(--ink-soft)]">
               A reference architecture for clinical analytics on EHR-shaped data, built on the modern
               data stack. Synthetic data — not for clinical use.
             </p>
-            <a
-              href={`${import.meta.env.BASE_URL || '/'}Clarity-Health-3min-Demo-Runbook.pdf`}
-              download
-              className="mt-3 inline-flex items-center gap-2 rounded-md border border-[var(--hairline)] bg-[var(--paper-deep)] px-2.5 py-1.5 text-[11px] font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] hover:bg-white transition-colors"
-            >
-              <svg viewBox="0 0 24 24" className="h-3.5 w-3.5" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
-                <path d="M14 2v6h6" />
-                <path d="M12 18v-6" /><path d="M9 15l3 3 3-3" />
-              </svg>
-              3-min demo runbook (PDF)
-            </a>
+            {/* Runbook download disabled for the Penn Medicine build: the source PDF
+                is still branded "Clarity Health" / Snowflake Summit internally and
+                has no in-repo source to regenerate from. Re-enable once a
+                Databricks/Penn Medicine version is rendered. See pdf-source/. */}
           </div>
           <div>
             <div className="eyebrow mb-2">Data Pipeline</div>
             <p className="leading-relaxed mb-3">
-              Epic Clarity → Fivetran → Iceberg on S3 → dbt labs + dbt-wizard → Great Expectations → Snowflake / Athena / Trino → run-time agents → NewCo Activations → TigerConnect
+              Epic Clarity → Fivetran → Iceberg on S3 → dbt labs + dbt-wizard → Great Expectations → Databricks (Unity Catalog) → run-time agents → NewCo Activations → TigerConnect
             </p>
             <div className="flex items-center gap-2 text-[11px]">
               <span className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2 py-1">
@@ -409,21 +401,21 @@ export default function Layout() {
               </span>
               <span className="text-[var(--ink-soft)]">+</span>
               <span className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2 py-1">
-                <span className="inline-flex items-center justify-center h-4 px-1 rounded text-[9px] font-bold text-white" style={{ background: '#29B5E8' }}>❄</span>
-                <span className="font-semibold text-[var(--ink-strong)]">Snowflake</span>
+                <span className="inline-flex items-center justify-center h-4 px-1 rounded text-[9px] font-bold text-white" style={{ background: '#FF3621' }}>D</span>
+                <span className="font-semibold text-[var(--ink-strong)]">Databricks</span>
               </span>
             </div>
           </div>
           <div>
             <div className="eyebrow mb-2">Compliance Posture</div>
             <p className="leading-relaxed">
-              Synthetic data only · No PHI · HIPAA-aligned design patterns · Snowflake access history audit
+              Synthetic data only · No PHI · HIPAA-aligned design patterns · Unity Catalog access-history audit
             </p>
           </div>
         </div>
         <div className="border-t border-[var(--hairline-soft)]">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-3 text-[11px] text-[var(--ink-soft)] flex flex-col sm:flex-row gap-1 sm:items-center sm:justify-between">
-            <div>© 2026 Healthcare EPIC Snowflake Demo · For demonstration only</div>
+            <div>© 2026 Healthcare EPIC Databricks Demo · For demonstration only</div>
             <div>Snapshot generated {snapshotAt ? new Date(snapshotAt).toLocaleString() : '—'}</div>
           </div>
         </div>
@@ -456,7 +448,7 @@ function DemoSwitcher({
         onClick={onToggle}
         aria-haspopup="menu"
         aria-expanded={open}
-        title={live ? 'Live Snowflake snapshot — click to switch demo' : 'Demo data — click to switch demo'}
+        title={live ? 'Live Databricks snapshot — click to switch demo' : 'Demo data — click to switch demo'}
         className={`inline-flex items-center gap-1.5 rounded-md px-2.5 py-1 text-[11px] font-semibold uppercase tracking-wider border transition-colors ${
           live
             ? 'bg-[var(--clinical-green-bg)] text-[var(--clinical-green)] border-emerald-200 hover:brightness-95'
@@ -464,7 +456,7 @@ function DemoSwitcher({
         }`}
       >
         <span className={`h-1.5 w-1.5 rounded-full ${live ? 'bg-[var(--clinical-green)]' : 'bg-[var(--clinical-amber)]'} animate-pulse`} />
-        {live ? 'Snowflake · live' : 'Demo'}
+        {live ? 'Databricks · live' : 'Demo'}
         <svg viewBox="0 0 24 24" className={`h-3 w-3 transition-transform ${open ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden>
           <path d="m6 9 6 6 6-6" />
         </svg>

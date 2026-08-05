@@ -6,28 +6,28 @@
     "birth_date": "1977-03-21",
     "age": 49,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. Ashley Garcia",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 570,
-    "latitude": 40.45185,
-    "longitude": -80.01316,
-    "last_encounter_date": "2026-04-17",
+    "latitude": 39.96535,
+    "longitude": -75.17836,
+    "last_encounter_date": "2026-07-10",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2522 Centre Blvd",
     "state": "PA",
     "phone": "(412) 876-8206",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100121",
     "encounters": [
       {
         "pat_enc_csn_id": "0000121-000",
-        "contact_date": "2026-04-17",
+        "contact_date": "2026-07-10",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Garcia",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000121-001",
-        "contact_date": "2026-01-29",
+        "contact_date": "2026-04-23",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Garcia",
@@ -56,7 +56,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-17"
+        "first_recorded": "2026-07-10"
       },
       {
         "dx_id": "0000121-acu-001",
@@ -64,7 +64,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-29"
+        "first_recorded": "2026-04-23"
       }
     ]
   },
@@ -84,9 +84,9 @@
         "total_charges": 570,
         "total_payments": 364,
         "current_balance": 206,
-        "primary_payer": "Aetna",
-        "opened_date": "2025-01-20",
-        "closed_date": "2026-01-22"
+        "primary_payer": "Cigna",
+        "opened_date": "2025-04-14",
+        "closed_date": "2026-04-16"
       }
     ]
   },

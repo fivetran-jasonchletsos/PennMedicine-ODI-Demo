@@ -6,28 +6,28 @@
     "birth_date": "1968-11-07",
     "age": 58,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Mark Davis",
     "active_chronic_count": 1,
     "encounter_count": 9,
     "total_charges": 35852,
-    "latitude": 40.42307,
-    "longitude": -79.78482,
-    "last_encounter_date": "2026-02-24",
+    "latitude": 40.30927,
+    "longitude": -75.12612,
+    "last_encounter_date": "2026-05-19",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5898 Centre Ave",
     "state": "PA",
     "phone": "(412) 482-8133",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100435",
     "encounters": [
       {
         "pat_enc_csn_id": "0000435-000",
-        "contact_date": "2026-02-24",
+        "contact_date": "2026-05-19",
         "encounter_type": "Hospital Admission",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Davis",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000435-001",
-        "contact_date": "2025-11-19",
+        "contact_date": "2026-02-11",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Wong",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000435-002",
-        "contact_date": "2025-10-25",
+        "contact_date": "2026-01-17",
         "encounter_type": "Lab Only",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 2,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000435-003",
-        "contact_date": "2025-08-06",
+        "contact_date": "2025-10-29",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000435-004",
-        "contact_date": "2025-07-02",
+        "contact_date": "2025-09-24",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Davis",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000435-005",
-        "contact_date": "2025-03-09",
+        "contact_date": "2025-06-01",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000435-006",
-        "contact_date": "2024-11-23",
+        "contact_date": "2025-02-15",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Davis",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000435-007",
-        "contact_date": "2024-06-14",
+        "contact_date": "2024-09-06",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000435-008",
-        "contact_date": "2024-05-20",
+        "contact_date": "2024-08-12",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -126,7 +126,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1993-05-13"
+        "first_recorded": "1993-08-05"
       },
       {
         "dx_id": "0000435-acu-000",
@@ -134,7 +134,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-24"
+        "first_recorded": "2026-05-19"
       },
       {
         "dx_id": "0000435-acu-001",
@@ -142,7 +142,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-19"
+        "first_recorded": "2026-02-11"
       },
       {
         "dx_id": "0000435-acu-002",
@@ -150,7 +150,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-10-25"
+        "first_recorded": "2026-01-17"
       }
     ]
   },
@@ -170,9 +170,9 @@
         "total_charges": 15525,
         "total_payments": 13156,
         "current_balance": 2369,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-05-27",
-        "closed_date": "2025-11-27"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-08-19",
+        "closed_date": "2026-02-19"
       },
       {
         "hsp_account_id": "HSP000043501",
@@ -181,9 +181,9 @@
         "total_charges": 20327,
         "total_payments": 18696,
         "current_balance": 1631,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-11-25",
-        "closed_date": "2026-02-12"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-02-17",
+        "closed_date": "2026-05-07"
       }
     ]
   },

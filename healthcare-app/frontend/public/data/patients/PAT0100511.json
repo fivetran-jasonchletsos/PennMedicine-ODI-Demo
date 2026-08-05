@@ -6,15 +6,15 @@
     "birth_date": "1997-10-17",
     "age": 29,
     "sex": "M",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Aisha O'Brien",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 3172,
-    "latitude": 40.35486,
-    "longitude": -79.89654,
-    "last_encounter_date": "2025-08-30",
+    "latitude": 39.92936,
+    "longitude": -75.02644,
+    "last_encounter_date": "2025-11-22",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8336 Penn St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000511-000",
-        "contact_date": "2025-08-30",
+        "contact_date": "2025-11-22",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000511-001",
-        "contact_date": "2025-07-15",
+        "contact_date": "2025-10-07",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 1,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000511-002",
-        "contact_date": "2025-02-23",
+        "contact_date": "2025-05-18",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -66,7 +66,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-30"
+        "first_recorded": "2025-11-22"
       },
       {
         "dx_id": "0000511-acu-001",
@@ -74,7 +74,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-07-15"
+        "first_recorded": "2025-10-07"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 3172,
         "total_payments": 1976,
         "current_balance": 1196,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-09-25",
-        "closed_date": "2025-11-07"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-12-18",
+        "closed_date": "2026-01-30"
       }
     ]
   },

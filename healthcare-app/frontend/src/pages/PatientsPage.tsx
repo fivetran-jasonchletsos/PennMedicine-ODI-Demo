@@ -101,7 +101,7 @@ export default function PatientsPage() {
             type="text"
             value={city}
             onChange={(e) => setCity(e.target.value)}
-            placeholder="Pittsburgh"
+            placeholder="Philadelphia"
             className="w-full rounded-md border border-[var(--hairline)] bg-white px-3 py-2 text-sm focus:border-[var(--clinical-teal)] focus:outline-none"
           />
         </div>
@@ -255,7 +255,7 @@ export default function PatientsPage() {
       <div className="mt-6">
         <ProvenanceStrip
           freshness="4 min ago"
-          source="Clarity Health · Patient Registry mart"
+          source="Penn Medicine · Patient Registry mart"
           rows={`${formatNumber(results.length)} rows · 2 marts`}
         />
       </div>

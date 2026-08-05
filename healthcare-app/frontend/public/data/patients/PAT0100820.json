@@ -6,15 +6,15 @@
     "birth_date": "1978-02-15",
     "age": 48,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 12,
     "total_charges": 16035,
-    "latitude": 40.35958,
-    "longitude": -79.90035,
-    "last_encounter_date": "2026-04-26",
+    "latitude": 39.93408,
+    "longitude": -75.03025,
+    "last_encounter_date": "2026-07-19",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2855 Penn Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000820-000",
-        "contact_date": "2026-04-26",
+        "contact_date": "2026-07-19",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Linda Russo",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000820-001",
-        "contact_date": "2026-03-07",
+        "contact_date": "2026-05-30",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Garcia",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-002",
-        "contact_date": "2025-11-28",
+        "contact_date": "2026-02-20",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-003",
-        "contact_date": "2025-09-20",
+        "contact_date": "2025-12-13",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000820-004",
-        "contact_date": "2025-07-22",
+        "contact_date": "2025-10-14",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-005",
-        "contact_date": "2025-06-13",
+        "contact_date": "2025-09-05",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-006",
-        "contact_date": "2025-04-24",
+        "contact_date": "2025-07-17",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Taylor",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-007",
-        "contact_date": "2025-03-26",
+        "contact_date": "2025-06-18",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-008",
-        "contact_date": "2025-03-03",
+        "contact_date": "2025-05-26",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-009",
-        "contact_date": "2025-02-26",
+        "contact_date": "2025-05-21",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-010",
-        "contact_date": "2024-11-18",
+        "contact_date": "2025-02-10",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000820-011",
-        "contact_date": "2024-05-31",
+        "contact_date": "2024-08-23",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -156,7 +156,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2017-05-13"
+        "first_recorded": "2017-08-05"
       },
       {
         "dx_id": "0000820-acu-001",
@@ -164,7 +164,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-07"
+        "first_recorded": "2026-05-30"
       }
     ]
   },
@@ -184,8 +184,8 @@
         "total_charges": 8394,
         "total_payments": 7461,
         "current_balance": 933,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-01-06",
+        "primary_payer": "Aetna",
+        "opened_date": "2025-03-31",
         "closed_date": null
       },
       {
@@ -196,8 +196,8 @@
         "total_payments": 6664,
         "current_balance": 977,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-02-13",
-        "closed_date": "2026-03-26"
+        "opened_date": "2024-05-07",
+        "closed_date": "2026-06-18"
       }
     ]
   },

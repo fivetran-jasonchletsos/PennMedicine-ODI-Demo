@@ -6,28 +6,28 @@
     "birth_date": "2012-02-14",
     "age": 14,
     "sex": "M",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Mark Davis",
     "active_chronic_count": 3,
     "encounter_count": 8,
     "total_charges": 8409,
-    "latitude": 40.37388,
-    "longitude": -80.04886,
-    "last_encounter_date": "2026-03-22",
+    "latitude": 40.01838,
+    "longitude": -75.32396,
+    "last_encounter_date": "2026-06-14",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7238 Forbes Rd",
     "state": "PA",
     "phone": "(412) 244-7982",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100292",
     "encounters": [
       {
         "pat_enc_csn_id": "0000292-000",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Davis",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000292-001",
-        "contact_date": "2026-01-12",
+        "contact_date": "2026-04-06",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000292-002",
-        "contact_date": "2025-11-04",
+        "contact_date": "2026-01-27",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Davis",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000292-003",
-        "contact_date": "2025-10-11",
+        "contact_date": "2026-01-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Davis",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000292-004",
-        "contact_date": "2025-09-29",
+        "contact_date": "2025-12-22",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000292-005",
-        "contact_date": "2025-08-30",
+        "contact_date": "2025-11-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000292-006",
-        "contact_date": "2025-01-29",
+        "contact_date": "2025-04-23",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 4,
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000292-007",
-        "contact_date": "2024-05-29",
+        "contact_date": "2024-08-21",
         "encounter_type": "Follow-up",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -116,7 +116,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000292-dx-001",
@@ -124,7 +124,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000292-dx-002",
@@ -132,7 +132,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000292-acu-001",
@@ -140,7 +140,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-12"
+        "first_recorded": "2026-04-06"
       }
     ]
   },
@@ -161,8 +161,8 @@
         "total_payments": 6706,
         "current_balance": 1703,
         "primary_payer": "Medicare",
-        "opened_date": "2025-01-24",
-        "closed_date": "2025-12-26"
+        "opened_date": "2025-04-18",
+        "closed_date": "2026-03-20"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "1965-09-18",
     "age": 61,
     "sex": "M",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Sophia Moore",
     "active_chronic_count": 1,
     "encounter_count": 4,
     "total_charges": 11729,
-    "latitude": 40.34773,
-    "longitude": -79.84388,
-    "last_encounter_date": "2026-04-12",
+    "latitude": 40.15893,
+    "longitude": -75.21708,
+    "last_encounter_date": "2026-07-05",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2372 Liberty Blvd",
     "state": "PA",
     "phone": "(412) 210-3500",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100276",
     "encounters": [
       {
         "pat_enc_csn_id": "0000276-000",
-        "contact_date": "2026-04-12",
+        "contact_date": "2026-07-05",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Linda Russo",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000276-001",
-        "contact_date": "2025-11-03",
+        "contact_date": "2026-01-26",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Sophia Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000276-002",
-        "contact_date": "2025-01-05",
+        "contact_date": "2025-03-30",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Taylor",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000276-003",
-        "contact_date": "2024-11-02",
+        "contact_date": "2025-01-25",
         "encounter_type": "Hospital Admission",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -76,7 +76,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1991-05-13"
+        "first_recorded": "1991-08-05"
       },
       {
         "dx_id": "0000276-acu-000",
@@ -84,7 +84,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-12"
+        "first_recorded": "2026-07-05"
       },
       {
         "dx_id": "0000276-acu-001",
@@ -92,7 +92,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-03"
+        "first_recorded": "2026-01-26"
       },
       {
         "dx_id": "0000276-acu-002",
@@ -100,7 +100,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-01-05"
+        "first_recorded": "2025-03-30"
       }
     ]
   },
@@ -120,9 +120,9 @@
         "total_charges": 4953,
         "total_payments": 4023,
         "current_balance": 930,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-06-04",
-        "closed_date": "2026-03-08"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-08-27",
+        "closed_date": "2026-05-31"
       },
       {
         "hsp_account_id": "HSP000027601",
@@ -132,8 +132,8 @@
         "total_payments": 5870,
         "current_balance": 906,
         "primary_payer": "Medicare",
-        "opened_date": "2026-01-09",
-        "closed_date": "2026-02-17"
+        "opened_date": "2026-04-03",
+        "closed_date": "2026-05-12"
       }
     ]
   },

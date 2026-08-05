@@ -8,11 +8,11 @@ with source as (
 
 renamed as (
     select
-        cast(department_id as varchar)              as department_id,
+        cast(department_id as string)              as department_id,
         trim(department_name)                       as department_name,
         -- specialty_dep_c_name not in source; use specialty_dep_c as raw code
-        cast(specialty_dep_c as varchar)            as specialty_code,
-        cast(serv_area_id as varchar)               as service_area_id,
+        cast(specialty_dep_c as string)            as specialty_code,
+        cast(serv_area_id as string)               as service_area_id,
         current_timestamp                           as loaded_at
     from source
 )

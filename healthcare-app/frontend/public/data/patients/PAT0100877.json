@@ -6,28 +6,28 @@
     "birth_date": "2013-02-02",
     "age": 13,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Ashley Moore",
     "active_chronic_count": 2,
     "encounter_count": 8,
     "total_charges": 2114,
-    "latitude": 40.43978,
-    "longitude": -79.96009,
-    "last_encounter_date": "2026-02-08",
+    "latitude": 39.93908,
+    "longitude": -75.21939,
+    "last_encounter_date": "2026-05-03",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6188 Murray Blvd",
     "state": "PA",
     "phone": "(412) 713-2407",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100877",
     "encounters": [
       {
         "pat_enc_csn_id": "0000877-000",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Moore",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-001",
-        "contact_date": "2026-01-16",
+        "contact_date": "2026-04-10",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-002",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Moore",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000877-003",
-        "contact_date": "2025-11-27",
+        "contact_date": "2026-02-19",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-004",
-        "contact_date": "2025-09-19",
+        "contact_date": "2025-12-12",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Khan",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-005",
-        "contact_date": "2024-11-10",
+        "contact_date": "2025-02-02",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Johnson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-006",
-        "contact_date": "2024-10-24",
+        "contact_date": "2025-01-16",
         "encounter_type": "Follow-up",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Ashley Moore",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000877-007",
-        "contact_date": "2024-09-05",
+        "contact_date": "2024-11-28",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Wilson",
@@ -116,7 +116,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000877-dx-001",
@@ -124,7 +124,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000877-acu-000",
@@ -132,7 +132,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-02-08"
+        "first_recorded": "2026-05-03"
       },
       {
         "dx_id": "0000877-acu-001",
@@ -140,7 +140,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-16"
+        "first_recorded": "2026-04-10"
       }
     ]
   },
@@ -160,9 +160,9 @@
         "total_charges": 2114,
         "total_payments": 1752,
         "current_balance": 362,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-09-23",
-        "closed_date": "2026-04-07"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-12-16",
+        "closed_date": "2026-06-30"
       }
     ]
   },

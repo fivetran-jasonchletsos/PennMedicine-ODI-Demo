@@ -6,28 +6,28 @@
     "birth_date": "2008-08-28",
     "age": 18,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 2,
     "encounter_count": 8,
     "total_charges": 5894,
-    "latitude": 40.44984,
-    "longitude": -80.09988,
-    "last_encounter_date": "2026-03-05",
+    "latitude": 39.92134,
+    "longitude": -75.38388,
+    "last_encounter_date": "2026-05-28",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4182 Walnut St",
     "state": "PA",
     "phone": "(412) 663-9702",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100339",
     "encounters": [
       {
         "pat_enc_csn_id": "0000339-000",
-        "contact_date": "2026-03-05",
+        "contact_date": "2026-05-28",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Nguyen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000339-001",
-        "contact_date": "2025-11-09",
+        "contact_date": "2026-02-01",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Johnson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000339-002",
-        "contact_date": "2025-09-07",
+        "contact_date": "2025-11-30",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Thomas",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000339-003",
-        "contact_date": "2025-08-07",
+        "contact_date": "2025-10-30",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000339-004",
-        "contact_date": "2025-07-31",
+        "contact_date": "2025-10-23",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Nguyen",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000339-005",
-        "contact_date": "2025-03-09",
+        "contact_date": "2025-06-01",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000339-006",
-        "contact_date": "2024-09-10",
+        "contact_date": "2024-12-03",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. James Russo",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000339-007",
-        "contact_date": "2024-07-01",
+        "contact_date": "2024-09-23",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -116,7 +116,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000339-dx-001",
@@ -124,7 +124,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000339-acu-001",
@@ -132,7 +132,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-11-09"
+        "first_recorded": "2026-02-01"
       }
     ]
   },
@@ -153,7 +153,7 @@
         "total_payments": 4612,
         "current_balance": 1282,
         "primary_payer": "Medicare",
-        "opened_date": "2024-03-05",
+        "opened_date": "2024-05-28",
         "closed_date": null
       }
     ]

@@ -1,4 +1,4 @@
-name: dbt Run — Post Fivetran Sync (Snowflake)
+name: dbt Run — Post Fivetran Sync (Databricks)
 
 on:
   schedule:
@@ -7,17 +7,15 @@ on:
 
 jobs:
   dbt_run:
-    name: Run dbt models on Snowflake
+    name: Run dbt models on Databricks
     runs-on: ubuntu-latest
 
     env:
       DBT_PROFILES_DIR: ./transform
-      SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
-      SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
-      SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
-      SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
-      SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
-      SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+      DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST }}
+      DATABRICKS_HTTP_PATH: ${{ secrets.DATABRICKS_HTTP_PATH }}
+      DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN }}
+      DATABRICKS_CATALOG: ${{ secrets.DATABRICKS_CATALOG }}
 
     steps:
       - uses: actions/checkout@v4
@@ -27,7 +25,7 @@ jobs:
           python-version: "3.11"
           cache: "pip"
 
-      - run: pip install "dbt-core==1.8.9" "dbt-snowflake==1.8.4"
+      - run: pip install "dbt-core==1.8.9" "dbt-databricks==1.8.6"
 
       - working-directory: transform
         run: dbt deps --profiles-dir .

@@ -6,15 +6,15 @@
     "birth_date": "2013-02-28",
     "age": 13,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Michael Greene",
     "active_chronic_count": 3,
     "encounter_count": 12,
     "total_charges": 36543,
-    "latitude": 40.47374,
-    "longitude": -79.96502,
-    "last_encounter_date": "2026-01-26",
+    "latitude": 39.93774,
+    "longitude": -75.18522,
+    "last_encounter_date": "2026-04-20",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3582 Beacon Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000697-000",
-        "contact_date": "2026-01-26",
+        "contact_date": "2026-04-20",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Greene",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-001",
-        "contact_date": "2025-12-06",
+        "contact_date": "2026-02-28",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Martinez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-002",
-        "contact_date": "2025-11-18",
+        "contact_date": "2026-02-10",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-003",
-        "contact_date": "2025-09-24",
+        "contact_date": "2025-12-17",
         "encounter_type": "Procedure",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Greene",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000697-004",
-        "contact_date": "2025-09-15",
+        "contact_date": "2025-12-08",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Greene",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 4,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-005",
-        "contact_date": "2025-08-31",
+        "contact_date": "2025-11-23",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Greene",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-006",
-        "contact_date": "2025-03-17",
+        "contact_date": "2025-06-09",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-007",
-        "contact_date": "2025-02-20",
+        "contact_date": "2025-05-15",
         "encounter_type": "Follow-up",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Greene",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-008",
-        "contact_date": "2025-02-04",
+        "contact_date": "2025-04-29",
         "encounter_type": "Hospital Admission",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Moore",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-009",
-        "contact_date": "2024-12-19",
+        "contact_date": "2025-03-13",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha Hernandez",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-010",
-        "contact_date": "2024-11-25",
+        "contact_date": "2025-02-17",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Thomas",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000697-011",
-        "contact_date": "2024-07-22",
+        "contact_date": "2024-10-14",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Greene",
@@ -156,7 +156,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000697-dx-001",
@@ -164,7 +164,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000697-dx-002",
@@ -172,7 +172,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000697-acu-001",
@@ -180,7 +180,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-06"
+        "first_recorded": "2026-02-28"
       },
       {
         "dx_id": "0000697-acu-002",
@@ -188,7 +188,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-18"
+        "first_recorded": "2026-02-10"
       }
     ]
   },
@@ -208,9 +208,9 @@
         "total_charges": 13750,
         "total_payments": 9434,
         "current_balance": 4316,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-02-15",
-        "closed_date": "2026-05-01"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-05-09",
+        "closed_date": "2026-07-24"
       },
       {
         "hsp_account_id": "HSP000069701",
@@ -220,8 +220,8 @@
         "total_payments": 13508,
         "current_balance": 9285,
         "primary_payer": "Self-pay",
-        "opened_date": "2025-07-07",
-        "closed_date": "2026-02-07"
+        "opened_date": "2025-09-29",
+        "closed_date": "2026-05-02"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "1965-07-04",
     "age": 61,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Mark Jackson",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 571,
-    "latitude": 40.4473,
-    "longitude": -79.95711,
-    "last_encounter_date": "2025-09-25",
+    "latitude": 39.9466,
+    "longitude": -75.21641,
+    "last_encounter_date": "2025-12-18",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4585 Murray Blvd",
     "state": "PA",
     "phone": "(412) 844-2198",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100133",
     "encounters": [
       {
         "pat_enc_csn_id": "0000133-000",
-        "contact_date": "2025-09-25",
+        "contact_date": "2025-12-18",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000133-001",
-        "contact_date": "2025-04-07",
+        "contact_date": "2025-06-30",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Jackson",
@@ -56,7 +56,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-09-25"
+        "first_recorded": "2025-12-18"
       }
     ]
   },
@@ -76,8 +76,8 @@
         "total_charges": 571,
         "total_payments": 519,
         "current_balance": 52,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2026-03-18",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-06-10",
         "closed_date": null
       }
     ]

@@ -6,15 +6,15 @@
     "birth_date": "2015-05-08",
     "age": 11,
     "sex": "F",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 6,
     "total_charges": 35708,
-    "latitude": 40.50166,
-    "longitude": -79.76329,
-    "last_encounter_date": "2026-04-01",
+    "latitude": 39.95956,
+    "longitude": -75.60599,
+    "last_encounter_date": "2026-06-24",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4095 Forbes Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000364-000",
-        "contact_date": "2026-04-01",
+        "contact_date": "2026-06-24",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 1,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000364-001",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Gonzalez",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 1,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000364-002",
-        "contact_date": "2025-01-10",
+        "contact_date": "2025-04-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Walsh",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000364-003",
-        "contact_date": "2024-12-28",
+        "contact_date": "2025-03-22",
         "encounter_type": "Procedure",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000364-004",
-        "contact_date": "2024-08-01",
+        "contact_date": "2024-10-24",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 1,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000364-005",
-        "contact_date": "2024-06-12",
+        "contact_date": "2024-09-04",
         "encounter_type": "Hospital Admission",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. James Russo",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -96,7 +96,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-01"
+        "first_recorded": "2026-06-24"
       },
       {
         "dx_id": "0000364-acu-001",
@@ -104,7 +104,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-08-14"
+        "first_recorded": "2025-11-06"
       },
       {
         "dx_id": "0000364-acu-002",
@@ -112,7 +112,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-01-10"
+        "first_recorded": "2025-04-04"
       }
     ]
   },
@@ -132,8 +132,8 @@
         "total_charges": 35708,
         "total_payments": 24141,
         "current_balance": 11567,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-03-07",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-05-30",
         "closed_date": null
       }
     ]

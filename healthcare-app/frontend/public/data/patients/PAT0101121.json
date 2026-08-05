@@ -6,15 +6,15 @@
     "birth_date": "1964-01-22",
     "age": 62,
     "sex": "M",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 9,
     "total_charges": 9281,
-    "latitude": 40.30573,
-    "longitude": -79.53963,
-    "last_encounter_date": "2026-03-15",
+    "latitude": 39.85383,
+    "longitude": -75.35733,
+    "last_encounter_date": "2026-06-07",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3415 Forbes Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001121-000",
-        "contact_date": "2026-03-15",
+        "contact_date": "2026-06-07",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Wong",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001121-001",
-        "contact_date": "2026-01-09",
+        "contact_date": "2026-04-03",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001121-002",
-        "contact_date": "2025-08-24",
+        "contact_date": "2025-11-16",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001121-003",
-        "contact_date": "2025-07-22",
+        "contact_date": "2025-10-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha O'Brien",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001121-004",
-        "contact_date": "2025-06-17",
+        "contact_date": "2025-09-09",
         "encounter_type": "Procedure",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Russo",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001121-005",
-        "contact_date": "2025-02-24",
+        "contact_date": "2025-05-19",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001121-006",
-        "contact_date": "2024-11-28",
+        "contact_date": "2025-02-20",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001121-007",
-        "contact_date": "2024-11-16",
+        "contact_date": "2025-02-08",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001121-008",
-        "contact_date": "2024-11-15",
+        "contact_date": "2025-02-07",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -126,7 +126,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "1995-05-13"
+        "first_recorded": "1995-08-05"
       },
       {
         "dx_id": "0001121-acu-000",
@@ -134,7 +134,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-15"
+        "first_recorded": "2026-06-07"
       },
       {
         "dx_id": "0001121-acu-001",
@@ -142,7 +142,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-09"
+        "first_recorded": "2026-04-03"
       },
       {
         "dx_id": "0001121-acu-002",
@@ -150,7 +150,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-08-24"
+        "first_recorded": "2025-11-16"
       }
     ]
   },
@@ -170,9 +170,9 @@
         "total_charges": 9281,
         "total_payments": 6794,
         "current_balance": 2487,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-02-27",
-        "closed_date": "2025-12-31"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-05-21",
+        "closed_date": "2026-03-25"
       }
     ]
   },

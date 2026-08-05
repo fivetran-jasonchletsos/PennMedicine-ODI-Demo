@@ -203,7 +203,7 @@ function summarizeForClaude(patients: PatientSearchResult[]) {
 }
 
 const SYSTEM = `You are a clinical analytics assistant for an Epic Clarity-shaped dataset.
-You answer questions about a snapshot of patient-level data exported from Snowflake marts.
+You answer questions about a snapshot of patient-level data exported from Databricks gold marts.
 Keep responses concise and grounded only in the JSON summary provided.
 Format dollars as $12,345 and percentages with one decimal.
 If a question can't be answered from the summary, say so — never invent patients or values.`;

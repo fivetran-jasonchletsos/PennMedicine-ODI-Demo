@@ -6,15 +6,15 @@
     "birth_date": "2015-03-25",
     "age": 11,
     "sex": "M",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 602,
-    "latitude": 40.3805,
-    "longitude": -80.0565,
-    "last_encounter_date": "2024-12-05",
+    "latitude": 40.025,
+    "longitude": -75.3316,
+    "last_encounter_date": "2025-02-27",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8988 Highland Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000869-000",
-        "contact_date": "2024-12-05",
+        "contact_date": "2025-02-27",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000869-001",
-        "contact_date": "2024-07-14",
+        "contact_date": "2024-10-06",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Johnson",
@@ -56,7 +56,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2024-12-05"
+        "first_recorded": "2025-02-27"
       }
     ]
   },
@@ -76,8 +76,8 @@
         "total_charges": 602,
         "total_payments": 486,
         "current_balance": 116,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-04-02",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-25",
         "closed_date": null
       }
     ]

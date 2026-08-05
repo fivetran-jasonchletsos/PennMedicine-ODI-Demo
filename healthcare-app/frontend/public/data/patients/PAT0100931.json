@@ -6,28 +6,28 @@
     "birth_date": "1975-04-24",
     "age": 51,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Mark Gonzalez",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 659,
-    "latitude": 40.45454,
-    "longitude": -79.92668,
-    "last_encounter_date": "2024-12-30",
+    "latitude": 39.94004,
+    "longitude": -75.14818,
+    "last_encounter_date": "2025-03-24",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "262 Forbes St",
     "state": "PA",
     "phone": "(412) 408-5693",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100931",
     "encounters": [
       {
         "pat_enc_csn_id": "0000931-000",
-        "contact_date": "2024-12-30",
+        "contact_date": "2025-03-24",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Linda Thomas",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000931-001",
-        "contact_date": "2024-11-28",
+        "contact_date": "2025-02-20",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Davis",
@@ -56,7 +56,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2024-11-28"
+        "first_recorded": "2025-02-20"
       }
     ]
   },
@@ -77,8 +77,8 @@
         "total_payments": 603,
         "current_balance": 56,
         "primary_payer": "Medicare",
-        "opened_date": "2024-04-26",
-        "closed_date": "2026-01-20"
+        "opened_date": "2024-07-19",
+        "closed_date": "2026-04-14"
       }
     ]
   },

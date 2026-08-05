@@ -1,39 +1,32 @@
 # ============================================================
-# dbt profile for the Healthcare EPIC Snowflake demo.
+# dbt profile for the Healthcare EPIC Databricks demo.
 #
 # Reads credentials from environment so secrets never live in repo.
 # Set these locally or as repo secrets in GitHub Actions:
 #
-#   SNOWFLAKE_ACCOUNT       e.g. abc12345.us-east-1
-#   SNOWFLAKE_USER
-#   SNOWFLAKE_PASSWORD      (or use SNOWFLAKE_PRIVATE_KEY_PATH)
-#   SNOWFLAKE_ROLE          e.g. JASON_CHLETSOS_DBT_ROLE
-#   SNOWFLAKE_DATABASE      default: JASON_CHLETSOS_EPIC
-#   SNOWFLAKE_WAREHOUSE     default: JASON_CHLETSOS_TRANSFORM_WH
+#   DATABRICKS_HOST         e.g. dbc-abc12345-6789.cloud.databricks.com
+#   DATABRICKS_HTTP_PATH    e.g. /sql/1.0/warehouses/abc123def456
+#   DATABRICKS_TOKEN        Databricks personal access token
+#   DATABRICKS_CATALOG      default: jason_chletsos_pennmed
 # ============================================================
 
 healthcare_clarity:
   target: dev
   outputs:
     dev:
-      type: snowflake
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: "{{ env_var('SNOWFLAKE_ROLE', 'JASON_CHLETSOS_DBT_ROLE') }}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE', 'JASON_CHLETSOS_EPIC') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'JASON_CHLETSOS_TRANSFORM_WH') }}"
-      schema: "STAGING"
-      threads: 8
-      client_session_keep_alive: False
+      type: databricks
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      catalog: "{{ env_var('DATABRICKS_CATALOG', 'jason_chletsos_pennmed') }}"
+      schema: jason_chletsos_pennmed_staging  # Default target schema
+      threads: 4
 
     prod:
-      type: snowflake
-      account: "{{ env_var('SNOWFLAKE_ACCOUNT') }}"
-      user: "{{ env_var('SNOWFLAKE_USER') }}"
-      password: "{{ env_var('SNOWFLAKE_PASSWORD') }}"
-      role: "{{ env_var('SNOWFLAKE_ROLE', 'JASON_CHLETSOS_DBT_ROLE') }}"
-      database: "{{ env_var('SNOWFLAKE_DATABASE', 'JASON_CHLETSOS_EPIC') }}"
-      warehouse: "{{ env_var('SNOWFLAKE_WAREHOUSE', 'JASON_CHLETSOS_TRANSFORM_WH') }}"
-      schema: "STAGING"
-      threads: 16
+      type: databricks
+      host: "{{ env_var('DATABRICKS_HOST') }}"
+      http_path: "{{ env_var('DATABRICKS_HTTP_PATH') }}"
+      token: "{{ env_var('DATABRICKS_TOKEN') }}"
+      catalog: "{{ env_var('DATABRICKS_CATALOG', 'jason_chletsos_pennmed') }}"
+      schema: jason_chletsos_pennmed_staging
+      threads: 8

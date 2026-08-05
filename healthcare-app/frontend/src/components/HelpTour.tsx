@@ -22,7 +22,7 @@ const STEPS: Step[] = [
   {
     title: 'Search a million-patient panel in under a second',
     pitch:
-      "Find any patient by name, MRN, or city. Results stream from a Snowflake-governed EHR snapshot, refreshed by Fivetran's Epic Clarity connector.",
+      "Find any patient by name, MRN, or city. Results stream from a Databricks-governed EHR snapshot, refreshed by Fivetran's Epic Clarity connector.",
     cta: { label: 'Open Patients', to: '/patients' },
     preview: () => (
       <div className="rounded-lg border border-slate-200 bg-white p-3">
@@ -30,7 +30,7 @@ const STEPS: Step[] = [
           Search by patient name, MRN, or city…
         </div>
         <div className="mt-2 space-y-1.5">
-          {['Ramirez, Elena · MRN 0100482 · Pittsburgh', 'Okafor, Daniel · MRN 0100231 · Cleveland', 'Nakamura, Yuki · MRN 0100819 · Erie'].map((r, i) => (
+          {['Ramirez, Elena · MRN 0100482 · Philadelphia', 'Okafor, Daniel · MRN 0100231 · Bryn Mawr', 'Nakamura, Yuki · MRN 0100819 · Doylestown'].map((r, i) => (
             <div key={i} className="min-h-[22px] rounded bg-slate-50 border border-slate-100 px-2 py-1 text-[11px] flex items-center text-slate-600 truncate">
               {r}
             </div>
@@ -60,7 +60,7 @@ const STEPS: Step[] = [
   {
     title: 'Pipeline observability you can show your CIO',
     pitch:
-      "Every layer — Fivetran's Epic Clarity connector, Snowflake destination, dbt Labs transformations, and the static deploy — reports live status. Simulate a failure to walk through incident response.",
+      "Every layer — Fivetran's Epic Clarity connector, the Databricks destination, dbt Labs transformations, and the static deploy — reports live status. Simulate a failure to walk through incident response.",
     cta: { label: 'Open Pipeline', to: '/pipeline' },
     preview: () => (
       <div className="rounded-lg p-3" style={{ background: '#171717' }}>

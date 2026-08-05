@@ -6,28 +6,28 @@
     "birth_date": "1947-07-02",
     "age": 79,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. David Russo",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 1415,
-    "latitude": 40.3651,
-    "longitude": -79.89909,
-    "last_encounter_date": "2025-08-14",
+    "latitude": 39.9396,
+    "longitude": -75.02899,
+    "last_encounter_date": "2025-11-06",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6971 Forbes Ave",
     "state": "PA",
     "phone": "(412) 291-5913",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100143",
     "encounters": [
       {
         "pat_enc_csn_id": "0000143-000",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. David Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000143-001",
-        "contact_date": "2025-08-13",
+        "contact_date": "2025-11-05",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Martinez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000143-002",
-        "contact_date": "2025-03-07",
+        "contact_date": "2025-05-30",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. David Russo",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000143-003",
-        "contact_date": "2025-02-12",
+        "contact_date": "2025-05-07",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000143-004",
-        "contact_date": "2024-08-26",
+        "contact_date": "2024-11-18",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Russo",
@@ -86,7 +86,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1968-05-13"
+        "first_recorded": "1968-08-05"
       },
       {
         "dx_id": "0000143-acu-001",
@@ -94,7 +94,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-08-13"
+        "first_recorded": "2025-11-05"
       }
     ]
   },
@@ -114,9 +114,9 @@
         "total_charges": 1415,
         "total_payments": 1046,
         "current_balance": 369,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-23",
-        "closed_date": "2026-04-04"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-15",
+        "closed_date": "2026-06-27"
       }
     ]
   },

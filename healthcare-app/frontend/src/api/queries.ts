@@ -1,6 +1,6 @@
 // ============================================================
 // API helpers — read static JSON snapshots built by
-// scripts/build_snapshot.py from Snowflake marts.
+// scripts/build_snapshot.py from Databricks marts.
 // ============================================================
 
 import type {

@@ -479,14 +479,14 @@ export function NarrativeCard({
 }
 
 // ─── Data-flow diagram (Pipeline page hero) ─────────────────────────────────
-// Animated SVG: Clarity Health EHR → Fivetran → Snowflake → dbt → Apps.
+// Animated SVG: Penn Medicine EHR → Fivetran → Databricks → dbt → Apps.
 // Each node has a status; the flow lines pulse.
 
 export interface FlowNode {
   id: string;
   label: string;
   sub: string;
-  logo?: 'epic' | 'fivetran' | 'iceberg' | 'snowflake' | 'dbt' | 'app';
+  logo?: 'epic' | 'fivetran' | 'iceberg' | 'databricks' | 'dbt' | 'app';
   status: 'healthy' | 'caution' | 'alert';
   metric?: string;
 }
@@ -498,7 +498,7 @@ export function DataFlowDiagram({ nodes }: { nodes: FlowNode[] }) {
         <div>
           <div className="eyebrow mb-1">Live Data Flow</div>
           <div className="font-serif text-xl font-semibold text-[var(--ink-strong)]">
-            Clarity Health EHR → Snowflake, every 5 minutes
+            Penn Medicine EHR → Databricks, every 5 minutes
           </div>
         </div>
         <div className="flex items-center gap-2 text-[11px] text-[var(--ink-soft)] tabular">
@@ -514,7 +514,7 @@ export function DataFlowDiagram({ nodes }: { nodes: FlowNode[] }) {
           // the dbt Labs wordmark — Fivetran + dbt Labs are now one company.
           const edgeLabel =
             next && (
-              (n.id === 'snowflake' && next.id === 'dbt') ||
+              (n.id === 'databricks' && next.id === 'dbt') ||
               (n.id === 'dbt' && next.id === 'app')
             )
               ? 'dbt labs'
@@ -649,11 +649,12 @@ function NodeIcon({ logo }: { logo?: FlowNode['logo'] }) {
         </svg>
       </div>
     );
-  if (logo === 'snowflake')
+  if (logo === 'databricks')
     return (
-      <div className={common} style={{ background: '#29B5E8', color: '#fff' }}>
-        <svg viewBox="0 0 24 24" className="h-4 w-4" fill="currentColor">
-          <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
+      <div className={common} style={{ background: '#FF3621', color: '#fff' }}>
+        <svg viewBox="0 0 24 24" className="h-4 w-4" fill="#fff">
+          <path d="M12 6l6.5 3.4v0.2L12 13 5.5 9.6v-0.2z" />
+          <path d="M5.5 12.4L12 15.8l6.5-3.4v2.2L12 18 5.5 14.6z" opacity="0.85" />
         </svg>
       </div>
     );
@@ -671,12 +672,12 @@ function NodeIcon({ logo }: { logo?: FlowNode['logo'] }) {
   return <div className={common} style={{ background: 'var(--paper-deep)', color: 'var(--ink-soft)' }}>·</div>;
 }
 
-// ─── Provenance strip — Fivetran + Snowflake co-brand bar ───────────────────
+// ─── Provenance strip — Fivetran + Databricks co-brand bar ──────────────────
 // Subtle, on every key page. Communicates "this view is live from the stack."
 
 export function ProvenanceStrip({
   freshness = '4 min ago',
-  source = 'Clarity Health · Epic Clarity CDC',
+  source = 'Penn Medicine · Epic Clarity CDC',
   rows = '2.4M rows · 8 tables',
   ctaTo,
   fivetranUrl,
@@ -691,7 +692,7 @@ export function ProvenanceStrip({
     <div className="rounded-md border border-[var(--hairline)] bg-white px-4 py-2.5 flex flex-wrap items-center gap-x-5 gap-y-2 text-[11px]">
       <div className="flex items-center gap-2 font-mono tabular">
         <span className="h-1.5 w-1.5 rounded-full bg-[var(--clinical-green)] animate-pulse" />
-        <span className="text-[var(--ink-soft)]">Snowflake · live</span>
+        <span className="text-[var(--ink-soft)]">Databricks · live</span>
         <span className="text-[var(--ink-strong)] font-semibold">{freshness}</span>
       </div>
       <span className="text-[var(--hairline)]">│</span>
@@ -701,7 +702,7 @@ export function ProvenanceStrip({
       </div>
       <span className="text-[var(--hairline)]">│</span>
       <div className="flex items-center gap-2">
-        <span className="inline-flex items-center justify-center h-4 px-1 rounded text-[9px] font-bold text-white" style={{ background: '#29B5E8' }}>❄</span>
+        <span className="inline-flex items-center justify-center h-4 px-1 rounded text-[9px] font-bold text-white" style={{ background: '#FF3621' }}>D</span>
         <span className="text-[var(--ink-muted)]">{rows}</span>
       </div>
       {fivetranUrl && (

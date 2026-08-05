@@ -6,15 +6,15 @@
     "birth_date": "1990-04-17",
     "age": 36,
     "sex": "F",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 2470,
-    "latitude": 40.62951,
-    "longitude": -80.0583,
-    "last_encounter_date": "2025-10-26",
+    "latitude": 40.07861,
+    "longitude": -75.3012,
+    "last_encounter_date": "2026-01-18",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4263 Walnut Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000224-000",
-        "contact_date": "2025-10-26",
+        "contact_date": "2026-01-18",
         "encounter_type": "Follow-up",
         "department_name": "OB-GYN",
         "provider_name": "Dr. David Johnson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000224-001",
-        "contact_date": "2025-02-09",
+        "contact_date": "2025-05-04",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000224-002",
-        "contact_date": "2025-01-04",
+        "contact_date": "2025-03-29",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -66,7 +66,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000224-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-26"
+        "first_recorded": "2026-01-18"
       }
     ]
   },
@@ -95,8 +95,8 @@
         "total_payments": 1615,
         "current_balance": 855,
         "primary_payer": "Aetna",
-        "opened_date": "2024-04-08",
-        "closed_date": "2026-02-23"
+        "opened_date": "2024-07-01",
+        "closed_date": "2026-05-18"
       }
     ]
   },

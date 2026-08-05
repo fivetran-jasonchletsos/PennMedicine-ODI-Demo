@@ -6,15 +6,15 @@
     "birth_date": "1970-09-12",
     "age": 56,
     "sex": "M",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Daniel Khan",
     "active_chronic_count": 1,
     "encounter_count": 4,
     "total_charges": 5856,
-    "latitude": 40.47341,
-    "longitude": -79.83088,
-    "last_encounter_date": "2026-02-25",
+    "latitude": 40.10821,
+    "longitude": -75.27538,
+    "last_encounter_date": "2026-05-20",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4703 Centre Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000947-000",
-        "contact_date": "2026-02-25",
+        "contact_date": "2026-05-20",
         "encounter_type": "Follow-up",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000947-001",
-        "contact_date": "2025-12-27",
+        "contact_date": "2026-03-21",
         "encounter_type": "Emergency Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sophia Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000947-002",
-        "contact_date": "2025-07-16",
+        "contact_date": "2025-10-08",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Khan",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000947-003",
-        "contact_date": "2025-03-29",
+        "contact_date": "2025-06-21",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Martinez",
@@ -76,7 +76,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000947-acu-001",
@@ -84,7 +84,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-12-27"
+        "first_recorded": "2026-03-21"
       },
       {
         "dx_id": "0000947-acu-002",
@@ -92,7 +92,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-07-16"
+        "first_recorded": "2025-10-08"
       }
     ]
   },
@@ -112,9 +112,9 @@
         "total_charges": 5856,
         "total_payments": 4598,
         "current_balance": 1258,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-01-01",
-        "closed_date": "2026-01-22"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-03-26",
+        "closed_date": "2026-04-16"
       }
     ]
   },

@@ -6,28 +6,28 @@
     "birth_date": "1983-01-03",
     "age": 43,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15222",
+    "city": "Philadelphia",
+    "zip_code": "19124",
     "primary_care_provider": "Dr. David Russo",
     "active_chronic_count": 0,
     "encounter_count": 1,
     "total_charges": 324,
-    "latitude": 40.44043,
-    "longitude": -80.00047,
-    "last_encounter_date": "2026-01-14",
+    "latitude": 40.09263,
+    "longitude": -75.09067,
+    "last_encounter_date": "2026-04-08",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6354 Centre Rd",
     "state": "PA",
     "phone": "(412) 677-4023",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0101371",
     "encounters": [
       {
         "pat_enc_csn_id": "0001371-000",
-        "contact_date": "2026-01-14",
+        "contact_date": "2026-04-08",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Russo",
@@ -46,7 +46,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-01-14"
+        "first_recorded": "2026-04-08"
       }
     ]
   },
@@ -66,9 +66,9 @@
         "total_charges": 324,
         "total_payments": 272,
         "current_balance": 52,
-        "primary_payer": "Aetna",
-        "opened_date": "2025-11-07",
-        "closed_date": "2025-12-22"
+        "primary_payer": "Cigna",
+        "opened_date": "2026-01-30",
+        "closed_date": "2026-03-16"
       }
     ]
   },

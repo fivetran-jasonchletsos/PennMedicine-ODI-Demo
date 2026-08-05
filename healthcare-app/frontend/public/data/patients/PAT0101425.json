@@ -6,30 +6,30 @@
     "birth_date": "1994-05-09",
     "age": 32,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15222",
+    "city": "Philadelphia",
+    "zip_code": "19124",
     "primary_care_provider": "Dr. Mark Anderson",
     "active_chronic_count": 0,
     "encounter_count": 4,
     "total_charges": 5146,
-    "latitude": 40.4469,
-    "longitude": -79.99313,
-    "last_encounter_date": "2025-12-11",
+    "latitude": 40.0991,
+    "longitude": -75.08333,
+    "last_encounter_date": "2026-03-05",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3608 Highland Rd",
     "state": "PA",
     "phone": "(412) 546-5551",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0101425",
     "encounters": [
       {
         "pat_enc_csn_id": "0001425-000",
-        "contact_date": "2025-12-11",
+        "contact_date": "2026-03-05",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Anderson",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001425-001",
-        "contact_date": "2025-04-24",
+        "contact_date": "2025-07-17",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Taylor",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001425-002",
-        "contact_date": "2025-04-17",
+        "contact_date": "2025-07-10",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Garcia",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001425-003",
-        "contact_date": "2024-07-11",
+        "contact_date": "2024-10-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Anderson",
@@ -76,7 +76,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-12-11"
+        "first_recorded": "2026-03-05"
       },
       {
         "dx_id": "0001425-acu-002",
@@ -84,7 +84,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-04-17"
+        "first_recorded": "2025-07-10"
       }
     ]
   },
@@ -104,9 +104,9 @@
         "total_charges": 5146,
         "total_payments": 3222,
         "current_balance": 1924,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-04-02",
-        "closed_date": "2026-04-02"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-25",
+        "closed_date": "2026-06-25"
       }
     ]
   },

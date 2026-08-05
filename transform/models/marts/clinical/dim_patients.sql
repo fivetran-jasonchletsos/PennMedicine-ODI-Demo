@@ -10,7 +10,7 @@ chronic as (
     select
         pat_id,
         count(distinct diagnosis_id)                as chronic_condition_count,
-        array_agg(distinct icd10_code)              as chronic_icd10_codes
+        collect_set(icd10_code)                     as chronic_icd10_codes
     from {{ ref('int_patient_chronic_conditions') }}
     group by 1
 ),
@@ -22,7 +22,7 @@ dim_patients as (
         p.mrn,
         p.full_name,
         p.birth_date,
-        date_diff('year', p.birth_date::date, current_date) as age_years,
+        floor(datediff(current_date(), CAST(p.birth_date AS date)) / 365.25) as age_years,
         p.sex,
         p.race,
         p.language,

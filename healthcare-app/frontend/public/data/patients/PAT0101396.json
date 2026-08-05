@@ -6,15 +6,15 @@
     "birth_date": "1997-03-11",
     "age": 29,
     "sex": "M",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Kenji Hernandez",
     "active_chronic_count": 1,
     "encounter_count": 12,
     "total_charges": 38066,
-    "latitude": 40.34515,
-    "longitude": -79.84482,
-    "last_encounter_date": "2026-04-19",
+    "latitude": 40.15635,
+    "longitude": -75.21802,
+    "last_encounter_date": "2026-07-12",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7932 Centre St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001396-000",
-        "contact_date": "2026-04-19",
+        "contact_date": "2026-07-12",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Jackson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-001",
-        "contact_date": "2026-03-28",
+        "contact_date": "2026-06-20",
         "encounter_type": "Hospital Admission",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-002",
-        "contact_date": "2026-01-23",
+        "contact_date": "2026-04-17",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001396-003",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-004",
-        "contact_date": "2025-12-13",
+        "contact_date": "2026-03-07",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Schmidt",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-005",
-        "contact_date": "2025-10-15",
+        "contact_date": "2026-01-07",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-006",
-        "contact_date": "2025-09-04",
+        "contact_date": "2025-11-27",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Khan",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-007",
-        "contact_date": "2025-06-23",
+        "contact_date": "2025-09-15",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Robert Johnson",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001396-008",
-        "contact_date": "2025-01-11",
+        "contact_date": "2025-04-05",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0001396-009",
-        "contact_date": "2024-11-09",
+        "contact_date": "2025-02-01",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001396-010",
-        "contact_date": "2024-07-19",
+        "contact_date": "2024-10-11",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -137,9 +137,9 @@
       },
       {
         "pat_enc_csn_id": "0001396-011",
-        "contact_date": "2024-06-25",
+        "contact_date": "2024-09-17",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -156,7 +156,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2023-05-13"
+        "first_recorded": "2023-08-05"
       },
       {
         "dx_id": "0001396-acu-001",
@@ -164,7 +164,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-03-28"
+        "first_recorded": "2026-06-20"
       },
       {
         "dx_id": "0001396-acu-002",
@@ -172,7 +172,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-23"
+        "first_recorded": "2026-04-17"
       }
     ]
   },
@@ -180,8 +180,8 @@
     "pat_id": "PAT0101396",
     "summary": {
       "total_charges": 38066,
-      "total_payments": 27278,
-      "outstanding_balance": 10788,
+      "total_payments": 30344,
+      "outstanding_balance": 7722,
       "account_count": 3
     },
     "accounts": [
@@ -190,10 +190,10 @@
         "account_type": "Hospital",
         "status": "Open",
         "total_charges": 25223,
-        "total_payments": 17011,
-        "current_balance": 8212,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-12-30",
+        "total_payments": 20077,
+        "current_balance": 5146,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-03-24",
         "closed_date": null
       },
       {
@@ -204,8 +204,8 @@
         "total_payments": 7337,
         "current_balance": 890,
         "primary_payer": "Medicare",
-        "opened_date": "2025-09-09",
-        "closed_date": "2026-03-02"
+        "opened_date": "2025-12-02",
+        "closed_date": "2026-05-25"
       },
       {
         "hsp_account_id": "HSP000139602",
@@ -215,7 +215,7 @@
         "total_payments": 2930,
         "current_balance": 1686,
         "primary_payer": "Aetna",
-        "opened_date": "2025-12-11",
+        "opened_date": "2026-03-05",
         "closed_date": null
       }
     ]

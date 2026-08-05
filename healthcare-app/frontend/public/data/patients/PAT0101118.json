@@ -6,28 +6,28 @@
     "birth_date": "1987-02-25",
     "age": 39,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15222",
+    "city": "Philadelphia",
+    "zip_code": "19124",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 1,
     "encounter_count": 4,
     "total_charges": 957,
-    "latitude": 40.43947,
-    "longitude": -79.99413,
-    "last_encounter_date": "2026-03-22",
+    "latitude": 40.09167,
+    "longitude": -75.08433,
+    "last_encounter_date": "2026-06-14",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5023 Walnut Ave",
     "state": "PA",
     "phone": "(412) 336-4091",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0101118",
     "encounters": [
       {
         "pat_enc_csn_id": "0001118-000",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001118-001",
-        "contact_date": "2025-10-04",
+        "contact_date": "2025-12-27",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Moore",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001118-002",
-        "contact_date": "2024-09-27",
+        "contact_date": "2024-12-20",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001118-003",
-        "contact_date": "2024-07-26",
+        "contact_date": "2024-10-18",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Moore",
@@ -76,7 +76,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0001118-acu-000",
@@ -84,7 +84,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-22"
+        "first_recorded": "2026-06-14"
       },
       {
         "dx_id": "0001118-acu-001",
@@ -92,7 +92,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-04"
+        "first_recorded": "2025-12-27"
       },
       {
         "dx_id": "0001118-acu-002",
@@ -100,7 +100,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2024-09-27"
+        "first_recorded": "2024-12-20"
       }
     ]
   },
@@ -121,8 +121,8 @@
         "total_payments": 756,
         "current_balance": 201,
         "primary_payer": "Medicare",
-        "opened_date": "2025-11-02",
-        "closed_date": "2026-02-02"
+        "opened_date": "2026-01-25",
+        "closed_date": "2026-04-27"
       }
     ]
   },

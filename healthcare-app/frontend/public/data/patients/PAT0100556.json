@@ -6,15 +6,15 @@
     "birth_date": "1984-05-13",
     "age": 42,
     "sex": "F",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 2676,
-    "latitude": 40.46956,
-    "longitude": -79.83676,
-    "last_encounter_date": "2026-04-29",
+    "latitude": 40.10436,
+    "longitude": -75.28126,
+    "last_encounter_date": "2026-07-22",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "512 Penn St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000556-000",
-        "contact_date": "2026-04-29",
+        "contact_date": "2026-07-22",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Jackson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-001",
-        "contact_date": "2026-03-29",
+        "contact_date": "2026-06-21",
         "encounter_type": "Follow-up",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-002",
-        "contact_date": "2025-12-08",
+        "contact_date": "2026-03-02",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-003",
-        "contact_date": "2025-11-17",
+        "contact_date": "2026-02-09",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000556-004",
-        "contact_date": "2025-10-22",
+        "contact_date": "2026-01-14",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-005",
-        "contact_date": "2025-08-18",
+        "contact_date": "2025-11-10",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-006",
-        "contact_date": "2025-07-05",
+        "contact_date": "2025-09-27",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Anderson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-007",
-        "contact_date": "2025-06-14",
+        "contact_date": "2025-09-06",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000556-008",
-        "contact_date": "2025-04-18",
+        "contact_date": "2025-07-11",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Linda Russo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-009",
-        "contact_date": "2025-04-14",
+        "contact_date": "2025-07-07",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000556-010",
-        "contact_date": "2025-03-12",
+        "contact_date": "2025-06-04",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Anderson",
@@ -146,7 +146,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2007-05-13"
+        "first_recorded": "2007-08-05"
       },
       {
         "dx_id": "0000556-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-04-29"
+        "first_recorded": "2026-07-22"
       },
       {
         "dx_id": "0000556-acu-001",
@@ -162,7 +162,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-03-29"
+        "first_recorded": "2026-06-21"
       },
       {
         "dx_id": "0000556-acu-002",
@@ -170,7 +170,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-12-08"
+        "first_recorded": "2026-03-02"
       }
     ]
   },
@@ -178,8 +178,8 @@
     "pat_id": "PAT0100556",
     "summary": {
       "total_charges": 2676,
-      "total_payments": 2279,
-      "outstanding_balance": 397,
+      "total_payments": 715,
+      "outstanding_balance": 1961,
       "account_count": 1
     },
     "accounts": [
@@ -188,10 +188,10 @@
         "account_type": "Rx",
         "status": "Open",
         "total_charges": 2676,
-        "total_payments": 2279,
-        "current_balance": 397,
-        "primary_payer": "Medicaid",
-        "opened_date": "2026-01-02",
+        "total_payments": 715,
+        "current_balance": 1961,
+        "primary_payer": "Self-pay",
+        "opened_date": "2026-03-27",
         "closed_date": null
       }
     ]

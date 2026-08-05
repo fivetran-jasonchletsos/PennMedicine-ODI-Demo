@@ -6,15 +6,15 @@
     "birth_date": "1960-06-04",
     "age": 66,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. Sarah Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 10,
     "total_charges": 7664,
-    "latitude": 40.456,
-    "longitude": -80.00443,
-    "last_encounter_date": "2026-03-28",
+    "latitude": 39.9695,
+    "longitude": -75.16963,
+    "last_encounter_date": "2026-06-20",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9364 Beacon Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000810-000",
-        "contact_date": "2026-03-28",
+        "contact_date": "2026-06-20",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-001",
-        "contact_date": "2026-01-08",
+        "contact_date": "2026-04-02",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sarah Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-002",
-        "contact_date": "2025-11-12",
+        "contact_date": "2026-02-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Linda Martinez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-003",
-        "contact_date": "2025-05-18",
+        "contact_date": "2025-08-10",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sarah Hernandez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-004",
-        "contact_date": "2025-05-12",
+        "contact_date": "2025-08-04",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sarah Hernandez",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-005",
-        "contact_date": "2025-01-23",
+        "contact_date": "2025-04-17",
         "encounter_type": "Follow-up",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-006",
-        "contact_date": "2025-01-12",
+        "contact_date": "2025-04-06",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Sarah Hernandez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-007",
-        "contact_date": "2024-12-16",
+        "contact_date": "2025-03-10",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000810-008",
-        "contact_date": "2024-10-19",
+        "contact_date": "2025-01-11",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Sarah Hernandez",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000810-009",
-        "contact_date": "2024-07-04",
+        "contact_date": "2024-09-26",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1981-05-13"
+        "first_recorded": "1981-08-05"
       },
       {
         "dx_id": "0000810-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2008-05-13"
+        "first_recorded": "2008-08-05"
       },
       {
         "dx_id": "0000810-acu-000",
@@ -152,7 +152,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-28"
+        "first_recorded": "2026-06-20"
       },
       {
         "dx_id": "0000810-acu-002",
@@ -160,7 +160,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-11-12"
+        "first_recorded": "2026-02-04"
       }
     ]
   },
@@ -181,8 +181,8 @@
         "total_payments": 6119,
         "current_balance": 1545,
         "primary_payer": "Medicare",
-        "opened_date": "2024-07-28",
-        "closed_date": "2026-03-27"
+        "opened_date": "2024-10-20",
+        "closed_date": "2026-06-19"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "1971-06-01",
     "age": 55,
     "sex": "M",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. David Russo",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 1824,
-    "latitude": 40.30193,
-    "longitude": -79.53925,
-    "last_encounter_date": "2025-12-16",
+    "latitude": 39.85003,
+    "longitude": -75.35695,
+    "last_encounter_date": "2026-03-10",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4985 Centre Blvd",
     "state": "PA",
     "phone": "(412) 699-3286",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100938",
     "encounters": [
       {
         "pat_enc_csn_id": "0000938-000",
-        "contact_date": "2025-12-16",
+        "contact_date": "2026-03-10",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000938-001",
-        "contact_date": "2025-10-13",
+        "contact_date": "2026-01-05",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Russo",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000938-002",
-        "contact_date": "2025-09-05",
+        "contact_date": "2025-11-28",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000938-003",
-        "contact_date": "2025-03-20",
+        "contact_date": "2025-06-12",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000938-004",
-        "contact_date": "2024-09-19",
+        "contact_date": "2024-12-12",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. David Russo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000938-005",
-        "contact_date": "2024-06-27",
+        "contact_date": "2024-09-19",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Russo",
@@ -96,7 +96,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "1993-05-13"
+        "first_recorded": "1993-08-05"
       },
       {
         "dx_id": "0000938-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-12-16"
+        "first_recorded": "2026-03-10"
       },
       {
         "dx_id": "0000938-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-10-13"
+        "first_recorded": "2026-01-05"
       },
       {
         "dx_id": "0000938-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-09-05"
+        "first_recorded": "2025-11-28"
       }
     ]
   },
@@ -141,8 +141,8 @@
         "total_payments": 1697,
         "current_balance": 127,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-08-04",
-        "closed_date": "2026-05-10"
+        "opened_date": "2024-10-27",
+        "closed_date": "2026-08-02"
       }
     ]
   },

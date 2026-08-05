@@ -6,15 +6,15 @@
     "birth_date": "1990-03-28",
     "age": 36,
     "sex": "M",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Linda Martinez",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 723,
-    "latitude": 40.62558,
-    "longitude": -80.05399,
-    "last_encounter_date": "2025-11-25",
+    "latitude": 40.07468,
+    "longitude": -75.29689,
+    "last_encounter_date": "2026-02-17",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5020 Liberty Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001071-000",
-        "contact_date": "2025-11-25",
+        "contact_date": "2026-02-17",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Taylor",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001071-001",
-        "contact_date": "2024-12-02",
+        "contact_date": "2025-02-24",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001071-002",
-        "contact_date": "2024-09-30",
+        "contact_date": "2024-12-23",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -66,7 +66,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-11-25"
+        "first_recorded": "2026-02-17"
       }
     ]
   },
@@ -86,9 +86,9 @@
         "total_charges": 723,
         "total_payments": 604,
         "current_balance": 119,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-12-22",
-        "closed_date": "2026-03-29"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-03-16",
+        "closed_date": "2026-06-21"
       }
     ]
   },

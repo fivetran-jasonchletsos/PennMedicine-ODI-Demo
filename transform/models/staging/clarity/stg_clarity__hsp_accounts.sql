@@ -8,9 +8,9 @@ with source as (
 
 renamed as (
     select
-        cast(hsp_account_id as varchar)             as account_id,
-        cast(pat_id as varchar)                     as pat_id,
-        cast(encounter_id as varchar)               as encounter_id,
+        cast(hsp_account_id as string)             as account_id,
+        cast(pat_id as string)                     as pat_id,
+        cast(encounter_id as string)               as encounter_id,
         trim(account_type_c_name)                   as account_class,
         trim(financial_class_c_name)                as financial_class,
         cast(admit_dt as date)                      as admission_date,

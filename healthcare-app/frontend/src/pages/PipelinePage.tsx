@@ -2,21 +2,24 @@
 //
 // Replaces the earlier 4-card failure-toggle demo with a Mission-Control style
 // observability surface: animated data-flow diagram, KPI strip, connector
-// health table with sparklines, dbt model grid, and Snowflake-native callouts
-// (Time Travel, zero-copy clones, dbt-wizard). Every minute of pipeline lag is
-// framed as denied-claim risk and ED throughput drag — ties the data
-// infrastructure to the CEO P&L on the Executive page.
+// health table with sparklines, dbt model grid, and Databricks-native callouts
+// (Unity Catalog governance, Delta Lake time travel, dbt-wizard, serverless SQL
+// warehouses). Every minute of pipeline lag is framed as denied-claim risk and
+// ED throughput drag — ties the data infrastructure to the CEO P&L on the
+// Executive page.
 
 import { useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Sparkline } from '../components/Sparkline';
 import { DataFlowDiagram, KpiTile, AnimatedCounter, type FlowNode } from '../components/Executive';
 
-// Real Fivetran connector wired to fortitude_fawn (jason_chletsos_mdls_s3).
-// Schema: jason_chletsos_epic_clarity, service: epic_clarity, status: connected.
+// Fivetran SQL Server connector landing into jason_chletsos_databricks
+// (Unity Catalog), schema jason_chletsos_pennmed_ehr_demo, service: sql_server.
+// TODO: swap FIVETRAN_CONNECTOR_ID for the real connector ID once infra/fivetran.tf
+// is applied against the Databricks destination (see infra/outputs.tf).
 // Deep-link pattern: https://fivetran.com/dashboard/connections/{id}/status
-const FIVETRAN_CONNECTOR_ID = 'sanctity_finally';
-const FIVETRAN_SCHEMA_NAME  = 'jason_chletsos_epic_clarity';
+const FIVETRAN_CONNECTOR_ID = 'pennmed_epic_clarity';
+const FIVETRAN_SCHEMA_NAME  = 'jason_chletsos_pennmed_ehr_demo';
 const FIVETRAN_CONNECTOR_URL = `https://fivetran.com/dashboard/connections/${FIVETRAN_CONNECTOR_ID}/status`;
 const FIVETRAN_DASHBOARD_URL = 'https://fivetran.com/dashboard/connections';
 
@@ -72,12 +75,12 @@ export default function PipelinePage() {
 
   const flow: FlowNode[] = useMemo(
     () => [
-      { id: 'epic', logo: 'epic', label: 'Clarity Health EHR', sub: 'Epic Clarity · CDC source', status: 'healthy', metric: '8 tables · 2.4M rows' },
+      { id: 'epic', logo: 'epic', label: 'Penn Medicine EHR', sub: 'Epic Clarity · CDC source', status: 'healthy', metric: '8 tables · 2.4M rows' },
       { id: 'fivetran', logo: 'fivetran', label: 'Fivetran', sub: 'Epic Clarity connector', status: 'healthy', metric: '5-min cadence · 99.7% SLA' },
       { id: 'iceberg', logo: 'iceberg', label: 'Iceberg (MDLS)', sub: 'Managed Data Lake Service · S3', status: 'healthy', metric: 'ACID · open · multi-engine' },
-      { id: 'snowflake', logo: 'snowflake', label: 'Snowflake / Athena / Trino', sub: 'External Iceberg reads', status: 'healthy', metric: 'XS warehouse · auto-suspend' },
+      { id: 'databricks', logo: 'databricks', label: 'Databricks · Unity Catalog', sub: 'Delta Lake reads over the same Iceberg tables', status: 'healthy', metric: 'Serverless SQL warehouse · auto-stop' },
       { id: 'dbt', logo: 'dbt', label: 'dbt Labs transforms', sub: 'Triggered by Fivetran · Bronze → Silver → Gold · 21 models', status: 'healthy', metric: '24s avg · 0 failures' },
-      { id: 'app', logo: 'app', label: 'Clarity App', sub: 'React · static JSON', status: 'healthy', metric: 'CDN · 12 min deploy' },
+      { id: 'app', logo: 'app', label: 'Penn Medicine App', sub: 'React · static JSON', status: 'healthy', metric: 'CDN · 12 min deploy' },
     ],
     [],
   );
@@ -94,15 +97,16 @@ export default function PipelinePage() {
             <div>
               <div className="eyebrow mb-2">Pipeline · Observability</div>
               <h1 className="font-serif text-3xl sm:text-4xl font-semibold leading-tight text-[var(--ink-strong)] tracking-tight">
-                EHR → Iceberg → multi-engine, end-to-end
+                EHR → Iceberg → Databricks, end-to-end
               </h1>
               <p className="mt-2 text-sm text-[var(--ink-muted)] max-w-3xl leading-relaxed">
-                Fivetran's Epic Clarity connector captures change-data from the EHR source and lands it in
-                Iceberg (MDLS) every 5 minutes. Snowflake, Athena, and Trino all read the same bytes —
-                no copies. Fivetran Transformations then trigger dbt Labs the moment the Epic Clarity
-                sync finishes, building bronze (staging), silver (intermediate), and gold (clinical +
-                financial marts) layers that power the Executive Cockpit, patient registry, and
-                population health surfaces. Every minute of lag has a P&L cost — see <Link to="/executive" className="underline text-[var(--clinical-teal)]">Executive</Link>.
+                Fivetran's Epic Clarity connector captures change-data from the EHR source via log-based
+                CDC and lands it in Iceberg (MDLS) every 5 minutes — no custom incremental logic to
+                maintain. Databricks reads those tables through Unity Catalog, and Fivetran
+                Transformations trigger dbt Labs the moment the Epic Clarity sync finishes, building
+                bronze (staging), silver (intermediate), and gold (clinical + financial marts) layers
+                that power the Executive Cockpit, patient registry, and population health surfaces on
+                the same lakehouse. Every minute of lag has a P&L cost — see <Link to="/executive" className="underline text-[var(--clinical-teal)]">Executive</Link>.
               </p>
               <div className="mt-3 flex flex-wrap items-center gap-2 text-[11px]">
                 <a
@@ -124,7 +128,7 @@ export default function PipelinePage() {
                   Fivetran Transformations
                 </a>
                 <a
-                  href="https://github.com/fivetran-jasonchletsos/Healthcare-EPIC-Snowflake-Demo"
+                  href="https://github.com/fivetran-jasonchletsos/PennMedicine-ODI-Demo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2.5 py-1 font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] transition-colors"
@@ -167,13 +171,13 @@ export default function PipelinePage() {
               dollarLever="CDC incremental sync transfers only changed rows — ~98% bandwidth savings vs full re-sync."
             />
             <KpiTile
-              label="Snowflake compute · 7d"
+              label="Databricks compute · 7d"
               value="$1,120"
-              subValue="XS warehouse · auto-suspend"
+              subValue="Serverless SQL warehouse · auto-stop"
               delta={{ value: '− 96%', trend: 'good', vs: 'vs legacy DW' }}
               spark={[2150, 1980, 1820, 1640, 1500, 1380, 1290, 1220, 1180, 1150, 1130, 1120]}
-              dollarLever="Auto-suspend + zero-copy clones eliminate idle spend. Legacy on-prem warehouse: $1.6M/yr fixed."
-              badge="Snowflake"
+              dollarLever="Auto-stop + shallow clones eliminate idle spend. Legacy on-prem warehouse: $1.6M/yr fixed."
+              badge="Databricks"
               badgeTone="info"
             />
             <KpiTile
@@ -268,43 +272,82 @@ export default function PipelinePage() {
           </div>
         </section>
 
-        {/* Snowflake-native callouts — the tight-integration story */}
+        {/* Databricks-native callouts — the tight-integration story */}
         <section>
           <div className="mb-4">
-            <div className="eyebrow mb-1">Snowflake · why this is different</div>
+            <div className="eyebrow mb-1">Databricks · the lakehouse this build runs on</div>
             <h2 className="font-serif text-xl font-semibold text-[var(--ink-strong)]">
-              Capabilities that don't exist on a legacy data warehouse
+              Your Unity Catalog, wired straight to Epic Clarity
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <SnowCard
-              tag="Zero-Copy Clone"
-              title="Instant dev/test environments"
-              body="Clone JASON_CHLETSOS_EPIC in < 1 second with no storage duplication. Analysts test new denial logic against full production data without copying a single byte."
-              metric="< 1 s"
-              metricLabel="clone time"
+              tag="Unity Catalog"
+              title="One catalog, fine-grained governance"
+              body="Every bronze/silver/gold table lives under a single three-level namespace (catalog.schema.table) with row filters and column masks on PHI, plus automatic column-level lineage from Epic Clarity source columns through every dbt model to the app. No per-workspace grant sprawl."
+              metric="3-level"
+              metricLabel="namespace, one grant model"
             />
             <SnowCard
-              tag="Time Travel"
+              tag="Delta Lake"
               title="Recover anything, point-in-time"
-              body="Query any mart as-of any timestamp inside the retention window (up to 90 days on Enterprise). Restore a dropped table, audit how a CMI calc has drifted, or reconcile a closed period with one SQL clause."
-              metric="≤ 90 d"
-              metricLabel="retention window"
+              body="VERSION AS OF and TIMESTAMP AS OF query any Delta table exactly as it looked at a prior commit — restore a dropped table, audit how a CMI calc has drifted, or reconcile a closed period, no separate backup job."
+              metric="30 d default"
+              metricLabel="history retention · configurable"
             />
             <SnowCard
               tag="dbt-wizard"
               title="Missing gold models authored on demand"
-              body="When a clinical question has no gold model to answer it, dbt-wizard's four sub-agents author, test, and materialize one in under two minutes — against the same Snowflake account."
-              metric="under 2 min"
-              metricLabel="model authoring"
+              body="dbt Labs builds the whole medallion natively on Databricks compute. When a clinical question has no gold model to answer it, dbt-wizard's four sub-agents author, test, and materialize one — against the same Unity Catalog every other model reads."
+              metric="< 90 s"
+              metricLabel="new gold model, dbt-wizard"
             />
             <SnowCard
-              tag="Auto-Suspend"
+              tag="Serverless SQL"
               title="Pay only for query seconds"
-              body="The XS transform warehouse runs ~1.4 min per Fivetran load and then suspends. Annualized Snowflake compute under $60K vs $1.6M/yr fixed on the prior on-prem warehouse — a 96% cost reduction."
+              body="The serverless SQL warehouse starts in seconds, runs the ~1.4 min Fivetran-triggered dbt build, and auto-stops. Annualized Databricks compute under $60K vs $1.6M/yr fixed on the prior on-prem warehouse — a 96% cost reduction."
               metric="96%"
               metricLabel="compute saved"
             />
+          </div>
+        </section>
+
+        {/* Replacing hand-built ADF pipelines — the competitive case */}
+        <section className="clinical-card overflow-hidden">
+          <header className="p-5 border-b border-[var(--hairline-soft)]">
+            <div className="eyebrow">The alternative · hand-built ADF pipelines</div>
+            <h2 className="font-serif text-xl font-semibold text-[var(--ink-strong)] mt-0.5">
+              Replacing hand-built ADF pipelines into Databricks
+            </h2>
+            <p className="text-sm text-[var(--ink-muted)] mt-1 max-w-3xl leading-relaxed">
+              The alternative to a managed Epic Clarity connector isn't "no pipeline" — it's an
+              Azure Data Factory pipeline someone on the team already built and now has to keep
+              building. The cost isn't the ADF meter. It's the engineering hours every time Epic
+              ships an upgrade.
+            </p>
+          </header>
+          <div className="grid grid-cols-1 md:grid-cols-2 divide-y md:divide-y-0 md:divide-x divide-[var(--hairline-soft)]">
+            <div className="p-5">
+              <div className="eyebrow mb-2" style={{ color: '#dc2626' }}>Today · hand-built ADF</div>
+              <ul className="space-y-2.5 text-sm text-[var(--ink-muted)]">
+                <li className="flex gap-2"><span className="text-[#dc2626] font-bold">·</span>Custom incremental/CDC logic per Clarity table, hand-maintained in ADF pipelines and Databricks notebooks.</li>
+                <li className="flex gap-2"><span className="text-[#dc2626] font-bold">·</span>Every Epic Clarity upgrade can add, rename, or resize columns — a silent schema-drift break downstream until someone notices the load failed.</li>
+                <li className="flex gap-2"><span className="text-[#dc2626] font-bold">·</span>Pipeline authoring, retry logic, and schema-drift fixes are ongoing engineering hours, not a one-time build — the real TCO line, not the compute meter.</li>
+                <li className="flex gap-2"><span className="text-[#dc2626] font-bold">·</span>New Clarity table or column needs a pipeline change request, a PR, and a deploy before anyone downstream can use it.</li>
+              </ul>
+            </div>
+            <div className="p-5">
+              <div className="eyebrow mb-2" style={{ color: 'var(--clinical-teal)' }}>With Fivetran</div>
+              <ul className="space-y-2.5 text-sm text-[var(--ink)]">
+                <li className="flex gap-2"><span className="text-[var(--clinical-teal)] font-bold">·</span>Log-based CDC on Epic Clarity out of the box — no custom incremental logic to write or maintain.</li>
+                <li className="flex gap-2"><span className="text-[var(--clinical-teal)] font-bold">·</span>Schema drift is handled automatically: new columns and tables propagate into the lake on the next sync, not a broken pipeline.</li>
+                <li className="flex gap-2"><span className="text-[var(--clinical-teal)] font-bold">·</span>A managed connector, not a codebase — no pipeline PRs to review, no retry logic to debug at 2 a.m.</li>
+                <li className="flex gap-2"><span className="text-[var(--clinical-teal)] font-bold">·</span>Engineering time moves from pipeline upkeep to the dbt Labs models Databricks actually runs queries against.</li>
+              </ul>
+            </div>
+          </div>
+          <div className="px-5 py-3 border-t border-[var(--hairline-soft)] text-[11px] text-[var(--ink-soft)] bg-[var(--paper-deep)]">
+            The TCO comparison isn't Fivetran's price against the ADF meter — it's Fivetran's price against the engineering hours ADF pipelines cost every time Epic Clarity's schema moves.
           </div>
         </section>
 
@@ -413,7 +456,7 @@ export default function PipelinePage() {
                 Every encounter tested. Every run. Same warehouse.
               </h2>
               <p className="text-sm text-[var(--ink-muted)] mt-1">
-                Tests defined in dbt Labs run on every build, against the same Snowflake tables every
+                Tests defined in dbt Labs run on every build, against the same Databricks tables every
                 clinical dashboard and dbt-wizard-authored gold mart reads. Failures block promotion to the next layer —
                 bad data never reaches denial-prevention workflows or ED capacity boards.
               </p>
@@ -468,7 +511,7 @@ export default function PipelinePage() {
             </h2>
             <p className="text-sm text-[var(--ink-muted)] mt-1">
               Column-level lineage from EHR source tables through every dbt transformation into
-              every downstream consumer — Snowflake views, dbt-wizard-authored gold tables, clinical
+              every downstream consumer — Databricks views, dbt-wizard-authored gold tables, clinical
               dashboards. PHI markers on every edge that touches patient identifiers.
             </p>
           </header>
@@ -484,8 +527,8 @@ export default function PipelinePage() {
               </defs>
 
               {[
-                { x: 10, y: 30,  label: 'Clarity Health · PATIENT', pii: true },
-                { x: 10, y: 110, label: 'Clarity Health · PAT_ENC', pii: true },
+                { x: 10, y: 30,  label: 'Penn Medicine · PATIENT', pii: true },
+                { x: 10, y: 110, label: 'Penn Medicine · PAT_ENC', pii: true },
               ].map((s, i) => (
                 <g key={i}>
                   <rect x={s.x} y={s.y} width="180" height="56" rx="4" fill="#ffffff" stroke="#cbd5e1" />
@@ -526,13 +569,13 @@ export default function PipelinePage() {
               </g>
 
               {[
-                { y: 26,  label: 'Snowflake (BI)' },
+                { y: 26,  label: 'Databricks (BI)' },
                 { y: 78,  label: 'dbt-wizard Gold Table' },
-                { y: 130, label: 'Clarity App' },
+                { y: 130, label: 'Penn Medicine App' },
                 { y: 182, label: 'CMS denial report' },
               ].map((c, i) => (
                 <g key={i}>
-                  <rect x="810" y={c.y} width="160" height="36" rx="4" fill="#ffffff" stroke="#29B5E8" />
+                  <rect x="810" y={c.y} width="160" height="36" rx="4" fill="#ffffff" stroke="#FF3621" />
                   <text x="890" y={c.y + 22} fontSize="11" fontWeight="700" fill="#0b1220" textAnchor="middle">{c.label}</text>
                 </g>
               ))}
@@ -562,7 +605,7 @@ export default function PipelinePage() {
             <span className="inline-flex items-center gap-2">
               <span className="inline-block w-3 h-0.5" style={{ background: '#b45309' }} /> PHI edge
               <span className="ml-3 inline-block w-3 h-0.5" style={{ background: '#FF694A' }} /> dbt Labs transformation
-              <span className="ml-3 inline-block w-3 h-0.5" style={{ background: '#b8975c' }} /> Snowflake read
+              <span className="ml-3 inline-block w-3 h-0.5" style={{ background: '#b8975c' }} /> Databricks read
             </span>
             <span className="uppercase tracking-wider font-semibold font-mono">column-level · auto-emitted by dbt Labs</span>
           </div>
@@ -615,7 +658,7 @@ export default function PipelinePage() {
               <p className="mt-3 text-sm text-[var(--ink-muted)] leading-relaxed max-w-2xl">
                 Every minute EHR changes don't reach the marts, denial-prevention workflows
                 miss timely-filing windows, ED capacity dashboards run on stale census, and CDM updates
-                lag clinician documentation. A 4-minute Fivetran → Snowflake replication SLA isn't an
+                lag clinician documentation. A 4-minute Fivetran → Databricks replication SLA isn't an
                 infrastructure brag — it's the floor for real-time revenue cycle and capacity decisions.
               </p>
             </div>
@@ -638,7 +681,7 @@ function SnowCard({
   return (
     <div className="clinical-card p-5 h-full flex flex-col">
       <div className="flex items-center gap-2 mb-3">
-        <span className="inline-flex items-center justify-center h-5 px-1.5 rounded text-[10px] font-bold text-white tracking-tight" style={{ background: '#29B5E8' }}>❄</span>
+        <span className="inline-flex items-center justify-center h-5 px-1.5 rounded text-[10px] font-bold text-white tracking-tight" style={{ background: '#FF3621' }}>D</span>
         <span className="text-[10px] font-mono uppercase tracking-wider text-[var(--clinical-teal)] font-semibold">{tag}</span>
       </div>
       <div className="font-serif text-base font-semibold text-[var(--ink-strong)] leading-snug">{title}</div>

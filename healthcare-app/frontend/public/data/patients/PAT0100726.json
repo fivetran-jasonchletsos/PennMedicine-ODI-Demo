@@ -6,15 +6,15 @@
     "birth_date": "1970-12-02",
     "age": 56,
     "sex": "F",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Linda Russo",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 11129,
-    "latitude": 40.42272,
-    "longitude": -79.78574,
-    "last_encounter_date": "2026-02-08",
+    "latitude": 40.30892,
+    "longitude": -75.12704,
+    "last_encounter_date": "2026-05-03",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2311 Murray Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000726-000",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Nguyen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-001",
-        "contact_date": "2025-11-08",
+        "contact_date": "2026-01-31",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Russo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-002",
-        "contact_date": "2025-07-16",
+        "contact_date": "2025-10-08",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Russo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-003",
-        "contact_date": "2025-06-21",
+        "contact_date": "2025-09-13",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Garcia",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-004",
-        "contact_date": "2025-03-28",
+        "contact_date": "2025-06-20",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Russo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-005",
-        "contact_date": "2024-12-29",
+        "contact_date": "2025-03-23",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Russo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-006",
-        "contact_date": "2024-10-13",
+        "contact_date": "2025-01-05",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Maria Moore",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000726-007",
-        "contact_date": "2024-10-05",
+        "contact_date": "2024-12-28",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Linda Russo",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000726-008",
-        "contact_date": "2024-07-28",
+        "contact_date": "2024-10-20",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Ashley Moore",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000726-009",
-        "contact_date": "2024-06-29",
+        "contact_date": "2024-09-21",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Russo",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000726-010",
-        "contact_date": "2024-06-28",
+        "contact_date": "2024-09-20",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Linda Russo",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 2,
@@ -146,7 +146,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "1995-05-13"
+        "first_recorded": "1995-08-05"
       },
       {
         "dx_id": "0000726-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-02-08"
+        "first_recorded": "2026-05-03"
       },
       {
         "dx_id": "0000726-acu-002",
@@ -162,7 +162,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-07-16"
+        "first_recorded": "2025-10-08"
       }
     ]
   },
@@ -170,8 +170,8 @@
     "pat_id": "PAT0100726",
     "summary": {
       "total_charges": 11129,
-      "total_payments": 7527,
-      "outstanding_balance": 3602,
+      "total_payments": 8804,
+      "outstanding_balance": 2325,
       "account_count": 3
     },
     "accounts": [
@@ -180,11 +180,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 5534,
-        "total_payments": 3707,
-        "current_balance": 1827,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-07-23",
-        "closed_date": "2025-11-26"
+        "total_payments": 4984,
+        "current_balance": 550,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-10-15",
+        "closed_date": "2026-02-18"
       },
       {
         "hsp_account_id": "HSP000072601",
@@ -193,9 +193,9 @@
         "total_charges": 2061,
         "total_payments": 1261,
         "current_balance": 800,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-01-01",
-        "closed_date": "2025-12-07"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-03-25",
+        "closed_date": "2026-03-01"
       },
       {
         "hsp_account_id": "HSP000072602",
@@ -204,9 +204,9 @@
         "total_charges": 3534,
         "total_payments": 2559,
         "current_balance": 975,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-10-09",
-        "closed_date": "2026-04-24"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-01-01",
+        "closed_date": "2026-07-17"
       }
     ]
   },

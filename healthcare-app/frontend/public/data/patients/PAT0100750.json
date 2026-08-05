@@ -6,28 +6,28 @@
     "birth_date": "1996-04-13",
     "age": 30,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Aisha O'Brien",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 77756,
-    "latitude": 40.47374,
-    "longitude": -79.95989,
-    "last_encounter_date": "2026-03-18",
+    "latitude": 39.93774,
+    "longitude": -75.18009,
+    "last_encounter_date": "2026-06-10",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7493 Murray Blvd",
     "state": "PA",
     "phone": "(412) 651-7320",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100750",
     "encounters": [
       {
         "pat_enc_csn_id": "0000750-000",
-        "contact_date": "2026-03-18",
+        "contact_date": "2026-06-10",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha O'Brien",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-001",
-        "contact_date": "2026-01-23",
+        "contact_date": "2026-04-17",
         "encounter_type": "Hospital Admission",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000750-002",
-        "contact_date": "2025-11-24",
+        "contact_date": "2026-02-16",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-003",
-        "contact_date": "2025-07-18",
+        "contact_date": "2025-10-10",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000750-004",
-        "contact_date": "2025-07-05",
+        "contact_date": "2025-09-27",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha O'Brien",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-005",
-        "contact_date": "2025-04-11",
+        "contact_date": "2025-07-04",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-006",
-        "contact_date": "2024-10-15",
+        "contact_date": "2025-01-07",
         "encounter_type": "Follow-up",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000750-007",
-        "contact_date": "2024-10-08",
+        "contact_date": "2024-12-31",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Williams",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-008",
-        "contact_date": "2024-09-16",
+        "contact_date": "2024-12-09",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000750-009",
-        "contact_date": "2024-08-26",
+        "contact_date": "2024-11-18",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000750-010",
-        "contact_date": "2024-07-27",
+        "contact_date": "2024-10-19",
         "encounter_type": "Hospital Admission",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -146,7 +146,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000750-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-18"
+        "first_recorded": "2026-06-10"
       }
     ]
   },
@@ -174,9 +174,9 @@
         "total_charges": 22479,
         "total_payments": 18831,
         "current_balance": 3648,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-07-21",
-        "closed_date": "2026-01-05"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-13",
+        "closed_date": "2026-03-30"
       },
       {
         "hsp_account_id": "HSP000075001",
@@ -186,7 +186,7 @@
         "total_payments": 36589,
         "current_balance": 7249,
         "primary_payer": "Medicare",
-        "opened_date": "2026-03-11",
+        "opened_date": "2026-06-03",
         "closed_date": null
       },
       {
@@ -197,8 +197,8 @@
         "total_payments": 9335,
         "current_balance": 2104,
         "primary_payer": "Medicare",
-        "opened_date": "2024-12-21",
-        "closed_date": "2025-12-08"
+        "opened_date": "2025-03-15",
+        "closed_date": "2026-03-02"
       }
     ]
   },

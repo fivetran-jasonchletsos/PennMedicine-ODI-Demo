@@ -6,30 +6,30 @@
     "birth_date": "1932-11-25",
     "age": 94,
     "sex": "M",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Kenji Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 4869,
-    "latitude": 40.50112,
-    "longitude": -79.76336,
-    "last_encounter_date": "2026-01-20",
+    "latitude": 39.95902,
+    "longitude": -75.60606,
+    "last_encounter_date": "2026-04-14",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2071 Penn Rd",
     "state": "PA",
     "phone": "(412) 576-8808",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100704",
     "encounters": [
       {
         "pat_enc_csn_id": "0000704-000",
-        "contact_date": "2026-01-20",
+        "contact_date": "2026-04-14",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000704-001",
-        "contact_date": "2025-12-31",
+        "contact_date": "2026-03-25",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-002",
-        "contact_date": "2025-09-20",
+        "contact_date": "2025-12-13",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-003",
-        "contact_date": "2025-09-13",
+        "contact_date": "2025-12-06",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-004",
-        "contact_date": "2025-07-12",
+        "contact_date": "2025-10-04",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Taylor",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-005",
-        "contact_date": "2025-03-13",
+        "contact_date": "2025-06-05",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Davis",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-006",
-        "contact_date": "2025-01-04",
+        "contact_date": "2025-03-29",
         "encounter_type": "Follow-up",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Walsh",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-007",
-        "contact_date": "2024-09-08",
+        "contact_date": "2024-12-01",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000704-008",
-        "contact_date": "2024-05-15",
+        "contact_date": "2024-08-07",
         "encounter_type": "Procedure",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -126,7 +126,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000704-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "1998-05-13"
+        "first_recorded": "1998-08-05"
       }
     ]
   },
@@ -155,8 +155,8 @@
         "total_payments": 4268,
         "current_balance": 601,
         "primary_payer": "Medicare",
-        "opened_date": "2025-03-03",
-        "closed_date": "2026-01-01"
+        "opened_date": "2025-05-26",
+        "closed_date": "2026-03-26"
       }
     ]
   },

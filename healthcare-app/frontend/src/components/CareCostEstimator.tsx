@@ -12,8 +12,7 @@ interface Props {
 // estimates. All numbers are illustrative — production would pull them from
 // the patient's coverage records.
 const PLAN_DEFAULTS: Record<string, { coverage: number; copay: number; deductible: number }> = {
-  'UPMC Health Plan': { coverage: 0.82, copay: 30, deductible: 1500 },
-  'Highmark BCBS':    { coverage: 0.80, copay: 35, deductible: 2000 },
+  'Independence Blue Cross': { coverage: 0.82, copay: 30, deductible: 1500 },
   'Aetna':            { coverage: 0.78, copay: 40, deductible: 2500 },
   'Cigna':            { coverage: 0.79, copay: 35, deductible: 2200 },
   'Medicare':         { coverage: 0.80, copay: 20, deductible: 1632 },
@@ -22,7 +21,7 @@ const PLAN_DEFAULTS: Record<string, { coverage: number; copay: number; deductibl
 };
 
 export default function CareCostEstimator({ totalCharges, encounters, payerHint }: Props) {
-  const initialPlan = payerHint && PLAN_DEFAULTS[payerHint] ? payerHint : 'UPMC Health Plan';
+  const initialPlan = payerHint && PLAN_DEFAULTS[payerHint] ? payerHint : 'Independence Blue Cross';
   const [plan, setPlan] = useState(initialPlan);
   const [advanced, setAdvanced] = useState(false);
   const [coverage, setCoverage] = useState(PLAN_DEFAULTS[initialPlan].coverage);

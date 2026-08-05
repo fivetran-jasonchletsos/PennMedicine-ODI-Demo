@@ -8,7 +8,7 @@ with source as (
 
 renamed as (
     select
-        cast(pat_id as varchar)                     as pat_id,
+        cast(pat_id as string)                     as pat_id,
         trim(med_rec_num)                           as mrn,
         trim(pat_name)                              as full_name,
         trim(middle_name)                           as middle_name,
@@ -30,7 +30,7 @@ renamed as (
         trim(plan_id_plan_name)                     as plan_name,
         trim(patient_status_c_name)                 as patient_status,
         trim(patient_type_c_name)                   as patient_type,
-        cast(pcp_prov_id as varchar)                as pcp_provider_id,
+        cast(pcp_prov_id as string)                as pcp_provider_id,
         trim(pcp_prov_id_pcp_name)                  as pcp_provider_name,
         case
             when deceased_ind_c_name = 'Yes' then true

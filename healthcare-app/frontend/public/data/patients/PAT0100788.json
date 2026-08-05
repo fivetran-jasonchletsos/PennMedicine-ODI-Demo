@@ -6,15 +6,15 @@
     "birth_date": "1999-10-28",
     "age": 27,
     "sex": "F",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 1,
     "encounter_count": 9,
     "total_charges": 13890,
-    "latitude": 40.35281,
-    "longitude": -79.84341,
-    "last_encounter_date": "2026-04-17",
+    "latitude": 40.16401,
+    "longitude": -75.21661,
+    "last_encounter_date": "2026-07-10",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "56 Beacon Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000788-000",
-        "contact_date": "2026-04-17",
+        "contact_date": "2026-07-10",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Johnson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000788-001",
-        "contact_date": "2026-04-05",
+        "contact_date": "2026-06-28",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-002",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. James Russo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-003",
-        "contact_date": "2026-01-21",
+        "contact_date": "2026-04-15",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. David Johnson",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-004",
-        "contact_date": "2025-11-04",
+        "contact_date": "2026-01-27",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Gonzalez",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-005",
-        "contact_date": "2025-09-14",
+        "contact_date": "2025-12-07",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Johnson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-006",
-        "contact_date": "2025-06-01",
+        "contact_date": "2025-08-24",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Wong",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000788-007",
-        "contact_date": "2025-02-23",
+        "contact_date": "2025-05-18",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Davis",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000788-008",
-        "contact_date": "2024-11-20",
+        "contact_date": "2025-02-12",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 2,
@@ -126,7 +126,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0000788-acu-000",
@@ -134,7 +134,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-17"
+        "first_recorded": "2026-07-10"
       },
       {
         "dx_id": "0000788-acu-001",
@@ -142,7 +142,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-05"
+        "first_recorded": "2026-06-28"
       },
       {
         "dx_id": "0000788-acu-002",
@@ -150,7 +150,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-01"
+        "first_recorded": "2026-05-24"
       }
     ]
   },
@@ -158,8 +158,8 @@
     "pat_id": "PAT0100788",
     "summary": {
       "total_charges": 13890,
-      "total_payments": 11616,
-      "outstanding_balance": 2274,
+      "total_payments": 12164,
+      "outstanding_balance": 1726,
       "account_count": 3
     },
     "accounts": [
@@ -171,7 +171,7 @@
         "total_payments": 6499,
         "current_balance": 914,
         "primary_payer": "Medicare",
-        "opened_date": "2024-05-15",
+        "opened_date": "2024-08-07",
         "closed_date": null
       },
       {
@@ -182,7 +182,7 @@
         "total_payments": 2361,
         "current_balance": 600,
         "primary_payer": "Medicare",
-        "opened_date": "2025-01-19",
+        "opened_date": "2025-04-13",
         "closed_date": null
       },
       {
@@ -190,10 +190,10 @@
         "account_type": "Professional",
         "status": "Open",
         "total_charges": 3516,
-        "total_payments": 2756,
-        "current_balance": 760,
-        "primary_payer": "Medicare",
-        "opened_date": "2024-03-21",
+        "total_payments": 3304,
+        "current_balance": 212,
+        "primary_payer": "Medicaid",
+        "opened_date": "2024-06-13",
         "closed_date": null
       }
     ]

@@ -6,28 +6,28 @@
     "birth_date": "2015-02-04",
     "age": 11,
     "sex": "M",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 4229,
-    "latitude": 40.35965,
-    "longitude": -79.90294,
-    "last_encounter_date": "2026-05-04",
+    "latitude": 39.93415,
+    "longitude": -75.03284,
+    "last_encounter_date": "2026-07-27",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5113 Liberty Rd",
     "state": "PA",
     "phone": "(412) 760-8792",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100424",
     "encounters": [
       {
         "pat_enc_csn_id": "0000424-000",
-        "contact_date": "2026-05-04",
+        "contact_date": "2026-07-27",
         "encounter_type": "Procedure",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Nguyen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000424-001",
-        "contact_date": "2025-10-13",
+        "contact_date": "2026-01-05",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Khan",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000424-002",
-        "contact_date": "2025-10-01",
+        "contact_date": "2025-12-24",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000424-003",
-        "contact_date": "2025-05-18",
+        "contact_date": "2025-08-10",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Nguyen",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000424-004",
-        "contact_date": "2024-07-07",
+        "contact_date": "2024-09-29",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Garcia",
@@ -86,7 +86,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000424-acu-000",
@@ -94,7 +94,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-05-04"
+        "first_recorded": "2026-07-27"
       },
       {
         "dx_id": "0000424-acu-001",
@@ -102,7 +102,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-10-13"
+        "first_recorded": "2026-01-05"
       },
       {
         "dx_id": "0000424-acu-002",
@@ -110,7 +110,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-10-01"
+        "first_recorded": "2025-12-24"
       }
     ]
   },
@@ -130,8 +130,8 @@
         "total_charges": 4229,
         "total_payments": 3392,
         "current_balance": 837,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-12-07",
+        "primary_payer": "Aetna",
+        "opened_date": "2026-03-01",
         "closed_date": null
       }
     ]

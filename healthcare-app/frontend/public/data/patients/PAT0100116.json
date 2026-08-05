@@ -6,28 +6,28 @@
     "birth_date": "2017-06-22",
     "age": 9,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. Michael Wong",
     "active_chronic_count": 0,
     "encounter_count": 12,
     "total_charges": 46409,
-    "latitude": 40.43943,
-    "longitude": -80.10253,
-    "last_encounter_date": "2026-04-15",
+    "latitude": 39.91093,
+    "longitude": -75.38653,
+    "last_encounter_date": "2026-07-08",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8954 Beacon Blvd",
     "state": "PA",
     "phone": "(412) 689-2094",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100116",
     "encounters": [
       {
         "pat_enc_csn_id": "0000116-000",
-        "contact_date": "2026-04-15",
+        "contact_date": "2026-07-08",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Wong",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-001",
-        "contact_date": "2026-02-13",
+        "contact_date": "2026-05-08",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Miller",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-002",
-        "contact_date": "2026-02-05",
+        "contact_date": "2026-04-30",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Wong",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-003",
-        "contact_date": "2026-02-01",
+        "contact_date": "2026-04-26",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Wong",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-004",
-        "contact_date": "2025-09-03",
+        "contact_date": "2025-11-26",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha O'Brien",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-005",
-        "contact_date": "2025-05-18",
+        "contact_date": "2025-08-10",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Wong",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-006",
-        "contact_date": "2025-03-18",
+        "contact_date": "2025-06-10",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Schmidt",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-007",
-        "contact_date": "2025-02-11",
+        "contact_date": "2025-05-06",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Wong",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-008",
-        "contact_date": "2025-01-17",
+        "contact_date": "2025-04-11",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Wong",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-009",
-        "contact_date": "2024-06-20",
+        "contact_date": "2024-09-12",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-010",
-        "contact_date": "2024-05-29",
+        "contact_date": "2024-08-21",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Khan",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000116-011",
-        "contact_date": "2024-05-22",
+        "contact_date": "2024-08-14",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Wong",
@@ -156,7 +156,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-04-15"
+        "first_recorded": "2026-07-08"
       },
       {
         "dx_id": "0000116-acu-001",
@@ -164,7 +164,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-13"
+        "first_recorded": "2026-05-08"
       },
       {
         "dx_id": "0000116-acu-002",
@@ -172,7 +172,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-02-05"
+        "first_recorded": "2026-04-30"
       }
     ]
   },
@@ -192,9 +192,9 @@
         "total_charges": 39662,
         "total_payments": 24057,
         "current_balance": 15605,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-10-23",
-        "closed_date": "2026-02-07"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-01-15",
+        "closed_date": "2026-05-02"
       },
       {
         "hsp_account_id": "HSP000011601",
@@ -203,9 +203,9 @@
         "total_charges": 3429,
         "total_payments": 2128,
         "current_balance": 1301,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-18",
-        "closed_date": "2025-11-23"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-10",
+        "closed_date": "2026-02-15"
       },
       {
         "hsp_account_id": "HSP000011602",
@@ -214,8 +214,8 @@
         "total_charges": 3318,
         "total_payments": 2136,
         "current_balance": 1182,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2026-03-20",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-06-12",
         "closed_date": null
       }
     ]

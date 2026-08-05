@@ -6,15 +6,15 @@
     "birth_date": "1988-05-14",
     "age": 38,
     "sex": "F",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Sarah Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 10,
     "total_charges": 2582,
-    "latitude": 40.42227,
-    "longitude": -79.79067,
-    "last_encounter_date": "2025-08-20",
+    "latitude": 40.30847,
+    "longitude": -75.13197,
+    "last_encounter_date": "2025-11-12",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9933 Murray Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000457-000",
-        "contact_date": "2025-08-20",
+        "contact_date": "2025-11-12",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-001",
-        "contact_date": "2025-08-03",
+        "contact_date": "2025-10-26",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-002",
-        "contact_date": "2025-07-15",
+        "contact_date": "2025-10-07",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-003",
-        "contact_date": "2025-06-30",
+        "contact_date": "2025-09-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-004",
-        "contact_date": "2025-06-22",
+        "contact_date": "2025-09-14",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Chen",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000457-005",
-        "contact_date": "2024-12-07",
+        "contact_date": "2025-03-01",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Sarah Hernandez",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-006",
-        "contact_date": "2024-10-09",
+        "contact_date": "2025-01-01",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sarah Hernandez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-007",
-        "contact_date": "2024-09-22",
+        "contact_date": "2024-12-15",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. James Russo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-008",
-        "contact_date": "2024-08-22",
+        "contact_date": "2024-11-14",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Sarah Hernandez",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000457-009",
-        "contact_date": "2024-08-10",
+        "contact_date": "2024-11-02",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Martinez",
@@ -136,7 +136,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000457-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2019-05-13"
+        "first_recorded": "2019-08-05"
       },
       {
         "dx_id": "0000457-acu-000",
@@ -152,7 +152,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-20"
+        "first_recorded": "2025-11-12"
       },
       {
         "dx_id": "0000457-acu-001",
@@ -160,7 +160,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-08-03"
+        "first_recorded": "2025-10-26"
       },
       {
         "dx_id": "0000457-acu-002",
@@ -168,7 +168,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-07-15"
+        "first_recorded": "2025-10-07"
       }
     ]
   },
@@ -189,8 +189,8 @@
         "total_payments": 2340,
         "current_balance": 242,
         "primary_payer": "Medicaid",
-        "opened_date": "2026-01-03",
-        "closed_date": "2026-04-02"
+        "opened_date": "2026-03-28",
+        "closed_date": "2026-06-25"
       }
     ]
   },

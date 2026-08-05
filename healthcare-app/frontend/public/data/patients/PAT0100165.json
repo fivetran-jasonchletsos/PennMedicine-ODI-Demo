@@ -6,30 +6,30 @@
     "birth_date": "1999-10-18",
     "age": 27,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Daniel Jackson",
     "active_chronic_count": 0,
     "encounter_count": 9,
     "total_charges": 2045,
-    "latitude": 40.43498,
-    "longitude": -79.93231,
-    "last_encounter_date": "2026-04-24",
+    "latitude": 39.94938,
+    "longitude": -75.19541,
+    "last_encounter_date": "2026-07-17",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3353 Centre Blvd",
     "state": "PA",
     "phone": "(412) 904-3013",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100165",
     "encounters": [
       {
         "pat_enc_csn_id": "0000165-000",
-        "contact_date": "2026-04-24",
+        "contact_date": "2026-07-17",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000165-001",
-        "contact_date": "2026-03-31",
+        "contact_date": "2026-06-23",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 1,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000165-002",
-        "contact_date": "2026-01-26",
+        "contact_date": "2026-04-20",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000165-003",
-        "contact_date": "2025-12-11",
+        "contact_date": "2026-03-05",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Jackson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000165-004",
-        "contact_date": "2025-03-13",
+        "contact_date": "2025-06-05",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000165-005",
-        "contact_date": "2025-01-12",
+        "contact_date": "2025-04-06",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Jackson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000165-006",
-        "contact_date": "2024-11-11",
+        "contact_date": "2025-02-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Jackson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000165-007",
-        "contact_date": "2024-11-06",
+        "contact_date": "2025-01-29",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Ashley Miller",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000165-008",
-        "contact_date": "2024-11-05",
+        "contact_date": "2025-01-28",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Hernandez",
@@ -126,7 +126,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-31"
+        "first_recorded": "2026-06-23"
       }
     ]
   },
@@ -147,8 +147,8 @@
         "total_payments": 1782,
         "current_balance": 263,
         "primary_payer": "Medicare",
-        "opened_date": "2025-10-30",
-        "closed_date": "2025-11-29"
+        "opened_date": "2026-01-22",
+        "closed_date": "2026-02-21"
       }
     ]
   },

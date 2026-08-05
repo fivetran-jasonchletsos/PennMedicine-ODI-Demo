@@ -6,28 +6,28 @@
     "birth_date": "1990-10-26",
     "age": 36,
     "sex": "M",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Mark Anderson",
     "active_chronic_count": 0,
     "encounter_count": 3,
     "total_charges": 678,
-    "latitude": 40.53014,
-    "longitude": -79.96567,
-    "last_encounter_date": "2025-10-12",
+    "latitude": 40.00914,
+    "longitude": -75.23577,
+    "last_encounter_date": "2026-01-04",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9586 Forbes Blvd",
     "state": "PA",
     "phone": "(412) 959-3555",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0101077",
     "encounters": [
       {
         "pat_enc_csn_id": "0001077-000",
-        "contact_date": "2025-10-12",
+        "contact_date": "2026-01-04",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Anderson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001077-001",
-        "contact_date": "2025-04-12",
+        "contact_date": "2025-07-05",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Anderson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001077-002",
-        "contact_date": "2024-12-17",
+        "contact_date": "2025-03-11",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Nguyen",
@@ -66,7 +66,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-12"
+        "first_recorded": "2026-01-04"
       },
       {
         "dx_id": "0001077-acu-001",
@@ -74,7 +74,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-04-12"
+        "first_recorded": "2025-07-05"
       },
       {
         "dx_id": "0001077-acu-002",
@@ -82,7 +82,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2024-12-17"
+        "first_recorded": "2025-03-11"
       }
     ]
   },
@@ -103,8 +103,8 @@
         "total_payments": 595,
         "current_balance": 83,
         "primary_payer": "Medicare",
-        "opened_date": "2025-06-05",
-        "closed_date": "2026-04-23"
+        "opened_date": "2025-08-28",
+        "closed_date": "2026-07-16"
       }
     ]
   },

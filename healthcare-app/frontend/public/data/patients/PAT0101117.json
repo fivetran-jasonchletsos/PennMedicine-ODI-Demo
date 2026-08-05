@@ -6,15 +6,15 @@
     "birth_date": "1965-06-01",
     "age": 61,
     "sex": "M",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 32972,
-    "latitude": 40.38141,
-    "longitude": -80.05357,
-    "last_encounter_date": "2026-04-02",
+    "latitude": 40.02591,
+    "longitude": -75.32867,
+    "last_encounter_date": "2026-06-25",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2036 Forbes Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001117-000",
-        "contact_date": "2026-04-02",
+        "contact_date": "2026-06-25",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Walsh",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001117-001",
-        "contact_date": "2026-03-31",
+        "contact_date": "2026-06-23",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001117-002",
-        "contact_date": "2026-01-23",
+        "contact_date": "2026-04-17",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001117-003",
-        "contact_date": "2025-10-17",
+        "contact_date": "2026-01-09",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001117-004",
-        "contact_date": "2025-03-19",
+        "contact_date": "2025-06-11",
         "encounter_type": "Hospital Admission",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001117-005",
-        "contact_date": "2025-03-03",
+        "contact_date": "2025-05-26",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Johnson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001117-006",
-        "contact_date": "2025-02-20",
+        "contact_date": "2025-05-15",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -106,7 +106,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-31"
+        "first_recorded": "2026-06-23"
       },
       {
         "dx_id": "0001117-acu-002",
@@ -114,7 +114,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-01-23"
+        "first_recorded": "2026-04-17"
       }
     ]
   },
@@ -134,9 +134,9 @@
         "total_charges": 3222,
         "total_payments": 2930,
         "current_balance": 292,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-26",
-        "closed_date": "2026-05-09"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-18",
+        "closed_date": "2026-08-01"
       },
       {
         "hsp_account_id": "HSP000111701",
@@ -145,9 +145,9 @@
         "total_charges": 28008,
         "total_payments": 24125,
         "current_balance": 3883,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-03-10",
-        "closed_date": "2025-12-12"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-02",
+        "closed_date": "2026-03-06"
       },
       {
         "hsp_account_id": "HSP000111702",
@@ -156,8 +156,8 @@
         "total_charges": 1742,
         "total_payments": 1500,
         "current_balance": 242,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-08-28",
+        "primary_payer": "Aetna",
+        "opened_date": "2024-11-20",
         "closed_date": null
       }
     ]

@@ -6,15 +6,15 @@
     "birth_date": "1988-10-22",
     "age": 38,
     "sex": "M",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Aisha Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 1361,
-    "latitude": 40.32573,
-    "longitude": -80.03774,
-    "last_encounter_date": "2026-04-06",
+    "latitude": 40.08513,
+    "longitude": -75.39564,
+    "last_encounter_date": "2026-06-29",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5865 Centre Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000055-000",
-        "contact_date": "2026-04-06",
+        "contact_date": "2026-06-29",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Greene",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000055-001",
-        "contact_date": "2026-01-20",
+        "contact_date": "2026-04-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000055-002",
-        "contact_date": "2025-07-06",
+        "contact_date": "2025-09-28",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000055-003",
-        "contact_date": "2025-06-24",
+        "contact_date": "2025-09-16",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000055-004",
-        "contact_date": "2025-02-25",
+        "contact_date": "2025-05-20",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -86,7 +86,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2009-05-13"
+        "first_recorded": "2009-08-05"
       },
       {
         "dx_id": "0000055-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2012-05-13"
+        "first_recorded": "2012-08-05"
       },
       {
         "dx_id": "0000055-acu-000",
@@ -102,7 +102,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-06"
+        "first_recorded": "2026-06-29"
       },
       {
         "dx_id": "0000055-acu-001",
@@ -110,7 +110,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-01-20"
+        "first_recorded": "2026-04-14"
       }
     ]
   },
@@ -130,8 +130,8 @@
         "total_charges": 1361,
         "total_payments": 828,
         "current_balance": 533,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-07-12",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-04",
         "closed_date": null
       }
     ]

@@ -4,14 +4,14 @@ Faker==20.1.0
 
 # Database drivers
 pyodbc==5.0.1
-snowflake-connector-python>=3.7
+databricks-sql-connector>=3.1.0
 
 # API
 requests==2.31.0
 
-# dbt — Snowflake adapter (no more DuckDB)
-dbt-core==1.7.4
-dbt-snowflake==1.7.1
+# dbt — Databricks adapter
+dbt-core==1.8.9
+dbt-databricks==1.8.6
 
 # Fivetran SDK (in case we add a custom connector)
 fivetran-connector-sdk>=2.8

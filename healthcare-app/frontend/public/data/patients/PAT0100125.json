@@ -6,15 +6,15 @@
     "birth_date": "2014-11-08",
     "age": 12,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 835,
-    "latitude": 40.35455,
-    "longitude": -79.90524,
-    "last_encounter_date": "2026-05-09",
+    "latitude": 39.92905,
+    "longitude": -75.03514,
+    "last_encounter_date": "2026-08-01",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2398 Beacon St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000125-000",
-        "contact_date": "2026-05-09",
+        "contact_date": "2026-08-01",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Moore",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000125-001",
-        "contact_date": "2025-08-09",
+        "contact_date": "2025-11-01",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000125-002",
-        "contact_date": "2025-02-04",
+        "contact_date": "2025-04-29",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Davis",
@@ -66,7 +66,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000125-acu-002",
@@ -74,7 +74,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-02-04"
+        "first_recorded": "2025-04-29"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 835,
         "total_payments": 505,
         "current_balance": 330,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-07-17",
-        "closed_date": "2025-10-28"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-09",
+        "closed_date": "2026-01-20"
       }
     ]
   },

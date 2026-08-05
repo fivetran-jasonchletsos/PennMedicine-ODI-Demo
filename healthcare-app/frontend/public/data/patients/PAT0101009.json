@@ -6,15 +6,15 @@
     "birth_date": "1969-07-20",
     "age": 57,
     "sex": "F",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Linda Martinez",
     "active_chronic_count": 3,
     "encounter_count": 9,
     "total_charges": 2510,
-    "latitude": 40.37431,
-    "longitude": -80.05521,
-    "last_encounter_date": "2026-01-04",
+    "latitude": 40.01881,
+    "longitude": -75.33031,
+    "last_encounter_date": "2026-03-29",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9612 Walnut Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001009-000",
-        "contact_date": "2026-01-04",
+        "contact_date": "2026-03-29",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Khan",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001009-001",
-        "contact_date": "2025-12-09",
+        "contact_date": "2026-03-03",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001009-002",
-        "contact_date": "2025-08-19",
+        "contact_date": "2025-11-11",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001009-003",
-        "contact_date": "2025-07-21",
+        "contact_date": "2025-10-13",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Headache",
         "diagnosis_count": 4,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001009-004",
-        "contact_date": "2025-06-27",
+        "contact_date": "2025-09-19",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha O'Brien",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001009-005",
-        "contact_date": "2025-05-31",
+        "contact_date": "2025-08-23",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001009-006",
-        "contact_date": "2025-04-06",
+        "contact_date": "2025-06-29",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001009-007",
-        "contact_date": "2025-01-10",
+        "contact_date": "2025-04-04",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001009-008",
-        "contact_date": "2024-08-14",
+        "contact_date": "2024-11-06",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Martinez",
@@ -126,7 +126,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "1990-05-13"
+        "first_recorded": "1990-08-05"
       },
       {
         "dx_id": "0001009-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0001009-dx-002",
@@ -142,7 +142,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2009-05-13"
+        "first_recorded": "2009-08-05"
       },
       {
         "dx_id": "0001009-acu-000",
@@ -150,7 +150,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-01-04"
+        "first_recorded": "2026-03-29"
       },
       {
         "dx_id": "0001009-acu-001",
@@ -158,7 +158,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-12-09"
+        "first_recorded": "2026-03-03"
       }
     ]
   },
@@ -179,8 +179,8 @@
         "total_payments": 2211,
         "current_balance": 299,
         "primary_payer": "Medicare",
-        "opened_date": "2025-09-24",
-        "closed_date": "2026-03-12"
+        "opened_date": "2025-12-17",
+        "closed_date": "2026-06-04"
       }
     ]
   },

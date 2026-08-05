@@ -6,28 +6,28 @@
     "birth_date": "2012-06-08",
     "age": 14,
     "sex": "M",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Robert Chen",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 6320,
-    "latitude": 40.53125,
-    "longitude": -79.95916,
-    "last_encounter_date": "2026-02-14",
+    "latitude": 40.01025,
+    "longitude": -75.22926,
+    "last_encounter_date": "2026-05-09",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "1381 Highland Blvd",
     "state": "PA",
     "phone": "(412) 951-4448",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0101352",
     "encounters": [
       {
         "pat_enc_csn_id": "0001352-000",
-        "contact_date": "2026-02-14",
+        "contact_date": "2026-05-09",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Jackson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001352-001",
-        "contact_date": "2025-09-27",
+        "contact_date": "2025-12-20",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 1,
@@ -56,7 +56,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-14"
+        "first_recorded": "2026-05-09"
       },
       {
         "dx_id": "0001352-acu-001",
@@ -64,7 +64,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-09-27"
+        "first_recorded": "2025-12-20"
       }
     ]
   },
@@ -84,8 +84,8 @@
         "total_charges": 6320,
         "total_payments": 5082,
         "current_balance": 1238,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2023-12-25",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-03-18",
         "closed_date": null
       }
     ]

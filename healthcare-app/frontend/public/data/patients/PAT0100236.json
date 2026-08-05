@@ -6,15 +6,15 @@
     "birth_date": "2024-02-11",
     "age": 2,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Robert Chen",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 42027,
-    "latitude": 40.45867,
-    "longitude": -79.92014,
-    "last_encounter_date": "2026-03-28",
+    "latitude": 39.95007,
+    "longitude": -75.17054,
+    "last_encounter_date": "2026-06-20",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8641 Centre Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000236-000",
-        "contact_date": "2026-03-28",
+        "contact_date": "2026-06-20",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Robert Chen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000236-001",
-        "contact_date": "2026-03-27",
+        "contact_date": "2026-06-19",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Chen",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000236-002",
-        "contact_date": "2026-01-16",
+        "contact_date": "2026-04-10",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000236-003",
-        "contact_date": "2025-10-12",
+        "contact_date": "2026-01-04",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000236-004",
-        "contact_date": "2025-10-03",
+        "contact_date": "2025-12-26",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 2,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000236-005",
-        "contact_date": "2025-04-12",
+        "contact_date": "2025-07-05",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000236-006",
-        "contact_date": "2025-03-11",
+        "contact_date": "2025-06-03",
         "encounter_type": "Hospital Admission",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Anderson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000236-007",
-        "contact_date": "2024-11-21",
+        "contact_date": "2025-02-13",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Robert Chen",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000236-008",
-        "contact_date": "2024-11-10",
+        "contact_date": "2025-02-02",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Chen",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000236-009",
-        "contact_date": "2024-07-05",
+        "contact_date": "2024-09-27",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000236-010",
-        "contact_date": "2024-06-10",
+        "contact_date": "2024-09-02",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Chen",
@@ -146,7 +146,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000236-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-03-28"
+        "first_recorded": "2026-06-20"
       },
       {
         "dx_id": "0000236-acu-002",
@@ -162,7 +162,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-16"
+        "first_recorded": "2026-04-10"
       }
     ]
   },
@@ -182,8 +182,8 @@
         "total_charges": 39561,
         "total_payments": 36252,
         "current_balance": 3309,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-03-29",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-21",
         "closed_date": null
       },
       {
@@ -193,9 +193,9 @@
         "total_charges": 2466,
         "total_payments": 2183,
         "current_balance": 283,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-21",
-        "closed_date": "2026-03-06"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-13",
+        "closed_date": "2026-05-29"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "1994-04-07",
     "age": 32,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. James Russo",
     "active_chronic_count": 3,
     "encounter_count": 9,
     "total_charges": 26086,
-    "latitude": 40.44104,
-    "longitude": -80.10649,
-    "last_encounter_date": "2025-12-26",
+    "latitude": 39.91254,
+    "longitude": -75.39049,
+    "last_encounter_date": "2026-03-20",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5802 Forbes Rd",
     "state": "PA",
     "phone": "(412) 768-7962",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100825",
     "encounters": [
       {
         "pat_enc_csn_id": "0000825-000",
-        "contact_date": "2025-12-26",
+        "contact_date": "2026-03-20",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-001",
-        "contact_date": "2025-10-20",
+        "contact_date": "2026-01-12",
         "encounter_type": "Hospital Admission",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Williams",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-002",
-        "contact_date": "2025-10-15",
+        "contact_date": "2026-01-07",
         "encounter_type": "Procedure",
         "department_name": "Pulmonology",
         "provider_name": "Dr. James Russo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-003",
-        "contact_date": "2025-08-20",
+        "contact_date": "2025-11-12",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Chen",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-004",
-        "contact_date": "2025-05-24",
+        "contact_date": "2025-08-16",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. James Russo",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000825-005",
-        "contact_date": "2025-05-20",
+        "contact_date": "2025-08-12",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-006",
-        "contact_date": "2024-07-14",
+        "contact_date": "2024-10-06",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. James Russo",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-007",
-        "contact_date": "2024-07-06",
+        "contact_date": "2024-09-28",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Martinez",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000825-008",
-        "contact_date": "2024-05-25",
+        "contact_date": "2024-08-17",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. James Russo",
@@ -126,7 +126,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000825-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000825-dx-002",
@@ -142,7 +142,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2015-05-13"
+        "first_recorded": "2015-08-05"
       },
       {
         "dx_id": "0000825-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-10-20"
+        "first_recorded": "2026-01-12"
       },
       {
         "dx_id": "0000825-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-10-15"
+        "first_recorded": "2026-01-07"
       }
     ]
   },
@@ -178,9 +178,9 @@
         "total_charges": 5862,
         "total_payments": 5132,
         "current_balance": 730,
-        "primary_payer": "Aetna",
-        "opened_date": "2025-10-05",
-        "closed_date": "2026-04-09"
+        "primary_payer": "Cigna",
+        "opened_date": "2025-12-28",
+        "closed_date": "2026-07-02"
       },
       {
         "hsp_account_id": "HSP000082501",
@@ -189,9 +189,9 @@
         "total_charges": 5272,
         "total_payments": 3298,
         "current_balance": 1974,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-12-25",
-        "closed_date": "2026-01-26"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-03-19",
+        "closed_date": "2026-04-20"
       },
       {
         "hsp_account_id": "HSP000082502",
@@ -200,9 +200,9 @@
         "total_charges": 14952,
         "total_payments": 10128,
         "current_balance": 4824,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2026-02-09",
-        "closed_date": "2025-12-25"
+        "primary_payer": "Aetna",
+        "opened_date": "2026-05-04",
+        "closed_date": "2026-03-19"
       }
     ]
   },

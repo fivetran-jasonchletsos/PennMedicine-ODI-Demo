@@ -6,15 +6,15 @@
     "birth_date": "1972-10-05",
     "age": 54,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Maria Moore",
     "active_chronic_count": 0,
     "encounter_count": 9,
     "total_charges": 7932,
-    "latitude": 40.47179,
-    "longitude": -79.95866,
-    "last_encounter_date": "2026-05-05",
+    "latitude": 39.93579,
+    "longitude": -75.17886,
+    "last_encounter_date": "2026-07-28",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2996 Beacon Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000902-000",
-        "contact_date": "2026-05-05",
+        "contact_date": "2026-07-28",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Maria Moore",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000902-001",
-        "contact_date": "2025-10-08",
+        "contact_date": "2025-12-31",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Wilson",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000902-002",
-        "contact_date": "2025-09-14",
+        "contact_date": "2025-12-07",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 1,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000902-003",
-        "contact_date": "2025-08-17",
+        "contact_date": "2025-11-09",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": "Headache",
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000902-004",
-        "contact_date": "2025-05-25",
+        "contact_date": "2025-08-17",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Moore",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000902-005",
-        "contact_date": "2025-04-13",
+        "contact_date": "2025-07-06",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Davis",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000902-006",
-        "contact_date": "2025-03-24",
+        "contact_date": "2025-06-16",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000902-007",
-        "contact_date": "2024-12-19",
+        "contact_date": "2025-03-13",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Maria Moore",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000902-008",
-        "contact_date": "2024-09-20",
+        "contact_date": "2024-12-13",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Moore",
@@ -126,7 +126,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-05-05"
+        "first_recorded": "2026-07-28"
       },
       {
         "dx_id": "0000902-acu-001",
@@ -134,7 +134,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-08"
+        "first_recorded": "2025-12-31"
       },
       {
         "dx_id": "0000902-acu-002",
@@ -142,7 +142,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-09-14"
+        "first_recorded": "2025-12-07"
       }
     ]
   },
@@ -163,8 +163,8 @@
         "total_payments": 7165,
         "current_balance": 767,
         "primary_payer": "Medicare",
-        "opened_date": "2024-06-06",
-        "closed_date": "2025-11-29"
+        "opened_date": "2024-08-29",
+        "closed_date": "2026-02-21"
       }
     ]
   },

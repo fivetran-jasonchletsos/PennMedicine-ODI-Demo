@@ -6,28 +6,28 @@
     "birth_date": "1970-01-15",
     "age": 56,
     "sex": "F",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 1,
     "encounter_count": 2,
     "total_charges": 297,
-    "latitude": 40.29636,
-    "longitude": -79.53403,
-    "last_encounter_date": "2024-07-11",
+    "latitude": 39.84446,
+    "longitude": -75.35173,
+    "last_encounter_date": "2024-10-03",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9734 Centre Ave",
     "state": "PA",
     "phone": "(412) 943-6402",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0101236",
     "encounters": [
       {
         "pat_enc_csn_id": "0001236-000",
-        "contact_date": "2024-07-11",
+        "contact_date": "2024-10-03",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001236-001",
-        "contact_date": "2024-06-08",
+        "contact_date": "2024-08-31",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. David Russo",
@@ -56,7 +56,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "1998-05-13"
+        "first_recorded": "1998-08-05"
       },
       {
         "dx_id": "0001236-acu-000",
@@ -64,7 +64,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2024-07-11"
+        "first_recorded": "2024-10-03"
       },
       {
         "dx_id": "0001236-acu-001",
@@ -72,7 +72,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2024-06-08"
+        "first_recorded": "2024-08-31"
       }
     ]
   },
@@ -92,9 +92,9 @@
         "total_charges": 297,
         "total_payments": 191,
         "current_balance": 106,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-11-22",
-        "closed_date": "2026-03-15"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-14",
+        "closed_date": "2026-06-07"
       }
     ]
   },

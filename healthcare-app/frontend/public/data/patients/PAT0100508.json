@@ -6,30 +6,30 @@
     "birth_date": "1969-04-25",
     "age": 57,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 3,
     "encounter_count": 12,
     "total_charges": 2688,
-    "latitude": 40.35828,
-    "longitude": -79.90097,
-    "last_encounter_date": "2026-02-01",
+    "latitude": 39.93278,
+    "longitude": -75.03087,
+    "last_encounter_date": "2026-04-26",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7731 Liberty Ave",
     "state": "PA",
     "phone": "(412) 234-8309",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100508",
     "encounters": [
       {
         "pat_enc_csn_id": "0000508-000",
-        "contact_date": "2026-02-01",
+        "contact_date": "2026-04-26",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000508-001",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-002",
-        "contact_date": "2025-09-13",
+        "contact_date": "2025-12-06",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-003",
-        "contact_date": "2025-08-10",
+        "contact_date": "2025-11-02",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-004",
-        "contact_date": "2025-07-10",
+        "contact_date": "2025-10-02",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Sophia Moore",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-005",
-        "contact_date": "2025-07-01",
+        "contact_date": "2025-09-23",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000508-006",
-        "contact_date": "2025-05-15",
+        "contact_date": "2025-08-07",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-007",
-        "contact_date": "2025-05-06",
+        "contact_date": "2025-07-29",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Walsh",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000508-008",
-        "contact_date": "2025-02-28",
+        "contact_date": "2025-05-23",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Maria Okonkwo",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 4,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-009",
-        "contact_date": "2025-01-03",
+        "contact_date": "2025-03-28",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Moore",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-010",
-        "contact_date": "2024-12-14",
+        "contact_date": "2025-03-08",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Sophia Moore",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000508-011",
-        "contact_date": "2024-09-16",
+        "contact_date": "2024-12-09",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sarah Hernandez",
@@ -156,7 +156,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2003-05-13"
+        "first_recorded": "2003-08-05"
       },
       {
         "dx_id": "0000508-dx-001",
@@ -164,7 +164,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "1998-05-13"
+        "first_recorded": "1998-08-05"
       },
       {
         "dx_id": "0000508-dx-002",
@@ -172,7 +172,7 @@
         "icd10_code": "I50.9",
         "diagnosis_name": "Heart failure, unspecified",
         "chronic": true,
-        "first_recorded": "2005-05-13"
+        "first_recorded": "2005-08-05"
       }
     ]
   },
@@ -192,9 +192,9 @@
         "total_charges": 2688,
         "total_payments": 1719,
         "current_balance": 969,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-05-15",
-        "closed_date": "2026-05-02"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-08-07",
+        "closed_date": "2026-07-25"
       }
     ]
   },

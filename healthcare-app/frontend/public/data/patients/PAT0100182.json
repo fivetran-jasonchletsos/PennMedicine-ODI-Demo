@@ -6,15 +6,15 @@
     "birth_date": "1991-08-06",
     "age": 35,
     "sex": "F",
-    "city": "Wexford",
-    "zip_code": "15090",
+    "city": "Conshohocken",
+    "zip_code": "19428",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 1,
     "encounter_count": 9,
     "total_charges": 7057,
-    "latitude": 40.62853,
-    "longitude": -80.05733,
-    "last_encounter_date": "2026-04-23",
+    "latitude": 40.07763,
+    "longitude": -75.30023,
+    "last_encounter_date": "2026-07-16",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "213 Highland Blvd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000182-000",
-        "contact_date": "2026-04-23",
+        "contact_date": "2026-07-16",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000182-001",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000182-002",
-        "contact_date": "2026-02-06",
+        "contact_date": "2026-05-01",
         "encounter_type": "Emergency Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Taylor",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000182-003",
-        "contact_date": "2025-11-12",
+        "contact_date": "2026-02-04",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000182-004",
-        "contact_date": "2025-09-30",
+        "contact_date": "2025-12-23",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000182-005",
-        "contact_date": "2025-05-27",
+        "contact_date": "2025-08-19",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Chen",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000182-006",
-        "contact_date": "2025-03-19",
+        "contact_date": "2025-06-11",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Davis",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000182-007",
-        "contact_date": "2025-01-09",
+        "contact_date": "2025-04-03",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000182-008",
-        "contact_date": "2024-09-25",
+        "contact_date": "2024-12-18",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -126,7 +126,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0000182-acu-002",
@@ -134,7 +134,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-02-06"
+        "first_recorded": "2026-05-01"
       }
     ]
   },
@@ -154,8 +154,8 @@
         "total_charges": 7057,
         "total_payments": 4737,
         "current_balance": 2320,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-12-21",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-03-15",
         "closed_date": null
       }
     ]

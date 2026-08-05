@@ -6,15 +6,15 @@
     "birth_date": "2008-08-23",
     "age": 18,
     "sex": "F",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Sophia Gonzalez",
     "active_chronic_count": 1,
     "encounter_count": 2,
     "total_charges": 596,
-    "latitude": 40.52214,
-    "longitude": -79.95662,
-    "last_encounter_date": "2025-11-26",
+    "latitude": 40.00114,
+    "longitude": -75.22672,
+    "last_encounter_date": "2026-02-18",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5949 Murray Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000053-000",
-        "contact_date": "2025-11-26",
+        "contact_date": "2026-02-18",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000053-001",
-        "contact_date": "2025-01-25",
+        "contact_date": "2025-04-19",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -56,7 +56,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000053-acu-000",
@@ -64,7 +64,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-11-26"
+        "first_recorded": "2026-02-18"
       }
     ]
   },
@@ -84,8 +84,8 @@
         "total_charges": 596,
         "total_payments": 501,
         "current_balance": 95,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-10-04",
+        "primary_payer": "Aetna",
+        "opened_date": "2024-12-27",
         "closed_date": null
       }
     ]

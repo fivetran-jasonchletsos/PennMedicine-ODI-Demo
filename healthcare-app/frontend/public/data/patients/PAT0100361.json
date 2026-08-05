@@ -6,15 +6,15 @@
     "birth_date": "2008-03-13",
     "age": 18,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 1,
     "encounter_count": 2,
     "total_charges": 592,
-    "latitude": 40.47444,
-    "longitude": -79.96,
-    "last_encounter_date": "2024-10-10",
+    "latitude": 39.93844,
+    "longitude": -75.1802,
+    "last_encounter_date": "2025-01-02",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4635 Beacon Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000361-000",
-        "contact_date": "2024-10-10",
+        "contact_date": "2025-01-02",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. David Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000361-001",
-        "contact_date": "2024-07-03",
+        "contact_date": "2024-09-25",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. David Johnson",
@@ -56,7 +56,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000361-acu-000",
@@ -64,7 +64,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2024-10-10"
+        "first_recorded": "2025-01-02"
       },
       {
         "dx_id": "0000361-acu-001",
@@ -72,7 +72,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2024-07-03"
+        "first_recorded": "2024-09-25"
       }
     ]
   },
@@ -92,8 +92,8 @@
         "total_charges": 592,
         "total_payments": 532,
         "current_balance": 60,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-11-22",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-02-14",
         "closed_date": null
       }
     ]

@@ -6,15 +6,15 @@
     "birth_date": "1975-02-20",
     "age": 51,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Linda Russo",
     "active_chronic_count": 2,
     "encounter_count": 6,
     "total_charges": 7388,
-    "latitude": 40.41897,
-    "longitude": -79.79356,
-    "last_encounter_date": "2026-04-11",
+    "latitude": 40.30517,
+    "longitude": -75.13486,
+    "last_encounter_date": "2026-07-04",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3987 Walnut St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000445-000",
-        "contact_date": "2026-04-11",
+        "contact_date": "2026-07-04",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000445-001",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Russo",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000445-002",
-        "contact_date": "2026-01-03",
+        "contact_date": "2026-03-28",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Gonzalez",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000445-003",
-        "contact_date": "2025-08-25",
+        "contact_date": "2025-11-17",
         "encounter_type": "Emergency Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000445-004",
-        "contact_date": "2025-04-29",
+        "contact_date": "2025-07-22",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000445-005",
-        "contact_date": "2025-04-05",
+        "contact_date": "2025-06-28",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -96,7 +96,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1997-05-13"
+        "first_recorded": "1997-08-05"
       },
       {
         "dx_id": "0000445-dx-001",
@@ -104,7 +104,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000445-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-01"
+        "first_recorded": "2026-05-24"
       },
       {
         "dx_id": "0000445-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-03"
+        "first_recorded": "2026-03-28"
       }
     ]
   },
@@ -140,9 +140,9 @@
         "total_charges": 7388,
         "total_payments": 5908,
         "current_balance": 1480,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2026-02-08",
-        "closed_date": "2025-11-15"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-05-03",
+        "closed_date": "2026-02-07"
       }
     ]
   },

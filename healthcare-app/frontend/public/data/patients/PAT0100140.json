@@ -6,15 +6,15 @@
     "birth_date": "2002-03-13",
     "age": 24,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Sophia Moore",
     "active_chronic_count": 2,
     "encounter_count": 4,
     "total_charges": 30330,
-    "latitude": 40.4628,
-    "longitude": -79.91202,
-    "last_encounter_date": "2026-04-10",
+    "latitude": 39.9542,
+    "longitude": -75.16242,
+    "last_encounter_date": "2026-07-03",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9780 Highland Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000140-000",
-        "contact_date": "2026-04-10",
+        "contact_date": "2026-07-03",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Sophia Moore",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000140-001",
-        "contact_date": "2025-10-22",
+        "contact_date": "2026-01-14",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000140-002",
-        "contact_date": "2025-10-05",
+        "contact_date": "2025-12-28",
         "encounter_type": "Hospital Admission",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sophia Moore",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000140-003",
-        "contact_date": "2024-11-17",
+        "contact_date": "2025-02-09",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Moore",
@@ -76,7 +76,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000140-dx-001",
@@ -84,7 +84,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000140-acu-000",
@@ -92,7 +92,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-04-10"
+        "first_recorded": "2026-07-03"
       },
       {
         "dx_id": "0000140-acu-002",
@@ -100,7 +100,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-10-05"
+        "first_recorded": "2025-12-28"
       }
     ]
   },
@@ -120,9 +120,9 @@
         "total_charges": 30330,
         "total_payments": 19562,
         "current_balance": 10768,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-05-03",
-        "closed_date": "2025-12-16"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-07-26",
+        "closed_date": "2026-03-10"
       }
     ]
   },

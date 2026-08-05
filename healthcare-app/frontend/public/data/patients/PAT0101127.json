@@ -6,15 +6,15 @@
     "birth_date": "1961-10-23",
     "age": 65,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 2,
     "encounter_count": 12,
     "total_charges": 5541,
-    "latitude": 40.4402,
-    "longitude": -79.93527,
-    "last_encounter_date": "2025-10-07",
+    "latitude": 39.9546,
+    "longitude": -75.19837,
+    "last_encounter_date": "2025-12-30",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3134 Penn Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001127-000",
-        "contact_date": "2025-10-07",
+        "contact_date": "2025-12-30",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Robert Taylor",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001127-001",
-        "contact_date": "2025-08-29",
+        "contact_date": "2025-11-21",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001127-002",
-        "contact_date": "2025-07-23",
+        "contact_date": "2025-10-15",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-003",
-        "contact_date": "2025-04-17",
+        "contact_date": "2025-07-10",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Taylor",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-004",
-        "contact_date": "2025-04-16",
+        "contact_date": "2025-07-09",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. David Russo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-005",
-        "contact_date": "2025-03-31",
+        "contact_date": "2025-06-23",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Taylor",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001127-006",
-        "contact_date": "2025-03-18",
+        "contact_date": "2025-06-10",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001127-007",
-        "contact_date": "2025-02-26",
+        "contact_date": "2025-05-21",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001127-008",
-        "contact_date": "2025-01-26",
+        "contact_date": "2025-04-20",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-009",
-        "contact_date": "2025-01-06",
+        "contact_date": "2025-03-31",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-010",
-        "contact_date": "2024-11-16",
+        "contact_date": "2025-02-08",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Taylor",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0001127-011",
-        "contact_date": "2024-05-31",
+        "contact_date": "2024-08-23",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Taylor",
@@ -156,7 +156,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2017-05-13"
+        "first_recorded": "2017-08-05"
       },
       {
         "dx_id": "0001127-dx-001",
@@ -164,7 +164,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "1994-05-13"
+        "first_recorded": "1994-08-05"
       },
       {
         "dx_id": "0001127-acu-000",
@@ -172,7 +172,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-10-07"
+        "first_recorded": "2025-12-30"
       },
       {
         "dx_id": "0001127-acu-002",
@@ -180,7 +180,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-07-23"
+        "first_recorded": "2025-10-15"
       }
     ]
   },
@@ -200,9 +200,9 @@
         "total_charges": 5541,
         "total_payments": 4076,
         "current_balance": 1465,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-11-03",
-        "closed_date": "2026-02-06"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-01-26",
+        "closed_date": "2026-05-01"
       }
     ]
   },

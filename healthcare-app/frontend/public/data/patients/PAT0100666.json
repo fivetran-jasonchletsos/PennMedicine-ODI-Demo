@@ -6,28 +6,28 @@
     "birth_date": "2026-04-12",
     "age": 0,
     "sex": "F",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Aisha Anderson",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 12753,
-    "latitude": 40.49449,
-    "longitude": -79.90909,
-    "last_encounter_date": "2026-01-18",
+    "latitude": 40.00589,
+    "longitude": -75.29809,
+    "last_encounter_date": "2026-04-12",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2293 Centre St",
     "state": "PA",
     "phone": "(412) 939-4746",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100666",
     "encounters": [
       {
         "pat_enc_csn_id": "0000666-000",
-        "contact_date": "2026-01-18",
+        "contact_date": "2026-04-12",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-001",
-        "contact_date": "2026-01-11",
+        "contact_date": "2026-04-05",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Anderson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-002",
-        "contact_date": "2026-01-09",
+        "contact_date": "2026-04-03",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Wilson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-003",
-        "contact_date": "2025-10-13",
+        "contact_date": "2026-01-05",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Thomas",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-004",
-        "contact_date": "2025-09-07",
+        "contact_date": "2025-11-30",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Chen",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000666-005",
-        "contact_date": "2025-06-18",
+        "contact_date": "2025-09-10",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000666-006",
-        "contact_date": "2024-12-09",
+        "contact_date": "2025-03-03",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-007",
-        "contact_date": "2024-12-01",
+        "contact_date": "2025-02-23",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Anderson",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-008",
-        "contact_date": "2024-11-13",
+        "contact_date": "2025-02-05",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000666-009",
-        "contact_date": "2024-08-29",
+        "contact_date": "2024-11-21",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Anderson",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000666-010",
-        "contact_date": "2024-08-17",
+        "contact_date": "2024-11-09",
         "encounter_type": "Follow-up",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -146,7 +146,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000666-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-01-18"
+        "first_recorded": "2026-04-12"
       },
       {
         "dx_id": "0000666-acu-002",
@@ -162,7 +162,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-01-09"
+        "first_recorded": "2026-04-03"
       }
     ]
   },
@@ -182,9 +182,9 @@
         "total_charges": 12753,
         "total_payments": 11672,
         "current_balance": 1081,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-12-20",
-        "closed_date": "2026-01-28"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-03-14",
+        "closed_date": "2026-04-22"
       }
     ]
   },

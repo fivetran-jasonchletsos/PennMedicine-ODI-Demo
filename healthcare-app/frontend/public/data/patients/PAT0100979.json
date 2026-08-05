@@ -6,15 +6,15 @@
     "birth_date": "1955-09-07",
     "age": 71,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 74778,
-    "latitude": 40.44858,
-    "longitude": -80.10591,
-    "last_encounter_date": "2026-02-21",
+    "latitude": 39.92008,
+    "longitude": -75.38991,
+    "last_encounter_date": "2026-05-16",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8479 Liberty St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000979-000",
-        "contact_date": "2026-02-21",
+        "contact_date": "2026-05-16",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-001",
-        "contact_date": "2026-01-25",
+        "contact_date": "2026-04-19",
         "encounter_type": "Procedure",
         "department_name": "Nephrology",
         "provider_name": "Dr. David Johnson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-002",
-        "contact_date": "2025-10-26",
+        "contact_date": "2026-01-18",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha O'Brien",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-003",
-        "contact_date": "2025-09-28",
+        "contact_date": "2025-12-21",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. David Johnson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000979-004",
-        "contact_date": "2025-08-10",
+        "contact_date": "2025-11-02",
         "encounter_type": "Hospital Admission",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-005",
-        "contact_date": "2025-07-04",
+        "contact_date": "2025-09-26",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Johnson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-006",
-        "contact_date": "2025-04-21",
+        "contact_date": "2025-07-14",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Johnson",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000979-007",
-        "contact_date": "2024-12-18",
+        "contact_date": "2025-03-12",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000979-008",
-        "contact_date": "2024-12-14",
+        "contact_date": "2025-03-08",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. David Johnson",
@@ -126,7 +126,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000979-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0000979-acu-000",
@@ -142,7 +142,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-02-21"
+        "first_recorded": "2026-05-16"
       },
       {
         "dx_id": "0000979-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-01-25"
+        "first_recorded": "2026-04-19"
       },
       {
         "dx_id": "0000979-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-10-26"
+        "first_recorded": "2026-01-18"
       }
     ]
   },
@@ -166,8 +166,8 @@
     "pat_id": "PAT0100979",
     "summary": {
       "total_charges": 74778,
-      "total_payments": 54406,
-      "outstanding_balance": 20372,
+      "total_payments": 57645,
+      "outstanding_balance": 17133,
       "account_count": 3
     },
     "accounts": [
@@ -176,11 +176,11 @@
         "account_type": "Rx",
         "status": "Closed",
         "total_charges": 24319,
-        "total_payments": 16033,
-        "current_balance": 8286,
-        "primary_payer": "Cigna",
-        "opened_date": "2023-12-11",
-        "closed_date": "2026-02-15"
+        "total_payments": 19272,
+        "current_balance": 5047,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-04",
+        "closed_date": "2026-05-10"
       },
       {
         "hsp_account_id": "HSP000097901",
@@ -190,7 +190,7 @@
         "total_payments": 1081,
         "current_balance": 130,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-03-20",
+        "opened_date": "2024-06-12",
         "closed_date": null
       },
       {
@@ -200,9 +200,9 @@
         "total_charges": 49248,
         "total_payments": 37292,
         "current_balance": 11956,
-        "primary_payer": "Aetna",
-        "opened_date": "2025-10-19",
-        "closed_date": "2025-11-24"
+        "primary_payer": "Cigna",
+        "opened_date": "2026-01-11",
+        "closed_date": "2026-02-16"
       }
     ]
   },

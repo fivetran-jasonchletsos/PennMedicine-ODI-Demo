@@ -6,15 +6,15 @@
     "birth_date": "2014-01-11",
     "age": 12,
     "sex": "F",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Linda Thomas",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 25188,
-    "latitude": 40.49003,
-    "longitude": -79.90099,
-    "last_encounter_date": "2026-03-14",
+    "latitude": 40.00143,
+    "longitude": -75.28999,
+    "last_encounter_date": "2026-06-06",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3585 Walnut Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000029-000",
-        "contact_date": "2026-03-14",
+        "contact_date": "2026-06-06",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Thomas",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000029-001",
-        "contact_date": "2025-12-01",
+        "contact_date": "2026-02-23",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Greene",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000029-002",
-        "contact_date": "2025-10-27",
+        "contact_date": "2026-01-19",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Linda Thomas",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000029-003",
-        "contact_date": "2025-05-08",
+        "contact_date": "2025-07-31",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. David Johnson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000029-004",
-        "contact_date": "2025-04-25",
+        "contact_date": "2025-07-18",
         "encounter_type": "Hospital Admission",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000029-005",
-        "contact_date": "2025-01-22",
+        "contact_date": "2025-04-16",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sarah Hernandez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000029-006",
-        "contact_date": "2024-11-22",
+        "contact_date": "2025-02-14",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -106,7 +106,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-03-14"
+        "first_recorded": "2026-06-06"
       },
       {
         "dx_id": "0000029-acu-001",
@@ -114,7 +114,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-01"
+        "first_recorded": "2026-02-23"
       }
     ]
   },
@@ -134,9 +134,9 @@
         "total_charges": 21351,
         "total_payments": 12871,
         "current_balance": 8480,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-11-29",
-        "closed_date": "2025-12-10"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-21",
+        "closed_date": "2026-03-04"
       },
       {
         "hsp_account_id": "HSP000002901",
@@ -145,9 +145,9 @@
         "total_charges": 3837,
         "total_payments": 3173,
         "current_balance": 664,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-07-06",
-        "closed_date": "2026-02-05"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-09-28",
+        "closed_date": "2026-04-30"
       }
     ]
   },

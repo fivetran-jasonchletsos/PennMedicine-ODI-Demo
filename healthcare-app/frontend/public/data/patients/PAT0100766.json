@@ -6,15 +6,15 @@
     "birth_date": "1984-04-12",
     "age": 42,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 1451,
-    "latitude": 40.45369,
-    "longitude": -79.92517,
-    "last_encounter_date": "2026-02-08",
+    "latitude": 39.93919,
+    "longitude": -75.14667,
+    "last_encounter_date": "2026-05-03",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2927 Murray Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000766-000",
-        "contact_date": "2026-02-08",
+        "contact_date": "2026-05-03",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Robert Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000766-001",
-        "contact_date": "2025-02-17",
+        "contact_date": "2025-05-12",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Greene",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000766-002",
-        "contact_date": "2025-01-03",
+        "contact_date": "2025-03-28",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Michael Garcia",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000766-003",
-        "contact_date": "2024-10-11",
+        "contact_date": "2025-01-03",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Ashley Garcia",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000766-004",
-        "contact_date": "2024-09-02",
+        "contact_date": "2024-11-25",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Garcia",
@@ -86,7 +86,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2013-05-13"
+        "first_recorded": "2013-08-05"
       },
       {
         "dx_id": "0000766-acu-000",
@@ -94,7 +94,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-02-08"
+        "first_recorded": "2026-05-03"
       },
       {
         "dx_id": "0000766-acu-001",
@@ -102,7 +102,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-02-17"
+        "first_recorded": "2025-05-12"
       },
       {
         "dx_id": "0000766-acu-002",
@@ -110,7 +110,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-01-03"
+        "first_recorded": "2025-03-28"
       }
     ]
   },
@@ -130,9 +130,9 @@
         "total_charges": 1451,
         "total_payments": 1284,
         "current_balance": 167,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-04-06",
-        "closed_date": "2026-05-10"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-06-29",
+        "closed_date": "2026-08-02"
       }
     ]
   },

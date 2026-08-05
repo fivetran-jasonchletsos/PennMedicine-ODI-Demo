@@ -6,15 +6,15 @@
     "birth_date": "2004-08-20",
     "age": 22,
     "sex": "M",
-    "city": "Cranberry Twp",
-    "zip_code": "16066",
+    "city": "Norristown",
+    "zip_code": "19401",
     "primary_care_provider": "Dr. Linda Thomas",
     "active_chronic_count": 3,
     "encounter_count": 10,
     "total_charges": 42548,
-    "latitude": 40.68183,
-    "longitude": -80.10356,
-    "last_encounter_date": "2025-11-19",
+    "latitude": 40.11903,
+    "longitude": -75.33766,
+    "last_encounter_date": "2026-02-11",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5456 Liberty Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001042-000",
-        "contact_date": "2025-11-19",
+        "contact_date": "2026-02-11",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Linda Thomas",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-001",
-        "contact_date": "2025-09-07",
+        "contact_date": "2025-11-30",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Thomas",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-002",
-        "contact_date": "2025-06-25",
+        "contact_date": "2025-09-17",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Thomas",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-003",
-        "contact_date": "2025-06-09",
+        "contact_date": "2025-09-01",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Thomas",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001042-004",
-        "contact_date": "2025-05-12",
+        "contact_date": "2025-08-04",
         "encounter_type": "Hospital Admission",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 4,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-005",
-        "contact_date": "2025-03-26",
+        "contact_date": "2025-06-18",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Thomas",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-006",
-        "contact_date": "2025-02-27",
+        "contact_date": "2025-05-22",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Thomas",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-007",
-        "contact_date": "2025-01-28",
+        "contact_date": "2025-04-22",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Robert Chen",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-008",
-        "contact_date": "2024-11-28",
+        "contact_date": "2025-02-20",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Davis",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001042-009",
-        "contact_date": "2024-05-31",
+        "contact_date": "2024-08-23",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Thomas",
@@ -136,7 +136,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0001042-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "N18.3",
         "diagnosis_name": "Chronic kidney disease, stage 3",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0001042-dx-002",
@@ -152,7 +152,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0001042-acu-001",
@@ -160,7 +160,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-09-07"
+        "first_recorded": "2025-11-30"
       },
       {
         "dx_id": "0001042-acu-002",
@@ -168,7 +168,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-06-25"
+        "first_recorded": "2025-09-17"
       }
     ]
   },
@@ -176,8 +176,8 @@
     "pat_id": "PAT0101042",
     "summary": {
       "total_charges": 42548,
-      "total_payments": 35681,
-      "outstanding_balance": 6867,
+      "total_payments": 37399,
+      "outstanding_balance": 5149,
       "account_count": 3
     },
     "accounts": [
@@ -188,19 +188,19 @@
         "total_charges": 33160,
         "total_payments": 29881,
         "current_balance": 3279,
-        "primary_payer": "Aetna",
-        "opened_date": "2024-09-25",
-        "closed_date": "2026-03-21"
+        "primary_payer": "Cigna",
+        "opened_date": "2024-12-18",
+        "closed_date": "2026-06-13"
       },
       {
         "hsp_account_id": "HSP000104201",
         "account_type": "Rx",
         "status": "Open",
         "total_charges": 5861,
-        "total_payments": 3638,
-        "current_balance": 2223,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-03-31",
+        "total_payments": 5356,
+        "current_balance": 505,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-06-23",
         "closed_date": null
       },
       {
@@ -210,9 +210,9 @@
         "total_charges": 3527,
         "total_payments": 2162,
         "current_balance": 1365,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-05-06",
-        "closed_date": "2026-04-03"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-07-29",
+        "closed_date": "2026-06-26"
       }
     ]
   },

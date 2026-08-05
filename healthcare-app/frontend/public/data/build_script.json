@@ -32,8 +32,8 @@
       "from": "worker",
       "step": 3,
       "step_label": "Data Inspection",
-      "body": "Spinning up an XS warehouse and running dbt_show on a 14-day slice filtered to sepsis_alert_flag = true. Cardiology bundle compliance on 2026-05-20 dropped to 61% versus a 30-day average of 84% — the dip is real and the grain is viable.",
-      "side_effect": "tool:warehouse start XS · tool:dbt_show 14-day sepsis slice cardiology · compliance 61% vs 84% avg confirmed"
+      "body": "Spinning up a serverless SQL warehouse and running dbt_show on a 14-day slice filtered to sepsis_alert_flag = true. Cardiology bundle compliance on 2026-05-20 dropped to 61% versus a 30-day average of 84% — the dip is real and the grain is viable.",
+      "side_effect": "tool:warehouse start serverless · tool:dbt_show 14-day sepsis slice cardiology · compliance 61% vs 84% avg confirmed"
     },
     {
       "from": "worker",
@@ -102,14 +102,14 @@
       "from": "worker",
       "step": 6,
       "step_label": "Materialization",
-      "body": "Materializing gold.fct_sepsis_bundle_by_service_line_daily to Iceberg on S3 via the Snowflake dbt adapter. Writing Parquet files to the gold S3 prefix. Registering with the catalog.",
+      "body": "Materializing gold.fct_sepsis_bundle_by_service_line_daily to Iceberg on S3 via the Databricks dbt adapter. Writing Parquet files to the gold S3 prefix. Registering with Unity Catalog.",
       "side_effect": "tool:dbt_run materialized 1 model · 284 rows · 0.04 GB · 7.1s"
     },
     {
       "from": "verification",
       "step": 6,
       "step_label": "Materialization",
-      "body": "Running lineage one more time. Four upstreams attached. Downstream consumers — quality dashboards, CMO weekly report, NHSN submission pipeline, Snowflake direct queries — can now resolve the new gold table on their next pass. The quality team's question has a production asset behind it.",
+      "body": "Running lineage one more time. Four upstreams attached. Downstream consumers — quality dashboards, CMO weekly report, NHSN submission pipeline, Databricks direct queries — can now resolve the new gold table on their next pass. The quality team's question has a production asset behind it.",
       "side_effect": "tool:lineage updated · downstream consumers notified · 21 models → 22 models"
     }
   ]

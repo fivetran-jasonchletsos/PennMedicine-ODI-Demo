@@ -6,15 +6,15 @@
     "birth_date": "1934-11-18",
     "age": 92,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Daniel Schmidt",
     "active_chronic_count": 2,
     "encounter_count": 8,
     "total_charges": 16806,
-    "latitude": 40.46194,
-    "longitude": -79.91108,
-    "last_encounter_date": "2026-05-08",
+    "latitude": 39.95334,
+    "longitude": -75.16148,
+    "last_encounter_date": "2026-07-31",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3093 Centre St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000684-000",
-        "contact_date": "2026-05-08",
+        "contact_date": "2026-07-31",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000684-001",
-        "contact_date": "2025-04-26",
+        "contact_date": "2025-07-19",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000684-002",
-        "contact_date": "2025-02-08",
+        "contact_date": "2025-05-03",
         "encounter_type": "Procedure",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000684-003",
-        "contact_date": "2025-01-25",
+        "contact_date": "2025-04-19",
         "encounter_type": "Follow-up",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000684-004",
-        "contact_date": "2024-11-26",
+        "contact_date": "2025-02-18",
         "encounter_type": "Follow-up",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Schmidt",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000684-005",
-        "contact_date": "2024-09-05",
+        "contact_date": "2024-11-28",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000684-006",
-        "contact_date": "2024-07-24",
+        "contact_date": "2024-10-16",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Wilson",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000684-007",
-        "contact_date": "2024-07-09",
+        "contact_date": "2024-10-01",
         "encounter_type": "Procedure",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Schmidt",
@@ -116,7 +116,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1966-05-13"
+        "first_recorded": "1966-08-05"
       },
       {
         "dx_id": "0000684-dx-001",
@@ -124,7 +124,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000684-acu-000",
@@ -132,7 +132,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-05-08"
+        "first_recorded": "2026-07-31"
       },
       {
         "dx_id": "0000684-acu-001",
@@ -140,7 +140,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-04-26"
+        "first_recorded": "2025-07-19"
       }
     ]
   },
@@ -160,9 +160,9 @@
         "total_charges": 16806,
         "total_payments": 12882,
         "current_balance": 3924,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-02-16",
-        "closed_date": "2026-04-13"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-05-11",
+        "closed_date": "2026-07-06"
       }
     ]
   },

@@ -6,30 +6,30 @@
     "birth_date": "2015-01-23",
     "age": 11,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 0,
     "encounter_count": 11,
     "total_charges": 29869,
-    "latitude": 40.41975,
-    "longitude": -79.78371,
-    "last_encounter_date": "2026-04-25",
+    "latitude": 40.30595,
+    "longitude": -75.12501,
+    "last_encounter_date": "2026-07-18",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6369 Beacon Ave",
     "state": "PA",
     "phone": "(412) 307-4244",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100453",
     "encounters": [
       {
         "pat_enc_csn_id": "0000453-000",
-        "contact_date": "2026-04-25",
+        "contact_date": "2026-07-18",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000453-001",
-        "contact_date": "2026-04-25",
+        "contact_date": "2026-07-18",
         "encounter_type": "Hospital Admission",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-002",
-        "contact_date": "2026-01-20",
+        "contact_date": "2026-04-14",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-003",
-        "contact_date": "2025-11-24",
+        "contact_date": "2026-02-16",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Garcia",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000453-004",
-        "contact_date": "2025-11-11",
+        "contact_date": "2026-02-03",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-005",
-        "contact_date": "2025-10-10",
+        "contact_date": "2026-01-02",
         "encounter_type": "Lab Only",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Khan",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-006",
-        "contact_date": "2025-03-01",
+        "contact_date": "2025-05-24",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Garcia",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-007",
-        "contact_date": "2025-02-08",
+        "contact_date": "2025-05-03",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Garcia",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-008",
-        "contact_date": "2024-08-22",
+        "contact_date": "2024-11-14",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000453-009",
-        "contact_date": "2024-07-24",
+        "contact_date": "2024-10-16",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. David Johnson",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000453-010",
-        "contact_date": "2024-07-03",
+        "contact_date": "2024-09-25",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 1,
@@ -146,7 +146,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-25"
+        "first_recorded": "2026-07-18"
       },
       {
         "dx_id": "0000453-acu-002",
@@ -154,7 +154,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-01-20"
+        "first_recorded": "2026-04-14"
       }
     ]
   },
@@ -175,7 +175,7 @@
         "total_payments": 14779,
         "current_balance": 6262,
         "primary_payer": "Cigna",
-        "opened_date": "2024-04-27",
+        "opened_date": "2024-07-20",
         "closed_date": null
       },
       {
@@ -185,8 +185,8 @@
         "total_charges": 8613,
         "total_payments": 6100,
         "current_balance": 2513,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-05-12",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-08-04",
         "closed_date": null
       },
       {
@@ -196,9 +196,9 @@
         "total_charges": 215,
         "total_payments": 138,
         "current_balance": 77,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-09-28",
-        "closed_date": "2025-11-23"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-12-21",
+        "closed_date": "2026-02-15"
       }
     ]
   },

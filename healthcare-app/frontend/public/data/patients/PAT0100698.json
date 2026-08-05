@@ -6,28 +6,28 @@
     "birth_date": "1987-07-07",
     "age": 39,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Aisha Wilson",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 14166,
-    "latitude": 40.4461,
-    "longitude": -79.96266,
-    "last_encounter_date": "2026-02-09",
+    "latitude": 39.9454,
+    "longitude": -75.22196,
+    "last_encounter_date": "2026-05-04",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5692 Liberty St",
     "state": "PA",
     "phone": "(412) 690-9134",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100698",
     "encounters": [
       {
         "pat_enc_csn_id": "0000698-000",
-        "contact_date": "2026-02-09",
+        "contact_date": "2026-05-04",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000698-001",
-        "contact_date": "2026-01-18",
+        "contact_date": "2026-04-12",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000698-002",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Wilson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000698-003",
-        "contact_date": "2025-03-24",
+        "contact_date": "2025-06-16",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha Wilson",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000698-004",
-        "contact_date": "2025-01-24",
+        "contact_date": "2025-04-18",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000698-005",
-        "contact_date": "2024-10-27",
+        "contact_date": "2025-01-19",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -96,7 +96,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000698-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-02-09"
+        "first_recorded": "2026-05-04"
       },
       {
         "dx_id": "0000698-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-01-18"
+        "first_recorded": "2026-04-12"
       }
     ]
   },
@@ -120,8 +120,8 @@
     "pat_id": "PAT0100698",
     "summary": {
       "total_charges": 14166,
-      "total_payments": 11305,
-      "outstanding_balance": 2861,
+      "total_payments": 11753,
+      "outstanding_balance": 2413,
       "account_count": 3
     },
     "accounts": [
@@ -132,9 +132,9 @@
         "total_charges": 2918,
         "total_payments": 1882,
         "current_balance": 1036,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-07-24",
-        "closed_date": "2025-12-27"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-10-16",
+        "closed_date": "2026-03-21"
       },
       {
         "hsp_account_id": "HSP000069801",
@@ -143,8 +143,8 @@
         "total_charges": 338,
         "total_payments": 251,
         "current_balance": 87,
-        "primary_payer": "Aetna",
-        "opened_date": "2024-09-05",
+        "primary_payer": "Cigna",
+        "opened_date": "2024-11-28",
         "closed_date": null
       },
       {
@@ -152,11 +152,11 @@
         "account_type": "Hospital",
         "status": "Closed",
         "total_charges": 10910,
-        "total_payments": 9172,
-        "current_balance": 1738,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-05-21",
-        "closed_date": "2025-12-11"
+        "total_payments": 9620,
+        "current_balance": 1290,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-08-13",
+        "closed_date": "2026-03-05"
       }
     ]
   },

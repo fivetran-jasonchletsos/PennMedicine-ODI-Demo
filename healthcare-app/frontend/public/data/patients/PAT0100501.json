@@ -6,15 +6,15 @@
     "birth_date": "1978-10-22",
     "age": 48,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Ashley Miller",
     "active_chronic_count": 1,
     "encounter_count": 14,
     "total_charges": 14474,
-    "latitude": 40.4507,
-    "longitude": -79.92627,
-    "last_encounter_date": "2026-03-15",
+    "latitude": 39.9362,
+    "longitude": -75.14777,
+    "last_encounter_date": "2026-06-07",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9755 Murray Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000501-000",
-        "contact_date": "2026-03-15",
+        "contact_date": "2026-06-07",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-001",
-        "contact_date": "2026-03-03",
+        "contact_date": "2026-05-26",
         "encounter_type": "Emergency Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Miller",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000501-002",
-        "contact_date": "2026-02-03",
+        "contact_date": "2026-04-28",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-003",
-        "contact_date": "2025-11-01",
+        "contact_date": "2026-01-24",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000501-004",
-        "contact_date": "2025-10-23",
+        "contact_date": "2026-01-15",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-005",
-        "contact_date": "2025-09-16",
+        "contact_date": "2025-12-09",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Miller",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-006",
-        "contact_date": "2025-06-10",
+        "contact_date": "2025-09-02",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Aisha Williams",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-007",
-        "contact_date": "2025-04-21",
+        "contact_date": "2025-07-14",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Miller",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-008",
-        "contact_date": "2025-04-02",
+        "contact_date": "2025-06-25",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Miller",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-009",
-        "contact_date": "2025-02-28",
+        "contact_date": "2025-05-23",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Robert Taylor",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-010",
-        "contact_date": "2025-01-21",
+        "contact_date": "2025-04-15",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Moore",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-011",
-        "contact_date": "2024-11-01",
+        "contact_date": "2025-01-24",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Miller",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-012",
-        "contact_date": "2024-09-09",
+        "contact_date": "2024-12-02",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -157,7 +157,7 @@
       },
       {
         "pat_enc_csn_id": "0000501-013",
-        "contact_date": "2024-07-21",
+        "contact_date": "2024-10-13",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Thomas",
@@ -176,7 +176,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2003-05-13"
+        "first_recorded": "2003-08-05"
       },
       {
         "dx_id": "0000501-acu-000",
@@ -184,7 +184,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-15"
+        "first_recorded": "2026-06-07"
       },
       {
         "dx_id": "0000501-acu-001",
@@ -192,7 +192,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-03"
+        "first_recorded": "2026-05-26"
       }
     ]
   },
@@ -213,8 +213,8 @@
         "total_payments": 5341,
         "current_balance": 1077,
         "primary_payer": "Medicare",
-        "opened_date": "2025-04-16",
-        "closed_date": "2025-11-05"
+        "opened_date": "2025-07-09",
+        "closed_date": "2026-01-28"
       },
       {
         "hsp_account_id": "HSP000050101",
@@ -223,9 +223,9 @@
         "total_charges": 1613,
         "total_payments": 1266,
         "current_balance": 347,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-08-12",
-        "closed_date": "2025-11-29"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-11-04",
+        "closed_date": "2026-02-21"
       },
       {
         "hsp_account_id": "HSP000050102",
@@ -234,9 +234,9 @@
         "total_charges": 6443,
         "total_payments": 3909,
         "current_balance": 2534,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-01-26",
-        "closed_date": "2026-04-01"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-04-19",
+        "closed_date": "2026-06-24"
       }
     ]
   },

@@ -6,28 +6,28 @@
     "birth_date": "1999-09-21",
     "age": 27,
     "sex": "M",
-    "city": "Penn Hills",
-    "zip_code": "15235",
+    "city": "Plymouth Meeting",
+    "zip_code": "19462",
     "primary_care_provider": "Dr. Sophia Gonzalez",
     "active_chronic_count": 1,
     "encounter_count": 10,
     "total_charges": 28113,
-    "latitude": 40.47742,
-    "longitude": -79.83853,
-    "last_encounter_date": "2026-04-29",
+    "latitude": 40.11222,
+    "longitude": -75.28303,
+    "last_encounter_date": "2026-07-22",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3116 Penn Rd",
     "state": "PA",
     "phone": "(412) 504-4984",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100592",
     "encounters": [
       {
         "pat_enc_csn_id": "0000592-000",
-        "contact_date": "2026-04-29",
+        "contact_date": "2026-07-22",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Ashley Garcia",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-001",
-        "contact_date": "2026-01-18",
+        "contact_date": "2026-04-12",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-002",
-        "contact_date": "2025-11-12",
+        "contact_date": "2026-02-04",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000592-003",
-        "contact_date": "2025-10-31",
+        "contact_date": "2026-01-23",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000592-004",
-        "contact_date": "2025-09-25",
+        "contact_date": "2025-12-18",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-005",
-        "contact_date": "2025-06-29",
+        "contact_date": "2025-09-21",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-006",
-        "contact_date": "2025-06-14",
+        "contact_date": "2025-09-06",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Moore",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-007",
-        "contact_date": "2025-03-19",
+        "contact_date": "2025-06-11",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Aisha Wilson",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000592-008",
-        "contact_date": "2024-08-04",
+        "contact_date": "2024-10-27",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000592-009",
-        "contact_date": "2024-06-28",
+        "contact_date": "2024-09-20",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -136,7 +136,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2017-05-13"
+        "first_recorded": "2017-08-05"
       },
       {
         "dx_id": "0000592-acu-000",
@@ -144,7 +144,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-29"
+        "first_recorded": "2026-07-22"
       },
       {
         "dx_id": "0000592-acu-001",
@@ -152,7 +152,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-01-18"
+        "first_recorded": "2026-04-12"
       },
       {
         "dx_id": "0000592-acu-002",
@@ -160,7 +160,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-11-12"
+        "first_recorded": "2026-02-04"
       }
     ]
   },
@@ -180,9 +180,9 @@
         "total_charges": 28113,
         "total_payments": 20575,
         "current_balance": 7538,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-12-25",
-        "closed_date": "2026-03-04"
+        "primary_payer": "Aetna",
+        "opened_date": "2026-03-19",
+        "closed_date": "2026-05-27"
       }
     ]
   },

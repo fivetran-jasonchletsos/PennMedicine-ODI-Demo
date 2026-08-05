@@ -6,15 +6,15 @@
     "birth_date": "1976-12-12",
     "age": 50,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. Maria Okonkwo",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 4000,
-    "latitude": 40.45339,
-    "longitude": -80.0127,
-    "last_encounter_date": "2026-05-01",
+    "latitude": 39.96689,
+    "longitude": -75.1779,
+    "last_encounter_date": "2026-07-24",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6822 Highland St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001060-000",
-        "contact_date": "2026-05-01",
+        "contact_date": "2026-07-24",
         "encounter_type": "Follow-up",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Maria Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001060-001",
-        "contact_date": "2025-06-07",
+        "contact_date": "2025-08-30",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Johnson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001060-002",
-        "contact_date": "2025-03-23",
+        "contact_date": "2025-06-15",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Maria Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001060-003",
-        "contact_date": "2024-08-30",
+        "contact_date": "2024-11-22",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Maria Okonkwo",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001060-004",
-        "contact_date": "2024-08-19",
+        "contact_date": "2024-11-11",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Wong",
@@ -86,7 +86,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2004-05-13"
+        "first_recorded": "2004-08-05"
       },
       {
         "dx_id": "0001060-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2001-05-13"
+        "first_recorded": "2001-08-05"
       },
       {
         "dx_id": "0001060-acu-000",
@@ -102,7 +102,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-05-01"
+        "first_recorded": "2026-07-24"
       },
       {
         "dx_id": "0001060-acu-001",
@@ -110,7 +110,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-06-07"
+        "first_recorded": "2025-08-30"
       },
       {
         "dx_id": "0001060-acu-002",
@@ -118,7 +118,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-03-23"
+        "first_recorded": "2025-06-15"
       }
     ]
   },
@@ -138,8 +138,8 @@
         "total_charges": 4000,
         "total_payments": 3494,
         "current_balance": 506,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-11-24",
+        "primary_payer": "Aetna",
+        "opened_date": "2025-02-16",
         "closed_date": null
       }
     ]

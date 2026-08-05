@@ -6,15 +6,15 @@
     "birth_date": "2007-11-03",
     "age": 19,
     "sex": "F",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Daniel Khan",
     "active_chronic_count": 1,
     "encounter_count": 11,
     "total_charges": 27319,
-    "latitude": 40.53241,
-    "longitude": -79.95563,
-    "last_encounter_date": "2026-05-06",
+    "latitude": 40.01141,
+    "longitude": -75.22573,
+    "last_encounter_date": "2026-07-29",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "2749 Centre St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000615-000",
-        "contact_date": "2026-05-06",
+        "contact_date": "2026-07-29",
         "encounter_type": "Follow-up",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-001",
-        "contact_date": "2026-04-16",
+        "contact_date": "2026-07-09",
         "encounter_type": "Hospital Admission",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Khan",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000615-002",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Procedure",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-003",
-        "contact_date": "2026-02-20",
+        "contact_date": "2026-05-15",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Miller",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000615-004",
-        "contact_date": "2026-01-18",
+        "contact_date": "2026-04-12",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-005",
-        "contact_date": "2025-09-04",
+        "contact_date": "2025-11-27",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Russo",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-006",
-        "contact_date": "2025-03-31",
+        "contact_date": "2025-06-23",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Khan",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000615-007",
-        "contact_date": "2024-10-20",
+        "contact_date": "2025-01-12",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-008",
-        "contact_date": "2024-08-27",
+        "contact_date": "2024-11-19",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Khan",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0000615-009",
-        "contact_date": "2024-07-08",
+        "contact_date": "2024-09-30",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Moore",
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000615-010",
-        "contact_date": "2024-05-24",
+        "contact_date": "2024-08-16",
         "encounter_type": "Lab Only",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -146,7 +146,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000615-acu-000",
@@ -154,7 +154,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-05-06"
+        "first_recorded": "2026-07-29"
       },
       {
         "dx_id": "0000615-acu-001",
@@ -162,7 +162,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-04-16"
+        "first_recorded": "2026-07-09"
       },
       {
         "dx_id": "0000615-acu-002",
@@ -170,7 +170,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-01"
+        "first_recorded": "2026-05-24"
       }
     ]
   },
@@ -191,8 +191,8 @@
         "total_payments": 17757,
         "current_balance": 9562,
         "primary_payer": "Aetna",
-        "opened_date": "2025-04-03",
-        "closed_date": "2026-01-30"
+        "opened_date": "2025-06-26",
+        "closed_date": "2026-04-24"
       }
     ]
   },

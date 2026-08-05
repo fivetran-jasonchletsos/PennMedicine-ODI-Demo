@@ -6,30 +6,30 @@
     "birth_date": "1970-12-21",
     "age": 56,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Sophia Gonzalez",
     "active_chronic_count": 3,
     "encounter_count": 12,
     "total_charges": 3091,
-    "latitude": 40.43333,
-    "longitude": -79.92849,
-    "last_encounter_date": "2026-04-01",
+    "latitude": 39.94773,
+    "longitude": -75.19159,
+    "last_encounter_date": "2026-06-24",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "4199 Liberty Rd",
     "state": "PA",
     "phone": "(412) 881-3251",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100153",
     "encounters": [
       {
         "pat_enc_csn_id": "0000153-000",
-        "contact_date": "2026-04-01",
+        "contact_date": "2026-06-24",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-001",
-        "contact_date": "2026-02-26",
+        "contact_date": "2026-05-21",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Garcia",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-002",
-        "contact_date": "2025-10-23",
+        "contact_date": "2026-01-15",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Chen",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000153-003",
-        "contact_date": "2025-10-17",
+        "contact_date": "2026-01-09",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-004",
-        "contact_date": "2025-05-13",
+        "contact_date": "2025-08-05",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. David Johnson",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-005",
-        "contact_date": "2025-04-11",
+        "contact_date": "2025-07-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Ashley Garcia",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000153-006",
-        "contact_date": "2024-11-15",
+        "contact_date": "2025-02-07",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 4,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-007",
-        "contact_date": "2024-11-08",
+        "contact_date": "2025-01-31",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-008",
-        "contact_date": "2024-11-04",
+        "contact_date": "2025-01-27",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Chen",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000153-009",
-        "contact_date": "2024-09-10",
+        "contact_date": "2024-12-03",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 4,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-010",
-        "contact_date": "2024-07-14",
+        "contact_date": "2024-10-06",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Thomas",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000153-011",
-        "contact_date": "2024-06-12",
+        "contact_date": "2024-09-04",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -156,7 +156,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000153-dx-001",
@@ -164,7 +164,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2019-05-13"
+        "first_recorded": "2019-08-05"
       },
       {
         "dx_id": "0000153-dx-002",
@@ -172,7 +172,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2017-05-13"
+        "first_recorded": "2017-08-05"
       },
       {
         "dx_id": "0000153-acu-001",
@@ -180,7 +180,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-26"
+        "first_recorded": "2026-05-21"
       },
       {
         "dx_id": "0000153-acu-002",
@@ -188,7 +188,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-23"
+        "first_recorded": "2026-01-15"
       }
     ]
   },
@@ -208,9 +208,9 @@
         "total_charges": 3091,
         "total_payments": 2021,
         "current_balance": 1070,
-        "primary_payer": "Aetna",
-        "opened_date": "2025-11-27",
-        "closed_date": "2026-04-12"
+        "primary_payer": "Cigna",
+        "opened_date": "2026-02-19",
+        "closed_date": "2026-07-05"
       }
     ]
   },

@@ -73,7 +73,7 @@ export default function AgentPage() {
               Ask anything about the patient population
             </h1>
             <p className="mt-3 text-sm sm:text-base text-[var(--ink-muted)] max-w-2xl leading-relaxed">
-              Plain-English questions over the published Snowflake snapshot. Answers route through a
+              Plain-English questions over the published Databricks snapshot. Answers route through a
               local rules engine — every figure traces back to the dbt-governed gold marts.
             </p>
           </div>

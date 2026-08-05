@@ -6,30 +6,30 @@
     "birth_date": "1979-08-06",
     "age": 47,
     "sex": "M",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 9,
     "total_charges": 1852,
-    "latitude": 40.34494,
-    "longitude": -79.84411,
-    "last_encounter_date": "2026-03-12",
+    "latitude": 40.15614,
+    "longitude": -75.21731,
+    "last_encounter_date": "2026-06-04",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7780 Forbes St",
     "state": "PA",
     "phone": "(412) 637-1869",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100398",
     "encounters": [
       {
         "pat_enc_csn_id": "0000398-000",
-        "contact_date": "2026-03-12",
+        "contact_date": "2026-06-04",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Linda Martinez",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-001",
-        "contact_date": "2025-10-21",
+        "contact_date": "2026-01-13",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-002",
-        "contact_date": "2025-09-05",
+        "contact_date": "2025-11-28",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-003",
-        "contact_date": "2025-06-27",
+        "contact_date": "2025-09-19",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-004",
-        "contact_date": "2025-05-01",
+        "contact_date": "2025-07-24",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-005",
-        "contact_date": "2025-04-14",
+        "contact_date": "2025-07-07",
         "encounter_type": "Follow-up",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Walsh",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000398-006",
-        "contact_date": "2024-11-21",
+        "contact_date": "2025-02-13",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-007",
-        "contact_date": "2024-08-18",
+        "contact_date": "2024-11-10",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000398-008",
-        "contact_date": "2024-08-09",
+        "contact_date": "2024-11-01",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -126,7 +126,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-12"
+        "first_recorded": "2026-06-04"
       },
       {
         "dx_id": "0000398-acu-001",
@@ -134,7 +134,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-10-21"
+        "first_recorded": "2026-01-13"
       }
     ]
   },
@@ -154,9 +154,9 @@
         "total_charges": 1852,
         "total_payments": 1127,
         "current_balance": 725,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2023-11-27",
-        "closed_date": "2025-11-24"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-02-19",
+        "closed_date": "2026-02-16"
       }
     ]
   },

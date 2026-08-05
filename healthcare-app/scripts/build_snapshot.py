@@ -1,14 +1,13 @@
 """
-Build a static JSON snapshot of the Snowflake clinical + financial marts
+Build a static JSON snapshot of the Databricks clinical + financial marts
 for the React frontend.
 
 Run locally:
-    SNOWFLAKE_ACCOUNT=... SNOWFLAKE_USER=... SNOWFLAKE_PASSWORD=... \
-    SNOWFLAKE_DATABASE=JASON_CHLETSOS_EPIC \
-    SNOWFLAKE_WAREHOUSE=JASON_CHLETSOS_QUERY_WH \
+    DATABRICKS_HOST=... DATABRICKS_HTTP_PATH=... DATABRICKS_TOKEN=... \
+    DATABRICKS_CATALOG=jason_chletsos_pennmed \
         python scripts/build_snapshot.py
 
-Without Snowflake credentials the script falls back to a synthetic
+Without Databricks credentials the script falls back to a synthetic
 demo dataset so the site is never empty.
 
 Output:
@@ -34,27 +33,24 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT_DIR = ROOT / "frontend" / "public" / "data"
 PATIENT_DIR = OUTPUT_DIR / "patients"
 
-DATABASE = os.getenv("SNOWFLAKE_DATABASE", "JASON_CHLETSOS_EPIC")
-CLINICAL = os.getenv("SNOWFLAKE_CLINICAL_SCHEMA", "CLINICAL")
-FINANCIAL = os.getenv("SNOWFLAKE_FINANCIAL_SCHEMA", "FINANCIAL")
+CATALOG = os.getenv("DATABRICKS_CATALOG", "jason_chletsos_pennmed")
+CLINICAL = os.getenv("DATABRICKS_CLINICAL_SCHEMA", "jason_chletsos_pennmed_clinical")
+FINANCIAL = os.getenv("DATABRICKS_FINANCIAL_SCHEMA", "jason_chletsos_pennmed_financial")
 
 
-def have_snowflake() -> bool:
+def have_databricks() -> bool:
     return all(
         os.getenv(k)
-        for k in ("SNOWFLAKE_ACCOUNT", "SNOWFLAKE_USER", "SNOWFLAKE_PASSWORD")
+        for k in ("DATABRICKS_HOST", "DATABRICKS_HTTP_PATH", "DATABRICKS_TOKEN")
     )
 
 
 def connect():
-    import snowflake.connector  # type: ignore
-    return snowflake.connector.connect(
-        account=os.environ["SNOWFLAKE_ACCOUNT"],
-        user=os.environ["SNOWFLAKE_USER"],
-        password=os.environ["SNOWFLAKE_PASSWORD"],
-        role=os.getenv("SNOWFLAKE_ROLE", "JASON_CHLETSOS_DBT_ROLE"),
-        warehouse=os.getenv("SNOWFLAKE_WAREHOUSE", "JASON_CHLETSOS_QUERY_WH"),
-        database=DATABASE,
+    from databricks import sql  # type: ignore
+    return sql.connect(
+        server_hostname=os.environ["DATABRICKS_HOST"],
+        http_path=os.environ["DATABRICKS_HTTP_PATH"],
+        access_token=os.environ["DATABRICKS_TOKEN"],
     )
 
 
@@ -79,7 +75,7 @@ def rows_to_dicts(cur) -> list[dict[str, Any]]:
 
 # ---------------------------------------------------------------------------
 
-def from_snowflake() -> dict[str, Any]:
+def from_databricks() -> dict[str, Any]:
     conn = connect()
     cur = conn.cursor()
     try:
@@ -90,7 +86,7 @@ def from_snowflake() -> dict[str, Any]:
                 COUNT(*)                    AS total_encounters,
                 AVG(total_charges)          AS avg_encounter_cost,
                 YEAR(MAX(contact_date))     AS current_year
-            FROM {DATABASE}.{CLINICAL}.fct_encounters
+            FROM {CATALOG}.{CLINICAL}.fct_encounters
             """
         )
         summary_row = rows_to_dicts(cur)[0]
@@ -100,19 +96,19 @@ def from_snowflake() -> dict[str, Any]:
             SELECT
                 p.pat_id, p.med_rec_num,
                 p.full_name, p.birth_date,
-                DATEDIFF('year', p.birth_date, CURRENT_DATE()) AS age,
+                FLOOR(DATEDIFF(CURRENT_DATE(), p.birth_date) / 365.25) AS age,
                 p.sex, p.city, p.zip_code,
                 p.primary_care_provider,
                 COALESCE(p.active_chronic_count, 0) AS active_chronic_count,
                 COALESCE(e.encounter_count, 0)      AS encounter_count,
                 COALESCE(e.total_charges, 0)        AS total_charges,
                 p.latitude, p.longitude
-            FROM {DATABASE}.{CLINICAL}.dim_patients p
+            FROM {CATALOG}.{CLINICAL}.dim_patients p
             LEFT JOIN (
                 SELECT pat_id,
                        COUNT(*) AS encounter_count,
                        SUM(total_charges) AS total_charges
-                FROM {DATABASE}.{CLINICAL}.fct_encounters
+                FROM {CATALOG}.{CLINICAL}.fct_encounters
                 GROUP BY pat_id
             ) e ON p.pat_id = e.pat_id
             ORDER BY encounter_count DESC NULLS LAST
@@ -130,7 +126,7 @@ def from_snowflake() -> dict[str, Any]:
 
 
 # ---------------------------------------------------------------------------
-# Demo fallback so the site renders something even without Snowflake.
+# Demo fallback so the site renders something even without Databricks.
 
 FIRST_NAMES = ["James", "Mary", "John", "Patricia", "Robert", "Jennifer", "Michael",
                "Linda", "William", "Elizabeth", "David", "Barbara", "Anil", "Reshma",
@@ -217,7 +213,7 @@ def write_snapshot(bundle: dict[str, Any], source: str):
     )
 
     # Real per-patient detail bundles come from the generator (or in
-    # production from per-patient SELECTs against Snowflake). Frontend
+    # production from per-patient SELECTs against Databricks). Frontend
     # synthesizes the rest from the list view if a detail is missing.
     details = bundle.get("details") if isinstance(bundle, dict) else None
     if details:
@@ -231,17 +227,17 @@ def write_snapshot(bundle: dict[str, Any], source: str):
 
 
 def main() -> int:
-    if have_snowflake():
+    if have_databricks():
         try:
-            print("Pulling live snapshot from Snowflake…")
-            bundle = from_snowflake()
+            print("Pulling live snapshot from Databricks…")
+            bundle = from_databricks()
             write_snapshot(bundle, source="live")
             return 0
         except Exception as e:  # noqa: BLE001
-            print(f"Snowflake query failed: {e}", file=sys.stderr)
+            print(f"Databricks query failed: {e}", file=sys.stderr)
             print("Falling back to synthetic demo dataset.", file=sys.stderr)
 
-    print("No Snowflake credentials — writing synthetic demo snapshot.")
+    print("No Databricks credentials — writing synthetic demo snapshot.")
     write_snapshot(fallback_dataset(), source="demo")
     return 0
 

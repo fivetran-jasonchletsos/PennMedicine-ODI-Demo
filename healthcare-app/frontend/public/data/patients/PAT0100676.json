@@ -6,15 +6,15 @@
     "birth_date": "1968-08-03",
     "age": 58,
     "sex": "F",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Aisha Hernandez",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 3820,
-    "latitude": 40.41895,
-    "longitude": -79.7927,
-    "last_encounter_date": "2026-01-20",
+    "latitude": 40.30515,
+    "longitude": -75.134,
+    "last_encounter_date": "2026-04-14",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1194 Penn St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000676-000",
-        "contact_date": "2026-01-20",
+        "contact_date": "2026-04-14",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. James Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000676-001",
-        "contact_date": "2025-09-15",
+        "contact_date": "2025-12-08",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000676-002",
-        "contact_date": "2025-07-05",
+        "contact_date": "2025-09-27",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Garcia",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000676-003",
-        "contact_date": "2024-11-23",
+        "contact_date": "2025-02-15",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Johnson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000676-004",
-        "contact_date": "2024-06-01",
+        "contact_date": "2024-08-24",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -86,7 +86,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "1994-05-13"
+        "first_recorded": "1994-08-05"
       },
       {
         "dx_id": "0000676-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "N18.3",
         "diagnosis_name": "Chronic kidney disease, stage 3",
         "chronic": true,
-        "first_recorded": "1995-05-13"
+        "first_recorded": "1995-08-05"
       },
       {
         "dx_id": "0000676-acu-001",
@@ -102,7 +102,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-09-15"
+        "first_recorded": "2025-12-08"
       },
       {
         "dx_id": "0000676-acu-002",
@@ -110,7 +110,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-07-05"
+        "first_recorded": "2025-09-27"
       }
     ]
   },
@@ -131,8 +131,8 @@
         "total_payments": 3364,
         "current_balance": 456,
         "primary_payer": "Medicare",
-        "opened_date": "2025-04-24",
-        "closed_date": "2025-12-13"
+        "opened_date": "2025-07-17",
+        "closed_date": "2026-03-07"
       }
     ]
   },

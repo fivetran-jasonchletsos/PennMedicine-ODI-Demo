@@ -6,15 +6,15 @@
     "birth_date": "1965-10-20",
     "age": 61,
     "sex": "F",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Sophia Gonzalez",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 7895,
-    "latitude": 40.52478,
-    "longitude": -79.96221,
-    "last_encounter_date": "2026-04-14",
+    "latitude": 40.00378,
+    "longitude": -75.23231,
+    "last_encounter_date": "2026-07-07",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5283 Forbes Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001317-000",
-        "contact_date": "2026-04-14",
+        "contact_date": "2026-07-07",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-001",
-        "contact_date": "2026-03-20",
+        "contact_date": "2026-06-12",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Martinez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-002",
-        "contact_date": "2025-07-08",
+        "contact_date": "2025-09-30",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-003",
-        "contact_date": "2025-03-23",
+        "contact_date": "2025-06-15",
         "encounter_type": "Procedure",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-004",
-        "contact_date": "2024-12-21",
+        "contact_date": "2025-03-15",
         "encounter_type": "Follow-up",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Ashley Garcia",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-005",
-        "contact_date": "2024-12-20",
+        "contact_date": "2025-03-14",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Thomas",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-006",
-        "contact_date": "2024-09-20",
+        "contact_date": "2024-12-13",
         "encounter_type": "Emergency Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Davis",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-007",
-        "contact_date": "2024-09-09",
+        "contact_date": "2024-12-02",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001317-008",
-        "contact_date": "2024-06-27",
+        "contact_date": "2024-09-19",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -126,7 +126,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2023-05-13"
+        "first_recorded": "2023-08-05"
       },
       {
         "dx_id": "0001317-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "M54.50",
         "diagnosis_name": "Low back pain, unspecified",
         "chronic": true,
-        "first_recorded": "1992-05-13"
+        "first_recorded": "1992-08-05"
       },
       {
         "dx_id": "0001317-acu-000",
@@ -142,7 +142,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-14"
+        "first_recorded": "2026-07-07"
       },
       {
         "dx_id": "0001317-acu-001",
@@ -150,7 +150,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-20"
+        "first_recorded": "2026-06-12"
       },
       {
         "dx_id": "0001317-acu-002",
@@ -158,7 +158,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-07-08"
+        "first_recorded": "2025-09-30"
       }
     ]
   },
@@ -179,8 +179,8 @@
         "total_payments": 6763,
         "current_balance": 1132,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-03-02",
-        "closed_date": "2026-05-03"
+        "opened_date": "2025-05-25",
+        "closed_date": "2026-07-26"
       }
     ]
   },

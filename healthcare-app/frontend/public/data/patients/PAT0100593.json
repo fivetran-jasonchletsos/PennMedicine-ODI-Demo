@@ -6,15 +6,15 @@
     "birth_date": "1964-12-23",
     "age": 62,
     "sex": "M",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Robert Taylor",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 13109,
-    "latitude": 40.49187,
-    "longitude": -79.90308,
-    "last_encounter_date": "2026-03-12",
+    "latitude": 40.00327,
+    "longitude": -75.29208,
+    "last_encounter_date": "2026-06-04",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "3910 Beacon Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000593-000",
-        "contact_date": "2026-03-12",
+        "contact_date": "2026-06-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Robert Taylor",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000593-001",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Robert Taylor",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000593-002",
-        "contact_date": "2025-05-22",
+        "contact_date": "2025-08-14",
         "encounter_type": "Hospital Admission",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000593-003",
-        "contact_date": "2025-02-02",
+        "contact_date": "2025-04-27",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Thomas",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000593-004",
-        "contact_date": "2024-08-04",
+        "contact_date": "2024-10-27",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000593-005",
-        "contact_date": "2024-07-29",
+        "contact_date": "2024-10-21",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000593-006",
-        "contact_date": "2024-05-25",
+        "contact_date": "2024-08-17",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Taylor",
@@ -106,7 +106,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-05-22"
+        "first_recorded": "2025-08-14"
       }
     ]
   },
@@ -127,8 +127,8 @@
         "total_payments": 4027,
         "current_balance": 958,
         "primary_payer": "Medicare",
-        "opened_date": "2026-02-04",
-        "closed_date": "2025-11-17"
+        "opened_date": "2026-04-29",
+        "closed_date": "2026-02-09"
       },
       {
         "hsp_account_id": "HSP000059301",
@@ -137,9 +137,9 @@
         "total_charges": 8124,
         "total_payments": 5977,
         "current_balance": 2147,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-08-09",
-        "closed_date": "2026-01-21"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-11-01",
+        "closed_date": "2026-04-15"
       }
     ]
   },

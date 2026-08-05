@@ -6,15 +6,15 @@
     "birth_date": "1956-08-08",
     "age": 70,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15222",
+    "city": "Philadelphia",
+    "zip_code": "19124",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 2,
     "encounter_count": 13,
     "total_charges": 9378,
-    "latitude": 40.44762,
-    "longitude": -79.99946,
-    "last_encounter_date": "2026-04-07",
+    "latitude": 40.09982,
+    "longitude": -75.08966,
+    "last_encounter_date": "2026-06-30",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "39 Forbes St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001063-000",
-        "contact_date": "2026-04-07",
+        "contact_date": "2026-06-30",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-001",
-        "contact_date": "2026-03-04",
+        "contact_date": "2026-05-27",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Johnson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-002",
-        "contact_date": "2026-02-27",
+        "contact_date": "2026-05-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Johnson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-003",
-        "contact_date": "2025-11-17",
+        "contact_date": "2026-02-09",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Johnson",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-004",
-        "contact_date": "2025-10-03",
+        "contact_date": "2025-12-26",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Johnson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001063-005",
-        "contact_date": "2025-06-15",
+        "contact_date": "2025-09-07",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 3,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001063-006",
-        "contact_date": "2025-04-05",
+        "contact_date": "2025-06-28",
         "encounter_type": "Hospital Admission",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Thomas",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001063-007",
-        "contact_date": "2025-03-22",
+        "contact_date": "2025-06-14",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0001063-008",
-        "contact_date": "2025-02-02",
+        "contact_date": "2025-04-27",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-009",
-        "contact_date": "2025-01-03",
+        "contact_date": "2025-03-28",
         "encounter_type": "Lab Only",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Johnson",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-010",
-        "contact_date": "2024-09-02",
+        "contact_date": "2024-11-25",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Johnson",
@@ -137,9 +137,9 @@
       },
       {
         "pat_enc_csn_id": "0001063-011",
-        "contact_date": "2024-08-04",
+        "contact_date": "2024-10-27",
         "encounter_type": "Lab Only",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Linda Russo",
         "chief_complaint": "Headache",
         "diagnosis_count": 3,
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0001063-012",
-        "contact_date": "2024-06-09",
+        "contact_date": "2024-09-01",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Johnson",
@@ -166,7 +166,7 @@
         "icd10_code": "N18.3",
         "diagnosis_name": "Chronic kidney disease, stage 3",
         "chronic": true,
-        "first_recorded": "2002-05-13"
+        "first_recorded": "2002-08-05"
       },
       {
         "dx_id": "0001063-dx-001",
@@ -174,7 +174,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "1976-05-13"
+        "first_recorded": "1976-08-05"
       },
       {
         "dx_id": "0001063-acu-000",
@@ -182,7 +182,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-04-07"
+        "first_recorded": "2026-06-30"
       },
       {
         "dx_id": "0001063-acu-001",
@@ -190,7 +190,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-04"
+        "first_recorded": "2026-05-27"
       },
       {
         "dx_id": "0001063-acu-002",
@@ -198,7 +198,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-02-27"
+        "first_recorded": "2026-05-22"
       }
     ]
   },
@@ -219,8 +219,8 @@
         "total_payments": 7782,
         "current_balance": 1596,
         "primary_payer": "Medicare",
-        "opened_date": "2024-10-02",
-        "closed_date": "2026-03-02"
+        "opened_date": "2024-12-25",
+        "closed_date": "2026-05-25"
       }
     ]
   },

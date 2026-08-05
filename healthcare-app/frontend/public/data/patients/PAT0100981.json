@@ -6,15 +6,15 @@
     "birth_date": "1992-07-08",
     "age": 34,
     "sex": "F",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 1352,
-    "latitude": 40.37265,
-    "longitude": -80.04792,
-    "last_encounter_date": "2026-05-03",
+    "latitude": 40.01715,
+    "longitude": -75.32302,
+    "last_encounter_date": "2026-07-26",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "7082 Murray Blvd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000981-000",
-        "contact_date": "2026-05-03",
+        "contact_date": "2026-07-26",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000981-001",
-        "contact_date": "2026-03-21",
+        "contact_date": "2026-06-13",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Johnson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000981-002",
-        "contact_date": "2025-10-13",
+        "contact_date": "2026-01-05",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha O'Brien",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000981-003",
-        "contact_date": "2025-04-06",
+        "contact_date": "2025-06-29",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000981-004",
-        "contact_date": "2024-10-07",
+        "contact_date": "2024-12-30",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Michael Johnson",
@@ -86,7 +86,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2012-05-13"
+        "first_recorded": "2012-08-05"
       },
       {
         "dx_id": "0000981-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0000981-acu-000",
@@ -102,7 +102,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-05-03"
+        "first_recorded": "2026-07-26"
       },
       {
         "dx_id": "0000981-acu-002",
@@ -110,7 +110,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2025-10-13"
+        "first_recorded": "2026-01-05"
       }
     ]
   },
@@ -130,9 +130,9 @@
         "total_charges": 1352,
         "total_payments": 1114,
         "current_balance": 238,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-08-01",
-        "closed_date": "2026-01-24"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-10-24",
+        "closed_date": "2026-04-18"
       }
     ]
   },

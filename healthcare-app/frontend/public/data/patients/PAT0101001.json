@@ -6,28 +6,28 @@
     "birth_date": "1970-05-13",
     "age": 56,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Robert Chen",
     "active_chronic_count": 3,
     "encounter_count": 6,
     "total_charges": 43588,
-    "latitude": 40.44279,
-    "longitude": -79.95566,
-    "last_encounter_date": "2025-09-25",
+    "latitude": 39.94209,
+    "longitude": -75.21496,
+    "last_encounter_date": "2025-12-18",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6555 Centre Ave",
     "state": "PA",
     "phone": "(412) 521-5323",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0101001",
     "encounters": [
       {
         "pat_enc_csn_id": "0001001-000",
-        "contact_date": "2025-09-25",
+        "contact_date": "2025-12-18",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Hernandez",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001001-001",
-        "contact_date": "2025-03-11",
+        "contact_date": "2025-06-03",
         "encounter_type": "Hospital Admission",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. James Russo",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 4,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001001-002",
-        "contact_date": "2024-11-18",
+        "contact_date": "2025-02-10",
         "encounter_type": "Hospital Admission",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Thomas",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001001-003",
-        "contact_date": "2024-06-11",
+        "contact_date": "2024-09-03",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Chen",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001001-004",
-        "contact_date": "2024-05-25",
+        "contact_date": "2024-08-17",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Williams",
         "chief_complaint": "Headache",
         "diagnosis_count": 4,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001001-005",
-        "contact_date": "2024-05-24",
+        "contact_date": "2024-08-16",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Robert Chen",
@@ -96,7 +96,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2018-05-13"
+        "first_recorded": "2018-08-05"
       },
       {
         "dx_id": "0001001-dx-001",
@@ -104,7 +104,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0001001-dx-002",
@@ -112,7 +112,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "1998-05-13"
+        "first_recorded": "1998-08-05"
       },
       {
         "dx_id": "0001001-acu-001",
@@ -120,7 +120,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-03-11"
+        "first_recorded": "2025-06-03"
       },
       {
         "dx_id": "0001001-acu-002",
@@ -128,7 +128,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2024-11-18"
+        "first_recorded": "2025-02-10"
       }
     ]
   },
@@ -149,8 +149,8 @@
         "total_payments": 9772,
         "current_balance": 2443,
         "primary_payer": "Medicare",
-        "opened_date": "2024-03-02",
-        "closed_date": "2026-01-05"
+        "opened_date": "2024-05-25",
+        "closed_date": "2026-03-30"
       },
       {
         "hsp_account_id": "HSP000100101",
@@ -160,7 +160,7 @@
         "total_payments": 28600,
         "current_balance": 2773,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-04-30",
+        "opened_date": "2025-07-23",
         "closed_date": null
       }
     ]

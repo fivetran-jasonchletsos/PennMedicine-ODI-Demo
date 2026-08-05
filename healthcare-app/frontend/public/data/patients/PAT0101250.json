@@ -6,15 +6,15 @@
     "birth_date": "1967-06-01",
     "age": 59,
     "sex": "F",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 0,
     "encounter_count": 9,
     "total_charges": 3360,
-    "latitude": 40.50404,
-    "longitude": -79.75718,
-    "last_encounter_date": "2025-11-08",
+    "latitude": 39.96194,
+    "longitude": -75.59988,
+    "last_encounter_date": "2026-01-31",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "5101 Liberty Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001250-000",
-        "contact_date": "2025-11-08",
+        "contact_date": "2026-01-31",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Nguyen",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001250-001",
-        "contact_date": "2025-09-29",
+        "contact_date": "2025-12-22",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Moore",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001250-002",
-        "contact_date": "2025-05-29",
+        "contact_date": "2025-08-21",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Jackson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001250-003",
-        "contact_date": "2025-03-16",
+        "contact_date": "2025-06-08",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Nguyen",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001250-004",
-        "contact_date": "2024-12-27",
+        "contact_date": "2025-03-21",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Nguyen",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001250-005",
-        "contact_date": "2024-12-17",
+        "contact_date": "2025-03-11",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001250-006",
-        "contact_date": "2024-09-27",
+        "contact_date": "2024-12-20",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001250-007",
-        "contact_date": "2024-07-03",
+        "contact_date": "2024-09-25",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. James Russo",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 1,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001250-008",
-        "contact_date": "2024-06-13",
+        "contact_date": "2024-09-05",
         "encounter_type": "Emergency Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -126,7 +126,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-11-08"
+        "first_recorded": "2026-01-31"
       },
       {
         "dx_id": "0001250-acu-001",
@@ -134,7 +134,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-09-29"
+        "first_recorded": "2025-12-22"
       }
     ]
   },
@@ -154,9 +154,9 @@
         "total_charges": 3360,
         "total_payments": 2610,
         "current_balance": 750,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-07-25",
-        "closed_date": "2025-12-13"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-17",
+        "closed_date": "2026-03-07"
       }
     ]
   },

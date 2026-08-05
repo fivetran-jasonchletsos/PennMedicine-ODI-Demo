@@ -6,28 +6,28 @@
     "birth_date": "1997-09-06",
     "age": 29,
     "sex": "M",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 2,
     "encounter_count": 5,
     "total_charges": 1287,
-    "latitude": 40.35661,
-    "longitude": -79.90238,
-    "last_encounter_date": "2026-04-27",
+    "latitude": 39.93111,
+    "longitude": -75.03228,
+    "last_encounter_date": "2026-07-20",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8016 Forbes St",
     "state": "PA",
     "phone": "(412) 620-8177",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100756",
     "encounters": [
       {
         "pat_enc_csn_id": "0000756-000",
-        "contact_date": "2026-04-27",
+        "contact_date": "2026-07-20",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000756-001",
-        "contact_date": "2025-08-24",
+        "contact_date": "2025-11-16",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000756-002",
-        "contact_date": "2025-06-02",
+        "contact_date": "2025-08-25",
         "encounter_type": "Follow-up",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000756-003",
-        "contact_date": "2025-04-26",
+        "contact_date": "2025-07-19",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Garcia",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000756-004",
-        "contact_date": "2024-06-09",
+        "contact_date": "2024-09-01",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -86,7 +86,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0000756-dx-001",
@@ -94,7 +94,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000756-acu-000",
@@ -102,7 +102,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-04-27"
+        "first_recorded": "2026-07-20"
       },
       {
         "dx_id": "0000756-acu-001",
@@ -110,7 +110,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-24"
+        "first_recorded": "2025-11-16"
       },
       {
         "dx_id": "0000756-acu-002",
@@ -118,7 +118,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2025-06-02"
+        "first_recorded": "2025-08-25"
       }
     ]
   },
@@ -138,8 +138,8 @@
         "total_charges": 1287,
         "total_payments": 1078,
         "current_balance": 209,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-11-04",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-01-27",
         "closed_date": null
       }
     ]

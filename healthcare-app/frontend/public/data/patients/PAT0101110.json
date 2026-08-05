@@ -6,15 +6,15 @@
     "birth_date": "2000-04-25",
     "age": 26,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Daniel Jackson",
     "active_chronic_count": 0,
     "encounter_count": 2,
     "total_charges": 750,
-    "latitude": 40.42375,
-    "longitude": -79.78786,
-    "last_encounter_date": "2026-04-25",
+    "latitude": 40.30995,
+    "longitude": -75.12916,
+    "last_encounter_date": "2026-07-18",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9332 Centre Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001110-000",
-        "contact_date": "2026-04-25",
+        "contact_date": "2026-07-18",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. James Russo",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001110-001",
-        "contact_date": "2025-02-27",
+        "contact_date": "2025-05-22",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 1,
@@ -56,7 +56,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-04-25"
+        "first_recorded": "2026-07-18"
       },
       {
         "dx_id": "0001110-acu-001",
@@ -64,7 +64,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-02-27"
+        "first_recorded": "2025-05-22"
       }
     ]
   },
@@ -72,8 +72,8 @@
     "pat_id": "PAT0101110",
     "summary": {
       "total_charges": 750,
-      "total_payments": 584,
-      "outstanding_balance": 166,
+      "total_payments": 659,
+      "outstanding_balance": 91,
       "account_count": 1
     },
     "accounts": [
@@ -82,11 +82,11 @@
         "account_type": "Professional",
         "status": "Closed",
         "total_charges": 750,
-        "total_payments": 584,
-        "current_balance": 166,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-07-19",
-        "closed_date": "2026-02-15"
+        "total_payments": 659,
+        "current_balance": 91,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-10-11",
+        "closed_date": "2026-05-10"
       }
     ]
   },

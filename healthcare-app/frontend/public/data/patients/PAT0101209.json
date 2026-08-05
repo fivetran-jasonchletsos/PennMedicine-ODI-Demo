@@ -6,15 +6,15 @@
     "birth_date": "2007-12-08",
     "age": 19,
     "sex": "F",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 10,
     "total_charges": 32148,
-    "latitude": 40.34976,
-    "longitude": -79.85143,
-    "last_encounter_date": "2026-05-09",
+    "latitude": 40.16096,
+    "longitude": -75.22463,
+    "last_encounter_date": "2026-08-01",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8423 Murray St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001209-000",
-        "contact_date": "2026-05-09",
+        "contact_date": "2026-08-01",
         "encounter_type": "Hospital Admission",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001209-001",
-        "contact_date": "2026-02-03",
+        "contact_date": "2026-04-28",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001209-002",
-        "contact_date": "2025-09-28",
+        "contact_date": "2025-12-21",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Kenji Walsh",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001209-003",
-        "contact_date": "2025-07-13",
+        "contact_date": "2025-10-05",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Kenji Walsh",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001209-004",
-        "contact_date": "2025-06-09",
+        "contact_date": "2025-09-01",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Ashley Garcia",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 1,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001209-005",
-        "contact_date": "2025-04-27",
+        "contact_date": "2025-07-20",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 1,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001209-006",
-        "contact_date": "2025-03-05",
+        "contact_date": "2025-05-28",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Kenji Walsh",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0001209-007",
-        "contact_date": "2024-12-16",
+        "contact_date": "2025-03-10",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Garcia",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001209-008",
-        "contact_date": "2024-12-04",
+        "contact_date": "2025-02-26",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Moore",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001209-009",
-        "contact_date": "2024-10-21",
+        "contact_date": "2025-01-13",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -136,7 +136,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2025-09-28"
+        "first_recorded": "2025-12-21"
       }
     ]
   },
@@ -144,8 +144,8 @@
     "pat_id": "PAT0101209",
     "summary": {
       "total_charges": 32148,
-      "total_payments": 21665,
-      "outstanding_balance": 10483,
+      "total_payments": 26803,
+      "outstanding_balance": 5345,
       "account_count": 3
     },
     "accounts": [
@@ -156,8 +156,8 @@
         "total_charges": 7514,
         "total_payments": 4931,
         "current_balance": 2583,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-01-10",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-04-04",
         "closed_date": null
       },
       {
@@ -165,10 +165,10 @@
         "account_type": "Professional",
         "status": "Open",
         "total_charges": 23763,
-        "total_payments": 15981,
-        "current_balance": 7782,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-10-27",
+        "total_payments": 21119,
+        "current_balance": 2644,
+        "primary_payer": "Medicare",
+        "opened_date": "2026-01-19",
         "closed_date": null
       },
       {
@@ -179,8 +179,8 @@
         "total_payments": 753,
         "current_balance": 118,
         "primary_payer": "Medicare",
-        "opened_date": "2025-12-28",
-        "closed_date": "2026-01-16"
+        "opened_date": "2026-03-22",
+        "closed_date": "2026-04-10"
       }
     ]
   },

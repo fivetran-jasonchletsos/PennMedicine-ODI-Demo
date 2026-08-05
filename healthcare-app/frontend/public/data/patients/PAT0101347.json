@@ -6,28 +6,28 @@
     "birth_date": "2008-09-22",
     "age": 18,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Carlos Okonkwo",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 21191,
-    "latitude": 40.447,
-    "longitude": -79.92767,
-    "last_encounter_date": "2026-03-24",
+    "latitude": 39.9325,
+    "longitude": -75.14917,
+    "last_encounter_date": "2026-06-16",
     "race": "Other",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4763 Beacon Rd",
     "state": "PA",
     "phone": "(412) 270-5749",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0101347",
     "encounters": [
       {
         "pat_enc_csn_id": "0001347-000",
-        "contact_date": "2026-03-24",
+        "contact_date": "2026-06-16",
         "encounter_type": "Hospital Admission",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001347-001",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Jackson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001347-002",
-        "contact_date": "2025-09-30",
+        "contact_date": "2025-12-23",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Walsh",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001347-003",
-        "contact_date": "2025-09-20",
+        "contact_date": "2025-12-13",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Martinez",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001347-004",
-        "contact_date": "2025-05-18",
+        "contact_date": "2025-08-10",
         "encounter_type": "Emergency Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Carlos Okonkwo",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001347-005",
-        "contact_date": "2025-05-14",
+        "contact_date": "2025-08-06",
         "encounter_type": "Lab Only",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Carlos Okonkwo",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 1,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001347-006",
-        "contact_date": "2024-11-08",
+        "contact_date": "2025-01-31",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Khan",
@@ -106,7 +106,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-24"
+        "first_recorded": "2026-06-16"
       },
       {
         "dx_id": "0001347-acu-002",
@@ -114,7 +114,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-09-30"
+        "first_recorded": "2025-12-23"
       }
     ]
   },
@@ -134,9 +134,9 @@
         "total_charges": 5555,
         "total_payments": 3698,
         "current_balance": 1857,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-04-02",
-        "closed_date": "2026-01-28"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-06-25",
+        "closed_date": "2026-04-22"
       },
       {
         "hsp_account_id": "HSP000134701",
@@ -145,9 +145,9 @@
         "total_charges": 15636,
         "total_payments": 9433,
         "current_balance": 6203,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-10-03",
-        "closed_date": "2026-04-26"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-12-26",
+        "closed_date": "2026-07-19"
       }
     ]
   },

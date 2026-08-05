@@ -8,7 +8,7 @@ with source as (
 
 renamed as (
     select
-        cast(pat_enc_csn_id as varchar)             as encounter_id,
+        cast(pat_enc_csn_id as string)             as encounter_id,
         trim(dx_id_dx_name)                         as diagnosis_name,
         cast(line as integer)                       as diagnosis_line,
         case

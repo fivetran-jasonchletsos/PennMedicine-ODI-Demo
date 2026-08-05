@@ -1,4 +1,17 @@
-aws_region   = "us-east-1"
-rds_username = "admin"
-rds_password = "YourSecurePassword123!"
-db_name      = "HEALTHCAREDEMO"
+# AWS Configuration
+aws_region  = "us-east-1"
+aws_profile = "default"
+
+# Database Credentials (EC2 SQL Server)
+db_username = "admin"
+db_password = "YourSecurePassword123!"
+schema_name = "CLARITY"
+
+# Fivetran Configuration
+fivetran_api_key    = "your-fivetran-api-key"
+fivetran_api_secret = "your-fivetran-api-secret"
+
+# Group ID of the pre-existing Fivetran Databricks Unity Catalog
+# destination (jason_chletsos_databricks) — the destination itself
+# is not managed by this Terraform, only referenced by ID here.
+fivetran_destination_id = "your-databricks-destination-group-id"

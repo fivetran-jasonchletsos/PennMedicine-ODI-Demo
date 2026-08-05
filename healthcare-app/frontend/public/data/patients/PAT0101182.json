@@ -6,15 +6,15 @@
     "birth_date": "2008-12-09",
     "age": 18,
     "sex": "F",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 1,
     "encounter_count": 13,
     "total_charges": 24879,
-    "latitude": 40.33445,
-    "longitude": -80.04116,
-    "last_encounter_date": "2026-04-07",
+    "latitude": 40.09385,
+    "longitude": -75.39906,
+    "last_encounter_date": "2026-06-30",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1734 Highland Ave",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001182-000",
-        "contact_date": "2026-04-07",
+        "contact_date": "2026-06-30",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-001",
-        "contact_date": "2026-03-26",
+        "contact_date": "2026-06-18",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Jackson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-002",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Hospital Admission",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Nguyen",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0001182-003",
-        "contact_date": "2026-01-26",
+        "contact_date": "2026-04-20",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 2,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001182-004",
-        "contact_date": "2025-12-20",
+        "contact_date": "2026-03-14",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Mark Nguyen",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-005",
-        "contact_date": "2025-10-12",
+        "contact_date": "2026-01-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-006",
-        "contact_date": "2025-08-06",
+        "contact_date": "2025-10-29",
         "encounter_type": "Follow-up",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Nguyen",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-007",
-        "contact_date": "2025-04-05",
+        "contact_date": "2025-06-28",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Khan",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-008",
-        "contact_date": "2025-02-10",
+        "contact_date": "2025-05-05",
         "encounter_type": "Emergency Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-009",
-        "contact_date": "2025-01-20",
+        "contact_date": "2025-04-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Greene",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-010",
-        "contact_date": "2024-08-31",
+        "contact_date": "2024-11-23",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Nguyen",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-011",
-        "contact_date": "2024-08-21",
+        "contact_date": "2024-11-13",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Moore",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0001182-012",
-        "contact_date": "2024-08-10",
+        "contact_date": "2024-11-02",
         "encounter_type": "Lab Only",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Nguyen",
@@ -166,7 +166,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0001182-acu-001",
@@ -174,7 +174,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-26"
+        "first_recorded": "2026-06-18"
       }
     ]
   },
@@ -195,8 +195,8 @@
         "total_payments": 10834,
         "current_balance": 3807,
         "primary_payer": "Self-pay",
-        "opened_date": "2025-02-20",
-        "closed_date": "2026-04-04"
+        "opened_date": "2025-05-15",
+        "closed_date": "2026-06-27"
       },
       {
         "hsp_account_id": "HSP000118201",
@@ -205,9 +205,9 @@
         "total_charges": 10238,
         "total_payments": 6212,
         "current_balance": 4026,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-05-31",
-        "closed_date": "2025-12-30"
+        "primary_payer": "Aetna",
+        "opened_date": "2025-08-23",
+        "closed_date": "2026-03-24"
       }
     ]
   },

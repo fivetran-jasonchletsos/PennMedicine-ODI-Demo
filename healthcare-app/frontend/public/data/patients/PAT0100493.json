@@ -6,15 +6,15 @@
     "birth_date": "2000-03-22",
     "age": 26,
     "sex": "M",
-    "city": "Aspinwall",
-    "zip_code": "15215",
+    "city": "Wynnewood",
+    "zip_code": "19096",
     "primary_care_provider": "Dr. Mark Nguyen",
     "active_chronic_count": 1,
     "encounter_count": 5,
     "total_charges": 34892,
-    "latitude": 40.48983,
-    "longitude": -79.90644,
-    "last_encounter_date": "2025-11-14",
+    "latitude": 40.00123,
+    "longitude": -75.29544,
+    "last_encounter_date": "2026-02-06",
     "race": "White",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "1307 Walnut Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000493-000",
-        "contact_date": "2025-11-14",
+        "contact_date": "2026-02-06",
         "encounter_type": "Hospital Admission",
         "department_name": "Cardiology",
         "provider_name": "Dr. Mark Thomas",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000493-001",
-        "contact_date": "2025-05-03",
+        "contact_date": "2025-07-26",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Anderson",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000493-002",
-        "contact_date": "2025-04-03",
+        "contact_date": "2025-06-26",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Robert Taylor",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000493-003",
-        "contact_date": "2025-03-24",
+        "contact_date": "2025-06-16",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Nguyen",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000493-004",
-        "contact_date": "2024-08-13",
+        "contact_date": "2024-11-05",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Nguyen",
@@ -86,7 +86,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2022-05-13"
+        "first_recorded": "2022-08-05"
       },
       {
         "dx_id": "0000493-acu-000",
@@ -94,7 +94,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-11-14"
+        "first_recorded": "2026-02-06"
       },
       {
         "dx_id": "0000493-acu-001",
@@ -102,7 +102,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-05-03"
+        "first_recorded": "2025-07-26"
       }
     ]
   },
@@ -110,8 +110,8 @@
     "pat_id": "PAT0100493",
     "summary": {
       "total_charges": 34892,
-      "total_payments": 28011,
-      "outstanding_balance": 6881,
+      "total_payments": 28225,
+      "outstanding_balance": 6667,
       "account_count": 2
     },
     "accounts": [
@@ -120,10 +120,10 @@
         "account_type": "Rx",
         "status": "Open",
         "total_charges": 25454,
-        "total_payments": 21111,
-        "current_balance": 4343,
-        "primary_payer": "Cigna",
-        "opened_date": "2023-12-23",
+        "total_payments": 21325,
+        "current_balance": 4129,
+        "primary_payer": "Medicare",
+        "opened_date": "2024-03-16",
         "closed_date": null
       },
       {
@@ -133,9 +133,9 @@
         "total_charges": 9438,
         "total_payments": 6900,
         "current_balance": 2538,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2026-02-28",
-        "closed_date": "2025-11-11"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-05-23",
+        "closed_date": "2026-02-03"
       }
     ]
   },

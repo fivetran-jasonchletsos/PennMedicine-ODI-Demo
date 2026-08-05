@@ -8,8 +8,8 @@ with source as (
 
 renamed as (
     select
-        cast(patient_id as varchar)                 as pat_id,
-        cast(protocol_id as varchar)                as protocol_id,
+        cast(patient_id as string)                 as pat_id,
+        cast(protocol_id as string)                as protocol_id,
         trim(protocol_id_protocol_name)             as protocol_name,
         cast(protocol_line as integer)              as protocol_line,
         trim(enroll_status_c_name)                  as enrollment_status,

@@ -6,28 +6,28 @@
     "birth_date": "2003-12-12",
     "age": 23,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. Michael Johnson",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 5869,
-    "latitude": 40.44913,
-    "longitude": -80.09904,
-    "last_encounter_date": "2024-12-12",
+    "latitude": 39.92063,
+    "longitude": -75.38304,
+    "last_encounter_date": "2025-03-06",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "4799 Beacon Rd",
     "state": "PA",
     "phone": "(412) 361-6232",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100372",
     "encounters": [
       {
         "pat_enc_csn_id": "0000372-000",
-        "contact_date": "2024-12-12",
+        "contact_date": "2025-03-06",
         "encounter_type": "Follow-up",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Michael Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000372-001",
-        "contact_date": "2024-11-16",
+        "contact_date": "2025-02-08",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000372-002",
-        "contact_date": "2024-11-15",
+        "contact_date": "2025-02-07",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha O'Brien",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -66,7 +66,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000372-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2024-12-12"
+        "first_recorded": "2025-03-06"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 5869,
         "total_payments": 4626,
         "current_balance": 1243,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-02-18",
-        "closed_date": "2026-02-27"
+        "primary_payer": "Aetna",
+        "opened_date": "2024-05-12",
+        "closed_date": "2026-05-22"
       }
     ]
   },

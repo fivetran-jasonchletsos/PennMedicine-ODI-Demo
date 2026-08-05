@@ -156,7 +156,7 @@ export default function WatchlistPage() {
         <div className="mt-6">
           <ProvenanceStrip
             freshness="4 min ago"
-            source="Clarity Health · Watchlist mart"
+            source="Penn Medicine · Watchlist mart"
             rows={`${formatNumber(cohortStats.n)} rows · watchlist`}
           />
         </div>

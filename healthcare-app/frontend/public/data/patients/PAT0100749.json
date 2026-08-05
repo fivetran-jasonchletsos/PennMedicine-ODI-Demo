@@ -6,28 +6,28 @@
     "birth_date": "1992-05-02",
     "age": 34,
     "sex": "F",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. Sarah Hernandez",
     "active_chronic_count": 0,
     "encounter_count": 8,
     "total_charges": 3512,
-    "latitude": 40.4498,
-    "longitude": -80.10817,
-    "last_encounter_date": "2026-04-22",
+    "latitude": 39.9213,
+    "longitude": -75.39217,
+    "last_encounter_date": "2026-07-15",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3448 Liberty Blvd",
     "state": "PA",
     "phone": "(412) 877-1962",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100749",
     "encounters": [
       {
         "pat_enc_csn_id": "0000749-000",
-        "contact_date": "2026-04-22",
+        "contact_date": "2026-07-15",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. David Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-001",
-        "contact_date": "2025-11-18",
+        "contact_date": "2026-02-10",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Sarah Hernandez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-002",
-        "contact_date": "2025-10-25",
+        "contact_date": "2026-01-17",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Wilson",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000749-003",
-        "contact_date": "2025-08-28",
+        "contact_date": "2025-11-20",
         "encounter_type": "Emergency Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Miller",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-004",
-        "contact_date": "2025-03-30",
+        "contact_date": "2025-06-22",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. David Russo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-005",
-        "contact_date": "2024-11-03",
+        "contact_date": "2025-01-26",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Aisha Hernandez",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-006",
-        "contact_date": "2024-06-17",
+        "contact_date": "2024-09-09",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Sarah Hernandez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000749-007",
-        "contact_date": "2024-06-17",
+        "contact_date": "2024-09-09",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Moore",
@@ -116,7 +116,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-22"
+        "first_recorded": "2026-07-15"
       },
       {
         "dx_id": "0000749-acu-001",
@@ -124,7 +124,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-11-18"
+        "first_recorded": "2026-02-10"
       },
       {
         "dx_id": "0000749-acu-002",
@@ -132,7 +132,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-25"
+        "first_recorded": "2026-01-17"
       }
     ]
   },
@@ -152,8 +152,8 @@
         "total_charges": 3512,
         "total_payments": 2924,
         "current_balance": 588,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-07-10",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-10-02",
         "closed_date": null
       }
     ]

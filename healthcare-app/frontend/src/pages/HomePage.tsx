@@ -39,7 +39,7 @@ export default function HomePage() {
               </div>
 
               <div className="px-6 pt-5 pb-6 flex-1 flex flex-col">
-                <div className="eyebrow mb-2">Clarity Health</div>
+                <div className="eyebrow mb-2">Penn Medicine</div>
                 <h2 className="font-serif text-3xl sm:text-4xl font-semibold leading-[1.05] text-[var(--ink-strong)] tracking-tight">
                   Evidence-grade insight,<br className="hidden sm:block" /> from chart to cohort.
                 </h2>
@@ -54,7 +54,7 @@ export default function HomePage() {
                 <div className="mt-6 rounded-md border border-[var(--hairline)] bg-[var(--paper-deep)] overflow-hidden">
                   <div className="px-4 py-2 border-b border-[var(--hairline-soft)] flex items-center justify-between bg-white">
                     <div className="eyebrow">Population Snapshot</div>
-                    <div className="text-[10px] font-medium text-[var(--ink-soft)] uppercase tracking-wider">Snowflake marts</div>
+                    <div className="text-[10px] font-medium text-[var(--ink-soft)] uppercase tracking-wider">Databricks gold marts</div>
                   </div>
                   <div className="grid grid-cols-2 divide-x divide-y divide-[var(--hairline-soft)] tabular bg-white">
                     <Vital label="Active panel" value={stats ? formatNumber(stats.total_patients) : '—'} hint="Patients with current data" />
@@ -245,7 +245,7 @@ export default function HomePage() {
             {[
               { step: '01', name: 'Fivetran CDC', desc: 'Epic Clarity connector mirrors EHR tables from the Clarity reporting database in near real time.' },
               { step: '02', name: 'Iceberg (MDLS)', desc: 'Fivetran lands every CDC row into the Managed Data Lake on S3 in open Apache Iceberg format — one copy, one source of truth.' },
-              { step: '03', name: 'Snowflake / Athena / Trino', desc: 'All three engines read the same Iceberg bytes — pick the right compute per workload, no data duplication, no extracts.' },
+              { step: '03', name: 'Databricks (Unity Catalog)', desc: 'Serverless SQL warehouses read the same Iceberg bytes through Unity Catalog — one governed lakehouse, no data duplication, no extracts.' },
               { step: '04', name: 'dbt Labs transforms', desc: 'Fivetran Transformations triggers the dbt job the moment Epic Clarity finishes syncing. Bronze → Silver → Gold, 21 tested models.' },
               { step: '05', name: 'React + Recharts', desc: 'Static SPA reads daily JSON exports of the gold marts; no PHI ever touches the browser.' },
             ].map((s) => (
@@ -346,7 +346,7 @@ function FindPatientTile({ onGo }: { onGo: (q: string) => void }) {
     e.preventDefault();
     onGo(q.trim());
   };
-  const samples = ['Smith', 'MRN 100042', '15217', 'Pittsburgh', 'Diabetes'];
+  const samples = ['Smith', 'MRN 100042', '19104', 'Philadelphia', 'Diabetes'];
   return (
     <div className="clinical-card overflow-hidden">
       <div className="clinical-card-header flex items-start justify-between gap-3">

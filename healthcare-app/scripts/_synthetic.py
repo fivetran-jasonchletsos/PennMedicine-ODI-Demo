@@ -2,8 +2,8 @@
 Synthetic Epic Clarity-like dataset generator for the demo fallback path.
 
 The output of `generate(n)` shapes exactly like what build_snapshot.py would
-get back from Snowflake — so the React frontend behaves identically whether
-the data came from a live SQL → Fivetran → Snowflake → dbt pipeline or from
+get back from Databricks — so the React frontend behaves identically whether
+the data came from a live SQL → Fivetran → Databricks → dbt pipeline or from
 this generator.
 
 Everything is deterministic via a seeded Random instance so the demo is
@@ -16,28 +16,28 @@ import datetime as dt
 import random
 from typing import Any
 
-# Common Allegheny + Pittsburgh-metro ZIPs with rough coordinates.
+# Common Philadelphia-metro ZIPs with rough coordinates.
 ZIP_CENTROIDS = [
-    ("Pittsburgh",     "15217", 40.4378, -79.9301),   # Squirrel Hill
-    ("Pittsburgh",     "15206", 40.4612, -79.9148),   # East Liberty
-    ("Pittsburgh",     "15201", 40.4738, -79.9608),   # Lawrenceville
-    ("Pittsburgh",     "15212", 40.4543, -80.0078),   # North Side
-    ("Pittsburgh",     "15213", 40.4441, -79.9608),   # Oakland
-    ("Pittsburgh",     "15232", 40.4504, -79.9305),   # Shadyside
-    ("Pittsburgh",     "15222", 40.4445, -79.9968),   # Downtown
-    ("Glenshaw",       "15116", 40.5278, -79.9598),
-    ("Mt Lebanon",     "15228", 40.3756, -80.0509),
-    ("Aspinwall",      "15215", 40.4923, -79.9051),
-    ("Bethel Park",    "15102", 40.3299, -80.0392),
-    ("Monroeville",    "15146", 40.4239, -79.7886),
-    ("Robinson Twp",   "15205", 40.4453, -80.1037),
-    ("Penn Hills",     "15235", 40.4753, -79.8348),
-    ("McKeesport",     "15132", 40.3475, -79.8492),
-    ("West Mifflin",   "15122", 40.3603, -79.9008),
-    ("Plum",           "15239", 40.5022, -79.7625),
-    ("Wexford",        "15090", 40.6296, -80.0584),
-    ("Cranberry Twp",  "16066", 40.6843, -80.1058),
-    ("Greensburg",     "15601", 40.3015, -79.5389),
+    ("Philadelphia",   "19104", 39.9522, -75.1932),   # University City
+    ("Philadelphia",   "19107", 39.9526, -75.1652),   # Center City
+    ("Philadelphia",   "19146", 39.9378, -75.1810),   # Point Breeze
+    ("Philadelphia",   "19130", 39.9678, -75.1730),   # Fairmount
+    ("Philadelphia",   "19143", 39.9434, -75.2201),   # Cedar Park
+    ("Philadelphia",   "19147", 39.9359, -75.1520),   # Queen Village
+    ("Philadelphia",   "19124", 40.0967, -75.0870),   # Frankford
+    ("Bala Cynwyd",    "19004", 40.0068, -75.2299),
+    ("Bryn Mawr",      "19010", 40.0201, -75.3260),
+    ("Wynnewood",      "19096", 40.0037, -75.2941),
+    ("King of Prussia","19406", 40.0893, -75.3971),
+    ("Doylestown",     "18901", 40.3101, -75.1299),
+    ("Media",          "19063", 39.9168, -75.3877),
+    ("Plymouth Meeting","19462", 40.1101, -75.2793),
+    ("Ambler",         "19002", 40.1587, -75.2224),
+    ("Cherry Hill",    "08002", 39.9348, -75.0307),
+    ("West Chester",   "19380", 39.9601, -75.6052),
+    ("Conshohocken",   "19428", 40.0787, -75.3013),
+    ("Norristown",     "19401", 40.1215, -75.3399),
+    ("Chester",        "19013", 39.8496, -75.3566),
 ]
 
 FIRST_NAMES_F = ["Mary", "Patricia", "Jennifer", "Linda", "Elizabeth", "Barbara",
@@ -85,8 +85,8 @@ ACUTE_DX = [
 ]
 
 DEPARTMENTS = [
-    ("Internal Medicine — Squirrel Hill",   "IM-SH"),
-    ("Family Medicine — North Hills",       "FM-NH"),
+    ("Internal Medicine — University City", "IM-UC"),
+    ("Family Medicine — Main Line",         "FM-ML"),
     ("Emergency Department — Main",         "ED-MAIN"),
     ("Cardiology",                          "CARD"),
     ("Endocrinology",                       "ENDO"),
@@ -95,8 +95,8 @@ DEPARTMENTS = [
     ("Psychiatry & Behavioral Health",      "PSYCH"),
     ("Nephrology",                          "NEPH"),
     ("OB-GYN",                              "OBGYN"),
-    ("Pediatrics — Children's Hospital",    "PEDS"),
-    ("Urgent Care — Mt Lebanon",            "UC-ML"),
+    ("Pediatrics",                          "PEDS"),
+    ("Urgent Care — King of Prussia",       "UC-KOP"),
 ]
 
 PROVIDER_FIRST = ["Sarah", "David", "Aisha", "Michael", "Priya", "James", "Maria",
@@ -115,8 +115,7 @@ ENCOUNTER_TYPES = [
 ]
 
 PAYERS = [
-    ("UPMC Health Plan",     0.27),
-    ("Highmark BCBS",        0.31),
+    ("Independence Blue Cross", 0.42),
     ("Aetna",                0.09),
     ("Cigna",                0.06),
     ("Medicare",             0.18),

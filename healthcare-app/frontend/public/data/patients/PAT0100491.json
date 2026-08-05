@@ -6,15 +6,15 @@
     "birth_date": "1959-07-12",
     "age": 67,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Aisha Wilson",
     "active_chronic_count": 2,
     "encounter_count": 12,
     "total_charges": 14271,
-    "latitude": 40.44449,
-    "longitude": -79.96241,
-    "last_encounter_date": "2026-04-21",
+    "latitude": 39.94379,
+    "longitude": -75.22171,
+    "last_encounter_date": "2026-07-14",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9565 Murray Rd",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000491-000",
-        "contact_date": "2026-04-21",
+        "contact_date": "2026-07-14",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 3,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000491-001",
-        "contact_date": "2026-03-14",
+        "contact_date": "2026-06-06",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Headache",
         "diagnosis_count": 3,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-002",
-        "contact_date": "2025-11-12",
+        "contact_date": "2026-02-04",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Garcia",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000491-003",
-        "contact_date": "2025-09-18",
+        "contact_date": "2025-12-11",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. James Russo",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-004",
-        "contact_date": "2025-06-13",
+        "contact_date": "2025-09-05",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Anderson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000491-005",
-        "contact_date": "2025-04-06",
+        "contact_date": "2025-06-29",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": "Contusion of head",
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-006",
-        "contact_date": "2025-04-04",
+        "contact_date": "2025-06-27",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Garcia",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-007",
-        "contact_date": "2025-03-13",
+        "contact_date": "2025-06-05",
         "encounter_type": "Emergency Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. David Russo",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-008",
-        "contact_date": "2025-02-27",
+        "contact_date": "2025-05-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha Wilson",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000491-009",
-        "contact_date": "2025-01-11",
+        "contact_date": "2025-04-05",
         "encounter_type": "Follow-up",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Wilson",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -127,9 +127,9 @@
       },
       {
         "pat_enc_csn_id": "0000491-010",
-        "contact_date": "2024-12-19",
+        "contact_date": "2025-03-13",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 3,
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000491-011",
-        "contact_date": "2024-09-02",
+        "contact_date": "2024-11-25",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Aisha Wilson",
@@ -156,7 +156,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "2009-05-13"
+        "first_recorded": "2009-08-05"
       },
       {
         "dx_id": "0000491-dx-001",
@@ -164,7 +164,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000491-acu-000",
@@ -172,7 +172,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-21"
+        "first_recorded": "2026-07-14"
       },
       {
         "dx_id": "0000491-acu-001",
@@ -180,7 +180,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-03-14"
+        "first_recorded": "2026-06-06"
       },
       {
         "dx_id": "0000491-acu-002",
@@ -188,7 +188,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-11-12"
+        "first_recorded": "2026-02-04"
       }
     ]
   },
@@ -209,8 +209,8 @@
         "total_payments": 13547,
         "current_balance": 724,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-03-22",
-        "closed_date": "2026-04-20"
+        "opened_date": "2024-06-14",
+        "closed_date": "2026-07-13"
       }
     ]
   },

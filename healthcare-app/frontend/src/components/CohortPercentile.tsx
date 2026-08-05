@@ -13,7 +13,7 @@ interface Props {
 
 // "Where does this patient sit vs. peers in their age decade + sex cohort?"
 // Mirrors the sheetz Neighborhood Percentile widget. Lives entirely
-// client-side over the published snapshot — no Snowflake roundtrip.
+// client-side over the published snapshot — no Databricks roundtrip.
 export default function CohortPercentile({ patId, age, sex, encounters, charges, chronic }: Props) {
   const [peers, setPeers] = useState<PatientSearchResult[] | null>(null);
 

@@ -6,28 +6,28 @@
     "birth_date": "1991-08-27",
     "age": 35,
     "sex": "F",
-    "city": "Bethel Park",
-    "zip_code": "15102",
+    "city": "King of Prussia",
+    "zip_code": "19406",
     "primary_care_provider": "Dr. Daniel Schmidt",
     "active_chronic_count": 1,
     "encounter_count": 6,
     "total_charges": 2914,
-    "latitude": 40.32454,
-    "longitude": -80.03824,
-    "last_encounter_date": "2026-04-29",
+    "latitude": 40.08394,
+    "longitude": -75.39614,
+    "last_encounter_date": "2026-07-22",
     "race": "Black or African American",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "8918 Liberty Ave",
     "state": "PA",
     "phone": "(412) 901-4158",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100373",
     "encounters": [
       {
         "pat_enc_csn_id": "0000373-000",
-        "contact_date": "2026-04-29",
+        "contact_date": "2026-07-22",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000373-001",
-        "contact_date": "2025-11-22",
+        "contact_date": "2026-02-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha O'Brien",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000373-002",
-        "contact_date": "2025-08-28",
+        "contact_date": "2025-11-20",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Okonkwo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000373-003",
-        "contact_date": "2025-08-24",
+        "contact_date": "2025-11-16",
         "encounter_type": "Telehealth",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. David Johnson",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000373-004",
-        "contact_date": "2024-10-02",
+        "contact_date": "2024-12-25",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Robert Chen",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000373-005",
-        "contact_date": "2024-06-23",
+        "contact_date": "2024-09-15",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Schmidt",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 2,
@@ -96,7 +96,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2015-05-13"
+        "first_recorded": "2015-08-05"
       },
       {
         "dx_id": "0000373-acu-000",
@@ -104,7 +104,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-04-29"
+        "first_recorded": "2026-07-22"
       },
       {
         "dx_id": "0000373-acu-001",
@@ -112,7 +112,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2025-11-22"
+        "first_recorded": "2026-02-14"
       },
       {
         "dx_id": "0000373-acu-002",
@@ -120,7 +120,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-08-28"
+        "first_recorded": "2025-11-20"
       }
     ]
   },
@@ -140,8 +140,8 @@
         "total_charges": 2914,
         "total_payments": 2071,
         "current_balance": 843,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-01-15",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-04-09",
         "closed_date": null
       }
     ]

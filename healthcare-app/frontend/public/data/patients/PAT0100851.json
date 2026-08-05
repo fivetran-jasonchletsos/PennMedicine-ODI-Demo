@@ -6,15 +6,15 @@
     "birth_date": "1959-02-01",
     "age": 67,
     "sex": "M",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Ashley Moore",
     "active_chronic_count": 1,
     "encounter_count": 8,
     "total_charges": 8596,
-    "latitude": 40.52433,
-    "longitude": -79.96283,
-    "last_encounter_date": "2026-04-07",
+    "latitude": 40.00333,
+    "longitude": -75.23293,
+    "last_encounter_date": "2026-06-30",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6674 Murray Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000851-000",
-        "contact_date": "2026-04-07",
+        "contact_date": "2026-06-30",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Garcia",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000851-001",
-        "contact_date": "2026-01-24",
+        "contact_date": "2026-04-18",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Anderson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000851-002",
-        "contact_date": "2025-06-18",
+        "contact_date": "2025-09-10",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Sophia Moore",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000851-003",
-        "contact_date": "2025-03-13",
+        "contact_date": "2025-06-05",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Ashley Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000851-004",
-        "contact_date": "2025-03-03",
+        "contact_date": "2025-05-26",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Wilson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000851-005",
-        "contact_date": "2025-02-02",
+        "contact_date": "2025-04-27",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000851-006",
-        "contact_date": "2024-07-01",
+        "contact_date": "2024-09-23",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Ashley Moore",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000851-007",
-        "contact_date": "2024-06-23",
+        "contact_date": "2024-09-15",
         "encounter_type": "Procedure",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Moore",
@@ -116,7 +116,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2021-05-13"
+        "first_recorded": "2021-08-05"
       },
       {
         "dx_id": "0000851-acu-000",
@@ -124,7 +124,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-04-07"
+        "first_recorded": "2026-06-30"
       },
       {
         "dx_id": "0000851-acu-001",
@@ -132,7 +132,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-01-24"
+        "first_recorded": "2026-04-18"
       },
       {
         "dx_id": "0000851-acu-002",
@@ -140,7 +140,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-06-18"
+        "first_recorded": "2025-09-10"
       }
     ]
   },
@@ -161,8 +161,8 @@
         "total_payments": 8046,
         "current_balance": 550,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-05-08",
-        "closed_date": "2026-02-22"
+        "opened_date": "2025-07-31",
+        "closed_date": "2026-05-17"
       }
     ]
   },

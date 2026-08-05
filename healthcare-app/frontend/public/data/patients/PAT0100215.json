@@ -6,30 +6,30 @@
     "birth_date": "1995-12-13",
     "age": 31,
     "sex": "M",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Daniel Khan",
     "active_chronic_count": 2,
     "encounter_count": 9,
     "total_charges": 32269,
-    "latitude": 40.29565,
-    "longitude": -79.53591,
-    "last_encounter_date": "2026-05-06",
+    "latitude": 39.84375,
+    "longitude": -75.35361,
+    "last_encounter_date": "2026-07-29",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1819 Murray Rd",
     "state": "PA",
     "phone": "(412) 626-2585",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100215",
     "encounters": [
       {
         "pat_enc_csn_id": "0000215-000",
-        "contact_date": "2026-05-06",
+        "contact_date": "2026-07-29",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 3,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-001",
-        "contact_date": "2026-04-14",
+        "contact_date": "2026-07-07",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Martinez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-002",
-        "contact_date": "2025-05-25",
+        "contact_date": "2025-08-17",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Khan",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000215-003",
-        "contact_date": "2025-03-08",
+        "contact_date": "2025-05-31",
         "encounter_type": "Procedure",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 3,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-004",
-        "contact_date": "2025-02-10",
+        "contact_date": "2025-05-05",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Jackson",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-005",
-        "contact_date": "2025-02-02",
+        "contact_date": "2025-04-27",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Garcia",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-006",
-        "contact_date": "2024-09-21",
+        "contact_date": "2024-12-14",
         "encounter_type": "Hospital Admission",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Khan",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-007",
-        "contact_date": "2024-08-29",
+        "contact_date": "2024-11-21",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Khan",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0000215-008",
-        "contact_date": "2024-07-23",
+        "contact_date": "2024-10-15",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Khan",
@@ -126,7 +126,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2025-05-13"
+        "first_recorded": "2025-08-05"
       },
       {
         "dx_id": "0000215-dx-001",
@@ -134,7 +134,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2014-05-13"
+        "first_recorded": "2014-08-05"
       },
       {
         "dx_id": "0000215-acu-000",
@@ -142,7 +142,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2026-05-06"
+        "first_recorded": "2026-07-29"
       },
       {
         "dx_id": "0000215-acu-002",
@@ -150,7 +150,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-05-25"
+        "first_recorded": "2025-08-17"
       }
     ]
   },
@@ -171,8 +171,8 @@
         "total_payments": 9427,
         "current_balance": 17546,
         "primary_payer": "Self-pay",
-        "opened_date": "2024-02-24",
-        "closed_date": "2025-11-23"
+        "opened_date": "2024-05-18",
+        "closed_date": "2026-02-15"
       },
       {
         "hsp_account_id": "HSP000021501",
@@ -182,7 +182,7 @@
         "total_payments": 5002,
         "current_balance": 294,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-02-03",
+        "opened_date": "2025-04-28",
         "closed_date": null
       }
     ]

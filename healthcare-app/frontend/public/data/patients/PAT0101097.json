@@ -6,15 +6,15 @@
     "birth_date": "1948-03-12",
     "age": 78,
     "sex": "F",
-    "city": "Cranberry Twp",
-    "zip_code": "16066",
+    "city": "Norristown",
+    "zip_code": "19401",
     "primary_care_provider": "Dr. Daniel Khan",
     "active_chronic_count": 4,
     "encounter_count": 11,
     "total_charges": 10839,
-    "latitude": 40.685,
-    "longitude": -80.1079,
-    "last_encounter_date": "2026-04-05",
+    "latitude": 40.1222,
+    "longitude": -75.342,
+    "last_encounter_date": "2026-06-28",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1868 Highland St",
@@ -27,9 +27,9 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001097-000",
-        "contact_date": "2026-04-05",
+        "contact_date": "2026-06-28",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Davis",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 5,
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0001097-001",
-        "contact_date": "2026-02-03",
+        "contact_date": "2026-04-28",
         "encounter_type": "Office Visit",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Daniel Jackson",
         "chief_complaint": null,
         "diagnosis_count": 4,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-002",
-        "contact_date": "2026-02-02",
+        "contact_date": "2026-04-27",
         "encounter_type": "Procedure",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Khan",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-003",
-        "contact_date": "2025-11-12",
+        "contact_date": "2026-02-04",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Khan",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-004",
-        "contact_date": "2025-10-24",
+        "contact_date": "2026-01-16",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Khan",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-005",
-        "contact_date": "2025-09-25",
+        "contact_date": "2025-12-18",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Khan",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-006",
-        "contact_date": "2025-09-10",
+        "contact_date": "2025-12-03",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Khan",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-007",
-        "contact_date": "2025-06-05",
+        "contact_date": "2025-08-28",
         "encounter_type": "Procedure",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Michael Johnson",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-008",
-        "contact_date": "2025-03-02",
+        "contact_date": "2025-05-25",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Anderson",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-009",
-        "contact_date": "2024-08-22",
+        "contact_date": "2024-11-14",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Khan",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001097-010",
-        "contact_date": "2024-07-31",
+        "contact_date": "2024-10-23",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Khan",
@@ -146,7 +146,7 @@
         "icd10_code": "E11.9",
         "diagnosis_name": "Type 2 diabetes mellitus",
         "chronic": true,
-        "first_recorded": "1994-05-13"
+        "first_recorded": "1994-08-05"
       },
       {
         "dx_id": "0001097-dx-001",
@@ -154,7 +154,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1967-05-13"
+        "first_recorded": "1967-08-05"
       },
       {
         "dx_id": "0001097-dx-002",
@@ -162,7 +162,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1985-05-13"
+        "first_recorded": "1985-08-05"
       },
       {
         "dx_id": "0001097-dx-003",
@@ -170,7 +170,7 @@
         "icd10_code": "J44.9",
         "diagnosis_name": "Chronic obstructive pulmonary disease",
         "chronic": true,
-        "first_recorded": "1991-05-13"
+        "first_recorded": "1991-08-05"
       },
       {
         "dx_id": "0001097-acu-000",
@@ -178,7 +178,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-04-05"
+        "first_recorded": "2026-06-28"
       }
     ]
   },
@@ -198,9 +198,9 @@
         "total_charges": 10780,
         "total_payments": 7263,
         "current_balance": 3517,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-10-06",
-        "closed_date": "2026-04-26"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-12-29",
+        "closed_date": "2026-07-19"
       },
       {
         "hsp_account_id": "HSP000109701",
@@ -210,8 +210,8 @@
         "total_payments": 44,
         "current_balance": 5,
         "primary_payer": "Medicare",
-        "opened_date": "2024-11-01",
-        "closed_date": "2025-12-16"
+        "opened_date": "2025-01-24",
+        "closed_date": "2026-03-10"
       },
       {
         "hsp_account_id": "HSP000109702",
@@ -221,8 +221,8 @@
         "total_payments": 8,
         "current_balance": 2,
         "primary_payer": "Medicare",
-        "opened_date": "2024-03-30",
-        "closed_date": "2026-04-10"
+        "opened_date": "2024-06-22",
+        "closed_date": "2026-07-03"
       }
     ]
   },

@@ -6,15 +6,15 @@
     "birth_date": "1967-10-28",
     "age": 59,
     "sex": "F",
-    "city": "Greensburg",
-    "zip_code": "15601",
+    "city": "Chester",
+    "zip_code": "19013",
     "primary_care_provider": "Dr. Sophia Gonzalez",
     "active_chronic_count": 2,
     "encounter_count": 7,
     "total_charges": 1839,
-    "latitude": 40.29615,
-    "longitude": -79.54142,
-    "last_encounter_date": "2026-01-30",
+    "latitude": 39.84425,
+    "longitude": -75.35912,
+    "last_encounter_date": "2026-04-24",
     "race": "Hispanic/Latino",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9712 Forbes St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001423-000",
-        "contact_date": "2026-01-30",
+        "contact_date": "2026-04-24",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Sophia Gonzalez",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001423-001",
-        "contact_date": "2025-11-13",
+        "contact_date": "2026-02-05",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Gonzalez",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001423-002",
-        "contact_date": "2025-09-23",
+        "contact_date": "2025-12-16",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": null,
         "diagnosis_count": 2,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001423-003",
-        "contact_date": "2025-09-14",
+        "contact_date": "2025-12-07",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Russo",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001423-004",
-        "contact_date": "2025-03-28",
+        "contact_date": "2025-06-20",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Wilson",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001423-005",
-        "contact_date": "2024-08-25",
+        "contact_date": "2024-11-17",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Sophia Gonzalez",
         "chief_complaint": "Unspecified asthma with exacerbation",
         "diagnosis_count": 3,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001423-006",
-        "contact_date": "2024-06-11",
+        "contact_date": "2024-09-03",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Ashley Miller",
@@ -106,7 +106,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2003-05-13"
+        "first_recorded": "2003-08-05"
       },
       {
         "dx_id": "0001423-dx-001",
@@ -114,7 +114,7 @@
         "icd10_code": "M19.90",
         "diagnosis_name": "Unspecified osteoarthritis",
         "chronic": true,
-        "first_recorded": "1988-05-13"
+        "first_recorded": "1988-08-05"
       },
       {
         "dx_id": "0001423-acu-000",
@@ -122,7 +122,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2026-01-30"
+        "first_recorded": "2026-04-24"
       },
       {
         "dx_id": "0001423-acu-001",
@@ -130,7 +130,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-11-13"
+        "first_recorded": "2026-02-05"
       }
     ]
   },
@@ -151,8 +151,8 @@
         "total_payments": 1675,
         "current_balance": 164,
         "primary_payer": "Medicare",
-        "opened_date": "2025-10-10",
-        "closed_date": "2026-03-17"
+        "opened_date": "2026-01-02",
+        "closed_date": "2026-06-09"
       }
     ]
   },

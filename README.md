@@ -1,28 +1,29 @@
-# Healthcare EPIC Snowflake Demo
+# Penn Medicine ODI Demo
 
-End-to-end Epic Clarity → Fivetran → Iceberg (MDLS) → Snowflake / Athena / Trino → dbt
-→ React demo showcasing the modern open-lake data stack on a healthcare data model.
+End-to-end Epic Clarity → Fivetran → Databricks (Unity Catalog + Delta Lake) → dbt Labs
+→ React demo showcasing Fivetran + dbt Labs + Databricks on a healthcare data model.
 
 ```
    ┌─────────────────────────────────────────────────────────┐
    │  Epic Clarity (Clarity reporting DB on AWS EC2)         │
    │  patient, pat_enc, pat_enc_dx, hsp_account, …           │
    └──────────────────────────┬──────────────────────────────┘
-                              │  Fivetran Epic Clarity connector (CDC)
+                              │  Fivetran Epic Clarity connector (log-based CDC)
                               ▼
    ┌─────────────────────────────────────────────────────────┐
-   │  Iceberg (MDLS) — Managed Data Lake on S3               │
-   │  open Apache Iceberg · ACID · one copy of the bytes     │
-   │  schema: JASON_CHLETSOS_EHR_DEMO                        │
+   │  Databricks Unity Catalog — Delta Lake                  │
+   │  governed lakehouse · ACID · time travel                │
+   │  catalog: jason_chletsos_pennmed                         │
+   │  schema:  jason_chletsos_pennmed_ehr_demo                │
    └──────────────────────────┬──────────────────────────────┘
-                              │  Snowflake · Athena · Trino
-                              │  (external Iceberg reads — no copies)
+                              │  Databricks SQL warehouses
+                              │  (elastic compute over the same Delta tables)
                               ▼
    ┌─────────────────────────────────────────────────────────┐
    │  Fivetran Transformations triggers dbt Labs             │
    │  (fires when Epic Clarity sync finishes)                │
    │  bronze → silver → gold · 21 tested models              │
-   │  schemas: STAGING / INTERMEDIATE / CLINICAL / FINANCIAL │
+   │  schemas: staging / intermediate / clinical / financial │
    │  marts:   dim_patients, dim_providers, fct_encounters,  │
    │           fct_diagnoses, fct_account_summary, …         │
    └──────────────────────────┬──────────────────────────────┘
@@ -41,23 +42,23 @@ End-to-end Epic Clarity → Fivetran → Iceberg (MDLS) → Snowflake / Athena /
 | --- | --- |
 | `infra/` | Terraform for the Clarity reporting DB EC2 + Fivetran Epic Clarity connector |
 | `scripts/` | Source data generators + sync triggers + snapshot builder |
-| `transform/` | dbt project — Snowflake adapter |
+| `transform/` | dbt project — Databricks adapter |
 | `healthcare-app/frontend/` | React SPA (mirrors fivetran-sheetz-demo) |
-| `healthcare-app/backend/` | FastAPI service for local dev (queries Snowflake) |
-| `.github/workflows/` | Pages deploy + scheduled Snowflake-driven snapshot refresh |
+| `healthcare-app/backend/` | Not implemented — the frontend reads static JSON snapshots built by `healthcare-app/scripts/build_snapshot.py`, there is no live query-serving backend |
+| `.github/workflows/` | Pages deploy + scheduled Databricks-driven snapshot refresh |
 
 ## Pipeline
 
 1. Source: Epic Clarity reporting database on EC2 holds the EHR schema
    (`patient`, `pat_enc`, `pat_enc_dx`, `hsp_account`, …).
-2. Fivetran's Epic Clarity connector lands every change into Iceberg (MDLS)
-   on S3 in open Apache Iceberg format. Schema: `JASON_CHLETSOS_EHR_DEMO`.
-3. Snowflake, Athena, and Trino all read the same Iceberg bytes through
-   external table catalogs — no duplication, no extracts. Snowflake is the
-   primary engine in this demo (`JASON_CHLETSOS_EPIC`).
+2. Fivetran's Epic Clarity connector lands every change into Databricks
+   Unity Catalog via log-based CDC. Catalog: `jason_chletsos_pennmed`,
+   schema: `jason_chletsos_pennmed_ehr_demo`.
+3. Databricks SQL warehouses provide elastic compute directly over the same
+   governed Delta tables — no duplication, no extracts.
 4. Fivetran Transformations triggers the dbt job the moment the Epic Clarity
    sync finishes. dbt builds staging → intermediate → marts under
-   `JASON_CHLETSOS_EPIC.{STAGING, INTERMEDIATE, CLINICAL, FINANCIAL}`.
+   `jason_chletsos_pennmed.{staging, intermediate, clinical, financial}`.
 5. `scripts/build_snapshot.py` queries the marts and writes the JSON the
    React frontend serves at runtime.
 
@@ -71,12 +72,12 @@ cd ../scripts && python load_to_sqlserver.py
 # Trigger Fivetran sync
 python trigger_fivetran_sync.py
 
-# Build dbt models in Snowflake
+# Build dbt models on Databricks
 cd ../transform
 export $(cat ../.env | xargs)
 dbt deps && dbt run && dbt test
 
-# Build the JSON snapshot from Snowflake marts
+# Build the JSON snapshot from Databricks marts
 cd ../scripts
 python build_snapshot.py
 

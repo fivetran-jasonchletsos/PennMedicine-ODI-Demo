@@ -6,15 +6,15 @@
     "birth_date": "1966-06-05",
     "age": 60,
     "sex": "F",
-    "city": "Plum",
-    "zip_code": "15239",
+    "city": "West Chester",
+    "zip_code": "19380",
     "primary_care_provider": "Dr. Daniel Schmidt",
     "active_chronic_count": 1,
     "encounter_count": 8,
     "total_charges": 2088,
-    "latitude": 40.50527,
-    "longitude": -79.76209,
-    "last_encounter_date": "2026-05-11",
+    "latitude": 39.96317,
+    "longitude": -75.60479,
+    "last_encounter_date": "2026-08-03",
     "race": "Asian",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "6810 Liberty St",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000416-000",
-        "contact_date": "2026-05-11",
+        "contact_date": "2026-08-03",
         "encounter_type": "Follow-up",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Schmidt",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-001",
-        "contact_date": "2026-01-14",
+        "contact_date": "2026-04-08",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Rodriguez",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-002",
-        "contact_date": "2025-08-28",
+        "contact_date": "2025-11-20",
         "encounter_type": "Follow-up",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Ashley Moore",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-003",
-        "contact_date": "2025-02-15",
+        "contact_date": "2025-05-10",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Schmidt",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000416-004",
-        "contact_date": "2025-01-02",
+        "contact_date": "2025-03-27",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-005",
-        "contact_date": "2024-11-19",
+        "contact_date": "2025-02-11",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Schmidt",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-006",
-        "contact_date": "2024-08-18",
+        "contact_date": "2024-11-10",
         "encounter_type": "Telehealth",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Ashley Moore",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000416-007",
-        "contact_date": "2024-06-18",
+        "contact_date": "2024-09-10",
         "encounter_type": "Lab Only",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Daniel Schmidt",
@@ -116,7 +116,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2005-05-13"
+        "first_recorded": "2005-08-05"
       },
       {
         "dx_id": "0000416-acu-001",
@@ -124,7 +124,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-01-14"
+        "first_recorded": "2026-04-08"
       }
     ]
   },
@@ -145,8 +145,8 @@
         "total_payments": 2023,
         "current_balance": 65,
         "primary_payer": "Medicaid",
-        "opened_date": "2025-10-02",
-        "closed_date": "2026-01-15"
+        "opened_date": "2025-12-25",
+        "closed_date": "2026-04-09"
       }
     ]
   },

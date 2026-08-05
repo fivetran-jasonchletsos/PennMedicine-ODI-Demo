@@ -6,15 +6,15 @@
     "birth_date": "1985-11-02",
     "age": 41,
     "sex": "M",
-    "city": "Monroeville",
-    "zip_code": "15146",
+    "city": "Doylestown",
+    "zip_code": "18901",
     "primary_care_provider": "Dr. Michael Wong",
     "active_chronic_count": 1,
     "encounter_count": 2,
     "total_charges": 2676,
-    "latitude": 40.41942,
-    "longitude": -79.79348,
-    "last_encounter_date": "2024-07-18",
+    "latitude": 40.30562,
+    "longitude": -75.13478,
+    "last_encounter_date": "2024-10-10",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "2338 Liberty Blvd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000197-000",
-        "contact_date": "2024-07-18",
+        "contact_date": "2024-10-10",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Michael Wong",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000197-001",
-        "contact_date": "2024-05-24",
+        "contact_date": "2024-08-16",
         "encounter_type": "Telehealth",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Wong",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 2,
@@ -56,7 +56,7 @@
         "icd10_code": "E66.9",
         "diagnosis_name": "Obesity, unspecified",
         "chronic": true,
-        "first_recorded": "2023-05-13"
+        "first_recorded": "2023-08-05"
       },
       {
         "dx_id": "0000197-acu-001",
@@ -64,7 +64,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2024-05-24"
+        "first_recorded": "2024-08-16"
       }
     ]
   },
@@ -85,8 +85,8 @@
         "total_payments": 2312,
         "current_balance": 364,
         "primary_payer": "Medicare",
-        "opened_date": "2024-08-25",
-        "closed_date": "2026-01-17"
+        "opened_date": "2024-11-17",
+        "closed_date": "2026-04-11"
       }
     ]
   },

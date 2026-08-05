@@ -1,6 +1,9 @@
 # ============================================
 # Fivetran SQL Server Connector (EC2-based)
 # Points at EC2 SQL Server with ehr_demo database
+# Lands into a Databricks Unity Catalog destination
+# (group_id references a pre-existing Fivetran
+# Databricks destination; not managed here)
 # ============================================
 
 variable "sqlserver_host" {
@@ -20,7 +23,7 @@ resource "fivetran_connector" "healthcare_sqlserver" {
   service  = "sql_server"
 
   destination_schema {
-    prefix = "jason_chletsos_ehr_demo"
+    prefix = "jason_chletsos_pennmed_ehr_demo"
   }
 
   config {

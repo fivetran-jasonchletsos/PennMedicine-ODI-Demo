@@ -6,15 +6,15 @@
     "birth_date": "1980-09-07",
     "age": 46,
     "sex": "M",
-    "city": "Robinson Twp",
-    "zip_code": "15205",
+    "city": "Media",
+    "zip_code": "19063",
     "primary_care_provider": "Dr. Linda Thomas",
     "active_chronic_count": 2,
     "encounter_count": 10,
     "total_charges": 29858,
-    "latitude": 40.44152,
-    "longitude": -80.10099,
-    "last_encounter_date": "2026-04-26",
+    "latitude": 39.91302,
+    "longitude": -75.38499,
+    "last_encounter_date": "2026-07-19",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9460 Highland Rd",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001355-000",
-        "contact_date": "2026-04-26",
+        "contact_date": "2026-07-19",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Thomas",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-001",
-        "contact_date": "2026-03-01",
+        "contact_date": "2026-05-24",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Thomas",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-002",
-        "contact_date": "2026-02-04",
+        "contact_date": "2026-04-29",
         "encounter_type": "Follow-up",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Linda Thomas",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-003",
-        "contact_date": "2025-10-06",
+        "contact_date": "2025-12-29",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Thomas",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-004",
-        "contact_date": "2025-08-13",
+        "contact_date": "2025-11-05",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-005",
-        "contact_date": "2025-07-15",
+        "contact_date": "2025-10-07",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Linda Thomas",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-006",
-        "contact_date": "2025-05-28",
+        "contact_date": "2025-08-20",
         "encounter_type": "Hospital Admission",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-007",
-        "contact_date": "2025-03-27",
+        "contact_date": "2025-06-19",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-008",
-        "contact_date": "2025-01-15",
+        "contact_date": "2025-04-09",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Linda Thomas",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001355-009",
-        "contact_date": "2024-06-30",
+        "contact_date": "2024-09-22",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Linda Thomas",
@@ -136,7 +136,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2004-05-13"
+        "first_recorded": "2004-08-05"
       },
       {
         "dx_id": "0001355-dx-001",
@@ -144,7 +144,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2014-05-13"
+        "first_recorded": "2014-08-05"
       },
       {
         "dx_id": "0001355-acu-000",
@@ -152,7 +152,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-26"
+        "first_recorded": "2026-07-19"
       },
       {
         "dx_id": "0001355-acu-001",
@@ -160,7 +160,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-01"
+        "first_recorded": "2026-05-24"
       },
       {
         "dx_id": "0001355-acu-002",
@@ -168,7 +168,7 @@
         "icd10_code": "S00.93",
         "diagnosis_name": "Contusion of head",
         "chronic": false,
-        "first_recorded": "2026-02-04"
+        "first_recorded": "2026-04-29"
       }
     ]
   },
@@ -188,9 +188,9 @@
         "total_charges": 21660,
         "total_payments": 17517,
         "current_balance": 4143,
-        "primary_payer": "Aetna",
-        "opened_date": "2024-04-24",
-        "closed_date": "2026-01-21"
+        "primary_payer": "Cigna",
+        "opened_date": "2024-07-17",
+        "closed_date": "2026-04-15"
       },
       {
         "hsp_account_id": "HSP000135501",
@@ -200,8 +200,8 @@
         "total_payments": 5079,
         "current_balance": 809,
         "primary_payer": "Medicare",
-        "opened_date": "2026-02-15",
-        "closed_date": "2026-05-06"
+        "opened_date": "2026-05-10",
+        "closed_date": "2026-07-29"
       },
       {
         "hsp_account_id": "HSP000135502",
@@ -210,9 +210,9 @@
         "total_charges": 2310,
         "total_payments": 1880,
         "current_balance": 430,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-11-23",
-        "closed_date": "2025-11-15"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-02-15",
+        "closed_date": "2026-02-07"
       }
     ]
   },

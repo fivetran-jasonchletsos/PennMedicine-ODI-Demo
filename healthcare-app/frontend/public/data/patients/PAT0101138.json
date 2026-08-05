@@ -6,28 +6,28 @@
     "birth_date": "1931-12-12",
     "age": 95,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15213",
+    "city": "Philadelphia",
+    "zip_code": "19143",
     "primary_care_provider": "Dr. Aisha Anderson",
     "active_chronic_count": 3,
     "encounter_count": 13,
     "total_charges": 11589,
-    "latitude": 40.44493,
-    "longitude": -79.9636,
-    "last_encounter_date": "2026-04-12",
+    "latitude": 39.94423,
+    "longitude": -75.2229,
+    "last_encounter_date": "2026-07-05",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "5883 Liberty Ave",
     "state": "PA",
     "phone": "(412) 807-2388",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0101138",
     "encounters": [
       {
         "pat_enc_csn_id": "0001138-000",
-        "contact_date": "2026-04-12",
+        "contact_date": "2026-07-05",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Greene",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-001",
-        "contact_date": "2026-03-23",
+        "contact_date": "2026-06-15",
         "encounter_type": "Office Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Anderson",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001138-002",
-        "contact_date": "2026-03-05",
+        "contact_date": "2026-05-28",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 4,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-003",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Maria Moore",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-004",
-        "contact_date": "2025-12-01",
+        "contact_date": "2026-02-23",
         "encounter_type": "Emergency Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Anderson",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-005",
-        "contact_date": "2025-11-22",
+        "contact_date": "2026-02-14",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Maria Okonkwo",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0001138-006",
-        "contact_date": "2025-09-22",
+        "contact_date": "2025-12-15",
         "encounter_type": "Telehealth",
-        "department_name": "Urgent Care \u2014 Mt Lebanon",
+        "department_name": "Urgent Care \u2014 King of Prussia",
         "provider_name": "Dr. Aisha Anderson",
         "chief_complaint": "Headache",
         "diagnosis_count": 4,
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-007",
-        "contact_date": "2025-09-16",
+        "contact_date": "2025-12-09",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Anderson",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-008",
-        "contact_date": "2025-08-17",
+        "contact_date": "2025-11-09",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Anderson",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-009",
-        "contact_date": "2025-05-13",
+        "contact_date": "2025-08-05",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha Anderson",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-010",
-        "contact_date": "2025-01-09",
+        "contact_date": "2025-04-03",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Jackson",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-011",
-        "contact_date": "2024-09-14",
+        "contact_date": "2024-12-07",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Aisha Hernandez",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0001138-012",
-        "contact_date": "2024-07-05",
+        "contact_date": "2024-09-27",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Anderson",
@@ -166,7 +166,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1999-05-13"
+        "first_recorded": "1999-08-05"
       },
       {
         "dx_id": "0001138-dx-001",
@@ -174,7 +174,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "1962-05-13"
+        "first_recorded": "1962-08-05"
       },
       {
         "dx_id": "0001138-dx-002",
@@ -182,7 +182,7 @@
         "icd10_code": "J45.909",
         "diagnosis_name": "Unspecified asthma, uncomplicated",
         "chronic": true,
-        "first_recorded": "2001-05-13"
+        "first_recorded": "2001-08-05"
       },
       {
         "dx_id": "0001138-acu-000",
@@ -190,7 +190,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-04-12"
+        "first_recorded": "2026-07-05"
       },
       {
         "dx_id": "0001138-acu-001",
@@ -198,7 +198,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-03-23"
+        "first_recorded": "2026-06-15"
       },
       {
         "dx_id": "0001138-acu-002",
@@ -206,7 +206,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-05"
+        "first_recorded": "2026-05-28"
       }
     ]
   },
@@ -226,8 +226,8 @@
         "total_charges": 2690,
         "total_payments": 2241,
         "current_balance": 449,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2024-02-29",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-05-23",
         "closed_date": null
       },
       {
@@ -237,9 +237,9 @@
         "total_charges": 839,
         "total_payments": 569,
         "current_balance": 270,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-10-10",
-        "closed_date": "2025-12-15"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2026-01-02",
+        "closed_date": "2026-03-09"
       },
       {
         "hsp_account_id": "HSP000113802",
@@ -248,9 +248,9 @@
         "total_charges": 8060,
         "total_payments": 5247,
         "current_balance": 2813,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2025-06-29",
-        "closed_date": "2026-04-03"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-09-21",
+        "closed_date": "2026-06-26"
       }
     ]
   },

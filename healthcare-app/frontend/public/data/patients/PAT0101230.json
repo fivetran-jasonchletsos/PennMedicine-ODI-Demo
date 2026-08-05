@@ -6,28 +6,28 @@
     "birth_date": "1958-09-26",
     "age": 68,
     "sex": "F",
-    "city": "McKeesport",
-    "zip_code": "15132",
+    "city": "Ambler",
+    "zip_code": "19002",
     "primary_care_provider": "Dr. Kenji Walsh",
     "active_chronic_count": 0,
     "encounter_count": 10,
     "total_charges": 8878,
-    "latitude": 40.35256,
-    "longitude": -79.85114,
-    "last_encounter_date": "2026-05-11",
+    "latitude": 40.16376,
+    "longitude": -75.22434,
+    "last_encounter_date": "2026-08-03",
     "race": "Hispanic/Latino",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8050 Beacon Blvd",
     "state": "PA",
     "phone": "(412) 466-6550",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0101230",
     "encounters": [
       {
         "pat_enc_csn_id": "0001230-000",
-        "contact_date": "2026-05-11",
+        "contact_date": "2026-08-03",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Michael Johnson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-001",
-        "contact_date": "2026-04-27",
+        "contact_date": "2026-07-20",
         "encounter_type": "Emergency Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-002",
-        "contact_date": "2026-04-11",
+        "contact_date": "2026-07-04",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Walsh",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-003",
-        "contact_date": "2025-03-19",
+        "contact_date": "2025-06-11",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Ashley Garcia",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-004",
-        "contact_date": "2025-02-18",
+        "contact_date": "2025-05-13",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0001230-005",
-        "contact_date": "2025-01-10",
+        "contact_date": "2025-04-04",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Kenji Hernandez",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-006",
-        "contact_date": "2024-10-26",
+        "contact_date": "2025-01-18",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Walsh",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-007",
-        "contact_date": "2024-08-22",
+        "contact_date": "2024-11-14",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Kenji Walsh",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001230-008",
-        "contact_date": "2024-07-14",
+        "contact_date": "2024-10-06",
         "encounter_type": "Lab Only",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Kenji Walsh",
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0001230-009",
-        "contact_date": "2024-06-09",
+        "contact_date": "2024-09-01",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Mark Anderson",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 1,
@@ -136,7 +136,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-05-11"
+        "first_recorded": "2026-08-03"
       },
       {
         "dx_id": "0001230-acu-001",
@@ -144,7 +144,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-04-27"
+        "first_recorded": "2026-07-20"
       }
     ]
   },
@@ -165,7 +165,7 @@
         "total_payments": 7315,
         "current_balance": 1563,
         "primary_payer": "Medicare",
-        "opened_date": "2025-07-10",
+        "opened_date": "2025-10-02",
         "closed_date": null
       }
     ]

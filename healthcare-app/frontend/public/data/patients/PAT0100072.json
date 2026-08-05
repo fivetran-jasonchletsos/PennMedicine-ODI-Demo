@@ -6,28 +6,28 @@
     "birth_date": "1997-03-07",
     "age": 29,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15206",
+    "city": "Philadelphia",
+    "zip_code": "19107",
     "primary_care_provider": "Dr. Mark Jackson",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 1018,
-    "latitude": 40.4642,
-    "longitude": -79.91109,
-    "last_encounter_date": "2025-10-08",
+    "latitude": 39.9556,
+    "longitude": -75.16149,
+    "last_encounter_date": "2025-12-31",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1651 Forbes Rd",
     "state": "PA",
     "phone": "(412) 915-7583",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100072",
     "encounters": [
       {
         "pat_enc_csn_id": "0000072-000",
-        "contact_date": "2025-10-08",
+        "contact_date": "2025-12-31",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Michael Garcia",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000072-001",
-        "contact_date": "2025-08-13",
+        "contact_date": "2025-11-05",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Jackson",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000072-002",
-        "contact_date": "2024-09-23",
+        "contact_date": "2024-12-16",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Mark Jackson",
@@ -66,7 +66,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2024-05-13"
+        "first_recorded": "2024-08-05"
       },
       {
         "dx_id": "0000072-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-08"
+        "first_recorded": "2025-12-31"
       }
     ]
   },
@@ -94,9 +94,9 @@
         "total_charges": 1018,
         "total_payments": 917,
         "current_balance": 101,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-06-01",
-        "closed_date": "2025-12-07"
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-08-24",
+        "closed_date": "2026-03-01"
       }
     ]
   },

@@ -6,28 +6,28 @@
     "birth_date": "1970-02-18",
     "age": 56,
     "sex": "F",
-    "city": "Mt Lebanon",
-    "zip_code": "15228",
+    "city": "Bryn Mawr",
+    "zip_code": "19010",
     "primary_care_provider": "Dr. Maria Okonkwo",
     "active_chronic_count": 2,
     "encounter_count": 4,
     "total_charges": 820,
-    "latitude": 40.37587,
-    "longitude": -80.05582,
-    "last_encounter_date": "2025-10-24",
+    "latitude": 40.02037,
+    "longitude": -75.33092,
+    "last_encounter_date": "2026-01-16",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "9559 Liberty St",
     "state": "PA",
     "phone": "(412) 713-4319",
-    "primary_care_department": "Family Medicine \u2014 North Hills"
+    "primary_care_department": "Family Medicine \u2014 Main Line"
   },
   "encounters": {
     "pat_id": "PAT0100984",
     "encounters": [
       {
         "pat_enc_csn_id": "0000984-000",
-        "contact_date": "2025-10-24",
+        "contact_date": "2026-01-16",
         "encounter_type": "Telehealth",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Anderson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000984-001",
-        "contact_date": "2024-10-27",
+        "contact_date": "2025-01-19",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Maria Okonkwo",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000984-002",
-        "contact_date": "2024-10-20",
+        "contact_date": "2025-01-12",
         "encounter_type": "Telehealth",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. David Russo",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000984-003",
-        "contact_date": "2024-07-08",
+        "contact_date": "2024-09-30",
         "encounter_type": "Lab Only",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Aisha Williams",
@@ -76,7 +76,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2020-05-13"
+        "first_recorded": "2020-08-05"
       },
       {
         "dx_id": "0000984-dx-001",
@@ -84,7 +84,7 @@
         "icd10_code": "E78.5",
         "diagnosis_name": "Hyperlipidemia, unspecified",
         "chronic": true,
-        "first_recorded": "2005-05-13"
+        "first_recorded": "2005-08-05"
       },
       {
         "dx_id": "0000984-acu-000",
@@ -92,7 +92,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2025-10-24"
+        "first_recorded": "2026-01-16"
       },
       {
         "dx_id": "0000984-acu-002",
@@ -100,7 +100,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2024-10-20"
+        "first_recorded": "2025-01-12"
       }
     ]
   },
@@ -121,8 +121,8 @@
         "total_payments": 669,
         "current_balance": 151,
         "primary_payer": "Medicare",
-        "opened_date": "2025-06-04",
-        "closed_date": "2026-01-05"
+        "opened_date": "2025-08-27",
+        "closed_date": "2026-03-30"
       }
     ]
   },

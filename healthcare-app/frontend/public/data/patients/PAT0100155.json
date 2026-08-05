@@ -6,30 +6,30 @@
     "birth_date": "1969-03-04",
     "age": 57,
     "sex": "F",
-    "city": "Glenshaw",
-    "zip_code": "15116",
+    "city": "Bala Cynwyd",
+    "zip_code": "19004",
     "primary_care_provider": "Dr. Linda Thomas",
     "active_chronic_count": 1,
     "encounter_count": 3,
     "total_charges": 838,
-    "latitude": 40.52196,
-    "longitude": -79.95536,
-    "last_encounter_date": "2026-03-16",
+    "latitude": 40.00096,
+    "longitude": -75.22546,
+    "last_encounter_date": "2026-06-08",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "8291 Walnut Blvd",
     "state": "PA",
     "phone": "(412) 473-9160",
-    "primary_care_department": "Internal Medicine \u2014 Squirrel Hill"
+    "primary_care_department": "Internal Medicine \u2014 University City"
   },
   "encounters": {
     "pat_id": "PAT0100155",
     "encounters": [
       {
         "pat_enc_csn_id": "0000155-000",
-        "contact_date": "2026-03-16",
+        "contact_date": "2026-06-08",
         "encounter_type": "Office Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": "Chest pain, unspecified",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000155-001",
-        "contact_date": "2025-06-22",
+        "contact_date": "2025-09-14",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Nguyen",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000155-002",
-        "contact_date": "2025-01-29",
+        "contact_date": "2025-04-23",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Linda Thomas",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 2,
@@ -66,7 +66,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "1988-05-13"
+        "first_recorded": "1988-08-05"
       },
       {
         "dx_id": "0000155-acu-000",
@@ -74,7 +74,7 @@
         "icd10_code": "R07.9",
         "diagnosis_name": "Chest pain, unspecified",
         "chronic": false,
-        "first_recorded": "2026-03-16"
+        "first_recorded": "2026-06-08"
       },
       {
         "dx_id": "0000155-acu-002",
@@ -82,7 +82,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-01-29"
+        "first_recorded": "2025-04-23"
       }
     ]
   },
@@ -90,8 +90,8 @@
     "pat_id": "PAT0100155",
     "summary": {
       "total_charges": 838,
-      "total_payments": 588,
-      "outstanding_balance": 250,
+      "total_payments": 718,
+      "outstanding_balance": 120,
       "account_count": 1
     },
     "accounts": [
@@ -100,11 +100,11 @@
         "account_type": "Imaging",
         "status": "Closed",
         "total_charges": 838,
-        "total_payments": 588,
-        "current_balance": 250,
-        "primary_payer": "Cigna",
-        "opened_date": "2025-09-11",
-        "closed_date": "2025-11-25"
+        "total_payments": 718,
+        "current_balance": 120,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-12-04",
+        "closed_date": "2026-02-17"
       }
     ]
   },

@@ -1,5 +1,5 @@
 // ============================================================
-// Shared types — mirror the dbt Labs marts in Snowflake.
+// Shared types — mirror the dbt Labs marts in Databricks.
 //   clinical.dim_patients, clinical.fct_encounters, clinical.fct_diagnoses,
 //   clinical.dim_providers, clinical.dim_departments,
 //   financial.fct_account_summary

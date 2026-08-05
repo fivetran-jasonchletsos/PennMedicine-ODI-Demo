@@ -6,15 +6,15 @@
     "birth_date": "1977-07-24",
     "age": 49,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15232",
+    "city": "Philadelphia",
+    "zip_code": "19147",
     "primary_care_provider": "Dr. Mark Davis",
     "active_chronic_count": 2,
     "encounter_count": 11,
     "total_charges": 2751,
-    "latitude": 40.45038,
-    "longitude": -79.93525,
-    "last_encounter_date": "2026-01-16",
+    "latitude": 39.93588,
+    "longitude": -75.15675,
+    "last_encounter_date": "2026-04-10",
     "race": "Other",
     "ethnicity": "Not Hispanic or Latino",
     "mailing_address": "7563 Liberty Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0001434-000",
-        "contact_date": "2026-01-16",
+        "contact_date": "2026-04-10",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. James Russo",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-001",
-        "contact_date": "2025-09-08",
+        "contact_date": "2025-12-01",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Linda Thomas",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0001434-002",
-        "contact_date": "2025-07-11",
+        "contact_date": "2025-10-03",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Daniel Rodriguez",
         "chief_complaint": "Acute upper respiratory infection",
         "diagnosis_count": 3,
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-003",
-        "contact_date": "2025-05-29",
+        "contact_date": "2025-08-21",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Wong",
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0001434-004",
-        "contact_date": "2025-05-15",
+        "contact_date": "2025-08-07",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 3,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-005",
-        "contact_date": "2025-04-28",
+        "contact_date": "2025-07-21",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Mark Jackson",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-006",
-        "contact_date": "2025-01-02",
+        "contact_date": "2025-03-27",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Linda Martinez",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-007",
-        "contact_date": "2024-07-31",
+        "contact_date": "2024-10-23",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. David Johnson",
@@ -107,7 +107,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-008",
-        "contact_date": "2024-07-29",
+        "contact_date": "2024-10-21",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Mark Davis",
@@ -117,7 +117,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-009",
-        "contact_date": "2024-07-08",
+        "contact_date": "2024-09-30",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Kenji Walsh",
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0001434-010",
-        "contact_date": "2024-05-30",
+        "contact_date": "2024-08-22",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Michael Garcia",
@@ -146,7 +146,7 @@
         "icd10_code": "F32.A",
         "diagnosis_name": "Depression, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0001434-dx-001",
@@ -154,7 +154,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2002-05-13"
+        "first_recorded": "2002-08-05"
       },
       {
         "dx_id": "0001434-acu-000",
@@ -162,7 +162,7 @@
         "icd10_code": "R51",
         "diagnosis_name": "Headache",
         "chronic": false,
-        "first_recorded": "2026-01-16"
+        "first_recorded": "2026-04-10"
       },
       {
         "dx_id": "0001434-acu-001",
@@ -170,7 +170,7 @@
         "icd10_code": "J45.901",
         "diagnosis_name": "Unspecified asthma with exacerbation",
         "chronic": false,
-        "first_recorded": "2025-09-08"
+        "first_recorded": "2025-12-01"
       },
       {
         "dx_id": "0001434-acu-002",
@@ -178,7 +178,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-07-11"
+        "first_recorded": "2025-10-03"
       }
     ]
   },
@@ -198,8 +198,8 @@
         "total_charges": 2751,
         "total_payments": 1757,
         "current_balance": 994,
-        "primary_payer": "UPMC Health Plan",
-        "opened_date": "2025-09-19",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2025-12-12",
         "closed_date": null
       }
     ]

@@ -6,28 +6,28 @@
     "birth_date": "1982-01-25",
     "age": 44,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15217",
+    "city": "Philadelphia",
+    "zip_code": "19104",
     "primary_care_provider": "Dr. Michael Garcia",
     "active_chronic_count": 3,
     "encounter_count": 8,
     "total_charges": 9386,
-    "latitude": 40.43399,
-    "longitude": -79.93474,
-    "last_encounter_date": "2026-03-05",
+    "latitude": 39.94839,
+    "longitude": -75.19784,
+    "last_encounter_date": "2026-05-28",
     "race": "Asian",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "6957 Forbes Rd",
     "state": "PA",
     "phone": "(412) 724-2129",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100557",
     "encounters": [
       {
         "pat_enc_csn_id": "0000557-000",
-        "contact_date": "2026-03-05",
+        "contact_date": "2026-05-28",
         "encounter_type": "Emergency Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Aisha Hernandez",
@@ -37,9 +37,9 @@
       },
       {
         "pat_enc_csn_id": "0000557-001",
-        "contact_date": "2025-08-04",
+        "contact_date": "2025-10-27",
         "encounter_type": "Lab Only",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Robert Johnson",
         "chief_complaint": "Urinary tract infection",
         "diagnosis_count": 4,
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000557-002",
-        "contact_date": "2024-12-30",
+        "contact_date": "2025-03-24",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Robert Johnson",
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000557-003",
-        "contact_date": "2024-11-18",
+        "contact_date": "2025-02-10",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 4,
@@ -67,9 +67,9 @@
       },
       {
         "pat_enc_csn_id": "0000557-004",
-        "contact_date": "2024-11-06",
+        "contact_date": "2025-01-29",
         "encounter_type": "Lab Only",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Michael Garcia",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 4,
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000557-005",
-        "contact_date": "2024-09-24",
+        "contact_date": "2024-12-17",
         "encounter_type": "Office Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Mark Davis",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000557-006",
-        "contact_date": "2024-08-06",
+        "contact_date": "2024-10-29",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -97,9 +97,9 @@
       },
       {
         "pat_enc_csn_id": "0000557-007",
-        "contact_date": "2024-07-03",
+        "contact_date": "2024-09-25",
         "encounter_type": "Emergency Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": "Unspecified abdominal pain",
         "diagnosis_count": 4,
@@ -116,7 +116,7 @@
         "icd10_code": "F41.9",
         "diagnosis_name": "Anxiety disorder, unspecified",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000557-dx-001",
@@ -124,7 +124,7 @@
         "icd10_code": "G47.33",
         "diagnosis_name": "Obstructive sleep apnea (adult)",
         "chronic": true,
-        "first_recorded": "2013-05-13"
+        "first_recorded": "2013-08-05"
       },
       {
         "dx_id": "0000557-dx-002",
@@ -132,7 +132,7 @@
         "icd10_code": "K21.9",
         "diagnosis_name": "GERD without esophagitis",
         "chronic": true,
-        "first_recorded": "2016-05-13"
+        "first_recorded": "2016-08-05"
       },
       {
         "dx_id": "0000557-acu-000",
@@ -140,7 +140,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2026-03-05"
+        "first_recorded": "2026-05-28"
       },
       {
         "dx_id": "0000557-acu-001",
@@ -148,7 +148,7 @@
         "icd10_code": "N39.0",
         "diagnosis_name": "Urinary tract infection",
         "chronic": false,
-        "first_recorded": "2025-08-04"
+        "first_recorded": "2025-10-27"
       },
       {
         "dx_id": "0000557-acu-002",
@@ -156,7 +156,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2024-12-30"
+        "first_recorded": "2025-03-24"
       }
     ]
   },
@@ -177,8 +177,8 @@
         "total_payments": 8790,
         "current_balance": 596,
         "primary_payer": "Medicaid",
-        "opened_date": "2024-02-17",
-        "closed_date": "2026-04-19"
+        "opened_date": "2024-05-11",
+        "closed_date": "2026-07-12"
       }
     ]
   },

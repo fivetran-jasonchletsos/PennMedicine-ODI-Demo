@@ -6,28 +6,28 @@
     "birth_date": "2022-10-25",
     "age": 4,
     "sex": "F",
-    "city": "Pittsburgh",
-    "zip_code": "15212",
+    "city": "Philadelphia",
+    "zip_code": "19130",
     "primary_care_provider": "Dr. David Johnson",
     "active_chronic_count": 0,
     "encounter_count": 7,
     "total_charges": 1889,
-    "latitude": 40.45728,
-    "longitude": -80.00448,
-    "last_encounter_date": "2026-05-07",
+    "latitude": 39.97078,
+    "longitude": -75.16968,
+    "last_encounter_date": "2026-07-30",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "3926 Liberty St",
     "state": "PA",
     "phone": "(412) 373-8790",
-    "primary_care_department": "Pediatrics \u2014 Children's Hospital"
+    "primary_care_department": "Pediatrics"
   },
   "encounters": {
     "pat_id": "PAT0100777",
     "encounters": [
       {
         "pat_enc_csn_id": "0000777-000",
-        "contact_date": "2026-05-07",
+        "contact_date": "2026-07-30",
         "encounter_type": "Telehealth",
         "department_name": "Nephrology",
         "provider_name": "Dr. Daniel Jackson",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000777-001",
-        "contact_date": "2026-02-21",
+        "contact_date": "2026-05-16",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Kenji Hernandez",
@@ -47,9 +47,9 @@
       },
       {
         "pat_enc_csn_id": "0000777-002",
-        "contact_date": "2025-10-15",
+        "contact_date": "2026-01-07",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Russo",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -57,9 +57,9 @@
       },
       {
         "pat_enc_csn_id": "0000777-003",
-        "contact_date": "2025-07-13",
+        "contact_date": "2025-10-05",
         "encounter_type": "Office Visit",
-        "department_name": "Family Medicine \u2014 North Hills",
+        "department_name": "Family Medicine \u2014 Main Line",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Acute bronchitis, unspecified",
         "diagnosis_count": 1,
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000777-004",
-        "contact_date": "2025-03-07",
+        "contact_date": "2025-05-30",
         "encounter_type": "Lab Only",
         "department_name": "Cardiology",
         "provider_name": "Dr. Linda Thomas",
@@ -77,9 +77,9 @@
       },
       {
         "pat_enc_csn_id": "0000777-005",
-        "contact_date": "2024-10-07",
+        "contact_date": "2024-12-30",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 1,
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000777-006",
-        "contact_date": "2024-08-07",
+        "contact_date": "2024-10-30",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. David Johnson",
         "chief_complaint": null,
         "diagnosis_count": 0,
@@ -106,7 +106,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2026-02-21"
+        "first_recorded": "2026-05-16"
       },
       {
         "dx_id": "0000777-acu-002",
@@ -114,7 +114,7 @@
         "icd10_code": "J20.9",
         "diagnosis_name": "Acute bronchitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-10-15"
+        "first_recorded": "2026-01-07"
       }
     ]
   },
@@ -135,7 +135,7 @@
         "total_payments": 1487,
         "current_balance": 402,
         "primary_payer": "Medicare",
-        "opened_date": "2026-03-15",
+        "opened_date": "2026-06-07",
         "closed_date": null
       }
     ]

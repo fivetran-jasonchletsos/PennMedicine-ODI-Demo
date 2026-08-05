@@ -6,15 +6,15 @@
     "birth_date": "1954-06-05",
     "age": 72,
     "sex": "M",
-    "city": "Pittsburgh",
-    "zip_code": "15201",
+    "city": "Philadelphia",
+    "zip_code": "19146",
     "primary_care_provider": "Dr. Daniel Khan",
     "active_chronic_count": 1,
     "encounter_count": 13,
     "total_charges": 33792,
-    "latitude": 40.47157,
-    "longitude": -79.95537,
-    "last_encounter_date": "2026-03-22",
+    "latitude": 39.93557,
+    "longitude": -75.17557,
+    "last_encounter_date": "2026-06-14",
     "race": "White",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "1029 Penn Ave",
@@ -27,7 +27,7 @@
     "encounters": [
       {
         "pat_enc_csn_id": "0000754-000",
-        "contact_date": "2026-03-22",
+        "contact_date": "2026-06-14",
         "encounter_type": "Lab Only",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Khan",
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-001",
-        "contact_date": "2026-01-05",
+        "contact_date": "2026-03-30",
         "encounter_type": "Telehealth",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Khan",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-002",
-        "contact_date": "2025-06-25",
+        "contact_date": "2025-09-17",
         "encounter_type": "Hospital Admission",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Khan",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-003",
-        "contact_date": "2025-06-18",
+        "contact_date": "2025-09-10",
         "encounter_type": "Procedure",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Khan",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-004",
-        "contact_date": "2025-04-17",
+        "contact_date": "2025-07-10",
         "encounter_type": "Emergency Visit",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Daniel Khan",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-005",
-        "contact_date": "2025-03-31",
+        "contact_date": "2025-06-23",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Daniel Khan",
@@ -87,7 +87,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-006",
-        "contact_date": "2025-01-21",
+        "contact_date": "2025-04-15",
         "encounter_type": "Office Visit",
         "department_name": "Cardiology",
         "provider_name": "Dr. Daniel Khan",
@@ -97,7 +97,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-007",
-        "contact_date": "2024-12-09",
+        "contact_date": "2025-03-03",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. James Russo",
@@ -107,9 +107,9 @@
       },
       {
         "pat_enc_csn_id": "0000754-008",
-        "contact_date": "2024-09-03",
+        "contact_date": "2024-11-26",
         "encounter_type": "Telehealth",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Daniel Khan",
         "chief_complaint": null,
         "diagnosis_count": 1,
@@ -117,9 +117,9 @@
       },
       {
         "pat_enc_csn_id": "0000754-009",
-        "contact_date": "2024-08-26",
+        "contact_date": "2024-11-18",
         "encounter_type": "Telehealth",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Ashley Moore",
         "chief_complaint": "Cellulitis, unspecified",
         "diagnosis_count": 2,
@@ -127,7 +127,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-010",
-        "contact_date": "2024-08-22",
+        "contact_date": "2024-11-14",
         "encounter_type": "Emergency Visit",
         "department_name": "Emergency Department \u2014 Main",
         "provider_name": "Dr. Daniel Khan",
@@ -137,7 +137,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-011",
-        "contact_date": "2024-07-28",
+        "contact_date": "2024-10-20",
         "encounter_type": "Office Visit",
         "department_name": "OB-GYN",
         "provider_name": "Dr. Daniel Khan",
@@ -147,7 +147,7 @@
       },
       {
         "pat_enc_csn_id": "0000754-012",
-        "contact_date": "2024-07-18",
+        "contact_date": "2024-10-10",
         "encounter_type": "Office Visit",
         "department_name": "Pulmonology",
         "provider_name": "Dr. Daniel Khan",
@@ -166,7 +166,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2009-05-13"
+        "first_recorded": "2009-08-05"
       },
       {
         "dx_id": "0000754-acu-001",
@@ -174,7 +174,7 @@
         "icd10_code": "R10.9",
         "diagnosis_name": "Unspecified abdominal pain",
         "chronic": false,
-        "first_recorded": "2026-01-05"
+        "first_recorded": "2026-03-30"
       }
     ]
   },
@@ -194,8 +194,8 @@
         "total_charges": 11798,
         "total_payments": 9311,
         "current_balance": 2487,
-        "primary_payer": "Highmark BCBS",
-        "opened_date": "2024-10-07",
+        "primary_payer": "Independence Blue Cross",
+        "opened_date": "2024-12-30",
         "closed_date": null
       },
       {
@@ -206,7 +206,7 @@
         "total_payments": 16587,
         "current_balance": 5407,
         "primary_payer": "Aetna",
-        "opened_date": "2025-08-05",
+        "opened_date": "2025-10-28",
         "closed_date": null
       }
     ]

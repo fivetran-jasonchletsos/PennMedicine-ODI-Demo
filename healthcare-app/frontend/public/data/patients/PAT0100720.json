@@ -6,30 +6,30 @@
     "birth_date": "1995-09-17",
     "age": 31,
     "sex": "F",
-    "city": "West Mifflin",
-    "zip_code": "15122",
+    "city": "Cherry Hill",
+    "zip_code": "08002",
     "primary_care_provider": "Dr. Mark Anderson",
     "active_chronic_count": 1,
     "encounter_count": 7,
     "total_charges": 7144,
-    "latitude": 40.35448,
-    "longitude": -79.89788,
-    "last_encounter_date": "2026-02-11",
+    "latitude": 39.92898,
+    "longitude": -75.02778,
+    "last_encounter_date": "2026-05-06",
     "race": "Black or African American",
     "ethnicity": "Hispanic or Latino",
     "mailing_address": "9841 Penn St",
     "state": "PA",
     "phone": "(412) 428-4591",
-    "primary_care_department": "Urgent Care \u2014 Mt Lebanon"
+    "primary_care_department": "Urgent Care \u2014 King of Prussia"
   },
   "encounters": {
     "pat_id": "PAT0100720",
     "encounters": [
       {
         "pat_enc_csn_id": "0000720-000",
-        "contact_date": "2026-02-11",
+        "contact_date": "2026-05-06",
         "encounter_type": "Office Visit",
-        "department_name": "Internal Medicine \u2014 Squirrel Hill",
+        "department_name": "Internal Medicine \u2014 University City",
         "provider_name": "Dr. Sophia Moore",
         "chief_complaint": "Pain in unspecified joint",
         "diagnosis_count": 2,
@@ -37,7 +37,7 @@
       },
       {
         "pat_enc_csn_id": "0000720-001",
-        "contact_date": "2025-12-31",
+        "contact_date": "2026-03-25",
         "encounter_type": "Office Visit",
         "department_name": "Nephrology",
         "provider_name": "Dr. Aisha O'Brien",
@@ -47,7 +47,7 @@
       },
       {
         "pat_enc_csn_id": "0000720-002",
-        "contact_date": "2025-12-06",
+        "contact_date": "2026-02-28",
         "encounter_type": "Office Visit",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Robert Johnson",
@@ -57,7 +57,7 @@
       },
       {
         "pat_enc_csn_id": "0000720-003",
-        "contact_date": "2025-08-14",
+        "contact_date": "2025-11-06",
         "encounter_type": "Telehealth",
         "department_name": "Endocrinology",
         "provider_name": "Dr. Mark Anderson",
@@ -67,7 +67,7 @@
       },
       {
         "pat_enc_csn_id": "0000720-004",
-        "contact_date": "2024-12-10",
+        "contact_date": "2025-03-04",
         "encounter_type": "Telehealth",
         "department_name": "Orthopedics",
         "provider_name": "Dr. Mark Anderson",
@@ -77,7 +77,7 @@
       },
       {
         "pat_enc_csn_id": "0000720-005",
-        "contact_date": "2024-06-29",
+        "contact_date": "2024-09-21",
         "encounter_type": "Office Visit",
         "department_name": "Psychiatry & Behavioral Health",
         "provider_name": "Dr. Mark Anderson",
@@ -87,9 +87,9 @@
       },
       {
         "pat_enc_csn_id": "0000720-006",
-        "contact_date": "2024-06-05",
+        "contact_date": "2024-08-28",
         "encounter_type": "Emergency Visit",
-        "department_name": "Pediatrics \u2014 Children's Hospital",
+        "department_name": "Pediatrics",
         "provider_name": "Dr. Aisha Hernandez",
         "chief_complaint": "Headache",
         "diagnosis_count": 2,
@@ -106,7 +106,7 @@
         "icd10_code": "I10",
         "diagnosis_name": "Essential (primary) hypertension",
         "chronic": true,
-        "first_recorded": "2015-05-13"
+        "first_recorded": "2015-08-05"
       },
       {
         "dx_id": "0000720-acu-000",
@@ -114,7 +114,7 @@
         "icd10_code": "M25.50",
         "diagnosis_name": "Pain in unspecified joint",
         "chronic": false,
-        "first_recorded": "2026-02-11"
+        "first_recorded": "2026-05-06"
       },
       {
         "dx_id": "0000720-acu-001",
@@ -122,7 +122,7 @@
         "icd10_code": "L03.90",
         "diagnosis_name": "Cellulitis, unspecified",
         "chronic": false,
-        "first_recorded": "2025-12-31"
+        "first_recorded": "2026-03-25"
       },
       {
         "dx_id": "0000720-acu-002",
@@ -130,7 +130,7 @@
         "icd10_code": "J06.9",
         "diagnosis_name": "Acute upper respiratory infection",
         "chronic": false,
-        "first_recorded": "2025-12-06"
+        "first_recorded": "2026-02-28"
       }
     ]
   },
@@ -138,8 +138,8 @@
     "pat_id": "PAT0100720",
     "summary": {
       "total_charges": 7144,
-      "total_payments": 4663,
-      "outstanding_balance": 2481,
+      "total_payments": 6526,
+      "outstanding_balance": 618,
       "account_count": 1
     },
     "accounts": [
@@ -148,11 +148,11 @@
         "account_type": "Rx",
         "status": "Closed",
         "total_charges": 7144,
-        "total_payments": 4663,
-        "current_balance": 2481,
-        "primary_payer": "Cigna",
-        "opened_date": "2024-12-28",
-        "closed_date": "2026-02-17"
+        "total_payments": 6526,
+        "current_balance": 618,
+        "primary_payer": "Medicare",
+        "opened_date": "2025-03-22",
+        "closed_date": "2026-05-12"
       }
     ]
   },

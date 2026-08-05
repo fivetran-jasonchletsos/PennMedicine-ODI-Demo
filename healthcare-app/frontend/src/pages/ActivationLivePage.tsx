@@ -1,5 +1,5 @@
 /*
- * ActivationLivePage — NewCo Activations live-sync playback for Clarity Health.
+ * ActivationLivePage — NewCo Activations live-sync playback for Penn Medicine.
  *
  * Mirrors WizardLivePage's terminal aesthetic + reveal-state machine, but for
  * a NewCo Activations sync run instead of a dbt-wizard build: Segment
@@ -56,7 +56,7 @@ const STEP_DEFS = [
 // ─── Vertical-specific scenario content (SEP-1 lactate redraw → TigerConnect) ─
 
 const ACTIVATION_SCENARIO: ActivationScenario = {
-  company: 'Clarity Health',
+  company: 'Penn Medicine',
   request_id: 'ACT-2291',
   requested_by: 'SEP-1 Bundle Monitor',
   requested_at: '2026-07-09T07:32:00Z',
