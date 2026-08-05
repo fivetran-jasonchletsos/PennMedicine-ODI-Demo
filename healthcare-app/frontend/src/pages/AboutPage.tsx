@@ -42,7 +42,7 @@ export default function AboutPage() {
           freshness="4.2 min ago"
           source="Penn Medicine · Epic Clarity CDC"
           rows="2.4M rows · 8 tables"
-          fivetranUrl="https://fivetran.com/dashboard/connections/pennmed_epic_clarity/status"
+          fivetranUrl="https://fivetran.com/dashboard/connections/despite_palatine/status"
         />
       </div>
 
