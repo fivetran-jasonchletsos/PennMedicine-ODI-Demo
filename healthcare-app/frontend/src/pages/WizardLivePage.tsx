@@ -47,7 +47,7 @@ const STEP_DEFS = [
   { label: 'Data Inspection',      who: 'Worker',       tools: 'warehouse, dbt_show',     insight: 'serverless SQL slice'  },
   { label: 'Model Creation',       who: 'Worker',       tools: 'file edits, model gen',   insight: 'SQL authored'          },
   { label: 'Test Authoring',       who: 'Verification', tools: 'describe, dbt_show',      insight: '7 tests + uniqueness'  },
-  { label: 'Materialization',      who: 'Worker + Ver', tools: 'dbt_run, lineage',        insight: '284 rows · iceberg'    },
+  { label: 'Materialization',      who: 'Worker + Ver', tools: 'dbt_run, lineage',        insight: '284 rows · delta'      },
 ];
 
 // Agent accent colors aligned with Penn Medicine palette

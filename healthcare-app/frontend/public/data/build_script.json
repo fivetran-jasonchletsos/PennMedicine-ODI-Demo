@@ -102,7 +102,7 @@
       "from": "worker",
       "step": 6,
       "step_label": "Materialization",
-      "body": "Materializing gold.fct_sepsis_bundle_by_service_line_daily to Iceberg on S3 via the Databricks dbt adapter. Writing Parquet files to the gold S3 prefix. Registering with Unity Catalog.",
+      "body": "Materializing gold.fct_sepsis_bundle_by_service_line_daily as a Delta table via the Databricks dbt adapter. Writing Parquet files directly into Unity Catalog managed storage. Registering with Unity Catalog.",
       "side_effect": "tool:dbt_run materialized 1 model · 284 rows · 0.04 GB · 7.1s"
     },
     {

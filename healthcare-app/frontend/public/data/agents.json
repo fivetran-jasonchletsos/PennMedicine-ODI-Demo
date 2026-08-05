@@ -39,7 +39,7 @@
       "responsibilities": [
         "Runs warehouse and dbt_show on a targeted slice to validate proposed grain",
         "Writes the SQL file with header comments, CTEs, joins, and final aggregation",
-        "Materializes the model to the gold schema on Iceberg"
+        "Materializes the model to the gold schema in Unity Catalog as Delta"
       ]
     },
     {

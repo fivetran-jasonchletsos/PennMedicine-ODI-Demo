@@ -82,7 +82,7 @@
       "Worker runs dbt_show on a 7-day slice. Validates the proposed grain.",
       "Worker authors fct_sepsis_bundle_by_service_line_daily.sql with CTEs and final SELECT.",
       "Verification writes the YAML — description, schema contract, 8 tests, ownership.",
-      "Worker materializes the table to Iceberg. Verification confirms downstream lineage.",
+      "Worker materializes the table to Delta. Verification confirms downstream lineage.",
       "CMO presents root-cause finding to Quality Committee 14 hours ahead of schedule."
     ]
   },
@@ -93,12 +93,12 @@
     { "label": "Documentation",            "value": "auto-written in YAML" },
     { "label": "Ownership",               "value": "quality_analytics" },
     { "label": "Tag",                      "value": "ai_built · sepsis_bundle" },
-    { "label": "Iceberg table format",     "value": "v2 · Parquet · ZSTD" },
-    { "label": "Open Catalog registration","value": "complete" }
+    { "label": "Delta Lake table format",  "value": "v2 · Parquet · ZSTD" },
+    { "label": "Unity Catalog registration","value": "complete" }
   ],
   "hero": {
     "label": "Root cause identified 14 hours before the Quality Committee meets",
     "value": "87 seconds",
-    "note": "From CMO question to materialized Iceberg gold table — versioned, tested, documented, lineage-tracked. The cardiology team now knows the shift-change order-fire suppression is the gap. The fix is a configuration change, not a care failure."
+    "note": "From CMO question to materialized Delta gold table — versioned, tested, documented, lineage-tracked. The cardiology team now knows the shift-change order-fire suppression is the gap. The fix is a configuration change, not a care failure."
   }
 }
