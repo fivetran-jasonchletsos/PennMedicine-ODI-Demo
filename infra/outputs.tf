@@ -18,6 +18,16 @@ output "fivetran_qualtrics_connector_id" {
   value       = fivetran_connector.qualtrics.id
 }
 
+output "fivetran_workday_connector_id" {
+  description = "Fivetran Workday HCM connector ID"
+  value       = fivetran_connector.workday_hcm.id
+}
+
+output "fivetran_ukg_connector_id" {
+  description = "Fivetran UKG Pro Workforce Management connector ID"
+  value       = fivetran_connector.ukg_pro_workforce_management.id
+}
+
 output "sqlserver_host" {
   description = "EC2 SQL Server hostname"
   value       = var.sqlserver_host

@@ -25,3 +25,30 @@ qualtrics_data_center   = "iad1"
 qualtrics_client_id     = "your-qualtrics-oauth-client-id"
 qualtrics_client_secret = "your-qualtrics-oauth-client-secret"
 qualtrics_refresh_token = "your-qualtrics-oauth-refresh-token"
+
+# Fivetran Workday HCM Connector Configuration
+# auth_mode = "BASIC" (Integration System User username/password, set up in
+# Workday's own admin console) or "OAUTH" (client_id/client_secret/refresh_token
+# from a Workday OAuth client app). Leave the unused auth path's fields blank.
+workday_domain_host_name      = "your-tenant.workday.com"
+workday_tenant                = "your-workday-tenant"
+workday_auth_mode             = "BASIC"
+workday_integration_system_id = ""
+workday_subscriber_id         = ""
+workday_username              = "your-workday-isu-username"
+workday_password              = "your-workday-isu-password"
+workday_client_id              = ""
+workday_client_secret           = ""
+workday_refresh_token           = ""
+
+# Fivetran UKG Pro Workforce Management Connector Configuration
+# auth_type = "client_credentials" or "ropc" - both obtained directly from
+# UKG's own API console, no Fivetran dashboard OAuth popup needed.
+ukg_auth_type       = "client_credentials"
+ukg_organization    = "your-ukg-organization-id"
+ukg_auth_environment = "your-ukg-auth-base-url"
+ukg_host_name       = "your-ukg-hostname"
+ukg_client_id       = "your-ukg-client-id"
+ukg_client_secret   = "your-ukg-client-secret"
+ukg_username        = "your-ukg-username"
+ukg_password        = "your-ukg-password"
