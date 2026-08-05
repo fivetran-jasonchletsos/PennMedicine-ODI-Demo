@@ -77,8 +77,7 @@ export default function PipelinePage() {
     () => [
       { id: 'epic', logo: 'epic', label: 'Penn Medicine EHR', sub: 'Epic Clarity · CDC source', status: 'healthy', metric: '8 tables · 2.4M rows' },
       { id: 'fivetran', logo: 'fivetran', label: 'Fivetran', sub: 'Epic Clarity connector', status: 'healthy', metric: '5-min cadence · 99.7% SLA' },
-      { id: 'iceberg', logo: 'iceberg', label: 'Iceberg (MDLS)', sub: 'Managed Data Lake Service · S3', status: 'healthy', metric: 'ACID · open · multi-engine' },
-      { id: 'databricks', logo: 'databricks', label: 'Databricks · Unity Catalog', sub: 'Delta Lake reads over the same Iceberg tables', status: 'healthy', metric: 'Serverless SQL warehouse · auto-stop' },
+      { id: 'databricks', logo: 'databricks', label: 'Databricks · Unity Catalog', sub: 'Delta Lake · governed lakehouse', status: 'healthy', metric: 'Serverless SQL warehouse · auto-stop' },
       { id: 'dbt', logo: 'dbt', label: 'dbt Labs transforms', sub: 'Triggered by Fivetran · Bronze → Silver → Gold · 21 models', status: 'healthy', metric: '24s avg · 0 failures' },
       { id: 'app', logo: 'app', label: 'Penn Medicine App', sub: 'React · static JSON', status: 'healthy', metric: 'CDN · 12 min deploy' },
     ],
@@ -97,12 +96,12 @@ export default function PipelinePage() {
             <div>
               <div className="eyebrow mb-2">Pipeline · Observability</div>
               <h1 className="font-serif text-3xl sm:text-4xl font-semibold leading-tight text-[var(--ink-strong)] tracking-tight">
-                EHR → Iceberg → Databricks, end-to-end
+                EHR → Fivetran → Databricks, end-to-end
               </h1>
               <p className="mt-2 text-sm text-[var(--ink-muted)] max-w-3xl leading-relaxed">
                 Fivetran's Epic Clarity connector captures change-data from the EHR source via log-based
-                CDC and lands it in Iceberg (MDLS) every 5 minutes — no custom incremental logic to
-                maintain. Databricks reads those tables through Unity Catalog, and Fivetran
+                CDC and lands it directly in Databricks Unity Catalog every 5 minutes — no ADF pipelines,
+                no custom incremental logic to maintain. Fivetran
                 Transformations trigger dbt Labs the moment the Epic Clarity sync finishes, building
                 bronze (staging), silver (intermediate), and gold (clinical + financial marts) layers
                 that power the Executive Cockpit, patient registry, and population health surfaces on
