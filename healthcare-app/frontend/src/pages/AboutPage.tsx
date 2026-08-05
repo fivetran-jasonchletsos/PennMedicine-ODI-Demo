@@ -113,17 +113,12 @@ const DATA_SOURCES = [
   {
     title: 'Fivetran Epic Clarity connector',
     description:
-      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) into Iceberg (MDLS) on S3 via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as jason_chletsos_pennmed_ehr_demo.',
+      'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) directly into Databricks Unity Catalog as Delta Lake tables via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as jason_chletsos_pennmed_ehr_demo.',
   },
   {
-    title: 'Iceberg (MDLS) — Managed Data Lake',
+    title: 'Databricks — Unity Catalog (Delta Lake)',
     description:
-      'Apache Iceberg tables on S3 serve as the single source of truth. Databricks reads and governs the same bytes through Unity Catalog — no duplication, no extracts.',
-  },
-  {
-    title: 'Databricks — primary query engine',
-    description:
-      'Unity Catalog governs the Iceberg bronze/silver/gold tables as one namespace with row filters and column masks on PHI. A serverless SQL warehouse runs dbt Labs (Fivetran-triggered) and serves the API layer, auto-stopping between queries.',
+      'Unity Catalog governs the bronze/silver/gold Delta tables as one namespace with row filters and column masks on PHI, and is the single source of truth — no separate lake, no duplication, no extracts. A serverless SQL warehouse runs dbt Labs (Fivetran-triggered) and serves the API layer, auto-stopping between queries.',
   },
 ];
 
@@ -131,29 +126,23 @@ const STEPS = [
   {
     icon: '1',
     name: 'Fivetran — Ingestion',
-    desc: 'Epic Clarity connector replicates Clarity reporting tables into Iceberg (MDLS) without writing custom ETL.',
+    desc: 'Epic Clarity connector replicates Clarity reporting tables directly into Databricks Unity Catalog as Delta Lake tables — no intermediary lake, no custom ETL.',
     tags: ['Epic Clarity CDC', 'Incremental sync', 'Schema discovery'],
   },
   {
     icon: '2',
-    name: 'Iceberg (MDLS) — Managed Data Lake',
-    desc: 'Fivetran writes every CDC row into the Managed Data Lake on S3 in open Apache Iceberg format. One copy of the data, one source of truth, ACID transactions, multi-engine.',
-    tags: ['Apache Iceberg', 'S3 storage', 'Open table format'],
+    name: 'Databricks (Unity Catalog) — Storage + query engine',
+    desc: 'Fivetran writes every CDC row directly into Unity Catalog as Delta Lake tables. One copy of the data, one source of truth, ACID transactions + time travel. A serverless Databricks SQL warehouse is the primary engine for this demo; Trino and other engines can reach the same tables through Unity Catalog\'s UniForm (Iceberg-compatible) metadata at zero extra storage cost.',
+    tags: ['Delta Lake', 'Unity Catalog', 'ACID + time travel', 'Zero copy'],
   },
   {
     icon: '3',
-    name: 'Databricks (Unity Catalog) — Query engine',
-    desc: 'A serverless Databricks SQL warehouse reads the Iceberg bytes through Unity Catalog and is the primary engine for this demo; Athena and Trino remain available for ad-hoc and regulatory reporting against the same open tables at zero extra storage cost.',
-    tags: ['Databricks', 'Unity Catalog', 'Athena', 'Trino', 'Zero copy'],
-  },
-  {
-    icon: '4',
     name: 'dbt Labs — Transformation (Fivetran-triggered)',
     desc: 'Fivetran Transformations kicks off the dbt job the moment the Epic Clarity sync finishes. Tested SQL builds dim_patients, dim_providers, dim_departments, fct_encounters, fct_diagnoses, fct_account_summary across the bronze → silver → gold layers.',
     tags: ['Fivetran-triggered', 'dbt Labs', 'Dimensional model', 'Tests'],
   },
   {
-    icon: '5',
+    icon: '4',
     name: 'React + Recharts — Public portal',
     desc: 'Static SPA reads daily JSON exports of the marts. No backend required at request time.',
     tags: ['React 19', 'Recharts', 'GitHub Pages'],

@@ -241,13 +241,12 @@ export default function HomePage() {
               no spreadsheet hand-offs.
             </p>
           </div>
-          <ol className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
+          <ol className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { step: '01', name: 'Fivetran CDC', desc: 'Epic Clarity connector mirrors EHR tables from the Clarity reporting database in near real time.' },
-              { step: '02', name: 'Iceberg (MDLS)', desc: 'Fivetran lands every CDC row into the Managed Data Lake on S3 in open Apache Iceberg format — one copy, one source of truth.' },
-              { step: '03', name: 'Databricks (Unity Catalog)', desc: 'Serverless SQL warehouses read the same Iceberg bytes through Unity Catalog — one governed lakehouse, no data duplication, no extracts.' },
-              { step: '04', name: 'dbt Labs transforms', desc: 'Fivetran Transformations triggers the dbt job the moment Epic Clarity finishes syncing. Bronze → Silver → Gold, 21 tested models.' },
-              { step: '05', name: 'React + Recharts', desc: 'Static SPA reads daily JSON exports of the gold marts; no PHI ever touches the browser.' },
+              { step: '02', name: 'Databricks (Unity Catalog)', desc: 'Fivetran lands every CDC row directly into Databricks Unity Catalog as Delta Lake tables — one copy, one source of truth, no intermediary lake. Serverless SQL warehouses do the reading, governed by the same catalog.' },
+              { step: '03', name: 'dbt Labs transforms', desc: 'Fivetran Transformations triggers the dbt job the moment Epic Clarity finishes syncing. Bronze → Silver → Gold, 21 tested models.' },
+              { step: '04', name: 'React + Recharts', desc: 'Static SPA reads daily JSON exports of the gold marts; no PHI ever touches the browser.' },
             ].map((s) => (
               <li key={s.name} className="relative rounded-lg border border-[var(--hairline)] bg-white p-5 hover:border-[var(--clinical-teal)] transition-colors">
                 <div className="text-[10px] font-mono font-semibold text-[var(--clinical-teal)] tracking-wider">{s.step}</div>
@@ -288,7 +287,7 @@ const FLOW = [
   { tag: 'INSPECTION',      title: 'Validate the slice', body: 'Worker runs dbt_show on a 7-day slice. Confirms the compliance signal aggregates cleanly.', who: 'Worker · warehouse, dbt_show', color: '#be185d' },
   { tag: 'MODEL CREATION',  title: 'Author the SQL',     body: 'Worker writes fct_sepsis_bundle_by_service_line_daily.sql — header, CTEs, joins, and final SELECT.', who: 'Worker · file edits, model generation', color: '#be185d' },
   { tag: 'TEST AUTHORING',  title: 'Lock the contract',  body: 'Verification writes YAML — schema contract, ownership, 6 column tests, 1 combination test.', who: 'Verification · describe, dbt_show', color: 'var(--clinical-green)' },
-  { tag: 'MATERIALIZATION', title: 'Land on Iceberg',    body: 'Worker materializes the table. Verification confirms lineage updated and downstream consumers see it.', who: 'Worker + Verification', color: 'var(--clinical-green)' },
+  { tag: 'MATERIALIZATION', title: 'Materialize the table', body: 'Worker materializes the table in Unity Catalog as Delta. Verification confirms lineage updated and downstream consumers see it.', who: 'Worker + Verification', color: 'var(--clinical-green)' },
 ];
 
 function Vital({ label, value, hint }: { label: string; value: string; hint: string }) {

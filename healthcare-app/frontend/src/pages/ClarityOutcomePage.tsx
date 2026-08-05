@@ -177,7 +177,7 @@ export default function ClarityOutcomePage() {
         />
         <LineagePanel
           title="After · the asset"
-          subtitle="Materialized to Iceberg. Downstream consumers attached."
+          subtitle="Materialized to Delta. Downstream consumers attached."
           nodes={o.after.nodes}
           edges={o.after.edges}
           tone="resolved"
@@ -199,7 +199,7 @@ export default function ClarityOutcomePage() {
             {o.materialized_model}
           </div>
           <div className="font-mono text-xs text-[var(--ink-muted)]">
-            {o.row_count.toLocaleString()} rows · Iceberg v2 · Parquet · ZSTD
+            {o.row_count.toLocaleString()} rows · Delta Lake · Parquet · ZSTD
           </div>
         </div>
         <div className="rounded-lg border border-[var(--hairline)] bg-white p-5 shadow-sm"
