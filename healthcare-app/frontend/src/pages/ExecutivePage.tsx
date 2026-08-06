@@ -342,6 +342,15 @@ export default function ExecutivePage() {
             fivetranUrl="https://fivetran.com/dashboard/connections/passivity_threshing/status"
           />
         </div>
+        <div className="mt-3">
+          <ProvenanceStrip
+            freshness="Initial sync in progress"
+            source="Penn Medicine · Qualtrics · 35 tables"
+            rows="jason_chletsos_qualtrics · survey & patient-experience data"
+            ctaTo={() => navigate('/pipeline')}
+            fivetranUrl="https://fivetran.com/dashboard/connections/conversing_format/status"
+          />
+        </div>
 
         {/* Method note — booth visitors will read this */}
         <div className="rounded-md border border-[var(--hairline)] bg-[var(--paper-deep)] p-4 text-[11px] text-[var(--ink-muted)] leading-relaxed">

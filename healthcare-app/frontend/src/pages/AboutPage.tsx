@@ -55,6 +55,15 @@ export default function AboutPage() {
         />
       </div>
 
+      <div className="mb-10">
+        <ProvenanceStrip
+          freshness="Initial sync in progress"
+          source="Penn Medicine · Qualtrics"
+          rows="35 tables · survey & experience"
+          fivetranUrl="https://fivetran.com/dashboard/connections/conversing_format/status"
+        />
+      </div>
+
 
       <section className="mt-10">
         <h2 className="font-serif text-2xl font-semibold text-[var(--ink-strong)] border-b border-[var(--hairline)] pb-2 mb-3">Data sources</h2>
@@ -129,6 +138,11 @@ const DATA_SOURCES = [
     title: 'Fivetran Workday HCM connector',
     description:
       'Replicates workforce, organization, and HR data from Workday HCM into the same Databricks Unity Catalog destination — 73 tables landing as jason_chletsos_pennmed_workday, joinable against the Epic Clarity marts on the same lakehouse with no separate integration.',
+  },
+  {
+    title: 'Fivetran Qualtrics connector',
+    description:
+      'Replicates survey and patient-experience data from Qualtrics into the same Databricks Unity Catalog destination — 35 tables landing as jason_chletsos_qualtrics. Initial sync is still in progress.',
   },
   {
     title: 'Databricks — Unity Catalog (Delta Lake)',

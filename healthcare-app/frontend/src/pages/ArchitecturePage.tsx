@@ -20,7 +20,7 @@ import ProductStageRail from '../components/ProductStageRail';
 const CLARITY_SOURCES: SourceNode[] = [
   { id: 'sql',       label: 'Epic Clarity EHR',  sub: 'Epic Clarity CDC source',   logo: 'epic_clarity', freshness: '47s lag',  status: 'healthy' },
   { id: 'workday',   label: 'Workday HCM',       sub: 'Workforce & HR · 73 tables', logo: 'workday',  freshness: '6 hr sync', status: 'healthy' },
-  { id: 'qualtrics', label: 'Qualtrics',         sub: 'Survey & experience · setup in progress', logo: 'qualtrics', freshness: 'not yet syncing', status: 'caution' },
+  { id: 'qualtrics', label: 'Qualtrics',         sub: 'Survey & experience · 35 tables', logo: 'qualtrics', freshness: 'syncing', status: 'healthy' },
   { id: 'oracle',    label: 'Payor Claims Mart', sub: 'Oracle Binary Log Reader', logo: 'oracle',  freshness: '2 min lag', status: 'healthy' },
   { id: 'hl7',       label: 'HL7 ADT Feed',      sub: 'MLLP event stream',     logo: 'hl7',       freshness: 'live',      status: 'healthy', streaming: true },
   { id: 'cms',       label: 'CMS NPPES',         sub: 'Weekly NPI registry',   logo: 'cms',       freshness: '3d lag',   status: 'healthy' },
@@ -222,6 +222,15 @@ export default function ArchitecturePage() {
           >
             <span className="inline-flex items-center justify-center h-4 w-4 rounded text-[9px] font-bold text-white" style={{ background: '#0073FF' }}>F</span>
             Workday HCM connector
+          </a>
+          <a
+            href="https://fivetran.com/dashboard/connections/conversing_format/status"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2.5 py-1 font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] transition-colors"
+          >
+            <span className="inline-flex items-center justify-center h-4 w-4 rounded text-[9px] font-bold text-white" style={{ background: '#0073FF' }}>F</span>
+            Qualtrics connector
           </a>
           <a
             href="https://fivetran.com/dashboard/transformations"
