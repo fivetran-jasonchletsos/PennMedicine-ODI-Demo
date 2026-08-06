@@ -12,19 +12,16 @@ resource "fivetran_connector" "qualtrics" {
   service  = "qualtrics"
 
   destination_schema {
-    prefix = "jason_chletsos_pennmed_qualtrics"
+    name = "jason_chletsos_pennmed_qualtrics"
   }
 
   config {
     data_center = var.qualtrics_data_center
     auth_type   = "STANDARD"
-  }
-
-  auth {
-    client_access {
-      client_id     = var.qualtrics_client_id
-      client_secret = var.qualtrics_client_secret
-    }
-    refresh_token = var.qualtrics_refresh_token
+    # Using a plain API token (Fivetran's schema still accepts this field,
+    # marked deprecated in favor of OAuth, but functional) rather than the
+    # client_id/client_secret/refresh_token OAuth flow - no OAuth app
+    # registered for this shared dev Qualtrics tenant.
+    api_token = var.qualtrics_api_token
   }
 }

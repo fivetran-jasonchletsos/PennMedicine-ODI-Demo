@@ -13,7 +13,7 @@ resource "fivetran_connector" "workday_hcm" {
   service  = "workday_hcm"
 
   destination_schema {
-    prefix = "jason_chletsos_pennmed_workday"
+    name = "jason_chletsos_pennmed_workday"
   }
 
   config {

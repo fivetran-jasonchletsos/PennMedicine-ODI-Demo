@@ -77,7 +77,14 @@ variable "qualtrics_client_secret" {
 }
 
 variable "qualtrics_refresh_token" {
-  description = "Long-lived OAuth refresh token issued for the Qualtrics OAuth client, obtained via Fivetran's connect-card OAuth flow or the Qualtrics API console"
+  description = "Long-lived OAuth refresh token issued for the Qualtrics OAuth client, obtained via Fivetran's connect-card OAuth flow or the Qualtrics API console (unused if qualtrics_api_token is set instead)"
+  type        = string
+  sensitive   = true
+  default     = ""
+}
+
+variable "qualtrics_api_token" {
+  description = "Qualtrics API token (simpler alternative to OAuth client_id/client_secret/refresh_token; Fivetran's schema marks this deprecated but still functional)"
   type        = string
   sensitive   = true
   default     = ""

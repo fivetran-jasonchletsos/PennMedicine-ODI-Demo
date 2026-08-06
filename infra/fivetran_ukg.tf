@@ -15,7 +15,7 @@ resource "fivetran_connector" "ukg_pro_workforce_management" {
   service  = "ukg_pro_workforce_management"
 
   destination_schema {
-    prefix = "jason_chletsos_pennmed_ukg"
+    name = "jason_chletsos_pennmed_ukg"
   }
 
   config {
