@@ -18,11 +18,12 @@ import { AliveMedallion, type SourceNode, type EngineNode } from '../components/
 import ProductStageRail from '../components/ProductStageRail';
 
 const CLARITY_SOURCES: SourceNode[] = [
-  { id: 'sql',     label: 'Epic Clarity EHR',  sub: 'Epic Clarity CDC source',   logo: 'epic_clarity', freshness: '47s lag',  status: 'healthy' },
-  { id: 'workday', label: 'Workday HCM',       sub: 'Workforce & HR · 73 tables', logo: 'workday',  freshness: '6 hr sync', status: 'healthy' },
-  { id: 'oracle',  label: 'Payor Claims Mart', sub: 'Oracle Binary Log Reader', logo: 'oracle',  freshness: '2 min lag', status: 'healthy' },
-  { id: 'hl7',     label: 'HL7 ADT Feed',      sub: 'MLLP event stream',     logo: 'hl7',       freshness: 'live',      status: 'healthy', streaming: true },
-  { id: 'cms',     label: 'CMS NPPES',         sub: 'Weekly NPI registry',   logo: 'cms',       freshness: '3d lag',   status: 'healthy' },
+  { id: 'sql',       label: 'Epic Clarity EHR',  sub: 'Epic Clarity CDC source',   logo: 'epic_clarity', freshness: '47s lag',  status: 'healthy' },
+  { id: 'workday',   label: 'Workday HCM',       sub: 'Workforce & HR · 73 tables', logo: 'workday',  freshness: '6 hr sync', status: 'healthy' },
+  { id: 'qualtrics', label: 'Qualtrics',         sub: 'Survey & experience · setup in progress', logo: 'qualtrics', freshness: 'not yet syncing', status: 'caution' },
+  { id: 'oracle',    label: 'Payor Claims Mart', sub: 'Oracle Binary Log Reader', logo: 'oracle',  freshness: '2 min lag', status: 'healthy' },
+  { id: 'hl7',       label: 'HL7 ADT Feed',      sub: 'MLLP event stream',     logo: 'hl7',       freshness: 'live',      status: 'healthy', streaming: true },
+  { id: 'cms',       label: 'CMS NPPES',         sub: 'Weekly NPI registry',   logo: 'cms',       freshness: '3d lag',   status: 'healthy' },
 ];
 
 const CLARITY_ENGINES: EngineNode[] = [

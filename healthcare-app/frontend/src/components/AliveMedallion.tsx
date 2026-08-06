@@ -40,7 +40,7 @@ export interface EngineNode {
 
 export type VendorLogo =
   | 'databricks' | 'fivetran' | 'dbt' | 'iceberg' | 'glue'
-  | 'oracle'    | 'sqlserver'| 'epic_clarity' | 'hl7'  | 'cms' | 'workday'
+  | 'oracle'    | 'sqlserver'| 'epic_clarity' | 'hl7'  | 'cms' | 'workday' | 'qualtrics'
   | 'sec'       | 'fred'     | 'cfpb' | 'naic' | 'noaa'
   | 'athena'    | 'duckdb'   | 'trino'| 'spark'
   | 'great_expectations';
@@ -395,6 +395,13 @@ function VendorMark({ kind, size = 20 }: { kind: VendorLogo; size?: number }) {
         <svg {...common}>
           <rect width="24" height="24" rx="5" fill="#0875e1" />
           <text x="12" y="16" textAnchor="middle" fontSize="8" fontWeight="900" fill="#ffffff" fontFamily="Helvetica, Arial, sans-serif">WD</text>
+        </svg>
+      );
+    case 'qualtrics':
+      return (
+        <svg {...common}>
+          <rect width="24" height="24" rx="5" fill="#e01f5c" />
+          <text x="12" y="16" textAnchor="middle" fontSize="7" fontWeight="900" fill="#ffffff" fontFamily="Helvetica, Arial, sans-serif">QUAL</text>
         </svg>
       );
     case 'hl7':
