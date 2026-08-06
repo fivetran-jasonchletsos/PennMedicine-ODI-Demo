@@ -18,10 +18,11 @@ import { AliveMedallion, type SourceNode, type EngineNode } from '../components/
 import ProductStageRail from '../components/ProductStageRail';
 
 const CLARITY_SOURCES: SourceNode[] = [
-  { id: 'sql',    label: 'Epic Clarity EHR',  sub: 'Epic Clarity CDC source',   logo: 'epic_clarity', freshness: '47s lag',  status: 'healthy' },
-  { id: 'oracle', label: 'Payor Claims Mart', sub: 'Oracle Binary Log Reader', logo: 'oracle',  freshness: '2 min lag', status: 'healthy' },
-  { id: 'hl7',    label: 'HL7 ADT Feed',      sub: 'MLLP event stream',     logo: 'hl7',       freshness: 'live',      status: 'healthy', streaming: true },
-  { id: 'cms',    label: 'CMS NPPES',         sub: 'Weekly NPI registry',   logo: 'cms',       freshness: '3d lag',   status: 'healthy' },
+  { id: 'sql',     label: 'Epic Clarity EHR',  sub: 'Epic Clarity CDC source',   logo: 'epic_clarity', freshness: '47s lag',  status: 'healthy' },
+  { id: 'workday', label: 'Workday HCM',       sub: 'Workforce & HR · 73 tables', logo: 'workday',  freshness: '6 hr sync', status: 'healthy' },
+  { id: 'oracle',  label: 'Payor Claims Mart', sub: 'Oracle Binary Log Reader', logo: 'oracle',  freshness: '2 min lag', status: 'healthy' },
+  { id: 'hl7',     label: 'HL7 ADT Feed',      sub: 'MLLP event stream',     logo: 'hl7',       freshness: 'live',      status: 'healthy', streaming: true },
+  { id: 'cms',     label: 'CMS NPPES',         sub: 'Weekly NPI registry',   logo: 'cms',       freshness: '3d lag',   status: 'healthy' },
 ];
 
 const CLARITY_ENGINES: EngineNode[] = [
@@ -59,6 +60,8 @@ const TABLES: IcebergTable[] = [
   { database: 'bronze', table: 'bronze.clarity__hsp_account',      source_system: 'epic_clarity · Clarity EHR', rows: 1_842_200, bytes: 1_120_000_000, schema_columns: 92,  partitions: ['ingest_date'],            last_updated_at: '2026-05-24T07:14:00Z' },
   { database: 'bronze', table: 'bronze.clarity__hsp_transaction',  source_system: 'epic_clarity · Clarity EHR', rows: 18_142_200,bytes: 5_410_000_000, schema_columns: 71,  partitions: ['ingest_date'],            last_updated_at: '2026-05-24T07:14:00Z' },
   { database: 'bronze', table: 'bronze.clarity__medications',      source_system: 'epic_clarity · Clarity EHR', rows: 864_200,   bytes: 462_000_000,   schema_columns: 38,  partitions: ['ingest_date'],            last_updated_at: '2026-05-24T07:14:00Z' },
+  { database: 'bronze', table: 'bronze.workday__worker',           source_system: 'workday_hcm · Workday HCM', rows: 18_240,   bytes: 24_800_000,   schema_columns: 58,  partitions: ['ingest_date'],            last_updated_at: '2026-08-06T11:42:00Z' },
+  { database: 'bronze', table: 'bronze.workday__organization',     source_system: 'workday_hcm · Workday HCM', rows: 640,      bytes: 1_200_000,    schema_columns: 22,  partitions: ['ingest_date'],            last_updated_at: '2026-08-06T11:42:00Z' },
   { database: 'bronze', table: 'bronze.payor__claims',             source_system: 'oracle · Payor Mart',      rows: 2_864_000, bytes: 1_810_000_000, schema_columns: 64,  partitions: ['ingest_date'],            last_updated_at: '2026-05-24T07:11:00Z' },
   { database: 'bronze', table: 'bronze.hl7__adt_events',           source_system: 'http · HL7 v2 feed',       rows: 384_000,   bytes: 142_000_000,   schema_columns: 28,  partitions: ['ingest_date'],            last_updated_at: '2026-05-24T07:12:00Z' },
   { database: 'bronze', table: 'bronze.cms__npi_registry',         source_system: 'http · CMS NPPES',         rows: 12_460,    bytes: 18_400_000,    schema_columns: 32,  partitions: [],                          last_updated_at: '2026-05-23T03:00:00Z' },
@@ -200,6 +203,35 @@ export default function ArchitecturePage() {
           Fivetran moves what's new. Great Expectations decides what passes. dbt decides what
           becomes business-ready.
         </p>
+        <div className="mt-3 flex flex-wrap items-center gap-2 text-[11px]">
+          <a
+            href="https://fivetran.com/dashboard/connections/courteously_ivy/status"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2.5 py-1 font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] transition-colors"
+          >
+            <span className="inline-flex items-center justify-center h-4 w-4 rounded text-[9px] font-bold text-white" style={{ background: '#0073FF' }}>F</span>
+            Epic Clarity connector
+          </a>
+          <a
+            href="https://fivetran.com/dashboard/connections/passivity_threshing/status"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2.5 py-1 font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] transition-colors"
+          >
+            <span className="inline-flex items-center justify-center h-4 w-4 rounded text-[9px] font-bold text-white" style={{ background: '#0073FF' }}>F</span>
+            Workday HCM connector
+          </a>
+          <a
+            href="https://fivetran.com/dashboard/transformations"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 rounded-md border border-[var(--hairline)] bg-white px-2.5 py-1 font-semibold text-[var(--ink-strong)] hover:border-[var(--clinical-teal)] transition-colors"
+          >
+            <span className="inline-flex items-center justify-center h-4 w-4 rounded text-[9px] font-bold text-white" style={{ background: '#0073FF' }}>F</span>
+            Fivetran Transformations job
+          </a>
+        </div>
       </header>
 
       {/* ── Live throughput hero (DE: rows in motion, ticking up) ─────────── */}

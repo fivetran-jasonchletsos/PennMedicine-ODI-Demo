@@ -18,7 +18,7 @@ import { DataFlowDiagram, KpiTile, AnimatedCounter, type FlowNode } from '../com
 // TODO: swap FIVETRAN_CONNECTOR_ID for the real connector ID once infra/fivetran.tf
 // is applied against the Databricks destination (see infra/outputs.tf).
 // Deep-link pattern: https://fivetran.com/dashboard/connections/{id}/status
-const FIVETRAN_CONNECTOR_ID = 'despite_palatine';
+const FIVETRAN_CONNECTOR_ID = 'courteously_ivy';
 const FIVETRAN_SCHEMA_NAME  = 'jason_chletsos_pennmed_ehr_demo';
 const FIVETRAN_CONNECTOR_URL = `https://fivetran.com/dashboard/connections/${FIVETRAN_CONNECTOR_ID}/status`;
 const FIVETRAN_DASHBOARD_URL = 'https://fivetran.com/dashboard/connections';

@@ -331,8 +331,17 @@ export default function ExecutivePage() {
           source="Penn Medicine · Epic Clarity CDC · 8 tables"
           rows="jason_chletsos_epic_clarity · 4 mart schemas · 21 dbt Labs models"
           ctaTo={() => navigate('/pipeline')}
-          fivetranUrl="https://fivetran.com/dashboard/connections/despite_palatine/status"
+          fivetranUrl="https://fivetran.com/dashboard/connections/courteously_ivy/status"
         />
+        <div className="mt-3">
+          <ProvenanceStrip
+            freshness="Historical sync complete"
+            source="Penn Medicine · Workday HCM · 73 tables"
+            rows="jason_chletsos_pennmed_workday · workforce & HR, joinable against the Clarity marts"
+            ctaTo={() => navigate('/pipeline')}
+            fivetranUrl="https://fivetran.com/dashboard/connections/passivity_threshing/status"
+          />
+        </div>
 
         {/* Method note — booth visitors will read this */}
         <div className="rounded-md border border-[var(--hairline)] bg-[var(--paper-deep)] p-4 text-[11px] text-[var(--ink-muted)] leading-relaxed">

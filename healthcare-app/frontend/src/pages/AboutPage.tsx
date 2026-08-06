@@ -37,14 +37,24 @@ export default function AboutPage() {
         </div>
       </div>
 
-      <div className="mb-10">
+      <div className="mb-4">
         <ProvenanceStrip
           freshness="4.2 min ago"
           source="Penn Medicine · Epic Clarity CDC"
           rows="2.4M rows · 8 tables"
-          fivetranUrl="https://fivetran.com/dashboard/connections/despite_palatine/status"
+          fivetranUrl="https://fivetran.com/dashboard/connections/courteously_ivy/status"
         />
       </div>
+
+      <div className="mb-4">
+        <ProvenanceStrip
+          freshness="Historical sync complete"
+          source="Penn Medicine · Workday HCM"
+          rows="73 tables · workforce & HR"
+          fivetranUrl="https://fivetran.com/dashboard/connections/passivity_threshing/status"
+        />
+      </div>
+
 
       <section className="mt-10">
         <h2 className="font-serif text-2xl font-semibold text-[var(--ink-strong)] border-b border-[var(--hairline)] pb-2 mb-3">Data sources</h2>
@@ -114,6 +124,11 @@ const DATA_SOURCES = [
     title: 'Fivetran Epic Clarity connector',
     description:
       'Mirrors every change in the Epic Clarity source (inserts, updates, deletes) directly into Databricks Unity Catalog as Delta Lake tables via log-based CDC, on a configurable schedule — schema drift from an Epic upgrade lands automatically instead of breaking a hand-built pipeline. Schema name lands as jason_chletsos_pennmed_ehr_demo.',
+  },
+  {
+    title: 'Fivetran Workday HCM connector',
+    description:
+      'Replicates workforce, organization, and HR data from Workday HCM into the same Databricks Unity Catalog destination — 73 tables landing as jason_chletsos_pennmed_workday, joinable against the Epic Clarity marts on the same lakehouse with no separate integration.',
   },
   {
     title: 'Databricks — Unity Catalog (Delta Lake)',
